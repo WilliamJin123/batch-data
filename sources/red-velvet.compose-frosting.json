@@ -1,0 +1,38 @@
+{
+  "convertRecipe": "Red Velvet Protein Cookies",
+  "composeSubRecipeRef": "Protein Cream-Cheese Frosting",
+  "note": "In-place M3 extraction: replace Red Velvet's 5 inline frosting components with a single sub_recipe pin. Applied as an override chain on the existing ROOT (stays a root). The sub_recipe slot's subRecipeVersionId is resolved from composeSubRecipeRef's head at apply time (see subRecipeRef placeholder), so this manifest survives a fresh reseed. Macro invariant: Red Velvet total stays 897.3x (179.4x/serving) — extraction is macro-neutral up to child-snapshot rounding.",
+  "overrides": [
+    { "op": "remove", "kind": "usage", "target": "u-f-yogurt" },
+    { "op": "remove", "kind": "usage", "target": "u-f-cream-cheese" },
+    { "op": "remove", "kind": "usage", "target": "u-f-protein" },
+    { "op": "remove", "kind": "usage", "target": "u-f-splenda" },
+    { "op": "remove", "kind": "usage", "target": "u-f-pudding" },
+    { "op": "remove", "kind": "slot", "target": "sl-frost-yogurt" },
+    { "op": "remove", "kind": "slot", "target": "sl-frost-cream-cheese" },
+    { "op": "remove", "kind": "slot", "target": "sl-frost-protein" },
+    { "op": "remove", "kind": "slot", "target": "sl-frost-splenda" },
+    { "op": "remove", "kind": "slot", "target": "sl-frost-pudding" },
+    {
+      "op": "replace", "kind": "step", "target": "f1",
+      "payload": {
+        "componentKey": "f1", "order": 7, "section": "Frosting",
+        "instructionText": "Frost the cooled cookies with the protein cream-cheese frosting (see sub-recipe)."
+      }
+    },
+    {
+      "op": "add", "kind": "slot",
+      "payload": {
+        "componentKey": "sl-frosting", "name": "protein cream-cheese frosting",
+        "resolution": { "kind": "sub_recipe", "subRecipeRef": "Protein Cream-Cheese Frosting" }
+      }
+    },
+    {
+      "op": "add", "kind": "usage",
+      "payload": {
+        "componentKey": "u-frosting", "stepKey": "f1", "slotKey": "sl-frosting",
+        "quantityValue": 1, "quantityUnit": "batch"
+      }
+    }
+  ]
+}

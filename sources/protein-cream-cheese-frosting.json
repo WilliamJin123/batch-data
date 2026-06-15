@@ -1,0 +1,29 @@
+{
+  "name": "Protein Cream-Cheese Frosting",
+  "description": "Protein cream-cheese frosting — extracted from Red Velvet Protein Cookies as an M3 sub-recipe. Makes 1 batch (enough to frost one 5-cookie set). Its own base→variant root: Cool-Whip and other frostings derive from this.",
+  "tags": ["frosting", "protein", "cream-cheese", "crumbl", "sub-recipe"],
+  "yield": { "amount": 1, "unit": "batch" },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "f-beat",
+        "order": 1,
+        "instructionText": "Beat the yogurt, cream cheese, protein, and Splenda smooth. Add the pudding mix to thicken, or chill 20-30 min before using."
+      }
+    ],
+    "slots": [
+      { "componentKey": "sl-yogurt", "name": "0% Greek yogurt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-greek-yogurt-nonfat" } },
+      { "componentKey": "sl-cream-cheese", "name": "low-fat cream cheese", "resolution": { "kind": "raw", "libraryIngredientId": "ing-cream-cheese-light" } },
+      { "componentKey": "sl-protein", "name": "vanilla protein powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-protein-vanilla" } },
+      { "componentKey": "sl-splenda", "name": "granulated Splenda", "resolution": { "kind": "raw", "libraryIngredientId": "ing-splenda-granulated" } },
+      { "componentKey": "sl-pudding", "name": "SF instant pudding mix", "resolution": { "kind": "raw", "libraryIngredientId": "ing-pudding-vanilla-sf" } }
+    ],
+    "usages": [
+      { "componentKey": "u-yogurt", "stepKey": "f-beat", "slotKey": "sl-yogurt", "quantityValue": 0.75, "quantityUnit": "cup" },
+      { "componentKey": "u-cream-cheese", "stepKey": "f-beat", "slotKey": "sl-cream-cheese", "quantityValue": 0.25, "quantityUnit": "cup" },
+      { "componentKey": "u-protein", "stepKey": "f-beat", "slotKey": "sl-protein", "quantityValue": 0.5, "quantityUnit": "scoop" },
+      { "componentKey": "u-splenda", "stepKey": "f-beat", "slotKey": "sl-splenda", "quantityValue": 0.25, "quantityUnit": "cup" },
+      { "componentKey": "u-pudding", "stepKey": "f-beat", "slotKey": "sl-pudding", "quantityValue": 1, "quantityUnit": "tbsp" }
+    ]
+  }
+}
