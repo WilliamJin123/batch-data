@@ -53,6 +53,18 @@
       "createdBy": "user",
       "createdAt": "2026-06-15T04:18:28.032Z",
       "headVersionId": "94a739af-1fbd-424d-8606-5389c581ecf5"
+    },
+    "4bf96569-0eb3-4ca1-a1d9-608629f26112": {
+      "id": "4bf96569-0eb3-4ca1-a1d9-608629f26112",
+      "createdBy": "user",
+      "createdAt": "2026-06-15T04:20:20.913Z",
+      "headVersionId": "06c406cb-a05e-4fa4-8582-088317348722"
+    },
+    "c36a5854-e9b1-4daa-989f-ffb67e27258a": {
+      "id": "c36a5854-e9b1-4daa-989f-ffb67e27258a",
+      "createdBy": "user",
+      "createdAt": "2026-06-15T04:20:21.430Z",
+      "headVersionId": "9343cf14-69fd-4cfa-b811-da1a532d7695"
     }
   },
   "versions": {
@@ -26043,6 +26055,2776 @@
       "createdAt": "2026-06-15T04:18:28.729Z",
       "prevVersionId": "9ea7a41f-0d5d-4ef5-91a8-c0b66dd3d548",
       "description": "VERSION B - Even & Soft-Chewy: soft and chewy edge to edge, the same texture throughout with no raw-dough center. A pure-procedure variant of the gooey base - identical dough, ingredients, and macros; only the bake (steps 4-6) differs. Flattening the cookie and lowering the oven temp both shrink the edge-vs-center cook gap, so the whole cookie finishes together. Spreads a little more, no molten center."
+    },
+    "90a63464-71f8-4fa2-86b5-7fa0c247455b": {
+      "id": "90a63464-71f8-4fa2-86b5-7fa0c247455b",
+      "recipeId": "4bf96569-0eb3-4ca1-a1d9-608629f26112",
+      "derivesFromVersionId": "c412b1ca-5d17-43bb-8027-56179b41ec88",
+      "name": "Browned-Butter Protein Cookies (50g protein)",
+      "tags": [],
+      "yield": {
+        "amount": 3,
+        "unit": "cookies"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "ablation: try 50g protein powder",
+      "overrideSet": {
+        "entries": [],
+        "name": "Browned-Butter Protein Cookies (50g protein)"
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "section": "Dough",
+            "instructionText": "Brown the butter: melt it in a pan over medium heat, swirling, until golden and nutty-smelling (3-4 min). Pour into a mixing bowl and let cool a couple minutes so it won't cook the egg."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "section": "Dough",
+            "instructionText": "Mix wet: whisk in the brown sugar, Splenda, whole egg, egg white, and vanilla until smooth and glossy. Don't whip air in - just combine."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "section": "Dough",
+            "instructionText": "Add dry: stir in the whey, flour, pudding mix, baking soda, and salt until a thick, scoopable dough forms, then fold in the chocolate chips. It should hold its shape, not pour. Too stiff/dry -> a splash of milk; too loose -> a bit more flour. Taste for sweetness."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "section": "Bake - Thick & Gooey",
+            "instructionText": "Chill the dough 30 minutes."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "section": "Bake - Thick & Gooey",
+            "instructionText": "Shape into 3 tall mounds - do NOT flatten."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "section": "Bake - Thick & Gooey",
+            "temperature": 350,
+            "instructionText": "Bake at 350F / 175C for 9-11 minutes. Pull when the edges are set but the center still looks slightly underdone/soft. Stays pale - don't wait for golden tops."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "section": "Finish",
+            "instructionText": "Rest: leave the cookies on the hot tray 10-15 min after baking - they finish cooking from residual heat and firm up from floppy to chewy as they cool. Don't judge texture until fully cooled."
+          },
+          {
+            "componentKey": "s8",
+            "order": 8,
+            "section": "Finish",
+            "instructionText": "Fridge (optional): for a firmer, denser, chewier bite, refrigerate the cooled cookies 20-30 min or longer. Protein cookies tighten up when cold. Store leftovers in the fridge."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-butter",
+            "name": "butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-brown-sugar",
+            "name": "brown sugar",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-whey",
+            "name": "vanilla whey protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "SF instant pudding mix (vanilla)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-baking-soda",
+            "name": "baking soda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-baking-soda"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-choc-chips",
+            "name": "semi-sweet chocolate chips",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-chocolate-chips-semisweet"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-butter",
+            "stepKey": "s1",
+            "slotKey": "sl-butter",
+            "quantityValue": 15,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-brown-sugar",
+            "stepKey": "s2",
+            "slotKey": "sl-brown-sugar",
+            "quantityValue": 28,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "s2",
+            "slotKey": "sl-splenda",
+            "quantityValue": 3,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s2",
+            "slotKey": "sl-egg",
+            "quantityValue": 50,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s2",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 33,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s2",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-whey",
+            "stepKey": "s3",
+            "slotKey": "sl-whey",
+            "quantityValue": 40,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 32,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 6,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-baking-soda",
+            "stepKey": "s3",
+            "slotKey": "sl-baking-soda",
+            "quantityValue": 0.4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "s3",
+            "slotKey": "sl-salt",
+            "quantityValue": 0.4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-choc-chips",
+            "stepKey": "s3",
+            "slotKey": "sl-choc-chips",
+            "quantityValue": 10,
+            "quantityUnit": "g"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 662.95,
+          "protein": 47.92,
+          "carbs": 67.17,
+          "fat": 21.61,
+          "fiber": 2.95
+        },
+        "perServing": {
+          "calories": 220.98,
+          "protein": 15.97,
+          "carbs": 22.39,
+          "fat": 7.2,
+          "fiber": 0.98
+        },
+        "yield": {
+          "amount": 3,
+          "unit": "cookies"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 15,
+            "macros": {
+              "calories": 107.55,
+              "protein": 0.13,
+              "carbs": 0.01,
+              "fat": 12.15,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brown-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 28,
+            "macros": {
+              "calories": 106.4,
+              "protein": 0,
+              "carbs": 27.44,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 3,
+            "macros": {
+              "calories": 12,
+              "protein": 0,
+              "carbs": 3,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 33,
+            "macros": {
+              "calories": 17.16,
+              "protein": 3.63,
+              "carbs": 0.23,
+              "fat": 0.07,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4,
+            "macros": {
+              "calories": 11.52,
+              "protein": 0,
+              "carbs": 0.51,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-whey",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 40,
+            "macros": {
+              "calories": 162.42,
+              "protein": 34,
+              "carbs": 2.4,
+              "fat": 1.2,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 32,
+            "macros": {
+              "calories": 116.48,
+              "protein": 3.2,
+              "carbs": 24.32,
+              "fat": 0.32,
+              "fiber": 0.86
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 6,
+            "macros": {
+              "calories": 10.02,
+              "protein": 0.24,
+              "carbs": 2.52,
+              "fat": 0.12,
+              "fiber": 1.5
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-baking-soda",
+            "ingredientId": "ing-baking-soda",
+            "ingredientName": "baking soda",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-choc-chips",
+            "ingredientId": "ing-chocolate-chips-semisweet",
+            "ingredientName": "semi-sweet chocolate chips",
+            "grams": 10,
+            "macros": {
+              "calories": 47.9,
+              "protein": 0.42,
+              "carbs": 6.39,
+              "fat": 3,
+              "fiber": 0.59
+            },
+            "status": "ok"
+          }
+        ]
+      },
+      "createdAt": "2026-06-15T04:20:20.913Z"
+    },
+    "d7faa35b-c870-4bc0-8d49-41ddf5acad77": {
+      "id": "d7faa35b-c870-4bc0-8d49-41ddf5acad77",
+      "recipeId": "4bf96569-0eb3-4ca1-a1d9-608629f26112",
+      "derivesFromVersionId": "c412b1ca-5d17-43bb-8027-56179b41ec88",
+      "name": "Browned-Butter Protein Cookies (50g protein)",
+      "tags": [],
+      "yield": {
+        "amount": 3,
+        "unit": "cookies"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "bump whey to 50g",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-whey",
+            "payload": {
+              "componentKey": "u-whey",
+              "stepKey": "s3",
+              "slotKey": "sl-whey",
+              "quantityValue": 50,
+              "quantityUnit": "g"
+            }
+          }
+        ],
+        "name": "Browned-Butter Protein Cookies (50g protein)"
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "section": "Dough",
+            "instructionText": "Brown the butter: melt it in a pan over medium heat, swirling, until golden and nutty-smelling (3-4 min). Pour into a mixing bowl and let cool a couple minutes so it won't cook the egg."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "section": "Dough",
+            "instructionText": "Mix wet: whisk in the brown sugar, Splenda, whole egg, egg white, and vanilla until smooth and glossy. Don't whip air in - just combine."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "section": "Dough",
+            "instructionText": "Add dry: stir in the whey, flour, pudding mix, baking soda, and salt until a thick, scoopable dough forms, then fold in the chocolate chips. It should hold its shape, not pour. Too stiff/dry -> a splash of milk; too loose -> a bit more flour. Taste for sweetness."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "section": "Bake - Thick & Gooey",
+            "instructionText": "Chill the dough 30 minutes."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "section": "Bake - Thick & Gooey",
+            "instructionText": "Shape into 3 tall mounds - do NOT flatten."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "section": "Bake - Thick & Gooey",
+            "temperature": 350,
+            "instructionText": "Bake at 350F / 175C for 9-11 minutes. Pull when the edges are set but the center still looks slightly underdone/soft. Stays pale - don't wait for golden tops."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "section": "Finish",
+            "instructionText": "Rest: leave the cookies on the hot tray 10-15 min after baking - they finish cooking from residual heat and firm up from floppy to chewy as they cool. Don't judge texture until fully cooled."
+          },
+          {
+            "componentKey": "s8",
+            "order": 8,
+            "section": "Finish",
+            "instructionText": "Fridge (optional): for a firmer, denser, chewier bite, refrigerate the cooled cookies 20-30 min or longer. Protein cookies tighten up when cold. Store leftovers in the fridge."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-butter",
+            "name": "butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-brown-sugar",
+            "name": "brown sugar",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-whey",
+            "name": "vanilla whey protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "SF instant pudding mix (vanilla)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-baking-soda",
+            "name": "baking soda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-baking-soda"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-choc-chips",
+            "name": "semi-sweet chocolate chips",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-chocolate-chips-semisweet"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-butter",
+            "stepKey": "s1",
+            "slotKey": "sl-butter",
+            "quantityValue": 15,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-brown-sugar",
+            "stepKey": "s2",
+            "slotKey": "sl-brown-sugar",
+            "quantityValue": 28,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "s2",
+            "slotKey": "sl-splenda",
+            "quantityValue": 3,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s2",
+            "slotKey": "sl-egg",
+            "quantityValue": 50,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s2",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 33,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s2",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-whey",
+            "stepKey": "s3",
+            "slotKey": "sl-whey",
+            "quantityValue": 50,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 32,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 6,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-baking-soda",
+            "stepKey": "s3",
+            "slotKey": "sl-baking-soda",
+            "quantityValue": 0.4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "s3",
+            "slotKey": "sl-salt",
+            "quantityValue": 0.4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-choc-chips",
+            "stepKey": "s3",
+            "slotKey": "sl-choc-chips",
+            "quantityValue": 10,
+            "quantityUnit": "g"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 703.56,
+          "protein": 56.42,
+          "carbs": 67.77,
+          "fat": 21.91,
+          "fiber": 2.95
+        },
+        "perServing": {
+          "calories": 234.52,
+          "protein": 18.81,
+          "carbs": 22.59,
+          "fat": 7.3,
+          "fiber": 0.98
+        },
+        "yield": {
+          "amount": 3,
+          "unit": "cookies"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 15,
+            "macros": {
+              "calories": 107.55,
+              "protein": 0.13,
+              "carbs": 0.01,
+              "fat": 12.15,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brown-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 28,
+            "macros": {
+              "calories": 106.4,
+              "protein": 0,
+              "carbs": 27.44,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 3,
+            "macros": {
+              "calories": 12,
+              "protein": 0,
+              "carbs": 3,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 33,
+            "macros": {
+              "calories": 17.16,
+              "protein": 3.63,
+              "carbs": 0.23,
+              "fat": 0.07,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4,
+            "macros": {
+              "calories": 11.52,
+              "protein": 0,
+              "carbs": 0.51,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-whey",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 50,
+            "macros": {
+              "calories": 203.03,
+              "protein": 42.5,
+              "carbs": 3,
+              "fat": 1.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 32,
+            "macros": {
+              "calories": 116.48,
+              "protein": 3.2,
+              "carbs": 24.32,
+              "fat": 0.32,
+              "fiber": 0.86
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 6,
+            "macros": {
+              "calories": 10.02,
+              "protein": 0.24,
+              "carbs": 2.52,
+              "fat": 0.12,
+              "fiber": 1.5
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-baking-soda",
+            "ingredientId": "ing-baking-soda",
+            "ingredientName": "baking soda",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-choc-chips",
+            "ingredientId": "ing-chocolate-chips-semisweet",
+            "ingredientName": "semi-sweet chocolate chips",
+            "grams": 10,
+            "macros": {
+              "calories": 47.9,
+              "protein": 0.42,
+              "carbs": 6.39,
+              "fat": 3,
+              "fiber": 0.59
+            },
+            "status": "ok"
+          }
+        ]
+      },
+      "createdAt": "2026-06-15T04:20:21.085Z",
+      "prevVersionId": "90a63464-71f8-4fa2-86b5-7fa0c247455b"
+    },
+    "06c406cb-a05e-4fa4-8582-088317348722": {
+      "id": "06c406cb-a05e-4fa4-8582-088317348722",
+      "recipeId": "4bf96569-0eb3-4ca1-a1d9-608629f26112",
+      "derivesFromVersionId": "c412b1ca-5d17-43bb-8027-56179b41ec88",
+      "name": "Browned-Butter Protein Cookies (50g protein)",
+      "tags": [
+        "cookie",
+        "protein",
+        "browned-butter",
+        "ablation",
+        "protein-sweep"
+      ],
+      "yield": {
+        "amount": 3,
+        "unit": "cookies"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "tag as queued ablation",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-whey",
+            "payload": {
+              "componentKey": "u-whey",
+              "stepKey": "s3",
+              "slotKey": "sl-whey",
+              "quantityValue": 50,
+              "quantityUnit": "g"
+            }
+          }
+        ],
+        "name": "Browned-Butter Protein Cookies (50g protein)",
+        "tags": [
+          "cookie",
+          "protein",
+          "browned-butter",
+          "ablation",
+          "protein-sweep"
+        ]
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "section": "Dough",
+            "instructionText": "Brown the butter: melt it in a pan over medium heat, swirling, until golden and nutty-smelling (3-4 min). Pour into a mixing bowl and let cool a couple minutes so it won't cook the egg."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "section": "Dough",
+            "instructionText": "Mix wet: whisk in the brown sugar, Splenda, whole egg, egg white, and vanilla until smooth and glossy. Don't whip air in - just combine."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "section": "Dough",
+            "instructionText": "Add dry: stir in the whey, flour, pudding mix, baking soda, and salt until a thick, scoopable dough forms, then fold in the chocolate chips. It should hold its shape, not pour. Too stiff/dry -> a splash of milk; too loose -> a bit more flour. Taste for sweetness."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "section": "Bake - Thick & Gooey",
+            "instructionText": "Chill the dough 30 minutes."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "section": "Bake - Thick & Gooey",
+            "instructionText": "Shape into 3 tall mounds - do NOT flatten."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "section": "Bake - Thick & Gooey",
+            "temperature": 350,
+            "instructionText": "Bake at 350F / 175C for 9-11 minutes. Pull when the edges are set but the center still looks slightly underdone/soft. Stays pale - don't wait for golden tops."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "section": "Finish",
+            "instructionText": "Rest: leave the cookies on the hot tray 10-15 min after baking - they finish cooking from residual heat and firm up from floppy to chewy as they cool. Don't judge texture until fully cooled."
+          },
+          {
+            "componentKey": "s8",
+            "order": 8,
+            "section": "Finish",
+            "instructionText": "Fridge (optional): for a firmer, denser, chewier bite, refrigerate the cooled cookies 20-30 min or longer. Protein cookies tighten up when cold. Store leftovers in the fridge."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-butter",
+            "name": "butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-brown-sugar",
+            "name": "brown sugar",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-whey",
+            "name": "vanilla whey protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "SF instant pudding mix (vanilla)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-baking-soda",
+            "name": "baking soda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-baking-soda"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-choc-chips",
+            "name": "semi-sweet chocolate chips",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-chocolate-chips-semisweet"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-butter",
+            "stepKey": "s1",
+            "slotKey": "sl-butter",
+            "quantityValue": 15,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-brown-sugar",
+            "stepKey": "s2",
+            "slotKey": "sl-brown-sugar",
+            "quantityValue": 28,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "s2",
+            "slotKey": "sl-splenda",
+            "quantityValue": 3,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s2",
+            "slotKey": "sl-egg",
+            "quantityValue": 50,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s2",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 33,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s2",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-whey",
+            "stepKey": "s3",
+            "slotKey": "sl-whey",
+            "quantityValue": 50,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 32,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 6,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-baking-soda",
+            "stepKey": "s3",
+            "slotKey": "sl-baking-soda",
+            "quantityValue": 0.4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "s3",
+            "slotKey": "sl-salt",
+            "quantityValue": 0.4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-choc-chips",
+            "stepKey": "s3",
+            "slotKey": "sl-choc-chips",
+            "quantityValue": 10,
+            "quantityUnit": "g"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 703.56,
+          "protein": 56.42,
+          "carbs": 67.77,
+          "fat": 21.91,
+          "fiber": 2.95
+        },
+        "perServing": {
+          "calories": 234.52,
+          "protein": 18.81,
+          "carbs": 22.59,
+          "fat": 7.3,
+          "fiber": 0.98
+        },
+        "yield": {
+          "amount": 3,
+          "unit": "cookies"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 15,
+            "macros": {
+              "calories": 107.55,
+              "protein": 0.13,
+              "carbs": 0.01,
+              "fat": 12.15,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brown-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 28,
+            "macros": {
+              "calories": 106.4,
+              "protein": 0,
+              "carbs": 27.44,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 3,
+            "macros": {
+              "calories": 12,
+              "protein": 0,
+              "carbs": 3,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 33,
+            "macros": {
+              "calories": 17.16,
+              "protein": 3.63,
+              "carbs": 0.23,
+              "fat": 0.07,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4,
+            "macros": {
+              "calories": 11.52,
+              "protein": 0,
+              "carbs": 0.51,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-whey",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 50,
+            "macros": {
+              "calories": 203.03,
+              "protein": 42.5,
+              "carbs": 3,
+              "fat": 1.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 32,
+            "macros": {
+              "calories": 116.48,
+              "protein": 3.2,
+              "carbs": 24.32,
+              "fat": 0.32,
+              "fiber": 0.86
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 6,
+            "macros": {
+              "calories": 10.02,
+              "protein": 0.24,
+              "carbs": 2.52,
+              "fat": 0.12,
+              "fiber": 1.5
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-baking-soda",
+            "ingredientId": "ing-baking-soda",
+            "ingredientName": "baking soda",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-choc-chips",
+            "ingredientId": "ing-chocolate-chips-semisweet",
+            "ingredientName": "semi-sweet chocolate chips",
+            "grams": 10,
+            "macros": {
+              "calories": 47.9,
+              "protein": 0.42,
+              "carbs": 6.39,
+              "fat": 3,
+              "fiber": 0.59
+            },
+            "status": "ok"
+          }
+        ]
+      },
+      "createdAt": "2026-06-15T04:20:21.261Z",
+      "prevVersionId": "d7faa35b-c870-4bc0-8d49-41ddf5acad77"
+    },
+    "be80fd82-15bb-451d-b840-6117105e4403": {
+      "id": "be80fd82-15bb-451d-b840-6117105e4403",
+      "recipeId": "c36a5854-e9b1-4daa-989f-ffb67e27258a",
+      "derivesFromVersionId": "c412b1ca-5d17-43bb-8027-56179b41ec88",
+      "name": "Browned-Butter Protein Cookies (60g protein)",
+      "tags": [],
+      "yield": {
+        "amount": 3,
+        "unit": "cookies"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "ablation: try 60g protein powder",
+      "overrideSet": {
+        "entries": [],
+        "name": "Browned-Butter Protein Cookies (60g protein)"
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "section": "Dough",
+            "instructionText": "Brown the butter: melt it in a pan over medium heat, swirling, until golden and nutty-smelling (3-4 min). Pour into a mixing bowl and let cool a couple minutes so it won't cook the egg."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "section": "Dough",
+            "instructionText": "Mix wet: whisk in the brown sugar, Splenda, whole egg, egg white, and vanilla until smooth and glossy. Don't whip air in - just combine."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "section": "Dough",
+            "instructionText": "Add dry: stir in the whey, flour, pudding mix, baking soda, and salt until a thick, scoopable dough forms, then fold in the chocolate chips. It should hold its shape, not pour. Too stiff/dry -> a splash of milk; too loose -> a bit more flour. Taste for sweetness."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "section": "Bake - Thick & Gooey",
+            "instructionText": "Chill the dough 30 minutes."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "section": "Bake - Thick & Gooey",
+            "instructionText": "Shape into 3 tall mounds - do NOT flatten."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "section": "Bake - Thick & Gooey",
+            "temperature": 350,
+            "instructionText": "Bake at 350F / 175C for 9-11 minutes. Pull when the edges are set but the center still looks slightly underdone/soft. Stays pale - don't wait for golden tops."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "section": "Finish",
+            "instructionText": "Rest: leave the cookies on the hot tray 10-15 min after baking - they finish cooking from residual heat and firm up from floppy to chewy as they cool. Don't judge texture until fully cooled."
+          },
+          {
+            "componentKey": "s8",
+            "order": 8,
+            "section": "Finish",
+            "instructionText": "Fridge (optional): for a firmer, denser, chewier bite, refrigerate the cooled cookies 20-30 min or longer. Protein cookies tighten up when cold. Store leftovers in the fridge."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-butter",
+            "name": "butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-brown-sugar",
+            "name": "brown sugar",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-whey",
+            "name": "vanilla whey protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "SF instant pudding mix (vanilla)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-baking-soda",
+            "name": "baking soda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-baking-soda"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-choc-chips",
+            "name": "semi-sweet chocolate chips",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-chocolate-chips-semisweet"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-butter",
+            "stepKey": "s1",
+            "slotKey": "sl-butter",
+            "quantityValue": 15,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-brown-sugar",
+            "stepKey": "s2",
+            "slotKey": "sl-brown-sugar",
+            "quantityValue": 28,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "s2",
+            "slotKey": "sl-splenda",
+            "quantityValue": 3,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s2",
+            "slotKey": "sl-egg",
+            "quantityValue": 50,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s2",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 33,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s2",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-whey",
+            "stepKey": "s3",
+            "slotKey": "sl-whey",
+            "quantityValue": 40,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 32,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 6,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-baking-soda",
+            "stepKey": "s3",
+            "slotKey": "sl-baking-soda",
+            "quantityValue": 0.4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "s3",
+            "slotKey": "sl-salt",
+            "quantityValue": 0.4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-choc-chips",
+            "stepKey": "s3",
+            "slotKey": "sl-choc-chips",
+            "quantityValue": 10,
+            "quantityUnit": "g"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 662.95,
+          "protein": 47.92,
+          "carbs": 67.17,
+          "fat": 21.61,
+          "fiber": 2.95
+        },
+        "perServing": {
+          "calories": 220.98,
+          "protein": 15.97,
+          "carbs": 22.39,
+          "fat": 7.2,
+          "fiber": 0.98
+        },
+        "yield": {
+          "amount": 3,
+          "unit": "cookies"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 15,
+            "macros": {
+              "calories": 107.55,
+              "protein": 0.13,
+              "carbs": 0.01,
+              "fat": 12.15,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brown-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 28,
+            "macros": {
+              "calories": 106.4,
+              "protein": 0,
+              "carbs": 27.44,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 3,
+            "macros": {
+              "calories": 12,
+              "protein": 0,
+              "carbs": 3,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 33,
+            "macros": {
+              "calories": 17.16,
+              "protein": 3.63,
+              "carbs": 0.23,
+              "fat": 0.07,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4,
+            "macros": {
+              "calories": 11.52,
+              "protein": 0,
+              "carbs": 0.51,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-whey",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 40,
+            "macros": {
+              "calories": 162.42,
+              "protein": 34,
+              "carbs": 2.4,
+              "fat": 1.2,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 32,
+            "macros": {
+              "calories": 116.48,
+              "protein": 3.2,
+              "carbs": 24.32,
+              "fat": 0.32,
+              "fiber": 0.86
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 6,
+            "macros": {
+              "calories": 10.02,
+              "protein": 0.24,
+              "carbs": 2.52,
+              "fat": 0.12,
+              "fiber": 1.5
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-baking-soda",
+            "ingredientId": "ing-baking-soda",
+            "ingredientName": "baking soda",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-choc-chips",
+            "ingredientId": "ing-chocolate-chips-semisweet",
+            "ingredientName": "semi-sweet chocolate chips",
+            "grams": 10,
+            "macros": {
+              "calories": 47.9,
+              "protein": 0.42,
+              "carbs": 6.39,
+              "fat": 3,
+              "fiber": 0.59
+            },
+            "status": "ok"
+          }
+        ]
+      },
+      "createdAt": "2026-06-15T04:20:21.430Z"
+    },
+    "7bcc1cd4-9d97-4496-bf3e-4c534165e6f4": {
+      "id": "7bcc1cd4-9d97-4496-bf3e-4c534165e6f4",
+      "recipeId": "c36a5854-e9b1-4daa-989f-ffb67e27258a",
+      "derivesFromVersionId": "c412b1ca-5d17-43bb-8027-56179b41ec88",
+      "name": "Browned-Butter Protein Cookies (60g protein)",
+      "tags": [],
+      "yield": {
+        "amount": 3,
+        "unit": "cookies"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "bump whey to 60g",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-whey",
+            "payload": {
+              "componentKey": "u-whey",
+              "stepKey": "s3",
+              "slotKey": "sl-whey",
+              "quantityValue": 60,
+              "quantityUnit": "g"
+            }
+          }
+        ],
+        "name": "Browned-Butter Protein Cookies (60g protein)"
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "section": "Dough",
+            "instructionText": "Brown the butter: melt it in a pan over medium heat, swirling, until golden and nutty-smelling (3-4 min). Pour into a mixing bowl and let cool a couple minutes so it won't cook the egg."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "section": "Dough",
+            "instructionText": "Mix wet: whisk in the brown sugar, Splenda, whole egg, egg white, and vanilla until smooth and glossy. Don't whip air in - just combine."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "section": "Dough",
+            "instructionText": "Add dry: stir in the whey, flour, pudding mix, baking soda, and salt until a thick, scoopable dough forms, then fold in the chocolate chips. It should hold its shape, not pour. Too stiff/dry -> a splash of milk; too loose -> a bit more flour. Taste for sweetness."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "section": "Bake - Thick & Gooey",
+            "instructionText": "Chill the dough 30 minutes."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "section": "Bake - Thick & Gooey",
+            "instructionText": "Shape into 3 tall mounds - do NOT flatten."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "section": "Bake - Thick & Gooey",
+            "temperature": 350,
+            "instructionText": "Bake at 350F / 175C for 9-11 minutes. Pull when the edges are set but the center still looks slightly underdone/soft. Stays pale - don't wait for golden tops."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "section": "Finish",
+            "instructionText": "Rest: leave the cookies on the hot tray 10-15 min after baking - they finish cooking from residual heat and firm up from floppy to chewy as they cool. Don't judge texture until fully cooled."
+          },
+          {
+            "componentKey": "s8",
+            "order": 8,
+            "section": "Finish",
+            "instructionText": "Fridge (optional): for a firmer, denser, chewier bite, refrigerate the cooled cookies 20-30 min or longer. Protein cookies tighten up when cold. Store leftovers in the fridge."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-butter",
+            "name": "butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-brown-sugar",
+            "name": "brown sugar",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-whey",
+            "name": "vanilla whey protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "SF instant pudding mix (vanilla)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-baking-soda",
+            "name": "baking soda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-baking-soda"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-choc-chips",
+            "name": "semi-sweet chocolate chips",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-chocolate-chips-semisweet"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-butter",
+            "stepKey": "s1",
+            "slotKey": "sl-butter",
+            "quantityValue": 15,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-brown-sugar",
+            "stepKey": "s2",
+            "slotKey": "sl-brown-sugar",
+            "quantityValue": 28,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "s2",
+            "slotKey": "sl-splenda",
+            "quantityValue": 3,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s2",
+            "slotKey": "sl-egg",
+            "quantityValue": 50,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s2",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 33,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s2",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-whey",
+            "stepKey": "s3",
+            "slotKey": "sl-whey",
+            "quantityValue": 60,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 32,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 6,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-baking-soda",
+            "stepKey": "s3",
+            "slotKey": "sl-baking-soda",
+            "quantityValue": 0.4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "s3",
+            "slotKey": "sl-salt",
+            "quantityValue": 0.4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-choc-chips",
+            "stepKey": "s3",
+            "slotKey": "sl-choc-chips",
+            "quantityValue": 10,
+            "quantityUnit": "g"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 744.17,
+          "protein": 64.92,
+          "carbs": 68.37,
+          "fat": 22.21,
+          "fiber": 2.95
+        },
+        "perServing": {
+          "calories": 248.06,
+          "protein": 21.64,
+          "carbs": 22.79,
+          "fat": 7.4,
+          "fiber": 0.98
+        },
+        "yield": {
+          "amount": 3,
+          "unit": "cookies"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 15,
+            "macros": {
+              "calories": 107.55,
+              "protein": 0.13,
+              "carbs": 0.01,
+              "fat": 12.15,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brown-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 28,
+            "macros": {
+              "calories": 106.4,
+              "protein": 0,
+              "carbs": 27.44,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 3,
+            "macros": {
+              "calories": 12,
+              "protein": 0,
+              "carbs": 3,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 33,
+            "macros": {
+              "calories": 17.16,
+              "protein": 3.63,
+              "carbs": 0.23,
+              "fat": 0.07,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4,
+            "macros": {
+              "calories": 11.52,
+              "protein": 0,
+              "carbs": 0.51,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-whey",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 60,
+            "macros": {
+              "calories": 243.64,
+              "protein": 51,
+              "carbs": 3.6,
+              "fat": 1.8,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 32,
+            "macros": {
+              "calories": 116.48,
+              "protein": 3.2,
+              "carbs": 24.32,
+              "fat": 0.32,
+              "fiber": 0.86
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 6,
+            "macros": {
+              "calories": 10.02,
+              "protein": 0.24,
+              "carbs": 2.52,
+              "fat": 0.12,
+              "fiber": 1.5
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-baking-soda",
+            "ingredientId": "ing-baking-soda",
+            "ingredientName": "baking soda",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-choc-chips",
+            "ingredientId": "ing-chocolate-chips-semisweet",
+            "ingredientName": "semi-sweet chocolate chips",
+            "grams": 10,
+            "macros": {
+              "calories": 47.9,
+              "protein": 0.42,
+              "carbs": 6.39,
+              "fat": 3,
+              "fiber": 0.59
+            },
+            "status": "ok"
+          }
+        ]
+      },
+      "createdAt": "2026-06-15T04:20:21.603Z",
+      "prevVersionId": "be80fd82-15bb-451d-b840-6117105e4403"
+    },
+    "9343cf14-69fd-4cfa-b811-da1a532d7695": {
+      "id": "9343cf14-69fd-4cfa-b811-da1a532d7695",
+      "recipeId": "c36a5854-e9b1-4daa-989f-ffb67e27258a",
+      "derivesFromVersionId": "c412b1ca-5d17-43bb-8027-56179b41ec88",
+      "name": "Browned-Butter Protein Cookies (60g protein)",
+      "tags": [
+        "cookie",
+        "protein",
+        "browned-butter",
+        "ablation",
+        "protein-sweep"
+      ],
+      "yield": {
+        "amount": 3,
+        "unit": "cookies"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "tag as queued ablation",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-whey",
+            "payload": {
+              "componentKey": "u-whey",
+              "stepKey": "s3",
+              "slotKey": "sl-whey",
+              "quantityValue": 60,
+              "quantityUnit": "g"
+            }
+          }
+        ],
+        "name": "Browned-Butter Protein Cookies (60g protein)",
+        "tags": [
+          "cookie",
+          "protein",
+          "browned-butter",
+          "ablation",
+          "protein-sweep"
+        ]
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "section": "Dough",
+            "instructionText": "Brown the butter: melt it in a pan over medium heat, swirling, until golden and nutty-smelling (3-4 min). Pour into a mixing bowl and let cool a couple minutes so it won't cook the egg."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "section": "Dough",
+            "instructionText": "Mix wet: whisk in the brown sugar, Splenda, whole egg, egg white, and vanilla until smooth and glossy. Don't whip air in - just combine."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "section": "Dough",
+            "instructionText": "Add dry: stir in the whey, flour, pudding mix, baking soda, and salt until a thick, scoopable dough forms, then fold in the chocolate chips. It should hold its shape, not pour. Too stiff/dry -> a splash of milk; too loose -> a bit more flour. Taste for sweetness."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "section": "Bake - Thick & Gooey",
+            "instructionText": "Chill the dough 30 minutes."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "section": "Bake - Thick & Gooey",
+            "instructionText": "Shape into 3 tall mounds - do NOT flatten."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "section": "Bake - Thick & Gooey",
+            "temperature": 350,
+            "instructionText": "Bake at 350F / 175C for 9-11 minutes. Pull when the edges are set but the center still looks slightly underdone/soft. Stays pale - don't wait for golden tops."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "section": "Finish",
+            "instructionText": "Rest: leave the cookies on the hot tray 10-15 min after baking - they finish cooking from residual heat and firm up from floppy to chewy as they cool. Don't judge texture until fully cooled."
+          },
+          {
+            "componentKey": "s8",
+            "order": 8,
+            "section": "Finish",
+            "instructionText": "Fridge (optional): for a firmer, denser, chewier bite, refrigerate the cooled cookies 20-30 min or longer. Protein cookies tighten up when cold. Store leftovers in the fridge."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-butter",
+            "name": "butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-brown-sugar",
+            "name": "brown sugar",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-whey",
+            "name": "vanilla whey protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "SF instant pudding mix (vanilla)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-baking-soda",
+            "name": "baking soda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-baking-soda"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-choc-chips",
+            "name": "semi-sweet chocolate chips",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-chocolate-chips-semisweet"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-butter",
+            "stepKey": "s1",
+            "slotKey": "sl-butter",
+            "quantityValue": 15,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-brown-sugar",
+            "stepKey": "s2",
+            "slotKey": "sl-brown-sugar",
+            "quantityValue": 28,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "s2",
+            "slotKey": "sl-splenda",
+            "quantityValue": 3,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s2",
+            "slotKey": "sl-egg",
+            "quantityValue": 50,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s2",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 33,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s2",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-whey",
+            "stepKey": "s3",
+            "slotKey": "sl-whey",
+            "quantityValue": 60,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 32,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 6,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-baking-soda",
+            "stepKey": "s3",
+            "slotKey": "sl-baking-soda",
+            "quantityValue": 0.4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "s3",
+            "slotKey": "sl-salt",
+            "quantityValue": 0.4,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-choc-chips",
+            "stepKey": "s3",
+            "slotKey": "sl-choc-chips",
+            "quantityValue": 10,
+            "quantityUnit": "g"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 744.17,
+          "protein": 64.92,
+          "carbs": 68.37,
+          "fat": 22.21,
+          "fiber": 2.95
+        },
+        "perServing": {
+          "calories": 248.06,
+          "protein": 21.64,
+          "carbs": 22.79,
+          "fat": 7.4,
+          "fiber": 0.98
+        },
+        "yield": {
+          "amount": 3,
+          "unit": "cookies"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 15,
+            "macros": {
+              "calories": 107.55,
+              "protein": 0.13,
+              "carbs": 0.01,
+              "fat": 12.15,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brown-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 28,
+            "macros": {
+              "calories": 106.4,
+              "protein": 0,
+              "carbs": 27.44,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 3,
+            "macros": {
+              "calories": 12,
+              "protein": 0,
+              "carbs": 3,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 33,
+            "macros": {
+              "calories": 17.16,
+              "protein": 3.63,
+              "carbs": 0.23,
+              "fat": 0.07,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4,
+            "macros": {
+              "calories": 11.52,
+              "protein": 0,
+              "carbs": 0.51,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-whey",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 60,
+            "macros": {
+              "calories": 243.64,
+              "protein": 51,
+              "carbs": 3.6,
+              "fat": 1.8,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 32,
+            "macros": {
+              "calories": 116.48,
+              "protein": 3.2,
+              "carbs": 24.32,
+              "fat": 0.32,
+              "fiber": 0.86
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 6,
+            "macros": {
+              "calories": 10.02,
+              "protein": 0.24,
+              "carbs": 2.52,
+              "fat": 0.12,
+              "fiber": 1.5
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-baking-soda",
+            "ingredientId": "ing-baking-soda",
+            "ingredientName": "baking soda",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-choc-chips",
+            "ingredientId": "ing-chocolate-chips-semisweet",
+            "ingredientName": "semi-sweet chocolate chips",
+            "grams": 10,
+            "macros": {
+              "calories": 47.9,
+              "protein": 0.42,
+              "carbs": 6.39,
+              "fat": 3,
+              "fiber": 0.59
+            },
+            "status": "ok"
+          }
+        ]
+      },
+      "createdAt": "2026-06-15T04:20:21.767Z",
+      "prevVersionId": "7bcc1cd4-9d97-4496-bf3e-4c534165e6f4"
     }
   },
   "ingredients": {
@@ -26461,6 +29243,91 @@
       "unitEquivalences": {
         "tbsp": 11
       }
+    }
+  },
+  "feedback": {
+    "a7f37100-4cca-4fc0-ad27-44edd5cdef3e": {
+      "kind": "to-make",
+      "id": "a7f37100-4cca-4fc0-ad27-44edd5cdef3e",
+      "recipeId": "021277b5-ae48-4375-9dee-ec616e098bda",
+      "versionId": "2e16a4c9-7e31-4eba-8f3f-633308f006e7",
+      "notes": "haven't made it yet",
+      "date": "2026-06-15T18:29:24.324Z",
+      "author": "user",
+      "createdAt": "2026-06-15T18:29:24.324Z"
+    },
+    "55754c7f-0093-4bdb-898c-37e7f575def3": {
+      "kind": "made",
+      "rating": "excellent",
+      "id": "55754c7f-0093-4bdb-898c-37e7f575def3",
+      "recipeId": "6408bbda-779c-43f5-be3a-d1f246ea027a",
+      "versionId": "cbd76386-bade-4285-826a-7fa0a7a4ccd3",
+      "date": "2026-06-15T18:29:24.653Z",
+      "author": "user",
+      "createdAt": "2026-06-15T18:29:24.653Z"
+    },
+    "11b2f7ec-f7de-41a5-8a93-9fad016daec6": {
+      "kind": "made",
+      "rating": "excellent",
+      "id": "11b2f7ec-f7de-41a5-8a93-9fad016daec6",
+      "recipeId": "4413cba1-921a-48cb-a270-6a2d462f7acb",
+      "versionId": "3bae1868-1e58-4045-b066-4ad68e88871e",
+      "date": "2026-06-15T18:29:24.981Z",
+      "author": "user",
+      "createdAt": "2026-06-15T18:29:24.981Z"
+    },
+    "0e6a319d-06cd-434d-8d60-94b73cd251e1": {
+      "kind": "made",
+      "rating": "excellent",
+      "id": "0e6a319d-06cd-434d-8d60-94b73cd251e1",
+      "recipeId": "5f2553f2-b2bc-4c45-a8ac-7793ad50e117",
+      "versionId": "c412b1ca-5d17-43bb-8027-56179b41ec88",
+      "date": "2026-06-15T18:29:25.306Z",
+      "author": "user",
+      "createdAt": "2026-06-15T18:29:25.306Z"
+    },
+    "8ffa7f7f-43f3-41f3-87d0-91d51afd169f": {
+      "kind": "made",
+      "rating": "excellent",
+      "id": "8ffa7f7f-43f3-41f3-87d0-91d51afd169f",
+      "recipeId": "18a1f1a7-5614-41a2-a15f-5118cd26cd4a",
+      "versionId": "d43a3045-316e-402f-8602-16c006e8095b",
+      "notes": "cookie itself is great",
+      "date": "2026-06-15T18:29:25.632Z",
+      "author": "user",
+      "createdAt": "2026-06-15T18:29:25.632Z"
+    },
+    "99f5bfd8-d49c-4fe1-84a3-aa3ea56a24b7": {
+      "kind": "made",
+      "rating": "bad",
+      "id": "99f5bfd8-d49c-4fe1-84a3-aa3ea56a24b7",
+      "recipeId": "18a1f1a7-5614-41a2-a15f-5118cd26cd4a",
+      "versionId": "d43a3045-316e-402f-8602-16c006e8095b",
+      "componentKey": "l5",
+      "notes": "glaze too weak/thin, needs work",
+      "date": "2026-06-15T18:29:25.793Z",
+      "author": "user",
+      "createdAt": "2026-06-15T18:29:25.793Z"
+    },
+    "f4bbb77b-4835-49b5-8c68-1b31bf5ba9ba": {
+      "kind": "to-make",
+      "id": "f4bbb77b-4835-49b5-8c68-1b31bf5ba9ba",
+      "recipeId": "4bf96569-0eb3-4ca1-a1d9-608629f26112",
+      "versionId": "06c406cb-a05e-4fa4-8582-088317348722",
+      "notes": "protein ablation — not baked yet",
+      "date": "2026-06-15T18:29:26.121Z",
+      "author": "user",
+      "createdAt": "2026-06-15T18:29:26.121Z"
+    },
+    "f847e116-f41e-46e1-bbf0-8fc1a4b8c452": {
+      "kind": "to-make",
+      "id": "f847e116-f41e-46e1-bbf0-8fc1a4b8c452",
+      "recipeId": "c36a5854-e9b1-4daa-989f-ffb67e27258a",
+      "versionId": "9343cf14-69fd-4cfa-b811-da1a532d7695",
+      "notes": "protein ablation — not baked yet",
+      "date": "2026-06-15T18:29:26.452Z",
+      "author": "user",
+      "createdAt": "2026-06-15T18:29:26.452Z"
     }
   }
 }

@@ -53,3 +53,18 @@ BV=$("$BATCH" derive "$BBASE" -n "$(jq -r .name "$BB")" | jq -r '.version.id')
 while read -r entry; do BV=$(echo "$entry" | "$BATCH" override "$BV" -m "reseed: soft-chewy" | jq -r '.version.id'); done < <(jq -c '.overrides[]' "$BB")
 BV=$("$BATCH" edit "$BV" -d "$(jq -r .description "$BB")" -t "$(jq -r '.tags|join(",")' "$BB")" | jq -r '.version.id')
 echo "  + soft-chewy variant -> $BV"
+
+# --- Tasting feedback: record the real verdicts so they reproduce. ---
+# Heads are resolved BY NAME at apply time, so this survives a fresh reseed (new ids).
+# Feedback is append-only and never writes a version (so it can't change any head id).
+echo "recording tasting feedback..."
+fbhead() { "$BATCH" list | jq -r --arg n "$1" '.[] | select(.name==$n) | .headVersionId'; }
+"$BATCH" feedback add "$(fbhead 'Red Velvet Protein Cookies')" --to-make -m "haven't made it yet" >/dev/null
+"$BATCH" feedback add "$(fbhead 'Banana Butterscotch Cinnamon Cheesecake')" --made --rating excellent >/dev/null
+"$BATCH" feedback add "$(fbhead 'Birthday Cake Protein Cookies')" --made --rating excellent >/dev/null
+"$BATCH" feedback add "$(fbhead 'Browned-Butter Protein Cookies')" --made --rating excellent >/dev/null
+LEM=$(fbhead 'Lemon Protein Cookies')
+"$BATCH" feedback add "$LEM" --made --rating excellent -m "cookie itself is great" >/dev/null
+# the cookie is excellent but the drizzle/glaze (step l5) needs work — a component-scoped verdict:
+"$BATCH" feedback add "$LEM" --made --component l5 --rating bad -m "glaze too weak/thin, needs work" >/dev/null
+echo "  + feedback recorded"
