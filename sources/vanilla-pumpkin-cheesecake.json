@@ -1,0 +1,224 @@
+{
+  "name": "Vanilla Pumpkin Protein Cheesecake",
+  "description": "Base protein cheesecake (vanilla SF pudding, pumpkin for moisture/body). Launch point for flavor variants. Low-fat / high-protein; pumpkin does the work fat does in a standard cheesecake.",
+  "tags": [
+    "base",
+    "cheesecake",
+    "protein"
+  ],
+  "yield": {
+    "amount": 8,
+    "unit": "slices"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "Blend the cottage cheese completely smooth (immersion blender or food processor) - no visible curd, or the cheesecake turns grainy."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Mix until smooth (warm the bowl ~15 sec if it clumps)."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Add the eggs and egg white and the cooled pumpkin. Mix just until smooth - do NOT overbeat once eggs are in (air = cracks)."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "temperature": 350,
+        "instructionText": "Bake at 325-350F for ~35-45 min, with a tray of hot water on the rack below for moisture. Pull when the edges are set but the center 2-3 in still jiggles (~150F center). Do not overbake - it firms as it cools."
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "Cool: oven off and door cracked 10-20 min, then counter to room temp ~1-1.5 hr (max 2 hr out), then fridge at least 4 hr - ideally overnight. Best the next day."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-yogurt",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl-cream-cheese",
+        "name": "light cream cheese",
+        "prepDefault": "softened",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cream-cheese-light"
+        }
+      },
+      {
+        "componentKey": "sl-cottage",
+        "name": "cottage cheese",
+        "prepDefault": "blended smooth",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cottage-cheese"
+        }
+      },
+      {
+        "componentKey": "sl-pumpkin",
+        "name": "pumpkin puree",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pumpkin-puree"
+        }
+      },
+      {
+        "componentKey": "sl-protein",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-sweetener",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-egg",
+        "name": "whole eggs",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl-egg-white",
+        "name": "egg white",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-white"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-lemon",
+        "name": "lemon juice",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-lemon-juice"
+        }
+      },
+      {
+        "componentKey": "sl-pudding",
+        "name": "vanilla SF pudding mix",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pudding-vanilla-sf"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-yogurt",
+        "stepKey": "s3",
+        "slotKey": "sl-yogurt",
+        "quantityValue": 240,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-cream-cheese",
+        "stepKey": "s3",
+        "slotKey": "sl-cream-cheese",
+        "quantityValue": 113,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-cottage",
+        "stepKey": "s3",
+        "slotKey": "sl-cottage",
+        "quantityValue": 57,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-pumpkin",
+        "stepKey": "s1",
+        "slotKey": "sl-pumpkin",
+        "quantityValue": 120,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-protein",
+        "stepKey": "s3",
+        "slotKey": "sl-protein",
+        "quantityValue": 2,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-sweetener",
+        "stepKey": "s3",
+        "slotKey": "sl-sweetener",
+        "quantityValue": 5,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-egg",
+        "stepKey": "s4",
+        "slotKey": "sl-egg",
+        "quantityValue": 2,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u-egg-white",
+        "stepKey": "s4",
+        "slotKey": "sl-egg-white",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-vanilla",
+        "stepKey": "s3",
+        "slotKey": "sl-vanilla",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-lemon",
+        "stepKey": "s3",
+        "slotKey": "sl-lemon",
+        "quantityValue": 0.33,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-pudding",
+        "stepKey": "s3",
+        "slotKey": "sl-pudding",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      }
+    ]
+  }
+}

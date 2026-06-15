@@ -1,0 +1,137 @@
+{
+  "name": "Banana Butterscotch Cinnamon Cheesecake",
+  "tags": [],
+  "yield": {
+    "amount": 8,
+    "unit": "slices"
+  },
+  "deriveFromRecipe": "Vanilla Pumpkin Protein Cheesecake",
+  "overrides": [
+    {
+      "op": "replace",
+      "kind": "slot",
+      "target": "sl-pudding",
+      "payload": {
+        "componentKey": "sl-pudding",
+        "name": "butterscotch SF pudding mix",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pudding-butterscotch-sf"
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s1",
+      "payload": {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-banana",
+        "name": "ripe banana",
+        "prepDefault": "mashed",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-banana"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-banana",
+        "stepKey": "s1",
+        "slotKey": "sl-banana",
+        "quantityValue": 150,
+        "quantityUnit": "g",
+        "prepState": "caramelized"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-cinnamon",
+        "name": "cinnamon",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cinnamon-ground"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-cinnamon-batter",
+        "stepKey": "s3",
+        "slotKey": "sl-cinnamon",
+        "quantityValue": 2,
+        "quantityUnit": "tsp"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s5",
+      "payload": {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. Top with graham crumbs + cinnamon (add after baking if you want them crisp)."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-graham",
+        "name": "graham cracker crumbs",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-graham-crumbs"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-graham",
+        "stepKey": "s5",
+        "slotKey": "sl-graham",
+        "quantityValue": 15,
+        "quantityUnit": "g",
+        "prepState": "garnish"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-cinnamon-garnish",
+        "stepKey": "s5",
+        "slotKey": "sl-cinnamon",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp",
+        "prepState": "garnish"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "step",
+      "payload": {
+        "componentKey": "s8",
+        "order": 8,
+        "instructionText": "Finish with sugar-free cinnamon syrup to taste."
+      }
+    }
+  ]
+}

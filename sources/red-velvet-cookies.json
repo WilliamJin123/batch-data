@@ -1,0 +1,350 @@
+{
+  "name": "Red Velvet Protein Cookies",
+  "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
+  "tags": [
+    "crumbl",
+    "cookie",
+    "protein",
+    "red-velvet"
+  ],
+  "yield": {
+    "amount": 5,
+    "unit": "cookies"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "c1",
+        "order": 1,
+        "section": "Cookie",
+        "temperature": 350,
+        "instructionText": "Preheat oven to 350F. Line a tray with parchment."
+      },
+      {
+        "componentKey": "c2",
+        "order": 2,
+        "section": "Cookie",
+        "instructionText": "Whisk the wets - yogurt, pumpkin, egg, vanilla, food coloring, vinegar - then stir in the Splenda."
+      },
+      {
+        "componentKey": "c3",
+        "order": 3,
+        "section": "Cookie",
+        "instructionText": "Add the dries - cocoa, oat flour, cornstarch, pudding, protein, baking soda, salt. Mix to a thick dough."
+      },
+      {
+        "componentKey": "c4",
+        "order": 4,
+        "section": "Cookie",
+        "instructionText": "Rest 10 min to hydrate. If still batter-like, add oat flour 1 tbsp at a time until scoopable."
+      },
+      {
+        "componentKey": "c5",
+        "order": 5,
+        "section": "Cookie",
+        "instructionText": "Scoop 5 cookies, flatten slightly (they barely spread). Bake 10-12 min until edges are set but centers still look soft."
+      },
+      {
+        "componentKey": "c6",
+        "order": 6,
+        "section": "Cookie",
+        "instructionText": "Cool fully on the tray - they firm up as they cool."
+      },
+      {
+        "componentKey": "f1",
+        "order": 7,
+        "section": "Frosting",
+        "instructionText": "Beat the yogurt, cream cheese, protein, and Splenda smooth. Add pudding mix to thicken, or chill 20-30 min. Frost the cooled cookies."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-yogurt",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl-pumpkin",
+        "name": "pumpkin puree",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pumpkin-puree"
+        }
+      },
+      {
+        "componentKey": "sl-egg",
+        "name": "egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl-splenda",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-coloring",
+        "name": "red gel food coloring",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-food-coloring-red"
+        }
+      },
+      {
+        "componentKey": "sl-cocoa",
+        "name": "cocoa powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl-oat-flour",
+        "name": "oat flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-oat-flour"
+        }
+      },
+      {
+        "componentKey": "sl-cornstarch",
+        "name": "cornstarch",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cornstarch"
+        }
+      },
+      {
+        "componentKey": "sl-pudding",
+        "name": "SF instant pudding mix",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pudding-vanilla-sf"
+        }
+      },
+      {
+        "componentKey": "sl-protein",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-baking-soda",
+        "name": "baking soda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-soda"
+        }
+      },
+      {
+        "componentKey": "sl-acv",
+        "name": "apple cider vinegar",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-acv"
+        }
+      },
+      {
+        "componentKey": "sl-salt",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-frost-yogurt",
+        "name": "0% Greek yogurt (frosting)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl-frost-cream-cheese",
+        "name": "low-fat cream cheese (frosting)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cream-cheese-light"
+        }
+      },
+      {
+        "componentKey": "sl-frost-protein",
+        "name": "vanilla protein powder (frosting)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-frost-splenda",
+        "name": "granulated Splenda (frosting)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-frost-pudding",
+        "name": "SF instant pudding mix (frosting)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pudding-vanilla-sf"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-c-yogurt",
+        "stepKey": "c2",
+        "slotKey": "sl-yogurt",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-c-pumpkin",
+        "stepKey": "c2",
+        "slotKey": "sl-pumpkin",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-c-egg",
+        "stepKey": "c2",
+        "slotKey": "sl-egg",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u-c-vanilla",
+        "stepKey": "c2",
+        "slotKey": "sl-vanilla",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-c-coloring",
+        "stepKey": "c2",
+        "slotKey": "sl-coloring",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-c-acv",
+        "stepKey": "c2",
+        "slotKey": "sl-acv",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-c-splenda",
+        "stepKey": "c2",
+        "slotKey": "sl-splenda",
+        "quantityValue": 0.333,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-c-cocoa",
+        "stepKey": "c3",
+        "slotKey": "sl-cocoa",
+        "quantityValue": 3,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-c-oat-flour",
+        "stepKey": "c3",
+        "slotKey": "sl-oat-flour",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-c-cornstarch",
+        "stepKey": "c3",
+        "slotKey": "sl-cornstarch",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-c-pudding",
+        "stepKey": "c3",
+        "slotKey": "sl-pudding",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-c-protein",
+        "stepKey": "c3",
+        "slotKey": "sl-protein",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-c-baking-soda",
+        "stepKey": "c3",
+        "slotKey": "sl-baking-soda",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-c-salt",
+        "stepKey": "c3",
+        "slotKey": "sl-salt",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-f-yogurt",
+        "stepKey": "f1",
+        "slotKey": "sl-frost-yogurt",
+        "quantityValue": 0.75,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-f-cream-cheese",
+        "stepKey": "f1",
+        "slotKey": "sl-frost-cream-cheese",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-f-protein",
+        "stepKey": "f1",
+        "slotKey": "sl-frost-protein",
+        "quantityValue": 0.5,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-f-splenda",
+        "stepKey": "f1",
+        "slotKey": "sl-frost-splenda",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-f-pudding",
+        "stepKey": "f1",
+        "slotKey": "sl-frost-pudding",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      }
+    ]
+  }
+}

@@ -1,0 +1,389 @@
+[
+  {
+    "id": "ing-acv",
+    "name": "apple cider vinegar",
+    "macrosPer100g": {
+      "calories": 22,
+      "protein": 0,
+      "carbs": 0.9,
+      "fat": 0,
+      "fiber": 0
+    },
+    "densityGPerMl": 1.01
+  },
+  {
+    "id": "ing-almond-extract",
+    "name": "almond extract",
+    "macrosPer100g": {
+      "calories": 258,
+      "protein": 0,
+      "carbs": 8,
+      "fat": 0,
+      "fiber": 0
+    },
+    "densityGPerMl": 0.88
+  },
+  {
+    "id": "ing-almond-milk-unsweetened",
+    "name": "unsweetened almond milk",
+    "macrosPer100g": {
+      "calories": 15,
+      "protein": 0.5,
+      "carbs": 0.6,
+      "fat": 1.2,
+      "fiber": 0
+    },
+    "densityGPerMl": 1
+  },
+  {
+    "id": "ing-ap-flour",
+    "name": "all-purpose flour",
+    "macrosPer100g": {
+      "calories": 364,
+      "protein": 10,
+      "carbs": 76,
+      "fat": 1,
+      "fiber": 2.7
+    },
+    "unitEquivalences": {
+      "tbsp": 7.8,
+      "cup": 125
+    }
+  },
+  {
+    "id": "ing-baking-powder",
+    "name": "baking powder",
+    "macrosPer100g": {
+      "calories": 53,
+      "protein": 0,
+      "carbs": 28,
+      "fat": 0,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "tsp": 4
+    }
+  },
+  {
+    "id": "ing-baking-soda",
+    "name": "baking soda",
+    "macrosPer100g": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "tsp": 4.6
+    }
+  },
+  {
+    "id": "ing-banana",
+    "name": "ripe banana",
+    "macrosPer100g": {
+      "calories": 89,
+      "protein": 1.1,
+      "carbs": 23,
+      "fat": 0.3,
+      "fiber": 2.6
+    }
+  },
+  {
+    "id": "ing-butter",
+    "name": "butter",
+    "macrosPer100g": {
+      "calories": 717,
+      "protein": 0.85,
+      "carbs": 0.06,
+      "fat": 81,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "tbsp": 14.2,
+      "tsp": 4.7
+    }
+  },
+  {
+    "id": "ing-cinnamon-ground",
+    "name": "ground cinnamon",
+    "macrosPer100g": {
+      "calories": 247,
+      "protein": 4,
+      "carbs": 81,
+      "fat": 1.2,
+      "fiber": 53
+    },
+    "unitEquivalences": {
+      "tsp": 2.6
+    }
+  },
+  {
+    "id": "ing-cocoa-powder",
+    "name": "unsweetened cocoa powder",
+    "macrosPer100g": {
+      "calories": 228,
+      "protein": 19.6,
+      "carbs": 58,
+      "fat": 13.7,
+      "fiber": 37
+    },
+    "unitEquivalences": {
+      "tbsp": 5.4
+    }
+  },
+  {
+    "id": "ing-cool-whip-zero",
+    "name": "zero-sugar Cool Whip",
+    "macrosPer100g": {
+      "calories": 167,
+      "protein": 0,
+      "carbs": 22,
+      "fat": 11,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "tbsp": 4.5
+    }
+  },
+  {
+    "id": "ing-cornstarch",
+    "name": "cornstarch",
+    "macrosPer100g": {
+      "calories": 381,
+      "protein": 0.3,
+      "carbs": 91,
+      "fat": 0,
+      "fiber": 1
+    },
+    "unitEquivalences": {
+      "tbsp": 8
+    }
+  },
+  {
+    "id": "ing-cottage-cheese",
+    "name": "cottage cheese",
+    "macrosPer100g": {
+      "calories": 72,
+      "protein": 12,
+      "carbs": 3,
+      "fat": 1,
+      "fiber": 0
+    }
+  },
+  {
+    "id": "ing-cream-cheese-light",
+    "name": "light cream cheese",
+    "brand": "Philadelphia 1/3 less fat",
+    "macrosPer100g": {
+      "calories": 233,
+      "protein": 7.5,
+      "carbs": 7,
+      "fat": 19,
+      "fiber": 0
+    },
+    "densityGPerMl": 0.98
+  },
+  {
+    "id": "ing-egg-white",
+    "name": "egg white",
+    "macrosPer100g": {
+      "calories": 52,
+      "protein": 11,
+      "carbs": 0.7,
+      "fat": 0.2,
+      "fiber": 0
+    }
+  },
+  {
+    "id": "ing-egg-whole",
+    "name": "whole egg",
+    "macrosPer100g": {
+      "calories": 143,
+      "protein": 12.6,
+      "carbs": 0.7,
+      "fat": 9.5,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "each": 50
+    }
+  },
+  {
+    "id": "ing-food-coloring-red",
+    "name": "red gel food coloring",
+    "macrosPer100g": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "fiber": 0
+    },
+    "densityGPerMl": 1
+  },
+  {
+    "id": "ing-graham-crumbs",
+    "name": "honey graham cracker crumbs",
+    "macrosPer100g": {
+      "calories": 405,
+      "protein": 6,
+      "carbs": 76,
+      "fat": 9.5,
+      "fiber": 2.5
+    }
+  },
+  {
+    "id": "ing-greek-yogurt-nonfat",
+    "name": "0% Greek yogurt",
+    "macrosPer100g": {
+      "calories": 59,
+      "protein": 10,
+      "carbs": 3.6,
+      "fat": 0.4,
+      "fiber": 0
+    },
+    "densityGPerMl": 1.0144
+  },
+  {
+    "id": "ing-lemon-juice",
+    "name": "lemon juice",
+    "macrosPer100g": {
+      "calories": 22,
+      "protein": 0.4,
+      "carbs": 6.9,
+      "fat": 0.2,
+      "fiber": 0.3
+    },
+    "densityGPerMl": 1.03
+  },
+  {
+    "id": "ing-monk-fruit-powdered",
+    "name": "powdered monk fruit sweetener",
+    "macrosPer100g": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "fiber": 0
+    }
+  },
+  {
+    "id": "ing-oat-flour",
+    "name": "oat flour",
+    "macrosPer100g": {
+      "calories": 404,
+      "protein": 15,
+      "carbs": 66,
+      "fat": 9,
+      "fiber": 7
+    },
+    "unitEquivalences": {
+      "cup": 120
+    }
+  },
+  {
+    "id": "ing-protein-vanilla",
+    "name": "vanilla protein powder",
+    "macrosPer100g": {
+      "calories": 394,
+      "protein": 85,
+      "carbs": 6,
+      "fat": 3,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "scoop": 33
+    }
+  },
+  {
+    "id": "ing-pudding-butterscotch-sf",
+    "name": "butterscotch SF pudding mix (Simply Delish)",
+    "macrosPer100g": {
+      "calories": 167,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 2,
+      "fiber": 25
+    },
+    "unitEquivalences": {
+      "tbsp": 6
+    }
+  },
+  {
+    "id": "ing-pudding-vanilla-sf",
+    "name": "vanilla SF pudding mix (Simply Delish)",
+    "macrosPer100g": {
+      "calories": 167,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 2,
+      "fiber": 25
+    },
+    "unitEquivalences": {
+      "tbsp": 6
+    }
+  },
+  {
+    "id": "ing-pumpkin-puree",
+    "name": "pumpkin puree",
+    "macrosPer100g": {
+      "calories": 34,
+      "protein": 1.1,
+      "carbs": 8,
+      "fat": 0.3,
+      "fiber": 3
+    },
+    "densityGPerMl": 1.0145
+  },
+  {
+    "id": "ing-salt",
+    "name": "salt",
+    "macrosPer100g": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "pinch": 0.4,
+      "tsp": 6
+    }
+  },
+  {
+    "id": "ing-splenda-granulated",
+    "name": "granulated Splenda",
+    "macrosPer100g": {
+      "calories": 400,
+      "protein": 0,
+      "carbs": 100,
+      "fat": 0,
+      "fiber": 0
+    },
+    "densityGPerMl": 0.101
+  },
+  {
+    "id": "ing-syrup-cinnamon-sf",
+    "name": "sugar-free cinnamon syrup",
+    "macrosPer100g": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "fiber": 0
+    },
+    "densityGPerMl": 1
+  },
+  {
+    "id": "ing-vanilla-extract",
+    "name": "vanilla extract",
+    "macrosPer100g": {
+      "calories": 288,
+      "protein": 0,
+      "carbs": 12.7,
+      "fat": 0,
+      "fiber": 0
+    },
+    "densityGPerMl": 0.88
+  }
+]
