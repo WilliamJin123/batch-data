@@ -285,7 +285,7 @@
     "id": "ing-protein-vanilla",
     "name": "vanilla protein powder",
     "macrosPer100g": {
-      "calories": 394,
+      "calories": 406.06,
       "protein": 85,
       "carbs": 6,
       "fat": 3,
@@ -385,5 +385,34 @@
       "fiber": 0
     },
     "densityGPerMl": 0.88
+  },
+  {
+    "id": "ing-brown-sugar",
+    "name": "brown sugar",
+    "macrosPer100g": {
+      "calories": 380,
+      "protein": 0,
+      "carbs": 98,
+      "fat": 0,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "tbsp": 13.75,
+      "cup": 220
+    }
+  },
+  {
+    "id": "ing-chocolate-chips-semisweet",
+    "name": "semi-sweet chocolate chips",
+    "macrosPer100g": {
+      "calories": 479,
+      "protein": 4.2,
+      "carbs": 63.9,
+      "fat": 30,
+      "fiber": 5.9
+    },
+    "unitEquivalences": {
+      "tbsp": 11
+    }
   }
 ]

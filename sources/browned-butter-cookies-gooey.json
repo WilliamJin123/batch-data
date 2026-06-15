@@ -1,0 +1,46 @@
+{
+  "name": "Browned-Butter Protein Cookies",
+  "description": "Browned-butter protein chocolate-chip cookies, makes 3. VERSION A - Thick & Gooey (molten center): tall bakery-style mounds, intentionally uneven (gooey center, firmer edges). The thick middle cooks slowest, so the edges finish before the center - that's the price of a molten center. Soft, fragile, and pale is CORRECT; these don't brown like a normal cookie. Confirm doneness by breaking one open after resting: soft/dense/moist/baked = done; wet/gummy/raw-flour = 1-2 min more. (Version B - Even & Soft-Chewy - is a derived variant that flattens + bakes lower for one consistent texture.)",
+  "tags": ["cookie", "protein", "browned-butter", "chocolate-chip", "gooey"],
+  "yield": { "amount": 3, "unit": "cookies" },
+  "content": {
+    "steps": [
+      { "componentKey": "s1", "order": 1, "section": "Dough", "instructionText": "Brown the butter: melt it in a pan over medium heat, swirling, until golden and nutty-smelling (3-4 min). Pour into a mixing bowl and let cool a couple minutes so it won't cook the egg." },
+      { "componentKey": "s2", "order": 2, "section": "Dough", "instructionText": "Mix wet: whisk in the brown sugar, Splenda, whole egg, egg white, and vanilla until smooth and glossy. Don't whip air in - just combine." },
+      { "componentKey": "s3", "order": 3, "section": "Dough", "instructionText": "Add dry: stir in the whey, flour, pudding mix, baking soda, and salt until a thick, scoopable dough forms, then fold in the chocolate chips. It should hold its shape, not pour. Too stiff/dry -> a splash of milk; too loose -> a bit more flour. Taste for sweetness." },
+      { "componentKey": "s4", "order": 4, "section": "Bake - Thick & Gooey", "instructionText": "Chill the dough 30 minutes." },
+      { "componentKey": "s5", "order": 5, "section": "Bake - Thick & Gooey", "instructionText": "Shape into 3 tall mounds - do NOT flatten." },
+      { "componentKey": "s6", "order": 6, "section": "Bake - Thick & Gooey", "temperature": 350, "instructionText": "Bake at 350F / 175C for 9-11 minutes. Pull when the edges are set but the center still looks slightly underdone/soft. Stays pale - don't wait for golden tops." },
+      { "componentKey": "s7", "order": 7, "section": "Finish", "instructionText": "Rest: leave the cookies on the hot tray 10-15 min after baking - they finish cooking from residual heat and firm up from floppy to chewy as they cool. Don't judge texture until fully cooled." },
+      { "componentKey": "s8", "order": 8, "section": "Finish", "instructionText": "Fridge (optional): for a firmer, denser, chewier bite, refrigerate the cooled cookies 20-30 min or longer. Protein cookies tighten up when cold. Store leftovers in the fridge." }
+    ],
+    "slots": [
+      { "componentKey": "sl-butter", "name": "butter", "resolution": { "kind": "raw", "libraryIngredientId": "ing-butter" } },
+      { "componentKey": "sl-brown-sugar", "name": "brown sugar", "resolution": { "kind": "raw", "libraryIngredientId": "ing-brown-sugar" } },
+      { "componentKey": "sl-splenda", "name": "granulated Splenda", "resolution": { "kind": "raw", "libraryIngredientId": "ing-splenda-granulated" } },
+      { "componentKey": "sl-egg", "name": "whole egg", "resolution": { "kind": "raw", "libraryIngredientId": "ing-egg-whole" } },
+      { "componentKey": "sl-egg-white", "name": "egg white", "resolution": { "kind": "raw", "libraryIngredientId": "ing-egg-white" } },
+      { "componentKey": "sl-vanilla", "name": "vanilla extract", "resolution": { "kind": "raw", "libraryIngredientId": "ing-vanilla-extract" } },
+      { "componentKey": "sl-whey", "name": "vanilla whey protein powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-protein-vanilla" } },
+      { "componentKey": "sl-flour", "name": "all-purpose flour", "resolution": { "kind": "raw", "libraryIngredientId": "ing-ap-flour" } },
+      { "componentKey": "sl-pudding", "name": "SF instant pudding mix (vanilla)", "resolution": { "kind": "raw", "libraryIngredientId": "ing-pudding-vanilla-sf" } },
+      { "componentKey": "sl-baking-soda", "name": "baking soda", "resolution": { "kind": "raw", "libraryIngredientId": "ing-baking-soda" } },
+      { "componentKey": "sl-salt", "name": "salt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-salt" } },
+      { "componentKey": "sl-choc-chips", "name": "semi-sweet chocolate chips", "resolution": { "kind": "raw", "libraryIngredientId": "ing-chocolate-chips-semisweet" } }
+    ],
+    "usages": [
+      { "componentKey": "u-butter", "stepKey": "s1", "slotKey": "sl-butter", "quantityValue": 15, "quantityUnit": "g" },
+      { "componentKey": "u-brown-sugar", "stepKey": "s2", "slotKey": "sl-brown-sugar", "quantityValue": 28, "quantityUnit": "g" },
+      { "componentKey": "u-splenda", "stepKey": "s2", "slotKey": "sl-splenda", "quantityValue": 3, "quantityUnit": "g" },
+      { "componentKey": "u-egg", "stepKey": "s2", "slotKey": "sl-egg", "quantityValue": 50, "quantityUnit": "g" },
+      { "componentKey": "u-egg-white", "stepKey": "s2", "slotKey": "sl-egg-white", "quantityValue": 33, "quantityUnit": "g" },
+      { "componentKey": "u-vanilla", "stepKey": "s2", "slotKey": "sl-vanilla", "quantityValue": 4, "quantityUnit": "g" },
+      { "componentKey": "u-whey", "stepKey": "s3", "slotKey": "sl-whey", "quantityValue": 40, "quantityUnit": "g" },
+      { "componentKey": "u-flour", "stepKey": "s3", "slotKey": "sl-flour", "quantityValue": 32, "quantityUnit": "g" },
+      { "componentKey": "u-pudding", "stepKey": "s3", "slotKey": "sl-pudding", "quantityValue": 6, "quantityUnit": "g" },
+      { "componentKey": "u-baking-soda", "stepKey": "s3", "slotKey": "sl-baking-soda", "quantityValue": 0.4, "quantityUnit": "g" },
+      { "componentKey": "u-salt", "stepKey": "s3", "slotKey": "sl-salt", "quantityValue": 0.4, "quantityUnit": "g" },
+      { "componentKey": "u-choc-chips", "stepKey": "s3", "slotKey": "sl-choc-chips", "quantityValue": 10, "quantityUnit": "g" }
+    ]
+  }
+}

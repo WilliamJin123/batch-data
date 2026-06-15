@@ -11,7 +11,7 @@ echo "seeding ingredients..."
 while read -r ing; do echo "$ing" | "$BATCH" ingredient add >/dev/null; done < <(jq -c '.[]' "$DIR/ingredients.json")
 
 echo "creating root recipes..."
-for f in vanilla-pumpkin-cheesecake red-velvet-cookies birthday-cake-cookies lemon-protein-cookies protein-cream-cheese-frosting; do
+for f in vanilla-pumpkin-cheesecake red-velvet-cookies birthday-cake-cookies lemon-protein-cookies protein-cream-cheese-frosting browned-butter-cookies-gooey; do
   "$BATCH" create --file "$DIR/$f.json" >/dev/null && echo "  + $f"
 done
 
@@ -43,3 +43,13 @@ CWBASE=$("$BATCH" list | jq -r '.[] | select(.name=="Protein Cream-Cheese Frosti
 CWV=$("$BATCH" derive "$CWBASE" -n "$(jq -r .name "$CW")" | jq -r '.version.id')
 while read -r entry; do CWV=$(echo "$entry" | "$BATCH" override "$CWV" -m "reseed: cool-whip" | jq -r '.version.id'); done < <(jq -c '.overrides[]' "$CW")
 echo "  + Cool-Whip frosting variant -> $CWV"
+
+# --- Pure-procedure variant: the soft-chewy bake of the browned-butter cookie. ---
+# Same dough/ingredients/macros as the gooey base; only steps 4-6 (the bake) differ.
+echo "deriving soft-chewy cookie variant..."
+BB="$DIR/browned-butter-cookies-chewy.variant.json"
+BBASE=$("$BATCH" list | jq -r '.[] | select(.name=="Browned-Butter Protein Cookies") | .headVersionId')
+BV=$("$BATCH" derive "$BBASE" -n "$(jq -r .name "$BB")" | jq -r '.version.id')
+while read -r entry; do BV=$(echo "$entry" | "$BATCH" override "$BV" -m "reseed: soft-chewy" | jq -r '.version.id'); done < <(jq -c '.overrides[]' "$BB")
+BV=$("$BATCH" edit "$BV" -d "$(jq -r .description "$BB")" -t "$(jq -r '.tags|join(",")' "$BB")" | jq -r '.version.id')
+echo "  + soft-chewy variant -> $BV"
