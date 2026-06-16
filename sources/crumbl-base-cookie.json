@@ -1,6 +1,6 @@
 {
   "name": "Crumbl Base Protein Cookie",
-  "description": "The shared base cookie for the crumbl protein-cookie family \u2014 the flavor-neutral vanilla chassis every flavor derives from. Built from the tested-excellent set: Birthday Cake + Lemon dough at 1.5 scoops (the tested ceiling, both rated excellent) plus their shared cornstarch soft-crumb trick, with a lean egg white kept in for low-risk structure. The 20g newcomer's heavier protein-load (2.5+ scoops) stays a queued experiment, not baked in. No flavor identity of its own; default inline vanilla yogurt/Cool-Whip frosting, with per-flavor frostings (cream cheese for red velvet, lemon drizzle, etc.) meant to swap in. Sweetener is granulated Splenda (calorically modeled, never monk fruit).",
+  "description": "The shared base cookie for the crumbl protein-cookie family \u2014 the flavor-neutral vanilla chassis every flavor derives from. Built from the tested-excellent set: Birthday Cake + Lemon dough at 1.5 scoops plus their shared cornstarch soft-crumb trick, with a lean egg white for structure. Frosting is a sub_recipe pin (defaults to the Cool-Whip vanilla protein frosting); flavors swap the pin \u2014 cream cheese for red velvet, a lemon drizzle for lemon. The 20g newcomer's heavier protein-load stays a queued experiment. Sweetener is granulated Splenda (calorically modeled, never monk fruit).",
   "tags": [
     "crumbl",
     "cookie",
@@ -43,7 +43,7 @@
         "componentKey": "b5",
         "order": 5,
         "section": "Frosting",
-        "instructionText": "Cool the cookies fully. Beat the frosting ingredients smooth, chill, then frost."
+        "instructionText": "Cool the cookies fully, then frost with the vanilla protein frosting (sub-recipe)."
       }
     ],
     "slots": [
@@ -128,54 +128,6 @@
         }
       },
       {
-        "componentKey": "sl-frost-yogurt",
-        "name": "nonfat Greek yogurt (frosting)",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-greek-yogurt-nonfat"
-        }
-      },
-      {
-        "componentKey": "sl-frost-coolwhip",
-        "name": "zero-sugar Cool Whip (frosting)",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-cool-whip-zero"
-        }
-      },
-      {
-        "componentKey": "sl-frost-protein",
-        "name": "vanilla protein powder (frosting)",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-protein-vanilla"
-        }
-      },
-      {
-        "componentKey": "sl-frost-pudding",
-        "name": "SF vanilla pudding mix (frosting)",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-pudding-vanilla-sf"
-        }
-      },
-      {
-        "componentKey": "sl-frost-splenda",
-        "name": "granulated Splenda (frosting)",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-splenda-granulated"
-        }
-      },
-      {
-        "componentKey": "sl-frost-salt",
-        "name": "salt (frosting)",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-salt"
-        }
-      },
-      {
         "componentKey": "sl-cornstarch",
         "name": "cornstarch",
         "resolution": {
@@ -189,6 +141,14 @@
         "resolution": {
           "kind": "raw",
           "libraryIngredientId": "ing-egg-white"
+        }
+      },
+      {
+        "componentKey": "sl-frosting",
+        "name": "vanilla protein frosting",
+        "resolution": {
+          "kind": "sub_recipe",
+          "subRecipeVersionId": "1074a98e-b1c9-44ac-af4b-d4a3115c8768"
         }
       }
     ],
@@ -264,48 +224,6 @@
         "quantityUnit": "tsp"
       },
       {
-        "componentKey": "u-f-yogurt",
-        "stepKey": "b5",
-        "slotKey": "sl-frost-yogurt",
-        "quantityValue": 0.5,
-        "quantityUnit": "cup"
-      },
-      {
-        "componentKey": "u-f-coolwhip",
-        "stepKey": "b5",
-        "slotKey": "sl-frost-coolwhip",
-        "quantityValue": 2,
-        "quantityUnit": "tbsp"
-      },
-      {
-        "componentKey": "u-f-protein",
-        "stepKey": "b5",
-        "slotKey": "sl-frost-protein",
-        "quantityValue": 0.25,
-        "quantityUnit": "scoop"
-      },
-      {
-        "componentKey": "u-f-pudding",
-        "stepKey": "b5",
-        "slotKey": "sl-frost-pudding",
-        "quantityValue": 0.5,
-        "quantityUnit": "tbsp"
-      },
-      {
-        "componentKey": "u-f-splenda",
-        "stepKey": "b5",
-        "slotKey": "sl-frost-splenda",
-        "quantityValue": 1,
-        "quantityUnit": "tsp"
-      },
-      {
-        "componentKey": "u-f-salt",
-        "stepKey": "b5",
-        "slotKey": "sl-frost-salt",
-        "quantityValue": 1,
-        "quantityUnit": "pinch"
-      },
-      {
         "componentKey": "u-cornstarch",
         "stepKey": "b1",
         "slotKey": "sl-cornstarch",
@@ -318,6 +236,13 @@
         "slotKey": "sl-egg-white",
         "quantityValue": 33,
         "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-frosting",
+        "stepKey": "b5",
+        "slotKey": "sl-frosting",
+        "quantityValue": 1,
+        "quantityUnit": "batch"
       }
     ]
   }
