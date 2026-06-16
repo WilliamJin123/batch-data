@@ -89,6 +89,18 @@
       "createdBy": "user",
       "createdAt": "2026-06-16T03:15:12.862Z",
       "headVersionId": "67ec8d52-582f-4206-af63-47c2725b9448"
+    },
+    "c8a66573-ffd8-4d00-bbc2-faf99135d9fd": {
+      "id": "c8a66573-ffd8-4d00-bbc2-faf99135d9fd",
+      "createdBy": "user",
+      "createdAt": "2026-06-16T03:48:03.295Z",
+      "headVersionId": "0c57c6ce-1016-4500-9c95-b03c882c0c6f"
+    },
+    "f842a447-536b-4dbc-ac51-79637ae8c706": {
+      "id": "f842a447-536b-4dbc-ac51-79637ae8c706",
+      "createdBy": "user",
+      "createdAt": "2026-06-16T03:50:14.361Z",
+      "headVersionId": "223cb5d2-8eff-4876-b8cd-a3507edc556e"
     }
   },
   "versions": {
@@ -30759,6 +30771,3386 @@
         ]
       },
       "createdAt": "2026-06-16T03:15:12.862Z"
+    },
+    "0c57c6ce-1016-4500-9c95-b03c882c0c6f": {
+      "id": "0c57c6ce-1016-4500-9c95-b03c882c0c6f",
+      "recipeId": "c8a66573-ffd8-4d00-bbc2-faf99135d9fd",
+      "name": "20g Protein Frosted Cookies",
+      "description": "Macro-friendly frosted protein cookie (Instagram) ingested as a crumbl base-chassis candidate. Notable for a claimed <10 kcal per g protein, achieved by protein-loading: 3 scoops whey in only 5 cookies plus a full cup of nonfat Greek yogurt in the frosting. Modeled with regular AP flour (source said 'Bob's Red Mill GF flour or regular flour'); generic sweetener -> granulated Splenda; the 1 egg white authored as 33 g (one large white) since the library egg-white has no count equivalence; sprinkles ('to taste') omitted so it reads as a clean unfrosted-chassis sibling to the other crumbl cookies. Component keys aligned with the Birthday Cake base so compare row-aligns and promote can graft by key. Not yet made.",
+      "tags": [
+        "crumbl",
+        "cookie",
+        "protein",
+        "frosted",
+        "base-candidate"
+      ],
+      "yield": {
+        "amount": 5,
+        "unit": "cookies"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "create recipe",
+      "content": {
+        "steps": [
+          {
+            "componentKey": "b1",
+            "order": 1,
+            "section": "Cookie",
+            "instructionText": "Mix the dry ingredients together — flour, vanilla protein, Splenda, baking powder."
+          },
+          {
+            "componentKey": "b2",
+            "order": 2,
+            "section": "Cookie",
+            "instructionText": "Add the wet ingredients (egg, egg white, melted butter, almond milk, vanilla) to the dry and mix to a dough."
+          },
+          {
+            "componentKey": "b3",
+            "order": 3,
+            "section": "Cookie",
+            "instructionText": "Coat your hands in flour to make the dough easier to shape; divide into 5 cookies on a lined sheet."
+          },
+          {
+            "componentKey": "b4",
+            "order": 4,
+            "section": "Cookie",
+            "temperature": 350,
+            "timerSeconds": 600,
+            "instructionText": "Bake at 350F for 10 minutes."
+          },
+          {
+            "componentKey": "b5",
+            "order": 5,
+            "section": "Cookie",
+            "timerSeconds": 900,
+            "instructionText": "Allow the cookies to cool fully before frosting."
+          },
+          {
+            "componentKey": "b6",
+            "order": 6,
+            "section": "Frosting",
+            "instructionText": "Mix the Greek yogurt, SF vanilla pudding mix, vanilla, and a dash of salt into a frosting; spread on the cooled cookies (add sprinkles to taste)."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-baking-powder",
+            "name": "baking powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-baking-powder"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-butter",
+            "name": "melted butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-almond-milk",
+            "name": "unsweetened almond milk",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-almond-milk-unsweetened"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-frost-yogurt",
+            "name": "nonfat Greek yogurt (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-frost-pudding",
+            "name": "SF vanilla pudding mix (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-frost-vanilla",
+            "name": "vanilla extract (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-frost-salt",
+            "name": "salt (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-flour",
+            "stepKey": "b1",
+            "slotKey": "sl-flour",
+            "quantityValue": 1,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "b1",
+            "slotKey": "sl-protein",
+            "quantityValue": 3,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "b1",
+            "slotKey": "sl-splenda",
+            "quantityValue": 0.25,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-baking-powder",
+            "stepKey": "b1",
+            "slotKey": "sl-baking-powder",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "b2",
+            "slotKey": "sl-egg",
+            "quantityValue": 1,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "b2",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 33,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-butter",
+            "stepKey": "b2",
+            "slotKey": "sl-butter",
+            "quantityValue": 2,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-almond-milk",
+            "stepKey": "b2",
+            "slotKey": "sl-almond-milk",
+            "quantityValue": 0.25,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "b2",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 0.5,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-f-yogurt",
+            "stepKey": "b6",
+            "slotKey": "sl-frost-yogurt",
+            "quantityValue": 1,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-f-pudding",
+            "stepKey": "b6",
+            "slotKey": "sl-frost-pudding",
+            "quantityValue": 1,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-f-vanilla",
+            "stepKey": "b6",
+            "slotKey": "sl-frost-vanilla",
+            "quantityValue": 0.25,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-f-salt",
+            "stepKey": "b6",
+            "slotKey": "sl-frost-salt",
+            "quantityValue": 1,
+            "quantityUnit": "pinch"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1208.93,
+          "protein": 131.2,
+          "carbs": 120.55,
+          "fat": 18.44,
+          "fiber": 4.88
+        },
+        "perServing": {
+          "calories": 241.79,
+          "protein": 26.24,
+          "carbs": 24.11,
+          "fat": 3.69,
+          "fiber": 0.98
+        },
+        "yield": {
+          "amount": 5,
+          "unit": "cookies"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 125,
+            "macros": {
+              "calories": 455,
+              "protein": 12.5,
+              "carbs": 95,
+              "fat": 1.25,
+              "fiber": 3.38
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 99,
+            "macros": {
+              "calories": 402,
+              "protein": 84.15,
+              "carbs": 5.94,
+              "fat": 2.97,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 5.97,
+            "macros": {
+              "calories": 23.9,
+              "protein": 0,
+              "carbs": 5.97,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-baking-powder",
+            "ingredientId": "ing-baking-powder",
+            "ingredientName": "baking powder",
+            "grams": 4,
+            "macros": {
+              "calories": 2.12,
+              "protein": 0,
+              "carbs": 1.12,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 33,
+            "macros": {
+              "calories": 17.16,
+              "protein": 3.63,
+              "carbs": 0.23,
+              "fat": 0.07,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 9.4,
+            "macros": {
+              "calories": 67.4,
+              "protein": 0.08,
+              "carbs": 0.01,
+              "fat": 7.61,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-almond-milk",
+            "ingredientId": "ing-almond-milk-unsweetened",
+            "ingredientName": "unsweetened almond milk",
+            "grams": 59.15,
+            "macros": {
+              "calories": 8.87,
+              "protein": 0.3,
+              "carbs": 0.35,
+              "fat": 0.71,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 2.17,
+            "macros": {
+              "calories": 6.25,
+              "protein": 0,
+              "carbs": 0.28,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 240,
+            "macros": {
+              "calories": 141.6,
+              "protein": 24,
+              "carbs": 8.64,
+              "fat": 0.96,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 6,
+            "macros": {
+              "calories": 10.02,
+              "protein": 0.24,
+              "carbs": 2.52,
+              "fat": 0.12,
+              "fiber": 1.5
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 1.08,
+            "macros": {
+              "calories": 3.12,
+              "protein": 0,
+              "carbs": 0.14,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          }
+        ]
+      },
+      "createdAt": "2026-06-16T03:48:03.295Z"
+    },
+    "045b2fad-a2b5-4386-9a73-84262ba75779": {
+      "id": "045b2fad-a2b5-4386-9a73-84262ba75779",
+      "recipeId": "f842a447-536b-4dbc-ac51-79637ae8c706",
+      "name": "Crumbl Base Protein Cookie",
+      "description": "Flavor-neutral champion base for the crumbl protein-cookie family, synthesized from the set: Birthday Cake (excellent) contributes the soft-crumb cornstarch trick + the inline yogurt/Cool-Whip frosting + the lean chassis; Lemon (excellent) corroborates cornstarch; the 20g Protein Frosted newcomer contributes the protein-loading lever (dialed to a measured 2 scoops, not its texture-risky 3-in-5) and the lean egg white for structure. Vanilla-only — no almond extract / sprinkles / lemon / cocoa, so flavors derive cleanly off it. Cornstarch and egg white are NOT authored here; they are grafted in via promote so the lineage records where each winning component came from. Sweetener is granulated Splenda. Not yet made.",
+      "tags": [
+        "crumbl",
+        "cookie",
+        "protein",
+        "base",
+        "champion"
+      ],
+      "yield": {
+        "amount": 6,
+        "unit": "cookies"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "create recipe",
+      "content": {
+        "steps": [
+          {
+            "componentKey": "b1",
+            "order": 1,
+            "section": "Cookie",
+            "instructionText": "Mix the dry ingredients into a bowl — flour, vanilla protein, Splenda, baking powder, salt."
+          },
+          {
+            "componentKey": "b2",
+            "order": 2,
+            "section": "Cookie",
+            "instructionText": "Add the wet ingredients — egg, melted butter, Greek yogurt, almond milk, vanilla — and mix to a dough. If dry, add the almond milk 1 tsp at a time until it just comes together."
+          },
+          {
+            "componentKey": "b3",
+            "order": 3,
+            "section": "Cookie",
+            "instructionText": "Chill 20-30 min, then scoop onto a lined sheet, wet hands, and flatten (this dough barely spreads)."
+          },
+          {
+            "componentKey": "b4",
+            "order": 4,
+            "section": "Cookie",
+            "temperature": 350,
+            "timerSeconds": 540,
+            "instructionText": "Bake at 350F for ~9 minutes — pull while the centers still look soft; they firm up as they cool."
+          },
+          {
+            "componentKey": "b5",
+            "order": 5,
+            "section": "Frosting",
+            "instructionText": "Cool the cookies fully. Beat the frosting ingredients smooth, chill, then frost."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-baking-powder",
+            "name": "baking powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-baking-powder"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-butter",
+            "name": "melted butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-yogurt",
+            "name": "nonfat Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-almond-milk",
+            "name": "unsweetened almond milk",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-almond-milk-unsweetened"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-frost-yogurt",
+            "name": "nonfat Greek yogurt (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-frost-coolwhip",
+            "name": "zero-sugar Cool Whip (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cool-whip-zero"
+            }
+          },
+          {
+            "componentKey": "sl-frost-protein",
+            "name": "vanilla protein powder (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-frost-pudding",
+            "name": "SF vanilla pudding mix (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-frost-splenda",
+            "name": "granulated Splenda (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-frost-salt",
+            "name": "salt (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-flour",
+            "stepKey": "b1",
+            "slotKey": "sl-flour",
+            "quantityValue": 11,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "b1",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "b1",
+            "slotKey": "sl-splenda",
+            "quantityValue": 0.333,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-baking-powder",
+            "stepKey": "b1",
+            "slotKey": "sl-baking-powder",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "b1",
+            "slotKey": "sl-salt",
+            "quantityValue": 0.25,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "b2",
+            "slotKey": "sl-egg",
+            "quantityValue": 1,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-butter",
+            "stepKey": "b2",
+            "slotKey": "sl-butter",
+            "quantityValue": 1,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "b2",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 0.25,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-almond-milk",
+            "stepKey": "b2",
+            "slotKey": "sl-almond-milk",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "b2",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-f-yogurt",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-yogurt",
+            "quantityValue": 0.5,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-f-coolwhip",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-coolwhip",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-f-protein",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-protein",
+            "quantityValue": 0.25,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-f-pudding",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-pudding",
+            "quantityValue": 0.5,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-f-splenda",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-splenda",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-f-salt",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-salt",
+            "quantityValue": 1,
+            "quantityUnit": "pinch"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 966.23,
+          "protein": 96.38,
+          "carbs": 90.04,
+          "fat": 21.46,
+          "fiber": 3.07
+        },
+        "perServing": {
+          "calories": 161.04,
+          "protein": 16.06,
+          "carbs": 15.01,
+          "fat": 3.58,
+          "fiber": 0.51
+        },
+        "yield": {
+          "amount": 6,
+          "unit": "cookies"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 85.8,
+            "macros": {
+              "calories": 312.31,
+              "protein": 8.58,
+              "carbs": 65.21,
+              "fat": 0.86,
+              "fiber": 2.32
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 7.96,
+            "macros": {
+              "calories": 31.83,
+              "protein": 0,
+              "carbs": 7.96,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-baking-powder",
+            "ingredientId": "ing-baking-powder",
+            "ingredientName": "baking powder",
+            "grams": 4,
+            "macros": {
+              "calories": 2.12,
+              "protein": 0,
+              "carbs": 1.12,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 1.5,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 14.2,
+            "macros": {
+              "calories": 101.81,
+              "protein": 0.12,
+              "carbs": 0.01,
+              "fat": 11.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 60,
+            "macros": {
+              "calories": 35.4,
+              "protein": 6,
+              "carbs": 2.16,
+              "fat": 0.24,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-almond-milk",
+            "ingredientId": "ing-almond-milk-unsweetened",
+            "ingredientName": "unsweetened almond milk",
+            "grams": 29.57,
+            "macros": {
+              "calories": 4.44,
+              "protein": 0.15,
+              "carbs": 0.18,
+              "fat": 0.35,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 120,
+            "macros": {
+              "calories": 70.8,
+              "protein": 12,
+              "carbs": 4.32,
+              "fat": 0.48,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-coolwhip",
+            "ingredientId": "ing-cool-whip-zero",
+            "ingredientName": "zero-sugar Cool Whip",
+            "grams": 9,
+            "macros": {
+              "calories": 15.03,
+              "protein": 0,
+              "carbs": 1.98,
+              "fat": 0.99,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 8.25,
+            "macros": {
+              "calories": 33.5,
+              "protein": 7.01,
+              "carbs": 0.5,
+              "fat": 0.25,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 3,
+            "macros": {
+              "calories": 5.01,
+              "protein": 0.12,
+              "carbs": 1.26,
+              "fat": 0.06,
+              "fiber": 0.75
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 0.5,
+            "macros": {
+              "calories": 1.99,
+              "protein": 0,
+              "carbs": 0.5,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          }
+        ]
+      },
+      "parentVersionIds": [
+        "3bae1868-1e58-4045-b066-4ad68e88871e",
+        "d43a3045-316e-402f-8602-16c006e8095b",
+        "0c57c6ce-1016-4500-9c95-b03c882c0c6f"
+      ],
+      "provenanceNote": "Cornstarch soft-crumb trick from Birthday Cake + Lemon (both excellent); protein-loading lever + lean egg white from the 20g Protein Frosted newcomer (dialed to 2 scoops to dodge the 3-in-5 pancake risk); Splenda + inline yogurt/Cool-Whip frosting common to the set.",
+      "createdAt": "2026-06-16T03:50:14.361Z"
+    },
+    "51e398bf-1806-4b5e-bf4e-728384499b0d": {
+      "id": "51e398bf-1806-4b5e-bf4e-728384499b0d",
+      "recipeId": "f842a447-536b-4dbc-ac51-79637ae8c706",
+      "name": "Crumbl Base Protein Cookie",
+      "description": "Flavor-neutral champion base for the crumbl protein-cookie family, synthesized from the set: Birthday Cake (excellent) contributes the soft-crumb cornstarch trick + the inline yogurt/Cool-Whip frosting + the lean chassis; Lemon (excellent) corroborates cornstarch; the 20g Protein Frosted newcomer contributes the protein-loading lever (dialed to a measured 2 scoops, not its texture-risky 3-in-5) and the lean egg white for structure. Vanilla-only — no almond extract / sprinkles / lemon / cocoa, so flavors derive cleanly off it. Cornstarch and egg white are NOT authored here; they are grafted in via promote so the lineage records where each winning component came from. Sweetener is granulated Splenda. Not yet made.",
+      "tags": [
+        "crumbl",
+        "cookie",
+        "protein",
+        "base",
+        "champion"
+      ],
+      "yield": {
+        "amount": 6,
+        "unit": "cookies"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "Graft soft-crumb cornstarch from Birthday Cake (excellent)",
+      "content": {
+        "steps": [
+          {
+            "componentKey": "b1",
+            "order": 1,
+            "section": "Cookie",
+            "instructionText": "Mix the dry ingredients into a bowl — flour, vanilla protein, Splenda, baking powder, salt."
+          },
+          {
+            "componentKey": "b2",
+            "order": 2,
+            "section": "Cookie",
+            "instructionText": "Add the wet ingredients — egg, melted butter, Greek yogurt, almond milk, vanilla — and mix to a dough. If dry, add the almond milk 1 tsp at a time until it just comes together."
+          },
+          {
+            "componentKey": "b3",
+            "order": 3,
+            "section": "Cookie",
+            "instructionText": "Chill 20-30 min, then scoop onto a lined sheet, wet hands, and flatten (this dough barely spreads)."
+          },
+          {
+            "componentKey": "b4",
+            "order": 4,
+            "section": "Cookie",
+            "temperature": 350,
+            "timerSeconds": 540,
+            "instructionText": "Bake at 350F for ~9 minutes — pull while the centers still look soft; they firm up as they cool."
+          },
+          {
+            "componentKey": "b5",
+            "order": 5,
+            "section": "Frosting",
+            "instructionText": "Cool the cookies fully. Beat the frosting ingredients smooth, chill, then frost."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-baking-powder",
+            "name": "baking powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-baking-powder"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-butter",
+            "name": "melted butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-yogurt",
+            "name": "nonfat Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-almond-milk",
+            "name": "unsweetened almond milk",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-almond-milk-unsweetened"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-frost-yogurt",
+            "name": "nonfat Greek yogurt (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-frost-coolwhip",
+            "name": "zero-sugar Cool Whip (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cool-whip-zero"
+            }
+          },
+          {
+            "componentKey": "sl-frost-protein",
+            "name": "vanilla protein powder (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-frost-pudding",
+            "name": "SF vanilla pudding mix (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-frost-splenda",
+            "name": "granulated Splenda (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-frost-salt",
+            "name": "salt (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-cornstarch",
+            "name": "cornstarch",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cornstarch"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-flour",
+            "stepKey": "b1",
+            "slotKey": "sl-flour",
+            "quantityValue": 11,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "b1",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "b1",
+            "slotKey": "sl-splenda",
+            "quantityValue": 0.333,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-baking-powder",
+            "stepKey": "b1",
+            "slotKey": "sl-baking-powder",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "b1",
+            "slotKey": "sl-salt",
+            "quantityValue": 0.25,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "b2",
+            "slotKey": "sl-egg",
+            "quantityValue": 1,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-butter",
+            "stepKey": "b2",
+            "slotKey": "sl-butter",
+            "quantityValue": 1,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "b2",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 0.25,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-almond-milk",
+            "stepKey": "b2",
+            "slotKey": "sl-almond-milk",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "b2",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-f-yogurt",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-yogurt",
+            "quantityValue": 0.5,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-f-coolwhip",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-coolwhip",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-f-protein",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-protein",
+            "quantityValue": 0.25,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-f-pudding",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-pudding",
+            "quantityValue": 0.5,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-f-splenda",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-splenda",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-f-salt",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-salt",
+            "quantityValue": 1,
+            "quantityUnit": "pinch"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 966.23,
+          "protein": 96.38,
+          "carbs": 90.04,
+          "fat": 21.46,
+          "fiber": 3.07
+        },
+        "perServing": {
+          "calories": 161.04,
+          "protein": 16.06,
+          "carbs": 15.01,
+          "fat": 3.58,
+          "fiber": 0.51
+        },
+        "yield": {
+          "amount": 6,
+          "unit": "cookies"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 85.8,
+            "macros": {
+              "calories": 312.31,
+              "protein": 8.58,
+              "carbs": 65.21,
+              "fat": 0.86,
+              "fiber": 2.32
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 7.96,
+            "macros": {
+              "calories": 31.83,
+              "protein": 0,
+              "carbs": 7.96,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-baking-powder",
+            "ingredientId": "ing-baking-powder",
+            "ingredientName": "baking powder",
+            "grams": 4,
+            "macros": {
+              "calories": 2.12,
+              "protein": 0,
+              "carbs": 1.12,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 1.5,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 14.2,
+            "macros": {
+              "calories": 101.81,
+              "protein": 0.12,
+              "carbs": 0.01,
+              "fat": 11.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 60,
+            "macros": {
+              "calories": 35.4,
+              "protein": 6,
+              "carbs": 2.16,
+              "fat": 0.24,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-almond-milk",
+            "ingredientId": "ing-almond-milk-unsweetened",
+            "ingredientName": "unsweetened almond milk",
+            "grams": 29.57,
+            "macros": {
+              "calories": 4.44,
+              "protein": 0.15,
+              "carbs": 0.18,
+              "fat": 0.35,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 120,
+            "macros": {
+              "calories": 70.8,
+              "protein": 12,
+              "carbs": 4.32,
+              "fat": 0.48,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-coolwhip",
+            "ingredientId": "ing-cool-whip-zero",
+            "ingredientName": "zero-sugar Cool Whip",
+            "grams": 9,
+            "macros": {
+              "calories": 15.03,
+              "protein": 0,
+              "carbs": 1.98,
+              "fat": 0.99,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 8.25,
+            "macros": {
+              "calories": 33.5,
+              "protein": 7.01,
+              "carbs": 0.5,
+              "fat": 0.25,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 3,
+            "macros": {
+              "calories": 5.01,
+              "protein": 0.12,
+              "carbs": 1.26,
+              "fat": 0.06,
+              "fiber": 0.75
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 0.5,
+            "macros": {
+              "calories": 1.99,
+              "protein": 0,
+              "carbs": 0.5,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          }
+        ]
+      },
+      "parentVersionIds": [
+        "3bae1868-1e58-4045-b066-4ad68e88871e",
+        "d43a3045-316e-402f-8602-16c006e8095b",
+        "0c57c6ce-1016-4500-9c95-b03c882c0c6f"
+      ],
+      "provenanceNote": "Cornstarch soft-crumb trick from Birthday Cake + Lemon (both excellent); protein-loading lever + lean egg white from the 20g Protein Frosted newcomer (dialed to 2 scoops to dodge the 3-in-5 pancake risk); Splenda + inline yogurt/Cool-Whip frosting common to the set.",
+      "createdAt": "2026-06-16T03:50:23.887Z",
+      "prevVersionId": "045b2fad-a2b5-4386-9a73-84262ba75779"
+    },
+    "1060a620-7099-4d9e-8564-01228ea66c9d": {
+      "id": "1060a620-7099-4d9e-8564-01228ea66c9d",
+      "recipeId": "f842a447-536b-4dbc-ac51-79637ae8c706",
+      "name": "Crumbl Base Protein Cookie",
+      "description": "Flavor-neutral champion base for the crumbl protein-cookie family, synthesized from the set: Birthday Cake (excellent) contributes the soft-crumb cornstarch trick + the inline yogurt/Cool-Whip frosting + the lean chassis; Lemon (excellent) corroborates cornstarch; the 20g Protein Frosted newcomer contributes the protein-loading lever (dialed to a measured 2 scoops, not its texture-risky 3-in-5) and the lean egg white for structure. Vanilla-only — no almond extract / sprinkles / lemon / cocoa, so flavors derive cleanly off it. Cornstarch and egg white are NOT authored here; they are grafted in via promote so the lineage records where each winning component came from. Sweetener is granulated Splenda. Not yet made.",
+      "tags": [
+        "crumbl",
+        "cookie",
+        "protein",
+        "base",
+        "champion"
+      ],
+      "yield": {
+        "amount": 6,
+        "unit": "cookies"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "Graft soft-crumb cornstarch from Birthday Cake (excellent)",
+      "content": {
+        "steps": [
+          {
+            "componentKey": "b1",
+            "order": 1,
+            "section": "Cookie",
+            "instructionText": "Mix the dry ingredients into a bowl — flour, vanilla protein, Splenda, baking powder, salt."
+          },
+          {
+            "componentKey": "b2",
+            "order": 2,
+            "section": "Cookie",
+            "instructionText": "Add the wet ingredients — egg, melted butter, Greek yogurt, almond milk, vanilla — and mix to a dough. If dry, add the almond milk 1 tsp at a time until it just comes together."
+          },
+          {
+            "componentKey": "b3",
+            "order": 3,
+            "section": "Cookie",
+            "instructionText": "Chill 20-30 min, then scoop onto a lined sheet, wet hands, and flatten (this dough barely spreads)."
+          },
+          {
+            "componentKey": "b4",
+            "order": 4,
+            "section": "Cookie",
+            "temperature": 350,
+            "timerSeconds": 540,
+            "instructionText": "Bake at 350F for ~9 minutes — pull while the centers still look soft; they firm up as they cool."
+          },
+          {
+            "componentKey": "b5",
+            "order": 5,
+            "section": "Frosting",
+            "instructionText": "Cool the cookies fully. Beat the frosting ingredients smooth, chill, then frost."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-baking-powder",
+            "name": "baking powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-baking-powder"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-butter",
+            "name": "melted butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-yogurt",
+            "name": "nonfat Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-almond-milk",
+            "name": "unsweetened almond milk",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-almond-milk-unsweetened"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-frost-yogurt",
+            "name": "nonfat Greek yogurt (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-frost-coolwhip",
+            "name": "zero-sugar Cool Whip (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cool-whip-zero"
+            }
+          },
+          {
+            "componentKey": "sl-frost-protein",
+            "name": "vanilla protein powder (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-frost-pudding",
+            "name": "SF vanilla pudding mix (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-frost-splenda",
+            "name": "granulated Splenda (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-frost-salt",
+            "name": "salt (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-cornstarch",
+            "name": "cornstarch",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cornstarch"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-flour",
+            "stepKey": "b1",
+            "slotKey": "sl-flour",
+            "quantityValue": 11,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "b1",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "b1",
+            "slotKey": "sl-splenda",
+            "quantityValue": 0.333,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-baking-powder",
+            "stepKey": "b1",
+            "slotKey": "sl-baking-powder",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "b1",
+            "slotKey": "sl-salt",
+            "quantityValue": 0.25,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "b2",
+            "slotKey": "sl-egg",
+            "quantityValue": 1,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-butter",
+            "stepKey": "b2",
+            "slotKey": "sl-butter",
+            "quantityValue": 1,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "b2",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 0.25,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-almond-milk",
+            "stepKey": "b2",
+            "slotKey": "sl-almond-milk",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "b2",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-f-yogurt",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-yogurt",
+            "quantityValue": 0.5,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-f-coolwhip",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-coolwhip",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-f-protein",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-protein",
+            "quantityValue": 0.25,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-f-pudding",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-pudding",
+            "quantityValue": 0.5,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-f-splenda",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-splenda",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-f-salt",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-salt",
+            "quantityValue": 1,
+            "quantityUnit": "pinch"
+          },
+          {
+            "componentKey": "u-cornstarch",
+            "stepKey": "b1",
+            "slotKey": "sl-cornstarch",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1027.19,
+          "protein": 96.43,
+          "carbs": 104.6,
+          "fat": 21.46,
+          "fiber": 3.23
+        },
+        "perServing": {
+          "calories": 171.2,
+          "protein": 16.07,
+          "carbs": 17.43,
+          "fat": 3.58,
+          "fiber": 0.54
+        },
+        "yield": {
+          "amount": 6,
+          "unit": "cookies"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 85.8,
+            "macros": {
+              "calories": 312.31,
+              "protein": 8.58,
+              "carbs": 65.21,
+              "fat": 0.86,
+              "fiber": 2.32
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 7.96,
+            "macros": {
+              "calories": 31.83,
+              "protein": 0,
+              "carbs": 7.96,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-baking-powder",
+            "ingredientId": "ing-baking-powder",
+            "ingredientName": "baking powder",
+            "grams": 4,
+            "macros": {
+              "calories": 2.12,
+              "protein": 0,
+              "carbs": 1.12,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 1.5,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 14.2,
+            "macros": {
+              "calories": 101.81,
+              "protein": 0.12,
+              "carbs": 0.01,
+              "fat": 11.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 60,
+            "macros": {
+              "calories": 35.4,
+              "protein": 6,
+              "carbs": 2.16,
+              "fat": 0.24,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-almond-milk",
+            "ingredientId": "ing-almond-milk-unsweetened",
+            "ingredientName": "unsweetened almond milk",
+            "grams": 29.57,
+            "macros": {
+              "calories": 4.44,
+              "protein": 0.15,
+              "carbs": 0.18,
+              "fat": 0.35,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 120,
+            "macros": {
+              "calories": 70.8,
+              "protein": 12,
+              "carbs": 4.32,
+              "fat": 0.48,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-coolwhip",
+            "ingredientId": "ing-cool-whip-zero",
+            "ingredientName": "zero-sugar Cool Whip",
+            "grams": 9,
+            "macros": {
+              "calories": 15.03,
+              "protein": 0,
+              "carbs": 1.98,
+              "fat": 0.99,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 8.25,
+            "macros": {
+              "calories": 33.5,
+              "protein": 7.01,
+              "carbs": 0.5,
+              "fat": 0.25,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 3,
+            "macros": {
+              "calories": 5.01,
+              "protein": 0.12,
+              "carbs": 1.26,
+              "fat": 0.06,
+              "fiber": 0.75
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 0.5,
+            "macros": {
+              "calories": 1.99,
+              "protein": 0,
+              "carbs": 0.5,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cornstarch",
+            "ingredientId": "ing-cornstarch",
+            "ingredientName": "cornstarch",
+            "grams": 16,
+            "macros": {
+              "calories": 60.96,
+              "protein": 0.05,
+              "carbs": 14.56,
+              "fat": 0,
+              "fiber": 0.16
+            },
+            "status": "ok"
+          }
+        ]
+      },
+      "parentVersionIds": [
+        "3bae1868-1e58-4045-b066-4ad68e88871e",
+        "d43a3045-316e-402f-8602-16c006e8095b",
+        "0c57c6ce-1016-4500-9c95-b03c882c0c6f"
+      ],
+      "provenanceNote": "Cornstarch soft-crumb trick from Birthday Cake + Lemon (both excellent); protein-loading lever + lean egg white from the 20g Protein Frosted newcomer (dialed to 2 scoops to dodge the 3-in-5 pancake risk); Splenda + inline yogurt/Cool-Whip frosting common to the set.",
+      "createdAt": "2026-06-16T03:50:23.899Z",
+      "prevVersionId": "51e398bf-1806-4b5e-bf4e-728384499b0d"
+    },
+    "62a54b91-2380-4b17-8742-bf6563075105": {
+      "id": "62a54b91-2380-4b17-8742-bf6563075105",
+      "recipeId": "f842a447-536b-4dbc-ac51-79637ae8c706",
+      "name": "Crumbl Base Protein Cookie",
+      "description": "Flavor-neutral champion base for the crumbl protein-cookie family, synthesized from the set: Birthday Cake (excellent) contributes the soft-crumb cornstarch trick + the inline yogurt/Cool-Whip frosting + the lean chassis; Lemon (excellent) corroborates cornstarch; the 20g Protein Frosted newcomer contributes the protein-loading lever (dialed to a measured 2 scoops, not its texture-risky 3-in-5) and the lean egg white for structure. Vanilla-only — no almond extract / sprinkles / lemon / cocoa, so flavors derive cleanly off it. Cornstarch and egg white are NOT authored here; they are grafted in via promote so the lineage records where each winning component came from. Sweetener is granulated Splenda. Not yet made.",
+      "tags": [
+        "crumbl",
+        "cookie",
+        "protein",
+        "base",
+        "champion"
+      ],
+      "yield": {
+        "amount": 6,
+        "unit": "cookies"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "Graft lean egg white from the 20g newcomer (low-cal protein + structure)",
+      "content": {
+        "steps": [
+          {
+            "componentKey": "b1",
+            "order": 1,
+            "section": "Cookie",
+            "instructionText": "Mix the dry ingredients into a bowl — flour, vanilla protein, Splenda, baking powder, salt."
+          },
+          {
+            "componentKey": "b2",
+            "order": 2,
+            "section": "Cookie",
+            "instructionText": "Add the wet ingredients — egg, melted butter, Greek yogurt, almond milk, vanilla — and mix to a dough. If dry, add the almond milk 1 tsp at a time until it just comes together."
+          },
+          {
+            "componentKey": "b3",
+            "order": 3,
+            "section": "Cookie",
+            "instructionText": "Chill 20-30 min, then scoop onto a lined sheet, wet hands, and flatten (this dough barely spreads)."
+          },
+          {
+            "componentKey": "b4",
+            "order": 4,
+            "section": "Cookie",
+            "temperature": 350,
+            "timerSeconds": 540,
+            "instructionText": "Bake at 350F for ~9 minutes — pull while the centers still look soft; they firm up as they cool."
+          },
+          {
+            "componentKey": "b5",
+            "order": 5,
+            "section": "Frosting",
+            "instructionText": "Cool the cookies fully. Beat the frosting ingredients smooth, chill, then frost."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-baking-powder",
+            "name": "baking powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-baking-powder"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-butter",
+            "name": "melted butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-yogurt",
+            "name": "nonfat Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-almond-milk",
+            "name": "unsweetened almond milk",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-almond-milk-unsweetened"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-frost-yogurt",
+            "name": "nonfat Greek yogurt (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-frost-coolwhip",
+            "name": "zero-sugar Cool Whip (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cool-whip-zero"
+            }
+          },
+          {
+            "componentKey": "sl-frost-protein",
+            "name": "vanilla protein powder (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-frost-pudding",
+            "name": "SF vanilla pudding mix (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-frost-splenda",
+            "name": "granulated Splenda (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-frost-salt",
+            "name": "salt (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-cornstarch",
+            "name": "cornstarch",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cornstarch"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-flour",
+            "stepKey": "b1",
+            "slotKey": "sl-flour",
+            "quantityValue": 11,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "b1",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "b1",
+            "slotKey": "sl-splenda",
+            "quantityValue": 0.333,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-baking-powder",
+            "stepKey": "b1",
+            "slotKey": "sl-baking-powder",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "b1",
+            "slotKey": "sl-salt",
+            "quantityValue": 0.25,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "b2",
+            "slotKey": "sl-egg",
+            "quantityValue": 1,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-butter",
+            "stepKey": "b2",
+            "slotKey": "sl-butter",
+            "quantityValue": 1,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "b2",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 0.25,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-almond-milk",
+            "stepKey": "b2",
+            "slotKey": "sl-almond-milk",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "b2",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-f-yogurt",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-yogurt",
+            "quantityValue": 0.5,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-f-coolwhip",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-coolwhip",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-f-protein",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-protein",
+            "quantityValue": 0.25,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-f-pudding",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-pudding",
+            "quantityValue": 0.5,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-f-splenda",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-splenda",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-f-salt",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-salt",
+            "quantityValue": 1,
+            "quantityUnit": "pinch"
+          },
+          {
+            "componentKey": "u-cornstarch",
+            "stepKey": "b1",
+            "slotKey": "sl-cornstarch",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1027.19,
+          "protein": 96.43,
+          "carbs": 104.6,
+          "fat": 21.46,
+          "fiber": 3.23
+        },
+        "perServing": {
+          "calories": 171.2,
+          "protein": 16.07,
+          "carbs": 17.43,
+          "fat": 3.58,
+          "fiber": 0.54
+        },
+        "yield": {
+          "amount": 6,
+          "unit": "cookies"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 85.8,
+            "macros": {
+              "calories": 312.31,
+              "protein": 8.58,
+              "carbs": 65.21,
+              "fat": 0.86,
+              "fiber": 2.32
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 7.96,
+            "macros": {
+              "calories": 31.83,
+              "protein": 0,
+              "carbs": 7.96,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-baking-powder",
+            "ingredientId": "ing-baking-powder",
+            "ingredientName": "baking powder",
+            "grams": 4,
+            "macros": {
+              "calories": 2.12,
+              "protein": 0,
+              "carbs": 1.12,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 1.5,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 14.2,
+            "macros": {
+              "calories": 101.81,
+              "protein": 0.12,
+              "carbs": 0.01,
+              "fat": 11.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 60,
+            "macros": {
+              "calories": 35.4,
+              "protein": 6,
+              "carbs": 2.16,
+              "fat": 0.24,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-almond-milk",
+            "ingredientId": "ing-almond-milk-unsweetened",
+            "ingredientName": "unsweetened almond milk",
+            "grams": 29.57,
+            "macros": {
+              "calories": 4.44,
+              "protein": 0.15,
+              "carbs": 0.18,
+              "fat": 0.35,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 120,
+            "macros": {
+              "calories": 70.8,
+              "protein": 12,
+              "carbs": 4.32,
+              "fat": 0.48,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-coolwhip",
+            "ingredientId": "ing-cool-whip-zero",
+            "ingredientName": "zero-sugar Cool Whip",
+            "grams": 9,
+            "macros": {
+              "calories": 15.03,
+              "protein": 0,
+              "carbs": 1.98,
+              "fat": 0.99,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 8.25,
+            "macros": {
+              "calories": 33.5,
+              "protein": 7.01,
+              "carbs": 0.5,
+              "fat": 0.25,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 3,
+            "macros": {
+              "calories": 5.01,
+              "protein": 0.12,
+              "carbs": 1.26,
+              "fat": 0.06,
+              "fiber": 0.75
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 0.5,
+            "macros": {
+              "calories": 1.99,
+              "protein": 0,
+              "carbs": 0.5,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cornstarch",
+            "ingredientId": "ing-cornstarch",
+            "ingredientName": "cornstarch",
+            "grams": 16,
+            "macros": {
+              "calories": 60.96,
+              "protein": 0.05,
+              "carbs": 14.56,
+              "fat": 0,
+              "fiber": 0.16
+            },
+            "status": "ok"
+          }
+        ]
+      },
+      "parentVersionIds": [
+        "3bae1868-1e58-4045-b066-4ad68e88871e",
+        "d43a3045-316e-402f-8602-16c006e8095b",
+        "0c57c6ce-1016-4500-9c95-b03c882c0c6f"
+      ],
+      "provenanceNote": "Cornstarch soft-crumb trick from Birthday Cake + Lemon (both excellent); protein-loading lever + lean egg white from the 20g Protein Frosted newcomer (dialed to 2 scoops to dodge the 3-in-5 pancake risk); Splenda + inline yogurt/Cool-Whip frosting common to the set.",
+      "createdAt": "2026-06-16T03:50:30.919Z",
+      "prevVersionId": "1060a620-7099-4d9e-8564-01228ea66c9d"
+    },
+    "223cb5d2-8eff-4876-b8cd-a3507edc556e": {
+      "id": "223cb5d2-8eff-4876-b8cd-a3507edc556e",
+      "recipeId": "f842a447-536b-4dbc-ac51-79637ae8c706",
+      "name": "Crumbl Base Protein Cookie",
+      "description": "Flavor-neutral champion base for the crumbl protein-cookie family, synthesized from the set: Birthday Cake (excellent) contributes the soft-crumb cornstarch trick + the inline yogurt/Cool-Whip frosting + the lean chassis; Lemon (excellent) corroborates cornstarch; the 20g Protein Frosted newcomer contributes the protein-loading lever (dialed to a measured 2 scoops, not its texture-risky 3-in-5) and the lean egg white for structure. Vanilla-only — no almond extract / sprinkles / lemon / cocoa, so flavors derive cleanly off it. Cornstarch and egg white are NOT authored here; they are grafted in via promote so the lineage records where each winning component came from. Sweetener is granulated Splenda. Not yet made.",
+      "tags": [
+        "crumbl",
+        "cookie",
+        "protein",
+        "base",
+        "champion"
+      ],
+      "yield": {
+        "amount": 6,
+        "unit": "cookies"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "Graft lean egg white from the 20g newcomer (low-cal protein + structure)",
+      "content": {
+        "steps": [
+          {
+            "componentKey": "b1",
+            "order": 1,
+            "section": "Cookie",
+            "instructionText": "Mix the dry ingredients into a bowl — flour, vanilla protein, Splenda, baking powder, salt."
+          },
+          {
+            "componentKey": "b2",
+            "order": 2,
+            "section": "Cookie",
+            "instructionText": "Add the wet ingredients — egg, melted butter, Greek yogurt, almond milk, vanilla — and mix to a dough. If dry, add the almond milk 1 tsp at a time until it just comes together."
+          },
+          {
+            "componentKey": "b3",
+            "order": 3,
+            "section": "Cookie",
+            "instructionText": "Chill 20-30 min, then scoop onto a lined sheet, wet hands, and flatten (this dough barely spreads)."
+          },
+          {
+            "componentKey": "b4",
+            "order": 4,
+            "section": "Cookie",
+            "temperature": 350,
+            "timerSeconds": 540,
+            "instructionText": "Bake at 350F for ~9 minutes — pull while the centers still look soft; they firm up as they cool."
+          },
+          {
+            "componentKey": "b5",
+            "order": 5,
+            "section": "Frosting",
+            "instructionText": "Cool the cookies fully. Beat the frosting ingredients smooth, chill, then frost."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-baking-powder",
+            "name": "baking powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-baking-powder"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-butter",
+            "name": "melted butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-yogurt",
+            "name": "nonfat Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-almond-milk",
+            "name": "unsweetened almond milk",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-almond-milk-unsweetened"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-frost-yogurt",
+            "name": "nonfat Greek yogurt (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-frost-coolwhip",
+            "name": "zero-sugar Cool Whip (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cool-whip-zero"
+            }
+          },
+          {
+            "componentKey": "sl-frost-protein",
+            "name": "vanilla protein powder (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-frost-pudding",
+            "name": "SF vanilla pudding mix (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-frost-splenda",
+            "name": "granulated Splenda (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-frost-salt",
+            "name": "salt (frosting)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-cornstarch",
+            "name": "cornstarch",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cornstarch"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-flour",
+            "stepKey": "b1",
+            "slotKey": "sl-flour",
+            "quantityValue": 11,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "b1",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "b1",
+            "slotKey": "sl-splenda",
+            "quantityValue": 0.333,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-baking-powder",
+            "stepKey": "b1",
+            "slotKey": "sl-baking-powder",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "b1",
+            "slotKey": "sl-salt",
+            "quantityValue": 0.25,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "b2",
+            "slotKey": "sl-egg",
+            "quantityValue": 1,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-butter",
+            "stepKey": "b2",
+            "slotKey": "sl-butter",
+            "quantityValue": 1,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "b2",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 0.25,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-almond-milk",
+            "stepKey": "b2",
+            "slotKey": "sl-almond-milk",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "b2",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-f-yogurt",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-yogurt",
+            "quantityValue": 0.5,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-f-coolwhip",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-coolwhip",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-f-protein",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-protein",
+            "quantityValue": 0.25,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-f-pudding",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-pudding",
+            "quantityValue": 0.5,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-f-splenda",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-splenda",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-f-salt",
+            "stepKey": "b5",
+            "slotKey": "sl-frost-salt",
+            "quantityValue": 1,
+            "quantityUnit": "pinch"
+          },
+          {
+            "componentKey": "u-cornstarch",
+            "stepKey": "b1",
+            "slotKey": "sl-cornstarch",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "b2",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 33,
+            "quantityUnit": "g"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1044.35,
+          "protein": 100.06,
+          "carbs": 104.84,
+          "fat": 21.53,
+          "fiber": 3.23
+        },
+        "perServing": {
+          "calories": 174.06,
+          "protein": 16.68,
+          "carbs": 17.47,
+          "fat": 3.59,
+          "fiber": 0.54
+        },
+        "yield": {
+          "amount": 6,
+          "unit": "cookies"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 85.8,
+            "macros": {
+              "calories": 312.31,
+              "protein": 8.58,
+              "carbs": 65.21,
+              "fat": 0.86,
+              "fiber": 2.32
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 7.96,
+            "macros": {
+              "calories": 31.83,
+              "protein": 0,
+              "carbs": 7.96,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-baking-powder",
+            "ingredientId": "ing-baking-powder",
+            "ingredientName": "baking powder",
+            "grams": 4,
+            "macros": {
+              "calories": 2.12,
+              "protein": 0,
+              "carbs": 1.12,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 1.5,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 14.2,
+            "macros": {
+              "calories": 101.81,
+              "protein": 0.12,
+              "carbs": 0.01,
+              "fat": 11.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 60,
+            "macros": {
+              "calories": 35.4,
+              "protein": 6,
+              "carbs": 2.16,
+              "fat": 0.24,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-almond-milk",
+            "ingredientId": "ing-almond-milk-unsweetened",
+            "ingredientName": "unsweetened almond milk",
+            "grams": 29.57,
+            "macros": {
+              "calories": 4.44,
+              "protein": 0.15,
+              "carbs": 0.18,
+              "fat": 0.35,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 120,
+            "macros": {
+              "calories": 70.8,
+              "protein": 12,
+              "carbs": 4.32,
+              "fat": 0.48,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-coolwhip",
+            "ingredientId": "ing-cool-whip-zero",
+            "ingredientName": "zero-sugar Cool Whip",
+            "grams": 9,
+            "macros": {
+              "calories": 15.03,
+              "protein": 0,
+              "carbs": 1.98,
+              "fat": 0.99,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 8.25,
+            "macros": {
+              "calories": 33.5,
+              "protein": 7.01,
+              "carbs": 0.5,
+              "fat": 0.25,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 3,
+            "macros": {
+              "calories": 5.01,
+              "protein": 0.12,
+              "carbs": 1.26,
+              "fat": 0.06,
+              "fiber": 0.75
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 0.5,
+            "macros": {
+              "calories": 1.99,
+              "protein": 0,
+              "carbs": 0.5,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-frost-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cornstarch",
+            "ingredientId": "ing-cornstarch",
+            "ingredientName": "cornstarch",
+            "grams": 16,
+            "macros": {
+              "calories": 60.96,
+              "protein": 0.05,
+              "carbs": 14.56,
+              "fat": 0,
+              "fiber": 0.16
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 33,
+            "macros": {
+              "calories": 17.16,
+              "protein": 3.63,
+              "carbs": 0.23,
+              "fat": 0.07,
+              "fiber": 0
+            },
+            "status": "ok"
+          }
+        ]
+      },
+      "parentVersionIds": [
+        "3bae1868-1e58-4045-b066-4ad68e88871e",
+        "d43a3045-316e-402f-8602-16c006e8095b",
+        "0c57c6ce-1016-4500-9c95-b03c882c0c6f"
+      ],
+      "provenanceNote": "Cornstarch soft-crumb trick from Birthday Cake + Lemon (both excellent); protein-loading lever + lean egg white from the 20g Protein Frosted newcomer (dialed to 2 scoops to dodge the 3-in-5 pancake risk); Splenda + inline yogurt/Cool-Whip frosting common to the set.",
+      "createdAt": "2026-06-16T03:50:30.931Z",
+      "prevVersionId": "62a54b91-2380-4b17-8742-bf6563075105"
     }
   },
   "ingredients": {
@@ -31401,6 +34793,26 @@
       "date": "2026-06-16T03:28:55.209Z",
       "author": "user",
       "createdAt": "2026-06-16T03:28:55.209Z"
+    },
+    "0a05f5b7-7849-4117-abe7-bf0b51a714af": {
+      "kind": "to-make",
+      "id": "0a05f5b7-7849-4117-abe7-bf0b51a714af",
+      "recipeId": "c8a66573-ffd8-4d00-bbc2-faf99135d9fd",
+      "versionId": "0c57c6ce-1016-4500-9c95-b03c882c0c6f",
+      "notes": "Test the <10 kcal/g-protein claim IRL — 3 scoops whey in 5 cookies is aggressive protein-loading; watch for dry/rubbery 'pancake' texture and whether the 1-cup-yogurt frosting reads as frosting or just wet.",
+      "date": "2026-06-16T03:48:20.941Z",
+      "author": "user",
+      "createdAt": "2026-06-16T03:48:20.941Z"
+    },
+    "09f71316-3bd0-41b0-84b6-2895fde84413": {
+      "kind": "to-make",
+      "id": "09f71316-3bd0-41b0-84b6-2895fde84413",
+      "recipeId": "f842a447-536b-4dbc-ac51-79637ae8c706",
+      "versionId": "223cb5d2-8eff-4876-b8cd-a3507edc556e",
+      "notes": "First bake of the synthesized champion base — confirm the cornstarch keeps it soft at 2 scoops protein, and that 174 kcal / 16.7 g protein eats like a real crumbl base. If texture holds, bump dough protein 2 -> 2.5 scoops to crack <10 kcal/g.",
+      "date": "2026-06-16T03:50:54.306Z",
+      "author": "user",
+      "createdAt": "2026-06-16T03:50:54.306Z"
     }
   }
 }

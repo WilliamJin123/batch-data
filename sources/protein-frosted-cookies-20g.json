@@ -1,0 +1,88 @@
+{
+  "name": "20g Protein Frosted Cookies",
+  "description": "Macro-friendly frosted protein cookie (Instagram) ingested as a crumbl base-chassis candidate. Notable for a claimed <10 kcal per g protein, achieved by protein-loading: 3 scoops whey in only 5 cookies plus a full cup of nonfat Greek yogurt in the frosting. Modeled with regular AP flour (source said 'Bob's Red Mill GF flour or regular flour'); generic sweetener -> granulated Splenda; the 1 egg white authored as 33 g (one large white) since the library egg-white has no count equivalence; sprinkles ('to taste') omitted so it reads as a clean unfrosted-chassis sibling to the other crumbl cookies. Component keys aligned with the Birthday Cake base so compare row-aligns and promote can graft by key. Not yet made.",
+  "tags": [
+    "crumbl",
+    "cookie",
+    "protein",
+    "frosted",
+    "base-candidate"
+  ],
+  "yield": {
+    "amount": 5,
+    "unit": "cookies"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "b1",
+        "order": 1,
+        "section": "Cookie",
+        "instructionText": "Mix the dry ingredients together — flour, vanilla protein, Splenda, baking powder."
+      },
+      {
+        "componentKey": "b2",
+        "order": 2,
+        "section": "Cookie",
+        "instructionText": "Add the wet ingredients (egg, egg white, melted butter, almond milk, vanilla) to the dry and mix to a dough."
+      },
+      {
+        "componentKey": "b3",
+        "order": 3,
+        "section": "Cookie",
+        "instructionText": "Coat your hands in flour to make the dough easier to shape; divide into 5 cookies on a lined sheet."
+      },
+      {
+        "componentKey": "b4",
+        "order": 4,
+        "section": "Cookie",
+        "temperature": 350,
+        "timerSeconds": 600,
+        "instructionText": "Bake at 350F for 10 minutes."
+      },
+      {
+        "componentKey": "b5",
+        "order": 5,
+        "section": "Cookie",
+        "timerSeconds": 900,
+        "instructionText": "Allow the cookies to cool fully before frosting."
+      },
+      {
+        "componentKey": "b6",
+        "order": 6,
+        "section": "Frosting",
+        "instructionText": "Mix the Greek yogurt, SF vanilla pudding mix, vanilla, and a dash of salt into a frosting; spread on the cooled cookies (add sprinkles to taste)."
+      }
+    ],
+    "slots": [
+      { "componentKey": "sl-flour", "name": "all-purpose flour", "resolution": { "kind": "raw", "libraryIngredientId": "ing-ap-flour" } },
+      { "componentKey": "sl-protein", "name": "vanilla protein powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-protein-vanilla" } },
+      { "componentKey": "sl-splenda", "name": "granulated Splenda", "resolution": { "kind": "raw", "libraryIngredientId": "ing-splenda-granulated" } },
+      { "componentKey": "sl-baking-powder", "name": "baking powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-baking-powder" } },
+      { "componentKey": "sl-egg", "name": "egg", "resolution": { "kind": "raw", "libraryIngredientId": "ing-egg-whole" } },
+      { "componentKey": "sl-egg-white", "name": "egg white", "resolution": { "kind": "raw", "libraryIngredientId": "ing-egg-white" } },
+      { "componentKey": "sl-butter", "name": "melted butter", "resolution": { "kind": "raw", "libraryIngredientId": "ing-butter" } },
+      { "componentKey": "sl-almond-milk", "name": "unsweetened almond milk", "resolution": { "kind": "raw", "libraryIngredientId": "ing-almond-milk-unsweetened" } },
+      { "componentKey": "sl-vanilla", "name": "vanilla extract", "resolution": { "kind": "raw", "libraryIngredientId": "ing-vanilla-extract" } },
+      { "componentKey": "sl-frost-yogurt", "name": "nonfat Greek yogurt (frosting)", "resolution": { "kind": "raw", "libraryIngredientId": "ing-greek-yogurt-nonfat" } },
+      { "componentKey": "sl-frost-pudding", "name": "SF vanilla pudding mix (frosting)", "resolution": { "kind": "raw", "libraryIngredientId": "ing-pudding-vanilla-sf" } },
+      { "componentKey": "sl-frost-vanilla", "name": "vanilla extract (frosting)", "resolution": { "kind": "raw", "libraryIngredientId": "ing-vanilla-extract" } },
+      { "componentKey": "sl-frost-salt", "name": "salt (frosting)", "resolution": { "kind": "raw", "libraryIngredientId": "ing-salt" } }
+    ],
+    "usages": [
+      { "componentKey": "u-flour", "stepKey": "b1", "slotKey": "sl-flour", "quantityValue": 1, "quantityUnit": "cup" },
+      { "componentKey": "u-protein", "stepKey": "b1", "slotKey": "sl-protein", "quantityValue": 3, "quantityUnit": "scoop" },
+      { "componentKey": "u-splenda", "stepKey": "b1", "slotKey": "sl-splenda", "quantityValue": 0.25, "quantityUnit": "cup" },
+      { "componentKey": "u-baking-powder", "stepKey": "b1", "slotKey": "sl-baking-powder", "quantityValue": 1, "quantityUnit": "tsp" },
+      { "componentKey": "u-egg", "stepKey": "b2", "slotKey": "sl-egg", "quantityValue": 1, "quantityUnit": "each" },
+      { "componentKey": "u-egg-white", "stepKey": "b2", "slotKey": "sl-egg-white", "quantityValue": 33, "quantityUnit": "g" },
+      { "componentKey": "u-butter", "stepKey": "b2", "slotKey": "sl-butter", "quantityValue": 2, "quantityUnit": "tsp" },
+      { "componentKey": "u-almond-milk", "stepKey": "b2", "slotKey": "sl-almond-milk", "quantityValue": 0.25, "quantityUnit": "cup" },
+      { "componentKey": "u-vanilla", "stepKey": "b2", "slotKey": "sl-vanilla", "quantityValue": 0.5, "quantityUnit": "tsp" },
+      { "componentKey": "u-f-yogurt", "stepKey": "b6", "slotKey": "sl-frost-yogurt", "quantityValue": 1, "quantityUnit": "cup" },
+      { "componentKey": "u-f-pudding", "stepKey": "b6", "slotKey": "sl-frost-pudding", "quantityValue": 1, "quantityUnit": "tbsp" },
+      { "componentKey": "u-f-vanilla", "stepKey": "b6", "slotKey": "sl-frost-vanilla", "quantityValue": 0.25, "quantityUnit": "tsp" },
+      { "componentKey": "u-f-salt", "stepKey": "b6", "slotKey": "sl-frost-salt", "quantityValue": 1, "quantityUnit": "pinch" }
+    ]
+  }
+}
