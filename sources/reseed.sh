@@ -1,70 +1,108 @@
 #!/usr/bin/env bash
-# Rebuild the whole recipe store from declarative sources INTO AN EMPTY STORE, e.g.:
+# Rebuild the WHOLE recipe store from declarative sources INTO AN EMPTY STORE, e.g.:
 #   BATCH_DB=/tmp/fresh/db.json bash reseed.sh
-# Rebuilds: 30 ingredients, 4 root cookies/cheesecakes, the banana variant, the
-# M3 frosting sub-recipe (extracted into Red Velvet), and the Cool-Whip frosting variant.
+#
+# Rebuilds, in dependency order: the ingredient library -> all root recipes ->
+# every variant (derive off its base + replay its override manifest) -> the Red Velvet
+# frosting composition -> the Turtle cheesecake (delegated to build-turtle.sh) -> the
+# full tasting-feedback log. Bases/sub-recipes are resolved BY NAME at apply time, so the
+# rebuild is deterministic even though version ids regenerate on every run.
+#
+# Note: Birthday Cake / Lemon / Lucky Charms are the CRUMBL-BASE variants (derived off
+# "Crumbl Base Protein Cookie"); the older standalone roots they replaced are retired.
 set -euo pipefail
 BATCH=/Users/williamjin/Documents/batch/batch
 DIR="$(cd "$(dirname "$0")" && pwd)"
+byname() { "$BATCH" list | jq -r --arg n "$1" '.[] | select(.name==$n) | .headVersionId'; }
+
+# build_variant <manifest.json> <baseVersionId> -> echoes the new head version id.
+# Derives a variant off the base, replays the override manifest (re-pinning any
+# {subRecipeRef:"<name>"} resolution to that recipe's current head), then applies metadata.
+build_variant() {
+  local vf="$1" base="$2" name v ref fid tags desc entry
+  name=$(jq -r '.name' "$vf")
+  v=$("$BATCH" derive "$base" -n "$name" | jq -r '.version.id')
+  while read -r entry; do
+    ref=$(echo "$entry" | jq -r '.payload.resolution.subRecipeRef // empty')
+    if [ -n "$ref" ]; then
+      fid=$(byname "$ref")
+      entry=$(echo "$entry" | jq -c --arg fid "$fid" '.payload.resolution={kind:"sub_recipe",subRecipeVersionId:$fid}')
+    fi
+    v=$(echo "$entry" | "$BATCH" override "$v" -m "reseed: $name" | jq -r '.version.id')
+  done < <(jq -c '.overrides[]' "$vf")
+  desc=$(jq -r '.description // empty' "$vf")
+  tags=$(jq -r 'if .tags then (.tags|join(",")) else empty end' "$vf")
+  if   [ -n "$desc" ] && [ -n "$tags" ]; then v=$("$BATCH" edit "$v" -d "$desc" -t "$tags" | jq -r '.version.id')
+  elif [ -n "$desc" ];                   then v=$("$BATCH" edit "$v" -d "$desc"          | jq -r '.version.id')
+  elif [ -n "$tags" ];                   then v=$("$BATCH" edit "$v" -t "$tags"          | jq -r '.version.id')
+  fi
+  echo "$v"
+}
 
 echo "seeding ingredients..."
 while read -r ing; do echo "$ing" | "$BATCH" ingredient add >/dev/null; done < <(jq -c '.[]' "$DIR/ingredients.json")
 
 echo "creating root recipes..."
-for f in vanilla-pumpkin-cheesecake red-velvet-cookies birthday-cake-cookies lemon-protein-cookies protein-cream-cheese-frosting browned-butter-cookies-gooey; do
-  "$BATCH" create --file "$DIR/$f.json" >/dev/null && echo "  + $f"
-done
+mkroot() { "$BATCH" create --file "$DIR/$1.json" | jq -r '.version.id'; }
+VP=$(mkroot vanilla-pumpkin-cheesecake);            echo "  + Vanilla Pumpkin Cheesecake"
+CRUMBL=$(mkroot crumbl-base-cookie);                echo "  + Crumbl Base Protein Cookie"
+BB=$(mkroot browned-butter-cookies-gooey);          echo "  + Browned-Butter Protein Cookies (gooey)"
+FROST=$(mkroot protein-cream-cheese-frosting);      echo "  + Protein Cream-Cheese Frosting"
+RV=$(mkroot red-velvet-cookies);                    echo "  + Red Velvet Protein Cookies"
+SUGAR=$(mkroot sugar-cookies);                      echo "  + High-Protein Anti-Pancake Sugar Cookies"
+NANAIMO=$(mkroot nanaimo-bars);                     echo "  + High-Protein Nanaimo Bars"
+ICS=$(mkroot ice-cream-sandwich);                   echo "  + Protein Ice Cream Sandwich"
+FROSTED20=$(mkroot protein-frosted-cookies-20g);    echo "  + 20g Protein Frosted Cookies"
+GIANT=$(mkroot giant-single-serve-protein-cookie);  echo "  + Giant Single-Serve Protein Cookie"
 
-echo "rebuilding banana variant..."
-VF="$DIR/banana-cheesecake.variant.json"
-BASE=$("$BATCH" list | jq -r '.[] | select(.name=="Vanilla Pumpkin Protein Cheesecake") | .headVersionId')
-V=$("$BATCH" derive "$BASE" -n "$(jq -r .name "$VF")" | jq -r '.version.id')
-while read -r entry; do V=$(echo "$entry" | "$BATCH" override "$V" -m "reseed override" | jq -r '.version.id'); done < <(jq -c '.overrides[]' "$VF")
-echo "  + banana variant -> $V"
+echo "deriving variants..."
+BANANA=$(build_variant "$DIR/banana-cheesecake.variant.json" "$VP");           echo "  + Banana Butterscotch Cinnamon Cheesecake"
+COOLWHIP=$(build_variant "$DIR/cool-whip-frosting.variant.json" "$FROST");     echo "  + Cool-Whip Protein Frosting"
+# The Crumbl base champion is frosted with the Cool-Whip frosting (a sub_recipe pin). The
+# source file's pin is a stale live id; re-pin it to the freshly-built Cool-Whip head, THEN
+# derive the flavor variants off the re-pinned base so they inherit a live (resolvable) pin.
+CRUMBL=$(echo '{}' | jq -c --arg id "$COOLWHIP" '{op:"replace",kind:"slot",target:"sl-frosting",payload:{componentKey:"sl-frosting",name:"vanilla protein frosting",resolution:{kind:"sub_recipe",subRecipeVersionId:$id}}}' | "$BATCH" override "$CRUMBL" -m "reseed: pin cool-whip frosting" | jq -r '.version.id')
+echo "  ~ Crumbl base frosting re-pinned -> Cool-Whip"
+BIRTHDAY=$(build_variant "$DIR/birthday-cake.variant.json" "$CRUMBL");         echo "  + Birthday Cake Protein Cookies (off Crumbl base)"
+LEMON=$(build_variant "$DIR/lemon.variant.json" "$CRUMBL");                    echo "  + Lemon Protein Cookies (off Crumbl base)"
+LUCKY=$(build_variant "$DIR/lucky-charms.variant.json" "$CRUMBL");             echo "  + Lucky Charms Protein Cookies (off Crumbl base)"
+CHEWY=$(build_variant "$DIR/browned-butter-cookies-chewy.variant.json" "$BB"); echo "  + Browned-Butter Protein Cookies (Soft-Chewy)"
+ABL50=$(build_variant "$DIR/browned-butter-cookies-50g.variant.json" "$BB");   echo "  + Browned-Butter Protein Cookies (50g protein)"
+ABL60=$(build_variant "$DIR/browned-butter-cookies-60g.variant.json" "$BB");   echo "  + Browned-Butter Protein Cookies (60g protein)"
 
-# --- M3 composition: extract Red Velvet's inline frosting into a sub-recipe, in place. ---
-# The frosting root is created above (in the roots loop); here we re-point Red Velvet at it.
-# The sub_recipe pin is resolved from the frosting's head BY NAME at apply time, so this
-# survives a fresh reseed (new ids) — the same name-resolution trick the banana base uses.
-echo "composing Red Velvet frosting (M3 in-place extraction)..."
-CF="$DIR/red-velvet.compose-frosting.json"
-FROST=$("$BATCH" list | jq -r '.[] | select(.name=="Protein Cream-Cheese Frosting") | .headVersionId')
-RV=$("$BATCH" list | jq -r '.[] | select(.name=="Red Velvet Protein Cookies") | .headVersionId')
+# --- M3 composition: replace Red Velvet's inline frosting with the frosting sub-recipe pin. ---
+echo "composing Red Velvet frosting..."
 while read -r entry; do
   entry=$(echo "$entry" | jq -c --arg fid "$FROST" 'if (.payload.resolution.subRecipeRef != null) then .payload.resolution = {kind:"sub_recipe", subRecipeVersionId:$fid} else . end')
   RV=$(echo "$entry" | "$BATCH" override "$RV" -m "reseed: compose frosting" | jq -r '.version.id')
-done < <(jq -c '.overrides[]' "$CF")
-echo "  + Red Velvet composed -> $RV"
+done < <(jq -c '.overrides[]' "$DIR/red-velvet.compose-frosting.json")
+echo "  + Red Velvet composed"
 
-# --- M3 frosting base->variant tree: Cool-Whip frosting derived from the cream-cheese root. ---
-echo "deriving Cool-Whip frosting variant..."
-CW="$DIR/cool-whip-frosting.variant.json"
-CWBASE=$("$BATCH" list | jq -r '.[] | select(.name=="Protein Cream-Cheese Frosting") | .headVersionId')
-CWV=$("$BATCH" derive "$CWBASE" -n "$(jq -r .name "$CW")" | jq -r '.version.id')
-while read -r entry; do CWV=$(echo "$entry" | "$BATCH" override "$CWV" -m "reseed: cool-whip" | jq -r '.version.id'); done < <(jq -c '.overrides[]' "$CW")
-echo "  + Cool-Whip frosting variant -> $CWV"
+# --- Turtle cheesecake: 3 sub-recipes + derive-off-base-cheesecake + compose (self-contained). ---
+echo "building Turtle cheesecake..."
+bash "$DIR/build-turtle.sh" >/dev/null
+TURTLE=$(byname "Turtle Protein Cheesecake")
+echo "  + Turtle Protein Cheesecake (+ 3 sub-recipes)"
 
-# --- Pure-procedure variant: the soft-chewy bake of the browned-butter cookie. ---
-# Same dough/ingredients/macros as the gooey base; only steps 4-6 (the bake) differ.
-echo "deriving soft-chewy cookie variant..."
-BB="$DIR/browned-butter-cookies-chewy.variant.json"
-BBASE=$("$BATCH" list | jq -r '.[] | select(.name=="Browned-Butter Protein Cookies") | .headVersionId')
-BV=$("$BATCH" derive "$BBASE" -n "$(jq -r .name "$BB")" | jq -r '.version.id')
-while read -r entry; do BV=$(echo "$entry" | "$BATCH" override "$BV" -m "reseed: soft-chewy" | jq -r '.version.id'); done < <(jq -c '.overrides[]' "$BB")
-BV=$("$BATCH" edit "$BV" -d "$(jq -r .description "$BB")" -t "$(jq -r '.tags|join(",")' "$BB")" | jq -r '.version.id')
-echo "  + soft-chewy variant -> $BV"
-
-# --- Tasting feedback: record the real verdicts so they reproduce. ---
-# Heads are resolved BY NAME at apply time, so this survives a fresh reseed (new ids).
-# Feedback is append-only and never writes a version (so it can't change any head id).
+# --- Tasting feedback: replay the real verdicts (append-only; never writes a version). ---
 echo "recording tasting feedback..."
-fbhead() { "$BATCH" list | jq -r --arg n "$1" '.[] | select(.name==$n) | .headVersionId'; }
-"$BATCH" feedback add "$(fbhead 'Red Velvet Protein Cookies')" --to-make -m "haven't made it yet" >/dev/null
-"$BATCH" feedback add "$(fbhead 'Banana Butterscotch Cinnamon Cheesecake')" --made --rating excellent >/dev/null
-"$BATCH" feedback add "$(fbhead 'Birthday Cake Protein Cookies')" --made --rating excellent >/dev/null
-"$BATCH" feedback add "$(fbhead 'Browned-Butter Protein Cookies')" --made --rating excellent >/dev/null
-LEM=$(fbhead 'Lemon Protein Cookies')
-"$BATCH" feedback add "$LEM" --made --rating excellent -m "cookie itself is great" >/dev/null
-# the cookie is excellent but the drizzle/glaze (step l5) needs work — a component-scoped verdict:
-"$BATCH" feedback add "$LEM" --made --component l5 --rating bad -m "glaze too weak/thin, needs work" >/dev/null
+fb() { "$BATCH" feedback add "$@" >/dev/null; }
+fb "$BB" --made --rating excellent
+fb "$SUGAR" --made --rating good -m "Good taste. Texture came out soft, not very dense as the recipe intends — acceptable, not much to be done about it."
+fb "$NANAIMO" --made --rating excellent
+fb "$ICS" --made --rating okay -m "Decent. Filling really wants a Ninja Creami churn for texture."
+fb "$BANANA" --made --rating excellent
+fb "$BIRTHDAY" --made --rating excellent
+fb "$LEMON" --made --rating excellent -m "cookie itself is great"
+fb "$LEMON" --made --component b5 --rating bad -m "glaze too weak/thin, needs work"
+fb "$LUCKY" --made --rating good
+fb "$CRUMBL" --to-make -m "First bake of the synthesized champion base — confirm the cornstarch keeps it soft at 2 scoops protein, and that 174 kcal / 16.7 g protein eats like a real crumbl base. If texture holds, bump dough protein 2 -> 2.5 scoops to crack <10 kcal/g."
+fb "$RV" --to-make -m "haven't made it yet"
+fb "$FROSTED20" --to-make -m "Test the <10 kcal/g-protein claim IRL — 3 scoops whey in 5 cookies is aggressive protein-loading; watch for dry/rubbery 'pancake' texture and whether the 1-cup-yogurt frosting reads as frosting or just wet."
+fb "$GIANT" --to-make -m "found on IG, untried - lean yogurt-based cookie"
+fb "$ABL50" --to-make -m "protein ablation — not baked yet"
+fb "$ABL60" --to-make -m "protein ablation — not baked yet"
+fb "$TURTLE" --to-make -m "first bake pending; ~11.1 cal/g protein, 210 cal/19 P per slice"
 echo "  + feedback recorded"
+
+echo "done — $("$BATCH" list | jq length) recipes."

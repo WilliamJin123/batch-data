@@ -1,0 +1,9 @@
+{
+  "name": "Browned-Butter Protein Cookies (60g protein)",
+  "tags": ["cookie", "protein", "browned-butter", "ablation", "protein-sweep"],
+  "yield": { "amount": 3, "unit": "cookies" },
+  "deriveFromRecipe": "Browned-Butter Protein Cookies",
+  "overrides": [
+    { "op": "replace", "kind": "usage", "target": "u-whey", "payload": { "componentKey": "u-whey", "stepKey": "s3", "slotKey": "sl-whey", "quantityValue": 60, "quantityUnit": "g" } }
+  ]
+}
