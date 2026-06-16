@@ -143,6 +143,12 @@
       "createdBy": "user",
       "createdAt": "2026-06-16T16:40:13.789Z",
       "headVersionId": "cee5ce40-a9f8-446f-90e7-c573a3a431d3"
+    },
+    "19c74627-6e6b-40d9-88d9-25b9d4b56aa3": {
+      "id": "19c74627-6e6b-40d9-88d9-25b9d4b56aa3",
+      "createdBy": "user",
+      "createdAt": "2026-06-16T18:57:51.909Z",
+      "headVersionId": "5e771431-9bb0-4b9f-b00b-0971ea533a44"
     }
   },
   "versions": {
@@ -97467,6 +97473,314 @@
       },
       "createdAt": "2026-06-16T17:17:33.025Z",
       "prevVersionId": "e6a8fec5-6bfb-4c9a-bb0a-df67c801e7e0"
+    },
+    "5e771431-9bb0-4b9f-b00b-0971ea533a44": {
+      "id": "5e771431-9bb0-4b9f-b00b-0971ea533a44",
+      "recipeId": "19c74627-6e6b-40d9-88d9-25b9d4b56aa3",
+      "name": "Giant Single-Serve Protein Cookie",
+      "description": "Yogurt-based high-protein cookie (no butter/sugar) found on Instagram, untried. Coconut flour subbed to oat flour; sugar-free chips to semi-sweet; 'zero cal sugar' to granulated Splenda. Chocolate chips unspecified in source — assumed 20g.",
+      "tags": [
+        "cookie",
+        "protein",
+        "chocolate-chip",
+        "yogurt-based",
+        "high-protein",
+        "to-try"
+      ],
+      "yield": {
+        "amount": 2,
+        "unit": "cookies"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "create recipe",
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Mix all the ingredients together until smooth, folding in the chocolate chips last."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Divide onto parchment paper and press each into a flat round so it bakes evenly."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Bake 7-9 minutes until the edges are set but the center is still soft.",
+            "temperature": 350
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "instructionText": "Let cool and enjoy."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-egg",
+            "name": "whole egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-oat",
+            "name": "oat flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-oat-flour"
+            }
+          },
+          {
+            "componentKey": "sl-ap",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-bp",
+            "name": "baking powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-baking-powder"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-chips",
+            "name": "semi-sweet chocolate chips",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-chocolate-chips-semisweet"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s1",
+            "slotKey": "sl-egg",
+            "quantityValue": 1,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-oat",
+            "stepKey": "s1",
+            "slotKey": "sl-oat",
+            "quantityValue": 25,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-ap",
+            "stepKey": "s1",
+            "slotKey": "sl-ap",
+            "quantityValue": 25,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s1",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 170,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-bp",
+            "stepKey": "s1",
+            "slotKey": "sl-bp",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "s1",
+            "slotKey": "sl-splenda",
+            "quantityValue": 3,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "s1",
+            "slotKey": "sl-protein",
+            "quantityValue": 37,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-chips",
+            "stepKey": "s1",
+            "slotKey": "sl-chips",
+            "quantityValue": 20,
+            "quantityUnit": "g"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 623.96,
+          "protein": 61.84,
+          "carbs": 61.09,
+          "fat": 15.04,
+          "fiber": 3.6
+        },
+        "perServing": {
+          "calories": 311.98,
+          "protein": 30.92,
+          "carbs": 30.55,
+          "fat": 7.52,
+          "fiber": 1.8
+        },
+        "yield": {
+          "amount": 2,
+          "unit": "cookies"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-oat",
+            "ingredientId": "ing-oat-flour",
+            "ingredientName": "oat flour",
+            "grams": 25,
+            "macros": {
+              "calories": 101,
+              "protein": 3.75,
+              "carbs": 16.5,
+              "fat": 2.25,
+              "fiber": 1.75
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-ap",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 25,
+            "macros": {
+              "calories": 91,
+              "protein": 2.5,
+              "carbs": 19,
+              "fat": 0.25,
+              "fiber": 0.68
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 170,
+            "macros": {
+              "calories": 100.3,
+              "protein": 17,
+              "carbs": 6.12,
+              "fat": 0.68,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-bp",
+            "ingredientId": "ing-baking-powder",
+            "ingredientName": "baking powder",
+            "grams": 4,
+            "macros": {
+              "calories": 2.12,
+              "protein": 0,
+              "carbs": 1.12,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 3,
+            "macros": {
+              "calories": 12,
+              "protein": 0,
+              "carbs": 3,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 37,
+            "macros": {
+              "calories": 150.24,
+              "protein": 31.45,
+              "carbs": 2.22,
+              "fat": 1.11,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-chips",
+            "ingredientId": "ing-chocolate-chips-semisweet",
+            "ingredientName": "semi-sweet chocolate chips",
+            "grams": 20,
+            "macros": {
+              "calories": 95.8,
+              "protein": 0.84,
+              "carbs": 12.78,
+              "fat": 6,
+              "fiber": 1.18
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 10.09
+      },
+      "createdAt": "2026-06-16T18:57:51.909Z"
     }
   },
   "ingredients": {
@@ -98139,6 +98453,16 @@
       "date": "2026-06-16T16:41:09.695Z",
       "author": "user",
       "createdAt": "2026-06-16T16:41:09.695Z"
+    },
+    "40c58334-f8f3-495e-987d-4eb34bd9d3c3": {
+      "kind": "to-make",
+      "id": "40c58334-f8f3-495e-987d-4eb34bd9d3c3",
+      "recipeId": "19c74627-6e6b-40d9-88d9-25b9d4b56aa3",
+      "versionId": "5e771431-9bb0-4b9f-b00b-0971ea533a44",
+      "notes": "found on IG, untried - lean yogurt-based cookie",
+      "date": "2026-06-16T19:03:57.910Z",
+      "author": "user",
+      "createdAt": "2026-06-16T19:03:57.910Z"
     }
   }
 }
