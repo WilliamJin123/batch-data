@@ -58,7 +58,7 @@ GIANT=$(mkroot giant-single-serve-protein-cookie);  echo "  + Giant Single-Serve
 echo "deriving variants..."
 BANANA=$(build_variant "$DIR/banana-cheesecake.variant.json" "$VP");           echo "  + Banana Butterscotch Cinnamon Cheesecake"
 COOLWHIP=$(build_variant "$DIR/cool-whip-frosting.variant.json" "$FROST");     echo "  + Cool-Whip Protein Frosting"
-# The Crumbl base champion is frosted with the Cool-Whip frosting (a sub_recipe pin). The
+# The Crumbl base is frosted with the Cool-Whip frosting (a sub_recipe pin). The
 # source file's pin is a stale live id; re-pin it to the freshly-built Cool-Whip head, THEN
 # derive the flavor variants off the re-pinned base so they inherit a live (resolvable) pin.
 CRUMBL=$(echo '{}' | jq -c --arg id "$COOLWHIP" '{op:"replace",kind:"slot",target:"sl-frosting",payload:{componentKey:"sl-frosting",name:"vanilla protein frosting",resolution:{kind:"sub_recipe",subRecipeVersionId:$id}}}' | "$BATCH" override "$CRUMBL" -m "reseed: pin cool-whip frosting" | jq -r '.version.id')
@@ -96,7 +96,7 @@ fb "$BIRTHDAY" --made --rating excellent
 fb "$LEMON" --made --rating excellent -m "cookie itself is great"
 fb "$LEMON" --made --component b5 --rating bad -m "glaze too weak/thin, needs work"
 fb "$LUCKY" --made --rating good
-fb "$CRUMBL" --to-make -m "First bake of the synthesized champion base — confirm the cornstarch keeps it soft at 2 scoops protein, and that 174 kcal / 16.7 g protein eats like a real crumbl base. If texture holds, bump dough protein 2 -> 2.5 scoops to crack <10 kcal/g."
+fb "$CRUMBL" --to-make -m "First bake of the base — confirm the cornstarch keeps it soft at 2 scoops protein, and that 163 kcal / 14.3 g protein eats like a real crumbl base. If texture holds, bump dough protein 2 -> 2.5 scoops to crack <10 kcal/g."
 fb "$RV" --to-make -m "haven't made it yet"
 fb "$FROSTED20" --to-make -m "Test the <10 kcal/g-protein claim IRL — 3 scoops whey in 5 cookies is aggressive protein-loading; watch for dry/rubbery 'pancake' texture and whether the 1-cup-yogurt frosting reads as frosting or just wet."
 fb "$GIANT" --to-make -m "found on IG, untried - lean yogurt-based cookie"
