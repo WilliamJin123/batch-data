@@ -1,0 +1,11 @@
+{
+  "name": "Birthday Cake Protein Cookies",
+  "description": "Birthday-cake flavor of the Crumbl base — base chassis + almond extract for the cake-batter note. Funfetti sprinkles are the topping (omitted here, like the source). Derived off Crumbl Base Protein Cookie so base tweaks rebase in. Untested at this base chassis (the original standalone root was rated excellent, but this version adds the base's egg white / cornstarch and standardized dough — worth a confirming bake).",
+  "tags": ["crumbl", "cookie", "protein", "birthday-cake"],
+  "yield": { "amount": 6, "unit": "cookies" },
+  "deriveFromRecipe": "Crumbl Base Protein Cookie",
+  "overrides": [
+    { "op": "add", "kind": "slot", "payload": { "componentKey": "sl-almond-ext", "name": "almond extract", "resolution": { "kind": "raw", "libraryIngredientId": "ing-almond-extract" } } },
+    { "op": "add", "kind": "usage", "payload": { "componentKey": "u-almond-ext", "stepKey": "b2", "slotKey": "sl-almond-ext", "quantityValue": 0.125, "quantityUnit": "tsp" } }
+  ]
+}
