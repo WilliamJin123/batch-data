@@ -1,0 +1,23 @@
+{
+  "name": "Turtle Real Brown-Sugar Caramel",
+  "description": "The real, glossy caramel for the top — brown sugar cooked with a little butter and thinned with almond milk, salted. Genuine caramelized-sugar flavor and drizzle (you can't caramelize Splenda), kept deliberately small: ~121 cal for the whole cake, the one honest-sugar indulgence. Sub-recipe (1 batch).",
+  "tags": ["turtle", "cheesecake", "caramel", "topping", "sub-recipe"],
+  "yield": { "amount": 1, "unit": "batch" },
+  "content": {
+    "steps": [
+      { "componentKey": "k1", "order": 1, "instructionText": "Melt the butter in a small saucepan, add the brown sugar and salt, and cook over medium, stirring, until it bubbles and darkens slightly (~2-3 min). Off heat, whisk in the almond milk (it will sputter) until smooth. Cool slightly — it thickens as it sits; rewarm to drizzle." }
+    ],
+    "slots": [
+      { "componentKey": "sl-brown-sugar", "name": "brown sugar", "resolution": { "kind": "raw", "libraryIngredientId": "ing-brown-sugar" } },
+      { "componentKey": "sl-butter", "name": "butter", "resolution": { "kind": "raw", "libraryIngredientId": "ing-butter" } },
+      { "componentKey": "sl-almond-milk", "name": "unsweetened almond milk", "resolution": { "kind": "raw", "libraryIngredientId": "ing-almond-milk-unsweetened" } },
+      { "componentKey": "sl-salt", "name": "salt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-salt" } }
+    ],
+    "usages": [
+      { "componentKey": "u-brown-sugar", "stepKey": "k1", "slotKey": "sl-brown-sugar", "quantityValue": 20, "quantityUnit": "g" },
+      { "componentKey": "u-butter", "stepKey": "k1", "slotKey": "sl-butter", "quantityValue": 6, "quantityUnit": "g" },
+      { "componentKey": "u-almond-milk", "stepKey": "k1", "slotKey": "sl-almond-milk", "quantityValue": 1, "quantityUnit": "tbsp" },
+      { "componentKey": "u-salt", "stepKey": "k1", "slotKey": "sl-salt", "quantityValue": 1, "quantityUnit": "pinch" }
+    ]
+  }
+}

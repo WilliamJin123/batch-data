@@ -1,0 +1,25 @@
+{
+  "name": "Turtle Protein Caramel Swirl",
+  "description": "Protein caramel for marbling into the turtle cheesecake filling — 0% Greek yogurt + butterscotch SF pudding (the caramel note) + granulated Splenda, salted. Thick and spoonable; it lives hidden in the swirl, so it carries protein, not gloss. Sub-recipe (1 batch ~= 99 cal / 12.6 P).",
+  "tags": ["turtle", "cheesecake", "caramel", "protein", "sub-recipe"],
+  "yield": { "amount": 1, "unit": "batch" },
+  "content": {
+    "steps": [
+      { "componentKey": "k1", "order": 1, "instructionText": "Whisk the Greek yogurt, butterscotch pudding mix, Splenda, almond milk, and salt smooth. It should be thick and spoonable like a loose caramel — chill 10 min if you want it firmer to swirl." }
+    ],
+    "slots": [
+      { "componentKey": "sl-yogurt", "name": "0% Greek yogurt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-greek-yogurt-nonfat" } },
+      { "componentKey": "sl-pudding", "name": "butterscotch SF pudding mix", "resolution": { "kind": "raw", "libraryIngredientId": "ing-pudding-butterscotch-sf" } },
+      { "componentKey": "sl-splenda", "name": "granulated Splenda", "resolution": { "kind": "raw", "libraryIngredientId": "ing-splenda-granulated" } },
+      { "componentKey": "sl-almond-milk", "name": "unsweetened almond milk", "resolution": { "kind": "raw", "libraryIngredientId": "ing-almond-milk-unsweetened" } },
+      { "componentKey": "sl-salt", "name": "salt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-salt" } }
+    ],
+    "usages": [
+      { "componentKey": "u-yogurt", "stepKey": "k1", "slotKey": "sl-yogurt", "quantityValue": 120, "quantityUnit": "g" },
+      { "componentKey": "u-pudding", "stepKey": "k1", "slotKey": "sl-pudding", "quantityValue": 2, "quantityUnit": "tbsp" },
+      { "componentKey": "u-splenda", "stepKey": "k1", "slotKey": "sl-splenda", "quantityValue": 1, "quantityUnit": "tbsp" },
+      { "componentKey": "u-almond-milk", "stepKey": "k1", "slotKey": "sl-almond-milk", "quantityValue": 1, "quantityUnit": "tbsp" },
+      { "componentKey": "u-salt", "stepKey": "k1", "slotKey": "sl-salt", "quantityValue": 1, "quantityUnit": "pinch" }
+    ]
+  }
+}
