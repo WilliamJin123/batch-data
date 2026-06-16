@@ -1,6 +1,6 @@
 {
   "name": "Vanilla Pumpkin Protein Cheesecake",
-  "description": "Base protein cheesecake (vanilla SF pudding, pumpkin for moisture/body). Launch point for flavor variants. Low-fat / high-protein; pumpkin does the work fat does in a standard cheesecake. Tuned DENSE (Tier 1+2): pumpkin reduced 120->75g + 1 tbsp cornstarch for a firmer starch set, baked DRY (no water bath) to a just-set center and chilled overnight — denser at near-zero macro cost (~124 cal/slice, ratio 8.8). Stays lean; if a bake comes out rubbery rather than densely creamy, add a little fat (more cream cheese or an extra yolk).",
+  "description": "Base protein cheesecake (vanilla SF pudding, pumpkin for moisture/body). Launch point for flavor variants. Low-fat / high-protein; pumpkin does the work fat does in a standard cheesecake. Tuned DENSE (Tier 1+2): pumpkin reduced 120->75g + 2 tbsp AP flour for a firmer set (AP because that's what's on hand — its gluten sets denser than cornstarch), baked DRY (no water bath) to a just-set center and chilled overnight — denser at near-zero macro cost (~127 cal/slice, ratio 8.9). Stays lean; if a bake comes out rubbery rather than densely creamy, add a little fat (more cream cheese or an extra yolk).",
   "tags": [
     "base",
     "cheesecake",
@@ -25,7 +25,7 @@
       {
         "componentKey": "s3",
         "order": 3,
-        "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, vanilla pudding mix, and cornstarch. Mix until smooth (warm the bowl ~15 sec if it clumps)."
+        "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
       },
       {
         "componentKey": "s4",
@@ -141,11 +141,11 @@
         }
       },
       {
-        "componentKey": "sl-cornstarch",
-        "name": "cornstarch",
+        "componentKey": "sl-flour",
+        "name": "all-purpose flour",
         "resolution": {
           "kind": "raw",
-          "libraryIngredientId": "ing-cornstarch"
+          "libraryIngredientId": "ing-ap-flour"
         }
       }
     ],
@@ -228,10 +228,10 @@
         "quantityUnit": "tbsp"
       },
       {
-        "componentKey": "u-cornstarch",
+        "componentKey": "u-flour",
         "stepKey": "s3",
-        "slotKey": "sl-cornstarch",
-        "quantityValue": 1,
+        "slotKey": "sl-flour",
+        "quantityValue": 2,
         "quantityUnit": "tbsp"
       }
     ]
