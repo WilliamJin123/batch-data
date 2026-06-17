@@ -1,142 +1,142 @@
 {
   "recipes": {
-    "768b9d4d-d880-4ecf-a6b7-a75c4548e7c8": {
-      "id": "768b9d4d-d880-4ecf-a6b7-a75c4548e7c8",
+    "e16c3ed9-0d3d-43de-a2bc-734b0fca7e3e": {
+      "id": "e16c3ed9-0d3d-43de-a2bc-734b0fca7e3e",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:20.126Z",
-      "headVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207"
+      "createdAt": "2026-06-17T01:42:32.416Z",
+      "headVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0"
     },
-    "46de7afa-f28b-40da-a67a-9a2240c25eb6": {
-      "id": "46de7afa-f28b-40da-a67a-9a2240c25eb6",
+    "8cb597be-c738-411c-a530-b48e77147ad0": {
+      "id": "8cb597be-c738-411c-a530-b48e77147ad0",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:20.294Z",
-      "headVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a"
+      "createdAt": "2026-06-17T01:42:32.574Z",
+      "headVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a"
     },
-    "20b5cc9c-f2c3-4ae2-89b3-257fe45a4a1f": {
-      "id": "20b5cc9c-f2c3-4ae2-89b3-257fe45a4a1f",
+    "68122e46-ff96-4919-91bd-102218eefa72": {
+      "id": "68122e46-ff96-4919-91bd-102218eefa72",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:20.457Z",
-      "headVersionId": "a2200b9e-e99a-49fa-b424-d4c575359e5a"
+      "createdAt": "2026-06-17T01:42:32.731Z",
+      "headVersionId": "0946ac6a-8b0a-4eb7-a9f6-15da77ff93c9"
     },
-    "9c68d90b-43d8-4322-a28b-b587d5939379": {
-      "id": "9c68d90b-43d8-4322-a28b-b587d5939379",
+    "e4ea3b1f-988b-469a-aa25-e8664af9d475": {
+      "id": "e4ea3b1f-988b-469a-aa25-e8664af9d475",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:20.617Z",
-      "headVersionId": "3eae4960-1a3a-4687-851b-12f24e38f73a"
+      "createdAt": "2026-06-17T01:42:32.886Z",
+      "headVersionId": "5b03e5dc-2975-4803-83a8-70c1ef6eb88c"
     },
-    "7a11ae29-935e-48fc-be42-272c2dfc356e": {
-      "id": "7a11ae29-935e-48fc-be42-272c2dfc356e",
+    "172a09dd-b265-4bdf-ab42-5bce460c05bd": {
+      "id": "172a09dd-b265-4bdf-ab42-5bce460c05bd",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:20.785Z",
-      "headVersionId": "8983c3c8-5cc5-4d91-af12-876d94eefed3"
+      "createdAt": "2026-06-17T01:42:33.045Z",
+      "headVersionId": "37bd22f3-ab42-484f-a392-ee5a936afabb"
     },
-    "3e8126ba-0f79-4771-80ad-a03ffebd138d": {
-      "id": "3e8126ba-0f79-4771-80ad-a03ffebd138d",
+    "c866f8c4-6949-4bb3-ac2c-a933a5e3280d": {
+      "id": "c866f8c4-6949-4bb3-ac2c-a933a5e3280d",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:20.949Z",
-      "headVersionId": "72a1d366-baff-4555-9604-2553bd060974"
+      "createdAt": "2026-06-17T01:42:33.203Z",
+      "headVersionId": "4f04bcc4-f181-4db7-9c17-b7cf1d19bf6b"
     },
-    "d60e6632-1b82-4c7a-b980-534d9b80b32b": {
-      "id": "d60e6632-1b82-4c7a-b980-534d9b80b32b",
+    "228d0cdd-8171-4c0d-a03a-6a0328270199": {
+      "id": "228d0cdd-8171-4c0d-a03a-6a0328270199",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:21.111Z",
-      "headVersionId": "71da9e85-4db1-48c3-97c0-c10263694aa6"
+      "createdAt": "2026-06-17T01:42:33.360Z",
+      "headVersionId": "40c42ac3-47b5-4add-9af6-bef9b7a6b696"
     },
-    "e6e44a43-87bc-476d-bda5-df2f5b0b87a7": {
-      "id": "e6e44a43-87bc-476d-bda5-df2f5b0b87a7",
+    "92bc26df-3fbf-486d-9681-7b2cc308bdad": {
+      "id": "92bc26df-3fbf-486d-9681-7b2cc308bdad",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:21.275Z",
-      "headVersionId": "4d94e6c5-39a3-4474-91dc-d782c2f0afd9"
+      "createdAt": "2026-06-17T01:42:33.523Z",
+      "headVersionId": "a35fef3a-5b24-4263-a373-75d327e95738"
     },
-    "e38323ea-e91a-4bcf-821b-a71bf101ad3a": {
-      "id": "e38323ea-e91a-4bcf-821b-a71bf101ad3a",
+    "79450262-0f05-4720-b9ed-c49d32a044b0": {
+      "id": "79450262-0f05-4720-b9ed-c49d32a044b0",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:21.439Z",
-      "headVersionId": "71f95fe5-e99d-4035-bee7-7a89957a0755"
+      "createdAt": "2026-06-17T01:42:33.680Z",
+      "headVersionId": "8f3c6052-015c-4b53-9b27-12217d44cc38"
     },
-    "684b0325-8c8a-4d0f-8877-76b2c3712301": {
-      "id": "684b0325-8c8a-4d0f-8877-76b2c3712301",
+    "d52dae15-3552-4d87-af81-e32411aceeb9": {
+      "id": "d52dae15-3552-4d87-af81-e32411aceeb9",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:21.602Z",
-      "headVersionId": "d9c33d2a-4849-40e9-85e6-722c51e1f051"
+      "createdAt": "2026-06-17T01:42:33.838Z",
+      "headVersionId": "926f176e-99d8-4ebc-80a2-fb38400b1112"
     },
-    "3f033042-2981-4471-ad19-925e6e2a1846": {
-      "id": "3f033042-2981-4471-ad19-925e6e2a1846",
+    "d8a4282b-3ee7-4307-925a-55218fc84de2": {
+      "id": "d8a4282b-3ee7-4307-925a-55218fc84de2",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:21.771Z",
-      "headVersionId": "e64a9c8b-52e7-457f-8d90-b1b9546cae8c"
+      "createdAt": "2026-06-17T01:42:33.998Z",
+      "headVersionId": "ef9fd546-ec4e-4953-81aa-7d58c3e7da54"
     },
-    "166954b5-8869-4ea4-bcd6-dc171f0bec45": {
-      "id": "166954b5-8869-4ea4-bcd6-dc171f0bec45",
+    "50629ead-13d8-40cf-8450-bed0fe96058c": {
+      "id": "50629ead-13d8-40cf-8450-bed0fe96058c",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:23.811Z",
-      "headVersionId": "0543db2d-7017-4ff5-bf73-b9d591bfe623"
+      "createdAt": "2026-06-17T01:42:35.952Z",
+      "headVersionId": "4a61d448-468a-4156-9c66-52d096ab80b9"
     },
-    "1fc24b33-9251-4d21-8f7a-a240337e0c22": {
-      "id": "1fc24b33-9251-4d21-8f7a-a240337e0c22",
+    "ba055591-a0c7-4457-a324-bd537907fbd0": {
+      "id": "ba055591-a0c7-4457-a324-bd537907fbd0",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:26.038Z",
-      "headVersionId": "dfeea626-3ba1-4ed2-bb04-3e35c4dd7ac3"
+      "createdAt": "2026-06-17T01:42:38.094Z",
+      "headVersionId": "7acb7174-646b-402d-b1f3-24d0e5017de8"
     },
-    "85886533-c275-429e-84e9-140b2ed59a5b": {
-      "id": "85886533-c275-429e-84e9-140b2ed59a5b",
+    "bd33c521-0bba-41df-9a17-c64bee260e44": {
+      "id": "bd33c521-0bba-41df-9a17-c64bee260e44",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:26.735Z",
-      "headVersionId": "d5a6727f-a919-4ef3-bf61-59c71fd983b3"
+      "createdAt": "2026-06-17T01:42:38.759Z",
+      "headVersionId": "6f878e4c-461a-4fbf-b57a-0ec75ce52548"
     },
-    "6f48d727-96ba-482a-8e09-416ea854d5a4": {
-      "id": "6f48d727-96ba-482a-8e09-416ea854d5a4",
+    "d2676e1f-ff06-48e0-b302-9bf51753a1e1": {
+      "id": "d2676e1f-ff06-48e0-b302-9bf51753a1e1",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:28.673Z",
-      "headVersionId": "e507661e-ac6c-4ea2-b3ed-d99735fbb6cf"
+      "createdAt": "2026-06-17T01:42:40.611Z",
+      "headVersionId": "2555dc3a-7e55-4485-a9bd-d54ed992150e"
     },
-    "18c9b92c-5021-4ddd-b904-d781e052c769": {
-      "id": "18c9b92c-5021-4ddd-b904-d781e052c769",
+    "718bd8f2-b80d-4598-8681-49a1b077f731": {
+      "id": "718bd8f2-b80d-4598-8681-49a1b077f731",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:29.383Z",
-      "headVersionId": "3df6059b-75b9-4c28-b9a3-beaea1ff3b1d"
+      "createdAt": "2026-06-17T01:42:41.294Z",
+      "headVersionId": "fc958177-5c17-42ca-88b7-218430f41fcd"
     },
-    "b7d10f5e-574d-412a-bd61-40b856f8bfbd": {
-      "id": "b7d10f5e-574d-412a-bd61-40b856f8bfbd",
+    "fb01b11f-be8d-4b20-8674-b12ff87fa384": {
+      "id": "fb01b11f-be8d-4b20-8674-b12ff87fa384",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:30.272Z",
-      "headVersionId": "0e81f846-3696-4648-a815-ed74cea13fe3"
+      "createdAt": "2026-06-17T01:42:42.209Z",
+      "headVersionId": "e639f70e-79a9-4b72-ba10-3be50a2c5df4"
     },
-    "b1a93394-6aca-409f-96da-fe11a46ea664": {
-      "id": "b1a93394-6aca-409f-96da-fe11a46ea664",
+    "18b1f22d-518e-42fa-9748-7aa09645f549": {
+      "id": "18b1f22d-518e-42fa-9748-7aa09645f549",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:30.806Z",
-      "headVersionId": "14a440d9-2ffa-466a-8777-01a163ed002f"
+      "createdAt": "2026-06-17T01:42:42.768Z",
+      "headVersionId": "348c6ac8-b1da-4f4a-89ad-91d9d8bbb514"
     },
-    "1fc84b01-2f1f-46f3-8128-d8720bb8063a": {
-      "id": "1fc84b01-2f1f-46f3-8128-d8720bb8063a",
+    "e406a489-6562-475e-8c52-734da2bf8bbc": {
+      "id": "e406a489-6562-475e-8c52-734da2bf8bbc",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:33.903Z",
-      "headVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+      "createdAt": "2026-06-17T01:42:45.723Z",
+      "headVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
     },
-    "ca1f0e61-b5ea-4742-b63c-fcefb453bd07": {
-      "id": "ca1f0e61-b5ea-4742-b63c-fcefb453bd07",
+    "0867adcd-1add-44f5-a117-5738c019036b": {
+      "id": "0867adcd-1add-44f5-a117-5738c019036b",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:34.255Z",
-      "headVersionId": "c5a759d5-d98e-4443-89a5-c70b0d91cd4c"
+      "createdAt": "2026-06-17T01:42:46.063Z",
+      "headVersionId": "f0f62b72-dbf3-451a-a9cf-9dba99a658d0"
     },
-    "9039e65c-7f67-41b3-ae58-0dc1ef99951f": {
-      "id": "9039e65c-7f67-41b3-ae58-0dc1ef99951f",
+    "4322c433-2494-45c0-a9f7-b6fcb76dc5fd": {
+      "id": "4322c433-2494-45c0-a9f7-b6fcb76dc5fd",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:34.612Z",
-      "headVersionId": "0f4f7078-13c2-48b3-a692-94405742ff22"
+      "createdAt": "2026-06-17T01:42:46.411Z",
+      "headVersionId": "9cc75582-2f52-4492-a44e-5a48f86825b7"
     },
-    "f2e9a989-e098-4b5b-b15e-fd1e83d813b7": {
-      "id": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
+    "29ed3cce-03dc-4a09-a279-cd9a3afa68a1": {
+      "id": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
       "createdBy": "user",
-      "createdAt": "2026-06-17T00:37:34.972Z",
-      "headVersionId": "7c2a5715-a5e5-4947-8695-31cfd8fa1177"
+      "createdAt": "2026-06-17T01:42:46.758Z",
+      "headVersionId": "bfa791bb-0533-4301-bfb9-b568661d0217"
     }
   },
   "versions": {
-    "e845f3d8-4e62-4ed9-8148-00773c79d207": {
-      "id": "e845f3d8-4e62-4ed9-8148-00773c79d207",
-      "recipeId": "768b9d4d-d880-4ecf-a6b7-a75c4548e7c8",
+    "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0": {
+      "id": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
+      "recipeId": "e16c3ed9-0d3d-43de-a2bc-734b0fca7e3e",
       "name": "Vanilla Pumpkin Protein Cheesecake",
       "description": "Base protein cheesecake (vanilla SF pudding, pumpkin for moisture/body). Launch point for flavor variants. Low-fat / high-protein; pumpkin does the work fat does in a standard cheesecake. Tuned DENSE (Tier 1+2): pumpkin reduced 120->75g + 2 tbsp AP flour for a firmer set (AP because that's what's on hand — its gluten sets denser than cornstarch), baked DRY (no water bath) to a just-set center and chilled overnight — denser at near-zero macro cost (~127 cal/slice, ratio 8.9). Stays lean; if a bake comes out rubbery rather than densely creamy, add a little fat (more cream cheese or an extra yolk).",
       "tags": [
@@ -182,7 +182,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -570,11 +570,11 @@
         ],
         "caloriesPerGramProtein": 8.91
       },
-      "createdAt": "2026-06-17T00:37:20.126Z"
+      "createdAt": "2026-06-17T01:42:32.416Z"
     },
-    "337a6071-b101-4c00-a448-d5865ccb3ab6": {
-      "id": "337a6071-b101-4c00-a448-d5865ccb3ab6",
-      "recipeId": "46de7afa-f28b-40da-a67a-9a2240c25eb6",
+    "c60046a9-9a57-41a9-9ae9-14c26f959897": {
+      "id": "c60046a9-9a57-41a9-9ae9-14c26f959897",
+      "recipeId": "8cb597be-c738-411c-a530-b48e77147ad0",
       "name": "Crumbl Base Protein Cookie",
       "description": "The shared base cookie for the crumbl protein-cookie family — the flavor-neutral vanilla chassis every flavor derives from. Built from the tested-excellent set: Birthday Cake + Lemon dough at 1.5 scoops plus their shared cornstarch soft-crumb trick, with a lean egg white for structure. Frosting is a sub_recipe pin (defaults to the Cool-Whip vanilla protein frosting); flavors swap the pin — cream cheese for red velvet, a lemon drizzle for lemon. The 20g newcomer's heavier protein-load stays a queued experiment. Sweetener is granulated Splenda (calorically modeled, never monk fruit).",
       "tags": [
@@ -1026,11 +1026,11 @@
         ],
         "caloriesPerGramProtein": 12.72
       },
-      "createdAt": "2026-06-17T00:37:20.294Z"
+      "createdAt": "2026-06-17T01:42:32.574Z"
     },
-    "a2200b9e-e99a-49fa-b424-d4c575359e5a": {
-      "id": "a2200b9e-e99a-49fa-b424-d4c575359e5a",
-      "recipeId": "20b5cc9c-f2c3-4ae2-89b3-257fe45a4a1f",
+    "0946ac6a-8b0a-4eb7-a9f6-15da77ff93c9": {
+      "id": "0946ac6a-8b0a-4eb7-a9f6-15da77ff93c9",
+      "recipeId": "68122e46-ff96-4919-91bd-102218eefa72",
       "name": "Browned-Butter Protein Cookies",
       "description": "Browned-butter protein chocolate-chip cookies, makes 3. VERSION A - Thick & Gooey (molten center): tall bakery-style mounds, intentionally uneven (gooey center, firmer edges). The thick middle cooks slowest, so the edges finish before the center - that's the price of a molten center. Soft, fragile, and pale is CORRECT; these don't brown like a normal cookie. Confirm doneness by breaking one open after resting: soft/dense/moist/baked = done; wet/gummy/raw-flour = 1-2 min more. (Version B - Even & Soft-Chewy - is a derived variant that flattens + bakes lower for one consistent texture.)",
       "tags": [
@@ -1477,11 +1477,11 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T00:37:20.457Z"
+      "createdAt": "2026-06-17T01:42:32.731Z"
     },
-    "3eae4960-1a3a-4687-851b-12f24e38f73a": {
-      "id": "3eae4960-1a3a-4687-851b-12f24e38f73a",
-      "recipeId": "9c68d90b-43d8-4322-a28b-b587d5939379",
+    "5b03e5dc-2975-4803-83a8-70c1ef6eb88c": {
+      "id": "5b03e5dc-2975-4803-83a8-70c1ef6eb88c",
+      "recipeId": "e4ea3b1f-988b-469a-aa25-e8664af9d475",
       "name": "Protein Cream-Cheese Frosting",
       "description": "Protein cream-cheese frosting — extracted from Red Velvet Protein Cookies as an M3 sub-recipe. Makes 1 batch (enough to frost one 5-cookie set). Its own base→variant root: Cool-Whip and other frostings derive from this.",
       "tags": [
@@ -1681,11 +1681,11 @@
         ],
         "caloriesPerGramProtein": 9.35
       },
-      "createdAt": "2026-06-17T00:37:20.617Z"
+      "createdAt": "2026-06-17T01:42:32.886Z"
     },
-    "14de9666-3945-4487-ade8-f8ef5b83443d": {
-      "id": "14de9666-3945-4487-ade8-f8ef5b83443d",
-      "recipeId": "7a11ae29-935e-48fc-be42-272c2dfc356e",
+    "8e599432-65f9-4802-80c7-b97a463a7be8": {
+      "id": "8e599432-65f9-4802-80c7-b97a463a7be8",
+      "recipeId": "172a09dd-b265-4bdf-ab42-5bce460c05bd",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -2328,11 +2328,11 @@
         ],
         "caloriesPerGramProtein": 9.8
       },
-      "createdAt": "2026-06-17T00:37:20.785Z"
+      "createdAt": "2026-06-17T01:42:33.045Z"
     },
-    "72a1d366-baff-4555-9604-2553bd060974": {
-      "id": "72a1d366-baff-4555-9604-2553bd060974",
-      "recipeId": "3e8126ba-0f79-4771-80ad-a03ffebd138d",
+    "4f04bcc4-f181-4db7-9c17-b7cf1d19bf6b": {
+      "id": "4f04bcc4-f181-4db7-9c17-b7cf1d19bf6b",
+      "recipeId": "c866f8c4-6949-4bb3-ac2c-a933a5e3280d",
       "name": "High-Protein Anti-Pancake Sugar Cookies",
       "description": "Low-flour protein sugar cookie tuned to kill the rubbery 'pancake' texture: a scoop of whey replaces most flour and SF instant pudding binds moisture for a dense bakery chew. Sweetener is granulated Splenda; pudding modeled as the Simply Delish SF vanilla already in the library; butter is regular unsalted, already halved to 7 g. Leavening is baking powder only (no soda / cream of tartar). Final step is a fridge rest. Source: user. Stated batch macros ~428 kcal / 44P / 41C / 11F (107/cookie at 4).",
       "tags": [
@@ -2719,11 +2719,11 @@
         ],
         "caloriesPerGramProtein": 12.16
       },
-      "createdAt": "2026-06-17T00:37:20.949Z"
+      "createdAt": "2026-06-17T01:42:33.203Z"
     },
-    "71da9e85-4db1-48c3-97c0-c10263694aa6": {
-      "id": "71da9e85-4db1-48c3-97c0-c10263694aa6",
-      "recipeId": "d60e6632-1b82-4c7a-b980-534d9b80b32b",
+    "40c42ac3-47b5-4add-9af6-bef9b7a6b696": {
+      "id": "40c42ac3-47b5-4add-9af6-bef9b7a6b696",
+      "recipeId": "228d0cdd-8171-4c0d-a03a-6a0328270199",
       "name": "High-Protein Nanaimo Bars",
       "description": "A high-protein, lower-calorie take on the classic three-layer Canadian Nanaimo bar: cocoa-coconut base, butterscotch protein filling, baking-chocolate top. Sweetener modeled as granulated Splenda; the 'or 20g oat flour' alt for coconut flour is not taken. Source: instagram. Stated full batch ~1300 kcal / 83C / 118P / 58F (header lists per-bar at 10 bars, but the directions slice 9 — yield set to 9).",
       "tags": [
@@ -3372,11 +3372,11 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T00:37:21.111Z"
+      "createdAt": "2026-06-17T01:42:33.360Z"
     },
-    "4d94e6c5-39a3-4474-91dc-d782c2f0afd9": {
-      "id": "4d94e6c5-39a3-4474-91dc-d782c2f0afd9",
-      "recipeId": "e6e44a43-87bc-476d-bda5-df2f5b0b87a7",
+    "a35fef3a-5b24-4263-a373-75d327e95738": {
+      "id": "a35fef3a-5b24-4263-a373-75d327e95738",
+      "recipeId": "92bc26df-3fbf-486d-9681-7b2cc308bdad",
       "name": "Protein Ice Cream Sandwich",
       "description": "Healthy protein ice cream sandwiches in the style of Fat Boys: a blended vanilla protein 'ice cream' between chocolate graham crackers. Source: healthbeet.org. Decent as-is; the filling really wants a Ninja Creami churn for texture. Stated macros ~135 kcal / 16C / 13-14P / 3F per sandwich.",
       "tags": [
@@ -3659,11 +3659,11 @@
         ],
         "caloriesPerGramProtein": 10.17
       },
-      "createdAt": "2026-06-17T00:37:21.275Z"
+      "createdAt": "2026-06-17T01:42:33.523Z"
     },
-    "71f95fe5-e99d-4035-bee7-7a89957a0755": {
-      "id": "71f95fe5-e99d-4035-bee7-7a89957a0755",
-      "recipeId": "e38323ea-e91a-4bcf-821b-a71bf101ad3a",
+    "8f3c6052-015c-4b53-9b27-12217d44cc38": {
+      "id": "8f3c6052-015c-4b53-9b27-12217d44cc38",
+      "recipeId": "79450262-0f05-4720-b9ed-c49d32a044b0",
       "name": "20g Protein Frosted Cookies",
       "description": "Macro-friendly frosted protein cookie (Instagram) ingested as a crumbl base-chassis candidate. Notable for a claimed <10 kcal per g protein, achieved by protein-loading: 3 scoops whey in only 5 cookies plus a full cup of nonfat Greek yogurt in the frosting. Modeled with regular AP flour (source said 'Bob's Red Mill GF flour or regular flour'); generic sweetener -> granulated Splenda; the 1 egg white authored as 33 g (one large white) since the library egg-white has no count equivalence; sprinkles ('to taste') omitted so it reads as a clean unfrosted-chassis sibling to the other crumbl cookies. Component keys aligned with the Birthday Cake base so compare row-aligns and promote can graft by key. Not yet made.",
       "tags": [
@@ -4129,11 +4129,11 @@
         ],
         "caloriesPerGramProtein": 9.21
       },
-      "createdAt": "2026-06-17T00:37:21.439Z"
+      "createdAt": "2026-06-17T01:42:33.680Z"
     },
-    "d9c33d2a-4849-40e9-85e6-722c51e1f051": {
-      "id": "d9c33d2a-4849-40e9-85e6-722c51e1f051",
-      "recipeId": "684b0325-8c8a-4d0f-8877-76b2c3712301",
+    "926f176e-99d8-4ebc-80a2-fb38400b1112": {
+      "id": "926f176e-99d8-4ebc-80a2-fb38400b1112",
+      "recipeId": "d52dae15-3552-4d87-af81-e32411aceeb9",
       "name": "Giant Single-Serve Protein Cookie",
       "description": "Yogurt-based high-protein cookie (no butter/sugar) found on Instagram, untried. Coconut flour subbed to oat flour; sugar-free chips to semi-sweet; 'zero cal sugar' to granulated Splenda. Chocolate chips unspecified in source — assumed 20g.",
       "tags": [
@@ -4437,12 +4437,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T00:37:21.602Z"
+      "createdAt": "2026-06-17T01:42:33.838Z"
     },
-    "f32684e9-0072-43ab-93e0-117e27deba19": {
-      "id": "f32684e9-0072-43ab-93e0-117e27deba19",
-      "recipeId": "3f033042-2981-4471-ad19-925e6e2a1846",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "44adbb7a-8a55-4358-9712-f42f626c5e86": {
+      "id": "44adbb7a-8a55-4358-9712-f42f626c5e86",
+      "recipeId": "d8a4282b-3ee7-4307-925a-55218fc84de2",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -4487,7 +4487,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -4875,12 +4875,12 @@
         ],
         "caloriesPerGramProtein": 8.91
       },
-      "createdAt": "2026-06-17T00:37:21.771Z"
+      "createdAt": "2026-06-17T01:42:33.998Z"
     },
-    "b2d817c5-0c66-4998-8f8f-c06c4020de29": {
-      "id": "b2d817c5-0c66-4998-8f8f-c06c4020de29",
-      "recipeId": "3f033042-2981-4471-ad19-925e6e2a1846",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "27d5888a-3327-4d2b-bc9e-753097e7dc0d": {
+      "id": "27d5888a-3327-4d2b-bc9e-753097e7dc0d",
+      "recipeId": "d8a4282b-3ee7-4307-925a-55218fc84de2",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -4939,7 +4939,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -5327,13 +5327,13 @@
         ],
         "caloriesPerGramProtein": 8.91
       },
-      "createdAt": "2026-06-17T00:37:21.939Z",
-      "prevVersionId": "f32684e9-0072-43ab-93e0-117e27deba19"
+      "createdAt": "2026-06-17T01:42:34.164Z",
+      "prevVersionId": "44adbb7a-8a55-4358-9712-f42f626c5e86"
     },
-    "d6dc12cd-d32a-47e8-87a5-fa9398530e75": {
-      "id": "d6dc12cd-d32a-47e8-87a5-fa9398530e75",
-      "recipeId": "3f033042-2981-4471-ad19-925e6e2a1846",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "4dbf589f-7653-4643-a34a-097d6661e7bd": {
+      "id": "4dbf589f-7653-4643-a34a-097d6661e7bd",
+      "recipeId": "d8a4282b-3ee7-4307-925a-55218fc84de2",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -5402,7 +5402,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -5790,13 +5790,13 @@
         ],
         "caloriesPerGramProtein": 8.91
       },
-      "createdAt": "2026-06-17T00:37:22.111Z",
-      "prevVersionId": "b2d817c5-0c66-4998-8f8f-c06c4020de29"
+      "createdAt": "2026-06-17T01:42:34.326Z",
+      "prevVersionId": "27d5888a-3327-4d2b-bc9e-753097e7dc0d"
     },
-    "14996bcd-f488-4227-a468-13dd1a51657d": {
-      "id": "14996bcd-f488-4227-a468-13dd1a51657d",
-      "recipeId": "3f033042-2981-4471-ad19-925e6e2a1846",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "21a2d3fa-9417-48a8-83fc-3270d91409ab": {
+      "id": "21a2d3fa-9417-48a8-83fc-3270d91409ab",
+      "recipeId": "d8a4282b-3ee7-4307-925a-55218fc84de2",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -5878,7 +5878,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -6275,13 +6275,13 @@
         ],
         "caloriesPerGramProtein": 8.91
       },
-      "createdAt": "2026-06-17T00:37:22.283Z",
-      "prevVersionId": "d6dc12cd-d32a-47e8-87a5-fa9398530e75"
+      "createdAt": "2026-06-17T01:42:34.490Z",
+      "prevVersionId": "4dbf589f-7653-4643-a34a-097d6661e7bd"
     },
-    "62771d95-ba08-4595-8838-5008ec0690cd": {
-      "id": "62771d95-ba08-4595-8838-5008ec0690cd",
-      "recipeId": "3f033042-2981-4471-ad19-925e6e2a1846",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "e6b1b36d-e45a-49b9-be30-95c1ef216412": {
+      "id": "e6b1b36d-e45a-49b9-be30-95c1ef216412",
+      "recipeId": "d8a4282b-3ee7-4307-925a-55218fc84de2",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -6375,7 +6375,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -6794,13 +6794,13 @@
         ],
         "caloriesPerGramProtein": 9.94
       },
-      "createdAt": "2026-06-17T00:37:22.454Z",
-      "prevVersionId": "14996bcd-f488-4227-a468-13dd1a51657d"
+      "createdAt": "2026-06-17T01:42:34.650Z",
+      "prevVersionId": "21a2d3fa-9417-48a8-83fc-3270d91409ab"
     },
-    "30bbf591-1207-4354-b380-942a5a45a8e9": {
-      "id": "30bbf591-1207-4354-b380-942a5a45a8e9",
-      "recipeId": "3f033042-2981-4471-ad19-925e6e2a1846",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "bf84aaab-40c2-48b9-9b72-ece9d4af2378": {
+      "id": "bf84aaab-40c2-48b9-9b72-ece9d4af2378",
+      "recipeId": "d8a4282b-3ee7-4307-925a-55218fc84de2",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -6906,7 +6906,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -7333,13 +7333,13 @@
         ],
         "caloriesPerGramProtein": 9.94
       },
-      "createdAt": "2026-06-17T00:37:22.620Z",
-      "prevVersionId": "62771d95-ba08-4595-8838-5008ec0690cd"
+      "createdAt": "2026-06-17T01:42:34.809Z",
+      "prevVersionId": "e6b1b36d-e45a-49b9-be30-95c1ef216412"
     },
-    "eec580c6-ddc7-4e6f-9684-0d37f45c2229": {
-      "id": "eec580c6-ddc7-4e6f-9684-0d37f45c2229",
-      "recipeId": "3f033042-2981-4471-ad19-925e6e2a1846",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "002dcdaf-528c-4303-8eac-cd2d7aff5df4": {
+      "id": "002dcdaf-528c-4303-8eac-cd2d7aff5df4",
+      "recipeId": "d8a4282b-3ee7-4307-925a-55218fc84de2",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -7456,7 +7456,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -7904,13 +7904,13 @@
         ],
         "caloriesPerGramProtein": 10.03
       },
-      "createdAt": "2026-06-17T00:37:22.787Z",
-      "prevVersionId": "30bbf591-1207-4354-b380-942a5a45a8e9"
+      "createdAt": "2026-06-17T01:42:34.970Z",
+      "prevVersionId": "bf84aaab-40c2-48b9-9b72-ece9d4af2378"
     },
-    "5ed805c9-d2b2-48ba-8b13-d9fab97e2832": {
-      "id": "5ed805c9-d2b2-48ba-8b13-d9fab97e2832",
-      "recipeId": "3f033042-2981-4471-ad19-925e6e2a1846",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "0f1e1e4b-dc21-4533-9125-1e6e98614876": {
+      "id": "0f1e1e4b-dc21-4533-9125-1e6e98614876",
+      "recipeId": "d8a4282b-3ee7-4307-925a-55218fc84de2",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -8037,7 +8037,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -8485,13 +8485,13 @@
         ],
         "caloriesPerGramProtein": 10.03
       },
-      "createdAt": "2026-06-17T00:37:22.954Z",
-      "prevVersionId": "eec580c6-ddc7-4e6f-9684-0d37f45c2229"
+      "createdAt": "2026-06-17T01:42:35.133Z",
+      "prevVersionId": "002dcdaf-528c-4303-8eac-cd2d7aff5df4"
     },
-    "a22c3a44-01fb-4ba6-bf2c-72340659fa3a": {
-      "id": "a22c3a44-01fb-4ba6-bf2c-72340659fa3a",
-      "recipeId": "3f033042-2981-4471-ad19-925e6e2a1846",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "67634bc1-d701-4668-af04-7ab2a128801d": {
+      "id": "67634bc1-d701-4668-af04-7ab2a128801d",
+      "recipeId": "d8a4282b-3ee7-4307-925a-55218fc84de2",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -8630,7 +8630,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -9086,13 +9086,13 @@
         ],
         "caloriesPerGramProtein": 10.03
       },
-      "createdAt": "2026-06-17T00:37:23.123Z",
-      "prevVersionId": "5ed805c9-d2b2-48ba-8b13-d9fab97e2832"
+      "createdAt": "2026-06-17T01:42:35.294Z",
+      "prevVersionId": "0f1e1e4b-dc21-4533-9125-1e6e98614876"
     },
-    "d69070fd-e87f-4a3d-868a-a417db6b8581": {
-      "id": "d69070fd-e87f-4a3d-868a-a417db6b8581",
-      "recipeId": "3f033042-2981-4471-ad19-925e6e2a1846",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "ba65b9cf-33d4-4114-9d74-0541e46f4913": {
+      "id": "ba65b9cf-33d4-4114-9d74-0541e46f4913",
+      "recipeId": "d8a4282b-3ee7-4307-925a-55218fc84de2",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -9243,7 +9243,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -9721,13 +9721,13 @@
         ],
         "caloriesPerGramProtein": 10.47
       },
-      "createdAt": "2026-06-17T00:37:23.294Z",
-      "prevVersionId": "a22c3a44-01fb-4ba6-bf2c-72340659fa3a"
+      "createdAt": "2026-06-17T01:42:35.455Z",
+      "prevVersionId": "67634bc1-d701-4668-af04-7ab2a128801d"
     },
-    "d3fd36a5-2a66-40b1-94ac-4cd3ef67c9c9": {
-      "id": "d3fd36a5-2a66-40b1-94ac-4cd3ef67c9c9",
-      "recipeId": "3f033042-2981-4471-ad19-925e6e2a1846",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "3e8087b7-4c31-43da-b460-6984e8790368": {
+      "id": "3e8087b7-4c31-43da-b460-6984e8790368",
+      "recipeId": "d8a4282b-3ee7-4307-925a-55218fc84de2",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -9890,7 +9890,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -10390,13 +10390,13 @@
         ],
         "caloriesPerGramProtein": 10.5
       },
-      "createdAt": "2026-06-17T00:37:23.467Z",
-      "prevVersionId": "d69070fd-e87f-4a3d-868a-a417db6b8581"
+      "createdAt": "2026-06-17T01:42:35.618Z",
+      "prevVersionId": "ba65b9cf-33d4-4114-9d74-0541e46f4913"
     },
-    "e64a9c8b-52e7-457f-8d90-b1b9546cae8c": {
-      "id": "e64a9c8b-52e7-457f-8d90-b1b9546cae8c",
-      "recipeId": "3f033042-2981-4471-ad19-925e6e2a1846",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "ef9fd546-ec4e-4953-81aa-7d58c3e7da54": {
+      "id": "ef9fd546-ec4e-4953-81aa-7d58c3e7da54",
+      "recipeId": "d8a4282b-3ee7-4307-925a-55218fc84de2",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -10568,7 +10568,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -11073,13 +11073,13 @@
         ],
         "caloriesPerGramProtein": 10.5
       },
-      "createdAt": "2026-06-17T00:37:23.637Z",
-      "prevVersionId": "d3fd36a5-2a66-40b1-94ac-4cd3ef67c9c9"
+      "createdAt": "2026-06-17T01:42:35.784Z",
+      "prevVersionId": "3e8087b7-4c31-43da-b460-6984e8790368"
     },
-    "8ec50b56-42ca-4edf-9c76-b39b29ba65d1": {
-      "id": "8ec50b56-42ca-4edf-9c76-b39b29ba65d1",
-      "recipeId": "166954b5-8869-4ea4-bcd6-dc171f0bec45",
-      "derivesFromVersionId": "3eae4960-1a3a-4687-851b-12f24e38f73a",
+    "7a67e00f-9f0b-4189-b005-4b65dd38e04a": {
+      "id": "7a67e00f-9f0b-4189-b005-4b65dd38e04a",
+      "recipeId": "50629ead-13d8-40cf-8450-bed0fe96058c",
+      "derivesFromVersionId": "5b03e5dc-2975-4803-83a8-70c1ef6eb88c",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -11276,12 +11276,12 @@
         ],
         "caloriesPerGramProtein": 9.35
       },
-      "createdAt": "2026-06-17T00:37:23.811Z"
+      "createdAt": "2026-06-17T01:42:35.952Z"
     },
-    "93f2f264-172b-442c-bcc2-2b3f75319879": {
-      "id": "93f2f264-172b-442c-bcc2-2b3f75319879",
-      "recipeId": "166954b5-8869-4ea4-bcd6-dc171f0bec45",
-      "derivesFromVersionId": "3eae4960-1a3a-4687-851b-12f24e38f73a",
+    "6e947180-6ce1-4f3f-bab9-bd359ced9b52": {
+      "id": "6e947180-6ce1-4f3f-bab9-bd359ced9b52",
+      "recipeId": "50629ead-13d8-40cf-8450-bed0fe96058c",
+      "derivesFromVersionId": "5b03e5dc-2975-4803-83a8-70c1ef6eb88c",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -11491,13 +11491,13 @@
         ],
         "caloriesPerGramProtein": 10.02
       },
-      "createdAt": "2026-06-17T00:37:23.983Z",
-      "prevVersionId": "8ec50b56-42ca-4edf-9c76-b39b29ba65d1"
+      "createdAt": "2026-06-17T01:42:36.123Z",
+      "prevVersionId": "7a67e00f-9f0b-4189-b005-4b65dd38e04a"
     },
-    "6fb645f5-87b3-4833-9ef0-110398e3264a": {
-      "id": "6fb645f5-87b3-4833-9ef0-110398e3264a",
-      "recipeId": "166954b5-8869-4ea4-bcd6-dc171f0bec45",
-      "derivesFromVersionId": "3eae4960-1a3a-4687-851b-12f24e38f73a",
+    "dd38c361-5f2f-4425-b1e9-f2fc05a91725": {
+      "id": "dd38c361-5f2f-4425-b1e9-f2fc05a91725",
+      "recipeId": "50629ead-13d8-40cf-8450-bed0fe96058c",
+      "derivesFromVersionId": "5b03e5dc-2975-4803-83a8-70c1ef6eb88c",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -11691,13 +11691,13 @@
         ],
         "caloriesPerGramProtein": 6.54
       },
-      "createdAt": "2026-06-17T00:37:24.156Z",
-      "prevVersionId": "93f2f264-172b-442c-bcc2-2b3f75319879"
+      "createdAt": "2026-06-17T01:42:36.288Z",
+      "prevVersionId": "6e947180-6ce1-4f3f-bab9-bd359ced9b52"
     },
-    "945bc288-0749-4ae1-9b96-22c4fb708f99": {
-      "id": "945bc288-0749-4ae1-9b96-22c4fb708f99",
-      "recipeId": "166954b5-8869-4ea4-bcd6-dc171f0bec45",
-      "derivesFromVersionId": "3eae4960-1a3a-4687-851b-12f24e38f73a",
+    "605c9daa-17e4-45e0-b1f6-eeda4a2e757f": {
+      "id": "605c9daa-17e4-45e0-b1f6-eeda4a2e757f",
+      "recipeId": "50629ead-13d8-40cf-8450-bed0fe96058c",
+      "derivesFromVersionId": "5b03e5dc-2975-4803-83a8-70c1ef6eb88c",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -11888,13 +11888,13 @@
         ],
         "caloriesPerGramProtein": 6.54
       },
-      "createdAt": "2026-06-17T00:37:24.328Z",
-      "prevVersionId": "6fb645f5-87b3-4833-9ef0-110398e3264a"
+      "createdAt": "2026-06-17T01:42:36.451Z",
+      "prevVersionId": "dd38c361-5f2f-4425-b1e9-f2fc05a91725"
     },
-    "0b43b1d5-5821-4afe-bd56-7cfab0c99d60": {
-      "id": "0b43b1d5-5821-4afe-bd56-7cfab0c99d60",
-      "recipeId": "166954b5-8869-4ea4-bcd6-dc171f0bec45",
-      "derivesFromVersionId": "3eae4960-1a3a-4687-851b-12f24e38f73a",
+    "f545b058-ad44-4735-8c48-4a56a2174302": {
+      "id": "f545b058-ad44-4735-8c48-4a56a2174302",
+      "recipeId": "50629ead-13d8-40cf-8450-bed0fe96058c",
+      "derivesFromVersionId": "5b03e5dc-2975-4803-83a8-70c1ef6eb88c",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -12105,13 +12105,13 @@
         ],
         "caloriesPerGramProtein": 6.54
       },
-      "createdAt": "2026-06-17T00:37:24.500Z",
-      "prevVersionId": "945bc288-0749-4ae1-9b96-22c4fb708f99"
+      "createdAt": "2026-06-17T01:42:36.613Z",
+      "prevVersionId": "605c9daa-17e4-45e0-b1f6-eeda4a2e757f"
     },
-    "75918246-447e-4d5a-9d85-2619c0ddbf0d": {
-      "id": "75918246-447e-4d5a-9d85-2619c0ddbf0d",
-      "recipeId": "166954b5-8869-4ea4-bcd6-dc171f0bec45",
-      "derivesFromVersionId": "3eae4960-1a3a-4687-851b-12f24e38f73a",
+    "64ad5763-eb52-4c57-9bec-be41e1c783ce": {
+      "id": "64ad5763-eb52-4c57-9bec-be41e1c783ce",
+      "recipeId": "50629ead-13d8-40cf-8450-bed0fe96058c",
+      "derivesFromVersionId": "5b03e5dc-2975-4803-83a8-70c1ef6eb88c",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -12354,13 +12354,13 @@
         ],
         "caloriesPerGramProtein": 7.11
       },
-      "createdAt": "2026-06-17T00:37:24.669Z",
-      "prevVersionId": "0b43b1d5-5821-4afe-bd56-7cfab0c99d60"
+      "createdAt": "2026-06-17T01:42:36.778Z",
+      "prevVersionId": "f545b058-ad44-4735-8c48-4a56a2174302"
     },
-    "201af876-d9c8-4ad4-878d-59fccb956b2d": {
-      "id": "201af876-d9c8-4ad4-878d-59fccb956b2d",
-      "recipeId": "166954b5-8869-4ea4-bcd6-dc171f0bec45",
-      "derivesFromVersionId": "3eae4960-1a3a-4687-851b-12f24e38f73a",
+    "c8a97eb1-bff9-4f28-86ab-c8ea7a0f7f11": {
+      "id": "c8a97eb1-bff9-4f28-86ab-c8ea7a0f7f11",
+      "recipeId": "50629ead-13d8-40cf-8450-bed0fe96058c",
+      "derivesFromVersionId": "5b03e5dc-2975-4803-83a8-70c1ef6eb88c",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -12615,13 +12615,13 @@
         ],
         "caloriesPerGramProtein": 7.96
       },
-      "createdAt": "2026-06-17T00:37:24.839Z",
-      "prevVersionId": "75918246-447e-4d5a-9d85-2619c0ddbf0d"
+      "createdAt": "2026-06-17T01:42:36.938Z",
+      "prevVersionId": "64ad5763-eb52-4c57-9bec-be41e1c783ce"
     },
-    "1b27f053-b44e-42bc-ae28-80dd5d792a29": {
-      "id": "1b27f053-b44e-42bc-ae28-80dd5d792a29",
-      "recipeId": "166954b5-8869-4ea4-bcd6-dc171f0bec45",
-      "derivesFromVersionId": "3eae4960-1a3a-4687-851b-12f24e38f73a",
+    "3cfab0af-4184-46f2-b0b0-fe7d84d22bb2": {
+      "id": "3cfab0af-4184-46f2-b0b0-fe7d84d22bb2",
+      "recipeId": "50629ead-13d8-40cf-8450-bed0fe96058c",
+      "derivesFromVersionId": "5b03e5dc-2975-4803-83a8-70c1ef6eb88c",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -12888,13 +12888,13 @@
         ],
         "caloriesPerGramProtein": 6.82
       },
-      "createdAt": "2026-06-17T00:37:25.012Z",
-      "prevVersionId": "201af876-d9c8-4ad4-878d-59fccb956b2d"
+      "createdAt": "2026-06-17T01:42:37.103Z",
+      "prevVersionId": "c8a97eb1-bff9-4f28-86ab-c8ea7a0f7f11"
     },
-    "0c90aa98-a880-48ca-b2ea-810a33e5e26b": {
-      "id": "0c90aa98-a880-48ca-b2ea-810a33e5e26b",
-      "recipeId": "166954b5-8869-4ea4-bcd6-dc171f0bec45",
-      "derivesFromVersionId": "3eae4960-1a3a-4687-851b-12f24e38f73a",
+    "a87899c4-0c1d-4ad6-8bfc-df2c01d77cbd": {
+      "id": "a87899c4-0c1d-4ad6-8bfc-df2c01d77cbd",
+      "recipeId": "50629ead-13d8-40cf-8450-bed0fe96058c",
+      "derivesFromVersionId": "5b03e5dc-2975-4803-83a8-70c1ef6eb88c",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -13173,13 +13173,13 @@
         ],
         "caloriesPerGramProtein": 6.6
       },
-      "createdAt": "2026-06-17T00:37:25.185Z",
-      "prevVersionId": "1b27f053-b44e-42bc-ae28-80dd5d792a29"
+      "createdAt": "2026-06-17T01:42:37.264Z",
+      "prevVersionId": "3cfab0af-4184-46f2-b0b0-fe7d84d22bb2"
     },
-    "5003537d-f3d8-4feb-b2ab-901de910f33c": {
-      "id": "5003537d-f3d8-4feb-b2ab-901de910f33c",
-      "recipeId": "166954b5-8869-4ea4-bcd6-dc171f0bec45",
-      "derivesFromVersionId": "3eae4960-1a3a-4687-851b-12f24e38f73a",
+    "e69cf28e-c23f-4ba9-8a1e-d41cb2109e60": {
+      "id": "e69cf28e-c23f-4ba9-8a1e-d41cb2109e60",
+      "recipeId": "50629ead-13d8-40cf-8450-bed0fe96058c",
+      "derivesFromVersionId": "5b03e5dc-2975-4803-83a8-70c1ef6eb88c",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -13478,13 +13478,13 @@
         ],
         "caloriesPerGramProtein": 6.6
       },
-      "createdAt": "2026-06-17T00:37:25.359Z",
-      "prevVersionId": "0c90aa98-a880-48ca-b2ea-810a33e5e26b"
+      "createdAt": "2026-06-17T01:42:37.427Z",
+      "prevVersionId": "a87899c4-0c1d-4ad6-8bfc-df2c01d77cbd"
     },
-    "3eddb051-c8a6-42bd-a5f7-1346126e2ec6": {
-      "id": "3eddb051-c8a6-42bd-a5f7-1346126e2ec6",
-      "recipeId": "166954b5-8869-4ea4-bcd6-dc171f0bec45",
-      "derivesFromVersionId": "3eae4960-1a3a-4687-851b-12f24e38f73a",
+    "995970e2-686f-4366-bb52-3addd90aec5b": {
+      "id": "995970e2-686f-4366-bb52-3addd90aec5b",
+      "recipeId": "50629ead-13d8-40cf-8450-bed0fe96058c",
+      "derivesFromVersionId": "5b03e5dc-2975-4803-83a8-70c1ef6eb88c",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -13815,13 +13815,13 @@
         ],
         "caloriesPerGramProtein": 6.6
       },
-      "createdAt": "2026-06-17T00:37:25.527Z",
-      "prevVersionId": "5003537d-f3d8-4feb-b2ab-901de910f33c"
+      "createdAt": "2026-06-17T01:42:37.592Z",
+      "prevVersionId": "e69cf28e-c23f-4ba9-8a1e-d41cb2109e60"
     },
-    "0543db2d-7017-4ff5-bf73-b9d591bfe623": {
-      "id": "0543db2d-7017-4ff5-bf73-b9d591bfe623",
-      "recipeId": "166954b5-8869-4ea4-bcd6-dc171f0bec45",
-      "derivesFromVersionId": "3eae4960-1a3a-4687-851b-12f24e38f73a",
+    "4a61d448-468a-4156-9c66-52d096ab80b9": {
+      "id": "4a61d448-468a-4156-9c66-52d096ab80b9",
+      "recipeId": "50629ead-13d8-40cf-8450-bed0fe96058c",
+      "derivesFromVersionId": "5b03e5dc-2975-4803-83a8-70c1ef6eb88c",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -14162,12 +14162,12 @@
         ],
         "caloriesPerGramProtein": 6.6
       },
-      "createdAt": "2026-06-17T00:37:25.699Z",
-      "prevVersionId": "3eddb051-c8a6-42bd-a5f7-1346126e2ec6"
+      "createdAt": "2026-06-17T01:42:37.757Z",
+      "prevVersionId": "995970e2-686f-4366-bb52-3addd90aec5b"
     },
-    "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a": {
-      "id": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
-      "recipeId": "46de7afa-f28b-40da-a67a-9a2240c25eb6",
+    "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a": {
+      "id": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
+      "recipeId": "8cb597be-c738-411c-a530-b48e77147ad0",
       "name": "Crumbl Base Protein Cookie",
       "description": "The shared base cookie for the crumbl protein-cookie family — the flavor-neutral vanilla chassis every flavor derives from. Built from the tested-excellent set: Birthday Cake + Lemon dough at 1.5 scoops plus their shared cornstarch soft-crumb trick, with a lean egg white for structure. Frosting is a sub_recipe pin (defaults to the Cool-Whip vanilla protein frosting); flavors swap the pin — cream cheese for red velvet, a lemon drizzle for lemon. The 20g newcomer's heavier protein-load stays a queued experiment. Sweetener is granulated Splenda (calorically modeled, never monk fruit).",
       "tags": [
@@ -14320,7 +14320,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0543db2d-7017-4ff5-bf73-b9d591bfe623"
+              "subRecipeVersionId": "4a61d448-468a-4156-9c66-52d096ab80b9"
             }
           }
         ],
@@ -14624,13 +14624,13 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T00:37:25.871Z",
-      "prevVersionId": "337a6071-b101-4c00-a448-d5865ccb3ab6"
+      "createdAt": "2026-06-17T01:42:37.926Z",
+      "prevVersionId": "c60046a9-9a57-41a9-9ae9-14c26f959897"
     },
-    "54c3a646-47d3-49b0-a3cc-064ab018294a": {
-      "id": "54c3a646-47d3-49b0-a3cc-064ab018294a",
-      "recipeId": "1fc24b33-9251-4d21-8f7a-a240337e0c22",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "cf1cf91b-2f9f-4ca5-a2c6-489567afe1ca": {
+      "id": "cf1cf91b-2f9f-4ca5-a2c6-489567afe1ca",
+      "recipeId": "ba055591-a0c7-4457-a324-bd537907fbd0",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Birthday Cake Protein Cookies",
       "tags": [],
       "yield": {
@@ -14781,7 +14781,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0543db2d-7017-4ff5-bf73-b9d591bfe623"
+              "subRecipeVersionId": "4a61d448-468a-4156-9c66-52d096ab80b9"
             }
           }
         ],
@@ -15085,12 +15085,12 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T00:37:26.038Z"
+      "createdAt": "2026-06-17T01:42:38.094Z"
     },
-    "8f647527-8baa-4e9b-aa94-19f1dba057b7": {
-      "id": "8f647527-8baa-4e9b-aa94-19f1dba057b7",
-      "recipeId": "1fc24b33-9251-4d21-8f7a-a240337e0c22",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "9e8de6f7-074b-4fae-b167-e46e0e59ae8a": {
+      "id": "9e8de6f7-074b-4fae-b167-e46e0e59ae8a",
+      "recipeId": "ba055591-a0c7-4457-a324-bd537907fbd0",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Birthday Cake Protein Cookies",
       "tags": [],
       "yield": {
@@ -15254,7 +15254,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0543db2d-7017-4ff5-bf73-b9d591bfe623"
+              "subRecipeVersionId": "4a61d448-468a-4156-9c66-52d096ab80b9"
             }
           },
           {
@@ -15566,13 +15566,13 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T00:37:26.209Z",
-      "prevVersionId": "54c3a646-47d3-49b0-a3cc-064ab018294a"
+      "createdAt": "2026-06-17T01:42:38.262Z",
+      "prevVersionId": "cf1cf91b-2f9f-4ca5-a2c6-489567afe1ca"
     },
-    "79f14483-e9d5-45f2-ad4d-d9b52a160126": {
-      "id": "79f14483-e9d5-45f2-ad4d-d9b52a160126",
-      "recipeId": "1fc24b33-9251-4d21-8f7a-a240337e0c22",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "563e9273-5b68-43a3-8622-e18c1e42887e": {
+      "id": "563e9273-5b68-43a3-8622-e18c1e42887e",
+      "recipeId": "ba055591-a0c7-4457-a324-bd537907fbd0",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Birthday Cake Protein Cookies",
       "tags": [],
       "yield": {
@@ -15747,7 +15747,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0543db2d-7017-4ff5-bf73-b9d591bfe623"
+              "subRecipeVersionId": "4a61d448-468a-4156-9c66-52d096ab80b9"
             }
           },
           {
@@ -16080,13 +16080,13 @@
         ],
         "caloriesPerGramProtein": 11.38
       },
-      "createdAt": "2026-06-17T00:37:26.385Z",
-      "prevVersionId": "8f647527-8baa-4e9b-aa94-19f1dba057b7"
+      "createdAt": "2026-06-17T01:42:38.425Z",
+      "prevVersionId": "9e8de6f7-074b-4fae-b167-e46e0e59ae8a"
     },
-    "dfeea626-3ba1-4ed2-bb04-3e35c4dd7ac3": {
-      "id": "dfeea626-3ba1-4ed2-bb04-3e35c4dd7ac3",
-      "recipeId": "1fc24b33-9251-4d21-8f7a-a240337e0c22",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "7acb7174-646b-402d-b1f3-24d0e5017de8": {
+      "id": "7acb7174-646b-402d-b1f3-24d0e5017de8",
+      "recipeId": "ba055591-a0c7-4457-a324-bd537907fbd0",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Birthday Cake Protein Cookies",
       "tags": [
         "crumbl",
@@ -16272,7 +16272,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0543db2d-7017-4ff5-bf73-b9d591bfe623"
+              "subRecipeVersionId": "4a61d448-468a-4156-9c66-52d096ab80b9"
             }
           },
           {
@@ -16605,14 +16605,14 @@
         ],
         "caloriesPerGramProtein": 11.38
       },
-      "createdAt": "2026-06-17T00:37:26.562Z",
-      "prevVersionId": "79f14483-e9d5-45f2-ad4d-d9b52a160126",
+      "createdAt": "2026-06-17T01:42:38.593Z",
+      "prevVersionId": "563e9273-5b68-43a3-8622-e18c1e42887e",
       "description": "Birthday-cake flavor of the Crumbl base — base chassis + almond extract for the cake-batter note. Funfetti sprinkles are the topping (omitted here, like the source). Derived off Crumbl Base Protein Cookie so base tweaks rebase in. Untested at this base chassis (the original standalone root was rated excellent, but this version adds the base's egg white / cornstarch and standardized dough — worth a confirming bake)."
     },
-    "0fa48aca-8e3e-47d2-a87a-722c042f199a": {
-      "id": "0fa48aca-8e3e-47d2-a87a-722c042f199a",
-      "recipeId": "85886533-c275-429e-84e9-140b2ed59a5b",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "578294ec-3fe2-406d-8c02-7ed45fe2f93e": {
+      "id": "578294ec-3fe2-406d-8c02-7ed45fe2f93e",
+      "recipeId": "bd33c521-0bba-41df-9a17-c64bee260e44",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -16763,7 +16763,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0543db2d-7017-4ff5-bf73-b9d591bfe623"
+              "subRecipeVersionId": "4a61d448-468a-4156-9c66-52d096ab80b9"
             }
           }
         ],
@@ -17067,12 +17067,12 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T00:37:26.735Z"
+      "createdAt": "2026-06-17T01:42:38.759Z"
     },
-    "b1a6e4d8-7810-4453-88bc-e3e1a324bfb6": {
-      "id": "b1a6e4d8-7810-4453-88bc-e3e1a324bfb6",
-      "recipeId": "85886533-c275-429e-84e9-140b2ed59a5b",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "92be9c6f-d733-4f56-bcdd-4b2c18343db7": {
+      "id": "92be9c6f-d733-4f56-bcdd-4b2c18343db7",
+      "recipeId": "bd33c521-0bba-41df-9a17-c64bee260e44",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -17236,7 +17236,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0543db2d-7017-4ff5-bf73-b9d591bfe623"
+              "subRecipeVersionId": "4a61d448-468a-4156-9c66-52d096ab80b9"
             }
           },
           {
@@ -17548,13 +17548,13 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T00:37:26.913Z",
-      "prevVersionId": "0fa48aca-8e3e-47d2-a87a-722c042f199a"
+      "createdAt": "2026-06-17T01:42:38.927Z",
+      "prevVersionId": "578294ec-3fe2-406d-8c02-7ed45fe2f93e"
     },
-    "151a5051-dcae-478f-a3b2-fd99c968178a": {
-      "id": "151a5051-dcae-478f-a3b2-fd99c968178a",
-      "recipeId": "85886533-c275-429e-84e9-140b2ed59a5b",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "2575ef95-84dd-4db1-b858-e0520ed3ab4a": {
+      "id": "2575ef95-84dd-4db1-b858-e0520ed3ab4a",
+      "recipeId": "bd33c521-0bba-41df-9a17-c64bee260e44",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -17729,7 +17729,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0543db2d-7017-4ff5-bf73-b9d591bfe623"
+              "subRecipeVersionId": "4a61d448-468a-4156-9c66-52d096ab80b9"
             }
           },
           {
@@ -18062,13 +18062,13 @@
         ],
         "caloriesPerGramProtein": 11.39
       },
-      "createdAt": "2026-06-17T00:37:27.083Z",
-      "prevVersionId": "b1a6e4d8-7810-4453-88bc-e3e1a324bfb6"
+      "createdAt": "2026-06-17T01:42:39.093Z",
+      "prevVersionId": "92be9c6f-d733-4f56-bcdd-4b2c18343db7"
     },
-    "41d0d12d-ea7a-41e9-a38f-6b5cffbf0e16": {
-      "id": "41d0d12d-ea7a-41e9-a38f-6b5cffbf0e16",
-      "recipeId": "85886533-c275-429e-84e9-140b2ed59a5b",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "b60a3d91-c791-4a3f-b554-36eb2d2f4b6e": {
+      "id": "b60a3d91-c791-4a3f-b554-36eb2d2f4b6e",
+      "recipeId": "bd33c521-0bba-41df-9a17-c64bee260e44",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -18254,7 +18254,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0543db2d-7017-4ff5-bf73-b9d591bfe623"
+              "subRecipeVersionId": "4a61d448-468a-4156-9c66-52d096ab80b9"
             }
           },
           {
@@ -18587,13 +18587,13 @@
         ],
         "caloriesPerGramProtein": 11.39
       },
-      "createdAt": "2026-06-17T00:37:27.261Z",
-      "prevVersionId": "151a5051-dcae-478f-a3b2-fd99c968178a"
+      "createdAt": "2026-06-17T01:42:39.260Z",
+      "prevVersionId": "2575ef95-84dd-4db1-b858-e0520ed3ab4a"
     },
-    "537559dd-4fdd-4e1d-8847-afb533b6f158": {
-      "id": "537559dd-4fdd-4e1d-8847-afb533b6f158",
-      "recipeId": "85886533-c275-429e-84e9-140b2ed59a5b",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "f83397cd-1439-480c-bf0d-2ae0f7eb32de": {
+      "id": "f83397cd-1439-480c-bf0d-2ae0f7eb32de",
+      "recipeId": "bd33c521-0bba-41df-9a17-c64bee260e44",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -18784,7 +18784,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0543db2d-7017-4ff5-bf73-b9d591bfe623"
+              "subRecipeVersionId": "4a61d448-468a-4156-9c66-52d096ab80b9"
             }
           },
           {
@@ -19097,13 +19097,13 @@
         ],
         "caloriesPerGramProtein": 12.76
       },
-      "createdAt": "2026-06-17T00:37:27.436Z",
-      "prevVersionId": "41d0d12d-ea7a-41e9-a38f-6b5cffbf0e16"
+      "createdAt": "2026-06-17T01:42:39.426Z",
+      "prevVersionId": "b60a3d91-c791-4a3f-b554-36eb2d2f4b6e"
     },
-    "1024e530-2a60-4f5e-a33f-9f8b5596c16d": {
-      "id": "1024e530-2a60-4f5e-a33f-9f8b5596c16d",
-      "recipeId": "85886533-c275-429e-84e9-140b2ed59a5b",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "057ab43b-b1b4-4572-b08c-248fe34c16c3": {
+      "id": "057ab43b-b1b4-4572-b08c-248fe34c16c3",
+      "recipeId": "bd33c521-0bba-41df-9a17-c64bee260e44",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -19604,13 +19604,13 @@
         ],
         "caloriesPerGramProtein": 12.76
       },
-      "createdAt": "2026-06-17T00:37:27.616Z",
-      "prevVersionId": "537559dd-4fdd-4e1d-8847-afb533b6f158"
+      "createdAt": "2026-06-17T01:42:39.590Z",
+      "prevVersionId": "f83397cd-1439-480c-bf0d-2ae0f7eb32de"
     },
-    "131c7b52-f7ec-42e0-abf3-45ec9b60a452": {
-      "id": "131c7b52-f7ec-42e0-abf3-45ec9b60a452",
-      "recipeId": "85886533-c275-429e-84e9-140b2ed59a5b",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "da2a8e92-5cc0-4b4d-94e4-b36e30c9c5cb": {
+      "id": "da2a8e92-5cc0-4b4d-94e4-b36e30c9c5cb",
+      "recipeId": "bd33c521-0bba-41df-9a17-c64bee260e44",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -20131,13 +20131,13 @@
         ],
         "caloriesPerGramProtein": 12.76
       },
-      "createdAt": "2026-06-17T00:37:27.787Z",
-      "prevVersionId": "1024e530-2a60-4f5e-a33f-9f8b5596c16d"
+      "createdAt": "2026-06-17T01:42:39.758Z",
+      "prevVersionId": "057ab43b-b1b4-4572-b08c-248fe34c16c3"
     },
-    "e4cdf3ae-734d-4124-8e07-63402bc0fd42": {
-      "id": "e4cdf3ae-734d-4124-8e07-63402bc0fd42",
-      "recipeId": "85886533-c275-429e-84e9-140b2ed59a5b",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "7c093ba1-2b54-494c-900d-2f8e71c0a0a9": {
+      "id": "7c093ba1-2b54-494c-900d-2f8e71c0a0a9",
+      "recipeId": "bd33c521-0bba-41df-9a17-c64bee260e44",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -20678,13 +20678,13 @@
         ],
         "caloriesPerGramProtein": 12.76
       },
-      "createdAt": "2026-06-17T00:37:27.963Z",
-      "prevVersionId": "131c7b52-f7ec-42e0-abf3-45ec9b60a452"
+      "createdAt": "2026-06-17T01:42:39.929Z",
+      "prevVersionId": "da2a8e92-5cc0-4b4d-94e4-b36e30c9c5cb"
     },
-    "9e02b986-a445-402c-bd1d-67a866fece03": {
-      "id": "9e02b986-a445-402c-bd1d-67a866fece03",
-      "recipeId": "85886533-c275-429e-84e9-140b2ed59a5b",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "a3caa4ec-6807-46fe-bf4b-86cff68e5053": {
+      "id": "a3caa4ec-6807-46fe-bf4b-86cff68e5053",
+      "recipeId": "bd33c521-0bba-41df-9a17-c64bee260e44",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -21257,13 +21257,13 @@
         ],
         "caloriesPerGramProtein": 12.82
       },
-      "createdAt": "2026-06-17T00:37:28.137Z",
-      "prevVersionId": "e4cdf3ae-734d-4124-8e07-63402bc0fd42"
+      "createdAt": "2026-06-17T01:42:40.098Z",
+      "prevVersionId": "7c093ba1-2b54-494c-900d-2f8e71c0a0a9"
     },
-    "1815fe65-fee6-4f7c-95c4-69680a9253f4": {
-      "id": "1815fe65-fee6-4f7c-95c4-69680a9253f4",
-      "recipeId": "85886533-c275-429e-84e9-140b2ed59a5b",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "2745be02-997f-4f85-81f8-1354b7b25dc4": {
+      "id": "2745be02-997f-4f85-81f8-1354b7b25dc4",
+      "recipeId": "bd33c521-0bba-41df-9a17-c64bee260e44",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -21868,13 +21868,13 @@
         ],
         "caloriesPerGramProtein": 13.53
       },
-      "createdAt": "2026-06-17T00:37:28.314Z",
-      "prevVersionId": "9e02b986-a445-402c-bd1d-67a866fece03"
+      "createdAt": "2026-06-17T01:42:40.268Z",
+      "prevVersionId": "a3caa4ec-6807-46fe-bf4b-86cff68e5053"
     },
-    "d5a6727f-a919-4ef3-bf61-59c71fd983b3": {
-      "id": "d5a6727f-a919-4ef3-bf61-59c71fd983b3",
-      "recipeId": "85886533-c275-429e-84e9-140b2ed59a5b",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "6f878e4c-461a-4fbf-b57a-0ec75ce52548": {
+      "id": "6f878e4c-461a-4fbf-b57a-0ec75ce52548",
+      "recipeId": "bd33c521-0bba-41df-9a17-c64bee260e44",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Lemon Protein Cookies",
       "tags": [
         "crumbl",
@@ -22492,14 +22492,14 @@
         ],
         "caloriesPerGramProtein": 13.53
       },
-      "createdAt": "2026-06-17T00:37:28.498Z",
-      "prevVersionId": "1815fe65-fee6-4f7c-95c4-69680a9253f4",
+      "createdAt": "2026-06-17T01:42:40.442Z",
+      "prevVersionId": "2745be02-997f-4f85-81f8-1354b7b25dc4",
       "description": "Lemon flavor of the Crumbl base — base chassis + lemon juice in the dough, and the base's frosting sub_recipe pin dropped in favor of a lemon drizzle (lemon juice + granulated Splenda; never monk fruit). Derived off Crumbl Base Protein Cookie. NOTE: the drizzle was rated 'bad' on the original (too weak/thin) and granulated Splenda won't glaze as smoothly as a powdered sweetener — still a redesign candidate. Untested at this base chassis."
     },
-    "63f35f02-7c9a-411a-b7fa-7b3b2cb7f279": {
-      "id": "63f35f02-7c9a-411a-b7fa-7b3b2cb7f279",
-      "recipeId": "6f48d727-96ba-482a-8e09-416ea854d5a4",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "dbc5d7fc-766a-475e-bb84-8fb4803bfce4": {
+      "id": "dbc5d7fc-766a-475e-bb84-8fb4803bfce4",
+      "recipeId": "d2676e1f-ff06-48e0-b302-9bf51753a1e1",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Lucky Charms Protein Cookies",
       "tags": [],
       "yield": {
@@ -22650,7 +22650,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0543db2d-7017-4ff5-bf73-b9d591bfe623"
+              "subRecipeVersionId": "4a61d448-468a-4156-9c66-52d096ab80b9"
             }
           }
         ],
@@ -22954,12 +22954,12 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T00:37:28.673Z"
+      "createdAt": "2026-06-17T01:42:40.611Z"
     },
-    "4d3fd32a-15d8-458d-a476-89473e39c9ff": {
-      "id": "4d3fd32a-15d8-458d-a476-89473e39c9ff",
-      "recipeId": "6f48d727-96ba-482a-8e09-416ea854d5a4",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "703fa9e3-5ba4-440b-9f14-ff0d2e8ab9a9": {
+      "id": "703fa9e3-5ba4-440b-9f14-ff0d2e8ab9a9",
+      "recipeId": "d2676e1f-ff06-48e0-b302-9bf51753a1e1",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Lucky Charms Protein Cookies",
       "tags": [],
       "yield": {
@@ -23123,7 +23123,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0543db2d-7017-4ff5-bf73-b9d591bfe623"
+              "subRecipeVersionId": "4a61d448-468a-4156-9c66-52d096ab80b9"
             }
           },
           {
@@ -23435,13 +23435,13 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T00:37:28.853Z",
-      "prevVersionId": "63f35f02-7c9a-411a-b7fa-7b3b2cb7f279"
+      "createdAt": "2026-06-17T01:42:40.783Z",
+      "prevVersionId": "dbc5d7fc-766a-475e-bb84-8fb4803bfce4"
     },
-    "df7ffdfd-6f18-4440-810c-49239b61aef2": {
-      "id": "df7ffdfd-6f18-4440-810c-49239b61aef2",
-      "recipeId": "6f48d727-96ba-482a-8e09-416ea854d5a4",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "a7c8c421-38db-49ee-a715-aaab53ecc478": {
+      "id": "a7c8c421-38db-49ee-a715-aaab53ecc478",
+      "recipeId": "d2676e1f-ff06-48e0-b302-9bf51753a1e1",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Lucky Charms Protein Cookies",
       "tags": [],
       "yield": {
@@ -23616,7 +23616,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0543db2d-7017-4ff5-bf73-b9d591bfe623"
+              "subRecipeVersionId": "4a61d448-468a-4156-9c66-52d096ab80b9"
             }
           },
           {
@@ -23949,13 +23949,13 @@
         ],
         "caloriesPerGramProtein": 11.37
       },
-      "createdAt": "2026-06-17T00:37:29.024Z",
-      "prevVersionId": "4d3fd32a-15d8-458d-a476-89473e39c9ff"
+      "createdAt": "2026-06-17T01:42:40.953Z",
+      "prevVersionId": "703fa9e3-5ba4-440b-9f14-ff0d2e8ab9a9"
     },
-    "e507661e-ac6c-4ea2-b3ed-d99735fbb6cf": {
-      "id": "e507661e-ac6c-4ea2-b3ed-d99735fbb6cf",
-      "recipeId": "6f48d727-96ba-482a-8e09-416ea854d5a4",
-      "derivesFromVersionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+    "2555dc3a-7e55-4485-a9bd-d54ed992150e": {
+      "id": "2555dc3a-7e55-4485-a9bd-d54ed992150e",
+      "recipeId": "d2676e1f-ff06-48e0-b302-9bf51753a1e1",
+      "derivesFromVersionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "name": "Lucky Charms Protein Cookies",
       "tags": [
         "crumbl",
@@ -24141,7 +24141,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0543db2d-7017-4ff5-bf73-b9d591bfe623"
+              "subRecipeVersionId": "4a61d448-468a-4156-9c66-52d096ab80b9"
             }
           },
           {
@@ -24474,14 +24474,14 @@
         ],
         "caloriesPerGramProtein": 11.37
       },
-      "createdAt": "2026-06-17T00:37:29.202Z",
-      "prevVersionId": "df7ffdfd-6f18-4440-810c-49239b61aef2",
+      "createdAt": "2026-06-17T01:42:41.124Z",
+      "prevVersionId": "a7c8c421-38db-49ee-a715-aaab53ecc478",
       "description": "Lucky Charms flavor of the Crumbl base — base chassis + almond extract. The Lucky Charms cereal marshmallows are the topping and are intentionally omitted (matches the source 'without the lucky charms'). NOTE: with the marshmallows omitted, this is effectively identical to Birthday Cake — the marshmallow topping is the only real differentiator, a one-line add when wanted. Derived off Crumbl Base Protein Cookie. Untested at this base chassis."
     },
-    "6298ba40-4c4c-487e-92e4-fd8b25275e8a": {
-      "id": "6298ba40-4c4c-487e-92e4-fd8b25275e8a",
-      "recipeId": "18c9b92c-5021-4ddd-b904-d781e052c769",
-      "derivesFromVersionId": "a2200b9e-e99a-49fa-b424-d4c575359e5a",
+    "4ad7fa1b-c41f-4921-9b10-6888255268ef": {
+      "id": "4ad7fa1b-c41f-4921-9b10-6888255268ef",
+      "recipeId": "718bd8f2-b80d-4598-8681-49a1b077f731",
+      "derivesFromVersionId": "0946ac6a-8b0a-4eb7-a9f6-15da77ff93c9",
       "name": "Browned-Butter Protein Cookies (Soft-Chewy)",
       "tags": [],
       "yield": {
@@ -24925,12 +24925,12 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T00:37:29.383Z"
+      "createdAt": "2026-06-17T01:42:41.294Z"
     },
-    "9b8869be-48c0-4875-8c2c-e603cf4e5686": {
-      "id": "9b8869be-48c0-4875-8c2c-e603cf4e5686",
-      "recipeId": "18c9b92c-5021-4ddd-b904-d781e052c769",
-      "derivesFromVersionId": "a2200b9e-e99a-49fa-b424-d4c575359e5a",
+    "d92d5ac5-7a9d-4290-b375-779e97774e06": {
+      "id": "d92d5ac5-7a9d-4290-b375-779e97774e06",
+      "recipeId": "718bd8f2-b80d-4598-8681-49a1b077f731",
+      "derivesFromVersionId": "0946ac6a-8b0a-4eb7-a9f6-15da77ff93c9",
       "name": "Browned-Butter Protein Cookies (Soft-Chewy)",
       "tags": [],
       "yield": {
@@ -25386,13 +25386,13 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T00:37:29.557Z",
-      "prevVersionId": "6298ba40-4c4c-487e-92e4-fd8b25275e8a"
+      "createdAt": "2026-06-17T01:42:41.482Z",
+      "prevVersionId": "4ad7fa1b-c41f-4921-9b10-6888255268ef"
     },
-    "462abaf4-1a9f-4b38-9205-43282d796b6f": {
-      "id": "462abaf4-1a9f-4b38-9205-43282d796b6f",
-      "recipeId": "18c9b92c-5021-4ddd-b904-d781e052c769",
-      "derivesFromVersionId": "a2200b9e-e99a-49fa-b424-d4c575359e5a",
+    "65a72c73-5aa1-47c5-b5b8-79afbb823650": {
+      "id": "65a72c73-5aa1-47c5-b5b8-79afbb823650",
+      "recipeId": "718bd8f2-b80d-4598-8681-49a1b077f731",
+      "derivesFromVersionId": "0946ac6a-8b0a-4eb7-a9f6-15da77ff93c9",
       "name": "Browned-Butter Protein Cookies (Soft-Chewy)",
       "tags": [],
       "yield": {
@@ -25859,13 +25859,13 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T00:37:29.734Z",
-      "prevVersionId": "9b8869be-48c0-4875-8c2c-e603cf4e5686"
+      "createdAt": "2026-06-17T01:42:41.666Z",
+      "prevVersionId": "d92d5ac5-7a9d-4290-b375-779e97774e06"
     },
-    "eeb6f445-d4dc-4a2f-ab5a-1102d83720fb": {
-      "id": "eeb6f445-d4dc-4a2f-ab5a-1102d83720fb",
-      "recipeId": "18c9b92c-5021-4ddd-b904-d781e052c769",
-      "derivesFromVersionId": "a2200b9e-e99a-49fa-b424-d4c575359e5a",
+    "8280fa82-e201-49ca-a8cc-095c97c0c0df": {
+      "id": "8280fa82-e201-49ca-a8cc-095c97c0c0df",
+      "recipeId": "718bd8f2-b80d-4598-8681-49a1b077f731",
+      "derivesFromVersionId": "0946ac6a-8b0a-4eb7-a9f6-15da77ff93c9",
       "name": "Browned-Butter Protein Cookies (Soft-Chewy)",
       "tags": [],
       "yield": {
@@ -26344,13 +26344,13 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T00:37:29.913Z",
-      "prevVersionId": "462abaf4-1a9f-4b38-9205-43282d796b6f"
+      "createdAt": "2026-06-17T01:42:41.849Z",
+      "prevVersionId": "65a72c73-5aa1-47c5-b5b8-79afbb823650"
     },
-    "3df6059b-75b9-4c28-b9a3-beaea1ff3b1d": {
-      "id": "3df6059b-75b9-4c28-b9a3-beaea1ff3b1d",
-      "recipeId": "18c9b92c-5021-4ddd-b904-d781e052c769",
-      "derivesFromVersionId": "a2200b9e-e99a-49fa-b424-d4c575359e5a",
+    "fc958177-5c17-42ca-88b7-218430f41fcd": {
+      "id": "fc958177-5c17-42ca-88b7-218430f41fcd",
+      "recipeId": "718bd8f2-b80d-4598-8681-49a1b077f731",
+      "derivesFromVersionId": "0946ac6a-8b0a-4eb7-a9f6-15da77ff93c9",
       "name": "Browned-Butter Protein Cookies (Soft-Chewy)",
       "tags": [
         "cookie",
@@ -26842,14 +26842,14 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T00:37:30.093Z",
-      "prevVersionId": "eeb6f445-d4dc-4a2f-ab5a-1102d83720fb",
+      "createdAt": "2026-06-17T01:42:42.035Z",
+      "prevVersionId": "8280fa82-e201-49ca-a8cc-095c97c0c0df",
       "description": "VERSION B - Even & Soft-Chewy: soft and chewy edge to edge, the same texture throughout with no raw-dough center. A pure-procedure variant of the gooey base - identical dough, ingredients, and macros; only the bake (steps 4-6) differs. Flattening the cookie and lowering the oven temp both shrink the edge-vs-center cook gap, so the whole cookie finishes together. Spreads a little more, no molten center."
     },
-    "dd11333f-0671-4c70-9cc1-c98e0c193d98": {
-      "id": "dd11333f-0671-4c70-9cc1-c98e0c193d98",
-      "recipeId": "b7d10f5e-574d-412a-bd61-40b856f8bfbd",
-      "derivesFromVersionId": "a2200b9e-e99a-49fa-b424-d4c575359e5a",
+    "65cee1c4-8686-4a0f-8fbc-c8c0c8370e11": {
+      "id": "65cee1c4-8686-4a0f-8fbc-c8c0c8370e11",
+      "recipeId": "fb01b11f-be8d-4b20-8674-b12ff87fa384",
+      "derivesFromVersionId": "0946ac6a-8b0a-4eb7-a9f6-15da77ff93c9",
       "name": "Browned-Butter Protein Cookies (50g protein)",
       "tags": [],
       "yield": {
@@ -27293,12 +27293,12 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T00:37:30.272Z"
+      "createdAt": "2026-06-17T01:42:42.209Z"
     },
-    "5d82cb1e-3b4f-4a41-9833-dda14ab788e5": {
-      "id": "5d82cb1e-3b4f-4a41-9833-dda14ab788e5",
-      "recipeId": "b7d10f5e-574d-412a-bd61-40b856f8bfbd",
-      "derivesFromVersionId": "a2200b9e-e99a-49fa-b424-d4c575359e5a",
+    "b909a69e-0ad3-47f7-beb8-1bfdc36147cb": {
+      "id": "b909a69e-0ad3-47f7-beb8-1bfdc36147cb",
+      "recipeId": "fb01b11f-be8d-4b20-8674-b12ff87fa384",
+      "derivesFromVersionId": "0946ac6a-8b0a-4eb7-a9f6-15da77ff93c9",
       "name": "Browned-Butter Protein Cookies (50g protein)",
       "tags": [],
       "yield": {
@@ -27755,13 +27755,13 @@
         ],
         "caloriesPerGramProtein": 12.47
       },
-      "createdAt": "2026-06-17T00:37:30.452Z",
-      "prevVersionId": "dd11333f-0671-4c70-9cc1-c98e0c193d98"
+      "createdAt": "2026-06-17T01:42:42.408Z",
+      "prevVersionId": "65cee1c4-8686-4a0f-8fbc-c8c0c8370e11"
     },
-    "0e81f846-3696-4648-a815-ed74cea13fe3": {
-      "id": "0e81f846-3696-4648-a815-ed74cea13fe3",
-      "recipeId": "b7d10f5e-574d-412a-bd61-40b856f8bfbd",
-      "derivesFromVersionId": "a2200b9e-e99a-49fa-b424-d4c575359e5a",
+    "e639f70e-79a9-4b72-ba10-3be50a2c5df4": {
+      "id": "e639f70e-79a9-4b72-ba10-3be50a2c5df4",
+      "recipeId": "fb01b11f-be8d-4b20-8674-b12ff87fa384",
+      "derivesFromVersionId": "0946ac6a-8b0a-4eb7-a9f6-15da77ff93c9",
       "name": "Browned-Butter Protein Cookies (50g protein)",
       "tags": [
         "cookie",
@@ -28231,13 +28231,13 @@
         ],
         "caloriesPerGramProtein": 12.47
       },
-      "createdAt": "2026-06-17T00:37:30.634Z",
-      "prevVersionId": "5d82cb1e-3b4f-4a41-9833-dda14ab788e5"
+      "createdAt": "2026-06-17T01:42:42.594Z",
+      "prevVersionId": "b909a69e-0ad3-47f7-beb8-1bfdc36147cb"
     },
-    "3fd635cd-c2c7-46b3-b7ef-98765487c2cb": {
-      "id": "3fd635cd-c2c7-46b3-b7ef-98765487c2cb",
-      "recipeId": "b1a93394-6aca-409f-96da-fe11a46ea664",
-      "derivesFromVersionId": "a2200b9e-e99a-49fa-b424-d4c575359e5a",
+    "55ae81af-eb27-40f9-9834-67fbbdf040e3": {
+      "id": "55ae81af-eb27-40f9-9834-67fbbdf040e3",
+      "recipeId": "18b1f22d-518e-42fa-9748-7aa09645f549",
+      "derivesFromVersionId": "0946ac6a-8b0a-4eb7-a9f6-15da77ff93c9",
       "name": "Browned-Butter Protein Cookies (60g protein)",
       "tags": [],
       "yield": {
@@ -28681,12 +28681,12 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T00:37:30.806Z"
+      "createdAt": "2026-06-17T01:42:42.768Z"
     },
-    "c30bb67e-50e4-457f-af35-ac1411343a74": {
-      "id": "c30bb67e-50e4-457f-af35-ac1411343a74",
-      "recipeId": "b1a93394-6aca-409f-96da-fe11a46ea664",
-      "derivesFromVersionId": "a2200b9e-e99a-49fa-b424-d4c575359e5a",
+    "cd3bff21-05e9-4f85-ac73-c6fa90317e0d": {
+      "id": "cd3bff21-05e9-4f85-ac73-c6fa90317e0d",
+      "recipeId": "18b1f22d-518e-42fa-9748-7aa09645f549",
+      "derivesFromVersionId": "0946ac6a-8b0a-4eb7-a9f6-15da77ff93c9",
       "name": "Browned-Butter Protein Cookies (60g protein)",
       "tags": [],
       "yield": {
@@ -29143,13 +29143,13 @@
         ],
         "caloriesPerGramProtein": 11.46
       },
-      "createdAt": "2026-06-17T00:37:30.984Z",
-      "prevVersionId": "3fd635cd-c2c7-46b3-b7ef-98765487c2cb"
+      "createdAt": "2026-06-17T01:42:42.943Z",
+      "prevVersionId": "55ae81af-eb27-40f9-9834-67fbbdf040e3"
     },
-    "14a440d9-2ffa-466a-8777-01a163ed002f": {
-      "id": "14a440d9-2ffa-466a-8777-01a163ed002f",
-      "recipeId": "b1a93394-6aca-409f-96da-fe11a46ea664",
-      "derivesFromVersionId": "a2200b9e-e99a-49fa-b424-d4c575359e5a",
+    "348c6ac8-b1da-4f4a-89ad-91d9d8bbb514": {
+      "id": "348c6ac8-b1da-4f4a-89ad-91d9d8bbb514",
+      "recipeId": "18b1f22d-518e-42fa-9748-7aa09645f549",
+      "derivesFromVersionId": "0946ac6a-8b0a-4eb7-a9f6-15da77ff93c9",
       "name": "Browned-Butter Protein Cookies (60g protein)",
       "tags": [
         "cookie",
@@ -29619,12 +29619,12 @@
         ],
         "caloriesPerGramProtein": 11.46
       },
-      "createdAt": "2026-06-17T00:37:31.165Z",
-      "prevVersionId": "c30bb67e-50e4-457f-af35-ac1411343a74"
+      "createdAt": "2026-06-17T01:42:43.118Z",
+      "prevVersionId": "cd3bff21-05e9-4f85-ac73-c6fa90317e0d"
     },
-    "72be08ed-126b-4993-aed1-c90f1acd049b": {
-      "id": "72be08ed-126b-4993-aed1-c90f1acd049b",
-      "recipeId": "7a11ae29-935e-48fc-be42-272c2dfc356e",
+    "e1dc9631-1858-4ba6-b02a-2c8ae81f5b54": {
+      "id": "e1dc9631-1858-4ba6-b02a-2c8ae81f5b54",
+      "recipeId": "172a09dd-b265-4bdf-ab42-5bce460c05bd",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -30246,12 +30246,12 @@
         ],
         "caloriesPerGramProtein": 10.74
       },
-      "createdAt": "2026-06-17T00:37:31.344Z",
-      "prevVersionId": "14de9666-3945-4487-ade8-f8ef5b83443d"
+      "createdAt": "2026-06-17T01:42:43.292Z",
+      "prevVersionId": "8e599432-65f9-4802-80c7-b97a463a7be8"
     },
-    "9607b5da-d1d2-4bcf-adce-bc96c2fd3f31": {
-      "id": "9607b5da-d1d2-4bcf-adce-bc96c2fd3f31",
-      "recipeId": "7a11ae29-935e-48fc-be42-272c2dfc356e",
+    "1575baf1-5be8-40ff-82e8-8c0bdf088f2a": {
+      "id": "1575baf1-5be8-40ff-82e8-8c0bdf088f2a",
+      "recipeId": "172a09dd-b265-4bdf-ab42-5bce460c05bd",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -30852,12 +30852,12 @@
         ],
         "caloriesPerGramProtein": 9.48
       },
-      "createdAt": "2026-06-17T00:37:31.526Z",
-      "prevVersionId": "72be08ed-126b-4993-aed1-c90f1acd049b"
+      "createdAt": "2026-06-17T01:42:43.464Z",
+      "prevVersionId": "e1dc9631-1858-4ba6-b02a-2c8ae81f5b54"
     },
-    "a69296bc-5055-4fc3-ba6f-b52fb9dc2f41": {
-      "id": "a69296bc-5055-4fc3-ba6f-b52fb9dc2f41",
-      "recipeId": "7a11ae29-935e-48fc-be42-272c2dfc356e",
+    "ea05fae9-3cd1-4f3b-9300-e8825b86e648": {
+      "id": "ea05fae9-3cd1-4f3b-9300-e8825b86e648",
+      "recipeId": "172a09dd-b265-4bdf-ab42-5bce460c05bd",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -31437,12 +31437,12 @@
         ],
         "caloriesPerGramProtein": 10.65
       },
-      "createdAt": "2026-06-17T00:37:31.704Z",
-      "prevVersionId": "9607b5da-d1d2-4bcf-adce-bc96c2fd3f31"
+      "createdAt": "2026-06-17T01:42:43.638Z",
+      "prevVersionId": "1575baf1-5be8-40ff-82e8-8c0bdf088f2a"
     },
-    "e4e08702-ab94-45d1-9a90-4de5e081e72c": {
-      "id": "e4e08702-ab94-45d1-9a90-4de5e081e72c",
-      "recipeId": "7a11ae29-935e-48fc-be42-272c2dfc356e",
+    "29637290-b1b5-41df-962e-011dbbaa9638": {
+      "id": "29637290-b1b5-41df-962e-011dbbaa9638",
+      "recipeId": "172a09dd-b265-4bdf-ab42-5bce460c05bd",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -32001,12 +32001,12 @@
         ],
         "caloriesPerGramProtein": 10.23
       },
-      "createdAt": "2026-06-17T00:37:31.880Z",
-      "prevVersionId": "a69296bc-5055-4fc3-ba6f-b52fb9dc2f41"
+      "createdAt": "2026-06-17T01:42:43.812Z",
+      "prevVersionId": "ea05fae9-3cd1-4f3b-9300-e8825b86e648"
     },
-    "5c9dbb87-01b3-41f0-86f8-3173ca6df4de": {
-      "id": "5c9dbb87-01b3-41f0-86f8-3173ca6df4de",
-      "recipeId": "7a11ae29-935e-48fc-be42-272c2dfc356e",
+    "d98f38b9-c01e-4a6b-a8cc-c64544105119": {
+      "id": "d98f38b9-c01e-4a6b-a8cc-c64544105119",
+      "recipeId": "172a09dd-b265-4bdf-ab42-5bce460c05bd",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -32544,12 +32544,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T00:37:32.059Z",
-      "prevVersionId": "e4e08702-ab94-45d1-9a90-4de5e081e72c"
+      "createdAt": "2026-06-17T01:42:43.988Z",
+      "prevVersionId": "29637290-b1b5-41df-962e-011dbbaa9638"
     },
-    "344a4c75-80fc-439a-8ba8-8cce7e182862": {
-      "id": "344a4c75-80fc-439a-8ba8-8cce7e182862",
-      "recipeId": "7a11ae29-935e-48fc-be42-272c2dfc356e",
+    "fec6a32f-252d-4e95-aa9e-c5b533c15fb5": {
+      "id": "fec6a32f-252d-4e95-aa9e-c5b533c15fb5",
+      "recipeId": "172a09dd-b265-4bdf-ab42-5bce460c05bd",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -33079,12 +33079,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T00:37:32.239Z",
-      "prevVersionId": "5c9dbb87-01b3-41f0-86f8-3173ca6df4de"
+      "createdAt": "2026-06-17T01:42:44.163Z",
+      "prevVersionId": "d98f38b9-c01e-4a6b-a8cc-c64544105119"
     },
-    "f489cb9b-b03d-4d91-8f11-74ccef450f0f": {
-      "id": "f489cb9b-b03d-4d91-8f11-74ccef450f0f",
-      "recipeId": "7a11ae29-935e-48fc-be42-272c2dfc356e",
+    "50c42fdb-a059-4985-82a7-b37ed813b42a": {
+      "id": "50c42fdb-a059-4985-82a7-b37ed813b42a",
+      "recipeId": "172a09dd-b265-4bdf-ab42-5bce460c05bd",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -33606,12 +33606,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T00:37:32.418Z",
-      "prevVersionId": "344a4c75-80fc-439a-8ba8-8cce7e182862"
+      "createdAt": "2026-06-17T01:42:44.335Z",
+      "prevVersionId": "fec6a32f-252d-4e95-aa9e-c5b533c15fb5"
     },
-    "c128c94e-88c7-43d9-b2db-8edcd4edfd25": {
-      "id": "c128c94e-88c7-43d9-b2db-8edcd4edfd25",
-      "recipeId": "7a11ae29-935e-48fc-be42-272c2dfc356e",
+    "9689572f-c044-43df-9950-e99f47d7c417": {
+      "id": "9689572f-c044-43df-9950-e99f47d7c417",
+      "recipeId": "172a09dd-b265-4bdf-ab42-5bce460c05bd",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -34125,12 +34125,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T00:37:32.610Z",
-      "prevVersionId": "f489cb9b-b03d-4d91-8f11-74ccef450f0f"
+      "createdAt": "2026-06-17T01:42:44.505Z",
+      "prevVersionId": "50c42fdb-a059-4985-82a7-b37ed813b42a"
     },
-    "e761f126-476e-4f84-a8cb-29bd1e9ccc54": {
-      "id": "e761f126-476e-4f84-a8cb-29bd1e9ccc54",
-      "recipeId": "7a11ae29-935e-48fc-be42-272c2dfc356e",
+    "9d245408-aa82-4c7f-93c4-139688e9984c": {
+      "id": "9d245408-aa82-4c7f-93c4-139688e9984c",
+      "recipeId": "172a09dd-b265-4bdf-ab42-5bce460c05bd",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -34636,12 +34636,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T00:37:32.790Z",
-      "prevVersionId": "c128c94e-88c7-43d9-b2db-8edcd4edfd25"
+      "createdAt": "2026-06-17T01:42:44.675Z",
+      "prevVersionId": "9689572f-c044-43df-9950-e99f47d7c417"
     },
-    "06fb5b6e-4330-4bbd-b0bc-4543f90c1e46": {
-      "id": "06fb5b6e-4330-4bbd-b0bc-4543f90c1e46",
-      "recipeId": "7a11ae29-935e-48fc-be42-272c2dfc356e",
+    "32b92869-cfaa-43d2-973c-0873bd293013": {
+      "id": "32b92869-cfaa-43d2-973c-0873bd293013",
+      "recipeId": "172a09dd-b265-4bdf-ab42-5bce460c05bd",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -35139,12 +35139,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T00:37:32.971Z",
-      "prevVersionId": "e761f126-476e-4f84-a8cb-29bd1e9ccc54"
+      "createdAt": "2026-06-17T01:42:44.851Z",
+      "prevVersionId": "9d245408-aa82-4c7f-93c4-139688e9984c"
     },
-    "d47db1cc-2c22-4ee8-a7d6-6c1d5d72e9af": {
-      "id": "d47db1cc-2c22-4ee8-a7d6-6c1d5d72e9af",
-      "recipeId": "7a11ae29-935e-48fc-be42-272c2dfc356e",
+    "53381bf8-34a5-481b-8a81-33a676e57c44": {
+      "id": "53381bf8-34a5-481b-8a81-33a676e57c44",
+      "recipeId": "172a09dd-b265-4bdf-ab42-5bce460c05bd",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -35642,12 +35642,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T00:37:33.169Z",
-      "prevVersionId": "06fb5b6e-4330-4bbd-b0bc-4543f90c1e46"
+      "createdAt": "2026-06-17T01:42:45.029Z",
+      "prevVersionId": "32b92869-cfaa-43d2-973c-0873bd293013"
     },
-    "d3043e0e-58bd-4f37-a5e9-13c504afcd83": {
-      "id": "d3043e0e-58bd-4f37-a5e9-13c504afcd83",
-      "recipeId": "7a11ae29-935e-48fc-be42-272c2dfc356e",
+    "bbb303d2-5758-4533-b570-79730f457abe": {
+      "id": "bbb303d2-5758-4533-b570-79730f457abe",
+      "recipeId": "172a09dd-b265-4bdf-ab42-5bce460c05bd",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -35827,7 +35827,7 @@
             "name": "protein cream-cheese frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "3eae4960-1a3a-4687-851b-12f24e38f73a"
+              "subRecipeVersionId": "5b03e5dc-2975-4803-83a8-70c1ef6eb88c"
             }
           }
         ],
@@ -36153,12 +36153,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T00:37:33.354Z",
-      "prevVersionId": "d47db1cc-2c22-4ee8-a7d6-6c1d5d72e9af"
+      "createdAt": "2026-06-17T01:42:45.205Z",
+      "prevVersionId": "53381bf8-34a5-481b-8a81-33a676e57c44"
     },
-    "8983c3c8-5cc5-4d91-af12-876d94eefed3": {
-      "id": "8983c3c8-5cc5-4d91-af12-876d94eefed3",
-      "recipeId": "7a11ae29-935e-48fc-be42-272c2dfc356e",
+    "37bd22f3-ab42-484f-a392-ee5a936afabb": {
+      "id": "37bd22f3-ab42-484f-a392-ee5a936afabb",
+      "recipeId": "172a09dd-b265-4bdf-ab42-5bce460c05bd",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -36338,7 +36338,7 @@
             "name": "protein cream-cheese frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "3eae4960-1a3a-4687-851b-12f24e38f73a"
+              "subRecipeVersionId": "5b03e5dc-2975-4803-83a8-70c1ef6eb88c"
             }
           }
         ],
@@ -36684,12 +36684,12 @@
         ],
         "caloriesPerGramProtein": 9.8
       },
-      "createdAt": "2026-06-17T00:37:33.542Z",
-      "prevVersionId": "d3043e0e-58bd-4f37-a5e9-13c504afcd83"
+      "createdAt": "2026-06-17T01:42:45.381Z",
+      "prevVersionId": "bbb303d2-5758-4533-b570-79730f457abe"
     },
-    "e27d3358-de95-485b-8359-462fe8f0878d": {
-      "id": "e27d3358-de95-485b-8359-462fe8f0878d",
-      "recipeId": "1fc84b01-2f1f-46f3-8128-d8720bb8063a",
+    "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f": {
+      "id": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f",
+      "recipeId": "e406a489-6562-475e-8c52-734da2bf8bbc",
       "name": "Turtle Protein Caramel Swirl",
       "description": "Protein caramel for marbling into the turtle cheesecake filling — 0% Greek yogurt + butterscotch SF pudding (the caramel note) + granulated Splenda, salted. Thick and spoonable; it lives hidden in the swirl, so it carries protein, not gloss. Sub-recipe (1 batch ~= 99 cal / 12.6 P).",
       "tags": [
@@ -36889,11 +36889,11 @@
         ],
         "caloriesPerGramProtein": 7.89
       },
-      "createdAt": "2026-06-17T00:37:33.903Z"
+      "createdAt": "2026-06-17T01:42:45.723Z"
     },
-    "c5a759d5-d98e-4443-89a5-c70b0d91cd4c": {
-      "id": "c5a759d5-d98e-4443-89a5-c70b0d91cd4c",
-      "recipeId": "ca1f0e61-b5ea-4742-b63c-fcefb453bd07",
+    "f0f62b72-dbf3-451a-a9cf-9dba99a658d0": {
+      "id": "f0f62b72-dbf3-451a-a9cf-9dba99a658d0",
+      "recipeId": "0867adcd-1add-44f5-a117-5738c019036b",
       "name": "Turtle Real Brown-Sugar Caramel",
       "description": "The real, glossy caramel for the top — brown sugar cooked with a little butter and thinned with almond milk, salted. Genuine caramelized-sugar flavor and drizzle (you can't caramelize Splenda), kept deliberately small: ~121 cal for the whole cake, the one honest-sugar indulgence. Sub-recipe (1 batch).",
       "tags": [
@@ -37064,11 +37064,11 @@
         ],
         "caloriesPerGramProtein": 970.42
       },
-      "createdAt": "2026-06-17T00:37:34.255Z"
+      "createdAt": "2026-06-17T01:42:46.063Z"
     },
-    "0f4f7078-13c2-48b3-a692-94405742ff22": {
-      "id": "0f4f7078-13c2-48b3-a692-94405742ff22",
-      "recipeId": "9039e65c-7f67-41b3-ae58-0dc1ef99951f",
+    "9cc75582-2f52-4492-a44e-5a48f86825b7": {
+      "id": "9cc75582-2f52-4492-a44e-5a48f86825b7",
+      "recipeId": "4322c433-2494-45c0-a9f7-b6fcb76dc5fd",
       "name": "Turtle Dark-Chocolate Ganache",
       "description": "Chocolate drizzle for the top — unsweetened baking chocolate melted with granulated Splenda and thinned with warm almond milk. Real cocoa-butter mouthfeel that cocoa powder can't fake; kept to a thin drizzle so the fat stays small (~98 cal for the whole cake). Sub-recipe (1 batch).",
       "tags": [
@@ -37240,12 +37240,12 @@
         ],
         "caloriesPerGramProtein": 48.08
       },
-      "createdAt": "2026-06-17T00:37:34.612Z"
+      "createdAt": "2026-06-17T01:42:46.411Z"
     },
-    "2db2cfc4-6d2c-4912-a469-042ed7fc8f41": {
-      "id": "2db2cfc4-6d2c-4912-a469-042ed7fc8f41",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "fe84e184-dd6d-4732-b4c4-5f9dbcfcd536": {
+      "id": "fe84e184-dd6d-4732-b4c4-5f9dbcfcd536",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -37290,7 +37290,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -37678,12 +37678,12 @@
         ],
         "caloriesPerGramProtein": 8.91
       },
-      "createdAt": "2026-06-17T00:37:34.972Z"
+      "createdAt": "2026-06-17T01:42:46.758Z"
     },
-    "5b455435-3da8-4299-9e36-65a7012f40f4": {
-      "id": "5b455435-3da8-4299-9e36-65a7012f40f4",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "730a6cfd-410b-4a8d-a56d-58d31c1ab31d": {
+      "id": "730a6cfd-410b-4a8d-a56d-58d31c1ab31d",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -37741,7 +37741,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -38129,13 +38129,13 @@
         ],
         "caloriesPerGramProtein": 8.46
       },
-      "createdAt": "2026-06-17T00:37:35.158Z",
-      "prevVersionId": "2db2cfc4-6d2c-4912-a469-042ed7fc8f41"
+      "createdAt": "2026-06-17T01:42:46.942Z",
+      "prevVersionId": "fe84e184-dd6d-4732-b4c4-5f9dbcfcd536"
     },
-    "c93ecc6a-2983-4c44-b7bd-4be1bc1ef17c": {
-      "id": "c93ecc6a-2983-4c44-b7bd-4be1bc1ef17c",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "ab89af4d-b49d-4fec-9eb8-4305c8a5f1f7": {
+      "id": "ab89af4d-b49d-4fec-9eb8-4305c8a5f1f7",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -38203,7 +38203,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -38597,13 +38597,13 @@
         ],
         "caloriesPerGramProtein": 8.46
       },
-      "createdAt": "2026-06-17T00:37:35.343Z",
-      "prevVersionId": "5b455435-3da8-4299-9e36-65a7012f40f4"
+      "createdAt": "2026-06-17T01:42:47.120Z",
+      "prevVersionId": "730a6cfd-410b-4a8d-a56d-58d31c1ab31d"
     },
-    "3ef50eb3-493d-4330-b2a7-1fa31c260934": {
-      "id": "3ef50eb3-493d-4330-b2a7-1fa31c260934",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "1b79c9aa-a3a5-421d-99b6-9cf59733001f": {
+      "id": "1b79c9aa-a3a5-421d-99b6-9cf59733001f",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -38683,7 +38683,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -39085,13 +39085,13 @@
         ],
         "caloriesPerGramProtein": 8.46
       },
-      "createdAt": "2026-06-17T00:37:35.523Z",
-      "prevVersionId": "c93ecc6a-2983-4c44-b7bd-4be1bc1ef17c"
+      "createdAt": "2026-06-17T01:42:47.298Z",
+      "prevVersionId": "ab89af4d-b49d-4fec-9eb8-4305c8a5f1f7"
     },
-    "a1b291a6-a02b-4fd1-9007-955d2e995054": {
-      "id": "a1b291a6-a02b-4fd1-9007-955d2e995054",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "5b4183c9-2762-4972-9555-ef898f169b4c": {
+      "id": "5b4183c9-2762-4972-9555-ef898f169b4c",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -39183,7 +39183,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -39593,13 +39593,13 @@
         ],
         "caloriesPerGramProtein": 8.46
       },
-      "createdAt": "2026-06-17T00:37:35.707Z",
-      "prevVersionId": "3ef50eb3-493d-4330-b2a7-1fa31c260934"
+      "createdAt": "2026-06-17T01:42:47.475Z",
+      "prevVersionId": "1b79c9aa-a3a5-421d-99b6-9cf59733001f"
     },
-    "d603619d-c5ae-4e23-bd1c-b66168f405c4": {
-      "id": "d603619d-c5ae-4e23-bd1c-b66168f405c4",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "84e8b197-907a-4d69-b3be-1ae4ba89c7c8": {
+      "id": "84e8b197-907a-4d69-b3be-1ae4ba89c7c8",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -39703,7 +39703,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -40121,13 +40121,13 @@
         ],
         "caloriesPerGramProtein": 8.46
       },
-      "createdAt": "2026-06-17T00:37:35.889Z",
-      "prevVersionId": "a1b291a6-a02b-4fd1-9007-955d2e995054"
+      "createdAt": "2026-06-17T01:42:47.650Z",
+      "prevVersionId": "5b4183c9-2762-4972-9555-ef898f169b4c"
     },
-    "5df5e3dc-66fd-4d9d-bf30-3df09152417a": {
-      "id": "5df5e3dc-66fd-4d9d-bf30-3df09152417a",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "543f5119-0884-4ade-b788-5c1f5dcbb934": {
+      "id": "543f5119-0884-4ade-b788-5c1f5dcbb934",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -40243,7 +40243,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -40669,13 +40669,13 @@
         ],
         "caloriesPerGramProtein": 8.46
       },
-      "createdAt": "2026-06-17T00:37:36.078Z",
-      "prevVersionId": "d603619d-c5ae-4e23-bd1c-b66168f405c4"
+      "createdAt": "2026-06-17T01:42:47.826Z",
+      "prevVersionId": "84e8b197-907a-4d69-b3be-1ae4ba89c7c8"
     },
-    "df69e83c-3527-4068-b6ef-b68c60f94a2c": {
-      "id": "df69e83c-3527-4068-b6ef-b68c60f94a2c",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "aaf44df5-0ce6-4d9b-8c88-fcaae9840b22": {
+      "id": "aaf44df5-0ce6-4d9b-8c88-fcaae9840b22",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -40802,7 +40802,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -41249,13 +41249,13 @@
         ],
         "caloriesPerGramProtein": 9.99
       },
-      "createdAt": "2026-06-17T00:37:36.261Z",
-      "prevVersionId": "5df5e3dc-66fd-4d9d-bf30-3df09152417a"
+      "createdAt": "2026-06-17T01:42:48.005Z",
+      "prevVersionId": "543f5119-0884-4ade-b788-5c1f5dcbb934"
     },
-    "395737a0-74c9-4858-9185-c4c7206889ac": {
-      "id": "395737a0-74c9-4858-9185-c4c7206889ac",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "fd23cc3d-6fae-4df5-8420-f2fc58b18d52": {
+      "id": "fd23cc3d-6fae-4df5-8420-f2fc58b18d52",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -41393,7 +41393,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -41861,13 +41861,13 @@
         ],
         "caloriesPerGramProtein": 10.01
       },
-      "createdAt": "2026-06-17T00:37:36.445Z",
-      "prevVersionId": "df69e83c-3527-4068-b6ef-b68c60f94a2c"
+      "createdAt": "2026-06-17T01:42:48.182Z",
+      "prevVersionId": "aaf44df5-0ce6-4d9b-8c88-fcaae9840b22"
     },
-    "3098ecf8-f367-4774-9efe-f1ac89305a5f": {
-      "id": "3098ecf8-f367-4774-9efe-f1ac89305a5f",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "eb88fea4-476b-4b44-88bb-6954a2582df6": {
+      "id": "eb88fea4-476b-4b44-88bb-6954a2582df6",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -42016,7 +42016,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -42505,13 +42505,13 @@
         ],
         "caloriesPerGramProtein": 9.88
       },
-      "createdAt": "2026-06-17T00:37:36.629Z",
-      "prevVersionId": "395737a0-74c9-4858-9185-c4c7206889ac"
+      "createdAt": "2026-06-17T01:42:48.363Z",
+      "prevVersionId": "fd23cc3d-6fae-4df5-8420-f2fc58b18d52"
     },
-    "cd783170-3410-4d7b-9538-e6af344aefaf": {
-      "id": "cd783170-3410-4d7b-9538-e6af344aefaf",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "41a51fca-a17b-443b-a68b-2e9a24e427f8": {
+      "id": "41a51fca-a17b-443b-a68b-2e9a24e427f8",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -42671,7 +42671,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -43181,13 +43181,13 @@
         ],
         "caloriesPerGramProtein": 10.24
       },
-      "createdAt": "2026-06-17T00:37:36.815Z",
-      "prevVersionId": "3098ecf8-f367-4774-9efe-f1ac89305a5f"
+      "createdAt": "2026-06-17T01:42:48.540Z",
+      "prevVersionId": "eb88fea4-476b-4b44-88bb-6954a2582df6"
     },
-    "8be8c64f-01c2-4ffb-95b2-14b0598bfe03": {
-      "id": "8be8c64f-01c2-4ffb-95b2-14b0598bfe03",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "b602713a-a2e9-4c38-98b2-58f84095699d": {
+      "id": "b602713a-a2e9-4c38-98b2-58f84095699d",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -43358,7 +43358,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -43889,13 +43889,13 @@
         ],
         "caloriesPerGramProtein": 10.31
       },
-      "createdAt": "2026-06-17T00:37:36.998Z",
-      "prevVersionId": "cd783170-3410-4d7b-9538-e6af344aefaf"
+      "createdAt": "2026-06-17T01:42:48.719Z",
+      "prevVersionId": "41a51fca-a17b-443b-a68b-2e9a24e427f8"
     },
-    "dda4c479-ba46-41eb-93c2-91cbc2b185f1": {
-      "id": "dda4c479-ba46-41eb-93c2-91cbc2b185f1",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "f7f55480-efdd-48d4-87d9-cef74c600b31": {
+      "id": "f7f55480-efdd-48d4-87d9-cef74c600b31",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -44077,7 +44077,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -44629,13 +44629,13 @@
         ],
         "caloriesPerGramProtein": 10.31
       },
-      "createdAt": "2026-06-17T00:37:37.184Z",
-      "prevVersionId": "8be8c64f-01c2-4ffb-95b2-14b0598bfe03"
+      "createdAt": "2026-06-17T01:42:48.895Z",
+      "prevVersionId": "b602713a-a2e9-4c38-98b2-58f84095699d"
     },
-    "8fbf0519-695c-4774-ad5f-9455bbcad09b": {
-      "id": "8fbf0519-695c-4774-ad5f-9455bbcad09b",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "ce9deed0-edd1-404f-a05a-0d428daf7f47": {
+      "id": "ce9deed0-edd1-404f-a05a-0d428daf7f47",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -44791,7 +44791,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+                "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
               }
             }
           }
@@ -44829,7 +44829,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -44979,7 +44979,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+              "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
             }
           }
         ],
@@ -45389,13 +45389,13 @@
         ],
         "caloriesPerGramProtein": 10.31
       },
-      "createdAt": "2026-06-17T00:37:37.546Z",
-      "prevVersionId": "dda4c479-ba46-41eb-93c2-91cbc2b185f1"
+      "createdAt": "2026-06-17T01:42:49.245Z",
+      "prevVersionId": "f7f55480-efdd-48d4-87d9-cef74c600b31"
     },
-    "1eb72d0b-3313-4092-9602-5c564d0f668f": {
-      "id": "1eb72d0b-3313-4092-9602-5c564d0f668f",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "8bbfbd3d-159d-4464-9d10-1bb4f440c214": {
+      "id": "8bbfbd3d-159d-4464-9d10-1bb4f440c214",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -45551,7 +45551,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+                "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
               }
             }
           },
@@ -45599,7 +45599,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -45749,7 +45749,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+              "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
             }
           }
         ],
@@ -46159,13 +46159,13 @@
         ],
         "caloriesPerGramProtein": 10.31
       },
-      "createdAt": "2026-06-17T00:37:37.733Z",
-      "prevVersionId": "8fbf0519-695c-4774-ad5f-9455bbcad09b"
+      "createdAt": "2026-06-17T01:42:49.422Z",
+      "prevVersionId": "ce9deed0-edd1-404f-a05a-0d428daf7f47"
     },
-    "3dc5f0d0-960a-4c57-aff9-3aa946f7bfb1": {
-      "id": "3dc5f0d0-960a-4c57-aff9-3aa946f7bfb1",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "0dae4a2d-2ca6-4811-9fcb-0c31df05c983": {
+      "id": "0dae4a2d-2ca6-4811-9fcb-0c31df05c983",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -46321,7 +46321,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+                "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
               }
             }
           },
@@ -46380,7 +46380,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -46530,7 +46530,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+              "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
             }
           }
         ],
@@ -46960,13 +46960,13 @@
         ],
         "caloriesPerGramProtein": 10.11
       },
-      "createdAt": "2026-06-17T00:37:37.922Z",
-      "prevVersionId": "1eb72d0b-3313-4092-9602-5c564d0f668f"
+      "createdAt": "2026-06-17T01:42:49.601Z",
+      "prevVersionId": "8bbfbd3d-159d-4464-9d10-1bb4f440c214"
     },
-    "dbe80d98-e1df-4c08-93fa-78f8f5603163": {
-      "id": "dbe80d98-e1df-4c08-93fa-78f8f5603163",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "9dcb8425-7a4c-486a-9256-f69f2ef8c17d": {
+      "id": "9dcb8425-7a4c-486a-9256-f69f2ef8c17d",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -47122,7 +47122,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+                "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
               }
             }
           },
@@ -47155,7 +47155,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "c5a759d5-d98e-4443-89a5-c70b0d91cd4c"
+                "subRecipeVersionId": "f0f62b72-dbf3-451a-a9cf-9dba99a658d0"
               }
             }
           }
@@ -47193,7 +47193,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -47343,7 +47343,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+              "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
             }
           },
           {
@@ -47351,7 +47351,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "c5a759d5-d98e-4443-89a5-c70b0d91cd4c"
+              "subRecipeVersionId": "f0f62b72-dbf3-451a-a9cf-9dba99a658d0"
             }
           }
         ],
@@ -47781,13 +47781,13 @@
         ],
         "caloriesPerGramProtein": 10.11
       },
-      "createdAt": "2026-06-17T00:37:38.285Z",
-      "prevVersionId": "3dc5f0d0-960a-4c57-aff9-3aa946f7bfb1"
+      "createdAt": "2026-06-17T01:42:49.949Z",
+      "prevVersionId": "0dae4a2d-2ca6-4811-9fcb-0c31df05c983"
     },
-    "b7dd1d44-2548-4ad1-a1bb-39d0cf8d93f0": {
-      "id": "b7dd1d44-2548-4ad1-a1bb-39d0cf8d93f0",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "a46c190c-cefa-4f51-ba8e-cda1f6ffb533": {
+      "id": "a46c190c-cefa-4f51-ba8e-cda1f6ffb533",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -47943,7 +47943,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+                "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
               }
             }
           },
@@ -47976,7 +47976,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "c5a759d5-d98e-4443-89a5-c70b0d91cd4c"
+                "subRecipeVersionId": "f0f62b72-dbf3-451a-a9cf-9dba99a658d0"
               }
             }
           },
@@ -47988,7 +47988,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "0f4f7078-13c2-48b3-a692-94405742ff22"
+                "subRecipeVersionId": "9cc75582-2f52-4492-a44e-5a48f86825b7"
               }
             }
           }
@@ -48026,7 +48026,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -48176,7 +48176,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+              "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
             }
           },
           {
@@ -48184,7 +48184,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "c5a759d5-d98e-4443-89a5-c70b0d91cd4c"
+              "subRecipeVersionId": "f0f62b72-dbf3-451a-a9cf-9dba99a658d0"
             }
           },
           {
@@ -48192,7 +48192,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0f4f7078-13c2-48b3-a692-94405742ff22"
+              "subRecipeVersionId": "9cc75582-2f52-4492-a44e-5a48f86825b7"
             }
           }
         ],
@@ -48622,13 +48622,13 @@
         ],
         "caloriesPerGramProtein": 10.11
       },
-      "createdAt": "2026-06-17T00:37:38.647Z",
-      "prevVersionId": "dbe80d98-e1df-4c08-93fa-78f8f5603163"
+      "createdAt": "2026-06-17T01:42:50.304Z",
+      "prevVersionId": "9dcb8425-7a4c-486a-9256-f69f2ef8c17d"
     },
-    "16922dcb-50af-4378-8ae4-51d8fcc77e2b": {
-      "id": "16922dcb-50af-4378-8ae4-51d8fcc77e2b",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "01be4347-dcec-435a-9331-c516914c7fab": {
+      "id": "01be4347-dcec-435a-9331-c516914c7fab",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -48784,7 +48784,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+                "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
               }
             }
           },
@@ -48817,7 +48817,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "c5a759d5-d98e-4443-89a5-c70b0d91cd4c"
+                "subRecipeVersionId": "f0f62b72-dbf3-451a-a9cf-9dba99a658d0"
               }
             }
           },
@@ -48829,7 +48829,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "0f4f7078-13c2-48b3-a692-94405742ff22"
+                "subRecipeVersionId": "9cc75582-2f52-4492-a44e-5a48f86825b7"
               }
             }
           },
@@ -48877,7 +48877,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -49033,7 +49033,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+              "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
             }
           },
           {
@@ -49041,7 +49041,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "c5a759d5-d98e-4443-89a5-c70b0d91cd4c"
+              "subRecipeVersionId": "f0f62b72-dbf3-451a-a9cf-9dba99a658d0"
             }
           },
           {
@@ -49049,7 +49049,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0f4f7078-13c2-48b3-a692-94405742ff22"
+              "subRecipeVersionId": "9cc75582-2f52-4492-a44e-5a48f86825b7"
             }
           }
         ],
@@ -49479,13 +49479,13 @@
         ],
         "caloriesPerGramProtein": 10.11
       },
-      "createdAt": "2026-06-17T00:37:38.837Z",
-      "prevVersionId": "b7dd1d44-2548-4ad1-a1bb-39d0cf8d93f0"
+      "createdAt": "2026-06-17T01:42:50.489Z",
+      "prevVersionId": "a46c190c-cefa-4f51-ba8e-cda1f6ffb533"
     },
-    "f744aa3c-1037-49ff-8ce9-5ab50b2c1c6c": {
-      "id": "f744aa3c-1037-49ff-8ce9-5ab50b2c1c6c",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "97deffcd-fd15-476e-a145-97d508b6694f": {
+      "id": "97deffcd-fd15-476e-a145-97d508b6694f",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -49641,7 +49641,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+                "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
               }
             }
           },
@@ -49674,7 +49674,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "c5a759d5-d98e-4443-89a5-c70b0d91cd4c"
+                "subRecipeVersionId": "f0f62b72-dbf3-451a-a9cf-9dba99a658d0"
               }
             }
           },
@@ -49686,7 +49686,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "0f4f7078-13c2-48b3-a692-94405742ff22"
+                "subRecipeVersionId": "9cc75582-2f52-4492-a44e-5a48f86825b7"
               }
             }
           },
@@ -49745,7 +49745,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -49901,7 +49901,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+              "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
             }
           },
           {
@@ -49909,7 +49909,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "c5a759d5-d98e-4443-89a5-c70b0d91cd4c"
+              "subRecipeVersionId": "f0f62b72-dbf3-451a-a9cf-9dba99a658d0"
             }
           },
           {
@@ -49917,7 +49917,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0f4f7078-13c2-48b3-a692-94405742ff22"
+              "subRecipeVersionId": "9cc75582-2f52-4492-a44e-5a48f86825b7"
             }
           }
         ],
@@ -50367,13 +50367,13 @@
         ],
         "caloriesPerGramProtein": 10.91
       },
-      "createdAt": "2026-06-17T00:37:39.022Z",
-      "prevVersionId": "16922dcb-50af-4378-8ae4-51d8fcc77e2b"
+      "createdAt": "2026-06-17T01:42:50.670Z",
+      "prevVersionId": "01be4347-dcec-435a-9331-c516914c7fab"
     },
-    "a613fbdd-403a-4b7a-b219-9acd2b3a83f1": {
-      "id": "a613fbdd-403a-4b7a-b219-9acd2b3a83f1",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "6a444272-d72f-4cb9-9c87-02a748559c38": {
+      "id": "6a444272-d72f-4cb9-9c87-02a748559c38",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -50529,7 +50529,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+                "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
               }
             }
           },
@@ -50562,7 +50562,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "c5a759d5-d98e-4443-89a5-c70b0d91cd4c"
+                "subRecipeVersionId": "f0f62b72-dbf3-451a-a9cf-9dba99a658d0"
               }
             }
           },
@@ -50574,7 +50574,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "0f4f7078-13c2-48b3-a692-94405742ff22"
+                "subRecipeVersionId": "9cc75582-2f52-4492-a44e-5a48f86825b7"
               }
             }
           },
@@ -50644,7 +50644,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -50800,7 +50800,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+              "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
             }
           },
           {
@@ -50808,7 +50808,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "c5a759d5-d98e-4443-89a5-c70b0d91cd4c"
+              "subRecipeVersionId": "f0f62b72-dbf3-451a-a9cf-9dba99a658d0"
             }
           },
           {
@@ -50816,7 +50816,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0f4f7078-13c2-48b3-a692-94405742ff22"
+              "subRecipeVersionId": "9cc75582-2f52-4492-a44e-5a48f86825b7"
             }
           }
         ],
@@ -51286,13 +51286,13 @@
         ],
         "caloriesPerGramProtein": 11.41
       },
-      "createdAt": "2026-06-17T00:37:39.209Z",
-      "prevVersionId": "f744aa3c-1037-49ff-8ce9-5ab50b2c1c6c"
+      "createdAt": "2026-06-17T01:42:50.854Z",
+      "prevVersionId": "97deffcd-fd15-476e-a145-97d508b6694f"
     },
-    "7c2a5715-a5e5-4947-8695-31cfd8fa1177": {
-      "id": "7c2a5715-a5e5-4947-8695-31cfd8fa1177",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "derivesFromVersionId": "e845f3d8-4e62-4ed9-8148-00773c79d207",
+    "bfa791bb-0533-4301-bfb9-b568661d0217": {
+      "id": "bfa791bb-0533-4301-bfb9-b568661d0217",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "derivesFromVersionId": "23bf9b2f-ab30-44ce-8c39-57f8bc9f79d0",
       "name": "Turtle Protein Cheesecake",
       "tags": [
         "cheesecake",
@@ -51454,7 +51454,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+                "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
               }
             }
           },
@@ -51487,7 +51487,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "c5a759d5-d98e-4443-89a5-c70b0d91cd4c"
+                "subRecipeVersionId": "f0f62b72-dbf3-451a-a9cf-9dba99a658d0"
               }
             }
           },
@@ -51499,7 +51499,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "0f4f7078-13c2-48b3-a692-94405742ff22"
+                "subRecipeVersionId": "9cc75582-2f52-4492-a44e-5a48f86825b7"
               }
             }
           },
@@ -51576,7 +51576,7 @@
             "componentKey": "s6",
             "order": 6,
             "temperature": 350,
-            "instructionText": "Bake at 350F for ~35-40 min (at 325F go a few minutes longer for a gentler, crack-resistant set) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
           },
           {
             "componentKey": "s7",
@@ -51732,7 +51732,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "e27d3358-de95-485b-8359-462fe8f0878d"
+              "subRecipeVersionId": "3ca9db5e-8ae2-4dd9-80de-0acabd41ad3f"
             }
           },
           {
@@ -51740,7 +51740,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "c5a759d5-d98e-4443-89a5-c70b0d91cd4c"
+              "subRecipeVersionId": "f0f62b72-dbf3-451a-a9cf-9dba99a658d0"
             }
           },
           {
@@ -51748,7 +51748,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "0f4f7078-13c2-48b3-a692-94405742ff22"
+              "subRecipeVersionId": "9cc75582-2f52-4492-a44e-5a48f86825b7"
             }
           }
         ],
@@ -52218,8 +52218,8 @@
         ],
         "caloriesPerGramProtein": 11.41
       },
-      "createdAt": "2026-06-17T00:37:39.401Z",
-      "prevVersionId": "a613fbdd-403a-4b7a-b219-9acd2b3a83f1",
+      "createdAt": "2026-06-17T01:42:51.036Z",
+      "prevVersionId": "6a444272-d72f-4cb9-9c87-02a748559c38",
       "description": "Turtle protein cheesecake derived from the Vanilla Pumpkin base — pecan skipped, so caramel + chocolate carry the turtle identity. Adds a thin graham-forward chocolate crust (graham crumbs + cocoa, egg-white bound, minimal butter), a protein caramel swirl marbled into the filling (butterscotch SF pudding + 0% yogurt), and a top drizzle of REAL brown-sugar caramel + unsweetened-baking-chocolate ganache, finished with flaky salt. Filling protein bumped 2 -> 2.5 scoops to hold the macro ratio. Lands ~11 cal/g protein (~210 cal / 19 g protein per slice of 8). Splenda throughout, never monk fruit; the real caramel is the one honest-sugar indulgence, kept small. Untested — first bake pending. Bake in a 9-inch pan with a parchment sling for lift-out."
     }
   },
@@ -52739,170 +52739,170 @@
     }
   },
   "feedback": {
-    "22c9fe2f-0bbe-406c-8a49-35799078c945": {
+    "99d69c1f-7682-457d-bc63-0de18ec81af2": {
       "kind": "made",
       "rating": "excellent",
-      "id": "22c9fe2f-0bbe-406c-8a49-35799078c945",
-      "recipeId": "20b5cc9c-f2c3-4ae2-89b3-257fe45a4a1f",
-      "versionId": "a2200b9e-e99a-49fa-b424-d4c575359e5a",
-      "date": "2026-06-17T00:37:39.757Z",
+      "id": "99d69c1f-7682-457d-bc63-0de18ec81af2",
+      "recipeId": "68122e46-ff96-4919-91bd-102218eefa72",
+      "versionId": "0946ac6a-8b0a-4eb7-a9f6-15da77ff93c9",
+      "date": "2026-06-17T01:42:51.387Z",
       "author": "user",
-      "createdAt": "2026-06-17T00:37:39.757Z"
+      "createdAt": "2026-06-17T01:42:51.387Z"
     },
-    "673186e8-7c0c-4aee-b1ce-0a20c560735c": {
+    "16de6bcb-aa4d-4724-8f4e-283eaaa690c1": {
       "kind": "made",
       "rating": "good",
-      "id": "673186e8-7c0c-4aee-b1ce-0a20c560735c",
-      "recipeId": "3e8126ba-0f79-4771-80ad-a03ffebd138d",
-      "versionId": "72a1d366-baff-4555-9604-2553bd060974",
+      "id": "16de6bcb-aa4d-4724-8f4e-283eaaa690c1",
+      "recipeId": "c866f8c4-6949-4bb3-ac2c-a933a5e3280d",
+      "versionId": "4f04bcc4-f181-4db7-9c17-b7cf1d19bf6b",
       "notes": "Good taste. Texture came out soft, not very dense as the recipe intends — acceptable, not much to be done about it.",
-      "date": "2026-06-17T00:37:39.953Z",
+      "date": "2026-06-17T01:42:51.555Z",
       "author": "user",
-      "createdAt": "2026-06-17T00:37:39.953Z"
+      "createdAt": "2026-06-17T01:42:51.555Z"
     },
-    "932358a9-c93a-4797-b453-f49b8cdd6dee": {
+    "27ec1de1-d98b-44af-a01e-aeb15d3b2219": {
       "kind": "made",
       "rating": "excellent",
-      "id": "932358a9-c93a-4797-b453-f49b8cdd6dee",
-      "recipeId": "d60e6632-1b82-4c7a-b980-534d9b80b32b",
-      "versionId": "71da9e85-4db1-48c3-97c0-c10263694aa6",
-      "date": "2026-06-17T00:37:40.141Z",
+      "id": "27ec1de1-d98b-44af-a01e-aeb15d3b2219",
+      "recipeId": "228d0cdd-8171-4c0d-a03a-6a0328270199",
+      "versionId": "40c42ac3-47b5-4add-9af6-bef9b7a6b696",
+      "date": "2026-06-17T01:42:51.723Z",
       "author": "user",
-      "createdAt": "2026-06-17T00:37:40.141Z"
+      "createdAt": "2026-06-17T01:42:51.723Z"
     },
-    "a0267aa9-621a-47df-9b59-e0c9efe5a54a": {
+    "faac2fec-14ce-43d2-b0f4-81845f12227d": {
       "kind": "made",
       "rating": "okay",
-      "id": "a0267aa9-621a-47df-9b59-e0c9efe5a54a",
-      "recipeId": "e6e44a43-87bc-476d-bda5-df2f5b0b87a7",
-      "versionId": "4d94e6c5-39a3-4474-91dc-d782c2f0afd9",
+      "id": "faac2fec-14ce-43d2-b0f4-81845f12227d",
+      "recipeId": "92bc26df-3fbf-486d-9681-7b2cc308bdad",
+      "versionId": "a35fef3a-5b24-4263-a373-75d327e95738",
       "notes": "Decent. Filling really wants a Ninja Creami churn for texture.",
-      "date": "2026-06-17T00:37:40.319Z",
+      "date": "2026-06-17T01:42:51.892Z",
       "author": "user",
-      "createdAt": "2026-06-17T00:37:40.319Z"
+      "createdAt": "2026-06-17T01:42:51.892Z"
     },
-    "70fde728-241c-4762-aaf2-8fd4372ea674": {
+    "ef637483-f2f6-4e0a-9914-a8e192dd5a40": {
       "kind": "made",
       "rating": "excellent",
-      "id": "70fde728-241c-4762-aaf2-8fd4372ea674",
-      "recipeId": "3f033042-2981-4471-ad19-925e6e2a1846",
-      "versionId": "e64a9c8b-52e7-457f-8d90-b1b9546cae8c",
-      "date": "2026-06-17T00:37:40.497Z",
+      "id": "ef637483-f2f6-4e0a-9914-a8e192dd5a40",
+      "recipeId": "d8a4282b-3ee7-4307-925a-55218fc84de2",
+      "versionId": "ef9fd546-ec4e-4953-81aa-7d58c3e7da54",
+      "date": "2026-06-17T01:42:52.064Z",
       "author": "user",
-      "createdAt": "2026-06-17T00:37:40.497Z"
+      "createdAt": "2026-06-17T01:42:52.064Z"
     },
-    "cca9578e-05c0-457f-b0da-876d950418ad": {
+    "eec7b0ad-60cb-4fb4-9e62-1525fa4fee1c": {
       "kind": "made",
       "rating": "excellent",
-      "id": "cca9578e-05c0-457f-b0da-876d950418ad",
-      "recipeId": "1fc24b33-9251-4d21-8f7a-a240337e0c22",
-      "versionId": "dfeea626-3ba1-4ed2-bb04-3e35c4dd7ac3",
-      "date": "2026-06-17T00:37:40.671Z",
+      "id": "eec7b0ad-60cb-4fb4-9e62-1525fa4fee1c",
+      "recipeId": "ba055591-a0c7-4457-a324-bd537907fbd0",
+      "versionId": "7acb7174-646b-402d-b1f3-24d0e5017de8",
+      "date": "2026-06-17T01:42:52.233Z",
       "author": "user",
-      "createdAt": "2026-06-17T00:37:40.671Z"
+      "createdAt": "2026-06-17T01:42:52.233Z"
     },
-    "c0f70650-c04e-4077-8acf-a3a8a7a98c07": {
+    "8b9560c1-d638-42fb-a5ca-2f93b4f1c01a": {
       "kind": "made",
       "rating": "excellent",
-      "id": "c0f70650-c04e-4077-8acf-a3a8a7a98c07",
-      "recipeId": "85886533-c275-429e-84e9-140b2ed59a5b",
-      "versionId": "d5a6727f-a919-4ef3-bf61-59c71fd983b3",
+      "id": "8b9560c1-d638-42fb-a5ca-2f93b4f1c01a",
+      "recipeId": "bd33c521-0bba-41df-9a17-c64bee260e44",
+      "versionId": "6f878e4c-461a-4fbf-b57a-0ec75ce52548",
       "notes": "cookie itself is great",
-      "date": "2026-06-17T00:37:40.846Z",
+      "date": "2026-06-17T01:42:52.403Z",
       "author": "user",
-      "createdAt": "2026-06-17T00:37:40.846Z"
+      "createdAt": "2026-06-17T01:42:52.403Z"
     },
-    "374df8e7-73da-4445-a824-a2b9933bfa29": {
+    "79d26f7d-6a9e-4319-baa1-d45de8e84490": {
       "kind": "made",
       "rating": "bad",
-      "id": "374df8e7-73da-4445-a824-a2b9933bfa29",
-      "recipeId": "85886533-c275-429e-84e9-140b2ed59a5b",
-      "versionId": "d5a6727f-a919-4ef3-bf61-59c71fd983b3",
+      "id": "79d26f7d-6a9e-4319-baa1-d45de8e84490",
+      "recipeId": "bd33c521-0bba-41df-9a17-c64bee260e44",
+      "versionId": "6f878e4c-461a-4fbf-b57a-0ec75ce52548",
       "componentKey": "b5",
       "notes": "glaze too weak/thin, needs work",
-      "date": "2026-06-17T00:37:41.022Z",
+      "date": "2026-06-17T01:42:52.573Z",
       "author": "user",
-      "createdAt": "2026-06-17T00:37:41.022Z"
+      "createdAt": "2026-06-17T01:42:52.573Z"
     },
-    "1e40c2aa-0e0c-4fcf-82c8-1402be1a7df2": {
+    "752476a3-a2ae-4bc1-9e68-6ece88b04d47": {
       "kind": "made",
       "rating": "good",
-      "id": "1e40c2aa-0e0c-4fcf-82c8-1402be1a7df2",
-      "recipeId": "6f48d727-96ba-482a-8e09-416ea854d5a4",
-      "versionId": "e507661e-ac6c-4ea2-b3ed-d99735fbb6cf",
-      "date": "2026-06-17T00:37:41.199Z",
+      "id": "752476a3-a2ae-4bc1-9e68-6ece88b04d47",
+      "recipeId": "d2676e1f-ff06-48e0-b302-9bf51753a1e1",
+      "versionId": "2555dc3a-7e55-4485-a9bd-d54ed992150e",
+      "date": "2026-06-17T01:42:52.745Z",
       "author": "user",
-      "createdAt": "2026-06-17T00:37:41.199Z"
+      "createdAt": "2026-06-17T01:42:52.745Z"
     },
-    "17c941fd-4265-4294-9313-7ac35e02f9c1": {
+    "4599908b-3184-45d5-a673-d265c1303d9f": {
       "kind": "to-make",
-      "id": "17c941fd-4265-4294-9313-7ac35e02f9c1",
-      "recipeId": "46de7afa-f28b-40da-a67a-9a2240c25eb6",
-      "versionId": "c03260d9-c99b-4dde-bc0d-f2ff4f186d1a",
+      "id": "4599908b-3184-45d5-a673-d265c1303d9f",
+      "recipeId": "8cb597be-c738-411c-a530-b48e77147ad0",
+      "versionId": "a4449d1b-e3f0-4fcc-9e03-6ff83699db1a",
       "notes": "First bake of the base — confirm the cornstarch keeps it soft at 2 scoops protein, and that 163 kcal / 14.3 g protein eats like a real crumbl base. If texture holds, bump dough protein 2 -> 2.5 scoops to crack <10 kcal/g.",
-      "date": "2026-06-17T00:37:41.376Z",
+      "date": "2026-06-17T01:42:52.913Z",
       "author": "user",
-      "createdAt": "2026-06-17T00:37:41.376Z"
+      "createdAt": "2026-06-17T01:42:52.913Z"
     },
-    "ee2fc0bc-765f-41df-9dce-c25c1b194bd0": {
+    "d3acfef6-4e10-44ef-8453-8bf1aee44f3e": {
       "kind": "to-make",
-      "id": "ee2fc0bc-765f-41df-9dce-c25c1b194bd0",
-      "recipeId": "7a11ae29-935e-48fc-be42-272c2dfc356e",
-      "versionId": "8983c3c8-5cc5-4d91-af12-876d94eefed3",
+      "id": "d3acfef6-4e10-44ef-8453-8bf1aee44f3e",
+      "recipeId": "172a09dd-b265-4bdf-ab42-5bce460c05bd",
+      "versionId": "37bd22f3-ab42-484f-a392-ee5a936afabb",
       "notes": "haven't made it yet",
-      "date": "2026-06-17T00:37:41.550Z",
+      "date": "2026-06-17T01:42:53.083Z",
       "author": "user",
-      "createdAt": "2026-06-17T00:37:41.550Z"
+      "createdAt": "2026-06-17T01:42:53.083Z"
     },
-    "01f7db2c-ada6-4abc-a511-e20ed96cbfa4": {
+    "c7262c99-263f-4125-b9b9-687fd0bb8e95": {
       "kind": "to-make",
-      "id": "01f7db2c-ada6-4abc-a511-e20ed96cbfa4",
-      "recipeId": "e38323ea-e91a-4bcf-821b-a71bf101ad3a",
-      "versionId": "71f95fe5-e99d-4035-bee7-7a89957a0755",
+      "id": "c7262c99-263f-4125-b9b9-687fd0bb8e95",
+      "recipeId": "79450262-0f05-4720-b9ed-c49d32a044b0",
+      "versionId": "8f3c6052-015c-4b53-9b27-12217d44cc38",
       "notes": "Test the <10 kcal/g-protein claim IRL — 3 scoops whey in 5 cookies is aggressive protein-loading; watch for dry/rubbery 'pancake' texture and whether the 1-cup-yogurt frosting reads as frosting or just wet.",
-      "date": "2026-06-17T00:37:41.728Z",
+      "date": "2026-06-17T01:42:53.249Z",
       "author": "user",
-      "createdAt": "2026-06-17T00:37:41.728Z"
+      "createdAt": "2026-06-17T01:42:53.249Z"
     },
-    "78233658-1845-49e2-b41f-6d73507bff92": {
+    "a2660514-0be6-467b-bad4-0bcd3fbcec72": {
       "kind": "to-make",
-      "id": "78233658-1845-49e2-b41f-6d73507bff92",
-      "recipeId": "684b0325-8c8a-4d0f-8877-76b2c3712301",
-      "versionId": "d9c33d2a-4849-40e9-85e6-722c51e1f051",
+      "id": "a2660514-0be6-467b-bad4-0bcd3fbcec72",
+      "recipeId": "d52dae15-3552-4d87-af81-e32411aceeb9",
+      "versionId": "926f176e-99d8-4ebc-80a2-fb38400b1112",
       "notes": "found on IG, untried - lean yogurt-based cookie",
-      "date": "2026-06-17T00:37:41.899Z",
+      "date": "2026-06-17T01:42:53.420Z",
       "author": "user",
-      "createdAt": "2026-06-17T00:37:41.899Z"
+      "createdAt": "2026-06-17T01:42:53.420Z"
     },
-    "8920fd64-7915-4c92-8694-bb601027cdf1": {
+    "d6fe385c-2334-4ad4-a4b7-745bc10c245a": {
       "kind": "to-make",
-      "id": "8920fd64-7915-4c92-8694-bb601027cdf1",
-      "recipeId": "b7d10f5e-574d-412a-bd61-40b856f8bfbd",
-      "versionId": "0e81f846-3696-4648-a815-ed74cea13fe3",
+      "id": "d6fe385c-2334-4ad4-a4b7-745bc10c245a",
+      "recipeId": "fb01b11f-be8d-4b20-8674-b12ff87fa384",
+      "versionId": "e639f70e-79a9-4b72-ba10-3be50a2c5df4",
       "notes": "protein ablation — not baked yet",
-      "date": "2026-06-17T00:37:42.079Z",
+      "date": "2026-06-17T01:42:53.586Z",
       "author": "user",
-      "createdAt": "2026-06-17T00:37:42.079Z"
+      "createdAt": "2026-06-17T01:42:53.586Z"
     },
-    "4a6bb1e0-1f78-43f0-95d8-78623bf93cd4": {
+    "8ee11b17-0779-44cf-b3c1-e0baf1cc33b7": {
       "kind": "to-make",
-      "id": "4a6bb1e0-1f78-43f0-95d8-78623bf93cd4",
-      "recipeId": "b1a93394-6aca-409f-96da-fe11a46ea664",
-      "versionId": "14a440d9-2ffa-466a-8777-01a163ed002f",
+      "id": "8ee11b17-0779-44cf-b3c1-e0baf1cc33b7",
+      "recipeId": "18b1f22d-518e-42fa-9748-7aa09645f549",
+      "versionId": "348c6ac8-b1da-4f4a-89ad-91d9d8bbb514",
       "notes": "protein ablation — not baked yet",
-      "date": "2026-06-17T00:37:42.255Z",
+      "date": "2026-06-17T01:42:53.755Z",
       "author": "user",
-      "createdAt": "2026-06-17T00:37:42.255Z"
+      "createdAt": "2026-06-17T01:42:53.755Z"
     },
-    "610df70d-ef9b-4d2b-9c5b-5d0e2eb20afe": {
+    "17e0480f-1c6b-48ff-bd5e-f472633f3989": {
       "kind": "to-make",
-      "id": "610df70d-ef9b-4d2b-9c5b-5d0e2eb20afe",
-      "recipeId": "f2e9a989-e098-4b5b-b15e-fd1e83d813b7",
-      "versionId": "7c2a5715-a5e5-4947-8695-31cfd8fa1177",
+      "id": "17e0480f-1c6b-48ff-bd5e-f472633f3989",
+      "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
+      "versionId": "bfa791bb-0533-4301-bfb9-b568661d0217",
       "notes": "first bake pending; ~11.1 cal/g protein, 210 cal/19 P per slice",
-      "date": "2026-06-17T00:37:42.432Z",
+      "date": "2026-06-17T01:42:53.926Z",
       "author": "user",
-      "createdAt": "2026-06-17T00:37:42.432Z"
+      "createdAt": "2026-06-17T01:42:53.926Z"
     }
   }
 }
