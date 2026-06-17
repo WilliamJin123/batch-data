@@ -17,10 +17,6 @@
     { "op": "add", "kind": "slot", "payload": { "componentKey": "sl-ganache", "name": "dark-chocolate ganache", "resolution": { "kind": "sub_recipe", "subRecipeRef": "Turtle Dark-Chocolate Ganache" } } },
     { "op": "add", "kind": "step", "payload": { "componentKey": "s8", "order": 8, "section": "Topping", "instructionText": "Once fully chilled (ideally overnight), lift the cake out with the parchment sling onto a plate. Warm the caramel and the ganache separately just until pourable — a few seconds; they should ribbon, not run. Drizzle both over the top in a back-and-forth criss-cross (use a spoon, or a zip-top bag with a tiny corner snipped). Finish with a pinch of flaky salt. Slice with a hot, wiped knife." } },
     { "op": "add", "kind": "usage", "payload": { "componentKey": "u-caramel", "stepKey": "s8", "slotKey": "sl-caramel", "quantityValue": 1, "quantityUnit": "batch" } },
-    { "op": "add", "kind": "usage", "payload": { "componentKey": "u-ganache", "stepKey": "s8", "slotKey": "sl-ganache", "quantityValue": 1, "quantityUnit": "batch" } },
-
-    { "op": "add", "kind": "slot", "payload": { "componentKey": "sl-maple", "name": "sugar-free maple syrup", "resolution": { "kind": "raw", "libraryIngredientId": "ing-syrup-maple-sf" } } },
-    { "op": "add", "kind": "step", "payload": { "componentKey": "s9", "order": 9, "section": "Topping", "instructionText": "Just before serving, drizzle the sugar-free maple syrup lightly over the top (or each slice) in a thin ribbon — add it last so it stays glossy and doesn't soak in. A tiny extra pinch of flaky salt over the maple plays up a salted-maple edge against the caramel and chocolate. Zero added sugar, so it costs nothing on the macros." } },
-    { "op": "add", "kind": "usage", "payload": { "componentKey": "u-maple", "stepKey": "s9", "slotKey": "sl-maple", "quantityValue": 1, "quantityUnit": "tbsp" } }
+    { "op": "add", "kind": "usage", "payload": { "componentKey": "u-ganache", "stepKey": "s8", "slotKey": "sl-ganache", "quantityValue": 1, "quantityUnit": "batch" } }
   ]
 }

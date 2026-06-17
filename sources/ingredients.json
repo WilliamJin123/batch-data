@@ -376,18 +376,6 @@
     "densityGPerMl": 1
   },
   {
-    "id": "ing-syrup-maple-sf",
-    "name": "sugar-free maple syrup",
-    "macrosPer100g": {
-      "calories": 0,
-      "protein": 0,
-      "carbs": 0,
-      "fat": 0,
-      "fiber": 0
-    },
-    "densityGPerMl": 1
-  },
-  {
     "id": "ing-vanilla-extract",
     "name": "vanilla extract",
     "macrosPer100g": {
