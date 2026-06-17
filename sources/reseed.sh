@@ -102,7 +102,7 @@ fb "$FROSTED20" --to-make -m "Test the <10 kcal/g-protein claim IRL — 3 scoops
 fb "$GIANT" --to-make -m "found on IG, untried - lean yogurt-based cookie"
 fb "$ABL50" --to-make -m "protein ablation — not baked yet"
 fb "$ABL60" --to-make -m "protein ablation — not baked yet"
-fb "$TURTLE" --to-make -m "first bake pending; ~11.1 cal/g protein, 210 cal/19 P per slice"
+fb "$TURTLE" --made --rating excellent -m "First bake, rated excellent on first impression (full taste tomorrow). ~215 cal / 19 g protein per slice (11.4 cal/g)."
 echo "  + feedback recorded"
 
 echo "done — $("$BATCH" list | jq length) recipes."

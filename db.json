@@ -52894,15 +52894,16 @@
       "author": "user",
       "createdAt": "2026-06-17T01:42:53.755Z"
     },
-    "17e0480f-1c6b-48ff-bd5e-f472633f3989": {
-      "kind": "to-make",
-      "id": "17e0480f-1c6b-48ff-bd5e-f472633f3989",
+    "9d3c2b9d-93b3-4220-bb40-740baa97ad8f": {
+      "kind": "made",
+      "rating": "excellent",
+      "id": "9d3c2b9d-93b3-4220-bb40-740baa97ad8f",
       "recipeId": "29ed3cce-03dc-4a09-a279-cd9a3afa68a1",
       "versionId": "bfa791bb-0533-4301-bfb9-b568661d0217",
-      "notes": "first bake pending; ~11.1 cal/g protein, 210 cal/19 P per slice",
-      "date": "2026-06-17T01:42:53.926Z",
+      "notes": "First bake, rated excellent on first impression (full taste tomorrow). ~215 cal / 19 g protein per slice (11.4 cal/g).",
+      "date": "2026-06-17T01:51:17.864Z",
       "author": "user",
-      "createdAt": "2026-06-17T01:42:53.926Z"
+      "createdAt": "2026-06-17T01:51:17.864Z"
     }
   }
 }
