@@ -1,144 +1,144 @@
 {
   "recipes": {
-    "30b4e9da-4e31-469e-a357-f3f96c06c368": {
-      "id": "30b4e9da-4e31-469e-a357-f3f96c06c368",
+    "f4d55f83-2400-4f5f-9a6b-8b57e81e9c0f": {
+      "id": "f4d55f83-2400-4f5f-9a6b-8b57e81e9c0f",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:09:59.782Z",
-      "headVersionId": "ab786801-b623-4670-825d-594f1c77a730"
+      "createdAt": "2026-06-17T03:04:08.341Z",
+      "headVersionId": "781dd557-e076-42bc-9506-4c187efcd465"
     },
-    "cf95d5aa-e6cd-4711-8461-63bbd09d493e": {
-      "id": "cf95d5aa-e6cd-4711-8461-63bbd09d493e",
+    "8eff6311-a072-49f6-9085-3a9ae17dd5e6": {
+      "id": "8eff6311-a072-49f6-9085-3a9ae17dd5e6",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:09:59.948Z",
-      "headVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1"
+      "createdAt": "2026-06-17T03:04:08.502Z",
+      "headVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8"
     },
-    "a9dc8855-e611-449e-81fc-99208f7cd952": {
-      "id": "a9dc8855-e611-449e-81fc-99208f7cd952",
+    "18e73e9e-5ec2-494f-99fe-e18bd4546437": {
+      "id": "18e73e9e-5ec2-494f-99fe-e18bd4546437",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:00.112Z",
-      "headVersionId": "e1e9485a-3e38-4883-976b-d9c5e755f9c3"
+      "createdAt": "2026-06-17T03:04:08.664Z",
+      "headVersionId": "1a6ac19f-7753-4943-9fb0-0d58bbf817d9"
     },
-    "804de9ca-4541-4c8c-86bf-5dccad017f3f": {
-      "id": "804de9ca-4541-4c8c-86bf-5dccad017f3f",
+    "357161fe-1fda-4f79-8e76-2aaab7716a7d": {
+      "id": "357161fe-1fda-4f79-8e76-2aaab7716a7d",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:00.274Z",
-      "headVersionId": "d4a13911-d8a5-432a-ac61-382728bb9f9d"
+      "createdAt": "2026-06-17T03:04:08.826Z",
+      "headVersionId": "5a7ddb0d-b980-4292-9771-04fd4aa98287"
     },
-    "82787b74-d076-4fa3-a6f1-79339a7d7692": {
-      "id": "82787b74-d076-4fa3-a6f1-79339a7d7692",
+    "2747dff8-daed-4a55-9f45-85fea0ea4a8f": {
+      "id": "2747dff8-daed-4a55-9f45-85fea0ea4a8f",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:00.434Z",
-      "headVersionId": "92ef3e33-c67b-484d-9fd0-1dc3e91e2a79"
+      "createdAt": "2026-06-17T03:04:08.986Z",
+      "headVersionId": "1f0ad6de-f45c-4476-8786-bd8a781f18fe"
     },
-    "42263e42-651c-4de3-9f0d-467ccf7ac08f": {
-      "id": "42263e42-651c-4de3-9f0d-467ccf7ac08f",
+    "6086d51b-8321-477f-a749-cdce7c84c7b3": {
+      "id": "6086d51b-8321-477f-a749-cdce7c84c7b3",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:00.595Z",
-      "headVersionId": "713f6288-0f4d-4f55-95d2-ce230d099616"
+      "createdAt": "2026-06-17T03:04:09.153Z",
+      "headVersionId": "ba43d0d7-326f-4163-b2a6-5df7debb3177"
     },
-    "192369e5-fb53-4e91-9414-bedce9f761f6": {
-      "id": "192369e5-fb53-4e91-9414-bedce9f761f6",
+    "43a091f0-2a56-46c9-b1ca-c82998ee7962": {
+      "id": "43a091f0-2a56-46c9-b1ca-c82998ee7962",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:00.759Z",
-      "headVersionId": "046bb754-cf6c-4a3b-9740-0c00b0a7f1db"
+      "createdAt": "2026-06-17T03:04:09.316Z",
+      "headVersionId": "f61a9f7b-9ba5-4ba6-8489-d802b18a27e8"
     },
-    "053b463b-5348-4d22-ba14-772aad8a3279": {
-      "id": "053b463b-5348-4d22-ba14-772aad8a3279",
+    "6bd6e24d-8380-4d95-bfce-33f945166124": {
+      "id": "6bd6e24d-8380-4d95-bfce-33f945166124",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:00.923Z",
-      "headVersionId": "8b2b523c-9621-42ab-be38-7fc81fa3bf6f"
+      "createdAt": "2026-06-17T03:04:09.475Z",
+      "headVersionId": "8cb9cd00-5dae-4f76-8ff3-b95e7c3d7ad5"
     },
-    "4ef46e1c-0221-4486-8632-2285fb41e4ad": {
-      "id": "4ef46e1c-0221-4486-8632-2285fb41e4ad",
+    "fec62a17-4652-400e-a421-820373ec8c3c": {
+      "id": "fec62a17-4652-400e-a421-820373ec8c3c",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:01.086Z",
-      "headVersionId": "a152da21-8eba-47c3-ad8f-f122ef61aeb0"
+      "createdAt": "2026-06-17T03:04:09.637Z",
+      "headVersionId": "aa6e7f25-1c7e-4abd-a363-23a9781cb8b0"
     },
-    "c0b0c3da-0f2c-465f-9d1b-fd5f8f8be748": {
-      "id": "c0b0c3da-0f2c-465f-9d1b-fd5f8f8be748",
+    "372fd728-88fd-4d83-b82a-10a0c6b9cd1c": {
+      "id": "372fd728-88fd-4d83-b82a-10a0c6b9cd1c",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:01.248Z",
-      "headVersionId": "b574ae5e-fc24-4d55-8d8f-9a133086b297"
+      "createdAt": "2026-06-17T03:04:09.798Z",
+      "headVersionId": "1f00b708-6c77-4cc7-991d-f481d9733ac8"
     },
-    "93b859ee-c536-453a-8ac3-46415918a0c8": {
-      "id": "93b859ee-c536-453a-8ac3-46415918a0c8",
+    "9853353f-76f3-4bcd-a8d7-a22ca187e702": {
+      "id": "9853353f-76f3-4bcd-a8d7-a22ca187e702",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:01.414Z",
-      "headVersionId": "e1ad63e2-46f3-4c93-a32b-0e18e929cd7a"
+      "createdAt": "2026-06-17T03:04:09.964Z",
+      "headVersionId": "163b722a-4b60-472b-b182-dc0a05fd6cb7"
     },
-    "fc76ea02-4a18-48fc-9afe-c87ef50d49b6": {
-      "id": "fc76ea02-4a18-48fc-9afe-c87ef50d49b6",
+    "fc34751f-a1de-4fff-b32c-a6185b3cd513": {
+      "id": "fc34751f-a1de-4fff-b32c-a6185b3cd513",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:03.471Z",
-      "headVersionId": "aedf218c-c6ad-4307-9e85-62a651184223"
+      "createdAt": "2026-06-17T03:04:12.006Z",
+      "headVersionId": "9f34c0f3-80d2-47c2-bfa1-3f77dc7f45fc"
     },
-    "bdc1457f-59b5-4037-b376-350916a75a96": {
-      "id": "bdc1457f-59b5-4037-b376-350916a75a96",
+    "b69ad54b-a32d-4e20-93ed-3ab44d689128": {
+      "id": "b69ad54b-a32d-4e20-93ed-3ab44d689128",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:05.694Z",
-      "headVersionId": "ccae76cd-bb44-4f4a-8a88-6ffa7d717520"
+      "createdAt": "2026-06-17T03:04:14.213Z",
+      "headVersionId": "a0e54471-edd2-459a-88d0-a3cbd8d8129e"
     },
-    "db6bbd39-7bca-4960-8699-dacd01ec50a8": {
-      "id": "db6bbd39-7bca-4960-8699-dacd01ec50a8",
+    "e038c8f5-175e-4861-be08-92c8aa61b36c": {
+      "id": "e038c8f5-175e-4861-be08-92c8aa61b36c",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:06.393Z",
-      "headVersionId": "a88e9a2a-036a-49d4-a670-d652dbd4540c"
+      "createdAt": "2026-06-17T03:04:14.903Z",
+      "headVersionId": "468c37fe-b760-45d3-8fe3-685bc7d441e7"
     },
-    "62c0c49d-56d1-420d-9730-c0c566705f20": {
-      "id": "62c0c49d-56d1-420d-9730-c0c566705f20",
+    "e77d1a33-7362-440a-9ff7-b9a7fe995c40": {
+      "id": "e77d1a33-7362-440a-9ff7-b9a7fe995c40",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:08.331Z",
-      "headVersionId": "b53dd2b3-fb6c-424b-999f-0dcf75771f01"
+      "createdAt": "2026-06-17T03:04:16.815Z",
+      "headVersionId": "bacc74d0-82e4-4330-92d8-b91a778f5964"
     },
-    "a6d00286-3317-494e-9d3d-ade6cae237ae": {
-      "id": "a6d00286-3317-494e-9d3d-ade6cae237ae",
+    "6cdfe7e3-0aa6-41a9-bd65-c6cc6e9f4387": {
+      "id": "6cdfe7e3-0aa6-41a9-bd65-c6cc6e9f4387",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:09.031Z",
-      "headVersionId": "b9735ba5-7c74-4df0-bdee-0a5dc7b20c58"
+      "createdAt": "2026-06-17T03:04:17.518Z",
+      "headVersionId": "53c407e1-9001-4ee0-9660-6d4bf8b9dbc9"
     },
-    "573cc098-ed7f-4fcd-b298-29936d711cfa": {
-      "id": "573cc098-ed7f-4fcd-b298-29936d711cfa",
+    "1c221f81-dce5-4f88-9d0e-7323123433cd": {
+      "id": "1c221f81-dce5-4f88-9d0e-7323123433cd",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:09.918Z",
-      "headVersionId": "6c79860c-9d0e-415d-93c6-4ca7ba07cd7e"
+      "createdAt": "2026-06-17T03:04:18.394Z",
+      "headVersionId": "92cadf2d-8173-408b-8b64-56e26d358047"
     },
-    "dcfca38a-632d-465e-b36a-e91917986c71": {
-      "id": "dcfca38a-632d-465e-b36a-e91917986c71",
+    "01164a30-881a-4f58-b09a-adefa5d466e1": {
+      "id": "01164a30-881a-4f58-b09a-adefa5d466e1",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:10.452Z",
-      "headVersionId": "241c641d-761f-4857-9b02-97ed7c3c4094"
+      "createdAt": "2026-06-17T03:04:18.926Z",
+      "headVersionId": "a9d895c2-c9fa-4390-a217-46f7cdbee4e6"
     },
-    "a52f2d4a-96c7-4d99-9ae7-e276c5e06e48": {
-      "id": "a52f2d4a-96c7-4d99-9ae7-e276c5e06e48",
+    "49351700-c1b5-4da2-bbba-458a08ac9db7": {
+      "id": "49351700-c1b5-4da2-bbba-458a08ac9db7",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:13.503Z",
-      "headVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+      "createdAt": "2026-06-17T03:04:21.972Z",
+      "headVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
     },
-    "179d0712-e3ab-490e-a46a-9d1778c71143": {
-      "id": "179d0712-e3ab-490e-a46a-9d1778c71143",
+    "8c12f38d-9ef1-4134-bf0b-e64e5a40d2f9": {
+      "id": "8c12f38d-9ef1-4134-bf0b-e64e5a40d2f9",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:13.863Z",
-      "headVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+      "createdAt": "2026-06-17T03:04:22.323Z",
+      "headVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
     },
-    "10528984-8dc7-486b-bcf2-76b48ec55d7c": {
-      "id": "10528984-8dc7-486b-bcf2-76b48ec55d7c",
+    "9a18e4d2-cf4a-407b-8123-546af3e5923a": {
+      "id": "9a18e4d2-cf4a-407b-8123-546af3e5923a",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:14.222Z",
-      "headVersionId": "81fa4c6e-1bf5-495f-a569-57bd840bd28e"
+      "createdAt": "2026-06-17T03:04:22.670Z",
+      "headVersionId": "43c3c301-7bf2-4d81-8814-d5bf461641a8"
     },
-    "d639f42c-aa02-49ac-aa5c-48db861ad775": {
-      "id": "d639f42c-aa02-49ac-aa5c-48db861ad775",
+    "b1be87cd-1f6f-4647-9d60-29f92d3ce004": {
+      "id": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
       "createdBy": "user",
-      "createdAt": "2026-06-17T02:10:14.577Z",
-      "headVersionId": "5398b8d0-dcb6-4b17-bcff-34006b1d5ee0"
+      "createdAt": "2026-06-17T03:04:23.030Z",
+      "headVersionId": "9ea5e493-ea36-477b-9bff-691d080277ec"
     }
   },
   "versions": {
-    "ab786801-b623-4670-825d-594f1c77a730": {
-      "id": "ab786801-b623-4670-825d-594f1c77a730",
-      "recipeId": "30b4e9da-4e31-469e-a357-f3f96c06c368",
+    "781dd557-e076-42bc-9506-4c187efcd465": {
+      "id": "781dd557-e076-42bc-9506-4c187efcd465",
+      "recipeId": "f4d55f83-2400-4f5f-9a6b-8b57e81e9c0f",
       "name": "Vanilla Pumpkin Protein Cheesecake",
-      "description": "Base protein cheesecake (vanilla SF pudding, pumpkin for moisture/body). Launch point for flavor variants. Low-fat / high-protein; pumpkin does the work fat does in a standard cheesecake. Tuned DENSE (Tier 1+2): pumpkin reduced 120->75g + 2 tbsp AP flour for a firmer set (AP because that's what's on hand — its gluten sets denser than cornstarch), baked DRY (no water bath) to a just-set center and chilled overnight — denser at near-zero macro cost (~127 cal/slice, ratio 8.9). Stays lean; if a bake comes out rubbery rather than densely creamy, add a little fat (more cream cheese or an extra yolk).",
+      "description": "Base protein cheesecake (vanilla SF pudding, pumpkin for moisture/body). Launch point for flavor variants. Low-fat / high-protein; pumpkin does the work fat does in a standard cheesecake. Tuned DENSE (Tier 1+2): pumpkin reduced 120->75g + 2 tbsp AP flour for a firmer set (AP because that's what's on hand — its gluten sets denser than cornstarch), baked DRY (no water bath) to a just-set center and chilled overnight — denser at near-zero macro cost (~129 cal/slice, ratio 9.1). Stays lean; if a bake comes out rubbery rather than densely creamy, add a little fat (more cream cheese or an extra yolk).",
       "tags": [
         "base",
         "cheesecake",
@@ -330,7 +330,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -379,16 +379,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1017.58,
+          "calories": 1035.5,
           "protein": 114.19,
-          "carbs": 54.16,
+          "carbs": 58.64,
           "fat": 35.16,
           "fiber": 5.68
         },
         "perServing": {
-          "calories": 127.2,
+          "calories": 129.44,
           "protein": 14.27,
-          "carbs": 6.77,
+          "carbs": 7.33,
           "fat": 4.4,
           "fiber": 0.71
         },
@@ -473,11 +473,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -568,13 +568,13 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 8.91
+        "caloriesPerGramProtein": 9.07
       },
-      "createdAt": "2026-06-17T02:09:59.782Z"
+      "createdAt": "2026-06-17T03:04:08.341Z"
     },
-    "77d2d57a-b4dd-4bb1-a495-6570c42e0a22": {
-      "id": "77d2d57a-b4dd-4bb1-a495-6570c42e0a22",
-      "recipeId": "cf95d5aa-e6cd-4711-8461-63bbd09d493e",
+    "80837875-0278-4e0c-94d8-4aca7a657104": {
+      "id": "80837875-0278-4e0c-94d8-4aca7a657104",
+      "recipeId": "8eff6311-a072-49f6-9085-3a9ae17dd5e6",
       "name": "Crumbl Base Protein Cookie",
       "description": "The shared base cookie for the crumbl protein-cookie family — the flavor-neutral vanilla chassis every flavor derives from. Built from the tested-excellent set: Birthday Cake + Lemon dough at 1.5 scoops plus their shared cornstarch soft-crumb trick, with a lean egg white for structure. Frosting is a sub_recipe pin (defaults to the Cool-Whip vanilla protein frosting); flavors swap the pin — cream cheese for red velvet, a lemon drizzle for lemon. The 20g newcomer's heavier protein-load stays a queued experiment. Sweetener is granulated Splenda (calorically modeled, never monk fruit).",
       "tags": [
@@ -1026,11 +1026,11 @@
         ],
         "caloriesPerGramProtein": 12.72
       },
-      "createdAt": "2026-06-17T02:09:59.948Z"
+      "createdAt": "2026-06-17T03:04:08.502Z"
     },
-    "e1e9485a-3e38-4883-976b-d9c5e755f9c3": {
-      "id": "e1e9485a-3e38-4883-976b-d9c5e755f9c3",
-      "recipeId": "a9dc8855-e611-449e-81fc-99208f7cd952",
+    "1a6ac19f-7753-4943-9fb0-0d58bbf817d9": {
+      "id": "1a6ac19f-7753-4943-9fb0-0d58bbf817d9",
+      "recipeId": "18e73e9e-5ec2-494f-99fe-e18bd4546437",
       "name": "Browned-Butter Protein Cookies",
       "description": "Browned-butter protein chocolate-chip cookies, makes 3. VERSION A - Thick & Gooey (molten center): tall bakery-style mounds, intentionally uneven (gooey center, firmer edges). The thick middle cooks slowest, so the edges finish before the center - that's the price of a molten center. Soft, fragile, and pale is CORRECT; these don't brown like a normal cookie. Confirm doneness by breaking one open after resting: soft/dense/moist/baked = done; wet/gummy/raw-flour = 1-2 min more. (Version B - Even & Soft-Chewy - is a derived variant that flattens + bakes lower for one consistent texture.)",
       "tags": [
@@ -1477,11 +1477,11 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T02:10:00.112Z"
+      "createdAt": "2026-06-17T03:04:08.664Z"
     },
-    "d4a13911-d8a5-432a-ac61-382728bb9f9d": {
-      "id": "d4a13911-d8a5-432a-ac61-382728bb9f9d",
-      "recipeId": "804de9ca-4541-4c8c-86bf-5dccad017f3f",
+    "5a7ddb0d-b980-4292-9771-04fd4aa98287": {
+      "id": "5a7ddb0d-b980-4292-9771-04fd4aa98287",
+      "recipeId": "357161fe-1fda-4f79-8e76-2aaab7716a7d",
       "name": "Protein Cream-Cheese Frosting",
       "description": "Protein cream-cheese frosting — extracted from Red Velvet Protein Cookies as an M3 sub-recipe. Makes 1 batch (enough to frost one 5-cookie set). Its own base→variant root: Cool-Whip and other frostings derive from this.",
       "tags": [
@@ -1681,11 +1681,11 @@
         ],
         "caloriesPerGramProtein": 9.35
       },
-      "createdAt": "2026-06-17T02:10:00.274Z"
+      "createdAt": "2026-06-17T03:04:08.826Z"
     },
-    "8321d3e5-e714-4304-9b7f-59721c2b89f9": {
-      "id": "8321d3e5-e714-4304-9b7f-59721c2b89f9",
-      "recipeId": "82787b74-d076-4fa3-a6f1-79339a7d7692",
+    "61e41346-1e00-4685-ac72-e1f7797d2f77": {
+      "id": "61e41346-1e00-4685-ac72-e1f7797d2f77",
+      "recipeId": "2747dff8-daed-4a55-9f45-85fea0ea4a8f",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -2328,11 +2328,11 @@
         ],
         "caloriesPerGramProtein": 9.8
       },
-      "createdAt": "2026-06-17T02:10:00.434Z"
+      "createdAt": "2026-06-17T03:04:08.986Z"
     },
-    "713f6288-0f4d-4f55-95d2-ce230d099616": {
-      "id": "713f6288-0f4d-4f55-95d2-ce230d099616",
-      "recipeId": "42263e42-651c-4de3-9f0d-467ccf7ac08f",
+    "ba43d0d7-326f-4163-b2a6-5df7debb3177": {
+      "id": "ba43d0d7-326f-4163-b2a6-5df7debb3177",
+      "recipeId": "6086d51b-8321-477f-a749-cdce7c84c7b3",
       "name": "High-Protein Anti-Pancake Sugar Cookies",
       "description": "Low-flour protein sugar cookie tuned to kill the rubbery 'pancake' texture: a scoop of whey replaces most flour and SF instant pudding binds moisture for a dense bakery chew. Sweetener is granulated Splenda; pudding modeled as the Simply Delish SF vanilla already in the library; butter is regular unsalted, already halved to 7 g. Leavening is baking powder only (no soda / cream of tartar). Final step is a fridge rest. Source: user. Stated batch macros ~428 kcal / 44P / 41C / 11F (107/cookie at 4).",
       "tags": [
@@ -2719,11 +2719,11 @@
         ],
         "caloriesPerGramProtein": 12.16
       },
-      "createdAt": "2026-06-17T02:10:00.595Z"
+      "createdAt": "2026-06-17T03:04:09.153Z"
     },
-    "046bb754-cf6c-4a3b-9740-0c00b0a7f1db": {
-      "id": "046bb754-cf6c-4a3b-9740-0c00b0a7f1db",
-      "recipeId": "192369e5-fb53-4e91-9414-bedce9f761f6",
+    "f61a9f7b-9ba5-4ba6-8489-d802b18a27e8": {
+      "id": "f61a9f7b-9ba5-4ba6-8489-d802b18a27e8",
+      "recipeId": "43a091f0-2a56-46c9-b1ca-c82998ee7962",
       "name": "High-Protein Nanaimo Bars",
       "description": "A high-protein, lower-calorie take on the classic three-layer Canadian Nanaimo bar: cocoa-coconut base, butterscotch protein filling, baking-chocolate top. Sweetener modeled as granulated Splenda; the 'or 20g oat flour' alt for coconut flour is not taken. Source: instagram. Stated full batch ~1300 kcal / 83C / 118P / 58F (header lists per-bar at 10 bars, but the directions slice 9 — yield set to 9).",
       "tags": [
@@ -3372,11 +3372,11 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T02:10:00.759Z"
+      "createdAt": "2026-06-17T03:04:09.316Z"
     },
-    "8b2b523c-9621-42ab-be38-7fc81fa3bf6f": {
-      "id": "8b2b523c-9621-42ab-be38-7fc81fa3bf6f",
-      "recipeId": "053b463b-5348-4d22-ba14-772aad8a3279",
+    "8cb9cd00-5dae-4f76-8ff3-b95e7c3d7ad5": {
+      "id": "8cb9cd00-5dae-4f76-8ff3-b95e7c3d7ad5",
+      "recipeId": "6bd6e24d-8380-4d95-bfce-33f945166124",
       "name": "Protein Ice Cream Sandwich",
       "description": "Healthy protein ice cream sandwiches in the style of Fat Boys: a blended vanilla protein 'ice cream' between chocolate graham crackers. Source: healthbeet.org. Decent as-is; the filling really wants a Ninja Creami churn for texture. Stated macros ~135 kcal / 16C / 13-14P / 3F per sandwich.",
       "tags": [
@@ -3659,11 +3659,11 @@
         ],
         "caloriesPerGramProtein": 10.17
       },
-      "createdAt": "2026-06-17T02:10:00.923Z"
+      "createdAt": "2026-06-17T03:04:09.475Z"
     },
-    "a152da21-8eba-47c3-ad8f-f122ef61aeb0": {
-      "id": "a152da21-8eba-47c3-ad8f-f122ef61aeb0",
-      "recipeId": "4ef46e1c-0221-4486-8632-2285fb41e4ad",
+    "aa6e7f25-1c7e-4abd-a363-23a9781cb8b0": {
+      "id": "aa6e7f25-1c7e-4abd-a363-23a9781cb8b0",
+      "recipeId": "fec62a17-4652-400e-a421-820373ec8c3c",
       "name": "20g Protein Frosted Cookies",
       "description": "Macro-friendly frosted protein cookie (Instagram) ingested as a crumbl base-chassis candidate. Notable for a claimed <10 kcal per g protein, achieved by protein-loading: 3 scoops whey in only 5 cookies plus a full cup of nonfat Greek yogurt in the frosting. Modeled with regular AP flour (source said 'Bob's Red Mill GF flour or regular flour'); generic sweetener -> granulated Splenda; the 1 egg white authored as 33 g (one large white) since the library egg-white has no count equivalence; sprinkles ('to taste') omitted so it reads as a clean unfrosted-chassis sibling to the other crumbl cookies. Component keys aligned with the Birthday Cake base so compare row-aligns and promote can graft by key. Not yet made.",
       "tags": [
@@ -4129,11 +4129,11 @@
         ],
         "caloriesPerGramProtein": 9.21
       },
-      "createdAt": "2026-06-17T02:10:01.086Z"
+      "createdAt": "2026-06-17T03:04:09.637Z"
     },
-    "b574ae5e-fc24-4d55-8d8f-9a133086b297": {
-      "id": "b574ae5e-fc24-4d55-8d8f-9a133086b297",
-      "recipeId": "c0b0c3da-0f2c-465f-9d1b-fd5f8f8be748",
+    "1f00b708-6c77-4cc7-991d-f481d9733ac8": {
+      "id": "1f00b708-6c77-4cc7-991d-f481d9733ac8",
+      "recipeId": "372fd728-88fd-4d83-b82a-10a0c6b9cd1c",
       "name": "Giant Single-Serve Protein Cookie",
       "description": "Yogurt-based high-protein cookie (no butter/sugar) found on Instagram, untried. Coconut flour subbed to oat flour; sugar-free chips to semi-sweet; 'zero cal sugar' to granulated Splenda. Chocolate chips unspecified in source — assumed 20g.",
       "tags": [
@@ -4437,12 +4437,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T02:10:01.248Z"
+      "createdAt": "2026-06-17T03:04:09.798Z"
     },
-    "533b20eb-55b3-42c6-a0df-493ac0acfe06": {
-      "id": "533b20eb-55b3-42c6-a0df-493ac0acfe06",
-      "recipeId": "93b859ee-c536-453a-8ac3-46415918a0c8",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "d80cf949-309b-4919-bb12-da5f208e96ef": {
+      "id": "d80cf949-309b-4919-bb12-da5f208e96ef",
+      "recipeId": "9853353f-76f3-4bcd-a8d7-a22ca187e702",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -4635,7 +4635,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -4684,16 +4684,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1017.58,
+          "calories": 1035.5,
           "protein": 114.19,
-          "carbs": 54.16,
+          "carbs": 58.64,
           "fat": 35.16,
           "fiber": 5.68
         },
         "perServing": {
-          "calories": 127.2,
+          "calories": 129.44,
           "protein": 14.27,
-          "carbs": 6.77,
+          "carbs": 7.33,
           "fat": 4.4,
           "fiber": 0.71
         },
@@ -4778,11 +4778,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -4873,14 +4873,14 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 8.91
+        "caloriesPerGramProtein": 9.07
       },
-      "createdAt": "2026-06-17T02:10:01.414Z"
+      "createdAt": "2026-06-17T03:04:09.964Z"
     },
-    "75e2bed1-9a97-4a5a-a592-42dce241eae0": {
-      "id": "75e2bed1-9a97-4a5a-a592-42dce241eae0",
-      "recipeId": "93b859ee-c536-453a-8ac3-46415918a0c8",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "bd072caa-3a52-441d-87d1-3809f79aeff3": {
+      "id": "bd072caa-3a52-441d-87d1-3809f79aeff3",
+      "recipeId": "9853353f-76f3-4bcd-a8d7-a22ca187e702",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -5087,7 +5087,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -5136,16 +5136,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1017.58,
+          "calories": 1035.5,
           "protein": 114.19,
-          "carbs": 54.16,
+          "carbs": 58.64,
           "fat": 35.16,
           "fiber": 5.68
         },
         "perServing": {
-          "calories": 127.2,
+          "calories": 129.44,
           "protein": 14.27,
-          "carbs": 6.77,
+          "carbs": 7.33,
           "fat": 4.4,
           "fiber": 0.71
         },
@@ -5230,11 +5230,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -5325,15 +5325,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 8.91
+        "caloriesPerGramProtein": 9.07
       },
-      "createdAt": "2026-06-17T02:10:01.587Z",
-      "prevVersionId": "533b20eb-55b3-42c6-a0df-493ac0acfe06"
+      "createdAt": "2026-06-17T03:04:10.135Z",
+      "prevVersionId": "d80cf949-309b-4919-bb12-da5f208e96ef"
     },
-    "fa6ed32d-b5fd-4a91-9fe9-d73031413eba": {
-      "id": "fa6ed32d-b5fd-4a91-9fe9-d73031413eba",
-      "recipeId": "93b859ee-c536-453a-8ac3-46415918a0c8",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "81c4f327-08e9-4bf5-ac20-82ab8df3dea3": {
+      "id": "81c4f327-08e9-4bf5-ac20-82ab8df3dea3",
+      "recipeId": "9853353f-76f3-4bcd-a8d7-a22ca187e702",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -5550,7 +5550,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -5599,16 +5599,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1017.58,
+          "calories": 1035.5,
           "protein": 114.19,
-          "carbs": 54.16,
+          "carbs": 58.64,
           "fat": 35.16,
           "fiber": 5.68
         },
         "perServing": {
-          "calories": 127.2,
+          "calories": 129.44,
           "protein": 14.27,
-          "carbs": 6.77,
+          "carbs": 7.33,
           "fat": 4.4,
           "fiber": 0.71
         },
@@ -5693,11 +5693,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -5788,15 +5788,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 8.91
+        "caloriesPerGramProtein": 9.07
       },
-      "createdAt": "2026-06-17T02:10:01.752Z",
-      "prevVersionId": "75e2bed1-9a97-4a5a-a592-42dce241eae0"
+      "createdAt": "2026-06-17T03:04:10.317Z",
+      "prevVersionId": "bd072caa-3a52-441d-87d1-3809f79aeff3"
     },
-    "4c9ac70e-ee3e-4bc5-8c8e-87d6a741dc2c": {
-      "id": "4c9ac70e-ee3e-4bc5-8c8e-87d6a741dc2c",
-      "recipeId": "93b859ee-c536-453a-8ac3-46415918a0c8",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "b80c4db9-00a3-411b-9c2b-a577bec04f4e": {
+      "id": "b80c4db9-00a3-411b-9c2b-a577bec04f4e",
+      "recipeId": "9853353f-76f3-4bcd-a8d7-a22ca187e702",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -6035,7 +6035,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -6084,16 +6084,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1017.58,
+          "calories": 1035.5,
           "protein": 114.19,
-          "carbs": 54.16,
+          "carbs": 58.64,
           "fat": 35.16,
           "fiber": 5.68
         },
         "perServing": {
-          "calories": 127.2,
+          "calories": 129.44,
           "protein": 14.27,
-          "carbs": 6.77,
+          "carbs": 7.33,
           "fat": 4.4,
           "fiber": 0.71
         },
@@ -6178,11 +6178,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -6273,15 +6273,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 8.91
+        "caloriesPerGramProtein": 9.07
       },
-      "createdAt": "2026-06-17T02:10:01.924Z",
-      "prevVersionId": "fa6ed32d-b5fd-4a91-9fe9-d73031413eba"
+      "createdAt": "2026-06-17T03:04:10.480Z",
+      "prevVersionId": "81c4f327-08e9-4bf5-ac20-82ab8df3dea3"
     },
-    "874da144-f6cd-4649-9735-5bb14d239963": {
-      "id": "874da144-f6cd-4649-9735-5bb14d239963",
-      "recipeId": "93b859ee-c536-453a-8ac3-46415918a0c8",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "cbc1cd83-9601-4abb-95ec-be89affbc687": {
+      "id": "cbc1cd83-9601-4abb-95ec-be89affbc687",
+      "recipeId": "9853353f-76f3-4bcd-a8d7-a22ca187e702",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -6532,7 +6532,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -6589,16 +6589,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1151.08,
+          "calories": 1169,
           "protein": 115.84,
-          "carbs": 88.66,
+          "carbs": 93.14,
           "fat": 35.61,
           "fiber": 9.58
         },
         "perServing": {
-          "calories": 143.89,
+          "calories": 146.13,
           "protein": 14.48,
-          "carbs": 11.08,
+          "carbs": 11.64,
           "fat": 4.45,
           "fiber": 1.2
         },
@@ -6683,11 +6683,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -6792,15 +6792,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 9.94
+        "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T02:10:02.095Z",
-      "prevVersionId": "4c9ac70e-ee3e-4bc5-8c8e-87d6a741dc2c"
+      "createdAt": "2026-06-17T03:04:10.645Z",
+      "prevVersionId": "b80c4db9-00a3-411b-9c2b-a577bec04f4e"
     },
-    "3635493f-d8d2-4a4d-9d79-540131b9c9f5": {
-      "id": "3635493f-d8d2-4a4d-9d79-540131b9c9f5",
-      "recipeId": "93b859ee-c536-453a-8ac3-46415918a0c8",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "e3124c5e-b2b4-4b66-8c25-eba5f2087b04": {
+      "id": "e3124c5e-b2b4-4b66-8c25-eba5f2087b04",
+      "recipeId": "9853353f-76f3-4bcd-a8d7-a22ca187e702",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -7071,7 +7071,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -7128,16 +7128,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1151.08,
+          "calories": 1169,
           "protein": 115.84,
-          "carbs": 88.66,
+          "carbs": 93.14,
           "fat": 35.61,
           "fiber": 9.58
         },
         "perServing": {
-          "calories": 143.89,
+          "calories": 146.13,
           "protein": 14.48,
-          "carbs": 11.08,
+          "carbs": 11.64,
           "fat": 4.45,
           "fiber": 1.2
         },
@@ -7222,11 +7222,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -7331,15 +7331,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 9.94
+        "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T02:10:02.266Z",
-      "prevVersionId": "874da144-f6cd-4649-9735-5bb14d239963"
+      "createdAt": "2026-06-17T03:04:10.815Z",
+      "prevVersionId": "cbc1cd83-9601-4abb-95ec-be89affbc687"
     },
-    "7459ed57-a60c-42be-b826-6f498ff6ba7b": {
-      "id": "7459ed57-a60c-42be-b826-6f498ff6ba7b",
-      "recipeId": "93b859ee-c536-453a-8ac3-46415918a0c8",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "315c68a7-72f6-47d0-80e7-a030e9e5f3cf": {
+      "id": "315c68a7-72f6-47d0-80e7-a030e9e5f3cf",
+      "recipeId": "9853353f-76f3-4bcd-a8d7-a22ca187e702",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -7621,7 +7621,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -7685,16 +7685,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1163.93,
+          "calories": 1181.85,
           "protein": 116.04,
-          "carbs": 92.87,
+          "carbs": 97.35,
           "fat": 35.68,
           "fiber": 12.33
         },
         "perServing": {
-          "calories": 145.49,
+          "calories": 147.73,
           "protein": 14.51,
-          "carbs": 11.61,
+          "carbs": 12.17,
           "fat": 4.46,
           "fiber": 1.54
         },
@@ -7779,11 +7779,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -7902,15 +7902,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 10.03
+        "caloriesPerGramProtein": 10.18
       },
-      "createdAt": "2026-06-17T02:10:02.430Z",
-      "prevVersionId": "3635493f-d8d2-4a4d-9d79-540131b9c9f5"
+      "createdAt": "2026-06-17T03:04:10.980Z",
+      "prevVersionId": "e3124c5e-b2b4-4b66-8c25-eba5f2087b04"
     },
-    "0c7d51ee-50b4-4be3-b7ba-0877a588b9a6": {
-      "id": "0c7d51ee-50b4-4be3-b7ba-0877a588b9a6",
-      "recipeId": "93b859ee-c536-453a-8ac3-46415918a0c8",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "81bd0366-9ca5-4244-a617-7cad8143dae9": {
+      "id": "81bd0366-9ca5-4244-a617-7cad8143dae9",
+      "recipeId": "9853353f-76f3-4bcd-a8d7-a22ca187e702",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -8202,7 +8202,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -8266,16 +8266,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1163.93,
+          "calories": 1181.85,
           "protein": 116.04,
-          "carbs": 92.87,
+          "carbs": 97.35,
           "fat": 35.68,
           "fiber": 12.33
         },
         "perServing": {
-          "calories": 145.49,
+          "calories": 147.73,
           "protein": 14.51,
-          "carbs": 11.61,
+          "carbs": 12.17,
           "fat": 4.46,
           "fiber": 1.54
         },
@@ -8360,11 +8360,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -8483,15 +8483,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 10.03
+        "caloriesPerGramProtein": 10.18
       },
-      "createdAt": "2026-06-17T02:10:02.601Z",
-      "prevVersionId": "7459ed57-a60c-42be-b826-6f498ff6ba7b"
+      "createdAt": "2026-06-17T03:04:11.144Z",
+      "prevVersionId": "315c68a7-72f6-47d0-80e7-a030e9e5f3cf"
     },
-    "3e3b67cf-e287-475a-8902-a509f4a4f937": {
-      "id": "3e3b67cf-e287-475a-8902-a509f4a4f937",
-      "recipeId": "93b859ee-c536-453a-8ac3-46415918a0c8",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "8cc8686c-6776-49cd-8c37-02626f8339d6": {
+      "id": "8cc8686c-6776-49cd-8c37-02626f8339d6",
+      "recipeId": "9853353f-76f3-4bcd-a8d7-a22ca187e702",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -8803,7 +8803,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -8867,16 +8867,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1163.93,
+          "calories": 1181.85,
           "protein": 116.04,
-          "carbs": 92.87,
+          "carbs": 97.35,
           "fat": 35.68,
           "fiber": 12.33
         },
         "perServing": {
-          "calories": 145.49,
+          "calories": 147.73,
           "protein": 14.51,
-          "carbs": 11.61,
+          "carbs": 12.17,
           "fat": 4.46,
           "fiber": 1.54
         },
@@ -8961,11 +8961,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -9084,15 +9084,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 10.03
+        "caloriesPerGramProtein": 10.18
       },
-      "createdAt": "2026-06-17T02:10:02.775Z",
-      "prevVersionId": "0c7d51ee-50b4-4be3-b7ba-0877a588b9a6"
+      "createdAt": "2026-06-17T03:04:11.312Z",
+      "prevVersionId": "81bd0366-9ca5-4244-a617-7cad8143dae9"
     },
-    "95cc4c2a-c1f3-46da-bdcb-d9e189a41b0c": {
-      "id": "95cc4c2a-c1f3-46da-bdcb-d9e189a41b0c",
-      "recipeId": "93b859ee-c536-453a-8ac3-46415918a0c8",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "a7c74228-2149-4804-a376-f7550604da6c": {
+      "id": "a7c74228-2149-4804-a376-f7550604da6c",
+      "recipeId": "9853353f-76f3-4bcd-a8d7-a22ca187e702",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -9416,7 +9416,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -9488,16 +9488,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1224.68,
+          "calories": 1242.6,
           "protein": 116.94,
-          "carbs": 104.27,
+          "carbs": 108.75,
           "fat": 37.1,
           "fiber": 12.71
         },
         "perServing": {
-          "calories": 153.08,
+          "calories": 155.32,
           "protein": 14.62,
-          "carbs": 13.03,
+          "carbs": 13.59,
           "fat": 4.64,
           "fiber": 1.59
         },
@@ -9582,11 +9582,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -9719,15 +9719,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 10.47
+        "caloriesPerGramProtein": 10.63
       },
-      "createdAt": "2026-06-17T02:10:02.955Z",
-      "prevVersionId": "3e3b67cf-e287-475a-8902-a509f4a4f937"
+      "createdAt": "2026-06-17T03:04:11.481Z",
+      "prevVersionId": "8cc8686c-6776-49cd-8c37-02626f8339d6"
     },
-    "d3bd5f9d-914a-4ddc-8d0f-9d0265385223": {
-      "id": "d3bd5f9d-914a-4ddc-8d0f-9d0265385223",
-      "recipeId": "93b859ee-c536-453a-8ac3-46415918a0c8",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "463d47ee-2b3d-4f25-abd3-c8ec165b94ff": {
+      "id": "463d47ee-2b3d-4f25-abd3-c8ec165b94ff",
+      "recipeId": "9853353f-76f3-4bcd-a8d7-a22ca187e702",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -10063,7 +10063,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -10143,16 +10143,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1227.89,
+          "calories": 1245.81,
           "protein": 117,
-          "carbs": 105.32,
+          "carbs": 109.81,
           "fat": 37.12,
           "fiber": 13.4
         },
         "perServing": {
-          "calories": 153.49,
+          "calories": 155.73,
           "protein": 14.62,
-          "carbs": 13.17,
+          "carbs": 13.73,
           "fat": 4.64,
           "fiber": 1.67
         },
@@ -10237,11 +10237,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -10388,15 +10388,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 10.5
+        "caloriesPerGramProtein": 10.65
       },
-      "createdAt": "2026-06-17T02:10:03.128Z",
-      "prevVersionId": "95cc4c2a-c1f3-46da-bdcb-d9e189a41b0c"
+      "createdAt": "2026-06-17T03:04:11.646Z",
+      "prevVersionId": "a7c74228-2149-4804-a376-f7550604da6c"
     },
-    "e1ad63e2-46f3-4c93-a32b-0e18e929cd7a": {
-      "id": "e1ad63e2-46f3-4c93-a32b-0e18e929cd7a",
-      "recipeId": "93b859ee-c536-453a-8ac3-46415918a0c8",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "163b722a-4b60-472b-b182-dc0a05fd6cb7": {
+      "id": "163b722a-4b60-472b-b182-dc0a05fd6cb7",
+      "recipeId": "9853353f-76f3-4bcd-a8d7-a22ca187e702",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -10746,7 +10746,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -10826,16 +10826,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1227.89,
+          "calories": 1245.81,
           "protein": 117,
-          "carbs": 105.32,
+          "carbs": 109.81,
           "fat": 37.12,
           "fiber": 13.4
         },
         "perServing": {
-          "calories": 153.49,
+          "calories": 155.73,
           "protein": 14.62,
-          "carbs": 13.17,
+          "carbs": 13.73,
           "fat": 4.64,
           "fiber": 1.67
         },
@@ -10920,11 +10920,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -11071,15 +11071,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 10.5
+        "caloriesPerGramProtein": 10.65
       },
-      "createdAt": "2026-06-17T02:10:03.299Z",
-      "prevVersionId": "d3bd5f9d-914a-4ddc-8d0f-9d0265385223"
+      "createdAt": "2026-06-17T03:04:11.817Z",
+      "prevVersionId": "463d47ee-2b3d-4f25-abd3-c8ec165b94ff"
     },
-    "0540a52e-59f5-4047-b2de-9f40406843d2": {
-      "id": "0540a52e-59f5-4047-b2de-9f40406843d2",
-      "recipeId": "fc76ea02-4a18-48fc-9afe-c87ef50d49b6",
-      "derivesFromVersionId": "d4a13911-d8a5-432a-ac61-382728bb9f9d",
+    "4e730447-acf7-4fd0-92e3-28df9e028f06": {
+      "id": "4e730447-acf7-4fd0-92e3-28df9e028f06",
+      "recipeId": "fc34751f-a1de-4fff-b32c-a6185b3cd513",
+      "derivesFromVersionId": "5a7ddb0d-b980-4292-9771-04fd4aa98287",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -11276,12 +11276,12 @@
         ],
         "caloriesPerGramProtein": 9.35
       },
-      "createdAt": "2026-06-17T02:10:03.471Z"
+      "createdAt": "2026-06-17T03:04:12.006Z"
     },
-    "a7d92237-3bf8-45bc-abb9-74f95be7bf02": {
-      "id": "a7d92237-3bf8-45bc-abb9-74f95be7bf02",
-      "recipeId": "fc76ea02-4a18-48fc-9afe-c87ef50d49b6",
-      "derivesFromVersionId": "d4a13911-d8a5-432a-ac61-382728bb9f9d",
+    "989b204d-bccf-4d89-9150-a3aa3a93954f": {
+      "id": "989b204d-bccf-4d89-9150-a3aa3a93954f",
+      "recipeId": "fc34751f-a1de-4fff-b32c-a6185b3cd513",
+      "derivesFromVersionId": "5a7ddb0d-b980-4292-9771-04fd4aa98287",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -11491,13 +11491,13 @@
         ],
         "caloriesPerGramProtein": 10.02
       },
-      "createdAt": "2026-06-17T02:10:03.641Z",
-      "prevVersionId": "0540a52e-59f5-4047-b2de-9f40406843d2"
+      "createdAt": "2026-06-17T03:04:12.180Z",
+      "prevVersionId": "4e730447-acf7-4fd0-92e3-28df9e028f06"
     },
-    "a7f5c92f-3372-4a5e-aa9d-6ff8dc1b512f": {
-      "id": "a7f5c92f-3372-4a5e-aa9d-6ff8dc1b512f",
-      "recipeId": "fc76ea02-4a18-48fc-9afe-c87ef50d49b6",
-      "derivesFromVersionId": "d4a13911-d8a5-432a-ac61-382728bb9f9d",
+    "2ec41c32-7920-42c3-83db-c6918831f3e9": {
+      "id": "2ec41c32-7920-42c3-83db-c6918831f3e9",
+      "recipeId": "fc34751f-a1de-4fff-b32c-a6185b3cd513",
+      "derivesFromVersionId": "5a7ddb0d-b980-4292-9771-04fd4aa98287",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -11691,13 +11691,13 @@
         ],
         "caloriesPerGramProtein": 6.54
       },
-      "createdAt": "2026-06-17T02:10:03.815Z",
-      "prevVersionId": "a7d92237-3bf8-45bc-abb9-74f95be7bf02"
+      "createdAt": "2026-06-17T03:04:12.346Z",
+      "prevVersionId": "989b204d-bccf-4d89-9150-a3aa3a93954f"
     },
-    "9882e9e8-6393-424b-aeec-f2d69a792c73": {
-      "id": "9882e9e8-6393-424b-aeec-f2d69a792c73",
-      "recipeId": "fc76ea02-4a18-48fc-9afe-c87ef50d49b6",
-      "derivesFromVersionId": "d4a13911-d8a5-432a-ac61-382728bb9f9d",
+    "18f9fc9e-9f92-46df-9772-8dabf50a5de9": {
+      "id": "18f9fc9e-9f92-46df-9772-8dabf50a5de9",
+      "recipeId": "fc34751f-a1de-4fff-b32c-a6185b3cd513",
+      "derivesFromVersionId": "5a7ddb0d-b980-4292-9771-04fd4aa98287",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -11888,13 +11888,13 @@
         ],
         "caloriesPerGramProtein": 6.54
       },
-      "createdAt": "2026-06-17T02:10:03.985Z",
-      "prevVersionId": "a7f5c92f-3372-4a5e-aa9d-6ff8dc1b512f"
+      "createdAt": "2026-06-17T03:04:12.510Z",
+      "prevVersionId": "2ec41c32-7920-42c3-83db-c6918831f3e9"
     },
-    "212d3541-f4c7-4738-9957-81edc88b4bfa": {
-      "id": "212d3541-f4c7-4738-9957-81edc88b4bfa",
-      "recipeId": "fc76ea02-4a18-48fc-9afe-c87ef50d49b6",
-      "derivesFromVersionId": "d4a13911-d8a5-432a-ac61-382728bb9f9d",
+    "78b421d4-2e1e-4d35-91e2-0aa83c4e79f7": {
+      "id": "78b421d4-2e1e-4d35-91e2-0aa83c4e79f7",
+      "recipeId": "fc34751f-a1de-4fff-b32c-a6185b3cd513",
+      "derivesFromVersionId": "5a7ddb0d-b980-4292-9771-04fd4aa98287",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -12105,13 +12105,13 @@
         ],
         "caloriesPerGramProtein": 6.54
       },
-      "createdAt": "2026-06-17T02:10:04.158Z",
-      "prevVersionId": "9882e9e8-6393-424b-aeec-f2d69a792c73"
+      "createdAt": "2026-06-17T03:04:12.679Z",
+      "prevVersionId": "18f9fc9e-9f92-46df-9772-8dabf50a5de9"
     },
-    "8cb0902f-e807-429d-b7fd-ebc97bd7b6a0": {
-      "id": "8cb0902f-e807-429d-b7fd-ebc97bd7b6a0",
-      "recipeId": "fc76ea02-4a18-48fc-9afe-c87ef50d49b6",
-      "derivesFromVersionId": "d4a13911-d8a5-432a-ac61-382728bb9f9d",
+    "aed9f17f-c894-4932-beef-fe3d706af8a2": {
+      "id": "aed9f17f-c894-4932-beef-fe3d706af8a2",
+      "recipeId": "fc34751f-a1de-4fff-b32c-a6185b3cd513",
+      "derivesFromVersionId": "5a7ddb0d-b980-4292-9771-04fd4aa98287",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -12354,13 +12354,13 @@
         ],
         "caloriesPerGramProtein": 7.11
       },
-      "createdAt": "2026-06-17T02:10:04.329Z",
-      "prevVersionId": "212d3541-f4c7-4738-9957-81edc88b4bfa"
+      "createdAt": "2026-06-17T03:04:12.849Z",
+      "prevVersionId": "78b421d4-2e1e-4d35-91e2-0aa83c4e79f7"
     },
-    "a96f8842-2d6d-4ca1-8b41-a8ffa2ca535c": {
-      "id": "a96f8842-2d6d-4ca1-8b41-a8ffa2ca535c",
-      "recipeId": "fc76ea02-4a18-48fc-9afe-c87ef50d49b6",
-      "derivesFromVersionId": "d4a13911-d8a5-432a-ac61-382728bb9f9d",
+    "a9de385f-1065-4f1f-b90b-30b0aa8839cf": {
+      "id": "a9de385f-1065-4f1f-b90b-30b0aa8839cf",
+      "recipeId": "fc34751f-a1de-4fff-b32c-a6185b3cd513",
+      "derivesFromVersionId": "5a7ddb0d-b980-4292-9771-04fd4aa98287",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -12615,13 +12615,13 @@
         ],
         "caloriesPerGramProtein": 7.96
       },
-      "createdAt": "2026-06-17T02:10:04.497Z",
-      "prevVersionId": "8cb0902f-e807-429d-b7fd-ebc97bd7b6a0"
+      "createdAt": "2026-06-17T03:04:13.017Z",
+      "prevVersionId": "aed9f17f-c894-4932-beef-fe3d706af8a2"
     },
-    "9742e359-3860-408b-a8b8-f3ef38f941cd": {
-      "id": "9742e359-3860-408b-a8b8-f3ef38f941cd",
-      "recipeId": "fc76ea02-4a18-48fc-9afe-c87ef50d49b6",
-      "derivesFromVersionId": "d4a13911-d8a5-432a-ac61-382728bb9f9d",
+    "51839f8b-bb0f-43c0-89cd-a86ef17f72bd": {
+      "id": "51839f8b-bb0f-43c0-89cd-a86ef17f72bd",
+      "recipeId": "fc34751f-a1de-4fff-b32c-a6185b3cd513",
+      "derivesFromVersionId": "5a7ddb0d-b980-4292-9771-04fd4aa98287",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -12888,13 +12888,13 @@
         ],
         "caloriesPerGramProtein": 6.82
       },
-      "createdAt": "2026-06-17T02:10:04.665Z",
-      "prevVersionId": "a96f8842-2d6d-4ca1-8b41-a8ffa2ca535c"
+      "createdAt": "2026-06-17T03:04:13.190Z",
+      "prevVersionId": "a9de385f-1065-4f1f-b90b-30b0aa8839cf"
     },
-    "bf502c11-76ec-41fa-a7d5-5c1674bc5ed1": {
-      "id": "bf502c11-76ec-41fa-a7d5-5c1674bc5ed1",
-      "recipeId": "fc76ea02-4a18-48fc-9afe-c87ef50d49b6",
-      "derivesFromVersionId": "d4a13911-d8a5-432a-ac61-382728bb9f9d",
+    "7a3d56ed-0c81-4331-84e7-5a2af849c470": {
+      "id": "7a3d56ed-0c81-4331-84e7-5a2af849c470",
+      "recipeId": "fc34751f-a1de-4fff-b32c-a6185b3cd513",
+      "derivesFromVersionId": "5a7ddb0d-b980-4292-9771-04fd4aa98287",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -13173,13 +13173,13 @@
         ],
         "caloriesPerGramProtein": 6.6
       },
-      "createdAt": "2026-06-17T02:10:04.835Z",
-      "prevVersionId": "9742e359-3860-408b-a8b8-f3ef38f941cd"
+      "createdAt": "2026-06-17T03:04:13.361Z",
+      "prevVersionId": "51839f8b-bb0f-43c0-89cd-a86ef17f72bd"
     },
-    "92cecb45-9d4c-43a4-8ffc-277c7cae76fc": {
-      "id": "92cecb45-9d4c-43a4-8ffc-277c7cae76fc",
-      "recipeId": "fc76ea02-4a18-48fc-9afe-c87ef50d49b6",
-      "derivesFromVersionId": "d4a13911-d8a5-432a-ac61-382728bb9f9d",
+    "15f5d054-7e1e-4e38-8f4d-1061adf73fc8": {
+      "id": "15f5d054-7e1e-4e38-8f4d-1061adf73fc8",
+      "recipeId": "fc34751f-a1de-4fff-b32c-a6185b3cd513",
+      "derivesFromVersionId": "5a7ddb0d-b980-4292-9771-04fd4aa98287",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -13478,13 +13478,13 @@
         ],
         "caloriesPerGramProtein": 6.6
       },
-      "createdAt": "2026-06-17T02:10:05.005Z",
-      "prevVersionId": "bf502c11-76ec-41fa-a7d5-5c1674bc5ed1"
+      "createdAt": "2026-06-17T03:04:13.531Z",
+      "prevVersionId": "7a3d56ed-0c81-4331-84e7-5a2af849c470"
     },
-    "72c2a749-525c-460b-b341-3ff132fef7a1": {
-      "id": "72c2a749-525c-460b-b341-3ff132fef7a1",
-      "recipeId": "fc76ea02-4a18-48fc-9afe-c87ef50d49b6",
-      "derivesFromVersionId": "d4a13911-d8a5-432a-ac61-382728bb9f9d",
+    "312dbff1-aa07-4ea4-964d-847b6b1f6800": {
+      "id": "312dbff1-aa07-4ea4-964d-847b6b1f6800",
+      "recipeId": "fc34751f-a1de-4fff-b32c-a6185b3cd513",
+      "derivesFromVersionId": "5a7ddb0d-b980-4292-9771-04fd4aa98287",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -13815,13 +13815,13 @@
         ],
         "caloriesPerGramProtein": 6.6
       },
-      "createdAt": "2026-06-17T02:10:05.181Z",
-      "prevVersionId": "92cecb45-9d4c-43a4-8ffc-277c7cae76fc"
+      "createdAt": "2026-06-17T03:04:13.699Z",
+      "prevVersionId": "15f5d054-7e1e-4e38-8f4d-1061adf73fc8"
     },
-    "aedf218c-c6ad-4307-9e85-62a651184223": {
-      "id": "aedf218c-c6ad-4307-9e85-62a651184223",
-      "recipeId": "fc76ea02-4a18-48fc-9afe-c87ef50d49b6",
-      "derivesFromVersionId": "d4a13911-d8a5-432a-ac61-382728bb9f9d",
+    "9f34c0f3-80d2-47c2-bfa1-3f77dc7f45fc": {
+      "id": "9f34c0f3-80d2-47c2-bfa1-3f77dc7f45fc",
+      "recipeId": "fc34751f-a1de-4fff-b32c-a6185b3cd513",
+      "derivesFromVersionId": "5a7ddb0d-b980-4292-9771-04fd4aa98287",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -14162,12 +14162,12 @@
         ],
         "caloriesPerGramProtein": 6.6
       },
-      "createdAt": "2026-06-17T02:10:05.353Z",
-      "prevVersionId": "72c2a749-525c-460b-b341-3ff132fef7a1"
+      "createdAt": "2026-06-17T03:04:13.871Z",
+      "prevVersionId": "312dbff1-aa07-4ea4-964d-847b6b1f6800"
     },
-    "6a684084-9de4-467f-a60f-87f2b641daa1": {
-      "id": "6a684084-9de4-467f-a60f-87f2b641daa1",
-      "recipeId": "cf95d5aa-e6cd-4711-8461-63bbd09d493e",
+    "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8": {
+      "id": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
+      "recipeId": "8eff6311-a072-49f6-9085-3a9ae17dd5e6",
       "name": "Crumbl Base Protein Cookie",
       "description": "The shared base cookie for the crumbl protein-cookie family — the flavor-neutral vanilla chassis every flavor derives from. Built from the tested-excellent set: Birthday Cake + Lemon dough at 1.5 scoops plus their shared cornstarch soft-crumb trick, with a lean egg white for structure. Frosting is a sub_recipe pin (defaults to the Cool-Whip vanilla protein frosting); flavors swap the pin — cream cheese for red velvet, a lemon drizzle for lemon. The 20g newcomer's heavier protein-load stays a queued experiment. Sweetener is granulated Splenda (calorically modeled, never monk fruit).",
       "tags": [
@@ -14320,7 +14320,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "aedf218c-c6ad-4307-9e85-62a651184223"
+              "subRecipeVersionId": "9f34c0f3-80d2-47c2-bfa1-3f77dc7f45fc"
             }
           }
         ],
@@ -14624,13 +14624,13 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T02:10:05.523Z",
-      "prevVersionId": "77d2d57a-b4dd-4bb1-a495-6570c42e0a22"
+      "createdAt": "2026-06-17T03:04:14.047Z",
+      "prevVersionId": "80837875-0278-4e0c-94d8-4aca7a657104"
     },
-    "82b45610-89f3-4062-955a-8e5d804dc824": {
-      "id": "82b45610-89f3-4062-955a-8e5d804dc824",
-      "recipeId": "bdc1457f-59b5-4037-b376-350916a75a96",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "bdc0b7e5-43fb-4654-aea3-5799ea9690c3": {
+      "id": "bdc0b7e5-43fb-4654-aea3-5799ea9690c3",
+      "recipeId": "b69ad54b-a32d-4e20-93ed-3ab44d689128",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Birthday Cake Protein Cookies",
       "tags": [],
       "yield": {
@@ -14781,7 +14781,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "aedf218c-c6ad-4307-9e85-62a651184223"
+              "subRecipeVersionId": "9f34c0f3-80d2-47c2-bfa1-3f77dc7f45fc"
             }
           }
         ],
@@ -15085,12 +15085,12 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T02:10:05.694Z"
+      "createdAt": "2026-06-17T03:04:14.213Z"
     },
-    "9c1f1f5a-b0d1-4da7-b3cb-a77a40f1fabd": {
-      "id": "9c1f1f5a-b0d1-4da7-b3cb-a77a40f1fabd",
-      "recipeId": "bdc1457f-59b5-4037-b376-350916a75a96",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "01fa9f20-29f2-4086-a5ac-b7e95e813130": {
+      "id": "01fa9f20-29f2-4086-a5ac-b7e95e813130",
+      "recipeId": "b69ad54b-a32d-4e20-93ed-3ab44d689128",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Birthday Cake Protein Cookies",
       "tags": [],
       "yield": {
@@ -15254,7 +15254,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "aedf218c-c6ad-4307-9e85-62a651184223"
+              "subRecipeVersionId": "9f34c0f3-80d2-47c2-bfa1-3f77dc7f45fc"
             }
           },
           {
@@ -15566,13 +15566,13 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T02:10:05.866Z",
-      "prevVersionId": "82b45610-89f3-4062-955a-8e5d804dc824"
+      "createdAt": "2026-06-17T03:04:14.386Z",
+      "prevVersionId": "bdc0b7e5-43fb-4654-aea3-5799ea9690c3"
     },
-    "f903e18b-97d7-4396-8735-044461168544": {
-      "id": "f903e18b-97d7-4396-8735-044461168544",
-      "recipeId": "bdc1457f-59b5-4037-b376-350916a75a96",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "247990b3-f492-406d-8599-b0a4d0b6585a": {
+      "id": "247990b3-f492-406d-8599-b0a4d0b6585a",
+      "recipeId": "b69ad54b-a32d-4e20-93ed-3ab44d689128",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Birthday Cake Protein Cookies",
       "tags": [],
       "yield": {
@@ -15747,7 +15747,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "aedf218c-c6ad-4307-9e85-62a651184223"
+              "subRecipeVersionId": "9f34c0f3-80d2-47c2-bfa1-3f77dc7f45fc"
             }
           },
           {
@@ -16080,13 +16080,13 @@
         ],
         "caloriesPerGramProtein": 11.38
       },
-      "createdAt": "2026-06-17T02:10:06.042Z",
-      "prevVersionId": "9c1f1f5a-b0d1-4da7-b3cb-a77a40f1fabd"
+      "createdAt": "2026-06-17T03:04:14.560Z",
+      "prevVersionId": "01fa9f20-29f2-4086-a5ac-b7e95e813130"
     },
-    "ccae76cd-bb44-4f4a-8a88-6ffa7d717520": {
-      "id": "ccae76cd-bb44-4f4a-8a88-6ffa7d717520",
-      "recipeId": "bdc1457f-59b5-4037-b376-350916a75a96",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "a0e54471-edd2-459a-88d0-a3cbd8d8129e": {
+      "id": "a0e54471-edd2-459a-88d0-a3cbd8d8129e",
+      "recipeId": "b69ad54b-a32d-4e20-93ed-3ab44d689128",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Birthday Cake Protein Cookies",
       "tags": [
         "crumbl",
@@ -16272,7 +16272,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "aedf218c-c6ad-4307-9e85-62a651184223"
+              "subRecipeVersionId": "9f34c0f3-80d2-47c2-bfa1-3f77dc7f45fc"
             }
           },
           {
@@ -16605,14 +16605,14 @@
         ],
         "caloriesPerGramProtein": 11.38
       },
-      "createdAt": "2026-06-17T02:10:06.220Z",
-      "prevVersionId": "f903e18b-97d7-4396-8735-044461168544",
+      "createdAt": "2026-06-17T03:04:14.731Z",
+      "prevVersionId": "247990b3-f492-406d-8599-b0a4d0b6585a",
       "description": "Birthday-cake flavor of the Crumbl base — base chassis + almond extract for the cake-batter note. Funfetti sprinkles are the topping (omitted here, like the source). Derived off Crumbl Base Protein Cookie so base tweaks rebase in. Untested at this base chassis (the original standalone root was rated excellent, but this version adds the base's egg white / cornstarch and standardized dough — worth a confirming bake)."
     },
-    "3af5f0f9-8a69-4595-968e-503144f4fda1": {
-      "id": "3af5f0f9-8a69-4595-968e-503144f4fda1",
-      "recipeId": "db6bbd39-7bca-4960-8699-dacd01ec50a8",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "9803704a-90df-4d2c-a4b1-ee29ff3a9394": {
+      "id": "9803704a-90df-4d2c-a4b1-ee29ff3a9394",
+      "recipeId": "e038c8f5-175e-4861-be08-92c8aa61b36c",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -16763,7 +16763,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "aedf218c-c6ad-4307-9e85-62a651184223"
+              "subRecipeVersionId": "9f34c0f3-80d2-47c2-bfa1-3f77dc7f45fc"
             }
           }
         ],
@@ -17067,12 +17067,12 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T02:10:06.393Z"
+      "createdAt": "2026-06-17T03:04:14.903Z"
     },
-    "4c7621d5-f12c-44d8-8821-f6ce536a5092": {
-      "id": "4c7621d5-f12c-44d8-8821-f6ce536a5092",
-      "recipeId": "db6bbd39-7bca-4960-8699-dacd01ec50a8",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "b9961101-b8a5-4fb0-92c6-fe6dc74afc68": {
+      "id": "b9961101-b8a5-4fb0-92c6-fe6dc74afc68",
+      "recipeId": "e038c8f5-175e-4861-be08-92c8aa61b36c",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -17236,7 +17236,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "aedf218c-c6ad-4307-9e85-62a651184223"
+              "subRecipeVersionId": "9f34c0f3-80d2-47c2-bfa1-3f77dc7f45fc"
             }
           },
           {
@@ -17548,13 +17548,13 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T02:10:06.569Z",
-      "prevVersionId": "3af5f0f9-8a69-4595-968e-503144f4fda1"
+      "createdAt": "2026-06-17T03:04:15.086Z",
+      "prevVersionId": "9803704a-90df-4d2c-a4b1-ee29ff3a9394"
     },
-    "0e317f62-c2ff-410a-8892-34a31592f579": {
-      "id": "0e317f62-c2ff-410a-8892-34a31592f579",
-      "recipeId": "db6bbd39-7bca-4960-8699-dacd01ec50a8",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "bd9656a7-c1a0-48a8-887c-84231f771b28": {
+      "id": "bd9656a7-c1a0-48a8-887c-84231f771b28",
+      "recipeId": "e038c8f5-175e-4861-be08-92c8aa61b36c",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -17729,7 +17729,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "aedf218c-c6ad-4307-9e85-62a651184223"
+              "subRecipeVersionId": "9f34c0f3-80d2-47c2-bfa1-3f77dc7f45fc"
             }
           },
           {
@@ -18062,13 +18062,13 @@
         ],
         "caloriesPerGramProtein": 11.39
       },
-      "createdAt": "2026-06-17T02:10:06.740Z",
-      "prevVersionId": "4c7621d5-f12c-44d8-8821-f6ce536a5092"
+      "createdAt": "2026-06-17T03:04:15.258Z",
+      "prevVersionId": "b9961101-b8a5-4fb0-92c6-fe6dc74afc68"
     },
-    "96d964a7-2a2c-4246-9f7d-ece845b17c89": {
-      "id": "96d964a7-2a2c-4246-9f7d-ece845b17c89",
-      "recipeId": "db6bbd39-7bca-4960-8699-dacd01ec50a8",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "e35140ac-1bc3-4cd3-bab9-4f5753f0401d": {
+      "id": "e35140ac-1bc3-4cd3-bab9-4f5753f0401d",
+      "recipeId": "e038c8f5-175e-4861-be08-92c8aa61b36c",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -18254,7 +18254,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "aedf218c-c6ad-4307-9e85-62a651184223"
+              "subRecipeVersionId": "9f34c0f3-80d2-47c2-bfa1-3f77dc7f45fc"
             }
           },
           {
@@ -18587,13 +18587,13 @@
         ],
         "caloriesPerGramProtein": 11.39
       },
-      "createdAt": "2026-06-17T02:10:06.915Z",
-      "prevVersionId": "0e317f62-c2ff-410a-8892-34a31592f579"
+      "createdAt": "2026-06-17T03:04:15.430Z",
+      "prevVersionId": "bd9656a7-c1a0-48a8-887c-84231f771b28"
     },
-    "1499c322-1ec8-4c91-ae1b-bae4af1ca1a2": {
-      "id": "1499c322-1ec8-4c91-ae1b-bae4af1ca1a2",
-      "recipeId": "db6bbd39-7bca-4960-8699-dacd01ec50a8",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "bb520fb9-8974-4ce1-8cf3-faf202fb8783": {
+      "id": "bb520fb9-8974-4ce1-8cf3-faf202fb8783",
+      "recipeId": "e038c8f5-175e-4861-be08-92c8aa61b36c",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -18784,7 +18784,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "aedf218c-c6ad-4307-9e85-62a651184223"
+              "subRecipeVersionId": "9f34c0f3-80d2-47c2-bfa1-3f77dc7f45fc"
             }
           },
           {
@@ -19097,13 +19097,13 @@
         ],
         "caloriesPerGramProtein": 12.76
       },
-      "createdAt": "2026-06-17T02:10:07.089Z",
-      "prevVersionId": "96d964a7-2a2c-4246-9f7d-ece845b17c89"
+      "createdAt": "2026-06-17T03:04:15.604Z",
+      "prevVersionId": "e35140ac-1bc3-4cd3-bab9-4f5753f0401d"
     },
-    "73f999b0-89f5-40ee-8db4-8ac4fa17f6e9": {
-      "id": "73f999b0-89f5-40ee-8db4-8ac4fa17f6e9",
-      "recipeId": "db6bbd39-7bca-4960-8699-dacd01ec50a8",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "e71f9ac2-551e-4d02-91c7-9e7610400331": {
+      "id": "e71f9ac2-551e-4d02-91c7-9e7610400331",
+      "recipeId": "e038c8f5-175e-4861-be08-92c8aa61b36c",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -19604,13 +19604,13 @@
         ],
         "caloriesPerGramProtein": 12.76
       },
-      "createdAt": "2026-06-17T02:10:07.282Z",
-      "prevVersionId": "1499c322-1ec8-4c91-ae1b-bae4af1ca1a2"
+      "createdAt": "2026-06-17T03:04:15.778Z",
+      "prevVersionId": "bb520fb9-8974-4ce1-8cf3-faf202fb8783"
     },
-    "2f54d73c-1a0e-446b-aa98-0406149c2485": {
-      "id": "2f54d73c-1a0e-446b-aa98-0406149c2485",
-      "recipeId": "db6bbd39-7bca-4960-8699-dacd01ec50a8",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "3af66164-6974-4888-89a1-98182e44f0ce": {
+      "id": "3af66164-6974-4888-89a1-98182e44f0ce",
+      "recipeId": "e038c8f5-175e-4861-be08-92c8aa61b36c",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -20131,13 +20131,13 @@
         ],
         "caloriesPerGramProtein": 12.76
       },
-      "createdAt": "2026-06-17T02:10:07.454Z",
-      "prevVersionId": "73f999b0-89f5-40ee-8db4-8ac4fa17f6e9"
+      "createdAt": "2026-06-17T03:04:15.951Z",
+      "prevVersionId": "e71f9ac2-551e-4d02-91c7-9e7610400331"
     },
-    "8b6a846d-eed6-4a75-bfa3-445a0590e5e7": {
-      "id": "8b6a846d-eed6-4a75-bfa3-445a0590e5e7",
-      "recipeId": "db6bbd39-7bca-4960-8699-dacd01ec50a8",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "2d228787-cd6e-405f-bdca-796e3cfdd6d4": {
+      "id": "2d228787-cd6e-405f-bdca-796e3cfdd6d4",
+      "recipeId": "e038c8f5-175e-4861-be08-92c8aa61b36c",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -20678,13 +20678,13 @@
         ],
         "caloriesPerGramProtein": 12.76
       },
-      "createdAt": "2026-06-17T02:10:07.631Z",
-      "prevVersionId": "2f54d73c-1a0e-446b-aa98-0406149c2485"
+      "createdAt": "2026-06-17T03:04:16.123Z",
+      "prevVersionId": "3af66164-6974-4888-89a1-98182e44f0ce"
     },
-    "dbc03c97-c271-4805-a14c-6b7c32179e3f": {
-      "id": "dbc03c97-c271-4805-a14c-6b7c32179e3f",
-      "recipeId": "db6bbd39-7bca-4960-8699-dacd01ec50a8",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "9564d1fa-ff46-41fc-93cd-564cb635c2f9": {
+      "id": "9564d1fa-ff46-41fc-93cd-564cb635c2f9",
+      "recipeId": "e038c8f5-175e-4861-be08-92c8aa61b36c",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -21257,13 +21257,13 @@
         ],
         "caloriesPerGramProtein": 12.82
       },
-      "createdAt": "2026-06-17T02:10:07.803Z",
-      "prevVersionId": "8b6a846d-eed6-4a75-bfa3-445a0590e5e7"
+      "createdAt": "2026-06-17T03:04:16.293Z",
+      "prevVersionId": "2d228787-cd6e-405f-bdca-796e3cfdd6d4"
     },
-    "fcff70f8-0b29-44cc-827e-ca7becf090cc": {
-      "id": "fcff70f8-0b29-44cc-827e-ca7becf090cc",
-      "recipeId": "db6bbd39-7bca-4960-8699-dacd01ec50a8",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "ba6f0480-978f-45e4-a321-404faf8fab36": {
+      "id": "ba6f0480-978f-45e4-a321-404faf8fab36",
+      "recipeId": "e038c8f5-175e-4861-be08-92c8aa61b36c",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -21868,13 +21868,13 @@
         ],
         "caloriesPerGramProtein": 13.53
       },
-      "createdAt": "2026-06-17T02:10:07.978Z",
-      "prevVersionId": "dbc03c97-c271-4805-a14c-6b7c32179e3f"
+      "createdAt": "2026-06-17T03:04:16.465Z",
+      "prevVersionId": "9564d1fa-ff46-41fc-93cd-564cb635c2f9"
     },
-    "a88e9a2a-036a-49d4-a670-d652dbd4540c": {
-      "id": "a88e9a2a-036a-49d4-a670-d652dbd4540c",
-      "recipeId": "db6bbd39-7bca-4960-8699-dacd01ec50a8",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "468c37fe-b760-45d3-8fe3-685bc7d441e7": {
+      "id": "468c37fe-b760-45d3-8fe3-685bc7d441e7",
+      "recipeId": "e038c8f5-175e-4861-be08-92c8aa61b36c",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Lemon Protein Cookies",
       "tags": [
         "crumbl",
@@ -22492,14 +22492,14 @@
         ],
         "caloriesPerGramProtein": 13.53
       },
-      "createdAt": "2026-06-17T02:10:08.158Z",
-      "prevVersionId": "fcff70f8-0b29-44cc-827e-ca7becf090cc",
+      "createdAt": "2026-06-17T03:04:16.641Z",
+      "prevVersionId": "ba6f0480-978f-45e4-a321-404faf8fab36",
       "description": "Lemon flavor of the Crumbl base — base chassis + lemon juice in the dough, and the base's frosting sub_recipe pin dropped in favor of a lemon drizzle (lemon juice + granulated Splenda; never monk fruit). Derived off Crumbl Base Protein Cookie. NOTE: the drizzle was rated 'bad' on the original (too weak/thin) and granulated Splenda won't glaze as smoothly as a powdered sweetener — still a redesign candidate. Untested at this base chassis."
     },
-    "405a0214-a734-4bfa-997a-bf013729fc6d": {
-      "id": "405a0214-a734-4bfa-997a-bf013729fc6d",
-      "recipeId": "62c0c49d-56d1-420d-9730-c0c566705f20",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "1b524251-1559-4fc1-aefd-3ea981ea1a7b": {
+      "id": "1b524251-1559-4fc1-aefd-3ea981ea1a7b",
+      "recipeId": "e77d1a33-7362-440a-9ff7-b9a7fe995c40",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Lucky Charms Protein Cookies",
       "tags": [],
       "yield": {
@@ -22650,7 +22650,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "aedf218c-c6ad-4307-9e85-62a651184223"
+              "subRecipeVersionId": "9f34c0f3-80d2-47c2-bfa1-3f77dc7f45fc"
             }
           }
         ],
@@ -22954,12 +22954,12 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T02:10:08.331Z"
+      "createdAt": "2026-06-17T03:04:16.815Z"
     },
-    "1b4cec95-d9c0-4992-a844-b3854cc11c0b": {
-      "id": "1b4cec95-d9c0-4992-a844-b3854cc11c0b",
-      "recipeId": "62c0c49d-56d1-420d-9730-c0c566705f20",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "ad8059f1-9c74-460a-afe8-d33a2052ca6d": {
+      "id": "ad8059f1-9c74-460a-afe8-d33a2052ca6d",
+      "recipeId": "e77d1a33-7362-440a-9ff7-b9a7fe995c40",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Lucky Charms Protein Cookies",
       "tags": [],
       "yield": {
@@ -23123,7 +23123,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "aedf218c-c6ad-4307-9e85-62a651184223"
+              "subRecipeVersionId": "9f34c0f3-80d2-47c2-bfa1-3f77dc7f45fc"
             }
           },
           {
@@ -23435,13 +23435,13 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T02:10:08.507Z",
-      "prevVersionId": "405a0214-a734-4bfa-997a-bf013729fc6d"
+      "createdAt": "2026-06-17T03:04:16.993Z",
+      "prevVersionId": "1b524251-1559-4fc1-aefd-3ea981ea1a7b"
     },
-    "35742a76-3ea9-479f-97ed-27a059f5513f": {
-      "id": "35742a76-3ea9-479f-97ed-27a059f5513f",
-      "recipeId": "62c0c49d-56d1-420d-9730-c0c566705f20",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "ab5fa7f4-ce24-4386-99b7-eece62cad98f": {
+      "id": "ab5fa7f4-ce24-4386-99b7-eece62cad98f",
+      "recipeId": "e77d1a33-7362-440a-9ff7-b9a7fe995c40",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Lucky Charms Protein Cookies",
       "tags": [],
       "yield": {
@@ -23616,7 +23616,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "aedf218c-c6ad-4307-9e85-62a651184223"
+              "subRecipeVersionId": "9f34c0f3-80d2-47c2-bfa1-3f77dc7f45fc"
             }
           },
           {
@@ -23949,13 +23949,13 @@
         ],
         "caloriesPerGramProtein": 11.37
       },
-      "createdAt": "2026-06-17T02:10:08.679Z",
-      "prevVersionId": "1b4cec95-d9c0-4992-a844-b3854cc11c0b"
+      "createdAt": "2026-06-17T03:04:17.166Z",
+      "prevVersionId": "ad8059f1-9c74-460a-afe8-d33a2052ca6d"
     },
-    "b53dd2b3-fb6c-424b-999f-0dcf75771f01": {
-      "id": "b53dd2b3-fb6c-424b-999f-0dcf75771f01",
-      "recipeId": "62c0c49d-56d1-420d-9730-c0c566705f20",
-      "derivesFromVersionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+    "bacc74d0-82e4-4330-92d8-b91a778f5964": {
+      "id": "bacc74d0-82e4-4330-92d8-b91a778f5964",
+      "recipeId": "e77d1a33-7362-440a-9ff7-b9a7fe995c40",
+      "derivesFromVersionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "name": "Lucky Charms Protein Cookies",
       "tags": [
         "crumbl",
@@ -24141,7 +24141,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "aedf218c-c6ad-4307-9e85-62a651184223"
+              "subRecipeVersionId": "9f34c0f3-80d2-47c2-bfa1-3f77dc7f45fc"
             }
           },
           {
@@ -24474,14 +24474,14 @@
         ],
         "caloriesPerGramProtein": 11.37
       },
-      "createdAt": "2026-06-17T02:10:08.856Z",
-      "prevVersionId": "35742a76-3ea9-479f-97ed-27a059f5513f",
+      "createdAt": "2026-06-17T03:04:17.342Z",
+      "prevVersionId": "ab5fa7f4-ce24-4386-99b7-eece62cad98f",
       "description": "Lucky Charms flavor of the Crumbl base — base chassis + almond extract. The Lucky Charms cereal marshmallows are the topping and are intentionally omitted (matches the source 'without the lucky charms'). NOTE: with the marshmallows omitted, this is effectively identical to Birthday Cake — the marshmallow topping is the only real differentiator, a one-line add when wanted. Derived off Crumbl Base Protein Cookie. Untested at this base chassis."
     },
-    "90e76c32-fee4-4bec-8d3e-54a45bd95bc5": {
-      "id": "90e76c32-fee4-4bec-8d3e-54a45bd95bc5",
-      "recipeId": "a6d00286-3317-494e-9d3d-ade6cae237ae",
-      "derivesFromVersionId": "e1e9485a-3e38-4883-976b-d9c5e755f9c3",
+    "65d3e83f-d3a8-4147-9aa0-67451341908e": {
+      "id": "65d3e83f-d3a8-4147-9aa0-67451341908e",
+      "recipeId": "6cdfe7e3-0aa6-41a9-bd65-c6cc6e9f4387",
+      "derivesFromVersionId": "1a6ac19f-7753-4943-9fb0-0d58bbf817d9",
       "name": "Browned-Butter Protein Cookies (Soft-Chewy)",
       "tags": [],
       "yield": {
@@ -24925,12 +24925,12 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T02:10:09.031Z"
+      "createdAt": "2026-06-17T03:04:17.518Z"
     },
-    "548f5dac-1413-47dd-8917-30449fcbec67": {
-      "id": "548f5dac-1413-47dd-8917-30449fcbec67",
-      "recipeId": "a6d00286-3317-494e-9d3d-ade6cae237ae",
-      "derivesFromVersionId": "e1e9485a-3e38-4883-976b-d9c5e755f9c3",
+    "1f6f7ae2-7958-43ca-88f9-269d0d2b97aa": {
+      "id": "1f6f7ae2-7958-43ca-88f9-269d0d2b97aa",
+      "recipeId": "6cdfe7e3-0aa6-41a9-bd65-c6cc6e9f4387",
+      "derivesFromVersionId": "1a6ac19f-7753-4943-9fb0-0d58bbf817d9",
       "name": "Browned-Butter Protein Cookies (Soft-Chewy)",
       "tags": [],
       "yield": {
@@ -25386,13 +25386,13 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T02:10:09.212Z",
-      "prevVersionId": "90e76c32-fee4-4bec-8d3e-54a45bd95bc5"
+      "createdAt": "2026-06-17T03:04:17.696Z",
+      "prevVersionId": "65d3e83f-d3a8-4147-9aa0-67451341908e"
     },
-    "a834a9bc-2f65-46bf-a2ea-a01660fb6e66": {
-      "id": "a834a9bc-2f65-46bf-a2ea-a01660fb6e66",
-      "recipeId": "a6d00286-3317-494e-9d3d-ade6cae237ae",
-      "derivesFromVersionId": "e1e9485a-3e38-4883-976b-d9c5e755f9c3",
+    "7b851207-ddbc-4717-a41d-9f7a1fbdd3da": {
+      "id": "7b851207-ddbc-4717-a41d-9f7a1fbdd3da",
+      "recipeId": "6cdfe7e3-0aa6-41a9-bd65-c6cc6e9f4387",
+      "derivesFromVersionId": "1a6ac19f-7753-4943-9fb0-0d58bbf817d9",
       "name": "Browned-Butter Protein Cookies (Soft-Chewy)",
       "tags": [],
       "yield": {
@@ -25859,13 +25859,13 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T02:10:09.391Z",
-      "prevVersionId": "548f5dac-1413-47dd-8917-30449fcbec67"
+      "createdAt": "2026-06-17T03:04:17.870Z",
+      "prevVersionId": "1f6f7ae2-7958-43ca-88f9-269d0d2b97aa"
     },
-    "7a5cc7d3-3ac1-4c00-8986-cc68325e09a8": {
-      "id": "7a5cc7d3-3ac1-4c00-8986-cc68325e09a8",
-      "recipeId": "a6d00286-3317-494e-9d3d-ade6cae237ae",
-      "derivesFromVersionId": "e1e9485a-3e38-4883-976b-d9c5e755f9c3",
+    "2ed4bddb-b038-478b-b13c-b59051b52121": {
+      "id": "2ed4bddb-b038-478b-b13c-b59051b52121",
+      "recipeId": "6cdfe7e3-0aa6-41a9-bd65-c6cc6e9f4387",
+      "derivesFromVersionId": "1a6ac19f-7753-4943-9fb0-0d58bbf817d9",
       "name": "Browned-Butter Protein Cookies (Soft-Chewy)",
       "tags": [],
       "yield": {
@@ -26344,13 +26344,13 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T02:10:09.566Z",
-      "prevVersionId": "a834a9bc-2f65-46bf-a2ea-a01660fb6e66"
+      "createdAt": "2026-06-17T03:04:18.046Z",
+      "prevVersionId": "7b851207-ddbc-4717-a41d-9f7a1fbdd3da"
     },
-    "b9735ba5-7c74-4df0-bdee-0a5dc7b20c58": {
-      "id": "b9735ba5-7c74-4df0-bdee-0a5dc7b20c58",
-      "recipeId": "a6d00286-3317-494e-9d3d-ade6cae237ae",
-      "derivesFromVersionId": "e1e9485a-3e38-4883-976b-d9c5e755f9c3",
+    "53c407e1-9001-4ee0-9660-6d4bf8b9dbc9": {
+      "id": "53c407e1-9001-4ee0-9660-6d4bf8b9dbc9",
+      "recipeId": "6cdfe7e3-0aa6-41a9-bd65-c6cc6e9f4387",
+      "derivesFromVersionId": "1a6ac19f-7753-4943-9fb0-0d58bbf817d9",
       "name": "Browned-Butter Protein Cookies (Soft-Chewy)",
       "tags": [
         "cookie",
@@ -26842,14 +26842,14 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T02:10:09.741Z",
-      "prevVersionId": "7a5cc7d3-3ac1-4c00-8986-cc68325e09a8",
+      "createdAt": "2026-06-17T03:04:18.219Z",
+      "prevVersionId": "2ed4bddb-b038-478b-b13c-b59051b52121",
       "description": "VERSION B - Even & Soft-Chewy: soft and chewy edge to edge, the same texture throughout with no raw-dough center. A pure-procedure variant of the gooey base - identical dough, ingredients, and macros; only the bake (steps 4-6) differs. Flattening the cookie and lowering the oven temp both shrink the edge-vs-center cook gap, so the whole cookie finishes together. Spreads a little more, no molten center."
     },
-    "cadb68e9-312b-438d-b143-4aa7dd4a39d8": {
-      "id": "cadb68e9-312b-438d-b143-4aa7dd4a39d8",
-      "recipeId": "573cc098-ed7f-4fcd-b298-29936d711cfa",
-      "derivesFromVersionId": "e1e9485a-3e38-4883-976b-d9c5e755f9c3",
+    "277af966-d8a0-4b89-86d1-3f03a3bc0dd8": {
+      "id": "277af966-d8a0-4b89-86d1-3f03a3bc0dd8",
+      "recipeId": "1c221f81-dce5-4f88-9d0e-7323123433cd",
+      "derivesFromVersionId": "1a6ac19f-7753-4943-9fb0-0d58bbf817d9",
       "name": "Browned-Butter Protein Cookies (50g protein)",
       "tags": [],
       "yield": {
@@ -27293,12 +27293,12 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T02:10:09.918Z"
+      "createdAt": "2026-06-17T03:04:18.394Z"
     },
-    "db1c509e-c665-4e1d-9e8d-a20c9943a09f": {
-      "id": "db1c509e-c665-4e1d-9e8d-a20c9943a09f",
-      "recipeId": "573cc098-ed7f-4fcd-b298-29936d711cfa",
-      "derivesFromVersionId": "e1e9485a-3e38-4883-976b-d9c5e755f9c3",
+    "e61162c1-4bad-4683-808c-dd0c12d1129e": {
+      "id": "e61162c1-4bad-4683-808c-dd0c12d1129e",
+      "recipeId": "1c221f81-dce5-4f88-9d0e-7323123433cd",
+      "derivesFromVersionId": "1a6ac19f-7753-4943-9fb0-0d58bbf817d9",
       "name": "Browned-Butter Protein Cookies (50g protein)",
       "tags": [],
       "yield": {
@@ -27755,13 +27755,13 @@
         ],
         "caloriesPerGramProtein": 12.47
       },
-      "createdAt": "2026-06-17T02:10:10.097Z",
-      "prevVersionId": "cadb68e9-312b-438d-b143-4aa7dd4a39d8"
+      "createdAt": "2026-06-17T03:04:18.573Z",
+      "prevVersionId": "277af966-d8a0-4b89-86d1-3f03a3bc0dd8"
     },
-    "6c79860c-9d0e-415d-93c6-4ca7ba07cd7e": {
-      "id": "6c79860c-9d0e-415d-93c6-4ca7ba07cd7e",
-      "recipeId": "573cc098-ed7f-4fcd-b298-29936d711cfa",
-      "derivesFromVersionId": "e1e9485a-3e38-4883-976b-d9c5e755f9c3",
+    "92cadf2d-8173-408b-8b64-56e26d358047": {
+      "id": "92cadf2d-8173-408b-8b64-56e26d358047",
+      "recipeId": "1c221f81-dce5-4f88-9d0e-7323123433cd",
+      "derivesFromVersionId": "1a6ac19f-7753-4943-9fb0-0d58bbf817d9",
       "name": "Browned-Butter Protein Cookies (50g protein)",
       "tags": [
         "cookie",
@@ -28231,13 +28231,13 @@
         ],
         "caloriesPerGramProtein": 12.47
       },
-      "createdAt": "2026-06-17T02:10:10.274Z",
-      "prevVersionId": "db1c509e-c665-4e1d-9e8d-a20c9943a09f"
+      "createdAt": "2026-06-17T03:04:18.751Z",
+      "prevVersionId": "e61162c1-4bad-4683-808c-dd0c12d1129e"
     },
-    "5d62dc5d-66e3-44b6-a6bb-87a2775c8ccd": {
-      "id": "5d62dc5d-66e3-44b6-a6bb-87a2775c8ccd",
-      "recipeId": "dcfca38a-632d-465e-b36a-e91917986c71",
-      "derivesFromVersionId": "e1e9485a-3e38-4883-976b-d9c5e755f9c3",
+    "33009803-85b9-4c95-bea6-7a8f3ebd0a73": {
+      "id": "33009803-85b9-4c95-bea6-7a8f3ebd0a73",
+      "recipeId": "01164a30-881a-4f58-b09a-adefa5d466e1",
+      "derivesFromVersionId": "1a6ac19f-7753-4943-9fb0-0d58bbf817d9",
       "name": "Browned-Butter Protein Cookies (60g protein)",
       "tags": [],
       "yield": {
@@ -28681,12 +28681,12 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T02:10:10.452Z"
+      "createdAt": "2026-06-17T03:04:18.926Z"
     },
-    "b679c0f6-a057-4785-a9ab-4f6591e5acf6": {
-      "id": "b679c0f6-a057-4785-a9ab-4f6591e5acf6",
-      "recipeId": "dcfca38a-632d-465e-b36a-e91917986c71",
-      "derivesFromVersionId": "e1e9485a-3e38-4883-976b-d9c5e755f9c3",
+    "8b2b36c1-2d5c-4ac6-9f5f-a673533ed557": {
+      "id": "8b2b36c1-2d5c-4ac6-9f5f-a673533ed557",
+      "recipeId": "01164a30-881a-4f58-b09a-adefa5d466e1",
+      "derivesFromVersionId": "1a6ac19f-7753-4943-9fb0-0d58bbf817d9",
       "name": "Browned-Butter Protein Cookies (60g protein)",
       "tags": [],
       "yield": {
@@ -29143,13 +29143,13 @@
         ],
         "caloriesPerGramProtein": 11.46
       },
-      "createdAt": "2026-06-17T02:10:10.636Z",
-      "prevVersionId": "5d62dc5d-66e3-44b6-a6bb-87a2775c8ccd"
+      "createdAt": "2026-06-17T03:04:19.107Z",
+      "prevVersionId": "33009803-85b9-4c95-bea6-7a8f3ebd0a73"
     },
-    "241c641d-761f-4857-9b02-97ed7c3c4094": {
-      "id": "241c641d-761f-4857-9b02-97ed7c3c4094",
-      "recipeId": "dcfca38a-632d-465e-b36a-e91917986c71",
-      "derivesFromVersionId": "e1e9485a-3e38-4883-976b-d9c5e755f9c3",
+    "a9d895c2-c9fa-4390-a217-46f7cdbee4e6": {
+      "id": "a9d895c2-c9fa-4390-a217-46f7cdbee4e6",
+      "recipeId": "01164a30-881a-4f58-b09a-adefa5d466e1",
+      "derivesFromVersionId": "1a6ac19f-7753-4943-9fb0-0d58bbf817d9",
       "name": "Browned-Butter Protein Cookies (60g protein)",
       "tags": [
         "cookie",
@@ -29619,12 +29619,12 @@
         ],
         "caloriesPerGramProtein": 11.46
       },
-      "createdAt": "2026-06-17T02:10:10.812Z",
-      "prevVersionId": "b679c0f6-a057-4785-a9ab-4f6591e5acf6"
+      "createdAt": "2026-06-17T03:04:19.287Z",
+      "prevVersionId": "8b2b36c1-2d5c-4ac6-9f5f-a673533ed557"
     },
-    "585405fc-cecc-4e84-bcbc-24d3793b30ab": {
-      "id": "585405fc-cecc-4e84-bcbc-24d3793b30ab",
-      "recipeId": "82787b74-d076-4fa3-a6f1-79339a7d7692",
+    "9aff1c65-33fd-4ccf-bfa5-038ed67cd3de": {
+      "id": "9aff1c65-33fd-4ccf-bfa5-038ed67cd3de",
+      "recipeId": "2747dff8-daed-4a55-9f45-85fea0ea4a8f",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -30246,12 +30246,12 @@
         ],
         "caloriesPerGramProtein": 10.74
       },
-      "createdAt": "2026-06-17T02:10:10.990Z",
-      "prevVersionId": "8321d3e5-e714-4304-9b7f-59721c2b89f9"
+      "createdAt": "2026-06-17T03:04:19.463Z",
+      "prevVersionId": "61e41346-1e00-4685-ac72-e1f7797d2f77"
     },
-    "1a3aaaa9-5ec3-48f0-bd18-1e7250e0b42b": {
-      "id": "1a3aaaa9-5ec3-48f0-bd18-1e7250e0b42b",
-      "recipeId": "82787b74-d076-4fa3-a6f1-79339a7d7692",
+    "63493f6a-ad86-479f-907f-29f905d571a9": {
+      "id": "63493f6a-ad86-479f-907f-29f905d571a9",
+      "recipeId": "2747dff8-daed-4a55-9f45-85fea0ea4a8f",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -30852,12 +30852,12 @@
         ],
         "caloriesPerGramProtein": 9.48
       },
-      "createdAt": "2026-06-17T02:10:11.169Z",
-      "prevVersionId": "585405fc-cecc-4e84-bcbc-24d3793b30ab"
+      "createdAt": "2026-06-17T03:04:19.640Z",
+      "prevVersionId": "9aff1c65-33fd-4ccf-bfa5-038ed67cd3de"
     },
-    "2e1b39d4-2c26-4a26-b9bb-c5ebad3490a6": {
-      "id": "2e1b39d4-2c26-4a26-b9bb-c5ebad3490a6",
-      "recipeId": "82787b74-d076-4fa3-a6f1-79339a7d7692",
+    "0d098d93-6b0c-47aa-a752-33d2433d8437": {
+      "id": "0d098d93-6b0c-47aa-a752-33d2433d8437",
+      "recipeId": "2747dff8-daed-4a55-9f45-85fea0ea4a8f",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -31437,12 +31437,12 @@
         ],
         "caloriesPerGramProtein": 10.65
       },
-      "createdAt": "2026-06-17T02:10:11.348Z",
-      "prevVersionId": "1a3aaaa9-5ec3-48f0-bd18-1e7250e0b42b"
+      "createdAt": "2026-06-17T03:04:19.818Z",
+      "prevVersionId": "63493f6a-ad86-479f-907f-29f905d571a9"
     },
-    "41d83505-cf6c-464f-9d75-2c7507f4ad42": {
-      "id": "41d83505-cf6c-464f-9d75-2c7507f4ad42",
-      "recipeId": "82787b74-d076-4fa3-a6f1-79339a7d7692",
+    "f397d3a0-1c80-4c3a-96b6-153ca42a37df": {
+      "id": "f397d3a0-1c80-4c3a-96b6-153ca42a37df",
+      "recipeId": "2747dff8-daed-4a55-9f45-85fea0ea4a8f",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -32001,12 +32001,12 @@
         ],
         "caloriesPerGramProtein": 10.23
       },
-      "createdAt": "2026-06-17T02:10:11.529Z",
-      "prevVersionId": "2e1b39d4-2c26-4a26-b9bb-c5ebad3490a6"
+      "createdAt": "2026-06-17T03:04:19.997Z",
+      "prevVersionId": "0d098d93-6b0c-47aa-a752-33d2433d8437"
     },
-    "f9b55884-6a2c-4069-90ef-85e354790134": {
-      "id": "f9b55884-6a2c-4069-90ef-85e354790134",
-      "recipeId": "82787b74-d076-4fa3-a6f1-79339a7d7692",
+    "aabf10a9-5765-473b-84e1-4073dde81a9d": {
+      "id": "aabf10a9-5765-473b-84e1-4073dde81a9d",
+      "recipeId": "2747dff8-daed-4a55-9f45-85fea0ea4a8f",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -32544,12 +32544,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T02:10:11.706Z",
-      "prevVersionId": "41d83505-cf6c-464f-9d75-2c7507f4ad42"
+      "createdAt": "2026-06-17T03:04:20.175Z",
+      "prevVersionId": "f397d3a0-1c80-4c3a-96b6-153ca42a37df"
     },
-    "22a4ac67-eb2e-4ebf-9598-d893682544d5": {
-      "id": "22a4ac67-eb2e-4ebf-9598-d893682544d5",
-      "recipeId": "82787b74-d076-4fa3-a6f1-79339a7d7692",
+    "1cb679d5-65ad-45ed-bfb6-0c06c08b3155": {
+      "id": "1cb679d5-65ad-45ed-bfb6-0c06c08b3155",
+      "recipeId": "2747dff8-daed-4a55-9f45-85fea0ea4a8f",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -33079,12 +33079,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T02:10:11.887Z",
-      "prevVersionId": "f9b55884-6a2c-4069-90ef-85e354790134"
+      "createdAt": "2026-06-17T03:04:20.349Z",
+      "prevVersionId": "aabf10a9-5765-473b-84e1-4073dde81a9d"
     },
-    "3fcf428a-8e36-4cc0-a10f-b7d525035a9d": {
-      "id": "3fcf428a-8e36-4cc0-a10f-b7d525035a9d",
-      "recipeId": "82787b74-d076-4fa3-a6f1-79339a7d7692",
+    "aff6b8bb-5eb3-47a4-b717-935e231eaf56": {
+      "id": "aff6b8bb-5eb3-47a4-b717-935e231eaf56",
+      "recipeId": "2747dff8-daed-4a55-9f45-85fea0ea4a8f",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -33606,12 +33606,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T02:10:12.064Z",
-      "prevVersionId": "22a4ac67-eb2e-4ebf-9598-d893682544d5"
+      "createdAt": "2026-06-17T03:04:20.527Z",
+      "prevVersionId": "1cb679d5-65ad-45ed-bfb6-0c06c08b3155"
     },
-    "79e73ed4-292d-4915-b13d-0404eb788339": {
-      "id": "79e73ed4-292d-4915-b13d-0404eb788339",
-      "recipeId": "82787b74-d076-4fa3-a6f1-79339a7d7692",
+    "5e003788-d23a-4f3c-bf6f-3e4916ea7f9d": {
+      "id": "5e003788-d23a-4f3c-bf6f-3e4916ea7f9d",
+      "recipeId": "2747dff8-daed-4a55-9f45-85fea0ea4a8f",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -34125,12 +34125,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T02:10:12.241Z",
-      "prevVersionId": "3fcf428a-8e36-4cc0-a10f-b7d525035a9d"
+      "createdAt": "2026-06-17T03:04:20.706Z",
+      "prevVersionId": "aff6b8bb-5eb3-47a4-b717-935e231eaf56"
     },
-    "087bd8b6-aaf6-4d40-a244-bd49cd4d4a5b": {
-      "id": "087bd8b6-aaf6-4d40-a244-bd49cd4d4a5b",
-      "recipeId": "82787b74-d076-4fa3-a6f1-79339a7d7692",
+    "e2130bc5-4045-4cb6-91b8-615f93e7c98b": {
+      "id": "e2130bc5-4045-4cb6-91b8-615f93e7c98b",
+      "recipeId": "2747dff8-daed-4a55-9f45-85fea0ea4a8f",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -34636,12 +34636,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T02:10:12.420Z",
-      "prevVersionId": "79e73ed4-292d-4915-b13d-0404eb788339"
+      "createdAt": "2026-06-17T03:04:20.887Z",
+      "prevVersionId": "5e003788-d23a-4f3c-bf6f-3e4916ea7f9d"
     },
-    "938d9d96-e61d-4a4f-b194-6892bdab3e55": {
-      "id": "938d9d96-e61d-4a4f-b194-6892bdab3e55",
-      "recipeId": "82787b74-d076-4fa3-a6f1-79339a7d7692",
+    "214fc176-b527-4675-b596-9a23ea6959d8": {
+      "id": "214fc176-b527-4675-b596-9a23ea6959d8",
+      "recipeId": "2747dff8-daed-4a55-9f45-85fea0ea4a8f",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -35139,12 +35139,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T02:10:12.601Z",
-      "prevVersionId": "087bd8b6-aaf6-4d40-a244-bd49cd4d4a5b"
+      "createdAt": "2026-06-17T03:04:21.071Z",
+      "prevVersionId": "e2130bc5-4045-4cb6-91b8-615f93e7c98b"
     },
-    "0dc97324-703f-47c4-843f-cb311486198a": {
-      "id": "0dc97324-703f-47c4-843f-cb311486198a",
-      "recipeId": "82787b74-d076-4fa3-a6f1-79339a7d7692",
+    "f42dee04-4650-4b09-ba38-f149882104ca": {
+      "id": "f42dee04-4650-4b09-ba38-f149882104ca",
+      "recipeId": "2747dff8-daed-4a55-9f45-85fea0ea4a8f",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -35642,12 +35642,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T02:10:12.779Z",
-      "prevVersionId": "938d9d96-e61d-4a4f-b194-6892bdab3e55"
+      "createdAt": "2026-06-17T03:04:21.254Z",
+      "prevVersionId": "214fc176-b527-4675-b596-9a23ea6959d8"
     },
-    "cc1c1ed3-eb8f-4503-b3e5-adebda895aef": {
-      "id": "cc1c1ed3-eb8f-4503-b3e5-adebda895aef",
-      "recipeId": "82787b74-d076-4fa3-a6f1-79339a7d7692",
+    "53566827-5490-4ec2-8a52-09f5fc4f723e": {
+      "id": "53566827-5490-4ec2-8a52-09f5fc4f723e",
+      "recipeId": "2747dff8-daed-4a55-9f45-85fea0ea4a8f",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -35827,7 +35827,7 @@
             "name": "protein cream-cheese frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "d4a13911-d8a5-432a-ac61-382728bb9f9d"
+              "subRecipeVersionId": "5a7ddb0d-b980-4292-9771-04fd4aa98287"
             }
           }
         ],
@@ -36153,12 +36153,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T02:10:12.959Z",
-      "prevVersionId": "0dc97324-703f-47c4-843f-cb311486198a"
+      "createdAt": "2026-06-17T03:04:21.434Z",
+      "prevVersionId": "f42dee04-4650-4b09-ba38-f149882104ca"
     },
-    "92ef3e33-c67b-484d-9fd0-1dc3e91e2a79": {
-      "id": "92ef3e33-c67b-484d-9fd0-1dc3e91e2a79",
-      "recipeId": "82787b74-d076-4fa3-a6f1-79339a7d7692",
+    "1f0ad6de-f45c-4476-8786-bd8a781f18fe": {
+      "id": "1f0ad6de-f45c-4476-8786-bd8a781f18fe",
+      "recipeId": "2747dff8-daed-4a55-9f45-85fea0ea4a8f",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -36338,7 +36338,7 @@
             "name": "protein cream-cheese frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "d4a13911-d8a5-432a-ac61-382728bb9f9d"
+              "subRecipeVersionId": "5a7ddb0d-b980-4292-9771-04fd4aa98287"
             }
           }
         ],
@@ -36684,12 +36684,12 @@
         ],
         "caloriesPerGramProtein": 9.8
       },
-      "createdAt": "2026-06-17T02:10:13.141Z",
-      "prevVersionId": "cc1c1ed3-eb8f-4503-b3e5-adebda895aef"
+      "createdAt": "2026-06-17T03:04:21.615Z",
+      "prevVersionId": "53566827-5490-4ec2-8a52-09f5fc4f723e"
     },
-    "71a48b7f-5512-4aea-8b5e-a1dacc24617b": {
-      "id": "71a48b7f-5512-4aea-8b5e-a1dacc24617b",
-      "recipeId": "a52f2d4a-96c7-4d99-9ae7-e276c5e06e48",
+    "3e879d69-131f-46c6-8d7e-8061da7f92fe": {
+      "id": "3e879d69-131f-46c6-8d7e-8061da7f92fe",
+      "recipeId": "49351700-c1b5-4da2-bbba-458a08ac9db7",
       "name": "Turtle Protein Caramel Swirl",
       "description": "Protein caramel for marbling into the turtle cheesecake filling — 0% Greek yogurt + butterscotch SF pudding (the caramel note) + granulated Splenda, salted. Thick and spoonable; it lives hidden in the swirl, so it carries protein, not gloss. Sub-recipe (1 batch ~= 99 cal / 12.6 P).",
       "tags": [
@@ -36889,11 +36889,11 @@
         ],
         "caloriesPerGramProtein": 7.89
       },
-      "createdAt": "2026-06-17T02:10:13.503Z"
+      "createdAt": "2026-06-17T03:04:21.972Z"
     },
-    "69b54fae-702e-4fdf-9437-30d0f1f25ace": {
-      "id": "69b54fae-702e-4fdf-9437-30d0f1f25ace",
-      "recipeId": "179d0712-e3ab-490e-a46a-9d1778c71143",
+    "27d84ce5-493c-40c6-b034-22728333629d": {
+      "id": "27d84ce5-493c-40c6-b034-22728333629d",
+      "recipeId": "8c12f38d-9ef1-4134-bf0b-e64e5a40d2f9",
       "name": "Turtle Real Brown-Sugar Caramel",
       "description": "The real, glossy caramel for the top — brown sugar cooked with a little butter and thinned with almond milk, salted. Genuine caramelized-sugar flavor and drizzle (you can't caramelize Splenda), kept deliberately small: ~121 cal for the whole cake, the one honest-sugar indulgence. Sub-recipe (1 batch).",
       "tags": [
@@ -37064,11 +37064,11 @@
         ],
         "caloriesPerGramProtein": 970.42
       },
-      "createdAt": "2026-06-17T02:10:13.863Z"
+      "createdAt": "2026-06-17T03:04:22.323Z"
     },
-    "81fa4c6e-1bf5-495f-a569-57bd840bd28e": {
-      "id": "81fa4c6e-1bf5-495f-a569-57bd840bd28e",
-      "recipeId": "10528984-8dc7-486b-bcf2-76b48ec55d7c",
+    "43c3c301-7bf2-4d81-8814-d5bf461641a8": {
+      "id": "43c3c301-7bf2-4d81-8814-d5bf461641a8",
+      "recipeId": "9a18e4d2-cf4a-407b-8123-546af3e5923a",
       "name": "Turtle Dark-Chocolate Ganache",
       "description": "Chocolate drizzle for the top — unsweetened baking chocolate melted with granulated Splenda and thinned with warm almond milk. Real cocoa-butter mouthfeel that cocoa powder can't fake; kept to a thin drizzle so the fat stays small (~98 cal for the whole cake). Sub-recipe (1 batch).",
       "tags": [
@@ -37240,12 +37240,12 @@
         ],
         "caloriesPerGramProtein": 48.08
       },
-      "createdAt": "2026-06-17T02:10:14.222Z"
+      "createdAt": "2026-06-17T03:04:22.670Z"
     },
-    "d03a02ce-49bd-4c28-89be-58d1c4d73c50": {
-      "id": "d03a02ce-49bd-4c28-89be-58d1c4d73c50",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "8c570673-a3d5-4ae5-adb9-d9d5e417ec68": {
+      "id": "8c570673-a3d5-4ae5-adb9-d9d5e417ec68",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -37438,7 +37438,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -37487,16 +37487,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1017.58,
+          "calories": 1035.5,
           "protein": 114.19,
-          "carbs": 54.16,
+          "carbs": 58.64,
           "fat": 35.16,
           "fiber": 5.68
         },
         "perServing": {
-          "calories": 127.2,
+          "calories": 129.44,
           "protein": 14.27,
-          "carbs": 6.77,
+          "carbs": 7.33,
           "fat": 4.4,
           "fiber": 0.71
         },
@@ -37581,11 +37581,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -37676,14 +37676,14 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 8.91
+        "caloriesPerGramProtein": 9.07
       },
-      "createdAt": "2026-06-17T02:10:14.577Z"
+      "createdAt": "2026-06-17T03:04:23.030Z"
     },
-    "02bb97d9-19e3-4b01-9985-a61a1c404156": {
-      "id": "02bb97d9-19e3-4b01-9985-a61a1c404156",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "4d08548d-0765-4a94-a608-4e9563112562": {
+      "id": "4d08548d-0765-4a94-a608-4e9563112562",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -37889,7 +37889,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -37938,16 +37938,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1084.58,
+          "calories": 1102.5,
           "protein": 128.21,
-          "carbs": 55.15,
+          "carbs": 59.63,
           "fat": 35.66,
           "fiber": 5.68
         },
         "perServing": {
-          "calories": 135.57,
+          "calories": 137.81,
           "protein": 16.03,
-          "carbs": 6.89,
+          "carbs": 7.45,
           "fat": 4.46,
           "fiber": 0.71
         },
@@ -38032,11 +38032,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -38127,15 +38127,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 8.46
+        "caloriesPerGramProtein": 8.6
       },
-      "createdAt": "2026-06-17T02:10:14.761Z",
-      "prevVersionId": "d03a02ce-49bd-4c28-89be-58d1c4d73c50"
+      "createdAt": "2026-06-17T03:04:23.217Z",
+      "prevVersionId": "8c570673-a3d5-4ae5-adb9-d9d5e417ec68"
     },
-    "4426ce36-adaf-4381-8282-ef42c94474fb": {
-      "id": "4426ce36-adaf-4381-8282-ef42c94474fb",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "00dc6629-3622-407e-9b5f-8e222d4ab629": {
+      "id": "00dc6629-3622-407e-9b5f-8e222d4ab629",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -38357,7 +38357,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -38406,16 +38406,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1084.58,
+          "calories": 1102.5,
           "protein": 128.21,
-          "carbs": 55.15,
+          "carbs": 59.63,
           "fat": 35.66,
           "fiber": 5.68
         },
         "perServing": {
-          "calories": 135.57,
+          "calories": 137.81,
           "protein": 16.03,
-          "carbs": 6.89,
+          "carbs": 7.45,
           "fat": 4.46,
           "fiber": 0.71
         },
@@ -38500,11 +38500,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -38595,15 +38595,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 8.46
+        "caloriesPerGramProtein": 8.6
       },
-      "createdAt": "2026-06-17T02:10:14.952Z",
-      "prevVersionId": "02bb97d9-19e3-4b01-9985-a61a1c404156"
+      "createdAt": "2026-06-17T03:04:23.399Z",
+      "prevVersionId": "4d08548d-0765-4a94-a608-4e9563112562"
     },
-    "13dda109-86a5-4235-a2ef-fa14d0d947e6": {
-      "id": "13dda109-86a5-4235-a2ef-fa14d0d947e6",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "348f86cc-5ee6-4b50-8d54-ca7a3d6f51f0": {
+      "id": "348f86cc-5ee6-4b50-8d54-ca7a3d6f51f0",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -38845,7 +38845,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -38894,16 +38894,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1084.58,
+          "calories": 1102.5,
           "protein": 128.21,
-          "carbs": 55.15,
+          "carbs": 59.63,
           "fat": 35.66,
           "fiber": 5.68
         },
         "perServing": {
-          "calories": 135.57,
+          "calories": 137.81,
           "protein": 16.03,
-          "carbs": 6.89,
+          "carbs": 7.45,
           "fat": 4.46,
           "fiber": 0.71
         },
@@ -38988,11 +38988,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -39083,15 +39083,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 8.46
+        "caloriesPerGramProtein": 8.6
       },
-      "createdAt": "2026-06-17T02:10:15.141Z",
-      "prevVersionId": "4426ce36-adaf-4381-8282-ef42c94474fb"
+      "createdAt": "2026-06-17T03:04:23.583Z",
+      "prevVersionId": "00dc6629-3622-407e-9b5f-8e222d4ab629"
     },
-    "6f296d1c-2f66-4a5b-bb77-dd35891e9355": {
-      "id": "6f296d1c-2f66-4a5b-bb77-dd35891e9355",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "c246576d-aef7-4a38-bd4b-10e0f08c2e34": {
+      "id": "c246576d-aef7-4a38-bd4b-10e0f08c2e34",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -39353,7 +39353,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -39402,16 +39402,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1084.58,
+          "calories": 1102.5,
           "protein": 128.21,
-          "carbs": 55.15,
+          "carbs": 59.63,
           "fat": 35.66,
           "fiber": 5.68
         },
         "perServing": {
-          "calories": 135.57,
+          "calories": 137.81,
           "protein": 16.03,
-          "carbs": 6.89,
+          "carbs": 7.45,
           "fat": 4.46,
           "fiber": 0.71
         },
@@ -39496,11 +39496,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -39591,15 +39591,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 8.46
+        "caloriesPerGramProtein": 8.6
       },
-      "createdAt": "2026-06-17T02:10:15.326Z",
-      "prevVersionId": "13dda109-86a5-4235-a2ef-fa14d0d947e6"
+      "createdAt": "2026-06-17T03:04:23.765Z",
+      "prevVersionId": "348f86cc-5ee6-4b50-8d54-ca7a3d6f51f0"
     },
-    "61737ed9-6e76-46ea-a6da-337a62ed6c38": {
-      "id": "61737ed9-6e76-46ea-a6da-337a62ed6c38",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "fe19f13e-e4f8-4eb1-bc7f-a6ba8c8045dd": {
+      "id": "fe19f13e-e4f8-4eb1-bc7f-a6ba8c8045dd",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -39881,7 +39881,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -39930,16 +39930,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1084.58,
+          "calories": 1102.5,
           "protein": 128.21,
-          "carbs": 55.15,
+          "carbs": 59.63,
           "fat": 35.66,
           "fiber": 5.68
         },
         "perServing": {
-          "calories": 135.57,
+          "calories": 137.81,
           "protein": 16.03,
-          "carbs": 6.89,
+          "carbs": 7.45,
           "fat": 4.46,
           "fiber": 0.71
         },
@@ -40024,11 +40024,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -40119,15 +40119,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 8.46
+        "caloriesPerGramProtein": 8.6
       },
-      "createdAt": "2026-06-17T02:10:15.513Z",
-      "prevVersionId": "6f296d1c-2f66-4a5b-bb77-dd35891e9355"
+      "createdAt": "2026-06-17T03:04:23.949Z",
+      "prevVersionId": "c246576d-aef7-4a38-bd4b-10e0f08c2e34"
     },
-    "cef6352e-ff5e-4400-a8b8-92e9f513d0bb": {
-      "id": "cef6352e-ff5e-4400-a8b8-92e9f513d0bb",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "74ec96d6-57dc-4b31-96b9-6a74608ed10d": {
+      "id": "74ec96d6-57dc-4b31-96b9-6a74608ed10d",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -40429,7 +40429,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -40478,16 +40478,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1084.58,
+          "calories": 1102.5,
           "protein": 128.21,
-          "carbs": 55.15,
+          "carbs": 59.63,
           "fat": 35.66,
           "fiber": 5.68
         },
         "perServing": {
-          "calories": 135.57,
+          "calories": 137.81,
           "protein": 16.03,
-          "carbs": 6.89,
+          "carbs": 7.45,
           "fat": 4.46,
           "fiber": 0.71
         },
@@ -40572,11 +40572,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -40667,15 +40667,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 8.46
+        "caloriesPerGramProtein": 8.6
       },
-      "createdAt": "2026-06-17T02:10:15.696Z",
-      "prevVersionId": "61737ed9-6e76-46ea-a6da-337a62ed6c38"
+      "createdAt": "2026-06-17T03:04:24.135Z",
+      "prevVersionId": "fe19f13e-e4f8-4eb1-bc7f-a6ba8c8045dd"
     },
-    "2c91c6bb-0093-45e4-8234-35b3c9cd7071": {
-      "id": "2c91c6bb-0093-45e4-8234-35b3c9cd7071",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "72e5efad-e9be-45b7-b75a-0bf1d678eb42": {
+      "id": "72e5efad-e9be-45b7-b75a-0bf1d678eb42",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -40988,7 +40988,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -41044,16 +41044,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1315.43,
+          "calories": 1333.35,
           "protein": 131.63,
-          "carbs": 98.47,
+          "carbs": 102.95,
           "fat": 41.07,
           "fiber": 7.1
         },
         "perServing": {
-          "calories": 164.43,
+          "calories": 166.67,
           "protein": 16.45,
-          "carbs": 12.31,
+          "carbs": 12.87,
           "fat": 5.13,
           "fiber": 0.89
         },
@@ -41138,11 +41138,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -41247,15 +41247,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 9.99
+        "caloriesPerGramProtein": 10.13
       },
-      "createdAt": "2026-06-17T02:10:15.878Z",
-      "prevVersionId": "cef6352e-ff5e-4400-a8b8-92e9f513d0bb"
+      "createdAt": "2026-06-17T03:04:24.319Z",
+      "prevVersionId": "74ec96d6-57dc-4b31-96b9-6a74608ed10d"
     },
-    "c7285672-a078-41d6-ba89-e1ba33d50c63": {
-      "id": "c7285672-a078-41d6-ba89-e1ba33d50c63",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "07bdb554-a4d6-47c2-9f9d-bc6a37d20c8c": {
+      "id": "07bdb554-a4d6-47c2-9f9d-bc6a37d20c8c",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -41579,7 +41579,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -41642,16 +41642,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1329.11,
+          "calories": 1347.03,
           "protein": 132.81,
-          "carbs": 101.95,
+          "carbs": 106.43,
           "fat": 41.9,
           "fiber": 9.32
         },
         "perServing": {
-          "calories": 166.14,
+          "calories": 168.38,
           "protein": 16.6,
-          "carbs": 12.74,
+          "carbs": 13.3,
           "fat": 5.24,
           "fiber": 1.17
         },
@@ -41736,11 +41736,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -41859,15 +41859,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 10.01
+        "caloriesPerGramProtein": 10.14
       },
-      "createdAt": "2026-06-17T02:10:16.062Z",
-      "prevVersionId": "2c91c6bb-0093-45e4-8234-35b3c9cd7071"
+      "createdAt": "2026-06-17T03:04:24.499Z",
+      "prevVersionId": "72e5efad-e9be-45b7-b75a-0bf1d678eb42"
     },
-    "6d0a53b2-f260-4727-8c35-00dd6c438115": {
-      "id": "6d0a53b2-f260-4727-8c35-00dd6c438115",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "6fba70a9-1342-4cfc-8489-8e02e5b5755b": {
+      "id": "6fba70a9-1342-4cfc-8489-8e02e5b5755b",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -42202,7 +42202,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -42272,16 +42272,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1344.71,
+          "calories": 1362.63,
           "protein": 136.11,
-          "carbs": 102.16,
+          "carbs": 106.64,
           "fat": 41.96,
           "fiber": 9.32
         },
         "perServing": {
-          "calories": 168.09,
+          "calories": 170.33,
           "protein": 17.01,
-          "carbs": 12.77,
+          "carbs": 13.33,
           "fat": 5.24,
           "fiber": 1.17
         },
@@ -42366,11 +42366,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -42503,15 +42503,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 9.88
+        "caloriesPerGramProtein": 10.01
       },
-      "createdAt": "2026-06-17T02:10:16.249Z",
-      "prevVersionId": "c7285672-a078-41d6-ba89-e1ba33d50c63"
+      "createdAt": "2026-06-17T03:04:24.683Z",
+      "prevVersionId": "07bdb554-a4d6-47c2-9f9d-bc6a37d20c8c"
     },
-    "f205c8d1-5993-4172-8ada-6d26c5d9c555": {
-      "id": "f205c8d1-5993-4172-8ada-6d26c5d9c555",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "5658cd96-c77f-4ceb-9370-1adb3abae694": {
+      "id": "5658cd96-c77f-4ceb-9370-1adb3abae694",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -42857,7 +42857,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -42934,16 +42934,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1394.9,
+          "calories": 1412.82,
           "protein": 136.17,
-          "carbs": 102.16,
+          "carbs": 106.64,
           "fat": 47.63,
           "fiber": 9.32
         },
         "perServing": {
-          "calories": 174.36,
+          "calories": 176.6,
           "protein": 17.02,
-          "carbs": 12.77,
+          "carbs": 13.33,
           "fat": 5.95,
           "fiber": 1.17
         },
@@ -43028,11 +43028,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -43179,15 +43179,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 10.24
+        "caloriesPerGramProtein": 10.38
       },
-      "createdAt": "2026-06-17T02:10:16.432Z",
-      "prevVersionId": "6d0a53b2-f260-4727-8c35-00dd6c438115"
+      "createdAt": "2026-06-17T03:04:24.863Z",
+      "prevVersionId": "6fba70a9-1342-4cfc-8489-8e02e5b5755b"
     },
-    "bf9c4db9-a000-4d2c-b6b1-c457d9464bb0": {
-      "id": "bf9c4db9-a000-4d2c-b6b1-c457d9464bb0",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "97cdab9e-2cbe-4cab-ab0e-681ccb0319db": {
+      "id": "97cdab9e-2cbe-4cab-ab0e-681ccb0319db",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -43544,7 +43544,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -43628,16 +43628,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1403.86,
+          "calories": 1421.79,
           "protein": 136.17,
-          "carbs": 104.4,
+          "carbs": 108.88,
           "fat": 47.63,
           "fiber": 9.32
         },
         "perServing": {
-          "calories": 175.48,
+          "calories": 177.72,
           "protein": 17.02,
-          "carbs": 13.05,
+          "carbs": 13.61,
           "fat": 5.95,
           "fiber": 1.17
         },
@@ -43722,11 +43722,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -43887,15 +43887,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 10.31
+        "caloriesPerGramProtein": 10.44
       },
-      "createdAt": "2026-06-17T02:10:16.615Z",
-      "prevVersionId": "f205c8d1-5993-4172-8ada-6d26c5d9c555"
+      "createdAt": "2026-06-17T03:04:25.047Z",
+      "prevVersionId": "5658cd96-c77f-4ceb-9370-1adb3abae694"
     },
-    "df756409-9b0a-4ab3-b4fb-0e3a2006423c": {
-      "id": "df756409-9b0a-4ab3-b4fb-0e3a2006423c",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "8e6ed1f0-a816-4418-9916-f4b877b2a1e4": {
+      "id": "8e6ed1f0-a816-4418-9916-f4b877b2a1e4",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -44263,7 +44263,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -44354,16 +44354,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1403.86,
+          "calories": 1421.79,
           "protein": 136.17,
-          "carbs": 104.4,
+          "carbs": 108.88,
           "fat": 47.63,
           "fiber": 9.32
         },
         "perServing": {
-          "calories": 175.48,
+          "calories": 177.72,
           "protein": 17.02,
-          "carbs": 13.05,
+          "carbs": 13.61,
           "fat": 5.95,
           "fiber": 1.17
         },
@@ -44448,11 +44448,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -44627,15 +44627,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 10.31
+        "caloriesPerGramProtein": 10.44
       },
-      "createdAt": "2026-06-17T02:10:16.798Z",
-      "prevVersionId": "bf9c4db9-a000-4d2c-b6b1-c457d9464bb0"
+      "createdAt": "2026-06-17T03:04:25.231Z",
+      "prevVersionId": "97cdab9e-2cbe-4cab-ab0e-681ccb0319db"
     },
-    "f5f0d801-499a-4ca9-a667-a8965fd85070": {
-      "id": "f5f0d801-499a-4ca9-a667-a8965fd85070",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "04d98e43-9e4b-45ec-9f2b-8e9a9a7d98f2": {
+      "id": "04d98e43-9e4b-45ec-9f2b-8e9a9a7d98f2",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -44791,7 +44791,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+                "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
               }
             }
           }
@@ -44979,7 +44979,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+              "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
             }
           }
         ],
@@ -45023,7 +45023,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -45114,16 +45114,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1403.86,
+          "calories": 1421.79,
           "protein": 136.17,
-          "carbs": 104.4,
+          "carbs": 108.88,
           "fat": 47.63,
           "fiber": 9.32
         },
         "perServing": {
-          "calories": 175.48,
+          "calories": 177.72,
           "protein": 17.02,
-          "carbs": 13.05,
+          "carbs": 13.61,
           "fat": 5.95,
           "fiber": 1.17
         },
@@ -45208,11 +45208,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -45387,15 +45387,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 10.31
+        "caloriesPerGramProtein": 10.44
       },
-      "createdAt": "2026-06-17T02:10:17.159Z",
-      "prevVersionId": "df756409-9b0a-4ab3-b4fb-0e3a2006423c"
+      "createdAt": "2026-06-17T03:04:25.597Z",
+      "prevVersionId": "8e6ed1f0-a816-4418-9916-f4b877b2a1e4"
     },
-    "84683c82-0c44-4682-a1f1-0a6613d440a0": {
-      "id": "84683c82-0c44-4682-a1f1-0a6613d440a0",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "8a2ffe9b-aa7a-4264-a5c3-8eb0051d51e5": {
+      "id": "8a2ffe9b-aa7a-4264-a5c3-8eb0051d51e5",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -45551,7 +45551,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+                "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
               }
             }
           },
@@ -45749,7 +45749,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+              "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
             }
           }
         ],
@@ -45793,7 +45793,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -45884,16 +45884,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1403.86,
+          "calories": 1421.79,
           "protein": 136.17,
-          "carbs": 104.4,
+          "carbs": 108.88,
           "fat": 47.63,
           "fiber": 9.32
         },
         "perServing": {
-          "calories": 175.48,
+          "calories": 177.72,
           "protein": 17.02,
-          "carbs": 13.05,
+          "carbs": 13.61,
           "fat": 5.95,
           "fiber": 1.17
         },
@@ -45978,11 +45978,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -46157,15 +46157,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 10.31
+        "caloriesPerGramProtein": 10.44
       },
-      "createdAt": "2026-06-17T02:10:17.344Z",
-      "prevVersionId": "f5f0d801-499a-4ca9-a667-a8965fd85070"
+      "createdAt": "2026-06-17T03:04:25.784Z",
+      "prevVersionId": "04d98e43-9e4b-45ec-9f2b-8e9a9a7d98f2"
     },
-    "9c8893ad-f107-4e12-935c-d6cfd7294128": {
-      "id": "9c8893ad-f107-4e12-935c-d6cfd7294128",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "533b491e-3ca7-42d6-9575-2f2e009e3455": {
+      "id": "533b491e-3ca7-42d6-9575-2f2e009e3455",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -46321,7 +46321,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+                "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
               }
             }
           },
@@ -46530,7 +46530,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+              "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
             }
           }
         ],
@@ -46574,7 +46574,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -46672,16 +46672,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1502.89,
+          "calories": 1520.82,
           "protein": 148.72,
-          "carbs": 115.34,
+          "carbs": 119.82,
           "fat": 48.53,
           "fiber": 12.32
         },
         "perServing": {
-          "calories": 187.86,
+          "calories": 190.1,
           "protein": 18.59,
-          "carbs": 14.42,
+          "carbs": 14.98,
           "fat": 6.07,
           "fiber": 1.54
         },
@@ -46766,11 +46766,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -46958,15 +46958,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 10.11
+        "caloriesPerGramProtein": 10.23
       },
-      "createdAt": "2026-06-17T02:10:17.532Z",
-      "prevVersionId": "84683c82-0c44-4682-a1f1-0a6613d440a0"
+      "createdAt": "2026-06-17T03:04:25.974Z",
+      "prevVersionId": "8a2ffe9b-aa7a-4264-a5c3-8eb0051d51e5"
     },
-    "55c1d6b5-1c53-462b-9782-799646837972": {
-      "id": "55c1d6b5-1c53-462b-9782-799646837972",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "75f5ec29-1273-422f-a33e-a71086005305": {
+      "id": "75f5ec29-1273-422f-a33e-a71086005305",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -47122,7 +47122,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+                "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
               }
             }
           },
@@ -47155,7 +47155,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+                "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
               }
             }
           }
@@ -47343,7 +47343,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+              "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
             }
           },
           {
@@ -47351,7 +47351,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+              "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
             }
           }
         ],
@@ -47395,7 +47395,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -47493,16 +47493,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1502.89,
+          "calories": 1520.82,
           "protein": 148.72,
-          "carbs": 115.34,
+          "carbs": 119.82,
           "fat": 48.53,
           "fiber": 12.32
         },
         "perServing": {
-          "calories": 187.86,
+          "calories": 190.1,
           "protein": 18.59,
-          "carbs": 14.42,
+          "carbs": 14.98,
           "fat": 6.07,
           "fiber": 1.54
         },
@@ -47587,11 +47587,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -47779,15 +47779,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 10.11
+        "caloriesPerGramProtein": 10.23
       },
-      "createdAt": "2026-06-17T02:10:17.898Z",
-      "prevVersionId": "9c8893ad-f107-4e12-935c-d6cfd7294128"
+      "createdAt": "2026-06-17T03:04:26.340Z",
+      "prevVersionId": "533b491e-3ca7-42d6-9575-2f2e009e3455"
     },
-    "9cae2d39-9c9c-415e-80c2-21b3a8d8221d": {
-      "id": "9cae2d39-9c9c-415e-80c2-21b3a8d8221d",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "c89739ea-a011-41e3-8fb7-29b9cd45d24e": {
+      "id": "c89739ea-a011-41e3-8fb7-29b9cd45d24e",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -47943,7 +47943,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+                "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
               }
             }
           },
@@ -47976,7 +47976,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+                "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
               }
             }
           },
@@ -47988,7 +47988,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "81fa4c6e-1bf5-495f-a569-57bd840bd28e"
+                "subRecipeVersionId": "43c3c301-7bf2-4d81-8814-d5bf461641a8"
               }
             }
           }
@@ -48176,7 +48176,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+              "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
             }
           },
           {
@@ -48184,7 +48184,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+              "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
             }
           },
           {
@@ -48192,7 +48192,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "81fa4c6e-1bf5-495f-a569-57bd840bd28e"
+              "subRecipeVersionId": "43c3c301-7bf2-4d81-8814-d5bf461641a8"
             }
           }
         ],
@@ -48236,7 +48236,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -48334,16 +48334,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1502.89,
+          "calories": 1520.82,
           "protein": 148.72,
-          "carbs": 115.34,
+          "carbs": 119.82,
           "fat": 48.53,
           "fiber": 12.32
         },
         "perServing": {
-          "calories": 187.86,
+          "calories": 190.1,
           "protein": 18.59,
-          "carbs": 14.42,
+          "carbs": 14.98,
           "fat": 6.07,
           "fiber": 1.54
         },
@@ -48428,11 +48428,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -48620,15 +48620,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 10.11
+        "caloriesPerGramProtein": 10.23
       },
-      "createdAt": "2026-06-17T02:10:18.267Z",
-      "prevVersionId": "55c1d6b5-1c53-462b-9782-799646837972"
+      "createdAt": "2026-06-17T03:04:26.703Z",
+      "prevVersionId": "75f5ec29-1273-422f-a33e-a71086005305"
     },
-    "9724c9d4-e6b9-4389-b7e2-b5a602bf65a2": {
-      "id": "9724c9d4-e6b9-4389-b7e2-b5a602bf65a2",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "901f7557-c7fc-4218-b04e-e6c96271fd63": {
+      "id": "901f7557-c7fc-4218-b04e-e6c96271fd63",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -48784,7 +48784,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+                "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
               }
             }
           },
@@ -48817,7 +48817,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+                "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
               }
             }
           },
@@ -48829,7 +48829,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "81fa4c6e-1bf5-495f-a569-57bd840bd28e"
+                "subRecipeVersionId": "43c3c301-7bf2-4d81-8814-d5bf461641a8"
               }
             }
           },
@@ -49033,7 +49033,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+              "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
             }
           },
           {
@@ -49041,7 +49041,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+              "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
             }
           },
           {
@@ -49049,7 +49049,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "81fa4c6e-1bf5-495f-a569-57bd840bd28e"
+              "subRecipeVersionId": "43c3c301-7bf2-4d81-8814-d5bf461641a8"
             }
           }
         ],
@@ -49093,7 +49093,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -49191,16 +49191,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1502.89,
+          "calories": 1520.82,
           "protein": 148.72,
-          "carbs": 115.34,
+          "carbs": 119.82,
           "fat": 48.53,
           "fiber": 12.32
         },
         "perServing": {
-          "calories": 187.86,
+          "calories": 190.1,
           "protein": 18.59,
-          "carbs": 14.42,
+          "carbs": 14.98,
           "fat": 6.07,
           "fiber": 1.54
         },
@@ -49285,11 +49285,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -49477,15 +49477,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 10.11
+        "caloriesPerGramProtein": 10.23
       },
-      "createdAt": "2026-06-17T02:10:18.450Z",
-      "prevVersionId": "9cae2d39-9c9c-415e-80c2-21b3a8d8221d"
+      "createdAt": "2026-06-17T03:04:26.890Z",
+      "prevVersionId": "c89739ea-a011-41e3-8fb7-29b9cd45d24e"
     },
-    "940a52d3-7c6c-4898-9bdd-88892c41cd15": {
-      "id": "940a52d3-7c6c-4898-9bdd-88892c41cd15",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "23e23cec-b60d-4437-8f84-36b34ac93119": {
+      "id": "23e23cec-b60d-4437-8f84-36b34ac93119",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -49641,7 +49641,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+                "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
               }
             }
           },
@@ -49674,7 +49674,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+                "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
               }
             }
           },
@@ -49686,7 +49686,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "81fa4c6e-1bf5-495f-a569-57bd840bd28e"
+                "subRecipeVersionId": "43c3c301-7bf2-4d81-8814-d5bf461641a8"
               }
             }
           },
@@ -49901,7 +49901,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+              "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
             }
           },
           {
@@ -49909,7 +49909,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+              "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
             }
           },
           {
@@ -49917,7 +49917,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "81fa4c6e-1bf5-495f-a569-57bd840bd28e"
+              "subRecipeVersionId": "43c3c301-7bf2-4d81-8814-d5bf461641a8"
             }
           }
         ],
@@ -49961,7 +49961,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -50066,16 +50066,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1624.13,
+          "calories": 1642.06,
           "protein": 148.84,
-          "carbs": 135.03,
+          "carbs": 139.51,
           "fat": 53.57,
           "fiber": 12.32
         },
         "perServing": {
-          "calories": 203.02,
+          "calories": 205.26,
           "protein": 18.6,
-          "carbs": 16.88,
+          "carbs": 17.44,
           "fat": 6.7,
           "fiber": 1.54
         },
@@ -50160,11 +50160,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -50365,15 +50365,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 10.91
+        "caloriesPerGramProtein": 11.03
       },
-      "createdAt": "2026-06-17T02:10:18.639Z",
-      "prevVersionId": "9724c9d4-e6b9-4389-b7e2-b5a602bf65a2"
+      "createdAt": "2026-06-17T03:04:27.076Z",
+      "prevVersionId": "901f7557-c7fc-4218-b04e-e6c96271fd63"
     },
-    "65f57fb6-346b-4991-8229-1da6d9d26d1d": {
-      "id": "65f57fb6-346b-4991-8229-1da6d9d26d1d",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "c641c617-2021-4758-9795-58bf1949369f": {
+      "id": "c641c617-2021-4758-9795-58bf1949369f",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -50529,7 +50529,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+                "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
               }
             }
           },
@@ -50562,7 +50562,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+                "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
               }
             }
           },
@@ -50574,7 +50574,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "81fa4c6e-1bf5-495f-a569-57bd840bd28e"
+                "subRecipeVersionId": "43c3c301-7bf2-4d81-8814-d5bf461641a8"
               }
             }
           },
@@ -50800,7 +50800,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+              "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
             }
           },
           {
@@ -50808,7 +50808,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+              "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
             }
           },
           {
@@ -50816,7 +50816,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "81fa4c6e-1bf5-495f-a569-57bd840bd28e"
+              "subRecipeVersionId": "43c3c301-7bf2-4d81-8814-d5bf461641a8"
             }
           }
         ],
@@ -50860,7 +50860,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -50972,16 +50972,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1721.92,
+          "calories": 1739.85,
           "protein": 150.87,
-          "carbs": 140.81,
+          "carbs": 145.29,
           "fat": 61.03,
           "fiber": 14.7
         },
         "perServing": {
-          "calories": 215.24,
+          "calories": 217.48,
           "protein": 18.86,
-          "carbs": 17.6,
+          "carbs": 18.16,
           "fat": 7.63,
           "fiber": 1.84
         },
@@ -51066,11 +51066,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -51284,15 +51284,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 11.41
+        "caloriesPerGramProtein": 11.53
       },
-      "createdAt": "2026-06-17T02:10:18.824Z",
-      "prevVersionId": "940a52d3-7c6c-4898-9bdd-88892c41cd15"
+      "createdAt": "2026-06-17T03:04:27.265Z",
+      "prevVersionId": "23e23cec-b60d-4437-8f84-36b34ac93119"
     },
-    "c807c028-ae10-4ca3-9cc1-c84cf35ef1f8": {
-      "id": "c807c028-ae10-4ca3-9cc1-c84cf35ef1f8",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "77e0eb3a-d8e7-4238-a4be-cbea0e88e7b2": {
+      "id": "77e0eb3a-d8e7-4238-a4be-cbea0e88e7b2",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -51448,7 +51448,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+                "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
               }
             }
           },
@@ -51481,7 +51481,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+                "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
               }
             }
           },
@@ -51493,7 +51493,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "81fa4c6e-1bf5-495f-a569-57bd840bd28e"
+                "subRecipeVersionId": "43c3c301-7bf2-4d81-8814-d5bf461641a8"
               }
             }
           },
@@ -51731,7 +51731,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+              "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
             }
           },
           {
@@ -51739,7 +51739,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+              "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
             }
           },
           {
@@ -51747,7 +51747,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "81fa4c6e-1bf5-495f-a569-57bd840bd28e"
+              "subRecipeVersionId": "43c3c301-7bf2-4d81-8814-d5bf461641a8"
             }
           },
           {
@@ -51799,7 +51799,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -51911,16 +51911,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1721.92,
+          "calories": 1739.85,
           "protein": 150.87,
-          "carbs": 140.81,
+          "carbs": 145.29,
           "fat": 61.03,
           "fiber": 14.7
         },
         "perServing": {
-          "calories": 215.24,
+          "calories": 217.48,
           "protein": 18.86,
-          "carbs": 17.6,
+          "carbs": 18.16,
           "fat": 7.63,
           "fiber": 1.84
         },
@@ -52005,11 +52005,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -52223,15 +52223,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 11.41
+        "caloriesPerGramProtein": 11.53
       },
-      "createdAt": "2026-06-17T02:10:19.010Z",
-      "prevVersionId": "65f57fb6-346b-4991-8229-1da6d9d26d1d"
+      "createdAt": "2026-06-17T03:04:27.452Z",
+      "prevVersionId": "c641c617-2021-4758-9795-58bf1949369f"
     },
-    "35029ef0-db35-4a85-943b-5c2fadb07a7f": {
-      "id": "35029ef0-db35-4a85-943b-5c2fadb07a7f",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "b834c588-3880-4f0a-9567-f76719d09dac": {
+      "id": "b834c588-3880-4f0a-9567-f76719d09dac",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -52387,7 +52387,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+                "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
               }
             }
           },
@@ -52420,7 +52420,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+                "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
               }
             }
           },
@@ -52432,7 +52432,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "81fa4c6e-1bf5-495f-a569-57bd840bd28e"
+                "subRecipeVersionId": "43c3c301-7bf2-4d81-8814-d5bf461641a8"
               }
             }
           },
@@ -52686,7 +52686,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+              "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
             }
           },
           {
@@ -52694,7 +52694,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+              "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
             }
           },
           {
@@ -52702,7 +52702,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "81fa4c6e-1bf5-495f-a569-57bd840bd28e"
+              "subRecipeVersionId": "43c3c301-7bf2-4d81-8814-d5bf461641a8"
             }
           },
           {
@@ -52754,7 +52754,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -52866,16 +52866,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1721.92,
+          "calories": 1739.85,
           "protein": 150.87,
-          "carbs": 140.81,
+          "carbs": 145.29,
           "fat": 61.03,
           "fiber": 14.7
         },
         "perServing": {
-          "calories": 215.24,
+          "calories": 217.48,
           "protein": 18.86,
-          "carbs": 17.6,
+          "carbs": 18.16,
           "fat": 7.63,
           "fiber": 1.84
         },
@@ -52960,11 +52960,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -53178,15 +53178,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 11.41
+        "caloriesPerGramProtein": 11.53
       },
-      "createdAt": "2026-06-17T02:10:19.199Z",
-      "prevVersionId": "c807c028-ae10-4ca3-9cc1-c84cf35ef1f8"
+      "createdAt": "2026-06-17T03:04:27.634Z",
+      "prevVersionId": "77e0eb3a-d8e7-4238-a4be-cbea0e88e7b2"
     },
-    "5e5c1be5-1ab7-41ab-8759-4ef1fb765765": {
-      "id": "5e5c1be5-1ab7-41ab-8759-4ef1fb765765",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "b356a47b-1b33-472f-b683-2907c00377b6": {
+      "id": "b356a47b-1b33-472f-b683-2907c00377b6",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -53342,7 +53342,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+                "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
               }
             }
           },
@@ -53375,7 +53375,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+                "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
               }
             }
           },
@@ -53387,7 +53387,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "81fa4c6e-1bf5-495f-a569-57bd840bd28e"
+                "subRecipeVersionId": "43c3c301-7bf2-4d81-8814-d5bf461641a8"
               }
             }
           },
@@ -53652,7 +53652,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+              "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
             }
           },
           {
@@ -53660,7 +53660,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+              "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
             }
           },
           {
@@ -53668,7 +53668,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "81fa4c6e-1bf5-495f-a569-57bd840bd28e"
+              "subRecipeVersionId": "43c3c301-7bf2-4d81-8814-d5bf461641a8"
             }
           },
           {
@@ -53720,7 +53720,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -53839,16 +53839,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1721.92,
+          "calories": 1739.85,
           "protein": 150.87,
-          "carbs": 140.81,
+          "carbs": 145.29,
           "fat": 61.03,
           "fiber": 14.7
         },
         "perServing": {
-          "calories": 215.24,
+          "calories": 217.48,
           "protein": 18.86,
-          "carbs": 17.6,
+          "carbs": 18.16,
           "fat": 7.63,
           "fiber": 1.84
         },
@@ -53933,11 +53933,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -54165,15 +54165,15 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 11.41
+        "caloriesPerGramProtein": 11.53
       },
-      "createdAt": "2026-06-17T02:10:19.387Z",
-      "prevVersionId": "35029ef0-db35-4a85-943b-5c2fadb07a7f"
+      "createdAt": "2026-06-17T03:04:27.823Z",
+      "prevVersionId": "b834c588-3880-4f0a-9567-f76719d09dac"
     },
-    "5398b8d0-dcb6-4b17-bcff-34006b1d5ee0": {
-      "id": "5398b8d0-dcb6-4b17-bcff-34006b1d5ee0",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "derivesFromVersionId": "ab786801-b623-4670-825d-594f1c77a730",
+    "9ea5e493-ea36-477b-9bff-691d080277ec": {
+      "id": "9ea5e493-ea36-477b-9bff-691d080277ec",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "derivesFromVersionId": "781dd557-e076-42bc-9506-4c187efcd465",
       "name": "Turtle Protein Cheesecake",
       "tags": [
         "cheesecake",
@@ -54335,7 +54335,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+                "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
               }
             }
           },
@@ -54368,7 +54368,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+                "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
               }
             }
           },
@@ -54380,7 +54380,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "81fa4c6e-1bf5-495f-a569-57bd840bd28e"
+                "subRecipeVersionId": "43c3c301-7bf2-4d81-8814-d5bf461641a8"
               }
             }
           },
@@ -54652,7 +54652,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "71a48b7f-5512-4aea-8b5e-a1dacc24617b"
+              "subRecipeVersionId": "3e879d69-131f-46c6-8d7e-8061da7f92fe"
             }
           },
           {
@@ -54660,7 +54660,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "69b54fae-702e-4fdf-9437-30d0f1f25ace"
+              "subRecipeVersionId": "27d84ce5-493c-40c6-b034-22728333629d"
             }
           },
           {
@@ -54668,7 +54668,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "81fa4c6e-1bf5-495f-a569-57bd840bd28e"
+              "subRecipeVersionId": "43c3c301-7bf2-4d81-8814-d5bf461641a8"
             }
           },
           {
@@ -54720,7 +54720,7 @@
             "componentKey": "u-sweetener",
             "stepKey": "s3",
             "slotKey": "sl-sweetener",
-            "quantityValue": 5,
+            "quantityValue": 8,
             "quantityUnit": "tbsp"
           },
           {
@@ -54839,16 +54839,16 @@
       },
       "macros": {
         "total": {
-          "calories": 1721.92,
+          "calories": 1739.85,
           "protein": 150.87,
-          "carbs": 140.81,
+          "carbs": 145.29,
           "fat": 61.03,
           "fiber": 14.7
         },
         "perServing": {
-          "calories": 215.24,
+          "calories": 217.48,
           "protein": 18.86,
-          "carbs": 17.6,
+          "carbs": 18.16,
           "fat": 7.63,
           "fiber": 1.84
         },
@@ -54933,11 +54933,11 @@
             "slotKey": "sl-sweetener",
             "ingredientId": "ing-splenda-granulated",
             "ingredientName": "granulated Splenda",
-            "grams": 7.47,
+            "grams": 11.95,
             "macros": {
-              "calories": 29.87,
+              "calories": 47.79,
               "protein": 0,
-              "carbs": 7.47,
+              "carbs": 11.95,
               "fat": 0,
               "fiber": 0
             },
@@ -55165,11 +55165,11 @@
             "status": "ok"
           }
         ],
-        "caloriesPerGramProtein": 11.41
+        "caloriesPerGramProtein": 11.53
       },
-      "createdAt": "2026-06-17T02:10:19.574Z",
-      "prevVersionId": "5e5c1be5-1ab7-41ab-8759-4ef1fb765765",
-      "description": "Turtle protein cheesecake derived from the Vanilla Pumpkin base — pecan skipped, so caramel + chocolate carry the turtle identity. Adds a thin graham-forward chocolate crust (graham crumbs + cocoa, egg-white bound, minimal butter), a protein caramel swirl marbled into the filling (butterscotch SF pudding + 0% yogurt), and a top drizzle of REAL brown-sugar caramel + unsweetened-baking-chocolate ganache, finished with flaky salt. Filling protein bumped 2 -> 2.5 scoops to hold the macro ratio. Lands ~11 cal/g protein (~210 cal / 19 g protein per slice of 8). Splenda throughout, never monk fruit; the real caramel is the one honest-sugar indulgence, kept small. Untested — first bake pending. Bake in a 9-inch pan with a parchment sling for lift-out."
+      "createdAt": "2026-06-17T03:04:28.013Z",
+      "prevVersionId": "b356a47b-1b33-472f-b683-2907c00377b6",
+      "description": "Turtle protein cheesecake derived from the Vanilla Pumpkin base — pecan skipped, so caramel + chocolate carry the turtle identity. Adds a thin graham-forward chocolate crust (graham crumbs + cocoa, egg-white bound, minimal butter), a protein caramel swirl marbled into the filling (butterscotch SF pudding + 0% yogurt), and a top drizzle of REAL brown-sugar caramel + unsweetened-baking-chocolate ganache, finished with flaky salt. Filling protein bumped 2 -> 2.5 scoops to hold the macro ratio. Lands ~11.5 cal/g protein (~217 cal / 19 g protein per slice of 8). Splenda throughout, never monk fruit; the real caramel is the one honest-sugar indulgence, kept small. Bake in a 9-inch pan with a parchment sling for lift-out."
     }
   },
   "ingredients": {
@@ -55700,171 +55700,171 @@
     }
   },
   "feedback": {
-    "af033bb0-1ae3-4370-a998-4322525e3f38": {
+    "1ad5ad52-cc0b-4d72-b18a-de3f9b565e7d": {
       "kind": "made",
       "rating": "excellent",
-      "id": "af033bb0-1ae3-4370-a998-4322525e3f38",
-      "recipeId": "a9dc8855-e611-449e-81fc-99208f7cd952",
-      "versionId": "e1e9485a-3e38-4883-976b-d9c5e755f9c3",
-      "date": "2026-06-17T02:10:19.935Z",
+      "id": "1ad5ad52-cc0b-4d72-b18a-de3f9b565e7d",
+      "recipeId": "18e73e9e-5ec2-494f-99fe-e18bd4546437",
+      "versionId": "1a6ac19f-7753-4943-9fb0-0d58bbf817d9",
+      "date": "2026-06-17T03:04:28.372Z",
       "author": "user",
-      "createdAt": "2026-06-17T02:10:19.935Z"
+      "createdAt": "2026-06-17T03:04:28.372Z"
     },
-    "d496a0da-5817-43b7-bf10-8e7350d54fa0": {
+    "42567e15-5fec-4946-8ed3-2ecd4db8f850": {
       "kind": "made",
       "rating": "good",
-      "id": "d496a0da-5817-43b7-bf10-8e7350d54fa0",
-      "recipeId": "42263e42-651c-4de3-9f0d-467ccf7ac08f",
-      "versionId": "713f6288-0f4d-4f55-95d2-ce230d099616",
+      "id": "42567e15-5fec-4946-8ed3-2ecd4db8f850",
+      "recipeId": "6086d51b-8321-477f-a749-cdce7c84c7b3",
+      "versionId": "ba43d0d7-326f-4163-b2a6-5df7debb3177",
       "notes": "Good taste. Texture came out soft, not very dense as the recipe intends — acceptable, not much to be done about it.",
-      "date": "2026-06-17T02:10:20.111Z",
+      "date": "2026-06-17T03:04:28.546Z",
       "author": "user",
-      "createdAt": "2026-06-17T02:10:20.111Z"
+      "createdAt": "2026-06-17T03:04:28.546Z"
     },
-    "0aa8be9d-4643-4d3b-9023-d268973aa894": {
+    "10895453-18c6-4244-9356-b05f745c3394": {
       "kind": "made",
       "rating": "excellent",
-      "id": "0aa8be9d-4643-4d3b-9023-d268973aa894",
-      "recipeId": "192369e5-fb53-4e91-9414-bedce9f761f6",
-      "versionId": "046bb754-cf6c-4a3b-9740-0c00b0a7f1db",
-      "date": "2026-06-17T02:10:20.286Z",
+      "id": "10895453-18c6-4244-9356-b05f745c3394",
+      "recipeId": "43a091f0-2a56-46c9-b1ca-c82998ee7962",
+      "versionId": "f61a9f7b-9ba5-4ba6-8489-d802b18a27e8",
+      "date": "2026-06-17T03:04:28.721Z",
       "author": "user",
-      "createdAt": "2026-06-17T02:10:20.286Z"
+      "createdAt": "2026-06-17T03:04:28.721Z"
     },
-    "ebdfee18-0fb3-46e4-ad99-4015e6a63116": {
+    "7f36576d-6824-4511-9f92-10fdb5e44a61": {
       "kind": "made",
       "rating": "okay",
-      "id": "ebdfee18-0fb3-46e4-ad99-4015e6a63116",
-      "recipeId": "053b463b-5348-4d22-ba14-772aad8a3279",
-      "versionId": "8b2b523c-9621-42ab-be38-7fc81fa3bf6f",
+      "id": "7f36576d-6824-4511-9f92-10fdb5e44a61",
+      "recipeId": "6bd6e24d-8380-4d95-bfce-33f945166124",
+      "versionId": "8cb9cd00-5dae-4f76-8ff3-b95e7c3d7ad5",
       "notes": "Decent. Filling really wants a Ninja Creami churn for texture.",
-      "date": "2026-06-17T02:10:20.462Z",
+      "date": "2026-06-17T03:04:28.899Z",
       "author": "user",
-      "createdAt": "2026-06-17T02:10:20.462Z"
+      "createdAt": "2026-06-17T03:04:28.899Z"
     },
-    "36340e4d-bd72-4e6e-a53e-1f08d1041d2a": {
+    "755b03ff-ebe5-4c5b-9a81-ef711e0b933b": {
       "kind": "made",
       "rating": "excellent",
-      "id": "36340e4d-bd72-4e6e-a53e-1f08d1041d2a",
-      "recipeId": "93b859ee-c536-453a-8ac3-46415918a0c8",
-      "versionId": "e1ad63e2-46f3-4c93-a32b-0e18e929cd7a",
-      "date": "2026-06-17T02:10:20.632Z",
+      "id": "755b03ff-ebe5-4c5b-9a81-ef711e0b933b",
+      "recipeId": "9853353f-76f3-4bcd-a8d7-a22ca187e702",
+      "versionId": "163b722a-4b60-472b-b182-dc0a05fd6cb7",
+      "date": "2026-06-17T03:04:29.072Z",
       "author": "user",
-      "createdAt": "2026-06-17T02:10:20.632Z"
+      "createdAt": "2026-06-17T03:04:29.072Z"
     },
-    "81a4b28f-91ae-4189-a92b-143207e2d72f": {
+    "e1ec03f7-2511-4c00-aa13-bd49a58f232a": {
       "kind": "made",
       "rating": "excellent",
-      "id": "81a4b28f-91ae-4189-a92b-143207e2d72f",
-      "recipeId": "bdc1457f-59b5-4037-b376-350916a75a96",
-      "versionId": "ccae76cd-bb44-4f4a-8a88-6ffa7d717520",
-      "date": "2026-06-17T02:10:20.807Z",
+      "id": "e1ec03f7-2511-4c00-aa13-bd49a58f232a",
+      "recipeId": "b69ad54b-a32d-4e20-93ed-3ab44d689128",
+      "versionId": "a0e54471-edd2-459a-88d0-a3cbd8d8129e",
+      "date": "2026-06-17T03:04:29.246Z",
       "author": "user",
-      "createdAt": "2026-06-17T02:10:20.807Z"
+      "createdAt": "2026-06-17T03:04:29.246Z"
     },
-    "7702ddaa-7519-46ad-8c14-c460369ad4ec": {
+    "0368d855-f13e-44f1-8008-61eabe673526": {
       "kind": "made",
       "rating": "excellent",
-      "id": "7702ddaa-7519-46ad-8c14-c460369ad4ec",
-      "recipeId": "db6bbd39-7bca-4960-8699-dacd01ec50a8",
-      "versionId": "a88e9a2a-036a-49d4-a670-d652dbd4540c",
+      "id": "0368d855-f13e-44f1-8008-61eabe673526",
+      "recipeId": "e038c8f5-175e-4861-be08-92c8aa61b36c",
+      "versionId": "468c37fe-b760-45d3-8fe3-685bc7d441e7",
       "notes": "cookie itself is great",
-      "date": "2026-06-17T02:10:20.979Z",
+      "date": "2026-06-17T03:04:29.418Z",
       "author": "user",
-      "createdAt": "2026-06-17T02:10:20.979Z"
+      "createdAt": "2026-06-17T03:04:29.418Z"
     },
-    "3ab5f2ba-7891-4c81-b4ed-ecfde430fd5c": {
+    "ea3d0f0e-3b93-4f7e-a966-ef283a6220b7": {
       "kind": "made",
       "rating": "bad",
-      "id": "3ab5f2ba-7891-4c81-b4ed-ecfde430fd5c",
-      "recipeId": "db6bbd39-7bca-4960-8699-dacd01ec50a8",
-      "versionId": "a88e9a2a-036a-49d4-a670-d652dbd4540c",
+      "id": "ea3d0f0e-3b93-4f7e-a966-ef283a6220b7",
+      "recipeId": "e038c8f5-175e-4861-be08-92c8aa61b36c",
+      "versionId": "468c37fe-b760-45d3-8fe3-685bc7d441e7",
       "componentKey": "b5",
       "notes": "glaze too weak/thin, needs work",
-      "date": "2026-06-17T02:10:21.155Z",
+      "date": "2026-06-17T03:04:29.597Z",
       "author": "user",
-      "createdAt": "2026-06-17T02:10:21.155Z"
+      "createdAt": "2026-06-17T03:04:29.597Z"
     },
-    "066b8970-7461-4f8d-8916-2f2beca7ee0c": {
+    "866e3ba4-da6a-42bd-ad5b-64ea8b94fba1": {
       "kind": "made",
       "rating": "good",
-      "id": "066b8970-7461-4f8d-8916-2f2beca7ee0c",
-      "recipeId": "62c0c49d-56d1-420d-9730-c0c566705f20",
-      "versionId": "b53dd2b3-fb6c-424b-999f-0dcf75771f01",
-      "date": "2026-06-17T02:10:21.328Z",
+      "id": "866e3ba4-da6a-42bd-ad5b-64ea8b94fba1",
+      "recipeId": "e77d1a33-7362-440a-9ff7-b9a7fe995c40",
+      "versionId": "bacc74d0-82e4-4330-92d8-b91a778f5964",
+      "date": "2026-06-17T03:04:29.770Z",
       "author": "user",
-      "createdAt": "2026-06-17T02:10:21.328Z"
+      "createdAt": "2026-06-17T03:04:29.770Z"
     },
-    "0c094dd7-a536-4d54-a729-4952265303ef": {
+    "1dd76914-d0f6-484b-a40b-2a46c44efc93": {
       "kind": "to-make",
-      "id": "0c094dd7-a536-4d54-a729-4952265303ef",
-      "recipeId": "cf95d5aa-e6cd-4711-8461-63bbd09d493e",
-      "versionId": "6a684084-9de4-467f-a60f-87f2b641daa1",
+      "id": "1dd76914-d0f6-484b-a40b-2a46c44efc93",
+      "recipeId": "8eff6311-a072-49f6-9085-3a9ae17dd5e6",
+      "versionId": "f4d2a3bd-3eb4-4dcf-b552-e7f2a4f515a8",
       "notes": "First bake of the base — confirm the cornstarch keeps it soft at 2 scoops protein, and that 163 kcal / 14.3 g protein eats like a real crumbl base. If texture holds, bump dough protein 2 -> 2.5 scoops to crack <10 kcal/g.",
-      "date": "2026-06-17T02:10:21.506Z",
+      "date": "2026-06-17T03:04:29.947Z",
       "author": "user",
-      "createdAt": "2026-06-17T02:10:21.506Z"
+      "createdAt": "2026-06-17T03:04:29.947Z"
     },
-    "32d6e642-478c-44c6-9f64-9df730b40586": {
+    "64c9dd51-3aa2-410e-8fd0-3fceeabfbeb2": {
       "kind": "to-make",
-      "id": "32d6e642-478c-44c6-9f64-9df730b40586",
-      "recipeId": "82787b74-d076-4fa3-a6f1-79339a7d7692",
-      "versionId": "92ef3e33-c67b-484d-9fd0-1dc3e91e2a79",
+      "id": "64c9dd51-3aa2-410e-8fd0-3fceeabfbeb2",
+      "recipeId": "2747dff8-daed-4a55-9f45-85fea0ea4a8f",
+      "versionId": "1f0ad6de-f45c-4476-8786-bd8a781f18fe",
       "notes": "haven't made it yet",
-      "date": "2026-06-17T02:10:21.677Z",
+      "date": "2026-06-17T03:04:30.122Z",
       "author": "user",
-      "createdAt": "2026-06-17T02:10:21.677Z"
+      "createdAt": "2026-06-17T03:04:30.122Z"
     },
-    "4dc6e3b0-84b3-4a90-b5e6-792bd8e6ef35": {
+    "27aacfbc-2d3f-4a0d-a5ee-ab7b8a16f4f3": {
       "kind": "to-make",
-      "id": "4dc6e3b0-84b3-4a90-b5e6-792bd8e6ef35",
-      "recipeId": "4ef46e1c-0221-4486-8632-2285fb41e4ad",
-      "versionId": "a152da21-8eba-47c3-ad8f-f122ef61aeb0",
+      "id": "27aacfbc-2d3f-4a0d-a5ee-ab7b8a16f4f3",
+      "recipeId": "fec62a17-4652-400e-a421-820373ec8c3c",
+      "versionId": "aa6e7f25-1c7e-4abd-a363-23a9781cb8b0",
       "notes": "Test the <10 kcal/g-protein claim IRL — 3 scoops whey in 5 cookies is aggressive protein-loading; watch for dry/rubbery 'pancake' texture and whether the 1-cup-yogurt frosting reads as frosting or just wet.",
-      "date": "2026-06-17T02:10:21.854Z",
+      "date": "2026-06-17T03:04:30.298Z",
       "author": "user",
-      "createdAt": "2026-06-17T02:10:21.854Z"
+      "createdAt": "2026-06-17T03:04:30.298Z"
     },
-    "59c8485c-b7ae-4808-9e17-a28216ecf7d1": {
+    "ab45c5a1-59cb-44bd-ac20-97f87c50e239": {
       "kind": "to-make",
-      "id": "59c8485c-b7ae-4808-9e17-a28216ecf7d1",
-      "recipeId": "c0b0c3da-0f2c-465f-9d1b-fd5f8f8be748",
-      "versionId": "b574ae5e-fc24-4d55-8d8f-9a133086b297",
+      "id": "ab45c5a1-59cb-44bd-ac20-97f87c50e239",
+      "recipeId": "372fd728-88fd-4d83-b82a-10a0c6b9cd1c",
+      "versionId": "1f00b708-6c77-4cc7-991d-f481d9733ac8",
       "notes": "found on IG, untried - lean yogurt-based cookie",
-      "date": "2026-06-17T02:10:22.033Z",
+      "date": "2026-06-17T03:04:30.475Z",
       "author": "user",
-      "createdAt": "2026-06-17T02:10:22.033Z"
+      "createdAt": "2026-06-17T03:04:30.475Z"
     },
-    "e4d860a9-c3bc-483e-a1fa-003608cb8385": {
+    "441cf66c-9aa0-4dab-a14a-56a5ed25bbc3": {
       "kind": "to-make",
-      "id": "e4d860a9-c3bc-483e-a1fa-003608cb8385",
-      "recipeId": "573cc098-ed7f-4fcd-b298-29936d711cfa",
-      "versionId": "6c79860c-9d0e-415d-93c6-4ca7ba07cd7e",
+      "id": "441cf66c-9aa0-4dab-a14a-56a5ed25bbc3",
+      "recipeId": "1c221f81-dce5-4f88-9d0e-7323123433cd",
+      "versionId": "92cadf2d-8173-408b-8b64-56e26d358047",
       "notes": "protein ablation — not baked yet",
-      "date": "2026-06-17T02:10:22.211Z",
+      "date": "2026-06-17T03:04:30.648Z",
       "author": "user",
-      "createdAt": "2026-06-17T02:10:22.211Z"
+      "createdAt": "2026-06-17T03:04:30.648Z"
     },
-    "563bf490-942b-4901-b6df-1473c89efebf": {
+    "ed420e0f-bc23-4c3e-b5de-121f581b83b5": {
       "kind": "to-make",
-      "id": "563bf490-942b-4901-b6df-1473c89efebf",
-      "recipeId": "dcfca38a-632d-465e-b36a-e91917986c71",
-      "versionId": "241c641d-761f-4857-9b02-97ed7c3c4094",
+      "id": "ed420e0f-bc23-4c3e-b5de-121f581b83b5",
+      "recipeId": "01164a30-881a-4f58-b09a-adefa5d466e1",
+      "versionId": "a9d895c2-c9fa-4390-a217-46f7cdbee4e6",
       "notes": "protein ablation — not baked yet",
-      "date": "2026-06-17T02:10:22.384Z",
+      "date": "2026-06-17T03:04:30.826Z",
       "author": "user",
-      "createdAt": "2026-06-17T02:10:22.384Z"
+      "createdAt": "2026-06-17T03:04:30.826Z"
     },
-    "5ba8598c-1060-4a45-bd3c-37e33851f878": {
+    "caa67491-c634-4cd4-b088-c90a646a4837": {
       "kind": "made",
       "rating": "excellent",
-      "id": "5ba8598c-1060-4a45-bd3c-37e33851f878",
-      "recipeId": "d639f42c-aa02-49ac-aa5c-48db861ad775",
-      "versionId": "5398b8d0-dcb6-4b17-bcff-34006b1d5ee0",
-      "notes": "First bake, rated excellent on first impression (full taste tomorrow). ~215 cal / 19 g protein per slice (11.4 cal/g).",
-      "date": "2026-06-17T02:10:22.559Z",
+      "id": "caa67491-c634-4cd4-b088-c90a646a4837",
+      "recipeId": "b1be87cd-1f6f-4647-9d60-29f92d3ce004",
+      "versionId": "9ea5e493-ea36-477b-9bff-691d080277ec",
+      "notes": "First bake, rated excellent on first impression (full taste tomorrow). ~217 cal / 19 g protein per slice (11.5 cal/g).",
+      "date": "2026-06-17T03:04:31.000Z",
       "author": "user",
-      "createdAt": "2026-06-17T02:10:22.559Z"
+      "createdAt": "2026-06-17T03:04:31.000Z"
     }
   }
 }
