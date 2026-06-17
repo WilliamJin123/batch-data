@@ -54,6 +54,7 @@ NANAIMO=$(mkroot nanaimo-bars);                     echo "  + High-Protein Nanai
 ICS=$(mkroot ice-cream-sandwich);                   echo "  + Protein Ice Cream Sandwich"
 FROSTED20=$(mkroot protein-frosted-cookies-20g);    echo "  + 20g Protein Frosted Cookies"
 GIANT=$(mkroot giant-single-serve-protein-cookie);  echo "  + Giant Single-Serve Protein Cookie"
+CRUST=$(mkroot crust-graham);                       echo "  + Protein Graham Crust (reusable crust base)"
 
 echo "deriving variants..."
 BANANA=$(build_variant "$DIR/banana-cheesecake.variant.json" "$VP");           echo "  + Banana Butterscotch Cinnamon Cheesecake"
@@ -69,6 +70,7 @@ LUCKY=$(build_variant "$DIR/lucky-charms.variant.json" "$CRUMBL");             e
 CHEWY=$(build_variant "$DIR/browned-butter-cookies-chewy.variant.json" "$BB"); echo "  + Browned-Butter Protein Cookies (Soft-Chewy)"
 ABL50=$(build_variant "$DIR/browned-butter-cookies-50g.variant.json" "$BB");   echo "  + Browned-Butter Protein Cookies (50g protein)"
 ABL60=$(build_variant "$DIR/browned-butter-cookies-60g.variant.json" "$BB");   echo "  + Browned-Butter Protein Cookies (60g protein)"
+CRUSTCOCOA=$(build_variant "$DIR/crust-cocoa.variant.json" "$CRUST");           echo "  + Turtle Chocolate Graham Crust (off Graham Crust)"
 
 # --- M3 composition: replace Red Velvet's inline frosting with the frosting sub-recipe pin. ---
 echo "composing Red Velvet frosting..."

@@ -6,17 +6,8 @@
   "overrides": [
     { "op": "replace", "kind": "usage", "target": "u-protein", "payload": { "componentKey": "u-protein", "stepKey": "s3", "slotKey": "sl-protein", "quantityValue": 2.5, "quantityUnit": "scoop" } },
 
-    { "op": "add", "kind": "step", "payload": { "componentKey": "c1", "order": 0, "section": "Crust", "instructionText": "Make the crust while the pumpkin cools: stir the graham crumbs, cocoa, Splenda, and salt together. Work in the melted butter and egg white until it clumps like wet sand, then press firmly into the bottom of a parchment-lined 9-inch pan — run the parchment up two opposite sides as a sling so you can lift the whole cake out later. Bake at 350F for ~10 min, then cool while you finish the filling." } },
-    { "op": "add", "kind": "slot", "payload": { "componentKey": "sl-graham", "name": "graham cracker crumbs", "resolution": { "kind": "raw", "libraryIngredientId": "ing-graham-crumbs" } } },
-    { "op": "add", "kind": "slot", "payload": { "componentKey": "sl-cocoa", "name": "unsweetened cocoa powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-cocoa-powder" } } },
-    { "op": "add", "kind": "slot", "payload": { "componentKey": "sl-crust-butter", "name": "melted butter (crust)", "resolution": { "kind": "raw", "libraryIngredientId": "ing-butter" } } },
-    { "op": "add", "kind": "slot", "payload": { "componentKey": "sl-salt", "name": "salt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-salt" } } },
-    { "op": "add", "kind": "usage", "payload": { "componentKey": "u-graham", "stepKey": "c1", "slotKey": "sl-graham", "quantityValue": 57, "quantityUnit": "g" } },
-    { "op": "add", "kind": "usage", "payload": { "componentKey": "u-cocoa", "stepKey": "c1", "slotKey": "sl-cocoa", "quantityValue": 6, "quantityUnit": "g" } },
-    { "op": "add", "kind": "usage", "payload": { "componentKey": "u-crust-eggwhite", "stepKey": "c1", "slotKey": "sl-egg-white", "quantityValue": 30, "quantityUnit": "g" } },
-    { "op": "add", "kind": "usage", "payload": { "componentKey": "u-crust-butter", "stepKey": "c1", "slotKey": "sl-crust-butter", "quantityValue": 7, "quantityUnit": "g" } },
-    { "op": "add", "kind": "usage", "payload": { "componentKey": "u-crust-splenda", "stepKey": "c1", "slotKey": "sl-sweetener", "quantityValue": 1.5, "quantityUnit": "tbsp" } },
-    { "op": "add", "kind": "usage", "payload": { "componentKey": "u-crust-salt", "stepKey": "c1", "slotKey": "sl-salt", "quantityValue": 1, "quantityUnit": "pinch" } },
+    { "op": "add", "kind": "slot", "payload": { "componentKey": "sl-crust", "name": "chocolate graham crust", "resolution": { "kind": "sub_recipe", "subRecipeRef": "Turtle Chocolate Graham Crust" } } },
+    { "op": "add", "kind": "usage", "payload": { "componentKey": "u-crust", "stepKey": "s5", "slotKey": "sl-crust", "quantityValue": 1, "quantityUnit": "batch" } },
 
     { "op": "add", "kind": "slot", "payload": { "componentKey": "sl-swirl", "name": "protein caramel swirl", "resolution": { "kind": "sub_recipe", "subRecipeRef": "Turtle Protein Caramel Swirl" } } },
     { "op": "replace", "kind": "step", "target": "s5", "payload": { "componentKey": "s5", "order": 5, "instructionText": "Pour half the filling onto the cooled crust. Drop spoonfuls of the protein caramel swirl over it, add the rest of the filling, then drag a knife through in a few S-strokes to marble (don't overmix). Tap the pan on the counter to level and pop bubbles." } },
