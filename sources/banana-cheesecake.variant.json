@@ -27,7 +27,7 @@
       "payload": {
         "componentKey": "s1",
         "order": 1,
-        "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+        "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
       }
     },
     {
@@ -72,7 +72,7 @@
       "kind": "usage",
       "payload": {
         "componentKey": "u-cinnamon-batter",
-        "stepKey": "s3",
+        "stepKey": "s1",
         "slotKey": "sl-cinnamon",
         "quantityValue": 2,
         "quantityUnit": "tsp"
@@ -85,7 +85,7 @@
       "payload": {
         "componentKey": "s5",
         "order": 5,
-        "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. Top with graham crumbs + cinnamon (add after baking if you want them crisp)."
+        "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. For the topping, toast the graham crumbs with the garnish cinnamon in a dry pan over medium heat ~1 min, stirring, until fragrant, then let cool. Scatter over the cheesecake after baking so they stay crisp."
       }
     },
     {

@@ -1,154 +1,154 @@
 {
   "recipes": {
-    "8c61486f-cdfa-4e35-b04c-d889ab9be224": {
-      "id": "8c61486f-cdfa-4e35-b04c-d889ab9be224",
+    "1163fe92-70ab-4291-9132-98498ddc78d9": {
+      "id": "1163fe92-70ab-4291-9132-98498ddc78d9",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:14.523Z",
-      "headVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac"
+      "createdAt": "2026-06-18T16:47:43.313Z",
+      "headVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962"
     },
-    "81045eff-e859-4531-859f-68fcb07346af": {
-      "id": "81045eff-e859-4531-859f-68fcb07346af",
+    "1085d8f9-602d-4323-9041-dcbabdc3d48e": {
+      "id": "1085d8f9-602d-4323-9041-dcbabdc3d48e",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:14.689Z",
-      "headVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d"
+      "createdAt": "2026-06-18T16:47:43.472Z",
+      "headVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c"
     },
-    "d29491c1-c856-48e4-86d8-88e249ec0e3d": {
-      "id": "d29491c1-c856-48e4-86d8-88e249ec0e3d",
+    "b794187b-4ac3-4acb-8e80-8fd67f6fd09b": {
+      "id": "b794187b-4ac3-4acb-8e80-8fd67f6fd09b",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:14.844Z",
-      "headVersionId": "05380b37-f7a3-4a8e-9342-6b95dd8edc1a"
+      "createdAt": "2026-06-18T16:47:43.643Z",
+      "headVersionId": "802a9eb5-d8f9-4d4e-9aa0-b6f9ffad0af8"
     },
-    "76bf9341-cc1a-4e4e-b7a5-6be324b75852": {
-      "id": "76bf9341-cc1a-4e4e-b7a5-6be324b75852",
+    "8ed8984c-9692-4aaf-8ef0-33485821f9d1": {
+      "id": "8ed8984c-9692-4aaf-8ef0-33485821f9d1",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:15.001Z",
-      "headVersionId": "37d99313-138b-4d6f-8788-fed6b8eaafac"
+      "createdAt": "2026-06-18T16:47:43.801Z",
+      "headVersionId": "dceb99f5-363a-476c-9be6-f0bca83bcaee"
     },
-    "630653af-2a9d-47a3-9156-b7a392e7a956": {
-      "id": "630653af-2a9d-47a3-9156-b7a392e7a956",
+    "dc638859-9430-437c-b160-19066e2177f3": {
+      "id": "dc638859-9430-437c-b160-19066e2177f3",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:15.160Z",
-      "headVersionId": "b3055b9c-aaf1-4c18-9bb4-0ae3f89c1965"
+      "createdAt": "2026-06-18T16:47:43.956Z",
+      "headVersionId": "ce58a5cb-b82c-4134-87d5-5ea33084c448"
     },
-    "3d2cc186-988a-4c2b-bdb8-9353b1ba1c59": {
-      "id": "3d2cc186-988a-4c2b-bdb8-9353b1ba1c59",
+    "aedc552c-529e-4647-b092-a883a7f17708": {
+      "id": "aedc552c-529e-4647-b092-a883a7f17708",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:15.319Z",
-      "headVersionId": "565c4652-e497-44b0-9ea6-7a78163172fc"
+      "createdAt": "2026-06-18T16:47:44.116Z",
+      "headVersionId": "22f35e05-16ac-4bc0-abc2-2ec387f48072"
     },
-    "747adb18-6ffa-404a-9674-201b084bd1c0": {
-      "id": "747adb18-6ffa-404a-9674-201b084bd1c0",
+    "c349abda-6c4d-4d68-bf94-b21c25fc4699": {
+      "id": "c349abda-6c4d-4d68-bf94-b21c25fc4699",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:15.478Z",
-      "headVersionId": "f4407ad1-8a32-488a-9476-f5c98eb9fe5d"
+      "createdAt": "2026-06-18T16:47:44.272Z",
+      "headVersionId": "519a1275-ccf7-4d04-a720-99a13e53a7f5"
     },
-    "2e0fe028-6d41-4fca-9815-fe63e39f6e05": {
-      "id": "2e0fe028-6d41-4fca-9815-fe63e39f6e05",
+    "cb79ab33-a0e1-40f9-abb6-5795cbba5ef1": {
+      "id": "cb79ab33-a0e1-40f9-abb6-5795cbba5ef1",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:15.635Z",
-      "headVersionId": "5d665498-110b-4a57-a1a9-8b3065b0bd8a"
+      "createdAt": "2026-06-18T16:47:44.428Z",
+      "headVersionId": "05034980-ac79-458f-b575-49a0e7b3eb9d"
     },
-    "caa23e38-0b80-46dc-b37b-3810ab7e4bac": {
-      "id": "caa23e38-0b80-46dc-b37b-3810ab7e4bac",
+    "1ec21b7d-ac8a-4084-87f3-b7b9f8975231": {
+      "id": "1ec21b7d-ac8a-4084-87f3-b7b9f8975231",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:15.788Z",
-      "headVersionId": "c0b56d3a-8b79-4a42-8679-83472fe5ddf4"
+      "createdAt": "2026-06-18T16:47:44.584Z",
+      "headVersionId": "f1d15ecb-49fa-48b4-aa37-f67cd9281214"
     },
-    "5b2bbdd0-9940-40f2-a802-07acd84dac83": {
-      "id": "5b2bbdd0-9940-40f2-a802-07acd84dac83",
+    "6f0017a7-e245-40ca-acb4-99ddaaaf7104": {
+      "id": "6f0017a7-e245-40ca-acb4-99ddaaaf7104",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:15.948Z",
-      "headVersionId": "21e9b99c-59f8-4e59-84da-db262626e589"
+      "createdAt": "2026-06-18T16:47:44.742Z",
+      "headVersionId": "822710b6-63b3-4a88-b3c1-c2b15fea4ace"
     },
-    "22a4cff6-06a8-481e-94ac-50be566d70f4": {
-      "id": "22a4cff6-06a8-481e-94ac-50be566d70f4",
+    "3d1fbc68-bf57-4044-b61a-afc742a77a6a": {
+      "id": "3d1fbc68-bf57-4044-b61a-afc742a77a6a",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:16.102Z",
-      "headVersionId": "33ed5077-3a00-4739-9cd5-45244731c141"
+      "createdAt": "2026-06-18T16:47:44.906Z",
+      "headVersionId": "06bd7d2b-20a4-4cb9-895d-fbfe5529adec"
     },
-    "74811742-fc9c-4e2c-9bf1-0452ca9b6f32": {
-      "id": "74811742-fc9c-4e2c-9bf1-0452ca9b6f32",
+    "fc43da97-9ca9-4c23-b0f9-79077d05b31f": {
+      "id": "fc43da97-9ca9-4c23-b0f9-79077d05b31f",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:16.261Z",
-      "headVersionId": "19ec8299-039b-4e99-b548-72d38f42c0f4"
+      "createdAt": "2026-06-18T16:47:45.071Z",
+      "headVersionId": "9c34e2df-ec54-40fc-a47b-65e8f9897d99"
     },
-    "4f0c17fa-2d26-4952-aeb1-a568d5506c51": {
-      "id": "4f0c17fa-2d26-4952-aeb1-a568d5506c51",
+    "e7c1c7b6-e039-4bcd-ae67-8f54c664eaa8": {
+      "id": "e7c1c7b6-e039-4bcd-ae67-8f54c664eaa8",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:18.223Z",
-      "headVersionId": "9732226c-dd7e-46b2-8302-07524ac3717f"
+      "createdAt": "2026-06-18T16:47:47.052Z",
+      "headVersionId": "a377b672-fb59-40df-bc95-2d934a2b8c0b"
     },
-    "82ca2d90-2982-4bd7-9b5c-9bcf9010d1ca": {
-      "id": "82ca2d90-2982-4bd7-9b5c-9bcf9010d1ca",
+    "0734e9dd-3410-4d3b-b8d1-8a61ae656f98": {
+      "id": "0734e9dd-3410-4d3b-b8d1-8a61ae656f98",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:20.395Z",
-      "headVersionId": "e1b9393e-8b10-483c-83b9-16b2ae307f04"
+      "createdAt": "2026-06-18T16:47:49.221Z",
+      "headVersionId": "cd2e63ac-228e-47dd-b7cb-f939a11b78cc"
     },
-    "06ee025a-d352-45b6-a00e-53b07b964a47": {
-      "id": "06ee025a-d352-45b6-a00e-53b07b964a47",
+    "40ac1417-a73a-4b8e-ac83-1f370ce4e401": {
+      "id": "40ac1417-a73a-4b8e-ac83-1f370ce4e401",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:21.064Z",
-      "headVersionId": "f0c026fc-b35c-4afb-bf4d-7cf3fbfca7f8"
+      "createdAt": "2026-06-18T16:47:49.892Z",
+      "headVersionId": "01ca1ed5-b7a3-431e-8a6e-74340f50e79f"
     },
-    "38efe953-0cff-4f5a-ab59-d913c288ff66": {
-      "id": "38efe953-0cff-4f5a-ab59-d913c288ff66",
+    "5c592b94-af40-49fd-8a32-3069edbdcfaa": {
+      "id": "5c592b94-af40-49fd-8a32-3069edbdcfaa",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:22.920Z",
-      "headVersionId": "02ddbed9-c863-4ee2-b04d-397cde2eb010"
+      "createdAt": "2026-06-18T16:47:51.767Z",
+      "headVersionId": "1dc72852-5040-4a3d-8438-c6fed5366e49"
     },
-    "2eb4084e-1679-43bc-a0d9-44ac0023b893": {
-      "id": "2eb4084e-1679-43bc-a0d9-44ac0023b893",
+    "b6b63b3b-51ef-48be-a1d4-45b33f5a6314": {
+      "id": "b6b63b3b-51ef-48be-a1d4-45b33f5a6314",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:23.608Z",
-      "headVersionId": "f08427fa-116e-476c-8669-e43ef06e63dd"
+      "createdAt": "2026-06-18T16:47:52.454Z",
+      "headVersionId": "9750b678-0325-4ae4-a221-89fde98c4441"
     },
-    "5c003271-dbe2-4c44-a49d-921f3cc28cb6": {
-      "id": "5c003271-dbe2-4c44-a49d-921f3cc28cb6",
+    "e31fa35a-6b9f-4b9e-98cd-6fd3b29628ee": {
+      "id": "e31fa35a-6b9f-4b9e-98cd-6fd3b29628ee",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:24.458Z",
-      "headVersionId": "f481a688-5d77-4c46-bec0-c943d6d76bc3"
+      "createdAt": "2026-06-18T16:47:53.312Z",
+      "headVersionId": "61f86989-8780-436d-8ac8-0a7fde870467"
     },
-    "2f8588ef-382b-482a-b7a9-1d247f0622b3": {
-      "id": "2f8588ef-382b-482a-b7a9-1d247f0622b3",
+    "9878f347-7b1c-42ac-ae95-11192328c4f7": {
+      "id": "9878f347-7b1c-42ac-ae95-11192328c4f7",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:24.978Z",
-      "headVersionId": "2da235bd-8a7c-41bd-b319-087dc7d02236"
+      "createdAt": "2026-06-18T16:47:53.828Z",
+      "headVersionId": "9ecbe835-dde1-4e9b-84fe-aedcb56d0994"
     },
-    "19a86fdd-79b7-4275-a0b3-fdea84b52148": {
-      "id": "19a86fdd-79b7-4275-a0b3-fdea84b52148",
+    "b6b4a6a6-438b-4ce1-b04c-f792d3784ae5": {
+      "id": "b6b4a6a6-438b-4ce1-b04c-f792d3784ae5",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:25.500Z",
-      "headVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+      "createdAt": "2026-06-18T16:47:54.344Z",
+      "headVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
     },
-    "82f9439b-ca22-4ed1-b7fd-a81b76eb4c88": {
-      "id": "82f9439b-ca22-4ed1-b7fd-a81b76eb4c88",
+    "cb0b6346-b6ff-4369-8e40-25176c1631ac": {
+      "id": "cb0b6346-b6ff-4369-8e40-25176c1631ac",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:28.805Z",
-      "headVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+      "createdAt": "2026-06-18T16:47:57.681Z",
+      "headVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
     },
-    "bcd872a0-7e07-4ffa-99c5-7abca5251eb1": {
-      "id": "bcd872a0-7e07-4ffa-99c5-7abca5251eb1",
+    "0cc1a695-0584-4ac2-ba39-b3a08edb0e4a": {
+      "id": "0cc1a695-0584-4ac2-ba39-b3a08edb0e4a",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:29.143Z",
-      "headVersionId": "d4dacde5-f5c6-409f-91fa-01e7bf884386"
+      "createdAt": "2026-06-18T16:47:58.024Z",
+      "headVersionId": "33af7b19-59d9-48d5-8ae7-16f99728dd1c"
     },
-    "c09d67ff-d6d4-4113-a0d3-aaf173c6d635": {
-      "id": "c09d67ff-d6d4-4113-a0d3-aaf173c6d635",
+    "e5decd6e-9ad0-4251-82c4-d971fa7b714a": {
+      "id": "e5decd6e-9ad0-4251-82c4-d971fa7b714a",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:29.484Z",
-      "headVersionId": "35658f9b-bf83-420f-8cfe-b82019b0fe21"
+      "createdAt": "2026-06-18T16:47:58.365Z",
+      "headVersionId": "72170f4d-8fc8-4445-b14e-4711ac7ae45f"
     },
-    "6634ad3a-6301-4ade-a0f6-ceb28cd0dcbd": {
-      "id": "6634ad3a-6301-4ade-a0f6-ceb28cd0dcbd",
+    "f82d849d-1e84-45a0-8e04-e06c578abffd": {
+      "id": "f82d849d-1e84-45a0-8e04-e06c578abffd",
       "createdBy": "user",
-      "createdAt": "2026-06-17T15:20:29.832Z",
-      "headVersionId": "9fb41874-51d2-495b-a672-3101e8f8dd88"
+      "createdAt": "2026-06-18T16:47:58.708Z",
+      "headVersionId": "bbdf64e0-2cb3-4666-b5e9-898455fa8d1c"
     }
   },
   "versions": {
-    "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac": {
-      "id": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
-      "recipeId": "8c61486f-cdfa-4e35-b04c-d889ab9be224",
+    "b12bcdb4-d93f-494c-abce-23cd4b62f962": {
+      "id": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
+      "recipeId": "1163fe92-70ab-4291-9132-98498ddc78d9",
       "name": "Vanilla Pumpkin Protein Cheesecake",
       "description": "Base protein cheesecake (vanilla SF pudding, pumpkin for moisture/body). Launch point for flavor variants. Low-fat / high-protein; pumpkin does the work fat does in a standard cheesecake. Tuned DENSE (Tier 1+2): pumpkin reduced 120->75g + 2 tbsp AP flour for a firmer set (AP because that's what's on hand — its gluten sets denser than cornstarch), baked DRY (no water bath) to a just-set center and chilled overnight — denser at near-zero macro cost (~129 cal/slice, ratio 9.1). Stays lean; if a bake comes out rubbery rather than densely creamy, add a little fat (more cream cheese or an extra yolk).",
       "tags": [
@@ -582,11 +582,11 @@
         ],
         "caloriesPerGramProtein": 9.07
       },
-      "createdAt": "2026-06-17T15:20:14.523Z"
+      "createdAt": "2026-06-18T16:47:43.313Z"
     },
-    "dd5f28b0-7c6b-41ea-b6d6-9c20c1bf81df": {
-      "id": "dd5f28b0-7c6b-41ea-b6d6-9c20c1bf81df",
-      "recipeId": "81045eff-e859-4531-859f-68fcb07346af",
+    "71247aa3-dd4c-4066-950d-246ebe42ce15": {
+      "id": "71247aa3-dd4c-4066-950d-246ebe42ce15",
+      "recipeId": "1085d8f9-602d-4323-9041-dcbabdc3d48e",
       "name": "Crumbl Base Protein Cookie",
       "description": "The shared base cookie for the crumbl protein-cookie family — the flavor-neutral vanilla chassis every flavor derives from. Built from the tested-excellent set: Birthday Cake + Lemon dough at 1.5 scoops plus their shared cornstarch soft-crumb trick, with a lean egg white for structure. Frosting is a sub_recipe pin (defaults to the Cool-Whip vanilla protein frosting); flavors swap the pin — cream cheese for red velvet, a lemon drizzle for lemon. The 20g newcomer's heavier protein-load stays a queued experiment. Sweetener is granulated Splenda (calorically modeled, never monk fruit).",
       "tags": [
@@ -1038,11 +1038,11 @@
         ],
         "caloriesPerGramProtein": 12.72
       },
-      "createdAt": "2026-06-17T15:20:14.689Z"
+      "createdAt": "2026-06-18T16:47:43.472Z"
     },
-    "05380b37-f7a3-4a8e-9342-6b95dd8edc1a": {
-      "id": "05380b37-f7a3-4a8e-9342-6b95dd8edc1a",
-      "recipeId": "d29491c1-c856-48e4-86d8-88e249ec0e3d",
+    "802a9eb5-d8f9-4d4e-9aa0-b6f9ffad0af8": {
+      "id": "802a9eb5-d8f9-4d4e-9aa0-b6f9ffad0af8",
+      "recipeId": "b794187b-4ac3-4acb-8e80-8fd67f6fd09b",
       "name": "Browned-Butter Protein Cookies",
       "description": "Browned-butter protein chocolate-chip cookies, makes 3. VERSION A - Thick & Gooey (molten center): tall bakery-style mounds, intentionally uneven (gooey center, firmer edges). The thick middle cooks slowest, so the edges finish before the center - that's the price of a molten center. Soft, fragile, and pale is CORRECT; these don't brown like a normal cookie. Confirm doneness by breaking one open after resting: soft/dense/moist/baked = done; wet/gummy/raw-flour = 1-2 min more. (Version B - Even & Soft-Chewy - is a derived variant that flattens + bakes lower for one consistent texture.)",
       "tags": [
@@ -1489,11 +1489,11 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T15:20:14.844Z"
+      "createdAt": "2026-06-18T16:47:43.643Z"
     },
-    "37d99313-138b-4d6f-8788-fed6b8eaafac": {
-      "id": "37d99313-138b-4d6f-8788-fed6b8eaafac",
-      "recipeId": "76bf9341-cc1a-4e4e-b7a5-6be324b75852",
+    "dceb99f5-363a-476c-9be6-f0bca83bcaee": {
+      "id": "dceb99f5-363a-476c-9be6-f0bca83bcaee",
+      "recipeId": "8ed8984c-9692-4aaf-8ef0-33485821f9d1",
       "name": "Protein Cream-Cheese Frosting",
       "description": "Protein cream-cheese frosting — extracted from Red Velvet Protein Cookies as an M3 sub-recipe. Makes 1 batch (enough to frost one 5-cookie set). Its own base→variant root: Cool-Whip and other frostings derive from this.",
       "tags": [
@@ -1693,11 +1693,11 @@
         ],
         "caloriesPerGramProtein": 9.35
       },
-      "createdAt": "2026-06-17T15:20:15.001Z"
+      "createdAt": "2026-06-18T16:47:43.801Z"
     },
-    "dffa687f-e06e-4e2f-b4e0-c9773ee0e67d": {
-      "id": "dffa687f-e06e-4e2f-b4e0-c9773ee0e67d",
-      "recipeId": "630653af-2a9d-47a3-9156-b7a392e7a956",
+    "a56eed46-2678-4e6c-9d9e-b5757334613d": {
+      "id": "a56eed46-2678-4e6c-9d9e-b5757334613d",
+      "recipeId": "dc638859-9430-437c-b160-19066e2177f3",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -2340,11 +2340,11 @@
         ],
         "caloriesPerGramProtein": 9.8
       },
-      "createdAt": "2026-06-17T15:20:15.160Z"
+      "createdAt": "2026-06-18T16:47:43.956Z"
     },
-    "565c4652-e497-44b0-9ea6-7a78163172fc": {
-      "id": "565c4652-e497-44b0-9ea6-7a78163172fc",
-      "recipeId": "3d2cc186-988a-4c2b-bdb8-9353b1ba1c59",
+    "22f35e05-16ac-4bc0-abc2-2ec387f48072": {
+      "id": "22f35e05-16ac-4bc0-abc2-2ec387f48072",
+      "recipeId": "aedc552c-529e-4647-b092-a883a7f17708",
       "name": "High-Protein Anti-Pancake Sugar Cookies",
       "description": "Low-flour protein sugar cookie tuned to kill the rubbery 'pancake' texture: a scoop of whey replaces most flour and SF instant pudding binds moisture for a dense bakery chew. Sweetener is granulated Splenda; pudding modeled as the Simply Delish SF vanilla already in the library; butter is regular unsalted, already halved to 7 g. Leavening is baking powder only (no soda / cream of tartar). Final step is a fridge rest. Source: user. Stated batch macros ~428 kcal / 44P / 41C / 11F (107/cookie at 4).",
       "tags": [
@@ -2731,11 +2731,11 @@
         ],
         "caloriesPerGramProtein": 12.16
       },
-      "createdAt": "2026-06-17T15:20:15.319Z"
+      "createdAt": "2026-06-18T16:47:44.116Z"
     },
-    "f4407ad1-8a32-488a-9476-f5c98eb9fe5d": {
-      "id": "f4407ad1-8a32-488a-9476-f5c98eb9fe5d",
-      "recipeId": "747adb18-6ffa-404a-9674-201b084bd1c0",
+    "519a1275-ccf7-4d04-a720-99a13e53a7f5": {
+      "id": "519a1275-ccf7-4d04-a720-99a13e53a7f5",
+      "recipeId": "c349abda-6c4d-4d68-bf94-b21c25fc4699",
       "name": "High-Protein Nanaimo Bars",
       "description": "A high-protein, lower-calorie take on the classic three-layer Canadian Nanaimo bar: cocoa-coconut base, butterscotch protein filling, baking-chocolate top. Sweetener modeled as granulated Splenda; the 'or 20g oat flour' alt for coconut flour is not taken. Source: instagram. Stated full batch ~1300 kcal / 83C / 118P / 58F (header lists per-bar at 10 bars, but the directions slice 9 — yield set to 9).",
       "tags": [
@@ -3384,11 +3384,11 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T15:20:15.478Z"
+      "createdAt": "2026-06-18T16:47:44.272Z"
     },
-    "5d665498-110b-4a57-a1a9-8b3065b0bd8a": {
-      "id": "5d665498-110b-4a57-a1a9-8b3065b0bd8a",
-      "recipeId": "2e0fe028-6d41-4fca-9815-fe63e39f6e05",
+    "05034980-ac79-458f-b575-49a0e7b3eb9d": {
+      "id": "05034980-ac79-458f-b575-49a0e7b3eb9d",
+      "recipeId": "cb79ab33-a0e1-40f9-abb6-5795cbba5ef1",
       "name": "Protein Ice Cream Sandwich",
       "description": "Healthy protein ice cream sandwiches in the style of Fat Boys: a blended vanilla protein 'ice cream' between chocolate graham crackers. Source: healthbeet.org. Decent as-is; the filling really wants a Ninja Creami churn for texture. Stated macros ~135 kcal / 16C / 13-14P / 3F per sandwich.",
       "tags": [
@@ -3671,11 +3671,11 @@
         ],
         "caloriesPerGramProtein": 10.17
       },
-      "createdAt": "2026-06-17T15:20:15.635Z"
+      "createdAt": "2026-06-18T16:47:44.428Z"
     },
-    "c0b56d3a-8b79-4a42-8679-83472fe5ddf4": {
-      "id": "c0b56d3a-8b79-4a42-8679-83472fe5ddf4",
-      "recipeId": "caa23e38-0b80-46dc-b37b-3810ab7e4bac",
+    "f1d15ecb-49fa-48b4-aa37-f67cd9281214": {
+      "id": "f1d15ecb-49fa-48b4-aa37-f67cd9281214",
+      "recipeId": "1ec21b7d-ac8a-4084-87f3-b7b9f8975231",
       "name": "20g Protein Frosted Cookies",
       "description": "Macro-friendly frosted protein cookie (Instagram) ingested as a crumbl base-chassis candidate. Notable for a claimed <10 kcal per g protein, achieved by protein-loading: 3 scoops whey in only 5 cookies plus a full cup of nonfat Greek yogurt in the frosting. Modeled with regular AP flour (source said 'Bob's Red Mill GF flour or regular flour'); generic sweetener -> granulated Splenda; the 1 egg white authored as 33 g (one large white) since the library egg-white has no count equivalence; sprinkles ('to taste') omitted so it reads as a clean unfrosted-chassis sibling to the other crumbl cookies. Component keys aligned with the Birthday Cake base so compare row-aligns and promote can graft by key. Not yet made.",
       "tags": [
@@ -4141,11 +4141,11 @@
         ],
         "caloriesPerGramProtein": 9.21
       },
-      "createdAt": "2026-06-17T15:20:15.788Z"
+      "createdAt": "2026-06-18T16:47:44.584Z"
     },
-    "21e9b99c-59f8-4e59-84da-db262626e589": {
-      "id": "21e9b99c-59f8-4e59-84da-db262626e589",
-      "recipeId": "5b2bbdd0-9940-40f2-a802-07acd84dac83",
+    "822710b6-63b3-4a88-b3c1-c2b15fea4ace": {
+      "id": "822710b6-63b3-4a88-b3c1-c2b15fea4ace",
+      "recipeId": "6f0017a7-e245-40ca-acb4-99ddaaaf7104",
       "name": "Giant Single-Serve Protein Cookie",
       "description": "Yogurt-based high-protein cookie (no butter/sugar) found on Instagram, untried. Coconut flour subbed to oat flour; sugar-free chips to semi-sweet; 'zero cal sugar' to granulated Splenda. Chocolate chips unspecified in source — assumed 20g.",
       "tags": [
@@ -4449,11 +4449,11 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T15:20:15.948Z"
+      "createdAt": "2026-06-18T16:47:44.742Z"
     },
-    "33ed5077-3a00-4739-9cd5-45244731c141": {
-      "id": "33ed5077-3a00-4739-9cd5-45244731c141",
-      "recipeId": "22a4cff6-06a8-481e-94ac-50be566d70f4",
+    "06bd7d2b-20a4-4cb9-895d-fbfe5529adec": {
+      "id": "06bd7d2b-20a4-4cb9-895d-fbfe5529adec",
+      "recipeId": "3d1fbc68-bf57-4044-b61a-afc742a77a6a",
       "name": "Protein Graham Crust",
       "description": "Reusable cheesecake crust — graham crumbs bound with egg white + a little melted butter, lightly sweetened, par-baked. Egg-white bound so it sets firm at minimal fat (the binding that tested well on the turtle). This is the base crust a cheesecake composes in; skip it for a crustless cheesecake, or fork it for a flavored version. Sub-recipe (1 batch ~= 305 cal, presses a 9-inch bottom).",
       "tags": [
@@ -4652,12 +4652,12 @@
         ],
         "caloriesPerGramProtein": 45.08
       },
-      "createdAt": "2026-06-17T15:20:16.102Z"
+      "createdAt": "2026-06-18T16:47:44.906Z"
     },
-    "baa979b3-878f-4867-a7f0-948253230760": {
-      "id": "baa979b3-878f-4867-a7f0-948253230760",
-      "recipeId": "74811742-fc9c-4e2c-9bf1-0452ca9b6f32",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "580024f0-c767-4644-a127-fd2a2e2a0b4e": {
+      "id": "580024f0-c767-4644-a127-fd2a2e2a0b4e",
+      "recipeId": "fc43da97-9ca9-4c23-b0f9-79077d05b31f",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -5090,12 +5090,12 @@
         ],
         "caloriesPerGramProtein": 9.07
       },
-      "createdAt": "2026-06-17T15:20:16.261Z"
+      "createdAt": "2026-06-18T16:47:45.071Z"
     },
-    "b47fe33c-0014-435c-abe2-70ca0fb02fff": {
-      "id": "b47fe33c-0014-435c-abe2-70ca0fb02fff",
-      "recipeId": "74811742-fc9c-4e2c-9bf1-0452ca9b6f32",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "a1803fc4-c39c-4e36-a883-29cac65ade1b": {
+      "id": "a1803fc4-c39c-4e36-a883-29cac65ade1b",
+      "recipeId": "fc43da97-9ca9-4c23-b0f9-79077d05b31f",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -5542,13 +5542,13 @@
         ],
         "caloriesPerGramProtein": 9.07
       },
-      "createdAt": "2026-06-17T15:20:16.428Z",
-      "prevVersionId": "baa979b3-878f-4867-a7f0-948253230760"
+      "createdAt": "2026-06-18T16:47:45.236Z",
+      "prevVersionId": "580024f0-c767-4644-a127-fd2a2e2a0b4e"
     },
-    "af20273a-f3f6-4c15-9c8a-b0808be4de08": {
-      "id": "af20273a-f3f6-4c15-9c8a-b0808be4de08",
-      "recipeId": "74811742-fc9c-4e2c-9bf1-0452ca9b6f32",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "3dde0d84-a35b-4f3b-a1a3-b7acf607fe43": {
+      "id": "3dde0d84-a35b-4f3b-a1a3-b7acf607fe43",
+      "recipeId": "fc43da97-9ca9-4c23-b0f9-79077d05b31f",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -5580,7 +5580,7 @@
             "payload": {
               "componentKey": "s1",
               "order": 1,
-              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
             }
           }
         ],
@@ -5591,7 +5591,7 @@
           {
             "componentKey": "s1",
             "order": 1,
-            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
           },
           {
             "componentKey": "s2",
@@ -6005,13 +6005,13 @@
         ],
         "caloriesPerGramProtein": 9.07
       },
-      "createdAt": "2026-06-17T15:20:16.588Z",
-      "prevVersionId": "b47fe33c-0014-435c-abe2-70ca0fb02fff"
+      "createdAt": "2026-06-18T16:47:45.400Z",
+      "prevVersionId": "a1803fc4-c39c-4e36-a883-29cac65ade1b"
     },
-    "1c871cfc-33a0-4582-b362-34f2d1170c0b": {
-      "id": "1c871cfc-33a0-4582-b362-34f2d1170c0b",
-      "recipeId": "74811742-fc9c-4e2c-9bf1-0452ca9b6f32",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "740e4ade-e7b4-4208-9f93-03e1a6de1533": {
+      "id": "740e4ade-e7b4-4208-9f93-03e1a6de1533",
+      "recipeId": "fc43da97-9ca9-4c23-b0f9-79077d05b31f",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -6043,7 +6043,7 @@
             "payload": {
               "componentKey": "s1",
               "order": 1,
-              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
             }
           },
           {
@@ -6067,7 +6067,7 @@
           {
             "componentKey": "s1",
             "order": 1,
-            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
           },
           {
             "componentKey": "s2",
@@ -6490,13 +6490,13 @@
         ],
         "caloriesPerGramProtein": 9.07
       },
-      "createdAt": "2026-06-17T15:20:16.752Z",
-      "prevVersionId": "af20273a-f3f6-4c15-9c8a-b0808be4de08"
+      "createdAt": "2026-06-18T16:47:45.561Z",
+      "prevVersionId": "3dde0d84-a35b-4f3b-a1a3-b7acf607fe43"
     },
-    "c814fe0c-e35f-4f7b-8f0d-30a293868232": {
-      "id": "c814fe0c-e35f-4f7b-8f0d-30a293868232",
-      "recipeId": "74811742-fc9c-4e2c-9bf1-0452ca9b6f32",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "6c1285fc-e6bd-4a3c-bd89-7caa5ffbab9d": {
+      "id": "6c1285fc-e6bd-4a3c-bd89-7caa5ffbab9d",
+      "recipeId": "fc43da97-9ca9-4c23-b0f9-79077d05b31f",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -6528,7 +6528,7 @@
             "payload": {
               "componentKey": "s1",
               "order": 1,
-              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
             }
           },
           {
@@ -6564,7 +6564,7 @@
           {
             "componentKey": "s1",
             "order": 1,
-            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
           },
           {
             "componentKey": "s2",
@@ -7009,13 +7009,13 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T15:20:16.915Z",
-      "prevVersionId": "1c871cfc-33a0-4582-b362-34f2d1170c0b"
+      "createdAt": "2026-06-18T16:47:45.725Z",
+      "prevVersionId": "740e4ade-e7b4-4208-9f93-03e1a6de1533"
     },
-    "405b85b0-2a5b-4166-8db3-1b2b85712b0c": {
-      "id": "405b85b0-2a5b-4166-8db3-1b2b85712b0c",
-      "recipeId": "74811742-fc9c-4e2c-9bf1-0452ca9b6f32",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "343da069-ebb0-4cf8-afb3-a72be11a6b4a": {
+      "id": "343da069-ebb0-4cf8-afb3-a72be11a6b4a",
+      "recipeId": "fc43da97-9ca9-4c23-b0f9-79077d05b31f",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -7047,7 +7047,7 @@
             "payload": {
               "componentKey": "s1",
               "order": 1,
-              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
             }
           },
           {
@@ -7095,7 +7095,7 @@
           {
             "componentKey": "s1",
             "order": 1,
-            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
           },
           {
             "componentKey": "s2",
@@ -7548,13 +7548,13 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T15:20:17.076Z",
-      "prevVersionId": "c814fe0c-e35f-4f7b-8f0d-30a293868232"
+      "createdAt": "2026-06-18T16:47:45.886Z",
+      "prevVersionId": "6c1285fc-e6bd-4a3c-bd89-7caa5ffbab9d"
     },
-    "62d201b1-d83a-406a-bd7b-f5304cbdf570": {
-      "id": "62d201b1-d83a-406a-bd7b-f5304cbdf570",
-      "recipeId": "74811742-fc9c-4e2c-9bf1-0452ca9b6f32",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "438fcad4-c6e8-47c4-9bc5-c36bc9e5424a": {
+      "id": "438fcad4-c6e8-47c4-9bc5-c36bc9e5424a",
+      "recipeId": "fc43da97-9ca9-4c23-b0f9-79077d05b31f",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -7586,7 +7586,7 @@
             "payload": {
               "componentKey": "s1",
               "order": 1,
-              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
             }
           },
           {
@@ -7631,7 +7631,7 @@
             "kind": "usage",
             "payload": {
               "componentKey": "u-cinnamon-batter",
-              "stepKey": "s3",
+              "stepKey": "s1",
               "slotKey": "sl-cinnamon",
               "quantityValue": 2,
               "quantityUnit": "tsp"
@@ -7645,7 +7645,7 @@
           {
             "componentKey": "s1",
             "order": 1,
-            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
           },
           {
             "componentKey": "s2",
@@ -7891,7 +7891,7 @@
           },
           {
             "componentKey": "u-cinnamon-batter",
-            "stepKey": "s3",
+            "stepKey": "s1",
             "slotKey": "sl-cinnamon",
             "quantityValue": 2,
             "quantityUnit": "tsp"
@@ -8119,13 +8119,13 @@
         ],
         "caloriesPerGramProtein": 10.18
       },
-      "createdAt": "2026-06-17T15:20:17.236Z",
-      "prevVersionId": "405b85b0-2a5b-4166-8db3-1b2b85712b0c"
+      "createdAt": "2026-06-18T16:47:46.051Z",
+      "prevVersionId": "343da069-ebb0-4cf8-afb3-a72be11a6b4a"
     },
-    "99cb6deb-6ff0-40f6-9a01-4b851b67dff2": {
-      "id": "99cb6deb-6ff0-40f6-9a01-4b851b67dff2",
-      "recipeId": "74811742-fc9c-4e2c-9bf1-0452ca9b6f32",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "b0af48a4-1521-4c42-a57a-55e0a76417d6": {
+      "id": "b0af48a4-1521-4c42-a57a-55e0a76417d6",
+      "recipeId": "fc43da97-9ca9-4c23-b0f9-79077d05b31f",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -8157,7 +8157,7 @@
             "payload": {
               "componentKey": "s1",
               "order": 1,
-              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
             }
           },
           {
@@ -8202,7 +8202,7 @@
             "kind": "usage",
             "payload": {
               "componentKey": "u-cinnamon-batter",
-              "stepKey": "s3",
+              "stepKey": "s1",
               "slotKey": "sl-cinnamon",
               "quantityValue": 2,
               "quantityUnit": "tsp"
@@ -8215,7 +8215,7 @@
             "payload": {
               "componentKey": "s5",
               "order": 5,
-              "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. Top with graham crumbs + cinnamon (add after baking if you want them crisp)."
+              "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. For the topping, toast the graham crumbs with the garnish cinnamon in a dry pan over medium heat ~1 min, stirring, until fragrant, then let cool. Scatter over the cheesecake after baking so they stay crisp."
             }
           }
         ],
@@ -8226,7 +8226,7 @@
           {
             "componentKey": "s1",
             "order": 1,
-            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
           },
           {
             "componentKey": "s2",
@@ -8246,7 +8246,7 @@
           {
             "componentKey": "s5",
             "order": 5,
-            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. Top with graham crumbs + cinnamon (add after baking if you want them crisp)."
+            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. For the topping, toast the graham crumbs with the garnish cinnamon in a dry pan over medium heat ~1 min, stirring, until fragrant, then let cool. Scatter over the cheesecake after baking so they stay crisp."
           },
           {
             "componentKey": "s6",
@@ -8472,7 +8472,7 @@
           },
           {
             "componentKey": "u-cinnamon-batter",
-            "stepKey": "s3",
+            "stepKey": "s1",
             "slotKey": "sl-cinnamon",
             "quantityValue": 2,
             "quantityUnit": "tsp"
@@ -8700,13 +8700,13 @@
         ],
         "caloriesPerGramProtein": 10.18
       },
-      "createdAt": "2026-06-17T15:20:17.401Z",
-      "prevVersionId": "62d201b1-d83a-406a-bd7b-f5304cbdf570"
+      "createdAt": "2026-06-18T16:47:46.214Z",
+      "prevVersionId": "438fcad4-c6e8-47c4-9bc5-c36bc9e5424a"
     },
-    "71c1c3c4-8de9-4a2f-9d1b-43ea3da077de": {
-      "id": "71c1c3c4-8de9-4a2f-9d1b-43ea3da077de",
-      "recipeId": "74811742-fc9c-4e2c-9bf1-0452ca9b6f32",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "0b6f5e7a-75ef-4b26-8547-9d9b39e0a363": {
+      "id": "0b6f5e7a-75ef-4b26-8547-9d9b39e0a363",
+      "recipeId": "fc43da97-9ca9-4c23-b0f9-79077d05b31f",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -8738,7 +8738,7 @@
             "payload": {
               "componentKey": "s1",
               "order": 1,
-              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
             }
           },
           {
@@ -8783,7 +8783,7 @@
             "kind": "usage",
             "payload": {
               "componentKey": "u-cinnamon-batter",
-              "stepKey": "s3",
+              "stepKey": "s1",
               "slotKey": "sl-cinnamon",
               "quantityValue": 2,
               "quantityUnit": "tsp"
@@ -8796,7 +8796,7 @@
             "payload": {
               "componentKey": "s5",
               "order": 5,
-              "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. Top with graham crumbs + cinnamon (add after baking if you want them crisp)."
+              "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. For the topping, toast the graham crumbs with the garnish cinnamon in a dry pan over medium heat ~1 min, stirring, until fragrant, then let cool. Scatter over the cheesecake after baking so they stay crisp."
             }
           },
           {
@@ -8819,7 +8819,7 @@
           {
             "componentKey": "s1",
             "order": 1,
-            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
           },
           {
             "componentKey": "s2",
@@ -8839,7 +8839,7 @@
           {
             "componentKey": "s5",
             "order": 5,
-            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. Top with graham crumbs + cinnamon (add after baking if you want them crisp)."
+            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. For the topping, toast the graham crumbs with the garnish cinnamon in a dry pan over medium heat ~1 min, stirring, until fragrant, then let cool. Scatter over the cheesecake after baking so they stay crisp."
           },
           {
             "componentKey": "s6",
@@ -9073,7 +9073,7 @@
           },
           {
             "componentKey": "u-cinnamon-batter",
-            "stepKey": "s3",
+            "stepKey": "s1",
             "slotKey": "sl-cinnamon",
             "quantityValue": 2,
             "quantityUnit": "tsp"
@@ -9301,13 +9301,13 @@
         ],
         "caloriesPerGramProtein": 10.18
       },
-      "createdAt": "2026-06-17T15:20:17.562Z",
-      "prevVersionId": "99cb6deb-6ff0-40f6-9a01-4b851b67dff2"
+      "createdAt": "2026-06-18T16:47:46.378Z",
+      "prevVersionId": "b0af48a4-1521-4c42-a57a-55e0a76417d6"
     },
-    "01830f35-b3f3-41ad-a98e-0a75c7e4cde8": {
-      "id": "01830f35-b3f3-41ad-a98e-0a75c7e4cde8",
-      "recipeId": "74811742-fc9c-4e2c-9bf1-0452ca9b6f32",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "4ce3bd76-74c4-4f43-9507-dbb78b217542": {
+      "id": "4ce3bd76-74c4-4f43-9507-dbb78b217542",
+      "recipeId": "fc43da97-9ca9-4c23-b0f9-79077d05b31f",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -9339,7 +9339,7 @@
             "payload": {
               "componentKey": "s1",
               "order": 1,
-              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
             }
           },
           {
@@ -9384,7 +9384,7 @@
             "kind": "usage",
             "payload": {
               "componentKey": "u-cinnamon-batter",
-              "stepKey": "s3",
+              "stepKey": "s1",
               "slotKey": "sl-cinnamon",
               "quantityValue": 2,
               "quantityUnit": "tsp"
@@ -9397,7 +9397,7 @@
             "payload": {
               "componentKey": "s5",
               "order": 5,
-              "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. Top with graham crumbs + cinnamon (add after baking if you want them crisp)."
+              "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. For the topping, toast the graham crumbs with the garnish cinnamon in a dry pan over medium heat ~1 min, stirring, until fragrant, then let cool. Scatter over the cheesecake after baking so they stay crisp."
             }
           },
           {
@@ -9432,7 +9432,7 @@
           {
             "componentKey": "s1",
             "order": 1,
-            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
           },
           {
             "componentKey": "s2",
@@ -9452,7 +9452,7 @@
           {
             "componentKey": "s5",
             "order": 5,
-            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. Top with graham crumbs + cinnamon (add after baking if you want them crisp)."
+            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. For the topping, toast the graham crumbs with the garnish cinnamon in a dry pan over medium heat ~1 min, stirring, until fragrant, then let cool. Scatter over the cheesecake after baking so they stay crisp."
           },
           {
             "componentKey": "s6",
@@ -9686,7 +9686,7 @@
           },
           {
             "componentKey": "u-cinnamon-batter",
-            "stepKey": "s3",
+            "stepKey": "s1",
             "slotKey": "sl-cinnamon",
             "quantityValue": 2,
             "quantityUnit": "tsp"
@@ -9936,13 +9936,13 @@
         ],
         "caloriesPerGramProtein": 10.63
       },
-      "createdAt": "2026-06-17T15:20:17.727Z",
-      "prevVersionId": "71c1c3c4-8de9-4a2f-9d1b-43ea3da077de"
+      "createdAt": "2026-06-18T16:47:46.543Z",
+      "prevVersionId": "0b6f5e7a-75ef-4b26-8547-9d9b39e0a363"
     },
-    "401204e2-fdc3-4010-93b8-77bb57270ba4": {
-      "id": "401204e2-fdc3-4010-93b8-77bb57270ba4",
-      "recipeId": "74811742-fc9c-4e2c-9bf1-0452ca9b6f32",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "1ff49a10-fe5e-4c04-b2f4-fea8d7eab7b8": {
+      "id": "1ff49a10-fe5e-4c04-b2f4-fea8d7eab7b8",
+      "recipeId": "fc43da97-9ca9-4c23-b0f9-79077d05b31f",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -9974,7 +9974,7 @@
             "payload": {
               "componentKey": "s1",
               "order": 1,
-              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
             }
           },
           {
@@ -10019,7 +10019,7 @@
             "kind": "usage",
             "payload": {
               "componentKey": "u-cinnamon-batter",
-              "stepKey": "s3",
+              "stepKey": "s1",
               "slotKey": "sl-cinnamon",
               "quantityValue": 2,
               "quantityUnit": "tsp"
@@ -10032,7 +10032,7 @@
             "payload": {
               "componentKey": "s5",
               "order": 5,
-              "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. Top with graham crumbs + cinnamon (add after baking if you want them crisp)."
+              "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. For the topping, toast the graham crumbs with the garnish cinnamon in a dry pan over medium heat ~1 min, stirring, until fragrant, then let cool. Scatter over the cheesecake after baking so they stay crisp."
             }
           },
           {
@@ -10079,7 +10079,7 @@
           {
             "componentKey": "s1",
             "order": 1,
-            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
           },
           {
             "componentKey": "s2",
@@ -10099,7 +10099,7 @@
           {
             "componentKey": "s5",
             "order": 5,
-            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. Top with graham crumbs + cinnamon (add after baking if you want them crisp)."
+            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. For the topping, toast the graham crumbs with the garnish cinnamon in a dry pan over medium heat ~1 min, stirring, until fragrant, then let cool. Scatter over the cheesecake after baking so they stay crisp."
           },
           {
             "componentKey": "s6",
@@ -10333,7 +10333,7 @@
           },
           {
             "componentKey": "u-cinnamon-batter",
-            "stepKey": "s3",
+            "stepKey": "s1",
             "slotKey": "sl-cinnamon",
             "quantityValue": 2,
             "quantityUnit": "tsp"
@@ -10605,13 +10605,13 @@
         ],
         "caloriesPerGramProtein": 10.65
       },
-      "createdAt": "2026-06-17T15:20:17.890Z",
-      "prevVersionId": "01830f35-b3f3-41ad-a98e-0a75c7e4cde8"
+      "createdAt": "2026-06-18T16:47:46.708Z",
+      "prevVersionId": "4ce3bd76-74c4-4f43-9507-dbb78b217542"
     },
-    "19ec8299-039b-4e99-b548-72d38f42c0f4": {
-      "id": "19ec8299-039b-4e99-b548-72d38f42c0f4",
-      "recipeId": "74811742-fc9c-4e2c-9bf1-0452ca9b6f32",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "9c34e2df-ec54-40fc-a47b-65e8f9897d99": {
+      "id": "9c34e2df-ec54-40fc-a47b-65e8f9897d99",
+      "recipeId": "fc43da97-9ca9-4c23-b0f9-79077d05b31f",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Banana Butterscotch Cinnamon Cheesecake",
       "tags": [],
       "yield": {
@@ -10643,7 +10643,7 @@
             "payload": {
               "componentKey": "s1",
               "order": 1,
-              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+              "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
             }
           },
           {
@@ -10688,7 +10688,7 @@
             "kind": "usage",
             "payload": {
               "componentKey": "u-cinnamon-batter",
-              "stepKey": "s3",
+              "stepKey": "s1",
               "slotKey": "sl-cinnamon",
               "quantityValue": 2,
               "quantityUnit": "tsp"
@@ -10701,7 +10701,7 @@
             "payload": {
               "componentKey": "s5",
               "order": 5,
-              "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. Top with graham crumbs + cinnamon (add after baking if you want them crisp)."
+              "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. For the topping, toast the graham crumbs with the garnish cinnamon in a dry pan over medium heat ~1 min, stirring, until fragrant, then let cool. Scatter over the cheesecake after baking so they stay crisp."
             }
           },
           {
@@ -10757,7 +10757,7 @@
           {
             "componentKey": "s1",
             "order": 1,
-            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+            "instructionText": "Caramelize the banana: slice and cook in a nonstick pan over medium heat with a sprinkle of sweetener until golden, ~2-3 min per side. Add the pumpkin to the same pan and cook 3-5 min, stirring, until thickened and nutty. In the last ~45-60 sec, stir the ground cinnamon into the hot fruit to toast it — it should turn fragrant and deepen a shade. Toast it in the fruit, not in a dry pan: loose ground cinnamon scorches in seconds, but the fruit's moisture buffers it so it blooms evenly. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
           },
           {
             "componentKey": "s2",
@@ -10777,7 +10777,7 @@
           {
             "componentKey": "s5",
             "order": 5,
-            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. Top with graham crumbs + cinnamon (add after baking if you want them crisp)."
+            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles. For the topping, toast the graham crumbs with the garnish cinnamon in a dry pan over medium heat ~1 min, stirring, until fragrant, then let cool. Scatter over the cheesecake after baking so they stay crisp."
           },
           {
             "componentKey": "s6",
@@ -11016,7 +11016,7 @@
           },
           {
             "componentKey": "u-cinnamon-batter",
-            "stepKey": "s3",
+            "stepKey": "s1",
             "slotKey": "sl-cinnamon",
             "quantityValue": 2,
             "quantityUnit": "tsp"
@@ -11288,13 +11288,13 @@
         ],
         "caloriesPerGramProtein": 10.65
       },
-      "createdAt": "2026-06-17T15:20:18.054Z",
-      "prevVersionId": "401204e2-fdc3-4010-93b8-77bb57270ba4"
+      "createdAt": "2026-06-18T16:47:46.875Z",
+      "prevVersionId": "1ff49a10-fe5e-4c04-b2f4-fea8d7eab7b8"
     },
-    "b9612bff-069d-490e-ad05-ef831bba97bf": {
-      "id": "b9612bff-069d-490e-ad05-ef831bba97bf",
-      "recipeId": "4f0c17fa-2d26-4952-aeb1-a568d5506c51",
-      "derivesFromVersionId": "37d99313-138b-4d6f-8788-fed6b8eaafac",
+    "5f94f00e-7157-4009-80b4-f9c1033f6206": {
+      "id": "5f94f00e-7157-4009-80b4-f9c1033f6206",
+      "recipeId": "e7c1c7b6-e039-4bcd-ae67-8f54c664eaa8",
+      "derivesFromVersionId": "dceb99f5-363a-476c-9be6-f0bca83bcaee",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -11491,12 +11491,12 @@
         ],
         "caloriesPerGramProtein": 9.35
       },
-      "createdAt": "2026-06-17T15:20:18.223Z"
+      "createdAt": "2026-06-18T16:47:47.052Z"
     },
-    "2247ba70-e44a-4a95-a1ef-22cd10f9e7ed": {
-      "id": "2247ba70-e44a-4a95-a1ef-22cd10f9e7ed",
-      "recipeId": "4f0c17fa-2d26-4952-aeb1-a568d5506c51",
-      "derivesFromVersionId": "37d99313-138b-4d6f-8788-fed6b8eaafac",
+    "af678a6a-6b6d-4272-8049-76a58b816f9e": {
+      "id": "af678a6a-6b6d-4272-8049-76a58b816f9e",
+      "recipeId": "e7c1c7b6-e039-4bcd-ae67-8f54c664eaa8",
+      "derivesFromVersionId": "dceb99f5-363a-476c-9be6-f0bca83bcaee",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -11706,13 +11706,13 @@
         ],
         "caloriesPerGramProtein": 10.02
       },
-      "createdAt": "2026-06-17T15:20:18.398Z",
-      "prevVersionId": "b9612bff-069d-490e-ad05-ef831bba97bf"
+      "createdAt": "2026-06-18T16:47:47.221Z",
+      "prevVersionId": "5f94f00e-7157-4009-80b4-f9c1033f6206"
     },
-    "a8db47e5-af79-42fb-9d86-f58be25785ba": {
-      "id": "a8db47e5-af79-42fb-9d86-f58be25785ba",
-      "recipeId": "4f0c17fa-2d26-4952-aeb1-a568d5506c51",
-      "derivesFromVersionId": "37d99313-138b-4d6f-8788-fed6b8eaafac",
+    "01936f58-c7db-4647-b01d-02e9d3c247f8": {
+      "id": "01936f58-c7db-4647-b01d-02e9d3c247f8",
+      "recipeId": "e7c1c7b6-e039-4bcd-ae67-8f54c664eaa8",
+      "derivesFromVersionId": "dceb99f5-363a-476c-9be6-f0bca83bcaee",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -11906,13 +11906,13 @@
         ],
         "caloriesPerGramProtein": 6.54
       },
-      "createdAt": "2026-06-17T15:20:18.561Z",
-      "prevVersionId": "2247ba70-e44a-4a95-a1ef-22cd10f9e7ed"
+      "createdAt": "2026-06-18T16:47:47.383Z",
+      "prevVersionId": "af678a6a-6b6d-4272-8049-76a58b816f9e"
     },
-    "4a31a4f0-fa7f-444d-9834-46600b2a5f71": {
-      "id": "4a31a4f0-fa7f-444d-9834-46600b2a5f71",
-      "recipeId": "4f0c17fa-2d26-4952-aeb1-a568d5506c51",
-      "derivesFromVersionId": "37d99313-138b-4d6f-8788-fed6b8eaafac",
+    "4e43421a-2be2-48b6-b6d6-9d53a9d0964b": {
+      "id": "4e43421a-2be2-48b6-b6d6-9d53a9d0964b",
+      "recipeId": "e7c1c7b6-e039-4bcd-ae67-8f54c664eaa8",
+      "derivesFromVersionId": "dceb99f5-363a-476c-9be6-f0bca83bcaee",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -12103,13 +12103,13 @@
         ],
         "caloriesPerGramProtein": 6.54
       },
-      "createdAt": "2026-06-17T15:20:18.725Z",
-      "prevVersionId": "a8db47e5-af79-42fb-9d86-f58be25785ba"
+      "createdAt": "2026-06-18T16:47:47.552Z",
+      "prevVersionId": "01936f58-c7db-4647-b01d-02e9d3c247f8"
     },
-    "0f506f4d-b3ee-4d6a-ab25-93bf43aa6954": {
-      "id": "0f506f4d-b3ee-4d6a-ab25-93bf43aa6954",
-      "recipeId": "4f0c17fa-2d26-4952-aeb1-a568d5506c51",
-      "derivesFromVersionId": "37d99313-138b-4d6f-8788-fed6b8eaafac",
+    "501d7f38-1d49-46c5-bc0b-8d61984baecf": {
+      "id": "501d7f38-1d49-46c5-bc0b-8d61984baecf",
+      "recipeId": "e7c1c7b6-e039-4bcd-ae67-8f54c664eaa8",
+      "derivesFromVersionId": "dceb99f5-363a-476c-9be6-f0bca83bcaee",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -12320,13 +12320,13 @@
         ],
         "caloriesPerGramProtein": 6.54
       },
-      "createdAt": "2026-06-17T15:20:18.891Z",
-      "prevVersionId": "4a31a4f0-fa7f-444d-9834-46600b2a5f71"
+      "createdAt": "2026-06-18T16:47:47.716Z",
+      "prevVersionId": "4e43421a-2be2-48b6-b6d6-9d53a9d0964b"
     },
-    "1f2c3423-4cb9-47c0-b817-028eca87d9f5": {
-      "id": "1f2c3423-4cb9-47c0-b817-028eca87d9f5",
-      "recipeId": "4f0c17fa-2d26-4952-aeb1-a568d5506c51",
-      "derivesFromVersionId": "37d99313-138b-4d6f-8788-fed6b8eaafac",
+    "3f564928-5674-4216-bbbd-223c0fac96f4": {
+      "id": "3f564928-5674-4216-bbbd-223c0fac96f4",
+      "recipeId": "e7c1c7b6-e039-4bcd-ae67-8f54c664eaa8",
+      "derivesFromVersionId": "dceb99f5-363a-476c-9be6-f0bca83bcaee",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -12569,13 +12569,13 @@
         ],
         "caloriesPerGramProtein": 7.11
       },
-      "createdAt": "2026-06-17T15:20:19.065Z",
-      "prevVersionId": "0f506f4d-b3ee-4d6a-ab25-93bf43aa6954"
+      "createdAt": "2026-06-18T16:47:47.882Z",
+      "prevVersionId": "501d7f38-1d49-46c5-bc0b-8d61984baecf"
     },
-    "6393423c-23db-4175-90a5-80c159b75972": {
-      "id": "6393423c-23db-4175-90a5-80c159b75972",
-      "recipeId": "4f0c17fa-2d26-4952-aeb1-a568d5506c51",
-      "derivesFromVersionId": "37d99313-138b-4d6f-8788-fed6b8eaafac",
+    "fbb8b204-3ad3-4cc8-ad15-091791e647ed": {
+      "id": "fbb8b204-3ad3-4cc8-ad15-091791e647ed",
+      "recipeId": "e7c1c7b6-e039-4bcd-ae67-8f54c664eaa8",
+      "derivesFromVersionId": "dceb99f5-363a-476c-9be6-f0bca83bcaee",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -12830,13 +12830,13 @@
         ],
         "caloriesPerGramProtein": 7.96
       },
-      "createdAt": "2026-06-17T15:20:19.231Z",
-      "prevVersionId": "1f2c3423-4cb9-47c0-b817-028eca87d9f5"
+      "createdAt": "2026-06-18T16:47:48.049Z",
+      "prevVersionId": "3f564928-5674-4216-bbbd-223c0fac96f4"
     },
-    "f41a813f-d47c-40e4-81c2-b4b8c1bba8e7": {
-      "id": "f41a813f-d47c-40e4-81c2-b4b8c1bba8e7",
-      "recipeId": "4f0c17fa-2d26-4952-aeb1-a568d5506c51",
-      "derivesFromVersionId": "37d99313-138b-4d6f-8788-fed6b8eaafac",
+    "edf851a1-4667-4d4d-9aa2-9761e5f355c4": {
+      "id": "edf851a1-4667-4d4d-9aa2-9761e5f355c4",
+      "recipeId": "e7c1c7b6-e039-4bcd-ae67-8f54c664eaa8",
+      "derivesFromVersionId": "dceb99f5-363a-476c-9be6-f0bca83bcaee",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -13103,13 +13103,13 @@
         ],
         "caloriesPerGramProtein": 6.82
       },
-      "createdAt": "2026-06-17T15:20:19.398Z",
-      "prevVersionId": "6393423c-23db-4175-90a5-80c159b75972"
+      "createdAt": "2026-06-18T16:47:48.214Z",
+      "prevVersionId": "fbb8b204-3ad3-4cc8-ad15-091791e647ed"
     },
-    "119f4875-aae4-46c1-bbd4-94c5d8cd74ca": {
-      "id": "119f4875-aae4-46c1-bbd4-94c5d8cd74ca",
-      "recipeId": "4f0c17fa-2d26-4952-aeb1-a568d5506c51",
-      "derivesFromVersionId": "37d99313-138b-4d6f-8788-fed6b8eaafac",
+    "59e09727-a76d-4374-a529-d33eebeb4bc3": {
+      "id": "59e09727-a76d-4374-a529-d33eebeb4bc3",
+      "recipeId": "e7c1c7b6-e039-4bcd-ae67-8f54c664eaa8",
+      "derivesFromVersionId": "dceb99f5-363a-476c-9be6-f0bca83bcaee",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -13388,13 +13388,13 @@
         ],
         "caloriesPerGramProtein": 6.6
       },
-      "createdAt": "2026-06-17T15:20:19.563Z",
-      "prevVersionId": "f41a813f-d47c-40e4-81c2-b4b8c1bba8e7"
+      "createdAt": "2026-06-18T16:47:48.381Z",
+      "prevVersionId": "edf851a1-4667-4d4d-9aa2-9761e5f355c4"
     },
-    "968e759c-4ebd-437e-a93c-0a3bcc9d8508": {
-      "id": "968e759c-4ebd-437e-a93c-0a3bcc9d8508",
-      "recipeId": "4f0c17fa-2d26-4952-aeb1-a568d5506c51",
-      "derivesFromVersionId": "37d99313-138b-4d6f-8788-fed6b8eaafac",
+    "c5613f59-5117-4a79-ac48-80ace131a386": {
+      "id": "c5613f59-5117-4a79-ac48-80ace131a386",
+      "recipeId": "e7c1c7b6-e039-4bcd-ae67-8f54c664eaa8",
+      "derivesFromVersionId": "dceb99f5-363a-476c-9be6-f0bca83bcaee",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -13693,13 +13693,13 @@
         ],
         "caloriesPerGramProtein": 6.6
       },
-      "createdAt": "2026-06-17T15:20:19.728Z",
-      "prevVersionId": "119f4875-aae4-46c1-bbd4-94c5d8cd74ca"
+      "createdAt": "2026-06-18T16:47:48.546Z",
+      "prevVersionId": "59e09727-a76d-4374-a529-d33eebeb4bc3"
     },
-    "3902a6ab-c8b4-4398-873d-c8ea81b3977a": {
-      "id": "3902a6ab-c8b4-4398-873d-c8ea81b3977a",
-      "recipeId": "4f0c17fa-2d26-4952-aeb1-a568d5506c51",
-      "derivesFromVersionId": "37d99313-138b-4d6f-8788-fed6b8eaafac",
+    "3e881df1-e81e-4817-bf45-044c9102324f": {
+      "id": "3e881df1-e81e-4817-bf45-044c9102324f",
+      "recipeId": "e7c1c7b6-e039-4bcd-ae67-8f54c664eaa8",
+      "derivesFromVersionId": "dceb99f5-363a-476c-9be6-f0bca83bcaee",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -14030,13 +14030,13 @@
         ],
         "caloriesPerGramProtein": 6.6
       },
-      "createdAt": "2026-06-17T15:20:19.893Z",
-      "prevVersionId": "968e759c-4ebd-437e-a93c-0a3bcc9d8508"
+      "createdAt": "2026-06-18T16:47:48.709Z",
+      "prevVersionId": "c5613f59-5117-4a79-ac48-80ace131a386"
     },
-    "9732226c-dd7e-46b2-8302-07524ac3717f": {
-      "id": "9732226c-dd7e-46b2-8302-07524ac3717f",
-      "recipeId": "4f0c17fa-2d26-4952-aeb1-a568d5506c51",
-      "derivesFromVersionId": "37d99313-138b-4d6f-8788-fed6b8eaafac",
+    "a377b672-fb59-40df-bc95-2d934a2b8c0b": {
+      "id": "a377b672-fb59-40df-bc95-2d934a2b8c0b",
+      "recipeId": "e7c1c7b6-e039-4bcd-ae67-8f54c664eaa8",
+      "derivesFromVersionId": "dceb99f5-363a-476c-9be6-f0bca83bcaee",
       "name": "Cool-Whip Protein Frosting",
       "tags": [],
       "yield": {
@@ -14377,12 +14377,12 @@
         ],
         "caloriesPerGramProtein": 6.6
       },
-      "createdAt": "2026-06-17T15:20:20.058Z",
-      "prevVersionId": "3902a6ab-c8b4-4398-873d-c8ea81b3977a"
+      "createdAt": "2026-06-18T16:47:48.874Z",
+      "prevVersionId": "3e881df1-e81e-4817-bf45-044c9102324f"
     },
-    "ca441475-a7ff-4f6a-a27b-5f2e9391011d": {
-      "id": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
-      "recipeId": "81045eff-e859-4531-859f-68fcb07346af",
+    "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c": {
+      "id": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
+      "recipeId": "1085d8f9-602d-4323-9041-dcbabdc3d48e",
       "name": "Crumbl Base Protein Cookie",
       "description": "The shared base cookie for the crumbl protein-cookie family — the flavor-neutral vanilla chassis every flavor derives from. Built from the tested-excellent set: Birthday Cake + Lemon dough at 1.5 scoops plus their shared cornstarch soft-crumb trick, with a lean egg white for structure. Frosting is a sub_recipe pin (defaults to the Cool-Whip vanilla protein frosting); flavors swap the pin — cream cheese for red velvet, a lemon drizzle for lemon. The 20g newcomer's heavier protein-load stays a queued experiment. Sweetener is granulated Splenda (calorically modeled, never monk fruit).",
       "tags": [
@@ -14535,7 +14535,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "9732226c-dd7e-46b2-8302-07524ac3717f"
+              "subRecipeVersionId": "a377b672-fb59-40df-bc95-2d934a2b8c0b"
             }
           }
         ],
@@ -14839,13 +14839,13 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T15:20:20.229Z",
-      "prevVersionId": "dd5f28b0-7c6b-41ea-b6d6-9c20c1bf81df"
+      "createdAt": "2026-06-18T16:47:49.048Z",
+      "prevVersionId": "71247aa3-dd4c-4066-950d-246ebe42ce15"
     },
-    "1ea243fc-2e36-4f92-90d4-c2427cfdf644": {
-      "id": "1ea243fc-2e36-4f92-90d4-c2427cfdf644",
-      "recipeId": "82ca2d90-2982-4bd7-9b5c-9bcf9010d1ca",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "97e76ba4-c3b6-4b3c-b346-ef580870257f": {
+      "id": "97e76ba4-c3b6-4b3c-b346-ef580870257f",
+      "recipeId": "0734e9dd-3410-4d3b-b8d1-8a61ae656f98",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Birthday Cake Protein Cookies",
       "tags": [],
       "yield": {
@@ -14996,7 +14996,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "9732226c-dd7e-46b2-8302-07524ac3717f"
+              "subRecipeVersionId": "a377b672-fb59-40df-bc95-2d934a2b8c0b"
             }
           }
         ],
@@ -15300,12 +15300,12 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T15:20:20.395Z"
+      "createdAt": "2026-06-18T16:47:49.221Z"
     },
-    "87f6396f-b06f-4251-9ff3-deb0ae3ebb01": {
-      "id": "87f6396f-b06f-4251-9ff3-deb0ae3ebb01",
-      "recipeId": "82ca2d90-2982-4bd7-9b5c-9bcf9010d1ca",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "13ebd0f3-b613-48ca-84e9-46584d99563b": {
+      "id": "13ebd0f3-b613-48ca-84e9-46584d99563b",
+      "recipeId": "0734e9dd-3410-4d3b-b8d1-8a61ae656f98",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Birthday Cake Protein Cookies",
       "tags": [],
       "yield": {
@@ -15469,7 +15469,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "9732226c-dd7e-46b2-8302-07524ac3717f"
+              "subRecipeVersionId": "a377b672-fb59-40df-bc95-2d934a2b8c0b"
             }
           },
           {
@@ -15781,13 +15781,13 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T15:20:20.564Z",
-      "prevVersionId": "1ea243fc-2e36-4f92-90d4-c2427cfdf644"
+      "createdAt": "2026-06-18T16:47:49.390Z",
+      "prevVersionId": "97e76ba4-c3b6-4b3c-b346-ef580870257f"
     },
-    "968dd314-a1b7-42ad-8cba-45470c566c3e": {
-      "id": "968dd314-a1b7-42ad-8cba-45470c566c3e",
-      "recipeId": "82ca2d90-2982-4bd7-9b5c-9bcf9010d1ca",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "095ad552-6ed9-4517-8662-1f6227a352c7": {
+      "id": "095ad552-6ed9-4517-8662-1f6227a352c7",
+      "recipeId": "0734e9dd-3410-4d3b-b8d1-8a61ae656f98",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Birthday Cake Protein Cookies",
       "tags": [],
       "yield": {
@@ -15962,7 +15962,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "9732226c-dd7e-46b2-8302-07524ac3717f"
+              "subRecipeVersionId": "a377b672-fb59-40df-bc95-2d934a2b8c0b"
             }
           },
           {
@@ -16295,13 +16295,13 @@
         ],
         "caloriesPerGramProtein": 11.38
       },
-      "createdAt": "2026-06-17T15:20:20.729Z",
-      "prevVersionId": "87f6396f-b06f-4251-9ff3-deb0ae3ebb01"
+      "createdAt": "2026-06-18T16:47:49.560Z",
+      "prevVersionId": "13ebd0f3-b613-48ca-84e9-46584d99563b"
     },
-    "e1b9393e-8b10-483c-83b9-16b2ae307f04": {
-      "id": "e1b9393e-8b10-483c-83b9-16b2ae307f04",
-      "recipeId": "82ca2d90-2982-4bd7-9b5c-9bcf9010d1ca",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "cd2e63ac-228e-47dd-b7cb-f939a11b78cc": {
+      "id": "cd2e63ac-228e-47dd-b7cb-f939a11b78cc",
+      "recipeId": "0734e9dd-3410-4d3b-b8d1-8a61ae656f98",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Birthday Cake Protein Cookies",
       "tags": [
         "crumbl",
@@ -16487,7 +16487,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "9732226c-dd7e-46b2-8302-07524ac3717f"
+              "subRecipeVersionId": "a377b672-fb59-40df-bc95-2d934a2b8c0b"
             }
           },
           {
@@ -16820,14 +16820,14 @@
         ],
         "caloriesPerGramProtein": 11.38
       },
-      "createdAt": "2026-06-17T15:20:20.896Z",
-      "prevVersionId": "968dd314-a1b7-42ad-8cba-45470c566c3e",
+      "createdAt": "2026-06-18T16:47:49.727Z",
+      "prevVersionId": "095ad552-6ed9-4517-8662-1f6227a352c7",
       "description": "Birthday-cake flavor of the Crumbl base — base chassis + almond extract for the cake-batter note. Funfetti sprinkles are the topping (omitted here, like the source). Derived off Crumbl Base Protein Cookie so base tweaks rebase in. Untested at this base chassis (the original standalone root was rated excellent, but this version adds the base's egg white / cornstarch and standardized dough — worth a confirming bake)."
     },
-    "40404bd3-67f6-4e38-b711-17095cd9c691": {
-      "id": "40404bd3-67f6-4e38-b711-17095cd9c691",
-      "recipeId": "06ee025a-d352-45b6-a00e-53b07b964a47",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "4b89ddcc-321d-43c0-80b6-68c4aa6def1d": {
+      "id": "4b89ddcc-321d-43c0-80b6-68c4aa6def1d",
+      "recipeId": "40ac1417-a73a-4b8e-ac83-1f370ce4e401",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -16978,7 +16978,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "9732226c-dd7e-46b2-8302-07524ac3717f"
+              "subRecipeVersionId": "a377b672-fb59-40df-bc95-2d934a2b8c0b"
             }
           }
         ],
@@ -17282,12 +17282,12 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T15:20:21.064Z"
+      "createdAt": "2026-06-18T16:47:49.892Z"
     },
-    "c047681a-d376-4b48-9b4f-a9616e550fbc": {
-      "id": "c047681a-d376-4b48-9b4f-a9616e550fbc",
-      "recipeId": "06ee025a-d352-45b6-a00e-53b07b964a47",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "7c323045-170e-4f5b-92b9-a3ffa54c7657": {
+      "id": "7c323045-170e-4f5b-92b9-a3ffa54c7657",
+      "recipeId": "40ac1417-a73a-4b8e-ac83-1f370ce4e401",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -17451,7 +17451,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "9732226c-dd7e-46b2-8302-07524ac3717f"
+              "subRecipeVersionId": "a377b672-fb59-40df-bc95-2d934a2b8c0b"
             }
           },
           {
@@ -17763,13 +17763,13 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T15:20:21.237Z",
-      "prevVersionId": "40404bd3-67f6-4e38-b711-17095cd9c691"
+      "createdAt": "2026-06-18T16:47:50.064Z",
+      "prevVersionId": "4b89ddcc-321d-43c0-80b6-68c4aa6def1d"
     },
-    "c9030962-6005-409b-9f6f-3c14a70bba13": {
-      "id": "c9030962-6005-409b-9f6f-3c14a70bba13",
-      "recipeId": "06ee025a-d352-45b6-a00e-53b07b964a47",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "6aa3a1e0-d08c-4e89-9c0b-64c2a6f2c3fb": {
+      "id": "6aa3a1e0-d08c-4e89-9c0b-64c2a6f2c3fb",
+      "recipeId": "40ac1417-a73a-4b8e-ac83-1f370ce4e401",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -17944,7 +17944,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "9732226c-dd7e-46b2-8302-07524ac3717f"
+              "subRecipeVersionId": "a377b672-fb59-40df-bc95-2d934a2b8c0b"
             }
           },
           {
@@ -18277,13 +18277,13 @@
         ],
         "caloriesPerGramProtein": 11.39
       },
-      "createdAt": "2026-06-17T15:20:21.406Z",
-      "prevVersionId": "c047681a-d376-4b48-9b4f-a9616e550fbc"
+      "createdAt": "2026-06-18T16:47:50.231Z",
+      "prevVersionId": "7c323045-170e-4f5b-92b9-a3ffa54c7657"
     },
-    "b075358e-b77b-4652-b780-a524ec336501": {
-      "id": "b075358e-b77b-4652-b780-a524ec336501",
-      "recipeId": "06ee025a-d352-45b6-a00e-53b07b964a47",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "4fc526ba-cc0a-4fd5-99bc-70d7241b0baa": {
+      "id": "4fc526ba-cc0a-4fd5-99bc-70d7241b0baa",
+      "recipeId": "40ac1417-a73a-4b8e-ac83-1f370ce4e401",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -18469,7 +18469,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "9732226c-dd7e-46b2-8302-07524ac3717f"
+              "subRecipeVersionId": "a377b672-fb59-40df-bc95-2d934a2b8c0b"
             }
           },
           {
@@ -18802,13 +18802,13 @@
         ],
         "caloriesPerGramProtein": 11.39
       },
-      "createdAt": "2026-06-17T15:20:21.574Z",
-      "prevVersionId": "c9030962-6005-409b-9f6f-3c14a70bba13"
+      "createdAt": "2026-06-18T16:47:50.401Z",
+      "prevVersionId": "6aa3a1e0-d08c-4e89-9c0b-64c2a6f2c3fb"
     },
-    "fb4e0575-3a43-4955-89d3-f2898d4b96e9": {
-      "id": "fb4e0575-3a43-4955-89d3-f2898d4b96e9",
-      "recipeId": "06ee025a-d352-45b6-a00e-53b07b964a47",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "9a85935b-ad1f-4172-bc82-c719d1f2bbb6": {
+      "id": "9a85935b-ad1f-4172-bc82-c719d1f2bbb6",
+      "recipeId": "40ac1417-a73a-4b8e-ac83-1f370ce4e401",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -18999,7 +18999,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "9732226c-dd7e-46b2-8302-07524ac3717f"
+              "subRecipeVersionId": "a377b672-fb59-40df-bc95-2d934a2b8c0b"
             }
           },
           {
@@ -19312,13 +19312,13 @@
         ],
         "caloriesPerGramProtein": 12.76
       },
-      "createdAt": "2026-06-17T15:20:21.742Z",
-      "prevVersionId": "b075358e-b77b-4652-b780-a524ec336501"
+      "createdAt": "2026-06-18T16:47:50.573Z",
+      "prevVersionId": "4fc526ba-cc0a-4fd5-99bc-70d7241b0baa"
     },
-    "66319404-27b0-4275-8e1a-7d2d3bed6572": {
-      "id": "66319404-27b0-4275-8e1a-7d2d3bed6572",
-      "recipeId": "06ee025a-d352-45b6-a00e-53b07b964a47",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "2a250fb1-f54e-489b-ab84-5f1220bed28f": {
+      "id": "2a250fb1-f54e-489b-ab84-5f1220bed28f",
+      "recipeId": "40ac1417-a73a-4b8e-ac83-1f370ce4e401",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -19819,13 +19819,13 @@
         ],
         "caloriesPerGramProtein": 12.76
       },
-      "createdAt": "2026-06-17T15:20:21.908Z",
-      "prevVersionId": "fb4e0575-3a43-4955-89d3-f2898d4b96e9"
+      "createdAt": "2026-06-18T16:47:50.740Z",
+      "prevVersionId": "9a85935b-ad1f-4172-bc82-c719d1f2bbb6"
     },
-    "ea61011a-9c03-4188-9137-240f1f305703": {
-      "id": "ea61011a-9c03-4188-9137-240f1f305703",
-      "recipeId": "06ee025a-d352-45b6-a00e-53b07b964a47",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "25205bc2-d315-42a4-a13e-6947fc7d4b86": {
+      "id": "25205bc2-d315-42a4-a13e-6947fc7d4b86",
+      "recipeId": "40ac1417-a73a-4b8e-ac83-1f370ce4e401",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -20346,13 +20346,13 @@
         ],
         "caloriesPerGramProtein": 12.76
       },
-      "createdAt": "2026-06-17T15:20:22.077Z",
-      "prevVersionId": "66319404-27b0-4275-8e1a-7d2d3bed6572"
+      "createdAt": "2026-06-18T16:47:50.910Z",
+      "prevVersionId": "2a250fb1-f54e-489b-ab84-5f1220bed28f"
     },
-    "98170622-67c5-42cd-b506-cbabb70baf7c": {
-      "id": "98170622-67c5-42cd-b506-cbabb70baf7c",
-      "recipeId": "06ee025a-d352-45b6-a00e-53b07b964a47",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "99c99b4b-f242-4775-b055-b4d561ab8949": {
+      "id": "99c99b4b-f242-4775-b055-b4d561ab8949",
+      "recipeId": "40ac1417-a73a-4b8e-ac83-1f370ce4e401",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -20893,13 +20893,13 @@
         ],
         "caloriesPerGramProtein": 12.76
       },
-      "createdAt": "2026-06-17T15:20:22.246Z",
-      "prevVersionId": "ea61011a-9c03-4188-9137-240f1f305703"
+      "createdAt": "2026-06-18T16:47:51.081Z",
+      "prevVersionId": "25205bc2-d315-42a4-a13e-6947fc7d4b86"
     },
-    "de111360-f56d-4064-8aa7-387a81b90ab7": {
-      "id": "de111360-f56d-4064-8aa7-387a81b90ab7",
-      "recipeId": "06ee025a-d352-45b6-a00e-53b07b964a47",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "5b1d4e56-9146-4012-b62c-a2970d904658": {
+      "id": "5b1d4e56-9146-4012-b62c-a2970d904658",
+      "recipeId": "40ac1417-a73a-4b8e-ac83-1f370ce4e401",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -21472,13 +21472,13 @@
         ],
         "caloriesPerGramProtein": 12.82
       },
-      "createdAt": "2026-06-17T15:20:22.415Z",
-      "prevVersionId": "98170622-67c5-42cd-b506-cbabb70baf7c"
+      "createdAt": "2026-06-18T16:47:51.256Z",
+      "prevVersionId": "99c99b4b-f242-4775-b055-b4d561ab8949"
     },
-    "08218db8-85db-49be-9cd3-220cd90a6325": {
-      "id": "08218db8-85db-49be-9cd3-220cd90a6325",
-      "recipeId": "06ee025a-d352-45b6-a00e-53b07b964a47",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "c841c265-fdc1-472a-b0f1-913deef2d29b": {
+      "id": "c841c265-fdc1-472a-b0f1-913deef2d29b",
+      "recipeId": "40ac1417-a73a-4b8e-ac83-1f370ce4e401",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Lemon Protein Cookies",
       "tags": [],
       "yield": {
@@ -22083,13 +22083,13 @@
         ],
         "caloriesPerGramProtein": 13.53
       },
-      "createdAt": "2026-06-17T15:20:22.584Z",
-      "prevVersionId": "de111360-f56d-4064-8aa7-387a81b90ab7"
+      "createdAt": "2026-06-18T16:47:51.424Z",
+      "prevVersionId": "5b1d4e56-9146-4012-b62c-a2970d904658"
     },
-    "f0c026fc-b35c-4afb-bf4d-7cf3fbfca7f8": {
-      "id": "f0c026fc-b35c-4afb-bf4d-7cf3fbfca7f8",
-      "recipeId": "06ee025a-d352-45b6-a00e-53b07b964a47",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "01ca1ed5-b7a3-431e-8a6e-74340f50e79f": {
+      "id": "01ca1ed5-b7a3-431e-8a6e-74340f50e79f",
+      "recipeId": "40ac1417-a73a-4b8e-ac83-1f370ce4e401",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Lemon Protein Cookies",
       "tags": [
         "crumbl",
@@ -22707,14 +22707,14 @@
         ],
         "caloriesPerGramProtein": 13.53
       },
-      "createdAt": "2026-06-17T15:20:22.753Z",
-      "prevVersionId": "08218db8-85db-49be-9cd3-220cd90a6325",
+      "createdAt": "2026-06-18T16:47:51.598Z",
+      "prevVersionId": "c841c265-fdc1-472a-b0f1-913deef2d29b",
       "description": "Lemon flavor of the Crumbl base — base chassis + lemon juice in the dough, and the base's frosting sub_recipe pin dropped in favor of a lemon drizzle (lemon juice + granulated Splenda; never monk fruit). Derived off Crumbl Base Protein Cookie. NOTE: the drizzle was rated 'bad' on the original (too weak/thin) and granulated Splenda won't glaze as smoothly as a powdered sweetener — still a redesign candidate. Untested at this base chassis."
     },
-    "0d6b61dc-3def-4edc-941a-305a3ffd990a": {
-      "id": "0d6b61dc-3def-4edc-941a-305a3ffd990a",
-      "recipeId": "38efe953-0cff-4f5a-ab59-d913c288ff66",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "1f352af1-e931-4f93-9e4f-b001001ed181": {
+      "id": "1f352af1-e931-4f93-9e4f-b001001ed181",
+      "recipeId": "5c592b94-af40-49fd-8a32-3069edbdcfaa",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Lucky Charms Protein Cookies",
       "tags": [],
       "yield": {
@@ -22865,7 +22865,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "9732226c-dd7e-46b2-8302-07524ac3717f"
+              "subRecipeVersionId": "a377b672-fb59-40df-bc95-2d934a2b8c0b"
             }
           }
         ],
@@ -23169,12 +23169,12 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T15:20:22.920Z"
+      "createdAt": "2026-06-18T16:47:51.767Z"
     },
-    "88a84edd-955b-41db-921f-11f2cbc7bc72": {
-      "id": "88a84edd-955b-41db-921f-11f2cbc7bc72",
-      "recipeId": "38efe953-0cff-4f5a-ab59-d913c288ff66",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "f6ffe529-e88a-4f0b-86ca-b74b4f37f371": {
+      "id": "f6ffe529-e88a-4f0b-86ca-b74b4f37f371",
+      "recipeId": "5c592b94-af40-49fd-8a32-3069edbdcfaa",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Lucky Charms Protein Cookies",
       "tags": [],
       "yield": {
@@ -23338,7 +23338,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "9732226c-dd7e-46b2-8302-07524ac3717f"
+              "subRecipeVersionId": "a377b672-fb59-40df-bc95-2d934a2b8c0b"
             }
           },
           {
@@ -23650,13 +23650,13 @@
         ],
         "caloriesPerGramProtein": 11.36
       },
-      "createdAt": "2026-06-17T15:20:23.094Z",
-      "prevVersionId": "0d6b61dc-3def-4edc-941a-305a3ffd990a"
+      "createdAt": "2026-06-18T16:47:51.940Z",
+      "prevVersionId": "1f352af1-e931-4f93-9e4f-b001001ed181"
     },
-    "a9e07e37-ccf5-488c-9f86-c89367654250": {
-      "id": "a9e07e37-ccf5-488c-9f86-c89367654250",
-      "recipeId": "38efe953-0cff-4f5a-ab59-d913c288ff66",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "e15b9c1b-5b7d-485d-9dd5-bb35b8f2da31": {
+      "id": "e15b9c1b-5b7d-485d-9dd5-bb35b8f2da31",
+      "recipeId": "5c592b94-af40-49fd-8a32-3069edbdcfaa",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Lucky Charms Protein Cookies",
       "tags": [],
       "yield": {
@@ -23831,7 +23831,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "9732226c-dd7e-46b2-8302-07524ac3717f"
+              "subRecipeVersionId": "a377b672-fb59-40df-bc95-2d934a2b8c0b"
             }
           },
           {
@@ -24164,13 +24164,13 @@
         ],
         "caloriesPerGramProtein": 11.37
       },
-      "createdAt": "2026-06-17T15:20:23.265Z",
-      "prevVersionId": "88a84edd-955b-41db-921f-11f2cbc7bc72"
+      "createdAt": "2026-06-18T16:47:52.114Z",
+      "prevVersionId": "f6ffe529-e88a-4f0b-86ca-b74b4f37f371"
     },
-    "02ddbed9-c863-4ee2-b04d-397cde2eb010": {
-      "id": "02ddbed9-c863-4ee2-b04d-397cde2eb010",
-      "recipeId": "38efe953-0cff-4f5a-ab59-d913c288ff66",
-      "derivesFromVersionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+    "1dc72852-5040-4a3d-8438-c6fed5366e49": {
+      "id": "1dc72852-5040-4a3d-8438-c6fed5366e49",
+      "recipeId": "5c592b94-af40-49fd-8a32-3069edbdcfaa",
+      "derivesFromVersionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "name": "Lucky Charms Protein Cookies",
       "tags": [
         "crumbl",
@@ -24356,7 +24356,7 @@
             "name": "vanilla protein frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "9732226c-dd7e-46b2-8302-07524ac3717f"
+              "subRecipeVersionId": "a377b672-fb59-40df-bc95-2d934a2b8c0b"
             }
           },
           {
@@ -24689,14 +24689,14 @@
         ],
         "caloriesPerGramProtein": 11.37
       },
-      "createdAt": "2026-06-17T15:20:23.439Z",
-      "prevVersionId": "a9e07e37-ccf5-488c-9f86-c89367654250",
+      "createdAt": "2026-06-18T16:47:52.285Z",
+      "prevVersionId": "e15b9c1b-5b7d-485d-9dd5-bb35b8f2da31",
       "description": "Lucky Charms flavor of the Crumbl base — base chassis + almond extract. The Lucky Charms cereal marshmallows are the topping and are intentionally omitted (matches the source 'without the lucky charms'). NOTE: with the marshmallows omitted, this is effectively identical to Birthday Cake — the marshmallow topping is the only real differentiator, a one-line add when wanted. Derived off Crumbl Base Protein Cookie. Untested at this base chassis."
     },
-    "de03ad97-f793-4d53-963d-686f330df01c": {
-      "id": "de03ad97-f793-4d53-963d-686f330df01c",
-      "recipeId": "2eb4084e-1679-43bc-a0d9-44ac0023b893",
-      "derivesFromVersionId": "05380b37-f7a3-4a8e-9342-6b95dd8edc1a",
+    "b4750d1d-7e3e-4435-94c8-9a8253f4292b": {
+      "id": "b4750d1d-7e3e-4435-94c8-9a8253f4292b",
+      "recipeId": "b6b63b3b-51ef-48be-a1d4-45b33f5a6314",
+      "derivesFromVersionId": "802a9eb5-d8f9-4d4e-9aa0-b6f9ffad0af8",
       "name": "Browned-Butter Protein Cookies (Soft-Chewy)",
       "tags": [],
       "yield": {
@@ -25140,12 +25140,12 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T15:20:23.608Z"
+      "createdAt": "2026-06-18T16:47:52.454Z"
     },
-    "ca44e9c4-228f-483a-a3fe-969b8e101bd4": {
-      "id": "ca44e9c4-228f-483a-a3fe-969b8e101bd4",
-      "recipeId": "2eb4084e-1679-43bc-a0d9-44ac0023b893",
-      "derivesFromVersionId": "05380b37-f7a3-4a8e-9342-6b95dd8edc1a",
+    "51b18128-16b7-4cd2-960d-b9bc3736c577": {
+      "id": "51b18128-16b7-4cd2-960d-b9bc3736c577",
+      "recipeId": "b6b63b3b-51ef-48be-a1d4-45b33f5a6314",
+      "derivesFromVersionId": "802a9eb5-d8f9-4d4e-9aa0-b6f9ffad0af8",
       "name": "Browned-Butter Protein Cookies (Soft-Chewy)",
       "tags": [],
       "yield": {
@@ -25601,13 +25601,13 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T15:20:23.778Z",
-      "prevVersionId": "de03ad97-f793-4d53-963d-686f330df01c"
+      "createdAt": "2026-06-18T16:47:52.626Z",
+      "prevVersionId": "b4750d1d-7e3e-4435-94c8-9a8253f4292b"
     },
-    "307fdbe6-e01e-4eb3-8471-615339ce7845": {
-      "id": "307fdbe6-e01e-4eb3-8471-615339ce7845",
-      "recipeId": "2eb4084e-1679-43bc-a0d9-44ac0023b893",
-      "derivesFromVersionId": "05380b37-f7a3-4a8e-9342-6b95dd8edc1a",
+    "e9699c93-9f5a-4a65-b258-f695b742cd36": {
+      "id": "e9699c93-9f5a-4a65-b258-f695b742cd36",
+      "recipeId": "b6b63b3b-51ef-48be-a1d4-45b33f5a6314",
+      "derivesFromVersionId": "802a9eb5-d8f9-4d4e-9aa0-b6f9ffad0af8",
       "name": "Browned-Butter Protein Cookies (Soft-Chewy)",
       "tags": [],
       "yield": {
@@ -26074,13 +26074,13 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T15:20:23.947Z",
-      "prevVersionId": "ca44e9c4-228f-483a-a3fe-969b8e101bd4"
+      "createdAt": "2026-06-18T16:47:52.798Z",
+      "prevVersionId": "51b18128-16b7-4cd2-960d-b9bc3736c577"
     },
-    "8f93e540-3631-4e4d-924a-bb82ea11fae7": {
-      "id": "8f93e540-3631-4e4d-924a-bb82ea11fae7",
-      "recipeId": "2eb4084e-1679-43bc-a0d9-44ac0023b893",
-      "derivesFromVersionId": "05380b37-f7a3-4a8e-9342-6b95dd8edc1a",
+    "ee7f4004-8683-41e1-b9de-026afbac1577": {
+      "id": "ee7f4004-8683-41e1-b9de-026afbac1577",
+      "recipeId": "b6b63b3b-51ef-48be-a1d4-45b33f5a6314",
+      "derivesFromVersionId": "802a9eb5-d8f9-4d4e-9aa0-b6f9ffad0af8",
       "name": "Browned-Butter Protein Cookies (Soft-Chewy)",
       "tags": [],
       "yield": {
@@ -26559,13 +26559,13 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T15:20:24.117Z",
-      "prevVersionId": "307fdbe6-e01e-4eb3-8471-615339ce7845"
+      "createdAt": "2026-06-18T16:47:52.968Z",
+      "prevVersionId": "e9699c93-9f5a-4a65-b258-f695b742cd36"
     },
-    "f08427fa-116e-476c-8669-e43ef06e63dd": {
-      "id": "f08427fa-116e-476c-8669-e43ef06e63dd",
-      "recipeId": "2eb4084e-1679-43bc-a0d9-44ac0023b893",
-      "derivesFromVersionId": "05380b37-f7a3-4a8e-9342-6b95dd8edc1a",
+    "9750b678-0325-4ae4-a221-89fde98c4441": {
+      "id": "9750b678-0325-4ae4-a221-89fde98c4441",
+      "recipeId": "b6b63b3b-51ef-48be-a1d4-45b33f5a6314",
+      "derivesFromVersionId": "802a9eb5-d8f9-4d4e-9aa0-b6f9ffad0af8",
       "name": "Browned-Butter Protein Cookies (Soft-Chewy)",
       "tags": [
         "cookie",
@@ -27057,14 +27057,14 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T15:20:24.288Z",
-      "prevVersionId": "8f93e540-3631-4e4d-924a-bb82ea11fae7",
+      "createdAt": "2026-06-18T16:47:53.143Z",
+      "prevVersionId": "ee7f4004-8683-41e1-b9de-026afbac1577",
       "description": "VERSION B - Even & Soft-Chewy: soft and chewy edge to edge, the same texture throughout with no raw-dough center. A pure-procedure variant of the gooey base - identical dough, ingredients, and macros; only the bake (steps 4-6) differs. Flattening the cookie and lowering the oven temp both shrink the edge-vs-center cook gap, so the whole cookie finishes together. Spreads a little more, no molten center."
     },
-    "9d0b4f80-627d-45e0-a40e-4c765060c998": {
-      "id": "9d0b4f80-627d-45e0-a40e-4c765060c998",
-      "recipeId": "5c003271-dbe2-4c44-a49d-921f3cc28cb6",
-      "derivesFromVersionId": "05380b37-f7a3-4a8e-9342-6b95dd8edc1a",
+    "5911b5da-f14f-45b8-9f6a-e4898b269d7d": {
+      "id": "5911b5da-f14f-45b8-9f6a-e4898b269d7d",
+      "recipeId": "e31fa35a-6b9f-4b9e-98cd-6fd3b29628ee",
+      "derivesFromVersionId": "802a9eb5-d8f9-4d4e-9aa0-b6f9ffad0af8",
       "name": "Browned-Butter Protein Cookies (50g protein)",
       "tags": [],
       "yield": {
@@ -27508,12 +27508,12 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T15:20:24.458Z"
+      "createdAt": "2026-06-18T16:47:53.312Z"
     },
-    "61f1d92a-2e8f-42ac-86ac-1f86e1e82849": {
-      "id": "61f1d92a-2e8f-42ac-86ac-1f86e1e82849",
-      "recipeId": "5c003271-dbe2-4c44-a49d-921f3cc28cb6",
-      "derivesFromVersionId": "05380b37-f7a3-4a8e-9342-6b95dd8edc1a",
+    "5aa2fbe8-6269-46ed-b95a-4b0a9a40d23e": {
+      "id": "5aa2fbe8-6269-46ed-b95a-4b0a9a40d23e",
+      "recipeId": "e31fa35a-6b9f-4b9e-98cd-6fd3b29628ee",
+      "derivesFromVersionId": "802a9eb5-d8f9-4d4e-9aa0-b6f9ffad0af8",
       "name": "Browned-Butter Protein Cookies (50g protein)",
       "tags": [],
       "yield": {
@@ -27970,13 +27970,13 @@
         ],
         "caloriesPerGramProtein": 12.47
       },
-      "createdAt": "2026-06-17T15:20:24.633Z",
-      "prevVersionId": "9d0b4f80-627d-45e0-a40e-4c765060c998"
+      "createdAt": "2026-06-18T16:47:53.487Z",
+      "prevVersionId": "5911b5da-f14f-45b8-9f6a-e4898b269d7d"
     },
-    "f481a688-5d77-4c46-bec0-c943d6d76bc3": {
-      "id": "f481a688-5d77-4c46-bec0-c943d6d76bc3",
-      "recipeId": "5c003271-dbe2-4c44-a49d-921f3cc28cb6",
-      "derivesFromVersionId": "05380b37-f7a3-4a8e-9342-6b95dd8edc1a",
+    "61f86989-8780-436d-8ac8-0a7fde870467": {
+      "id": "61f86989-8780-436d-8ac8-0a7fde870467",
+      "recipeId": "e31fa35a-6b9f-4b9e-98cd-6fd3b29628ee",
+      "derivesFromVersionId": "802a9eb5-d8f9-4d4e-9aa0-b6f9ffad0af8",
       "name": "Browned-Butter Protein Cookies (50g protein)",
       "tags": [
         "cookie",
@@ -28446,13 +28446,13 @@
         ],
         "caloriesPerGramProtein": 12.47
       },
-      "createdAt": "2026-06-17T15:20:24.805Z",
-      "prevVersionId": "61f1d92a-2e8f-42ac-86ac-1f86e1e82849"
+      "createdAt": "2026-06-18T16:47:53.659Z",
+      "prevVersionId": "5aa2fbe8-6269-46ed-b95a-4b0a9a40d23e"
     },
-    "2c044b23-15cc-4e52-9a4d-a54e4e5545cb": {
-      "id": "2c044b23-15cc-4e52-9a4d-a54e4e5545cb",
-      "recipeId": "2f8588ef-382b-482a-b7a9-1d247f0622b3",
-      "derivesFromVersionId": "05380b37-f7a3-4a8e-9342-6b95dd8edc1a",
+    "36371cbf-6e2e-4b0f-b603-7761c4907b1a": {
+      "id": "36371cbf-6e2e-4b0f-b603-7761c4907b1a",
+      "recipeId": "9878f347-7b1c-42ac-ae95-11192328c4f7",
+      "derivesFromVersionId": "802a9eb5-d8f9-4d4e-9aa0-b6f9ffad0af8",
       "name": "Browned-Butter Protein Cookies (60g protein)",
       "tags": [],
       "yield": {
@@ -28896,12 +28896,12 @@
         ],
         "caloriesPerGramProtein": 13.84
       },
-      "createdAt": "2026-06-17T15:20:24.978Z"
+      "createdAt": "2026-06-18T16:47:53.828Z"
     },
-    "ab5c3ca8-f0d9-42c4-b426-f4bb43f465e4": {
-      "id": "ab5c3ca8-f0d9-42c4-b426-f4bb43f465e4",
-      "recipeId": "2f8588ef-382b-482a-b7a9-1d247f0622b3",
-      "derivesFromVersionId": "05380b37-f7a3-4a8e-9342-6b95dd8edc1a",
+    "e23f58b3-1d10-49db-baa1-ff4ae79dad22": {
+      "id": "e23f58b3-1d10-49db-baa1-ff4ae79dad22",
+      "recipeId": "9878f347-7b1c-42ac-ae95-11192328c4f7",
+      "derivesFromVersionId": "802a9eb5-d8f9-4d4e-9aa0-b6f9ffad0af8",
       "name": "Browned-Butter Protein Cookies (60g protein)",
       "tags": [],
       "yield": {
@@ -29358,13 +29358,13 @@
         ],
         "caloriesPerGramProtein": 11.46
       },
-      "createdAt": "2026-06-17T15:20:25.151Z",
-      "prevVersionId": "2c044b23-15cc-4e52-9a4d-a54e4e5545cb"
+      "createdAt": "2026-06-18T16:47:54.003Z",
+      "prevVersionId": "36371cbf-6e2e-4b0f-b603-7761c4907b1a"
     },
-    "2da235bd-8a7c-41bd-b319-087dc7d02236": {
-      "id": "2da235bd-8a7c-41bd-b319-087dc7d02236",
-      "recipeId": "2f8588ef-382b-482a-b7a9-1d247f0622b3",
-      "derivesFromVersionId": "05380b37-f7a3-4a8e-9342-6b95dd8edc1a",
+    "9ecbe835-dde1-4e9b-84fe-aedcb56d0994": {
+      "id": "9ecbe835-dde1-4e9b-84fe-aedcb56d0994",
+      "recipeId": "9878f347-7b1c-42ac-ae95-11192328c4f7",
+      "derivesFromVersionId": "802a9eb5-d8f9-4d4e-9aa0-b6f9ffad0af8",
       "name": "Browned-Butter Protein Cookies (60g protein)",
       "tags": [
         "cookie",
@@ -29834,13 +29834,13 @@
         ],
         "caloriesPerGramProtein": 11.46
       },
-      "createdAt": "2026-06-17T15:20:25.330Z",
-      "prevVersionId": "ab5c3ca8-f0d9-42c4-b426-f4bb43f465e4"
+      "createdAt": "2026-06-18T16:47:54.175Z",
+      "prevVersionId": "e23f58b3-1d10-49db-baa1-ff4ae79dad22"
     },
-    "7ab51c6a-2b34-4de6-ae7e-53f97d8dd720": {
-      "id": "7ab51c6a-2b34-4de6-ae7e-53f97d8dd720",
-      "recipeId": "19a86fdd-79b7-4275-a0b3-fdea84b52148",
-      "derivesFromVersionId": "33ed5077-3a00-4739-9cd5-45244731c141",
+    "52fff20a-499b-4436-a6f8-6e30afc73abb": {
+      "id": "52fff20a-499b-4436-a6f8-6e30afc73abb",
+      "recipeId": "b6b4a6a6-438b-4ce1-b04c-f792d3784ae5",
+      "derivesFromVersionId": "06bd7d2b-20a4-4cb9-895d-fbfe5529adec",
       "name": "Turtle Chocolate Graham Crust",
       "tags": [],
       "yield": {
@@ -30037,12 +30037,12 @@
         ],
         "caloriesPerGramProtein": 45.08
       },
-      "createdAt": "2026-06-17T15:20:25.500Z"
+      "createdAt": "2026-06-18T16:47:54.344Z"
     },
-    "e608d358-712c-45c3-90a1-7f4ef9a3bf6c": {
-      "id": "e608d358-712c-45c3-90a1-7f4ef9a3bf6c",
-      "recipeId": "19a86fdd-79b7-4275-a0b3-fdea84b52148",
-      "derivesFromVersionId": "33ed5077-3a00-4739-9cd5-45244731c141",
+    "963641d5-ecaa-480e-a677-d89972200e8c": {
+      "id": "963641d5-ecaa-480e-a677-d89972200e8c",
+      "recipeId": "b6b4a6a6-438b-4ce1-b04c-f792d3784ae5",
+      "derivesFromVersionId": "06bd7d2b-20a4-4cb9-895d-fbfe5529adec",
       "name": "Turtle Chocolate Graham Crust",
       "tags": [],
       "yield": {
@@ -30260,13 +30260,13 @@
         ],
         "caloriesPerGramProtein": 45.08
       },
-      "createdAt": "2026-06-17T15:20:25.673Z",
-      "prevVersionId": "7ab51c6a-2b34-4de6-ae7e-53f97d8dd720"
+      "createdAt": "2026-06-18T16:47:54.519Z",
+      "prevVersionId": "52fff20a-499b-4436-a6f8-6e30afc73abb"
     },
-    "e1797529-ea9d-47b7-964c-78a15122851e": {
-      "id": "e1797529-ea9d-47b7-964c-78a15122851e",
-      "recipeId": "19a86fdd-79b7-4275-a0b3-fdea84b52148",
-      "derivesFromVersionId": "33ed5077-3a00-4739-9cd5-45244731c141",
+    "1918fd5d-a190-4f0c-a890-a6028b709efe": {
+      "id": "1918fd5d-a190-4f0c-a890-a6028b709efe",
+      "recipeId": "b6b4a6a6-438b-4ce1-b04c-f792d3784ae5",
+      "derivesFromVersionId": "06bd7d2b-20a4-4cb9-895d-fbfe5529adec",
       "name": "Turtle Chocolate Graham Crust",
       "tags": [],
       "yield": {
@@ -30516,13 +30516,13 @@
         ],
         "caloriesPerGramProtein": 40.13
       },
-      "createdAt": "2026-06-17T15:20:25.845Z",
-      "prevVersionId": "e608d358-712c-45c3-90a1-7f4ef9a3bf6c"
+      "createdAt": "2026-06-18T16:47:54.690Z",
+      "prevVersionId": "963641d5-ecaa-480e-a677-d89972200e8c"
     },
-    "a942a60a-3ef2-4dcf-b1c1-6f0b2b921c5b": {
-      "id": "a942a60a-3ef2-4dcf-b1c1-6f0b2b921c5b",
-      "recipeId": "19a86fdd-79b7-4275-a0b3-fdea84b52148",
-      "derivesFromVersionId": "33ed5077-3a00-4739-9cd5-45244731c141",
+    "153111cf-11cf-4234-aa7c-615b667ea2b9": {
+      "id": "153111cf-11cf-4234-aa7c-615b667ea2b9",
+      "recipeId": "b6b4a6a6-438b-4ce1-b04c-f792d3784ae5",
+      "derivesFromVersionId": "06bd7d2b-20a4-4cb9-895d-fbfe5529adec",
       "name": "Turtle Chocolate Graham Crust",
       "tags": [],
       "yield": {
@@ -30782,13 +30782,13 @@
         ],
         "caloriesPerGramProtein": 40.13
       },
-      "createdAt": "2026-06-17T15:20:26.017Z",
-      "prevVersionId": "e1797529-ea9d-47b7-964c-78a15122851e"
+      "createdAt": "2026-06-18T16:47:54.864Z",
+      "prevVersionId": "1918fd5d-a190-4f0c-a890-a6028b709efe"
     },
-    "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52": {
-      "id": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52",
-      "recipeId": "19a86fdd-79b7-4275-a0b3-fdea84b52148",
-      "derivesFromVersionId": "33ed5077-3a00-4739-9cd5-45244731c141",
+    "897bded8-300b-434c-ab5f-e6a181e82d4e": {
+      "id": "897bded8-300b-434c-ab5f-e6a181e82d4e",
+      "recipeId": "b6b4a6a6-438b-4ce1-b04c-f792d3784ae5",
+      "derivesFromVersionId": "06bd7d2b-20a4-4cb9-895d-fbfe5529adec",
       "name": "Turtle Chocolate Graham Crust",
       "tags": [
         "turtle",
@@ -31061,13 +31061,13 @@
         ],
         "caloriesPerGramProtein": 40.13
       },
-      "createdAt": "2026-06-17T15:20:26.190Z",
-      "prevVersionId": "a942a60a-3ef2-4dcf-b1c1-6f0b2b921c5b",
+      "createdAt": "2026-06-18T16:47:55.038Z",
+      "prevVersionId": "153111cf-11cf-4234-aa7c-615b667ea2b9",
       "description": "The Turtle's crust — the base Protein Graham Crust forked to add unsweetened cocoa for a chocolate, graham-forward bottom. Same egg-white binding and par-bake; cocoa is the only addition. Sub-recipe (1 batch ~= 319 cal)."
     },
-    "00f17ed9-f2b1-429f-9f54-00a87189e89c": {
-      "id": "00f17ed9-f2b1-429f-9f54-00a87189e89c",
-      "recipeId": "630653af-2a9d-47a3-9156-b7a392e7a956",
+    "cfd04841-e658-4820-8ac6-41aca194bba4": {
+      "id": "cfd04841-e658-4820-8ac6-41aca194bba4",
+      "recipeId": "dc638859-9430-437c-b160-19066e2177f3",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -31689,12 +31689,12 @@
         ],
         "caloriesPerGramProtein": 10.74
       },
-      "createdAt": "2026-06-17T15:20:26.367Z",
-      "prevVersionId": "dffa687f-e06e-4e2f-b4e0-c9773ee0e67d"
+      "createdAt": "2026-06-18T16:47:55.219Z",
+      "prevVersionId": "a56eed46-2678-4e6c-9d9e-b5757334613d"
     },
-    "19dd1473-2016-4c48-a595-97c20b1ab0f3": {
-      "id": "19dd1473-2016-4c48-a595-97c20b1ab0f3",
-      "recipeId": "630653af-2a9d-47a3-9156-b7a392e7a956",
+    "7d395f2b-fa1d-49fa-a715-eb56556e4c57": {
+      "id": "7d395f2b-fa1d-49fa-a715-eb56556e4c57",
+      "recipeId": "dc638859-9430-437c-b160-19066e2177f3",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -32295,12 +32295,12 @@
         ],
         "caloriesPerGramProtein": 9.48
       },
-      "createdAt": "2026-06-17T15:20:26.538Z",
-      "prevVersionId": "00f17ed9-f2b1-429f-9f54-00a87189e89c"
+      "createdAt": "2026-06-18T16:47:55.395Z",
+      "prevVersionId": "cfd04841-e658-4820-8ac6-41aca194bba4"
     },
-    "7addb5f5-698a-4d2a-92f0-9cd970a16906": {
-      "id": "7addb5f5-698a-4d2a-92f0-9cd970a16906",
-      "recipeId": "630653af-2a9d-47a3-9156-b7a392e7a956",
+    "6c9d8dae-2fac-4cd4-936b-76cd758fafa4": {
+      "id": "6c9d8dae-2fac-4cd4-936b-76cd758fafa4",
+      "recipeId": "dc638859-9430-437c-b160-19066e2177f3",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -32880,12 +32880,12 @@
         ],
         "caloriesPerGramProtein": 10.65
       },
-      "createdAt": "2026-06-17T15:20:26.708Z",
-      "prevVersionId": "19dd1473-2016-4c48-a595-97c20b1ab0f3"
+      "createdAt": "2026-06-18T16:47:55.570Z",
+      "prevVersionId": "7d395f2b-fa1d-49fa-a715-eb56556e4c57"
     },
-    "189c1460-40a8-4637-b30c-050c1d637137": {
-      "id": "189c1460-40a8-4637-b30c-050c1d637137",
-      "recipeId": "630653af-2a9d-47a3-9156-b7a392e7a956",
+    "30a4edfb-476e-4d2b-bdb4-b3a5818bf61b": {
+      "id": "30a4edfb-476e-4d2b-bdb4-b3a5818bf61b",
+      "recipeId": "dc638859-9430-437c-b160-19066e2177f3",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -33444,12 +33444,12 @@
         ],
         "caloriesPerGramProtein": 10.23
       },
-      "createdAt": "2026-06-17T15:20:26.878Z",
-      "prevVersionId": "7addb5f5-698a-4d2a-92f0-9cd970a16906"
+      "createdAt": "2026-06-18T16:47:55.743Z",
+      "prevVersionId": "6c9d8dae-2fac-4cd4-936b-76cd758fafa4"
     },
-    "aa567595-31c6-494f-8674-cb0a3130aa39": {
-      "id": "aa567595-31c6-494f-8674-cb0a3130aa39",
-      "recipeId": "630653af-2a9d-47a3-9156-b7a392e7a956",
+    "345392d0-2d0f-46bb-8d1a-dda52ff51194": {
+      "id": "345392d0-2d0f-46bb-8d1a-dda52ff51194",
+      "recipeId": "dc638859-9430-437c-b160-19066e2177f3",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -33987,12 +33987,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T15:20:27.048Z",
-      "prevVersionId": "189c1460-40a8-4637-b30c-050c1d637137"
+      "createdAt": "2026-06-18T16:47:55.916Z",
+      "prevVersionId": "30a4edfb-476e-4d2b-bdb4-b3a5818bf61b"
     },
-    "c17102ff-d494-4b12-8ba4-2879c8e56f84": {
-      "id": "c17102ff-d494-4b12-8ba4-2879c8e56f84",
-      "recipeId": "630653af-2a9d-47a3-9156-b7a392e7a956",
+    "1c01635b-861f-4902-b1e0-c6f6a8603847": {
+      "id": "1c01635b-861f-4902-b1e0-c6f6a8603847",
+      "recipeId": "dc638859-9430-437c-b160-19066e2177f3",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -34522,12 +34522,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T15:20:27.221Z",
-      "prevVersionId": "aa567595-31c6-494f-8674-cb0a3130aa39"
+      "createdAt": "2026-06-18T16:47:56.089Z",
+      "prevVersionId": "345392d0-2d0f-46bb-8d1a-dda52ff51194"
     },
-    "5ab47a66-bbb7-415b-bc9e-b045d353af59": {
-      "id": "5ab47a66-bbb7-415b-bc9e-b045d353af59",
-      "recipeId": "630653af-2a9d-47a3-9156-b7a392e7a956",
+    "61b58167-02f1-4dc2-85fc-07ce396d9a82": {
+      "id": "61b58167-02f1-4dc2-85fc-07ce396d9a82",
+      "recipeId": "dc638859-9430-437c-b160-19066e2177f3",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -35049,12 +35049,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T15:20:27.397Z",
-      "prevVersionId": "c17102ff-d494-4b12-8ba4-2879c8e56f84"
+      "createdAt": "2026-06-18T16:47:56.264Z",
+      "prevVersionId": "1c01635b-861f-4902-b1e0-c6f6a8603847"
     },
-    "5f9c600d-2a94-43a3-a63d-9c26f5873157": {
-      "id": "5f9c600d-2a94-43a3-a63d-9c26f5873157",
-      "recipeId": "630653af-2a9d-47a3-9156-b7a392e7a956",
+    "f13b26e0-df38-41ee-9b94-0b7f685f42fd": {
+      "id": "f13b26e0-df38-41ee-9b94-0b7f685f42fd",
+      "recipeId": "dc638859-9430-437c-b160-19066e2177f3",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -35568,12 +35568,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T15:20:27.574Z",
-      "prevVersionId": "5ab47a66-bbb7-415b-bc9e-b045d353af59"
+      "createdAt": "2026-06-18T16:47:56.439Z",
+      "prevVersionId": "61b58167-02f1-4dc2-85fc-07ce396d9a82"
     },
-    "e9827d85-2fd9-4aed-a32b-a8e2a8faf4ce": {
-      "id": "e9827d85-2fd9-4aed-a32b-a8e2a8faf4ce",
-      "recipeId": "630653af-2a9d-47a3-9156-b7a392e7a956",
+    "feeb8e5b-e07f-435f-90c5-5de56c97563f": {
+      "id": "feeb8e5b-e07f-435f-90c5-5de56c97563f",
+      "recipeId": "dc638859-9430-437c-b160-19066e2177f3",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -36079,12 +36079,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T15:20:27.748Z",
-      "prevVersionId": "5f9c600d-2a94-43a3-a63d-9c26f5873157"
+      "createdAt": "2026-06-18T16:47:56.615Z",
+      "prevVersionId": "f13b26e0-df38-41ee-9b94-0b7f685f42fd"
     },
-    "3f105a28-9d8a-4d2d-9d6f-7ba1fd5f418b": {
-      "id": "3f105a28-9d8a-4d2d-9d6f-7ba1fd5f418b",
-      "recipeId": "630653af-2a9d-47a3-9156-b7a392e7a956",
+    "8abcdd4f-e6cd-41cd-bc61-4cb14694a8f4": {
+      "id": "8abcdd4f-e6cd-41cd-bc61-4cb14694a8f4",
+      "recipeId": "dc638859-9430-437c-b160-19066e2177f3",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -36582,12 +36582,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T15:20:27.927Z",
-      "prevVersionId": "e9827d85-2fd9-4aed-a32b-a8e2a8faf4ce"
+      "createdAt": "2026-06-18T16:47:56.793Z",
+      "prevVersionId": "feeb8e5b-e07f-435f-90c5-5de56c97563f"
     },
-    "b31c3056-02ab-4b79-864f-13094c77b93f": {
-      "id": "b31c3056-02ab-4b79-864f-13094c77b93f",
-      "recipeId": "630653af-2a9d-47a3-9156-b7a392e7a956",
+    "6cef2c8e-b05f-4aca-a769-4bc310f28b99": {
+      "id": "6cef2c8e-b05f-4aca-a769-4bc310f28b99",
+      "recipeId": "dc638859-9430-437c-b160-19066e2177f3",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -37085,12 +37085,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T15:20:28.103Z",
-      "prevVersionId": "3f105a28-9d8a-4d2d-9d6f-7ba1fd5f418b"
+      "createdAt": "2026-06-18T16:47:56.969Z",
+      "prevVersionId": "8abcdd4f-e6cd-41cd-bc61-4cb14694a8f4"
     },
-    "8e763b96-74d9-4974-8584-176d73a267d8": {
-      "id": "8e763b96-74d9-4974-8584-176d73a267d8",
-      "recipeId": "630653af-2a9d-47a3-9156-b7a392e7a956",
+    "27549bff-1c73-4e4a-93e7-d1dfb42c6596": {
+      "id": "27549bff-1c73-4e4a-93e7-d1dfb42c6596",
+      "recipeId": "dc638859-9430-437c-b160-19066e2177f3",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -37270,7 +37270,7 @@
             "name": "protein cream-cheese frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "37d99313-138b-4d6f-8788-fed6b8eaafac"
+              "subRecipeVersionId": "dceb99f5-363a-476c-9be6-f0bca83bcaee"
             }
           }
         ],
@@ -37596,12 +37596,12 @@
         ],
         "caloriesPerGramProtein": 10.09
       },
-      "createdAt": "2026-06-17T15:20:28.280Z",
-      "prevVersionId": "b31c3056-02ab-4b79-864f-13094c77b93f"
+      "createdAt": "2026-06-18T16:47:57.150Z",
+      "prevVersionId": "6cef2c8e-b05f-4aca-a769-4bc310f28b99"
     },
-    "b3055b9c-aaf1-4c18-9bb4-0ae3f89c1965": {
-      "id": "b3055b9c-aaf1-4c18-9bb4-0ae3f89c1965",
-      "recipeId": "630653af-2a9d-47a3-9156-b7a392e7a956",
+    "ce58a5cb-b82c-4134-87d5-5ea33084c448": {
+      "id": "ce58a5cb-b82c-4134-87d5-5ea33084c448",
+      "recipeId": "dc638859-9430-437c-b160-19066e2177f3",
       "name": "Red Velvet Protein Cookies",
       "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
       "tags": [
@@ -37781,7 +37781,7 @@
             "name": "protein cream-cheese frosting",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "37d99313-138b-4d6f-8788-fed6b8eaafac"
+              "subRecipeVersionId": "dceb99f5-363a-476c-9be6-f0bca83bcaee"
             }
           }
         ],
@@ -38127,12 +38127,12 @@
         ],
         "caloriesPerGramProtein": 9.8
       },
-      "createdAt": "2026-06-17T15:20:28.459Z",
-      "prevVersionId": "8e763b96-74d9-4974-8584-176d73a267d8"
+      "createdAt": "2026-06-18T16:47:57.329Z",
+      "prevVersionId": "27549bff-1c73-4e4a-93e7-d1dfb42c6596"
     },
-    "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd": {
-      "id": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd",
-      "recipeId": "82f9439b-ca22-4ed1-b7fd-a81b76eb4c88",
+    "3d4f3bda-5480-44f9-8f1d-c795c6e9206a": {
+      "id": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a",
+      "recipeId": "cb0b6346-b6ff-4369-8e40-25176c1631ac",
       "name": "Turtle Protein Caramel Swirl",
       "description": "Protein caramel for marbling into the turtle cheesecake filling — 0% Greek yogurt + butterscotch SF pudding (the caramel note) + granulated Splenda, salted. Thick and spoonable; it lives hidden in the swirl, so it carries protein, not gloss. Sub-recipe (1 batch ~= 99 cal / 12.6 P).",
       "tags": [
@@ -38332,11 +38332,11 @@
         ],
         "caloriesPerGramProtein": 7.89
       },
-      "createdAt": "2026-06-17T15:20:28.805Z"
+      "createdAt": "2026-06-18T16:47:57.681Z"
     },
-    "d4dacde5-f5c6-409f-91fa-01e7bf884386": {
-      "id": "d4dacde5-f5c6-409f-91fa-01e7bf884386",
-      "recipeId": "bcd872a0-7e07-4ffa-99c5-7abca5251eb1",
+    "33af7b19-59d9-48d5-8ae7-16f99728dd1c": {
+      "id": "33af7b19-59d9-48d5-8ae7-16f99728dd1c",
+      "recipeId": "0cc1a695-0584-4ac2-ba39-b3a08edb0e4a",
       "name": "Turtle Real Brown-Sugar Caramel",
       "description": "The real, glossy caramel for the top — brown sugar cooked with a little butter and thinned with almond milk, salted. Genuine caramelized-sugar flavor and drizzle (you can't caramelize Splenda), kept deliberately small: ~121 cal for the whole cake, the one honest-sugar indulgence. Sub-recipe (1 batch).",
       "tags": [
@@ -38507,11 +38507,11 @@
         ],
         "caloriesPerGramProtein": 970.42
       },
-      "createdAt": "2026-06-17T15:20:29.143Z"
+      "createdAt": "2026-06-18T16:47:58.024Z"
     },
-    "35658f9b-bf83-420f-8cfe-b82019b0fe21": {
-      "id": "35658f9b-bf83-420f-8cfe-b82019b0fe21",
-      "recipeId": "c09d67ff-d6d4-4113-a0d3-aaf173c6d635",
+    "72170f4d-8fc8-4445-b14e-4711ac7ae45f": {
+      "id": "72170f4d-8fc8-4445-b14e-4711ac7ae45f",
+      "recipeId": "e5decd6e-9ad0-4251-82c4-d971fa7b714a",
       "name": "Turtle Dark-Chocolate Ganache",
       "description": "Chocolate drizzle for the top — unsweetened baking chocolate melted with granulated Splenda and thinned with warm almond milk. Real cocoa-butter mouthfeel that cocoa powder can't fake; kept to a thin drizzle so the fat stays small (~98 cal for the whole cake). Sub-recipe (1 batch).",
       "tags": [
@@ -38683,12 +38683,12 @@
         ],
         "caloriesPerGramProtein": 48.08
       },
-      "createdAt": "2026-06-17T15:20:29.484Z"
+      "createdAt": "2026-06-18T16:47:58.365Z"
     },
-    "e2bb613f-58a4-407f-bec0-c8249b6415e1": {
-      "id": "e2bb613f-58a4-407f-bec0-c8249b6415e1",
-      "recipeId": "6634ad3a-6301-4ade-a0f6-ceb28cd0dcbd",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "c3819efb-f48f-4b1a-b2d3-f5880127d31c": {
+      "id": "c3819efb-f48f-4b1a-b2d3-f5880127d31c",
+      "recipeId": "f82d849d-1e84-45a0-8e04-e06c578abffd",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -39121,12 +39121,12 @@
         ],
         "caloriesPerGramProtein": 9.07
       },
-      "createdAt": "2026-06-17T15:20:29.832Z"
+      "createdAt": "2026-06-18T16:47:58.708Z"
     },
-    "7d9f2104-c436-4a8e-81af-b34e788e103a": {
-      "id": "7d9f2104-c436-4a8e-81af-b34e788e103a",
-      "recipeId": "6634ad3a-6301-4ade-a0f6-ceb28cd0dcbd",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "2ca7ffa4-6022-4715-b374-bca50d11911f": {
+      "id": "2ca7ffa4-6022-4715-b374-bca50d11911f",
+      "recipeId": "f82d849d-1e84-45a0-8e04-e06c578abffd",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -39572,13 +39572,13 @@
         ],
         "caloriesPerGramProtein": 8.6
       },
-      "createdAt": "2026-06-17T15:20:30.013Z",
-      "prevVersionId": "e2bb613f-58a4-407f-bec0-c8249b6415e1"
+      "createdAt": "2026-06-18T16:47:58.889Z",
+      "prevVersionId": "c3819efb-f48f-4b1a-b2d3-f5880127d31c"
     },
-    "1d5ec1a3-676d-4e0d-ba91-acc279f4fa9a": {
-      "id": "1d5ec1a3-676d-4e0d-ba91-acc279f4fa9a",
-      "recipeId": "6634ad3a-6301-4ade-a0f6-ceb28cd0dcbd",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "a80bd81a-4660-484b-95bf-af1e44c732ea": {
+      "id": "a80bd81a-4660-484b-95bf-af1e44c732ea",
+      "recipeId": "f82d849d-1e84-45a0-8e04-e06c578abffd",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -39610,7 +39610,7 @@
               "name": "chocolate graham crust",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+                "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
               }
             }
           }
@@ -39760,7 +39760,7 @@
             "name": "chocolate graham crust",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+              "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
             }
           }
         ],
@@ -40044,13 +40044,13 @@
         ],
         "caloriesPerGramProtein": 8.6
       },
-      "createdAt": "2026-06-17T15:20:30.361Z",
-      "prevVersionId": "7d9f2104-c436-4a8e-81af-b34e788e103a"
+      "createdAt": "2026-06-18T16:47:59.241Z",
+      "prevVersionId": "2ca7ffa4-6022-4715-b374-bca50d11911f"
     },
-    "8f61f5bf-210c-4023-a68b-34fea2300bd0": {
-      "id": "8f61f5bf-210c-4023-a68b-34fea2300bd0",
-      "recipeId": "6634ad3a-6301-4ade-a0f6-ceb28cd0dcbd",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "c68c5448-6cf1-4049-8739-305c428819dd": {
+      "id": "c68c5448-6cf1-4049-8739-305c428819dd",
+      "recipeId": "f82d849d-1e84-45a0-8e04-e06c578abffd",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -40082,7 +40082,7 @@
               "name": "chocolate graham crust",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+                "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
               }
             }
           },
@@ -40243,7 +40243,7 @@
             "name": "chocolate graham crust",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+              "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
             }
           }
         ],
@@ -40547,13 +40547,13 @@
         ],
         "caloriesPerGramProtein": 10.44
       },
-      "createdAt": "2026-06-17T15:20:30.537Z",
-      "prevVersionId": "1d5ec1a3-676d-4e0d-ba91-acc279f4fa9a"
+      "createdAt": "2026-06-18T16:47:59.419Z",
+      "prevVersionId": "a80bd81a-4660-484b-95bf-af1e44c732ea"
     },
-    "bbbaac5b-03dc-4ca6-81ab-27bfd03652e6": {
-      "id": "bbbaac5b-03dc-4ca6-81ab-27bfd03652e6",
-      "recipeId": "6634ad3a-6301-4ade-a0f6-ceb28cd0dcbd",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "92e690f7-2e2b-49d6-831f-7f8d9fcdd668": {
+      "id": "92e690f7-2e2b-49d6-831f-7f8d9fcdd668",
+      "recipeId": "f82d849d-1e84-45a0-8e04-e06c578abffd",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -40585,7 +40585,7 @@
               "name": "chocolate graham crust",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+                "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
               }
             }
           },
@@ -40608,7 +40608,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+                "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
               }
             }
           }
@@ -40758,7 +40758,7 @@
             "name": "chocolate graham crust",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+              "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
             }
           },
           {
@@ -40766,7 +40766,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+              "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
             }
           }
         ],
@@ -41070,13 +41070,13 @@
         ],
         "caloriesPerGramProtein": 10.44
       },
-      "createdAt": "2026-06-17T15:20:30.880Z",
-      "prevVersionId": "8f61f5bf-210c-4023-a68b-34fea2300bd0"
+      "createdAt": "2026-06-18T16:47:59.768Z",
+      "prevVersionId": "c68c5448-6cf1-4049-8739-305c428819dd"
     },
-    "98780f8d-13ba-4908-82ac-1dce737e6d63": {
-      "id": "98780f8d-13ba-4908-82ac-1dce737e6d63",
-      "recipeId": "6634ad3a-6301-4ade-a0f6-ceb28cd0dcbd",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "3a139727-35b0-48b7-befe-01200b179474": {
+      "id": "3a139727-35b0-48b7-befe-01200b179474",
+      "recipeId": "f82d849d-1e84-45a0-8e04-e06c578abffd",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -41108,7 +41108,7 @@
               "name": "chocolate graham crust",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+                "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
               }
             }
           },
@@ -41131,7 +41131,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+                "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
               }
             }
           },
@@ -41291,7 +41291,7 @@
             "name": "chocolate graham crust",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+              "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
             }
           },
           {
@@ -41299,7 +41299,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+              "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
             }
           }
         ],
@@ -41603,13 +41603,13 @@
         ],
         "caloriesPerGramProtein": 10.44
       },
-      "createdAt": "2026-06-17T15:20:31.057Z",
-      "prevVersionId": "bbbaac5b-03dc-4ca6-81ab-27bfd03652e6"
+      "createdAt": "2026-06-18T16:47:59.948Z",
+      "prevVersionId": "92e690f7-2e2b-49d6-831f-7f8d9fcdd668"
     },
-    "6e1e25b4-6504-468b-a151-0e444e9206a4": {
-      "id": "6e1e25b4-6504-468b-a151-0e444e9206a4",
-      "recipeId": "6634ad3a-6301-4ade-a0f6-ceb28cd0dcbd",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "b8d0cb1f-82e6-4c38-9f25-d0f32acc1182": {
+      "id": "b8d0cb1f-82e6-4c38-9f25-d0f32acc1182",
+      "recipeId": "f82d849d-1e84-45a0-8e04-e06c578abffd",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -41641,7 +41641,7 @@
               "name": "chocolate graham crust",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+                "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
               }
             }
           },
@@ -41664,7 +41664,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+                "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
               }
             }
           },
@@ -41835,7 +41835,7 @@
             "name": "chocolate graham crust",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+              "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
             }
           },
           {
@@ -41843,7 +41843,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+              "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
             }
           }
         ],
@@ -42167,13 +42167,13 @@
         ],
         "caloriesPerGramProtein": 10.23
       },
-      "createdAt": "2026-06-17T15:20:31.236Z",
-      "prevVersionId": "98780f8d-13ba-4908-82ac-1dce737e6d63"
+      "createdAt": "2026-06-18T16:48:00.125Z",
+      "prevVersionId": "3a139727-35b0-48b7-befe-01200b179474"
     },
-    "ffba9b31-119b-4cb8-afba-cf61f99edce2": {
-      "id": "ffba9b31-119b-4cb8-afba-cf61f99edce2",
-      "recipeId": "6634ad3a-6301-4ade-a0f6-ceb28cd0dcbd",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "989f3e2f-fce7-4f78-88db-5e4ac5553077": {
+      "id": "989f3e2f-fce7-4f78-88db-5e4ac5553077",
+      "recipeId": "f82d849d-1e84-45a0-8e04-e06c578abffd",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -42205,7 +42205,7 @@
               "name": "chocolate graham crust",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+                "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
               }
             }
           },
@@ -42228,7 +42228,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+                "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
               }
             }
           },
@@ -42261,7 +42261,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "d4dacde5-f5c6-409f-91fa-01e7bf884386"
+                "subRecipeVersionId": "33af7b19-59d9-48d5-8ae7-16f99728dd1c"
               }
             }
           }
@@ -42411,7 +42411,7 @@
             "name": "chocolate graham crust",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+              "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
             }
           },
           {
@@ -42419,7 +42419,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+              "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
             }
           },
           {
@@ -42427,7 +42427,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "d4dacde5-f5c6-409f-91fa-01e7bf884386"
+              "subRecipeVersionId": "33af7b19-59d9-48d5-8ae7-16f99728dd1c"
             }
           }
         ],
@@ -42751,13 +42751,13 @@
         ],
         "caloriesPerGramProtein": 10.23
       },
-      "createdAt": "2026-06-17T15:20:31.588Z",
-      "prevVersionId": "6e1e25b4-6504-468b-a151-0e444e9206a4"
+      "createdAt": "2026-06-18T16:48:00.474Z",
+      "prevVersionId": "b8d0cb1f-82e6-4c38-9f25-d0f32acc1182"
     },
-    "d07d27d7-32e0-4b0e-b092-6dcfe24740b3": {
-      "id": "d07d27d7-32e0-4b0e-b092-6dcfe24740b3",
-      "recipeId": "6634ad3a-6301-4ade-a0f6-ceb28cd0dcbd",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "34f2f2f8-17e7-4260-a9b3-74f8c0f01857": {
+      "id": "34f2f2f8-17e7-4260-a9b3-74f8c0f01857",
+      "recipeId": "f82d849d-1e84-45a0-8e04-e06c578abffd",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -42789,7 +42789,7 @@
               "name": "chocolate graham crust",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+                "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
               }
             }
           },
@@ -42812,7 +42812,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+                "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
               }
             }
           },
@@ -42845,7 +42845,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "d4dacde5-f5c6-409f-91fa-01e7bf884386"
+                "subRecipeVersionId": "33af7b19-59d9-48d5-8ae7-16f99728dd1c"
               }
             }
           },
@@ -42857,7 +42857,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "35658f9b-bf83-420f-8cfe-b82019b0fe21"
+                "subRecipeVersionId": "72170f4d-8fc8-4445-b14e-4711ac7ae45f"
               }
             }
           }
@@ -43007,7 +43007,7 @@
             "name": "chocolate graham crust",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+              "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
             }
           },
           {
@@ -43015,7 +43015,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+              "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
             }
           },
           {
@@ -43023,7 +43023,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "d4dacde5-f5c6-409f-91fa-01e7bf884386"
+              "subRecipeVersionId": "33af7b19-59d9-48d5-8ae7-16f99728dd1c"
             }
           },
           {
@@ -43031,7 +43031,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "35658f9b-bf83-420f-8cfe-b82019b0fe21"
+              "subRecipeVersionId": "72170f4d-8fc8-4445-b14e-4711ac7ae45f"
             }
           }
         ],
@@ -43355,13 +43355,13 @@
         ],
         "caloriesPerGramProtein": 10.23
       },
-      "createdAt": "2026-06-17T15:20:31.937Z",
-      "prevVersionId": "ffba9b31-119b-4cb8-afba-cf61f99edce2"
+      "createdAt": "2026-06-18T16:48:00.826Z",
+      "prevVersionId": "989f3e2f-fce7-4f78-88db-5e4ac5553077"
     },
-    "101a20be-669c-4f8c-9829-73db93946f07": {
-      "id": "101a20be-669c-4f8c-9829-73db93946f07",
-      "recipeId": "6634ad3a-6301-4ade-a0f6-ceb28cd0dcbd",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "daee80e7-a7df-4d1d-8282-04bc8920fcd6": {
+      "id": "daee80e7-a7df-4d1d-8282-04bc8920fcd6",
+      "recipeId": "f82d849d-1e84-45a0-8e04-e06c578abffd",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -43393,7 +43393,7 @@
               "name": "chocolate graham crust",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+                "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
               }
             }
           },
@@ -43416,7 +43416,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+                "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
               }
             }
           },
@@ -43449,7 +43449,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "d4dacde5-f5c6-409f-91fa-01e7bf884386"
+                "subRecipeVersionId": "33af7b19-59d9-48d5-8ae7-16f99728dd1c"
               }
             }
           },
@@ -43461,7 +43461,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "35658f9b-bf83-420f-8cfe-b82019b0fe21"
+                "subRecipeVersionId": "72170f4d-8fc8-4445-b14e-4711ac7ae45f"
               }
             }
           },
@@ -43627,7 +43627,7 @@
             "name": "chocolate graham crust",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+              "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
             }
           },
           {
@@ -43635,7 +43635,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+              "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
             }
           },
           {
@@ -43643,7 +43643,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "d4dacde5-f5c6-409f-91fa-01e7bf884386"
+              "subRecipeVersionId": "33af7b19-59d9-48d5-8ae7-16f99728dd1c"
             }
           },
           {
@@ -43651,7 +43651,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "35658f9b-bf83-420f-8cfe-b82019b0fe21"
+              "subRecipeVersionId": "72170f4d-8fc8-4445-b14e-4711ac7ae45f"
             }
           }
         ],
@@ -43975,13 +43975,13 @@
         ],
         "caloriesPerGramProtein": 10.23
       },
-      "createdAt": "2026-06-17T15:20:32.115Z",
-      "prevVersionId": "d07d27d7-32e0-4b0e-b092-6dcfe24740b3"
+      "createdAt": "2026-06-18T16:48:01.007Z",
+      "prevVersionId": "34f2f2f8-17e7-4260-a9b3-74f8c0f01857"
     },
-    "88ee2cea-930a-4780-90ff-1b2be784cfb8": {
-      "id": "88ee2cea-930a-4780-90ff-1b2be784cfb8",
-      "recipeId": "6634ad3a-6301-4ade-a0f6-ceb28cd0dcbd",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "6c25ce40-5e6e-47e8-8802-2cffc63f15a0": {
+      "id": "6c25ce40-5e6e-47e8-8802-2cffc63f15a0",
+      "recipeId": "f82d849d-1e84-45a0-8e04-e06c578abffd",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -44013,7 +44013,7 @@
               "name": "chocolate graham crust",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+                "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
               }
             }
           },
@@ -44036,7 +44036,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+                "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
               }
             }
           },
@@ -44069,7 +44069,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "d4dacde5-f5c6-409f-91fa-01e7bf884386"
+                "subRecipeVersionId": "33af7b19-59d9-48d5-8ae7-16f99728dd1c"
               }
             }
           },
@@ -44081,7 +44081,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "35658f9b-bf83-420f-8cfe-b82019b0fe21"
+                "subRecipeVersionId": "72170f4d-8fc8-4445-b14e-4711ac7ae45f"
               }
             }
           },
@@ -44258,7 +44258,7 @@
             "name": "chocolate graham crust",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+              "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
             }
           },
           {
@@ -44266,7 +44266,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+              "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
             }
           },
           {
@@ -44274,7 +44274,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "d4dacde5-f5c6-409f-91fa-01e7bf884386"
+              "subRecipeVersionId": "33af7b19-59d9-48d5-8ae7-16f99728dd1c"
             }
           },
           {
@@ -44282,7 +44282,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "35658f9b-bf83-420f-8cfe-b82019b0fe21"
+              "subRecipeVersionId": "72170f4d-8fc8-4445-b14e-4711ac7ae45f"
             }
           }
         ],
@@ -44626,13 +44626,13 @@
         ],
         "caloriesPerGramProtein": 11.03
       },
-      "createdAt": "2026-06-17T15:20:32.293Z",
-      "prevVersionId": "101a20be-669c-4f8c-9829-73db93946f07"
+      "createdAt": "2026-06-18T16:48:01.187Z",
+      "prevVersionId": "daee80e7-a7df-4d1d-8282-04bc8920fcd6"
     },
-    "e0a320cf-09a8-4e0d-b0aa-a2cf5a4911e1": {
-      "id": "e0a320cf-09a8-4e0d-b0aa-a2cf5a4911e1",
-      "recipeId": "6634ad3a-6301-4ade-a0f6-ceb28cd0dcbd",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "afd75ed9-9a05-462a-b21a-654919964c75": {
+      "id": "afd75ed9-9a05-462a-b21a-654919964c75",
+      "recipeId": "f82d849d-1e84-45a0-8e04-e06c578abffd",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Turtle Protein Cheesecake",
       "tags": [],
       "yield": {
@@ -44664,7 +44664,7 @@
               "name": "chocolate graham crust",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+                "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
               }
             }
           },
@@ -44687,7 +44687,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+                "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
               }
             }
           },
@@ -44720,7 +44720,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "d4dacde5-f5c6-409f-91fa-01e7bf884386"
+                "subRecipeVersionId": "33af7b19-59d9-48d5-8ae7-16f99728dd1c"
               }
             }
           },
@@ -44732,7 +44732,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "35658f9b-bf83-420f-8cfe-b82019b0fe21"
+                "subRecipeVersionId": "72170f4d-8fc8-4445-b14e-4711ac7ae45f"
               }
             }
           },
@@ -44920,7 +44920,7 @@
             "name": "chocolate graham crust",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+              "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
             }
           },
           {
@@ -44928,7 +44928,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+              "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
             }
           },
           {
@@ -44936,7 +44936,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "d4dacde5-f5c6-409f-91fa-01e7bf884386"
+              "subRecipeVersionId": "33af7b19-59d9-48d5-8ae7-16f99728dd1c"
             }
           },
           {
@@ -44944,7 +44944,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "35658f9b-bf83-420f-8cfe-b82019b0fe21"
+              "subRecipeVersionId": "72170f4d-8fc8-4445-b14e-4711ac7ae45f"
             }
           }
         ],
@@ -45308,13 +45308,13 @@
         ],
         "caloriesPerGramProtein": 11.53
       },
-      "createdAt": "2026-06-17T15:20:32.471Z",
-      "prevVersionId": "88ee2cea-930a-4780-90ff-1b2be784cfb8"
+      "createdAt": "2026-06-18T16:48:01.365Z",
+      "prevVersionId": "6c25ce40-5e6e-47e8-8802-2cffc63f15a0"
     },
-    "9fb41874-51d2-495b-a672-3101e8f8dd88": {
-      "id": "9fb41874-51d2-495b-a672-3101e8f8dd88",
-      "recipeId": "6634ad3a-6301-4ade-a0f6-ceb28cd0dcbd",
-      "derivesFromVersionId": "f84cfd44-4862-4410-a7ed-4a0ee05cd9ac",
+    "bbdf64e0-2cb3-4666-b5e9-898455fa8d1c": {
+      "id": "bbdf64e0-2cb3-4666-b5e9-898455fa8d1c",
+      "recipeId": "f82d849d-1e84-45a0-8e04-e06c578abffd",
+      "derivesFromVersionId": "b12bcdb4-d93f-494c-abce-23cd4b62f962",
       "name": "Turtle Protein Cheesecake",
       "tags": [
         "cheesecake",
@@ -45352,7 +45352,7 @@
               "name": "chocolate graham crust",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+                "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
               }
             }
           },
@@ -45375,7 +45375,7 @@
               "name": "protein caramel swirl",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+                "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
               }
             }
           },
@@ -45408,7 +45408,7 @@
               "name": "real brown-sugar caramel",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "d4dacde5-f5c6-409f-91fa-01e7bf884386"
+                "subRecipeVersionId": "33af7b19-59d9-48d5-8ae7-16f99728dd1c"
               }
             }
           },
@@ -45420,7 +45420,7 @@
               "name": "dark-chocolate ganache",
               "resolution": {
                 "kind": "sub_recipe",
-                "subRecipeVersionId": "35658f9b-bf83-420f-8cfe-b82019b0fe21"
+                "subRecipeVersionId": "72170f4d-8fc8-4445-b14e-4711ac7ae45f"
               }
             }
           },
@@ -45615,7 +45615,7 @@
             "name": "chocolate graham crust",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "add1d3c0-6b1e-4daf-9c13-4fdf9ce71a52"
+              "subRecipeVersionId": "897bded8-300b-434c-ab5f-e6a181e82d4e"
             }
           },
           {
@@ -45623,7 +45623,7 @@
             "name": "protein caramel swirl",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "a7a1dbf1-02ec-4432-8137-e71edf6ee3fd"
+              "subRecipeVersionId": "3d4f3bda-5480-44f9-8f1d-c795c6e9206a"
             }
           },
           {
@@ -45631,7 +45631,7 @@
             "name": "real brown-sugar caramel",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "d4dacde5-f5c6-409f-91fa-01e7bf884386"
+              "subRecipeVersionId": "33af7b19-59d9-48d5-8ae7-16f99728dd1c"
             }
           },
           {
@@ -45639,7 +45639,7 @@
             "name": "dark-chocolate ganache",
             "resolution": {
               "kind": "sub_recipe",
-              "subRecipeVersionId": "35658f9b-bf83-420f-8cfe-b82019b0fe21"
+              "subRecipeVersionId": "72170f4d-8fc8-4445-b14e-4711ac7ae45f"
             }
           }
         ],
@@ -46003,8 +46003,8 @@
         ],
         "caloriesPerGramProtein": 11.53
       },
-      "createdAt": "2026-06-17T15:20:32.652Z",
-      "prevVersionId": "e0a320cf-09a8-4e0d-b0aa-a2cf5a4911e1",
+      "createdAt": "2026-06-18T16:48:01.543Z",
+      "prevVersionId": "afd75ed9-9a05-462a-b21a-654919964c75",
       "description": "Turtle protein cheesecake derived from the Vanilla Pumpkin base — pecan skipped, so caramel + chocolate carry the turtle identity. Adds a thin graham-forward chocolate crust (graham crumbs + cocoa, egg-white bound, minimal butter), a protein caramel swirl marbled into the filling (butterscotch SF pudding + 0% yogurt), and a top drizzle of REAL brown-sugar caramel + unsweetened-baking-chocolate ganache, finished with flaky salt. Filling protein bumped 2 -> 2.5 scoops to hold the macro ratio. Lands ~11.5 cal/g protein (~217 cal / 19 g protein per slice of 8). Splenda throughout, never monk fruit; the real caramel is the one honest-sugar indulgence, kept small. Bake in a 9-inch pan with a parchment sling for lift-out."
     }
   },
@@ -46524,171 +46524,171 @@
     }
   },
   "feedback": {
-    "2104dc8b-0e76-429f-af36-8006492d29cc": {
+    "38c9dcf5-64c0-46b2-bb86-971ca81b4619": {
       "kind": "made",
       "rating": "excellent",
-      "id": "2104dc8b-0e76-429f-af36-8006492d29cc",
-      "recipeId": "d29491c1-c856-48e4-86d8-88e249ec0e3d",
-      "versionId": "05380b37-f7a3-4a8e-9342-6b95dd8edc1a",
-      "date": "2026-06-17T15:20:32.992Z",
+      "id": "38c9dcf5-64c0-46b2-bb86-971ca81b4619",
+      "recipeId": "b794187b-4ac3-4acb-8e80-8fd67f6fd09b",
+      "versionId": "802a9eb5-d8f9-4d4e-9aa0-b6f9ffad0af8",
+      "date": "2026-06-18T16:48:01.895Z",
       "author": "user",
-      "createdAt": "2026-06-17T15:20:32.992Z"
+      "createdAt": "2026-06-18T16:48:01.895Z"
     },
-    "a9e913e9-9d69-4c94-b1ab-4bc1379aab26": {
+    "8c021e7f-7879-4d3d-a702-ada3623050c2": {
       "kind": "made",
       "rating": "good",
-      "id": "a9e913e9-9d69-4c94-b1ab-4bc1379aab26",
-      "recipeId": "3d2cc186-988a-4c2b-bdb8-9353b1ba1c59",
-      "versionId": "565c4652-e497-44b0-9ea6-7a78163172fc",
+      "id": "8c021e7f-7879-4d3d-a702-ada3623050c2",
+      "recipeId": "aedc552c-529e-4647-b092-a883a7f17708",
+      "versionId": "22f35e05-16ac-4bc0-abc2-2ec387f48072",
       "notes": "Good taste. Texture came out soft, not very dense as the recipe intends — acceptable, not much to be done about it.",
-      "date": "2026-06-17T15:20:33.156Z",
+      "date": "2026-06-18T16:48:02.064Z",
       "author": "user",
-      "createdAt": "2026-06-17T15:20:33.156Z"
+      "createdAt": "2026-06-18T16:48:02.064Z"
     },
-    "50d617d7-178a-4d84-9601-0b9a1852d26a": {
+    "81e9bdb6-42d8-4f9f-b1d0-1ee7e948f231": {
       "kind": "made",
       "rating": "excellent",
-      "id": "50d617d7-178a-4d84-9601-0b9a1852d26a",
-      "recipeId": "747adb18-6ffa-404a-9674-201b084bd1c0",
-      "versionId": "f4407ad1-8a32-488a-9476-f5c98eb9fe5d",
-      "date": "2026-06-17T15:20:33.324Z",
+      "id": "81e9bdb6-42d8-4f9f-b1d0-1ee7e948f231",
+      "recipeId": "c349abda-6c4d-4d68-bf94-b21c25fc4699",
+      "versionId": "519a1275-ccf7-4d04-a720-99a13e53a7f5",
+      "date": "2026-06-18T16:48:02.233Z",
       "author": "user",
-      "createdAt": "2026-06-17T15:20:33.324Z"
+      "createdAt": "2026-06-18T16:48:02.233Z"
     },
-    "5c667ca2-c815-456e-acab-9cd7be0775d2": {
+    "6740f4a9-727d-4bca-8b7f-7839b75b67d2": {
       "kind": "made",
       "rating": "okay",
-      "id": "5c667ca2-c815-456e-acab-9cd7be0775d2",
-      "recipeId": "2e0fe028-6d41-4fca-9815-fe63e39f6e05",
-      "versionId": "5d665498-110b-4a57-a1a9-8b3065b0bd8a",
+      "id": "6740f4a9-727d-4bca-8b7f-7839b75b67d2",
+      "recipeId": "cb79ab33-a0e1-40f9-abb6-5795cbba5ef1",
+      "versionId": "05034980-ac79-458f-b575-49a0e7b3eb9d",
       "notes": "Decent. Filling really wants a Ninja Creami churn for texture.",
-      "date": "2026-06-17T15:20:33.492Z",
+      "date": "2026-06-18T16:48:02.401Z",
       "author": "user",
-      "createdAt": "2026-06-17T15:20:33.492Z"
+      "createdAt": "2026-06-18T16:48:02.401Z"
     },
-    "f9adb0b5-e32c-4a22-a554-871e6b17f151": {
+    "4dfb8c5a-e041-4f73-8f28-b71ffb00492e": {
       "kind": "made",
       "rating": "excellent",
-      "id": "f9adb0b5-e32c-4a22-a554-871e6b17f151",
-      "recipeId": "74811742-fc9c-4e2c-9bf1-0452ca9b6f32",
-      "versionId": "19ec8299-039b-4e99-b548-72d38f42c0f4",
-      "date": "2026-06-17T15:20:33.659Z",
+      "id": "4dfb8c5a-e041-4f73-8f28-b71ffb00492e",
+      "recipeId": "fc43da97-9ca9-4c23-b0f9-79077d05b31f",
+      "versionId": "9c34e2df-ec54-40fc-a47b-65e8f9897d99",
+      "date": "2026-06-18T16:48:02.571Z",
       "author": "user",
-      "createdAt": "2026-06-17T15:20:33.659Z"
+      "createdAt": "2026-06-18T16:48:02.571Z"
     },
-    "bdd538f0-e539-4f24-a858-8ff8e17e1c40": {
+    "8a6c7029-9a32-4a84-acf7-330f8513bf57": {
       "kind": "made",
       "rating": "excellent",
-      "id": "bdd538f0-e539-4f24-a858-8ff8e17e1c40",
-      "recipeId": "82ca2d90-2982-4bd7-9b5c-9bcf9010d1ca",
-      "versionId": "e1b9393e-8b10-483c-83b9-16b2ae307f04",
-      "date": "2026-06-17T15:20:33.829Z",
+      "id": "8a6c7029-9a32-4a84-acf7-330f8513bf57",
+      "recipeId": "0734e9dd-3410-4d3b-b8d1-8a61ae656f98",
+      "versionId": "cd2e63ac-228e-47dd-b7cb-f939a11b78cc",
+      "date": "2026-06-18T16:48:02.738Z",
       "author": "user",
-      "createdAt": "2026-06-17T15:20:33.829Z"
+      "createdAt": "2026-06-18T16:48:02.738Z"
     },
-    "2febe5f8-123a-4a66-b71b-cef5597915db": {
+    "00e31db0-6034-40ea-8c1f-ad904b2904b7": {
       "kind": "made",
       "rating": "excellent",
-      "id": "2febe5f8-123a-4a66-b71b-cef5597915db",
-      "recipeId": "06ee025a-d352-45b6-a00e-53b07b964a47",
-      "versionId": "f0c026fc-b35c-4afb-bf4d-7cf3fbfca7f8",
+      "id": "00e31db0-6034-40ea-8c1f-ad904b2904b7",
+      "recipeId": "40ac1417-a73a-4b8e-ac83-1f370ce4e401",
+      "versionId": "01ca1ed5-b7a3-431e-8a6e-74340f50e79f",
       "notes": "cookie itself is great",
-      "date": "2026-06-17T15:20:33.998Z",
+      "date": "2026-06-18T16:48:02.904Z",
       "author": "user",
-      "createdAt": "2026-06-17T15:20:33.998Z"
+      "createdAt": "2026-06-18T16:48:02.904Z"
     },
-    "9d99abe4-3f40-42b3-9a9e-a67ceb915a25": {
+    "1ecdf816-3e75-45f4-8eea-bb5a0e4a3a04": {
       "kind": "made",
       "rating": "bad",
-      "id": "9d99abe4-3f40-42b3-9a9e-a67ceb915a25",
-      "recipeId": "06ee025a-d352-45b6-a00e-53b07b964a47",
-      "versionId": "f0c026fc-b35c-4afb-bf4d-7cf3fbfca7f8",
+      "id": "1ecdf816-3e75-45f4-8eea-bb5a0e4a3a04",
+      "recipeId": "40ac1417-a73a-4b8e-ac83-1f370ce4e401",
+      "versionId": "01ca1ed5-b7a3-431e-8a6e-74340f50e79f",
       "componentKey": "b5",
       "notes": "glaze too weak/thin, needs work",
-      "date": "2026-06-17T15:20:34.163Z",
+      "date": "2026-06-18T16:48:03.073Z",
       "author": "user",
-      "createdAt": "2026-06-17T15:20:34.163Z"
+      "createdAt": "2026-06-18T16:48:03.073Z"
     },
-    "3d38fd2e-457e-4426-9478-506149778f46": {
+    "40fffe90-47c9-46ff-b20e-693dc60f88eb": {
       "kind": "made",
       "rating": "good",
-      "id": "3d38fd2e-457e-4426-9478-506149778f46",
-      "recipeId": "38efe953-0cff-4f5a-ab59-d913c288ff66",
-      "versionId": "02ddbed9-c863-4ee2-b04d-397cde2eb010",
-      "date": "2026-06-17T15:20:34.330Z",
+      "id": "40fffe90-47c9-46ff-b20e-693dc60f88eb",
+      "recipeId": "5c592b94-af40-49fd-8a32-3069edbdcfaa",
+      "versionId": "1dc72852-5040-4a3d-8438-c6fed5366e49",
+      "date": "2026-06-18T16:48:03.240Z",
       "author": "user",
-      "createdAt": "2026-06-17T15:20:34.330Z"
+      "createdAt": "2026-06-18T16:48:03.240Z"
     },
-    "5287d72b-35d2-40f9-b1cf-b4ed135f07d6": {
+    "f9f7585f-10dd-43fc-8bce-50b65f660aeb": {
       "kind": "to-make",
-      "id": "5287d72b-35d2-40f9-b1cf-b4ed135f07d6",
-      "recipeId": "81045eff-e859-4531-859f-68fcb07346af",
-      "versionId": "ca441475-a7ff-4f6a-a27b-5f2e9391011d",
+      "id": "f9f7585f-10dd-43fc-8bce-50b65f660aeb",
+      "recipeId": "1085d8f9-602d-4323-9041-dcbabdc3d48e",
+      "versionId": "6a92e701-b01e-4c1d-bf6e-5d42e7085b5c",
       "notes": "First bake of the base — confirm the cornstarch keeps it soft at 2 scoops protein, and that 163 kcal / 14.3 g protein eats like a real crumbl base. If texture holds, bump dough protein 2 -> 2.5 scoops to crack <10 kcal/g.",
-      "date": "2026-06-17T15:20:34.497Z",
+      "date": "2026-06-18T16:48:03.405Z",
       "author": "user",
-      "createdAt": "2026-06-17T15:20:34.497Z"
+      "createdAt": "2026-06-18T16:48:03.405Z"
     },
-    "ec1a03b3-8215-40ac-ac52-5572a5238928": {
+    "9b7d8b47-5b71-498b-9807-08cf3add1cc7": {
       "kind": "to-make",
-      "id": "ec1a03b3-8215-40ac-ac52-5572a5238928",
-      "recipeId": "630653af-2a9d-47a3-9156-b7a392e7a956",
-      "versionId": "b3055b9c-aaf1-4c18-9bb4-0ae3f89c1965",
+      "id": "9b7d8b47-5b71-498b-9807-08cf3add1cc7",
+      "recipeId": "dc638859-9430-437c-b160-19066e2177f3",
+      "versionId": "ce58a5cb-b82c-4134-87d5-5ea33084c448",
       "notes": "haven't made it yet",
-      "date": "2026-06-17T15:20:34.664Z",
+      "date": "2026-06-18T16:48:03.572Z",
       "author": "user",
-      "createdAt": "2026-06-17T15:20:34.664Z"
+      "createdAt": "2026-06-18T16:48:03.572Z"
     },
-    "8fe67533-03fc-4c20-b6e4-17b9da881a65": {
+    "2f95809a-7a09-493e-b618-d173665e5c4d": {
       "kind": "to-make",
-      "id": "8fe67533-03fc-4c20-b6e4-17b9da881a65",
-      "recipeId": "caa23e38-0b80-46dc-b37b-3810ab7e4bac",
-      "versionId": "c0b56d3a-8b79-4a42-8679-83472fe5ddf4",
+      "id": "2f95809a-7a09-493e-b618-d173665e5c4d",
+      "recipeId": "1ec21b7d-ac8a-4084-87f3-b7b9f8975231",
+      "versionId": "f1d15ecb-49fa-48b4-aa37-f67cd9281214",
       "notes": "Test the <10 kcal/g-protein claim IRL — 3 scoops whey in 5 cookies is aggressive protein-loading; watch for dry/rubbery 'pancake' texture and whether the 1-cup-yogurt frosting reads as frosting or just wet.",
-      "date": "2026-06-17T15:20:34.831Z",
+      "date": "2026-06-18T16:48:03.743Z",
       "author": "user",
-      "createdAt": "2026-06-17T15:20:34.831Z"
+      "createdAt": "2026-06-18T16:48:03.743Z"
     },
-    "c23c53e9-9034-4ae9-8868-d2991a24130e": {
+    "c1ff24db-cf0f-4bb5-8955-d6dd08161f24": {
       "kind": "to-make",
-      "id": "c23c53e9-9034-4ae9-8868-d2991a24130e",
-      "recipeId": "5b2bbdd0-9940-40f2-a802-07acd84dac83",
-      "versionId": "21e9b99c-59f8-4e59-84da-db262626e589",
+      "id": "c1ff24db-cf0f-4bb5-8955-d6dd08161f24",
+      "recipeId": "6f0017a7-e245-40ca-acb4-99ddaaaf7104",
+      "versionId": "822710b6-63b3-4a88-b3c1-c2b15fea4ace",
       "notes": "found on IG, untried - lean yogurt-based cookie",
-      "date": "2026-06-17T15:20:34.997Z",
+      "date": "2026-06-18T16:48:03.913Z",
       "author": "user",
-      "createdAt": "2026-06-17T15:20:34.997Z"
+      "createdAt": "2026-06-18T16:48:03.913Z"
     },
-    "cd9c5a95-df44-48cd-aa6a-40d646f26aec": {
+    "ed2031b1-f1e2-4df1-8207-a290b227c049": {
       "kind": "to-make",
-      "id": "cd9c5a95-df44-48cd-aa6a-40d646f26aec",
-      "recipeId": "5c003271-dbe2-4c44-a49d-921f3cc28cb6",
-      "versionId": "f481a688-5d77-4c46-bec0-c943d6d76bc3",
+      "id": "ed2031b1-f1e2-4df1-8207-a290b227c049",
+      "recipeId": "e31fa35a-6b9f-4b9e-98cd-6fd3b29628ee",
+      "versionId": "61f86989-8780-436d-8ac8-0a7fde870467",
       "notes": "protein ablation — not baked yet",
-      "date": "2026-06-17T15:20:35.166Z",
+      "date": "2026-06-18T16:48:04.083Z",
       "author": "user",
-      "createdAt": "2026-06-17T15:20:35.166Z"
+      "createdAt": "2026-06-18T16:48:04.083Z"
     },
-    "f58ba35e-c5ac-49b0-9830-4157e83cdf74": {
+    "7ef6756b-eec8-4716-91c3-72b92438580b": {
       "kind": "to-make",
-      "id": "f58ba35e-c5ac-49b0-9830-4157e83cdf74",
-      "recipeId": "2f8588ef-382b-482a-b7a9-1d247f0622b3",
-      "versionId": "2da235bd-8a7c-41bd-b319-087dc7d02236",
+      "id": "7ef6756b-eec8-4716-91c3-72b92438580b",
+      "recipeId": "9878f347-7b1c-42ac-ae95-11192328c4f7",
+      "versionId": "9ecbe835-dde1-4e9b-84fe-aedcb56d0994",
       "notes": "protein ablation — not baked yet",
-      "date": "2026-06-17T15:20:35.333Z",
+      "date": "2026-06-18T16:48:04.251Z",
       "author": "user",
-      "createdAt": "2026-06-17T15:20:35.333Z"
+      "createdAt": "2026-06-18T16:48:04.251Z"
     },
-    "9d8e786c-55d1-47dc-983f-f56e394c2d70": {
+    "906ce705-88b2-407f-97e0-e9305231cb8b": {
       "kind": "made",
       "rating": "excellent",
-      "id": "9d8e786c-55d1-47dc-983f-f56e394c2d70",
-      "recipeId": "6634ad3a-6301-4ade-a0f6-ceb28cd0dcbd",
-      "versionId": "9fb41874-51d2-495b-a672-3101e8f8dd88",
+      "id": "906ce705-88b2-407f-97e0-e9305231cb8b",
+      "recipeId": "f82d849d-1e84-45a0-8e04-e06c578abffd",
+      "versionId": "bbdf64e0-2cb3-4666-b5e9-898455fa8d1c",
       "notes": "Made and fully tasted — excellent, came out amazing. ~217 cal / 19 g protein per slice (11.5 cal/g).",
-      "date": "2026-06-17T15:20:35.500Z",
+      "date": "2026-06-18T16:48:04.419Z",
       "author": "user",
-      "createdAt": "2026-06-17T15:20:35.500Z"
+      "createdAt": "2026-06-18T16:48:04.419Z"
     }
   }
 }
