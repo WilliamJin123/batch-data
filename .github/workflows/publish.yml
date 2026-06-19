@@ -1,0 +1,26 @@
+name: Publish to site
+
+# This private data repo isn't the repo Vercel watches (that's the code repo
+# `batch`), so a recipe push here won't redeploy on its own. This job pokes
+# Vercel to rebuild production with `forceNew`, and the build re-clones this
+# repo's latest `master` — so the new data goes live within a couple minutes.
+on:
+  push:
+    branches: [master]
+    paths: ["db.json"]
+  workflow_dispatch: {}
+
+jobs:
+  redeploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel production rebuild (re-clones latest data)
+        run: |
+          echo "Triggering a production rebuild so the new data goes live…"
+          curl -fsS -X POST \
+            "https://api.vercel.com/v13/deployments?teamId=team_JIirtHKkXKE94h2vWV7IGnPv&forceNew=1" \
+            -H "Authorization: Bearer ${{ secrets.VERCEL_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{"name":"web","project":"prj_tY2bVTNpjJTWTTZ3u4Lz1dgR2eXR","target":"production","gitSource":{"type":"github","ref":"main","repoId":1268684828}}'
+          echo
+          echo "Requested. Watch it land at https://web-nu-six-82.vercel.app"
