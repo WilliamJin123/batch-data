@@ -130,13 +130,13 @@
       "id": "2a57d552-10cd-45bd-aec5-7075bde38ce2",
       "createdBy": "user",
       "createdAt": "2026-06-19T00:56:26.545Z",
-      "headVersionId": "62b72353-e3a1-4fa6-9b45-82d5a8ebade0"
+      "headVersionId": "86efdcbe-447a-419f-94a0-56f361714e77"
     },
     "19fb894b-6fc4-4fee-b113-63bb254279a6": {
       "id": "19fb894b-6fc4-4fee-b113-63bb254279a6",
       "createdBy": "user",
       "createdAt": "2026-06-19T00:56:26.922Z",
-      "headVersionId": "37c72d67-02bf-40e9-91b3-a732ab422624"
+      "headVersionId": "8ac72ed5-4b00-44b4-b3e3-2f3ee0a16bd1"
     },
     "69ee583b-f002-42c1-960a-8e59e0b6e49b": {
       "id": "69ee583b-f002-42c1-960a-8e59e0b6e49b",
@@ -148,7 +148,7 @@
       "id": "e1c03cb5-ba5f-4146-8ea9-0675cee31b18",
       "createdBy": "user",
       "createdAt": "2026-06-19T00:56:27.641Z",
-      "headVersionId": "a9d0698d-4a48-49d0-aa41-9e6af2d6673d"
+      "headVersionId": "34d7e8b9-21e8-45cb-8a27-78951449d150"
     },
     "5bf7c9b9-5473-4cd1-a45d-8cd2b1268ac5": {
       "id": "5bf7c9b9-5473-4cd1-a45d-8cd2b1268ac5",
@@ -166,7 +166,7 @@
       "id": "03ecb832-b09b-41fe-86a1-07d85055b921",
       "createdBy": "user",
       "createdAt": "2026-06-19T22:34:49.471Z",
-      "headVersionId": "c742e176-1409-43be-b35e-1857f8dea460"
+      "headVersionId": "a730558c-2789-4236-8ff7-c244e91455ba"
     }
   },
   "versions": {
@@ -65258,6 +65258,5505 @@
       "createdAt": "2026-06-19T22:34:50.498Z",
       "prevVersionId": "d5bc2604-6ec1-42b6-a2d5-5783e0e45d05",
       "description": "Creme brulee cheesecake: the vanilla base chilled, finished with a caramelized brown-sugar shell. A cheesecake is a baked custard, so the brulee crust is all it needs - and the shell uses so little sugar it is nearly free (~+10 cal/slice). Vanilla bumped to 2 tsp for a custard-forward nose. The crust needs REAL sugar (sucralose will not caramelize) - brown sugar gives a deep molasses caramel and is the one place Splenda is skipped. Two finishes in the method: oven broiler (freeze first) or dry-pan caramel shards (no torch needed). About 140 cal/slice, ratio ~9.8 - the lean, high-drama variant. To-make."
+    },
+    "86efdcbe-447a-419f-94a0-56f361714e77": {
+      "id": "86efdcbe-447a-419f-94a0-56f361714e77",
+      "recipeId": "2a57d552-10cd-45bd-aec5-7075bde38ce2",
+      "name": "Protein Butterscotch Yogurt Pockets / Swirl",
+      "description": "Protein caramel for marbling into the turtle cheesecake filling — 0% Greek yogurt + butterscotch SF pudding (the caramel note) + granulated Splenda, salted. Thick and spoonable; it lives hidden in the swirl, so it carries protein, not gloss. Sub-recipe (1 batch ~= 99 cal / 12.6 P).",
+      "tags": [
+        "butterscotch",
+        "protein",
+        "sub-recipe",
+        "topping"
+      ],
+      "yield": {
+        "amount": 1,
+        "unit": "batch"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "rename: drop Turtle (sub-recipes get general names); it is a butterscotch yogurt swirl, not real caramel",
+      "content": {
+        "steps": [
+          {
+            "componentKey": "k1",
+            "order": 1,
+            "instructionText": "Whisk the Greek yogurt, butterscotch pudding mix, Splenda, almond milk, and salt smooth. It should be thick and spoonable like a loose caramel — chill 10 min if you want it firmer to swirl."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "butterscotch SF pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-butterscotch-sf"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-almond-milk",
+            "name": "unsweetened almond milk",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-almond-milk-unsweetened"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "k1",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 120,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "k1",
+            "slotKey": "sl-pudding",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "k1",
+            "slotKey": "sl-splenda",
+            "quantityValue": 1,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-almond-milk",
+            "stepKey": "k1",
+            "slotKey": "sl-almond-milk",
+            "quantityValue": 1,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "k1",
+            "slotKey": "sl-salt",
+            "quantityValue": 1,
+            "quantityUnit": "pinch"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 99.03,
+          "protein": 12.55,
+          "carbs": 10.94,
+          "fat": 0.9,
+          "fiber": 3
+        },
+        "perServing": {
+          "calories": 99.03,
+          "protein": 12.55,
+          "carbs": 10.94,
+          "fat": 0.9,
+          "fiber": 3
+        },
+        "yield": {
+          "amount": 1,
+          "unit": "batch"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 120,
+            "macros": {
+              "calories": 70.8,
+              "protein": 12,
+              "carbs": 4.32,
+              "fat": 0.48,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-butterscotch-sf",
+            "ingredientName": "butterscotch SF pudding mix (Simply Delish)",
+            "grams": 12,
+            "macros": {
+              "calories": 20.04,
+              "protein": 0.48,
+              "carbs": 5.04,
+              "fat": 0.24,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 1.49,
+            "macros": {
+              "calories": 5.97,
+              "protein": 0,
+              "carbs": 1.49,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-almond-milk",
+            "ingredientId": "ing-almond-milk-unsweetened",
+            "ingredientName": "unsweetened almond milk",
+            "grams": 14.79,
+            "macros": {
+              "calories": 2.22,
+              "protein": 0.07,
+              "carbs": 0.09,
+              "fat": 0.18,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 7.89
+      },
+      "createdAt": "2026-06-19T23:01:44.128Z",
+      "prevVersionId": "62b72353-e3a1-4fa6-9b45-82d5a8ebade0"
+    },
+    "c96ac927-b3c8-45a8-b496-87fa420e8569": {
+      "id": "c96ac927-b3c8-45a8-b496-87fa420e8569",
+      "recipeId": "19fb894b-6fc4-4fee-b113-63bb254279a6",
+      "name": "Brown-Sugar Caramel",
+      "description": "Real glossy caramel - brown sugar cooked with a little butter, thinned with almond milk, salted. Genuine caramelized-sugar flavor (you cannot caramelize Splenda), kept small. Reusable across anything that needs caramel - cook it to the texture you want: saucy, thick, or caramel-apple-thick (see the finishing step). Sub-recipe, 1 batch, ~121 cal.",
+      "tags": [
+        "caramel",
+        "sauce",
+        "sub-recipe",
+        "reusable"
+      ],
+      "yield": {
+        "amount": 1,
+        "unit": "batch"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "rename: drop Turtle - just caramel, reusable anywhere",
+      "content": {
+        "steps": [
+          {
+            "componentKey": "k1",
+            "order": 1,
+            "instructionText": "Melt the butter in a small saucepan, add the brown sugar and salt, and cook over medium, stirring, until it bubbles and darkens slightly (~2-3 min). Off heat, whisk in the almond milk (it will sputter) until smooth. Cool slightly — it thickens as it sits; rewarm to drizzle."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-brown-sugar",
+            "name": "brown sugar",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-butter",
+            "name": "butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-almond-milk",
+            "name": "unsweetened almond milk",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-almond-milk-unsweetened"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-brown-sugar",
+            "stepKey": "k1",
+            "slotKey": "sl-brown-sugar",
+            "quantityValue": 20,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-butter",
+            "stepKey": "k1",
+            "slotKey": "sl-butter",
+            "quantityValue": 6,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-almond-milk",
+            "stepKey": "k1",
+            "slotKey": "sl-almond-milk",
+            "quantityValue": 1,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "k1",
+            "slotKey": "sl-salt",
+            "quantityValue": 1,
+            "quantityUnit": "pinch"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 121.24,
+          "protein": 0.12,
+          "carbs": 19.69,
+          "fat": 5.04,
+          "fiber": 0
+        },
+        "perServing": {
+          "calories": 121.24,
+          "protein": 0.12,
+          "carbs": 19.69,
+          "fat": 5.04,
+          "fiber": 0
+        },
+        "yield": {
+          "amount": 1,
+          "unit": "batch"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-brown-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 20,
+            "macros": {
+              "calories": 76,
+              "protein": 0,
+              "carbs": 19.6,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 6,
+            "macros": {
+              "calories": 43.02,
+              "protein": 0.05,
+              "carbs": 0,
+              "fat": 4.86,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-almond-milk",
+            "ingredientId": "ing-almond-milk-unsweetened",
+            "ingredientName": "unsweetened almond milk",
+            "grams": 14.79,
+            "macros": {
+              "calories": 2.22,
+              "protein": 0.07,
+              "carbs": 0.09,
+              "fat": 0.18,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 970.42
+      },
+      "createdAt": "2026-06-19T23:01:44.324Z",
+      "prevVersionId": "37c72d67-02bf-40e9-91b3-a732ab422624"
+    },
+    "8ac72ed5-4b00-44b4-b3e3-2f3ee0a16bd1": {
+      "id": "8ac72ed5-4b00-44b4-b3e3-2f3ee0a16bd1",
+      "recipeId": "19fb894b-6fc4-4fee-b113-63bb254279a6",
+      "name": "Brown-Sugar Caramel",
+      "description": "Real glossy caramel - brown sugar cooked with a little butter, thinned with almond milk, salted. Genuine caramelized-sugar flavor (you cannot caramelize Splenda), kept small. Reusable across anything that needs caramel - cook it to the texture you want: saucy, thick, or caramel-apple-thick (see the finishing step). Sub-recipe, 1 batch, ~121 cal.",
+      "tags": [
+        "caramel",
+        "sauce",
+        "sub-recipe",
+        "reusable"
+      ],
+      "yield": {
+        "amount": 1,
+        "unit": "batch"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "add finishing-texture-by-temperature guidance (saucy / thick / caramel-apple)",
+      "content": {
+        "steps": [
+          {
+            "componentKey": "k1",
+            "order": 1,
+            "instructionText": "Melt the butter in a small saucepan, add the brown sugar and salt, and cook over medium, stirring, until it bubbles and darkens slightly (~2-3 min). Off heat, whisk in the almond milk (it will sputter) until smooth. Cool slightly — it thickens as it sits; rewarm to drizzle."
+          },
+          {
+            "componentKey": "k2",
+            "order": 2,
+            "instructionText": "FINISH TO YOUR TEXTURE (reusable - take it only as far as you need): SAUCY/pourable - stop right after the almond milk is whisked smooth; it coats a spoon thinly and pours in a thread, for drizzle (~225F). THICK/spoonable - keep on low and reduce 1-2 min more until it mounds and falls in a slow ribbon; sets like dulce de leche and holds a swirl (~235-240F, soft-ball). CARAMEL-APPLE THICK/chewy - reduce further until a drop in cold water forms a soft pliable ball (~245-250F, firm-ball); off heat it clings and sets tacky-chewy, for dipping or a caramel that stays put. No thermometer? Cold-water drop test - thin thread = saucy, soft ball = spoonable, firmer ball = chewy."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-brown-sugar",
+            "name": "brown sugar",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-butter",
+            "name": "butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-almond-milk",
+            "name": "unsweetened almond milk",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-almond-milk-unsweetened"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-brown-sugar",
+            "stepKey": "k1",
+            "slotKey": "sl-brown-sugar",
+            "quantityValue": 20,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-butter",
+            "stepKey": "k1",
+            "slotKey": "sl-butter",
+            "quantityValue": 6,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-almond-milk",
+            "stepKey": "k1",
+            "slotKey": "sl-almond-milk",
+            "quantityValue": 1,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "k1",
+            "slotKey": "sl-salt",
+            "quantityValue": 1,
+            "quantityUnit": "pinch"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 121.24,
+          "protein": 0.12,
+          "carbs": 19.69,
+          "fat": 5.04,
+          "fiber": 0
+        },
+        "perServing": {
+          "calories": 121.24,
+          "protein": 0.12,
+          "carbs": 19.69,
+          "fat": 5.04,
+          "fiber": 0
+        },
+        "yield": {
+          "amount": 1,
+          "unit": "batch"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-brown-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 20,
+            "macros": {
+              "calories": 76,
+              "protein": 0,
+              "carbs": 19.6,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 6,
+            "macros": {
+              "calories": 43.02,
+              "protein": 0.05,
+              "carbs": 0,
+              "fat": 4.86,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-almond-milk",
+            "ingredientId": "ing-almond-milk-unsweetened",
+            "ingredientName": "unsweetened almond milk",
+            "grams": 14.79,
+            "macros": {
+              "calories": 2.22,
+              "protein": 0.07,
+              "carbs": 0.09,
+              "fat": 0.18,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 970.42
+      },
+      "createdAt": "2026-06-19T23:01:44.519Z",
+      "prevVersionId": "c96ac927-b3c8-45a8-b496-87fa420e8569"
+    },
+    "0c0b1b5f-c6d5-4766-b9d8-2735735bc2f4": {
+      "id": "0c0b1b5f-c6d5-4766-b9d8-2735735bc2f4",
+      "recipeId": "e1c03cb5-ba5f-4146-8ea9-0675cee31b18",
+      "derivesFromVersionId": "452fcabc-5f12-4792-8254-847cf60c12e3",
+      "name": "Turtle Protein Cheesecake",
+      "tags": [
+        "cheesecake",
+        "protein",
+        "turtle",
+        "caramel",
+        "chocolate"
+      ],
+      "yield": {
+        "amount": 8,
+        "unit": "slices"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "re-point swirl pin to the renamed sub-recipe",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-protein",
+            "payload": {
+              "componentKey": "u-protein",
+              "stepKey": "s3",
+              "slotKey": "sl-protein",
+              "quantityValue": 2.5,
+              "quantityUnit": "scoop"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-crust",
+              "name": "chocolate graham crust",
+              "resolution": {
+                "kind": "sub_recipe",
+                "subRecipeVersionId": "10e6a809-c8c3-48c0-ad67-c432ec23d7d9"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-crust",
+              "stepKey": "s5",
+              "slotKey": "sl-crust",
+              "quantityValue": 1,
+              "quantityUnit": "batch"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-swirl",
+              "name": "protein caramel swirl",
+              "resolution": {
+                "kind": "sub_recipe",
+                "subRecipeVersionId": "62b72353-e3a1-4fa6-9b45-82d5a8ebade0"
+              }
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "s5",
+            "payload": {
+              "componentKey": "s5",
+              "order": 5,
+              "instructionText": "Pour half the filling onto the cooled crust. Drop spoonfuls of the protein caramel swirl over it, add the rest of the filling, then drag a knife through in a few S-strokes to marble (don't overmix). Tap the pan on the counter to level and pop bubbles."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-swirl",
+              "stepKey": "s5",
+              "slotKey": "sl-swirl",
+              "quantityValue": 1,
+              "quantityUnit": "batch"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-caramel",
+              "name": "real brown-sugar caramel",
+              "resolution": {
+                "kind": "sub_recipe",
+                "subRecipeVersionId": "37c72d67-02bf-40e9-91b3-a732ab422624"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-ganache",
+              "name": "dark-chocolate ganache",
+              "resolution": {
+                "kind": "sub_recipe",
+                "subRecipeVersionId": "a69655a4-d4fe-4e37-a6e5-4f73a4cf6987"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s8",
+              "order": 8,
+              "section": "Topping",
+              "instructionText": "Once fully chilled (ideally overnight), lift the cake out with the parchment sling onto a plate. Warm the caramel and the ganache separately just until pourable — a few seconds; they should ribbon, not run. Drizzle both over the top in a back-and-forth criss-cross (use a spoon, or a zip-top bag with a tiny corner snipped). Finish with a pinch of flaky salt. Slice with a hot, wiped knife."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-caramel",
+              "stepKey": "s8",
+              "slotKey": "sl-caramel",
+              "quantityValue": 1,
+              "quantityUnit": "batch"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-ganache",
+              "stepKey": "s8",
+              "slotKey": "sl-ganache",
+              "quantityValue": 1,
+              "quantityUnit": "batch"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "slot",
+            "target": "sl-swirl",
+            "payload": {
+              "componentKey": "sl-swirl",
+              "name": "butterscotch yogurt pockets / swirl",
+              "resolution": {
+                "kind": "sub_recipe",
+                "subRecipeVersionId": "86efdcbe-447a-419f-94a0-56f361714e77"
+              }
+            }
+          }
+        ],
+        "name": "Turtle Protein Cheesecake",
+        "tags": [
+          "cheesecake",
+          "protein",
+          "turtle",
+          "caramel",
+          "chocolate"
+        ]
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Blend the cottage cheese completely smooth (immersion blender or food processor) - no visible curd, or the cheesecake turns grainy."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "instructionText": "Add the eggs and egg white and the cooled pumpkin. Mix just until smooth - do NOT overbeat once eggs are in (air = cracks, and we want a dense set anyway)."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "instructionText": "Pour half the filling onto the cooled crust. Drop spoonfuls of the protein caramel swirl over it, add the rest of the filling, then drag a knife through in a few S-strokes to marble (don't overmix). Tap the pan on the counter to level and pop bubbles."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "temperature": 350,
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "instructionText": "Cool: oven off and door cracked 10-20 min, then counter to room temp ~1-1.5 hr (max 2 hr out), then fridge at least 4 hr — overnight is best and gives the densest, firmest set. Best the next day."
+          },
+          {
+            "componentKey": "s8",
+            "order": 8,
+            "section": "Topping",
+            "instructionText": "Once fully chilled (ideally overnight), lift the cake out with the parchment sling onto a plate. Warm the caramel and the ganache separately just until pourable — a few seconds; they should ribbon, not run. Drizzle both over the top in a back-and-forth criss-cross (use a spoon, or a zip-top bag with a tiny corner snipped). Finish with a pinch of flaky salt. Slice with a hot, wiped knife."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-cream-cheese",
+            "name": "light cream cheese",
+            "prepDefault": "softened",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cream-cheese-light"
+            }
+          },
+          {
+            "componentKey": "sl-cottage",
+            "name": "cottage cheese",
+            "prepDefault": "blended smooth",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cottage-cheese"
+            }
+          },
+          {
+            "componentKey": "sl-pumpkin",
+            "name": "pumpkin puree",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pumpkin-puree"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-sweetener",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole eggs",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-lemon",
+            "name": "lemon juice",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-lemon-juice"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "vanilla SF pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-crust",
+            "name": "chocolate graham crust",
+            "resolution": {
+              "kind": "sub_recipe",
+              "subRecipeVersionId": "10e6a809-c8c3-48c0-ad67-c432ec23d7d9"
+            }
+          },
+          {
+            "componentKey": "sl-swirl",
+            "name": "butterscotch yogurt pockets / swirl",
+            "resolution": {
+              "kind": "sub_recipe",
+              "subRecipeVersionId": "86efdcbe-447a-419f-94a0-56f361714e77"
+            }
+          },
+          {
+            "componentKey": "sl-caramel",
+            "name": "real brown-sugar caramel",
+            "resolution": {
+              "kind": "sub_recipe",
+              "subRecipeVersionId": "37c72d67-02bf-40e9-91b3-a732ab422624"
+            }
+          },
+          {
+            "componentKey": "sl-ganache",
+            "name": "dark-chocolate ganache",
+            "resolution": {
+              "kind": "sub_recipe",
+              "subRecipeVersionId": "a69655a4-d4fe-4e37-a6e5-4f73a4cf6987"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 240,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cream-cheese",
+            "stepKey": "s3",
+            "slotKey": "sl-cream-cheese",
+            "quantityValue": 113,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cottage",
+            "stepKey": "s3",
+            "slotKey": "sl-cottage",
+            "quantityValue": 57,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pumpkin",
+            "stepKey": "s1",
+            "slotKey": "sl-pumpkin",
+            "quantityValue": 75,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "s3",
+            "slotKey": "sl-protein",
+            "quantityValue": 2.5,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-sweetener",
+            "stepKey": "s3",
+            "slotKey": "sl-sweetener",
+            "quantityValue": 8,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s4",
+            "slotKey": "sl-egg",
+            "quantityValue": 2,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s4",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s3",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-lemon",
+            "stepKey": "s3",
+            "slotKey": "sl-lemon",
+            "quantityValue": 0.33,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-crust",
+            "stepKey": "s5",
+            "slotKey": "sl-crust",
+            "quantityValue": 1,
+            "quantityUnit": "batch"
+          },
+          {
+            "componentKey": "u-swirl",
+            "stepKey": "s5",
+            "slotKey": "sl-swirl",
+            "quantityValue": 1,
+            "quantityUnit": "batch"
+          },
+          {
+            "componentKey": "u-caramel",
+            "stepKey": "s8",
+            "slotKey": "sl-caramel",
+            "quantityValue": 1,
+            "quantityUnit": "batch"
+          },
+          {
+            "componentKey": "u-ganache",
+            "stepKey": "s8",
+            "slotKey": "sl-ganache",
+            "quantityValue": 1,
+            "quantityUnit": "batch"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1739.84,
+          "protein": 150.87,
+          "carbs": 145.29,
+          "fat": 61.03,
+          "fiber": 14.71
+        },
+        "perServing": {
+          "calories": 217.48,
+          "protein": 18.86,
+          "carbs": 18.16,
+          "fat": 7.63,
+          "fiber": 1.84
+        },
+        "yield": {
+          "amount": 8,
+          "unit": "slices"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 240,
+            "macros": {
+              "calories": 141.6,
+              "protein": 24,
+              "carbs": 8.64,
+              "fat": 0.96,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cream-cheese",
+            "ingredientId": "ing-cream-cheese-light",
+            "ingredientName": "light cream cheese",
+            "grams": 113,
+            "macros": {
+              "calories": 263.29,
+              "protein": 8.48,
+              "carbs": 7.91,
+              "fat": 21.47,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cottage",
+            "ingredientId": "ing-cottage-cheese",
+            "ingredientName": "cottage cheese",
+            "grams": 57,
+            "macros": {
+              "calories": 41.04,
+              "protein": 6.84,
+              "carbs": 1.71,
+              "fat": 0.57,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pumpkin",
+            "ingredientId": "ing-pumpkin-puree",
+            "ingredientName": "pumpkin puree",
+            "grams": 75,
+            "macros": {
+              "calories": 25.5,
+              "protein": 0.83,
+              "carbs": 6,
+              "fat": 0.23,
+              "fiber": 2.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 82.5,
+            "macros": {
+              "calories": 335,
+              "protein": 70.13,
+              "carbs": 4.95,
+              "fat": 2.48,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-sweetener",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 11.95,
+            "macros": {
+              "calories": 47.79,
+              "protein": 0,
+              "carbs": 11.95,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 100,
+            "macros": {
+              "calories": 143,
+              "protein": 12.6,
+              "carbs": 0.7,
+              "fat": 9.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 30,
+            "macros": {
+              "calories": 15.6,
+              "protein": 3.3,
+              "carbs": 0.21,
+              "fat": 0.06,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-lemon",
+            "ingredientId": "ing-lemon-juice",
+            "ingredientName": "lemon juice",
+            "grams": 1.68,
+            "macros": {
+              "calories": 0.37,
+              "protein": 0.01,
+              "carbs": 0.12,
+              "fat": 0,
+              "fiber": 0.01
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 12,
+            "macros": {
+              "calories": 20.04,
+              "protein": 0.48,
+              "carbs": 5.04,
+              "fat": 0.24,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15.6,
+            "macros": {
+              "calories": 56.78,
+              "protein": 1.56,
+              "carbs": 11.86,
+              "fat": 0.16,
+              "fiber": 0.42
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-crust",
+            "ingredientName": "chocolate graham crust",
+            "grams": 102.64,
+            "macros": {
+              "calories": 319.28,
+              "protein": 7.96,
+              "carbs": 49.25,
+              "fat": 11.97,
+              "fiber": 3.65
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-swirl",
+            "ingredientName": "butterscotch yogurt pockets / swirl",
+            "grams": 148.68,
+            "macros": {
+              "calories": 99.03,
+              "protein": 12.55,
+              "carbs": 10.94,
+              "fat": 0.9,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-caramel",
+            "ingredientName": "real brown-sugar caramel",
+            "grams": 41.19,
+            "macros": {
+              "calories": 121.24,
+              "protein": 0.12,
+              "carbs": 19.69,
+              "fat": 5.04,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-ganache",
+            "ingredientName": "dark-chocolate ganache",
+            "grams": 30.68,
+            "macros": {
+              "calories": 97.79,
+              "protein": 2.03,
+              "carbs": 5.78,
+              "fat": 7.46,
+              "fiber": 2.38
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 11.53
+      },
+      "createdAt": "2026-06-19T23:01:44.713Z",
+      "prevVersionId": "a9d0698d-4a48-49d0-aa41-9e6af2d6673d",
+      "description": "Turtle protein cheesecake derived from the Vanilla Pumpkin base — pecan skipped, so caramel + chocolate carry the turtle identity. Adds a thin graham-forward chocolate crust (graham crumbs + cocoa, egg-white bound, minimal butter), a protein caramel swirl marbled into the filling (butterscotch SF pudding + 0% yogurt), and a top drizzle of REAL brown-sugar caramel + unsweetened-baking-chocolate ganache, finished with flaky salt. Filling protein bumped 2 -> 2.5 scoops to hold the macro ratio. Lands ~11.5 cal/g protein (~217 cal / 19 g protein per slice of 8). Splenda throughout, never monk fruit; the real caramel is the one honest-sugar indulgence, kept small. Bake in a 9-inch pan with a parchment sling for lift-out."
+    },
+    "34d7e8b9-21e8-45cb-8a27-78951449d150": {
+      "id": "34d7e8b9-21e8-45cb-8a27-78951449d150",
+      "recipeId": "e1c03cb5-ba5f-4146-8ea9-0675cee31b18",
+      "derivesFromVersionId": "452fcabc-5f12-4792-8254-847cf60c12e3",
+      "name": "Turtle Protein Cheesecake",
+      "tags": [
+        "cheesecake",
+        "protein",
+        "turtle",
+        "caramel",
+        "chocolate"
+      ],
+      "yield": {
+        "amount": 8,
+        "unit": "slices"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "re-point caramel pin to the renamed sub-recipe",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-protein",
+            "payload": {
+              "componentKey": "u-protein",
+              "stepKey": "s3",
+              "slotKey": "sl-protein",
+              "quantityValue": 2.5,
+              "quantityUnit": "scoop"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-crust",
+              "name": "chocolate graham crust",
+              "resolution": {
+                "kind": "sub_recipe",
+                "subRecipeVersionId": "10e6a809-c8c3-48c0-ad67-c432ec23d7d9"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-crust",
+              "stepKey": "s5",
+              "slotKey": "sl-crust",
+              "quantityValue": 1,
+              "quantityUnit": "batch"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-swirl",
+              "name": "protein caramel swirl",
+              "resolution": {
+                "kind": "sub_recipe",
+                "subRecipeVersionId": "62b72353-e3a1-4fa6-9b45-82d5a8ebade0"
+              }
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "s5",
+            "payload": {
+              "componentKey": "s5",
+              "order": 5,
+              "instructionText": "Pour half the filling onto the cooled crust. Drop spoonfuls of the protein caramel swirl over it, add the rest of the filling, then drag a knife through in a few S-strokes to marble (don't overmix). Tap the pan on the counter to level and pop bubbles."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-swirl",
+              "stepKey": "s5",
+              "slotKey": "sl-swirl",
+              "quantityValue": 1,
+              "quantityUnit": "batch"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-caramel",
+              "name": "real brown-sugar caramel",
+              "resolution": {
+                "kind": "sub_recipe",
+                "subRecipeVersionId": "37c72d67-02bf-40e9-91b3-a732ab422624"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-ganache",
+              "name": "dark-chocolate ganache",
+              "resolution": {
+                "kind": "sub_recipe",
+                "subRecipeVersionId": "a69655a4-d4fe-4e37-a6e5-4f73a4cf6987"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s8",
+              "order": 8,
+              "section": "Topping",
+              "instructionText": "Once fully chilled (ideally overnight), lift the cake out with the parchment sling onto a plate. Warm the caramel and the ganache separately just until pourable — a few seconds; they should ribbon, not run. Drizzle both over the top in a back-and-forth criss-cross (use a spoon, or a zip-top bag with a tiny corner snipped). Finish with a pinch of flaky salt. Slice with a hot, wiped knife."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-caramel",
+              "stepKey": "s8",
+              "slotKey": "sl-caramel",
+              "quantityValue": 1,
+              "quantityUnit": "batch"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-ganache",
+              "stepKey": "s8",
+              "slotKey": "sl-ganache",
+              "quantityValue": 1,
+              "quantityUnit": "batch"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "slot",
+            "target": "sl-swirl",
+            "payload": {
+              "componentKey": "sl-swirl",
+              "name": "butterscotch yogurt pockets / swirl",
+              "resolution": {
+                "kind": "sub_recipe",
+                "subRecipeVersionId": "86efdcbe-447a-419f-94a0-56f361714e77"
+              }
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "slot",
+            "target": "sl-caramel",
+            "payload": {
+              "componentKey": "sl-caramel",
+              "name": "brown-sugar caramel",
+              "resolution": {
+                "kind": "sub_recipe",
+                "subRecipeVersionId": "8ac72ed5-4b00-44b4-b3e3-2f3ee0a16bd1"
+              }
+            }
+          }
+        ],
+        "name": "Turtle Protein Cheesecake",
+        "tags": [
+          "cheesecake",
+          "protein",
+          "turtle",
+          "caramel",
+          "chocolate"
+        ]
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Blend the cottage cheese completely smooth (immersion blender or food processor) - no visible curd, or the cheesecake turns grainy."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "instructionText": "Add the eggs and egg white and the cooled pumpkin. Mix just until smooth - do NOT overbeat once eggs are in (air = cracks, and we want a dense set anyway)."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "instructionText": "Pour half the filling onto the cooled crust. Drop spoonfuls of the protein caramel swirl over it, add the rest of the filling, then drag a knife through in a few S-strokes to marble (don't overmix). Tap the pan on the counter to level and pop bubbles."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "temperature": 350,
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "instructionText": "Cool: oven off and door cracked 10-20 min, then counter to room temp ~1-1.5 hr (max 2 hr out), then fridge at least 4 hr — overnight is best and gives the densest, firmest set. Best the next day."
+          },
+          {
+            "componentKey": "s8",
+            "order": 8,
+            "section": "Topping",
+            "instructionText": "Once fully chilled (ideally overnight), lift the cake out with the parchment sling onto a plate. Warm the caramel and the ganache separately just until pourable — a few seconds; they should ribbon, not run. Drizzle both over the top in a back-and-forth criss-cross (use a spoon, or a zip-top bag with a tiny corner snipped). Finish with a pinch of flaky salt. Slice with a hot, wiped knife."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-cream-cheese",
+            "name": "light cream cheese",
+            "prepDefault": "softened",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cream-cheese-light"
+            }
+          },
+          {
+            "componentKey": "sl-cottage",
+            "name": "cottage cheese",
+            "prepDefault": "blended smooth",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cottage-cheese"
+            }
+          },
+          {
+            "componentKey": "sl-pumpkin",
+            "name": "pumpkin puree",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pumpkin-puree"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-sweetener",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole eggs",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-lemon",
+            "name": "lemon juice",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-lemon-juice"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "vanilla SF pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-crust",
+            "name": "chocolate graham crust",
+            "resolution": {
+              "kind": "sub_recipe",
+              "subRecipeVersionId": "10e6a809-c8c3-48c0-ad67-c432ec23d7d9"
+            }
+          },
+          {
+            "componentKey": "sl-swirl",
+            "name": "butterscotch yogurt pockets / swirl",
+            "resolution": {
+              "kind": "sub_recipe",
+              "subRecipeVersionId": "86efdcbe-447a-419f-94a0-56f361714e77"
+            }
+          },
+          {
+            "componentKey": "sl-caramel",
+            "name": "brown-sugar caramel",
+            "resolution": {
+              "kind": "sub_recipe",
+              "subRecipeVersionId": "8ac72ed5-4b00-44b4-b3e3-2f3ee0a16bd1"
+            }
+          },
+          {
+            "componentKey": "sl-ganache",
+            "name": "dark-chocolate ganache",
+            "resolution": {
+              "kind": "sub_recipe",
+              "subRecipeVersionId": "a69655a4-d4fe-4e37-a6e5-4f73a4cf6987"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 240,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cream-cheese",
+            "stepKey": "s3",
+            "slotKey": "sl-cream-cheese",
+            "quantityValue": 113,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cottage",
+            "stepKey": "s3",
+            "slotKey": "sl-cottage",
+            "quantityValue": 57,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pumpkin",
+            "stepKey": "s1",
+            "slotKey": "sl-pumpkin",
+            "quantityValue": 75,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "s3",
+            "slotKey": "sl-protein",
+            "quantityValue": 2.5,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-sweetener",
+            "stepKey": "s3",
+            "slotKey": "sl-sweetener",
+            "quantityValue": 8,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s4",
+            "slotKey": "sl-egg",
+            "quantityValue": 2,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s4",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s3",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-lemon",
+            "stepKey": "s3",
+            "slotKey": "sl-lemon",
+            "quantityValue": 0.33,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-crust",
+            "stepKey": "s5",
+            "slotKey": "sl-crust",
+            "quantityValue": 1,
+            "quantityUnit": "batch"
+          },
+          {
+            "componentKey": "u-swirl",
+            "stepKey": "s5",
+            "slotKey": "sl-swirl",
+            "quantityValue": 1,
+            "quantityUnit": "batch"
+          },
+          {
+            "componentKey": "u-caramel",
+            "stepKey": "s8",
+            "slotKey": "sl-caramel",
+            "quantityValue": 1,
+            "quantityUnit": "batch"
+          },
+          {
+            "componentKey": "u-ganache",
+            "stepKey": "s8",
+            "slotKey": "sl-ganache",
+            "quantityValue": 1,
+            "quantityUnit": "batch"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1739.84,
+          "protein": 150.87,
+          "carbs": 145.29,
+          "fat": 61.03,
+          "fiber": 14.71
+        },
+        "perServing": {
+          "calories": 217.48,
+          "protein": 18.86,
+          "carbs": 18.16,
+          "fat": 7.63,
+          "fiber": 1.84
+        },
+        "yield": {
+          "amount": 8,
+          "unit": "slices"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 240,
+            "macros": {
+              "calories": 141.6,
+              "protein": 24,
+              "carbs": 8.64,
+              "fat": 0.96,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cream-cheese",
+            "ingredientId": "ing-cream-cheese-light",
+            "ingredientName": "light cream cheese",
+            "grams": 113,
+            "macros": {
+              "calories": 263.29,
+              "protein": 8.48,
+              "carbs": 7.91,
+              "fat": 21.47,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cottage",
+            "ingredientId": "ing-cottage-cheese",
+            "ingredientName": "cottage cheese",
+            "grams": 57,
+            "macros": {
+              "calories": 41.04,
+              "protein": 6.84,
+              "carbs": 1.71,
+              "fat": 0.57,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pumpkin",
+            "ingredientId": "ing-pumpkin-puree",
+            "ingredientName": "pumpkin puree",
+            "grams": 75,
+            "macros": {
+              "calories": 25.5,
+              "protein": 0.83,
+              "carbs": 6,
+              "fat": 0.23,
+              "fiber": 2.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 82.5,
+            "macros": {
+              "calories": 335,
+              "protein": 70.13,
+              "carbs": 4.95,
+              "fat": 2.48,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-sweetener",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 11.95,
+            "macros": {
+              "calories": 47.79,
+              "protein": 0,
+              "carbs": 11.95,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 100,
+            "macros": {
+              "calories": 143,
+              "protein": 12.6,
+              "carbs": 0.7,
+              "fat": 9.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 30,
+            "macros": {
+              "calories": 15.6,
+              "protein": 3.3,
+              "carbs": 0.21,
+              "fat": 0.06,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-lemon",
+            "ingredientId": "ing-lemon-juice",
+            "ingredientName": "lemon juice",
+            "grams": 1.68,
+            "macros": {
+              "calories": 0.37,
+              "protein": 0.01,
+              "carbs": 0.12,
+              "fat": 0,
+              "fiber": 0.01
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 12,
+            "macros": {
+              "calories": 20.04,
+              "protein": 0.48,
+              "carbs": 5.04,
+              "fat": 0.24,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15.6,
+            "macros": {
+              "calories": 56.78,
+              "protein": 1.56,
+              "carbs": 11.86,
+              "fat": 0.16,
+              "fiber": 0.42
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-crust",
+            "ingredientName": "chocolate graham crust",
+            "grams": 102.64,
+            "macros": {
+              "calories": 319.28,
+              "protein": 7.96,
+              "carbs": 49.25,
+              "fat": 11.97,
+              "fiber": 3.65
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-swirl",
+            "ingredientName": "butterscotch yogurt pockets / swirl",
+            "grams": 148.68,
+            "macros": {
+              "calories": 99.03,
+              "protein": 12.55,
+              "carbs": 10.94,
+              "fat": 0.9,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-caramel",
+            "ingredientName": "brown-sugar caramel",
+            "grams": 41.19,
+            "macros": {
+              "calories": 121.24,
+              "protein": 0.12,
+              "carbs": 19.69,
+              "fat": 5.04,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-ganache",
+            "ingredientName": "dark-chocolate ganache",
+            "grams": 30.68,
+            "macros": {
+              "calories": 97.79,
+              "protein": 2.03,
+              "carbs": 5.78,
+              "fat": 7.46,
+              "fiber": 2.38
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 11.53
+      },
+      "createdAt": "2026-06-19T23:01:44.907Z",
+      "prevVersionId": "0c0b1b5f-c6d5-4766-b9d8-2735735bc2f4",
+      "description": "Turtle protein cheesecake derived from the Vanilla Pumpkin base — pecan skipped, so caramel + chocolate carry the turtle identity. Adds a thin graham-forward chocolate crust (graham crumbs + cocoa, egg-white bound, minimal butter), a protein caramel swirl marbled into the filling (butterscotch SF pudding + 0% yogurt), and a top drizzle of REAL brown-sugar caramel + unsweetened-baking-chocolate ganache, finished with flaky salt. Filling protein bumped 2 -> 2.5 scoops to hold the macro ratio. Lands ~11.5 cal/g protein (~217 cal / 19 g protein per slice of 8). Splenda throughout, never monk fruit; the real caramel is the one honest-sugar indulgence, kept small. Bake in a 9-inch pan with a parchment sling for lift-out."
+    },
+    "02a3283a-eda6-4eeb-b01f-921cf3d653bc": {
+      "id": "02a3283a-eda6-4eeb-b01f-921cf3d653bc",
+      "recipeId": "03ecb832-b09b-41fe-86a1-07d85055b921",
+      "derivesFromVersionId": "dde1b38e-043d-442a-a99c-1758fa37de6a",
+      "name": "Crème Brûlée Protein Cheesecake",
+      "tags": [
+        "cheesecake",
+        "protein",
+        "creme-brulee"
+      ],
+      "yield": {
+        "amount": 8,
+        "unit": "slices"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "bump brulee shell 20 -> 30 g brown sugar (more pronounced crackle)",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s-brulee",
+              "order": 8,
+              "instructionText": "Brulee the top just before serving (the shell stays crisp only ~30 min on the cake). Dust about 1.5 tbsp (20 g) brown sugar over the cold cheesecake in a thin, even layer. BROILER METHOD: rack at the top, broiler on high; freeze the cake 15-20 min first so the sugar caramelizes before the filling warms, then broil 1-4 min, rotating, watching every second - pull the moment it is an even bubbling amber, then let it set ~1 min into a crackable glass. DRY-PAN SHARD METHOD (no broiler): melt the 20 g brown sugar in a dry nonstick pan over medium heat, swirling (do not stir) until liquid and amber, pour thin onto parchment, cool until hard, snap into shards, and stand them on top just before serving."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-brulee-sugar",
+              "name": "brown sugar (brulee crust)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-brown-sugar"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-brulee-sugar",
+              "stepKey": "s-brulee",
+              "slotKey": "sl-brulee-sugar",
+              "quantityValue": 20,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-vanilla",
+            "payload": {
+              "componentKey": "u-vanilla",
+              "stepKey": "s3",
+              "slotKey": "sl-vanilla",
+              "quantityValue": 2,
+              "quantityUnit": "tsp"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-brulee-sugar",
+            "payload": {
+              "componentKey": "u-brulee-sugar",
+              "stepKey": "s-brulee",
+              "slotKey": "sl-brulee-sugar",
+              "quantityValue": 30,
+              "quantityUnit": "g"
+            }
+          }
+        ],
+        "name": "Crème Brûlée Protein Cheesecake",
+        "tags": [
+          "cheesecake",
+          "protein",
+          "creme-brulee"
+        ]
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Blend the cottage cheese completely smooth (immersion blender or food processor) - no visible curd, or the cheesecake turns grainy."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "instructionText": "Add the eggs and egg white and the cooled pumpkin. Mix just until smooth - do NOT overbeat once eggs are in (air = cracks, and we want a dense set anyway)."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "temperature": 350,
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "instructionText": "Cool: oven off and door cracked 10-20 min, then counter to room temp ~1-1.5 hr (max 2 hr out), then fridge at least 4 hr — overnight is best and gives the densest, firmest set. Best the next day."
+          },
+          {
+            "componentKey": "s-brulee",
+            "order": 8,
+            "instructionText": "Brulee the top just before serving (the shell stays crisp only ~30 min on the cake). Dust about 1.5 tbsp (20 g) brown sugar over the cold cheesecake in a thin, even layer. BROILER METHOD: rack at the top, broiler on high; freeze the cake 15-20 min first so the sugar caramelizes before the filling warms, then broil 1-4 min, rotating, watching every second - pull the moment it is an even bubbling amber, then let it set ~1 min into a crackable glass. DRY-PAN SHARD METHOD (no broiler): melt the 20 g brown sugar in a dry nonstick pan over medium heat, swirling (do not stir) until liquid and amber, pour thin onto parchment, cool until hard, snap into shards, and stand them on top just before serving."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-cream-cheese",
+            "name": "light cream cheese",
+            "prepDefault": "softened",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cream-cheese-light"
+            }
+          },
+          {
+            "componentKey": "sl-cottage",
+            "name": "cottage cheese",
+            "prepDefault": "blended smooth",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cottage-cheese"
+            }
+          },
+          {
+            "componentKey": "sl-pumpkin",
+            "name": "pumpkin puree",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pumpkin-puree"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-sweetener",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole eggs",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-lemon",
+            "name": "lemon juice",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-lemon-juice"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "vanilla SF pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-brulee-sugar",
+            "name": "brown sugar (brulee crust)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 240,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cream-cheese",
+            "stepKey": "s3",
+            "slotKey": "sl-cream-cheese",
+            "quantityValue": 113,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cottage",
+            "stepKey": "s3",
+            "slotKey": "sl-cottage",
+            "quantityValue": 57,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pumpkin",
+            "stepKey": "s1",
+            "slotKey": "sl-pumpkin",
+            "quantityValue": 75,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "s3",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-sweetener",
+            "stepKey": "s3",
+            "slotKey": "sl-sweetener",
+            "quantityValue": 8,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s4",
+            "slotKey": "sl-egg",
+            "quantityValue": 2,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s4",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s3",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 2,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-lemon",
+            "stepKey": "s3",
+            "slotKey": "sl-lemon",
+            "quantityValue": 0.33,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-brulee-sugar",
+            "stepKey": "s-brulee",
+            "slotKey": "sl-brulee-sugar",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1162,
+          "protein": 114.19,
+          "carbs": 88.59,
+          "fat": 35.16,
+          "fiber": 5.68
+        },
+        "perServing": {
+          "calories": 145.25,
+          "protein": 14.27,
+          "carbs": 11.07,
+          "fat": 4.4,
+          "fiber": 0.71
+        },
+        "yield": {
+          "amount": 8,
+          "unit": "slices"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 240,
+            "macros": {
+              "calories": 141.6,
+              "protein": 24,
+              "carbs": 8.64,
+              "fat": 0.96,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cream-cheese",
+            "ingredientId": "ing-cream-cheese-light",
+            "ingredientName": "light cream cheese",
+            "grams": 113,
+            "macros": {
+              "calories": 263.29,
+              "protein": 8.48,
+              "carbs": 7.91,
+              "fat": 21.47,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cottage",
+            "ingredientId": "ing-cottage-cheese",
+            "ingredientName": "cottage cheese",
+            "grams": 57,
+            "macros": {
+              "calories": 41.04,
+              "protein": 6.84,
+              "carbs": 1.71,
+              "fat": 0.57,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pumpkin",
+            "ingredientId": "ing-pumpkin-puree",
+            "ingredientName": "pumpkin puree",
+            "grams": 75,
+            "macros": {
+              "calories": 25.5,
+              "protein": 0.83,
+              "carbs": 6,
+              "fat": 0.23,
+              "fiber": 2.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-sweetener",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 11.95,
+            "macros": {
+              "calories": 47.79,
+              "protein": 0,
+              "carbs": 11.95,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 100,
+            "macros": {
+              "calories": 143,
+              "protein": 12.6,
+              "carbs": 0.7,
+              "fat": 9.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 30,
+            "macros": {
+              "calories": 15.6,
+              "protein": 3.3,
+              "carbs": 0.21,
+              "fat": 0.06,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 8.67,
+            "macros": {
+              "calories": 24.98,
+              "protein": 0,
+              "carbs": 1.1,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-lemon",
+            "ingredientId": "ing-lemon-juice",
+            "ingredientName": "lemon juice",
+            "grams": 1.68,
+            "macros": {
+              "calories": 0.37,
+              "protein": 0.01,
+              "carbs": 0.12,
+              "fat": 0,
+              "fiber": 0.01
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 12,
+            "macros": {
+              "calories": 20.04,
+              "protein": 0.48,
+              "carbs": 5.04,
+              "fat": 0.24,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15.6,
+            "macros": {
+              "calories": 56.78,
+              "protein": 1.56,
+              "carbs": 11.86,
+              "fat": 0.16,
+              "fiber": 0.42
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brulee-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 30,
+            "macros": {
+              "calories": 114,
+              "protein": 0,
+              "carbs": 29.4,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 10.18
+      },
+      "createdAt": "2026-06-19T23:02:51.709Z",
+      "prevVersionId": "c742e176-1409-43be-b35e-1857f8dea460",
+      "description": "Creme brulee cheesecake: the vanilla base chilled, finished with a caramelized brown-sugar shell. A cheesecake is a baked custard, so the brulee crust is all it needs - and the shell uses so little sugar it is nearly free (~+10 cal/slice). Vanilla bumped to 2 tsp for a custard-forward nose. The crust needs REAL sugar (sucralose will not caramelize) - brown sugar gives a deep molasses caramel and is the one place Splenda is skipped. Two finishes in the method: oven broiler (freeze first) or dry-pan caramel shards (no torch needed). About 140 cal/slice, ratio ~9.8 - the lean, high-drama variant. To-make."
+    },
+    "2fb2e6c0-85e3-44d4-bb4c-d7de86ac9c08": {
+      "id": "2fb2e6c0-85e3-44d4-bb4c-d7de86ac9c08",
+      "recipeId": "03ecb832-b09b-41fe-86a1-07d85055b921",
+      "derivesFromVersionId": "dde1b38e-043d-442a-a99c-1758fa37de6a",
+      "name": "Crème Brûlée Protein Cheesecake",
+      "tags": [
+        "cheesecake",
+        "protein",
+        "creme-brulee"
+      ],
+      "yield": {
+        "amount": 8,
+        "unit": "slices"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "add graham crust (plain Protein Graham Crust, no cacao) as sub-recipe",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s-brulee",
+              "order": 8,
+              "instructionText": "Brulee the top just before serving (the shell stays crisp only ~30 min on the cake). Dust about 1.5 tbsp (20 g) brown sugar over the cold cheesecake in a thin, even layer. BROILER METHOD: rack at the top, broiler on high; freeze the cake 15-20 min first so the sugar caramelizes before the filling warms, then broil 1-4 min, rotating, watching every second - pull the moment it is an even bubbling amber, then let it set ~1 min into a crackable glass. DRY-PAN SHARD METHOD (no broiler): melt the 20 g brown sugar in a dry nonstick pan over medium heat, swirling (do not stir) until liquid and amber, pour thin onto parchment, cool until hard, snap into shards, and stand them on top just before serving."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-brulee-sugar",
+              "name": "brown sugar (brulee crust)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-brown-sugar"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-brulee-sugar",
+              "stepKey": "s-brulee",
+              "slotKey": "sl-brulee-sugar",
+              "quantityValue": 20,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-vanilla",
+            "payload": {
+              "componentKey": "u-vanilla",
+              "stepKey": "s3",
+              "slotKey": "sl-vanilla",
+              "quantityValue": 2,
+              "quantityUnit": "tsp"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-brulee-sugar",
+            "payload": {
+              "componentKey": "u-brulee-sugar",
+              "stepKey": "s-brulee",
+              "slotKey": "sl-brulee-sugar",
+              "quantityValue": 30,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-crust",
+              "name": "graham crust",
+              "resolution": {
+                "kind": "sub_recipe",
+                "subRecipeVersionId": "19ae402e-f81b-4e31-a7e4-cd6d43bb4db8"
+              }
+            }
+          }
+        ],
+        "name": "Crème Brûlée Protein Cheesecake",
+        "tags": [
+          "cheesecake",
+          "protein",
+          "creme-brulee"
+        ]
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Blend the cottage cheese completely smooth (immersion blender or food processor) - no visible curd, or the cheesecake turns grainy."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "instructionText": "Add the eggs and egg white and the cooled pumpkin. Mix just until smooth - do NOT overbeat once eggs are in (air = cracks, and we want a dense set anyway)."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "temperature": 350,
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "instructionText": "Cool: oven off and door cracked 10-20 min, then counter to room temp ~1-1.5 hr (max 2 hr out), then fridge at least 4 hr — overnight is best and gives the densest, firmest set. Best the next day."
+          },
+          {
+            "componentKey": "s-brulee",
+            "order": 8,
+            "instructionText": "Brulee the top just before serving (the shell stays crisp only ~30 min on the cake). Dust about 1.5 tbsp (20 g) brown sugar over the cold cheesecake in a thin, even layer. BROILER METHOD: rack at the top, broiler on high; freeze the cake 15-20 min first so the sugar caramelizes before the filling warms, then broil 1-4 min, rotating, watching every second - pull the moment it is an even bubbling amber, then let it set ~1 min into a crackable glass. DRY-PAN SHARD METHOD (no broiler): melt the 20 g brown sugar in a dry nonstick pan over medium heat, swirling (do not stir) until liquid and amber, pour thin onto parchment, cool until hard, snap into shards, and stand them on top just before serving."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-cream-cheese",
+            "name": "light cream cheese",
+            "prepDefault": "softened",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cream-cheese-light"
+            }
+          },
+          {
+            "componentKey": "sl-cottage",
+            "name": "cottage cheese",
+            "prepDefault": "blended smooth",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cottage-cheese"
+            }
+          },
+          {
+            "componentKey": "sl-pumpkin",
+            "name": "pumpkin puree",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pumpkin-puree"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-sweetener",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole eggs",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-lemon",
+            "name": "lemon juice",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-lemon-juice"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "vanilla SF pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-brulee-sugar",
+            "name": "brown sugar (brulee crust)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-crust",
+            "name": "graham crust",
+            "resolution": {
+              "kind": "sub_recipe",
+              "subRecipeVersionId": "19ae402e-f81b-4e31-a7e4-cd6d43bb4db8"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 240,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cream-cheese",
+            "stepKey": "s3",
+            "slotKey": "sl-cream-cheese",
+            "quantityValue": 113,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cottage",
+            "stepKey": "s3",
+            "slotKey": "sl-cottage",
+            "quantityValue": 57,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pumpkin",
+            "stepKey": "s1",
+            "slotKey": "sl-pumpkin",
+            "quantityValue": 75,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "s3",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-sweetener",
+            "stepKey": "s3",
+            "slotKey": "sl-sweetener",
+            "quantityValue": 8,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s4",
+            "slotKey": "sl-egg",
+            "quantityValue": 2,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s4",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s3",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 2,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-lemon",
+            "stepKey": "s3",
+            "slotKey": "sl-lemon",
+            "quantityValue": 0.33,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-brulee-sugar",
+            "stepKey": "s-brulee",
+            "slotKey": "sl-brulee-sugar",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1162,
+          "protein": 114.19,
+          "carbs": 88.59,
+          "fat": 35.16,
+          "fiber": 5.68
+        },
+        "perServing": {
+          "calories": 145.25,
+          "protein": 14.27,
+          "carbs": 11.07,
+          "fat": 4.4,
+          "fiber": 0.71
+        },
+        "yield": {
+          "amount": 8,
+          "unit": "slices"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 240,
+            "macros": {
+              "calories": 141.6,
+              "protein": 24,
+              "carbs": 8.64,
+              "fat": 0.96,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cream-cheese",
+            "ingredientId": "ing-cream-cheese-light",
+            "ingredientName": "light cream cheese",
+            "grams": 113,
+            "macros": {
+              "calories": 263.29,
+              "protein": 8.48,
+              "carbs": 7.91,
+              "fat": 21.47,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cottage",
+            "ingredientId": "ing-cottage-cheese",
+            "ingredientName": "cottage cheese",
+            "grams": 57,
+            "macros": {
+              "calories": 41.04,
+              "protein": 6.84,
+              "carbs": 1.71,
+              "fat": 0.57,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pumpkin",
+            "ingredientId": "ing-pumpkin-puree",
+            "ingredientName": "pumpkin puree",
+            "grams": 75,
+            "macros": {
+              "calories": 25.5,
+              "protein": 0.83,
+              "carbs": 6,
+              "fat": 0.23,
+              "fiber": 2.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-sweetener",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 11.95,
+            "macros": {
+              "calories": 47.79,
+              "protein": 0,
+              "carbs": 11.95,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 100,
+            "macros": {
+              "calories": 143,
+              "protein": 12.6,
+              "carbs": 0.7,
+              "fat": 9.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 30,
+            "macros": {
+              "calories": 15.6,
+              "protein": 3.3,
+              "carbs": 0.21,
+              "fat": 0.06,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 8.67,
+            "macros": {
+              "calories": 24.98,
+              "protein": 0,
+              "carbs": 1.1,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-lemon",
+            "ingredientId": "ing-lemon-juice",
+            "ingredientName": "lemon juice",
+            "grams": 1.68,
+            "macros": {
+              "calories": 0.37,
+              "protein": 0.01,
+              "carbs": 0.12,
+              "fat": 0,
+              "fiber": 0.01
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 12,
+            "macros": {
+              "calories": 20.04,
+              "protein": 0.48,
+              "carbs": 5.04,
+              "fat": 0.24,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15.6,
+            "macros": {
+              "calories": 56.78,
+              "protein": 1.56,
+              "carbs": 11.86,
+              "fat": 0.16,
+              "fiber": 0.42
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brulee-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 30,
+            "macros": {
+              "calories": 114,
+              "protein": 0,
+              "carbs": 29.4,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 10.18
+      },
+      "createdAt": "2026-06-19T23:02:51.908Z",
+      "prevVersionId": "02a3283a-eda6-4eeb-b01f-921cf3d653bc",
+      "description": "Creme brulee cheesecake: the vanilla base chilled, finished with a caramelized brown-sugar shell. A cheesecake is a baked custard, so the brulee crust is all it needs - and the shell uses so little sugar it is nearly free (~+10 cal/slice). Vanilla bumped to 2 tsp for a custard-forward nose. The crust needs REAL sugar (sucralose will not caramelize) - brown sugar gives a deep molasses caramel and is the one place Splenda is skipped. Two finishes in the method: oven broiler (freeze first) or dry-pan caramel shards (no torch needed). About 140 cal/slice, ratio ~9.8 - the lean, high-drama variant. To-make."
+    },
+    "5ba2bf3f-a7ae-410a-b543-aaf2cd5852b2": {
+      "id": "5ba2bf3f-a7ae-410a-b543-aaf2cd5852b2",
+      "recipeId": "03ecb832-b09b-41fe-86a1-07d85055b921",
+      "derivesFromVersionId": "dde1b38e-043d-442a-a99c-1758fa37de6a",
+      "name": "Crème Brûlée Protein Cheesecake",
+      "tags": [
+        "cheesecake",
+        "protein",
+        "creme-brulee"
+      ],
+      "yield": {
+        "amount": 8,
+        "unit": "slices"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "add crust par-bake step",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s-brulee",
+              "order": 8,
+              "instructionText": "Brulee the top just before serving (the shell stays crisp only ~30 min on the cake). Dust about 1.5 tbsp (20 g) brown sugar over the cold cheesecake in a thin, even layer. BROILER METHOD: rack at the top, broiler on high; freeze the cake 15-20 min first so the sugar caramelizes before the filling warms, then broil 1-4 min, rotating, watching every second - pull the moment it is an even bubbling amber, then let it set ~1 min into a crackable glass. DRY-PAN SHARD METHOD (no broiler): melt the 20 g brown sugar in a dry nonstick pan over medium heat, swirling (do not stir) until liquid and amber, pour thin onto parchment, cool until hard, snap into shards, and stand them on top just before serving."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-brulee-sugar",
+              "name": "brown sugar (brulee crust)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-brown-sugar"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-brulee-sugar",
+              "stepKey": "s-brulee",
+              "slotKey": "sl-brulee-sugar",
+              "quantityValue": 20,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-vanilla",
+            "payload": {
+              "componentKey": "u-vanilla",
+              "stepKey": "s3",
+              "slotKey": "sl-vanilla",
+              "quantityValue": 2,
+              "quantityUnit": "tsp"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-brulee-sugar",
+            "payload": {
+              "componentKey": "u-brulee-sugar",
+              "stepKey": "s-brulee",
+              "slotKey": "sl-brulee-sugar",
+              "quantityValue": 30,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-crust",
+              "name": "graham crust",
+              "resolution": {
+                "kind": "sub_recipe",
+                "subRecipeVersionId": "19ae402e-f81b-4e31-a7e4-cd6d43bb4db8"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s-crust",
+              "order": 0,
+              "instructionText": "Make and par-bake the graham crust (see the composed crust steps below), then cool it in the pan while you make the filling. The brulee filling gets poured over this crust."
+            }
+          }
+        ],
+        "name": "Crème Brûlée Protein Cheesecake",
+        "tags": [
+          "cheesecake",
+          "protein",
+          "creme-brulee"
+        ]
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Blend the cottage cheese completely smooth (immersion blender or food processor) - no visible curd, or the cheesecake turns grainy."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "instructionText": "Add the eggs and egg white and the cooled pumpkin. Mix just until smooth - do NOT overbeat once eggs are in (air = cracks, and we want a dense set anyway)."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "temperature": 350,
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "instructionText": "Cool: oven off and door cracked 10-20 min, then counter to room temp ~1-1.5 hr (max 2 hr out), then fridge at least 4 hr — overnight is best and gives the densest, firmest set. Best the next day."
+          },
+          {
+            "componentKey": "s-brulee",
+            "order": 8,
+            "instructionText": "Brulee the top just before serving (the shell stays crisp only ~30 min on the cake). Dust about 1.5 tbsp (20 g) brown sugar over the cold cheesecake in a thin, even layer. BROILER METHOD: rack at the top, broiler on high; freeze the cake 15-20 min first so the sugar caramelizes before the filling warms, then broil 1-4 min, rotating, watching every second - pull the moment it is an even bubbling amber, then let it set ~1 min into a crackable glass. DRY-PAN SHARD METHOD (no broiler): melt the 20 g brown sugar in a dry nonstick pan over medium heat, swirling (do not stir) until liquid and amber, pour thin onto parchment, cool until hard, snap into shards, and stand them on top just before serving."
+          },
+          {
+            "componentKey": "s-crust",
+            "order": 0,
+            "instructionText": "Make and par-bake the graham crust (see the composed crust steps below), then cool it in the pan while you make the filling. The brulee filling gets poured over this crust."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-cream-cheese",
+            "name": "light cream cheese",
+            "prepDefault": "softened",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cream-cheese-light"
+            }
+          },
+          {
+            "componentKey": "sl-cottage",
+            "name": "cottage cheese",
+            "prepDefault": "blended smooth",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cottage-cheese"
+            }
+          },
+          {
+            "componentKey": "sl-pumpkin",
+            "name": "pumpkin puree",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pumpkin-puree"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-sweetener",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole eggs",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-lemon",
+            "name": "lemon juice",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-lemon-juice"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "vanilla SF pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-brulee-sugar",
+            "name": "brown sugar (brulee crust)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-crust",
+            "name": "graham crust",
+            "resolution": {
+              "kind": "sub_recipe",
+              "subRecipeVersionId": "19ae402e-f81b-4e31-a7e4-cd6d43bb4db8"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 240,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cream-cheese",
+            "stepKey": "s3",
+            "slotKey": "sl-cream-cheese",
+            "quantityValue": 113,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cottage",
+            "stepKey": "s3",
+            "slotKey": "sl-cottage",
+            "quantityValue": 57,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pumpkin",
+            "stepKey": "s1",
+            "slotKey": "sl-pumpkin",
+            "quantityValue": 75,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "s3",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-sweetener",
+            "stepKey": "s3",
+            "slotKey": "sl-sweetener",
+            "quantityValue": 8,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s4",
+            "slotKey": "sl-egg",
+            "quantityValue": 2,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s4",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s3",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 2,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-lemon",
+            "stepKey": "s3",
+            "slotKey": "sl-lemon",
+            "quantityValue": 0.33,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-brulee-sugar",
+            "stepKey": "s-brulee",
+            "slotKey": "sl-brulee-sugar",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1162,
+          "protein": 114.19,
+          "carbs": 88.59,
+          "fat": 35.16,
+          "fiber": 5.68
+        },
+        "perServing": {
+          "calories": 145.25,
+          "protein": 14.27,
+          "carbs": 11.07,
+          "fat": 4.4,
+          "fiber": 0.71
+        },
+        "yield": {
+          "amount": 8,
+          "unit": "slices"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 240,
+            "macros": {
+              "calories": 141.6,
+              "protein": 24,
+              "carbs": 8.64,
+              "fat": 0.96,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cream-cheese",
+            "ingredientId": "ing-cream-cheese-light",
+            "ingredientName": "light cream cheese",
+            "grams": 113,
+            "macros": {
+              "calories": 263.29,
+              "protein": 8.48,
+              "carbs": 7.91,
+              "fat": 21.47,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cottage",
+            "ingredientId": "ing-cottage-cheese",
+            "ingredientName": "cottage cheese",
+            "grams": 57,
+            "macros": {
+              "calories": 41.04,
+              "protein": 6.84,
+              "carbs": 1.71,
+              "fat": 0.57,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pumpkin",
+            "ingredientId": "ing-pumpkin-puree",
+            "ingredientName": "pumpkin puree",
+            "grams": 75,
+            "macros": {
+              "calories": 25.5,
+              "protein": 0.83,
+              "carbs": 6,
+              "fat": 0.23,
+              "fiber": 2.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-sweetener",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 11.95,
+            "macros": {
+              "calories": 47.79,
+              "protein": 0,
+              "carbs": 11.95,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 100,
+            "macros": {
+              "calories": 143,
+              "protein": 12.6,
+              "carbs": 0.7,
+              "fat": 9.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 30,
+            "macros": {
+              "calories": 15.6,
+              "protein": 3.3,
+              "carbs": 0.21,
+              "fat": 0.06,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 8.67,
+            "macros": {
+              "calories": 24.98,
+              "protein": 0,
+              "carbs": 1.1,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-lemon",
+            "ingredientId": "ing-lemon-juice",
+            "ingredientName": "lemon juice",
+            "grams": 1.68,
+            "macros": {
+              "calories": 0.37,
+              "protein": 0.01,
+              "carbs": 0.12,
+              "fat": 0,
+              "fiber": 0.01
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 12,
+            "macros": {
+              "calories": 20.04,
+              "protein": 0.48,
+              "carbs": 5.04,
+              "fat": 0.24,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15.6,
+            "macros": {
+              "calories": 56.78,
+              "protein": 1.56,
+              "carbs": 11.86,
+              "fat": 0.16,
+              "fiber": 0.42
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brulee-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 30,
+            "macros": {
+              "calories": 114,
+              "protein": 0,
+              "carbs": 29.4,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 10.18
+      },
+      "createdAt": "2026-06-19T23:02:52.116Z",
+      "prevVersionId": "2fb2e6c0-85e3-44d4-bb4c-d7de86ac9c08",
+      "description": "Creme brulee cheesecake: the vanilla base chilled, finished with a caramelized brown-sugar shell. A cheesecake is a baked custard, so the brulee crust is all it needs - and the shell uses so little sugar it is nearly free (~+10 cal/slice). Vanilla bumped to 2 tsp for a custard-forward nose. The crust needs REAL sugar (sucralose will not caramelize) - brown sugar gives a deep molasses caramel and is the one place Splenda is skipped. Two finishes in the method: oven broiler (freeze first) or dry-pan caramel shards (no torch needed). About 140 cal/slice, ratio ~9.8 - the lean, high-drama variant. To-make."
+    },
+    "e4413399-8388-47cb-bc5a-0cf76565c4ef": {
+      "id": "e4413399-8388-47cb-bc5a-0cf76565c4ef",
+      "recipeId": "03ecb832-b09b-41fe-86a1-07d85055b921",
+      "derivesFromVersionId": "dde1b38e-043d-442a-a99c-1758fa37de6a",
+      "name": "Crème Brûlée Protein Cheesecake",
+      "tags": [
+        "cheesecake",
+        "protein",
+        "creme-brulee"
+      ],
+      "yield": {
+        "amount": 8,
+        "unit": "slices"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "compose 1 batch graham crust",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s-brulee",
+              "order": 8,
+              "instructionText": "Brulee the top just before serving (the shell stays crisp only ~30 min on the cake). Dust about 1.5 tbsp (20 g) brown sugar over the cold cheesecake in a thin, even layer. BROILER METHOD: rack at the top, broiler on high; freeze the cake 15-20 min first so the sugar caramelizes before the filling warms, then broil 1-4 min, rotating, watching every second - pull the moment it is an even bubbling amber, then let it set ~1 min into a crackable glass. DRY-PAN SHARD METHOD (no broiler): melt the 20 g brown sugar in a dry nonstick pan over medium heat, swirling (do not stir) until liquid and amber, pour thin onto parchment, cool until hard, snap into shards, and stand them on top just before serving."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-brulee-sugar",
+              "name": "brown sugar (brulee crust)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-brown-sugar"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-brulee-sugar",
+              "stepKey": "s-brulee",
+              "slotKey": "sl-brulee-sugar",
+              "quantityValue": 20,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-vanilla",
+            "payload": {
+              "componentKey": "u-vanilla",
+              "stepKey": "s3",
+              "slotKey": "sl-vanilla",
+              "quantityValue": 2,
+              "quantityUnit": "tsp"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-brulee-sugar",
+            "payload": {
+              "componentKey": "u-brulee-sugar",
+              "stepKey": "s-brulee",
+              "slotKey": "sl-brulee-sugar",
+              "quantityValue": 30,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-crust",
+              "name": "graham crust",
+              "resolution": {
+                "kind": "sub_recipe",
+                "subRecipeVersionId": "19ae402e-f81b-4e31-a7e4-cd6d43bb4db8"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s-crust",
+              "order": 0,
+              "instructionText": "Make and par-bake the graham crust (see the composed crust steps below), then cool it in the pan while you make the filling. The brulee filling gets poured over this crust."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-crust",
+              "stepKey": "s-crust",
+              "slotKey": "sl-crust",
+              "quantityValue": 1,
+              "quantityUnit": "batch"
+            }
+          }
+        ],
+        "name": "Crème Brûlée Protein Cheesecake",
+        "tags": [
+          "cheesecake",
+          "protein",
+          "creme-brulee"
+        ]
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Blend the cottage cheese completely smooth (immersion blender or food processor) - no visible curd, or the cheesecake turns grainy."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "instructionText": "Add the eggs and egg white and the cooled pumpkin. Mix just until smooth - do NOT overbeat once eggs are in (air = cracks, and we want a dense set anyway)."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "temperature": 350,
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "instructionText": "Cool: oven off and door cracked 10-20 min, then counter to room temp ~1-1.5 hr (max 2 hr out), then fridge at least 4 hr — overnight is best and gives the densest, firmest set. Best the next day."
+          },
+          {
+            "componentKey": "s-brulee",
+            "order": 8,
+            "instructionText": "Brulee the top just before serving (the shell stays crisp only ~30 min on the cake). Dust about 1.5 tbsp (20 g) brown sugar over the cold cheesecake in a thin, even layer. BROILER METHOD: rack at the top, broiler on high; freeze the cake 15-20 min first so the sugar caramelizes before the filling warms, then broil 1-4 min, rotating, watching every second - pull the moment it is an even bubbling amber, then let it set ~1 min into a crackable glass. DRY-PAN SHARD METHOD (no broiler): melt the 20 g brown sugar in a dry nonstick pan over medium heat, swirling (do not stir) until liquid and amber, pour thin onto parchment, cool until hard, snap into shards, and stand them on top just before serving."
+          },
+          {
+            "componentKey": "s-crust",
+            "order": 0,
+            "instructionText": "Make and par-bake the graham crust (see the composed crust steps below), then cool it in the pan while you make the filling. The brulee filling gets poured over this crust."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-cream-cheese",
+            "name": "light cream cheese",
+            "prepDefault": "softened",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cream-cheese-light"
+            }
+          },
+          {
+            "componentKey": "sl-cottage",
+            "name": "cottage cheese",
+            "prepDefault": "blended smooth",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cottage-cheese"
+            }
+          },
+          {
+            "componentKey": "sl-pumpkin",
+            "name": "pumpkin puree",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pumpkin-puree"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-sweetener",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole eggs",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-lemon",
+            "name": "lemon juice",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-lemon-juice"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "vanilla SF pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-brulee-sugar",
+            "name": "brown sugar (brulee crust)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-crust",
+            "name": "graham crust",
+            "resolution": {
+              "kind": "sub_recipe",
+              "subRecipeVersionId": "19ae402e-f81b-4e31-a7e4-cd6d43bb4db8"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 240,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cream-cheese",
+            "stepKey": "s3",
+            "slotKey": "sl-cream-cheese",
+            "quantityValue": 113,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cottage",
+            "stepKey": "s3",
+            "slotKey": "sl-cottage",
+            "quantityValue": 57,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pumpkin",
+            "stepKey": "s1",
+            "slotKey": "sl-pumpkin",
+            "quantityValue": 75,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "s3",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-sweetener",
+            "stepKey": "s3",
+            "slotKey": "sl-sweetener",
+            "quantityValue": 8,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s4",
+            "slotKey": "sl-egg",
+            "quantityValue": 2,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s4",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s3",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 2,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-lemon",
+            "stepKey": "s3",
+            "slotKey": "sl-lemon",
+            "quantityValue": 0.33,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-brulee-sugar",
+            "stepKey": "s-brulee",
+            "slotKey": "sl-brulee-sugar",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-crust",
+            "stepKey": "s-crust",
+            "slotKey": "sl-crust",
+            "quantityValue": 1,
+            "quantityUnit": "batch"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1467.6,
+          "protein": 120.97,
+          "carbs": 134.36,
+          "fat": 46.31,
+          "fiber": 7.11
+        },
+        "perServing": {
+          "calories": 183.45,
+          "protein": 15.12,
+          "carbs": 16.8,
+          "fat": 5.79,
+          "fiber": 0.89
+        },
+        "yield": {
+          "amount": 8,
+          "unit": "slices"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 240,
+            "macros": {
+              "calories": 141.6,
+              "protein": 24,
+              "carbs": 8.64,
+              "fat": 0.96,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cream-cheese",
+            "ingredientId": "ing-cream-cheese-light",
+            "ingredientName": "light cream cheese",
+            "grams": 113,
+            "macros": {
+              "calories": 263.29,
+              "protein": 8.48,
+              "carbs": 7.91,
+              "fat": 21.47,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cottage",
+            "ingredientId": "ing-cottage-cheese",
+            "ingredientName": "cottage cheese",
+            "grams": 57,
+            "macros": {
+              "calories": 41.04,
+              "protein": 6.84,
+              "carbs": 1.71,
+              "fat": 0.57,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pumpkin",
+            "ingredientId": "ing-pumpkin-puree",
+            "ingredientName": "pumpkin puree",
+            "grams": 75,
+            "macros": {
+              "calories": 25.5,
+              "protein": 0.83,
+              "carbs": 6,
+              "fat": 0.23,
+              "fiber": 2.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-sweetener",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 11.95,
+            "macros": {
+              "calories": 47.79,
+              "protein": 0,
+              "carbs": 11.95,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 100,
+            "macros": {
+              "calories": 143,
+              "protein": 12.6,
+              "carbs": 0.7,
+              "fat": 9.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 30,
+            "macros": {
+              "calories": 15.6,
+              "protein": 3.3,
+              "carbs": 0.21,
+              "fat": 0.06,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 8.67,
+            "macros": {
+              "calories": 24.98,
+              "protein": 0,
+              "carbs": 1.1,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-lemon",
+            "ingredientId": "ing-lemon-juice",
+            "ingredientName": "lemon juice",
+            "grams": 1.68,
+            "macros": {
+              "calories": 0.37,
+              "protein": 0.01,
+              "carbs": 0.12,
+              "fat": 0,
+              "fiber": 0.01
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 12,
+            "macros": {
+              "calories": 20.04,
+              "protein": 0.48,
+              "carbs": 5.04,
+              "fat": 0.24,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15.6,
+            "macros": {
+              "calories": 56.78,
+              "protein": 1.56,
+              "carbs": 11.86,
+              "fat": 0.16,
+              "fiber": 0.42
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brulee-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 30,
+            "macros": {
+              "calories": 114,
+              "protein": 0,
+              "carbs": 29.4,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-crust",
+            "ingredientName": "graham crust",
+            "grams": 96.64,
+            "macros": {
+              "calories": 305.6,
+              "protein": 6.78,
+              "carbs": 45.77,
+              "fat": 11.15,
+              "fiber": 1.43
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 12.13
+      },
+      "createdAt": "2026-06-19T23:02:52.311Z",
+      "prevVersionId": "5ba2bf3f-a7ae-410a-b543-aaf2cd5852b2",
+      "description": "Creme brulee cheesecake: the vanilla base chilled, finished with a caramelized brown-sugar shell. A cheesecake is a baked custard, so the brulee crust is all it needs - and the shell uses so little sugar it is nearly free (~+10 cal/slice). Vanilla bumped to 2 tsp for a custard-forward nose. The crust needs REAL sugar (sucralose will not caramelize) - brown sugar gives a deep molasses caramel and is the one place Splenda is skipped. Two finishes in the method: oven broiler (freeze first) or dry-pan caramel shards (no torch needed). About 140 cal/slice, ratio ~9.8 - the lean, high-drama variant. To-make."
+    },
+    "85cfe504-943d-4494-acd3-3bfac18df9bc": {
+      "id": "85cfe504-943d-4494-acd3-3bfac18df9bc",
+      "recipeId": "03ecb832-b09b-41fe-86a1-07d85055b921",
+      "derivesFromVersionId": "dde1b38e-043d-442a-a99c-1758fa37de6a",
+      "name": "Crème Brûlée Protein Cheesecake",
+      "tags": [
+        "cheesecake",
+        "protein",
+        "creme-brulee"
+      ],
+      "yield": {
+        "amount": 8,
+        "unit": "slices"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "pour filling over the crust",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s-brulee",
+              "order": 8,
+              "instructionText": "Brulee the top just before serving (the shell stays crisp only ~30 min on the cake). Dust about 1.5 tbsp (20 g) brown sugar over the cold cheesecake in a thin, even layer. BROILER METHOD: rack at the top, broiler on high; freeze the cake 15-20 min first so the sugar caramelizes before the filling warms, then broil 1-4 min, rotating, watching every second - pull the moment it is an even bubbling amber, then let it set ~1 min into a crackable glass. DRY-PAN SHARD METHOD (no broiler): melt the 20 g brown sugar in a dry nonstick pan over medium heat, swirling (do not stir) until liquid and amber, pour thin onto parchment, cool until hard, snap into shards, and stand them on top just before serving."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-brulee-sugar",
+              "name": "brown sugar (brulee crust)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-brown-sugar"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-brulee-sugar",
+              "stepKey": "s-brulee",
+              "slotKey": "sl-brulee-sugar",
+              "quantityValue": 20,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-vanilla",
+            "payload": {
+              "componentKey": "u-vanilla",
+              "stepKey": "s3",
+              "slotKey": "sl-vanilla",
+              "quantityValue": 2,
+              "quantityUnit": "tsp"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-brulee-sugar",
+            "payload": {
+              "componentKey": "u-brulee-sugar",
+              "stepKey": "s-brulee",
+              "slotKey": "sl-brulee-sugar",
+              "quantityValue": 30,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-crust",
+              "name": "graham crust",
+              "resolution": {
+                "kind": "sub_recipe",
+                "subRecipeVersionId": "19ae402e-f81b-4e31-a7e4-cd6d43bb4db8"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s-crust",
+              "order": 0,
+              "instructionText": "Make and par-bake the graham crust (see the composed crust steps below), then cool it in the pan while you make the filling. The brulee filling gets poured over this crust."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-crust",
+              "stepKey": "s-crust",
+              "slotKey": "sl-crust",
+              "quantityValue": 1,
+              "quantityUnit": "batch"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "s5",
+            "payload": {
+              "componentKey": "s5",
+              "order": 5,
+              "instructionText": "Pour the filling over the cooled par-baked graham crust. Tap on the counter to level and pop bubbles."
+            }
+          }
+        ],
+        "name": "Crème Brûlée Protein Cheesecake",
+        "tags": [
+          "cheesecake",
+          "protein",
+          "creme-brulee"
+        ]
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Blend the cottage cheese completely smooth (immersion blender or food processor) - no visible curd, or the cheesecake turns grainy."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "instructionText": "Add the eggs and egg white and the cooled pumpkin. Mix just until smooth - do NOT overbeat once eggs are in (air = cracks, and we want a dense set anyway)."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "instructionText": "Pour the filling over the cooled par-baked graham crust. Tap on the counter to level and pop bubbles."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "temperature": 350,
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "instructionText": "Cool: oven off and door cracked 10-20 min, then counter to room temp ~1-1.5 hr (max 2 hr out), then fridge at least 4 hr — overnight is best and gives the densest, firmest set. Best the next day."
+          },
+          {
+            "componentKey": "s-brulee",
+            "order": 8,
+            "instructionText": "Brulee the top just before serving (the shell stays crisp only ~30 min on the cake). Dust about 1.5 tbsp (20 g) brown sugar over the cold cheesecake in a thin, even layer. BROILER METHOD: rack at the top, broiler on high; freeze the cake 15-20 min first so the sugar caramelizes before the filling warms, then broil 1-4 min, rotating, watching every second - pull the moment it is an even bubbling amber, then let it set ~1 min into a crackable glass. DRY-PAN SHARD METHOD (no broiler): melt the 20 g brown sugar in a dry nonstick pan over medium heat, swirling (do not stir) until liquid and amber, pour thin onto parchment, cool until hard, snap into shards, and stand them on top just before serving."
+          },
+          {
+            "componentKey": "s-crust",
+            "order": 0,
+            "instructionText": "Make and par-bake the graham crust (see the composed crust steps below), then cool it in the pan while you make the filling. The brulee filling gets poured over this crust."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-cream-cheese",
+            "name": "light cream cheese",
+            "prepDefault": "softened",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cream-cheese-light"
+            }
+          },
+          {
+            "componentKey": "sl-cottage",
+            "name": "cottage cheese",
+            "prepDefault": "blended smooth",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cottage-cheese"
+            }
+          },
+          {
+            "componentKey": "sl-pumpkin",
+            "name": "pumpkin puree",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pumpkin-puree"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-sweetener",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole eggs",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-lemon",
+            "name": "lemon juice",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-lemon-juice"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "vanilla SF pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-brulee-sugar",
+            "name": "brown sugar (brulee crust)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-crust",
+            "name": "graham crust",
+            "resolution": {
+              "kind": "sub_recipe",
+              "subRecipeVersionId": "19ae402e-f81b-4e31-a7e4-cd6d43bb4db8"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 240,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cream-cheese",
+            "stepKey": "s3",
+            "slotKey": "sl-cream-cheese",
+            "quantityValue": 113,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cottage",
+            "stepKey": "s3",
+            "slotKey": "sl-cottage",
+            "quantityValue": 57,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pumpkin",
+            "stepKey": "s1",
+            "slotKey": "sl-pumpkin",
+            "quantityValue": 75,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "s3",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-sweetener",
+            "stepKey": "s3",
+            "slotKey": "sl-sweetener",
+            "quantityValue": 8,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s4",
+            "slotKey": "sl-egg",
+            "quantityValue": 2,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s4",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s3",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 2,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-lemon",
+            "stepKey": "s3",
+            "slotKey": "sl-lemon",
+            "quantityValue": 0.33,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-brulee-sugar",
+            "stepKey": "s-brulee",
+            "slotKey": "sl-brulee-sugar",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-crust",
+            "stepKey": "s-crust",
+            "slotKey": "sl-crust",
+            "quantityValue": 1,
+            "quantityUnit": "batch"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1467.6,
+          "protein": 120.97,
+          "carbs": 134.36,
+          "fat": 46.31,
+          "fiber": 7.11
+        },
+        "perServing": {
+          "calories": 183.45,
+          "protein": 15.12,
+          "carbs": 16.8,
+          "fat": 5.79,
+          "fiber": 0.89
+        },
+        "yield": {
+          "amount": 8,
+          "unit": "slices"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 240,
+            "macros": {
+              "calories": 141.6,
+              "protein": 24,
+              "carbs": 8.64,
+              "fat": 0.96,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cream-cheese",
+            "ingredientId": "ing-cream-cheese-light",
+            "ingredientName": "light cream cheese",
+            "grams": 113,
+            "macros": {
+              "calories": 263.29,
+              "protein": 8.48,
+              "carbs": 7.91,
+              "fat": 21.47,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cottage",
+            "ingredientId": "ing-cottage-cheese",
+            "ingredientName": "cottage cheese",
+            "grams": 57,
+            "macros": {
+              "calories": 41.04,
+              "protein": 6.84,
+              "carbs": 1.71,
+              "fat": 0.57,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pumpkin",
+            "ingredientId": "ing-pumpkin-puree",
+            "ingredientName": "pumpkin puree",
+            "grams": 75,
+            "macros": {
+              "calories": 25.5,
+              "protein": 0.83,
+              "carbs": 6,
+              "fat": 0.23,
+              "fiber": 2.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-sweetener",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 11.95,
+            "macros": {
+              "calories": 47.79,
+              "protein": 0,
+              "carbs": 11.95,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 100,
+            "macros": {
+              "calories": 143,
+              "protein": 12.6,
+              "carbs": 0.7,
+              "fat": 9.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 30,
+            "macros": {
+              "calories": 15.6,
+              "protein": 3.3,
+              "carbs": 0.21,
+              "fat": 0.06,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 8.67,
+            "macros": {
+              "calories": 24.98,
+              "protein": 0,
+              "carbs": 1.1,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-lemon",
+            "ingredientId": "ing-lemon-juice",
+            "ingredientName": "lemon juice",
+            "grams": 1.68,
+            "macros": {
+              "calories": 0.37,
+              "protein": 0.01,
+              "carbs": 0.12,
+              "fat": 0,
+              "fiber": 0.01
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 12,
+            "macros": {
+              "calories": 20.04,
+              "protein": 0.48,
+              "carbs": 5.04,
+              "fat": 0.24,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15.6,
+            "macros": {
+              "calories": 56.78,
+              "protein": 1.56,
+              "carbs": 11.86,
+              "fat": 0.16,
+              "fiber": 0.42
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brulee-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 30,
+            "macros": {
+              "calories": 114,
+              "protein": 0,
+              "carbs": 29.4,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-crust",
+            "ingredientName": "graham crust",
+            "grams": 96.64,
+            "macros": {
+              "calories": 305.6,
+              "protein": 6.78,
+              "carbs": 45.77,
+              "fat": 11.15,
+              "fiber": 1.43
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 12.13
+      },
+      "createdAt": "2026-06-19T23:02:52.506Z",
+      "prevVersionId": "e4413399-8388-47cb-bc5a-0cf76565c4ef",
+      "description": "Creme brulee cheesecake: the vanilla base chilled, finished with a caramelized brown-sugar shell. A cheesecake is a baked custard, so the brulee crust is all it needs - and the shell uses so little sugar it is nearly free (~+10 cal/slice). Vanilla bumped to 2 tsp for a custard-forward nose. The crust needs REAL sugar (sucralose will not caramelize) - brown sugar gives a deep molasses caramel and is the one place Splenda is skipped. Two finishes in the method: oven broiler (freeze first) or dry-pan caramel shards (no torch needed). About 140 cal/slice, ratio ~9.8 - the lean, high-drama variant. To-make."
+    },
+    "a730558c-2789-4236-8ff7-c244e91455ba": {
+      "id": "a730558c-2789-4236-8ff7-c244e91455ba",
+      "recipeId": "03ecb832-b09b-41fe-86a1-07d85055b921",
+      "derivesFromVersionId": "dde1b38e-043d-442a-a99c-1758fa37de6a",
+      "name": "Crème Brûlée Protein Cheesecake",
+      "tags": [
+        "cheesecake",
+        "protein",
+        "creme-brulee"
+      ],
+      "yield": {
+        "amount": 8,
+        "unit": "slices"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "describe crusted creme brulee variant",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s-brulee",
+              "order": 8,
+              "instructionText": "Brulee the top just before serving (the shell stays crisp only ~30 min on the cake). Dust about 1.5 tbsp (20 g) brown sugar over the cold cheesecake in a thin, even layer. BROILER METHOD: rack at the top, broiler on high; freeze the cake 15-20 min first so the sugar caramelizes before the filling warms, then broil 1-4 min, rotating, watching every second - pull the moment it is an even bubbling amber, then let it set ~1 min into a crackable glass. DRY-PAN SHARD METHOD (no broiler): melt the 20 g brown sugar in a dry nonstick pan over medium heat, swirling (do not stir) until liquid and amber, pour thin onto parchment, cool until hard, snap into shards, and stand them on top just before serving."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-brulee-sugar",
+              "name": "brown sugar (brulee crust)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-brown-sugar"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-brulee-sugar",
+              "stepKey": "s-brulee",
+              "slotKey": "sl-brulee-sugar",
+              "quantityValue": 20,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-vanilla",
+            "payload": {
+              "componentKey": "u-vanilla",
+              "stepKey": "s3",
+              "slotKey": "sl-vanilla",
+              "quantityValue": 2,
+              "quantityUnit": "tsp"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-brulee-sugar",
+            "payload": {
+              "componentKey": "u-brulee-sugar",
+              "stepKey": "s-brulee",
+              "slotKey": "sl-brulee-sugar",
+              "quantityValue": 30,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-crust",
+              "name": "graham crust",
+              "resolution": {
+                "kind": "sub_recipe",
+                "subRecipeVersionId": "19ae402e-f81b-4e31-a7e4-cd6d43bb4db8"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s-crust",
+              "order": 0,
+              "instructionText": "Make and par-bake the graham crust (see the composed crust steps below), then cool it in the pan while you make the filling. The brulee filling gets poured over this crust."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-crust",
+              "stepKey": "s-crust",
+              "slotKey": "sl-crust",
+              "quantityValue": 1,
+              "quantityUnit": "batch"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "s5",
+            "payload": {
+              "componentKey": "s5",
+              "order": 5,
+              "instructionText": "Pour the filling over the cooled par-baked graham crust. Tap on the counter to level and pop bubbles."
+            }
+          }
+        ],
+        "name": "Crème Brûlée Protein Cheesecake",
+        "tags": [
+          "cheesecake",
+          "protein",
+          "creme-brulee"
+        ]
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Blend the cottage cheese completely smooth (immersion blender or food processor) - no visible curd, or the cheesecake turns grainy."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "instructionText": "Add the eggs and egg white and the cooled pumpkin. Mix just until smooth - do NOT overbeat once eggs are in (air = cracks, and we want a dense set anyway)."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "instructionText": "Pour the filling over the cooled par-baked graham crust. Tap on the counter to level and pop bubbles."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "temperature": 350,
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "instructionText": "Cool: oven off and door cracked 10-20 min, then counter to room temp ~1-1.5 hr (max 2 hr out), then fridge at least 4 hr — overnight is best and gives the densest, firmest set. Best the next day."
+          },
+          {
+            "componentKey": "s-brulee",
+            "order": 8,
+            "instructionText": "Brulee the top just before serving (the shell stays crisp only ~30 min on the cake). Dust about 1.5 tbsp (20 g) brown sugar over the cold cheesecake in a thin, even layer. BROILER METHOD: rack at the top, broiler on high; freeze the cake 15-20 min first so the sugar caramelizes before the filling warms, then broil 1-4 min, rotating, watching every second - pull the moment it is an even bubbling amber, then let it set ~1 min into a crackable glass. DRY-PAN SHARD METHOD (no broiler): melt the 20 g brown sugar in a dry nonstick pan over medium heat, swirling (do not stir) until liquid and amber, pour thin onto parchment, cool until hard, snap into shards, and stand them on top just before serving."
+          },
+          {
+            "componentKey": "s-crust",
+            "order": 0,
+            "instructionText": "Make and par-bake the graham crust (see the composed crust steps below), then cool it in the pan while you make the filling. The brulee filling gets poured over this crust."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-cream-cheese",
+            "name": "light cream cheese",
+            "prepDefault": "softened",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cream-cheese-light"
+            }
+          },
+          {
+            "componentKey": "sl-cottage",
+            "name": "cottage cheese",
+            "prepDefault": "blended smooth",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cottage-cheese"
+            }
+          },
+          {
+            "componentKey": "sl-pumpkin",
+            "name": "pumpkin puree",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pumpkin-puree"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-sweetener",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole eggs",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-lemon",
+            "name": "lemon juice",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-lemon-juice"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "vanilla SF pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-brulee-sugar",
+            "name": "brown sugar (brulee crust)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-crust",
+            "name": "graham crust",
+            "resolution": {
+              "kind": "sub_recipe",
+              "subRecipeVersionId": "19ae402e-f81b-4e31-a7e4-cd6d43bb4db8"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 240,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cream-cheese",
+            "stepKey": "s3",
+            "slotKey": "sl-cream-cheese",
+            "quantityValue": 113,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cottage",
+            "stepKey": "s3",
+            "slotKey": "sl-cottage",
+            "quantityValue": 57,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pumpkin",
+            "stepKey": "s1",
+            "slotKey": "sl-pumpkin",
+            "quantityValue": 75,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "s3",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-sweetener",
+            "stepKey": "s3",
+            "slotKey": "sl-sweetener",
+            "quantityValue": 8,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s4",
+            "slotKey": "sl-egg",
+            "quantityValue": 2,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s4",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s3",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 2,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-lemon",
+            "stepKey": "s3",
+            "slotKey": "sl-lemon",
+            "quantityValue": 0.33,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-brulee-sugar",
+            "stepKey": "s-brulee",
+            "slotKey": "sl-brulee-sugar",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-crust",
+            "stepKey": "s-crust",
+            "slotKey": "sl-crust",
+            "quantityValue": 1,
+            "quantityUnit": "batch"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1467.6,
+          "protein": 120.97,
+          "carbs": 134.36,
+          "fat": 46.31,
+          "fiber": 7.11
+        },
+        "perServing": {
+          "calories": 183.45,
+          "protein": 15.12,
+          "carbs": 16.8,
+          "fat": 5.79,
+          "fiber": 0.89
+        },
+        "yield": {
+          "amount": 8,
+          "unit": "slices"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 240,
+            "macros": {
+              "calories": 141.6,
+              "protein": 24,
+              "carbs": 8.64,
+              "fat": 0.96,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cream-cheese",
+            "ingredientId": "ing-cream-cheese-light",
+            "ingredientName": "light cream cheese",
+            "grams": 113,
+            "macros": {
+              "calories": 263.29,
+              "protein": 8.48,
+              "carbs": 7.91,
+              "fat": 21.47,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cottage",
+            "ingredientId": "ing-cottage-cheese",
+            "ingredientName": "cottage cheese",
+            "grams": 57,
+            "macros": {
+              "calories": 41.04,
+              "protein": 6.84,
+              "carbs": 1.71,
+              "fat": 0.57,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pumpkin",
+            "ingredientId": "ing-pumpkin-puree",
+            "ingredientName": "pumpkin puree",
+            "grams": 75,
+            "macros": {
+              "calories": 25.5,
+              "protein": 0.83,
+              "carbs": 6,
+              "fat": 0.23,
+              "fiber": 2.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-sweetener",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 11.95,
+            "macros": {
+              "calories": 47.79,
+              "protein": 0,
+              "carbs": 11.95,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 100,
+            "macros": {
+              "calories": 143,
+              "protein": 12.6,
+              "carbs": 0.7,
+              "fat": 9.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 30,
+            "macros": {
+              "calories": 15.6,
+              "protein": 3.3,
+              "carbs": 0.21,
+              "fat": 0.06,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 8.67,
+            "macros": {
+              "calories": 24.98,
+              "protein": 0,
+              "carbs": 1.1,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-lemon",
+            "ingredientId": "ing-lemon-juice",
+            "ingredientName": "lemon juice",
+            "grams": 1.68,
+            "macros": {
+              "calories": 0.37,
+              "protein": 0.01,
+              "carbs": 0.12,
+              "fat": 0,
+              "fiber": 0.01
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 12,
+            "macros": {
+              "calories": 20.04,
+              "protein": 0.48,
+              "carbs": 5.04,
+              "fat": 0.24,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15.6,
+            "macros": {
+              "calories": 56.78,
+              "protein": 1.56,
+              "carbs": 11.86,
+              "fat": 0.16,
+              "fiber": 0.42
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brulee-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 30,
+            "macros": {
+              "calories": 114,
+              "protein": 0,
+              "carbs": 29.4,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-crust",
+            "ingredientName": "graham crust",
+            "grams": 96.64,
+            "macros": {
+              "calories": 305.6,
+              "protein": 6.78,
+              "carbs": 45.77,
+              "fat": 11.15,
+              "fiber": 1.43
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 12.13
+      },
+      "createdAt": "2026-06-19T23:02:52.702Z",
+      "prevVersionId": "85cfe504-943d-4494-acd3-3bfac18df9bc",
+      "description": "Creme brulee cheesecake on a graham crust: vanilla custard cheesecake over a par-baked graham crust, finished with a torched brown-sugar shell. A cheesecake is a baked custard, so the brulee crust is the signature; the graham base adds the classic restaurant form. The shell needs REAL sugar (sucralose will not caramelize) - ~30 g brown sugar in a thin even layer; everything else stays Splenda. Two finishes in the method: oven broiler (freeze first) or dry-pan caramel shards (no torch). About 183 cal/slice with the crust + bigger shell (was 140 crustless). To-make."
     }
   },
   "ingredients": {
