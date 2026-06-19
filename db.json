@@ -155,6 +155,12 @@
       "createdBy": "user",
       "createdAt": "2026-06-19T20:46:27.626Z",
       "headVersionId": "ccf23f19-cd42-42c9-aa40-83493187d16f"
+    },
+    "80bfebf7-6b5b-4cfe-acd3-8a93c2b7e857": {
+      "id": "80bfebf7-6b5b-4cfe-acd3-8a93c2b7e857",
+      "createdBy": "user",
+      "createdAt": "2026-06-19T22:07:00.788Z",
+      "headVersionId": "ccffdad4-6a73-4dd1-a2aa-4a43e8d7655a"
     }
   },
   "versions": {
@@ -58206,6 +58212,4128 @@
       },
       "createdAt": "2026-06-19T21:45:42.175Z",
       "prevVersionId": "452fcabc-5f12-4792-8254-847cf60c12e3"
+    },
+    "a4c07e89-e6b1-4b2e-b737-32ea726b8dfe": {
+      "id": "a4c07e89-e6b1-4b2e-b737-32ea726b8dfe",
+      "recipeId": "80bfebf7-6b5b-4cfe-acd3-8a93c2b7e857",
+      "derivesFromVersionId": "dde1b38e-043d-442a-a99c-1758fa37de6a",
+      "name": "Toasted Coconut Protein Cheesecake",
+      "tags": [],
+      "yield": {
+        "amount": 8,
+        "unit": "slices"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "fork coconut variant off the vanilla base",
+      "overrideSet": {
+        "entries": [],
+        "name": "Toasted Coconut Protein Cheesecake"
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Blend the cottage cheese completely smooth (immersion blender or food processor) - no visible curd, or the cheesecake turns grainy."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "instructionText": "Add the eggs and egg white and the cooled pumpkin. Mix just until smooth - do NOT overbeat once eggs are in (air = cracks, and we want a dense set anyway)."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "temperature": 350,
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "instructionText": "Cool: oven off and door cracked 10-20 min, then counter to room temp ~1-1.5 hr (max 2 hr out), then fridge at least 4 hr — overnight is best and gives the densest, firmest set. Best the next day."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-cream-cheese",
+            "name": "light cream cheese",
+            "prepDefault": "softened",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cream-cheese-light"
+            }
+          },
+          {
+            "componentKey": "sl-cottage",
+            "name": "cottage cheese",
+            "prepDefault": "blended smooth",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cottage-cheese"
+            }
+          },
+          {
+            "componentKey": "sl-pumpkin",
+            "name": "pumpkin puree",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pumpkin-puree"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-sweetener",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole eggs",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-lemon",
+            "name": "lemon juice",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-lemon-juice"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "vanilla SF pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 240,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cream-cheese",
+            "stepKey": "s3",
+            "slotKey": "sl-cream-cheese",
+            "quantityValue": 113,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cottage",
+            "stepKey": "s3",
+            "slotKey": "sl-cottage",
+            "quantityValue": 57,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pumpkin",
+            "stepKey": "s1",
+            "slotKey": "sl-pumpkin",
+            "quantityValue": 75,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "s3",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-sweetener",
+            "stepKey": "s3",
+            "slotKey": "sl-sweetener",
+            "quantityValue": 8,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s4",
+            "slotKey": "sl-egg",
+            "quantityValue": 2,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s4",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s3",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-lemon",
+            "stepKey": "s3",
+            "slotKey": "sl-lemon",
+            "quantityValue": 0.33,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1035.5,
+          "protein": 114.19,
+          "carbs": 58.64,
+          "fat": 35.16,
+          "fiber": 5.68
+        },
+        "perServing": {
+          "calories": 129.44,
+          "protein": 14.27,
+          "carbs": 7.33,
+          "fat": 4.4,
+          "fiber": 0.71
+        },
+        "yield": {
+          "amount": 8,
+          "unit": "slices"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 240,
+            "macros": {
+              "calories": 141.6,
+              "protein": 24,
+              "carbs": 8.64,
+              "fat": 0.96,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cream-cheese",
+            "ingredientId": "ing-cream-cheese-light",
+            "ingredientName": "light cream cheese",
+            "grams": 113,
+            "macros": {
+              "calories": 263.29,
+              "protein": 8.48,
+              "carbs": 7.91,
+              "fat": 21.47,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cottage",
+            "ingredientId": "ing-cottage-cheese",
+            "ingredientName": "cottage cheese",
+            "grams": 57,
+            "macros": {
+              "calories": 41.04,
+              "protein": 6.84,
+              "carbs": 1.71,
+              "fat": 0.57,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pumpkin",
+            "ingredientId": "ing-pumpkin-puree",
+            "ingredientName": "pumpkin puree",
+            "grams": 75,
+            "macros": {
+              "calories": 25.5,
+              "protein": 0.83,
+              "carbs": 6,
+              "fat": 0.23,
+              "fiber": 2.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-sweetener",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 11.95,
+            "macros": {
+              "calories": 47.79,
+              "protein": 0,
+              "carbs": 11.95,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 100,
+            "macros": {
+              "calories": 143,
+              "protein": 12.6,
+              "carbs": 0.7,
+              "fat": 9.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 30,
+            "macros": {
+              "calories": 15.6,
+              "protein": 3.3,
+              "carbs": 0.21,
+              "fat": 0.06,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-lemon",
+            "ingredientId": "ing-lemon-juice",
+            "ingredientName": "lemon juice",
+            "grams": 1.68,
+            "macros": {
+              "calories": 0.37,
+              "protein": 0.01,
+              "carbs": 0.12,
+              "fat": 0,
+              "fiber": 0.01
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 12,
+            "macros": {
+              "calories": 20.04,
+              "protein": 0.48,
+              "carbs": 5.04,
+              "fat": 0.24,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15.6,
+            "macros": {
+              "calories": 56.78,
+              "protein": 1.56,
+              "carbs": 11.86,
+              "fat": 0.16,
+              "fiber": 0.42
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 9.07
+      },
+      "createdAt": "2026-06-19T22:07:00.788Z"
+    },
+    "9ba4861d-6730-43f5-97bc-1dd212a552e3": {
+      "id": "9ba4861d-6730-43f5-97bc-1dd212a552e3",
+      "recipeId": "80bfebf7-6b5b-4cfe-acd3-8a93c2b7e857",
+      "derivesFromVersionId": "dde1b38e-043d-442a-a99c-1758fa37de6a",
+      "name": "Toasted Coconut Protein Cheesecake",
+      "tags": [],
+      "yield": {
+        "amount": 8,
+        "unit": "slices"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "add coconut filling slot",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-coconut-fill",
+              "name": "toasted shredded coconut (filling)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-coconut-shredded"
+              }
+            }
+          }
+        ],
+        "name": "Toasted Coconut Protein Cheesecake"
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Blend the cottage cheese completely smooth (immersion blender or food processor) - no visible curd, or the cheesecake turns grainy."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "instructionText": "Add the eggs and egg white and the cooled pumpkin. Mix just until smooth - do NOT overbeat once eggs are in (air = cracks, and we want a dense set anyway)."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "temperature": 350,
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "instructionText": "Cool: oven off and door cracked 10-20 min, then counter to room temp ~1-1.5 hr (max 2 hr out), then fridge at least 4 hr — overnight is best and gives the densest, firmest set. Best the next day."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-cream-cheese",
+            "name": "light cream cheese",
+            "prepDefault": "softened",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cream-cheese-light"
+            }
+          },
+          {
+            "componentKey": "sl-cottage",
+            "name": "cottage cheese",
+            "prepDefault": "blended smooth",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cottage-cheese"
+            }
+          },
+          {
+            "componentKey": "sl-pumpkin",
+            "name": "pumpkin puree",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pumpkin-puree"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-sweetener",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole eggs",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-lemon",
+            "name": "lemon juice",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-lemon-juice"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "vanilla SF pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-coconut-fill",
+            "name": "toasted shredded coconut (filling)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-coconut-shredded"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 240,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cream-cheese",
+            "stepKey": "s3",
+            "slotKey": "sl-cream-cheese",
+            "quantityValue": 113,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cottage",
+            "stepKey": "s3",
+            "slotKey": "sl-cottage",
+            "quantityValue": 57,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pumpkin",
+            "stepKey": "s1",
+            "slotKey": "sl-pumpkin",
+            "quantityValue": 75,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "s3",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-sweetener",
+            "stepKey": "s3",
+            "slotKey": "sl-sweetener",
+            "quantityValue": 8,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s4",
+            "slotKey": "sl-egg",
+            "quantityValue": 2,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s4",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s3",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-lemon",
+            "stepKey": "s3",
+            "slotKey": "sl-lemon",
+            "quantityValue": 0.33,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1035.5,
+          "protein": 114.19,
+          "carbs": 58.64,
+          "fat": 35.16,
+          "fiber": 5.68
+        },
+        "perServing": {
+          "calories": 129.44,
+          "protein": 14.27,
+          "carbs": 7.33,
+          "fat": 4.4,
+          "fiber": 0.71
+        },
+        "yield": {
+          "amount": 8,
+          "unit": "slices"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 240,
+            "macros": {
+              "calories": 141.6,
+              "protein": 24,
+              "carbs": 8.64,
+              "fat": 0.96,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cream-cheese",
+            "ingredientId": "ing-cream-cheese-light",
+            "ingredientName": "light cream cheese",
+            "grams": 113,
+            "macros": {
+              "calories": 263.29,
+              "protein": 8.48,
+              "carbs": 7.91,
+              "fat": 21.47,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cottage",
+            "ingredientId": "ing-cottage-cheese",
+            "ingredientName": "cottage cheese",
+            "grams": 57,
+            "macros": {
+              "calories": 41.04,
+              "protein": 6.84,
+              "carbs": 1.71,
+              "fat": 0.57,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pumpkin",
+            "ingredientId": "ing-pumpkin-puree",
+            "ingredientName": "pumpkin puree",
+            "grams": 75,
+            "macros": {
+              "calories": 25.5,
+              "protein": 0.83,
+              "carbs": 6,
+              "fat": 0.23,
+              "fiber": 2.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-sweetener",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 11.95,
+            "macros": {
+              "calories": 47.79,
+              "protein": 0,
+              "carbs": 11.95,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 100,
+            "macros": {
+              "calories": 143,
+              "protein": 12.6,
+              "carbs": 0.7,
+              "fat": 9.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 30,
+            "macros": {
+              "calories": 15.6,
+              "protein": 3.3,
+              "carbs": 0.21,
+              "fat": 0.06,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-lemon",
+            "ingredientId": "ing-lemon-juice",
+            "ingredientName": "lemon juice",
+            "grams": 1.68,
+            "macros": {
+              "calories": 0.37,
+              "protein": 0.01,
+              "carbs": 0.12,
+              "fat": 0,
+              "fiber": 0.01
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 12,
+            "macros": {
+              "calories": 20.04,
+              "protein": 0.48,
+              "carbs": 5.04,
+              "fat": 0.24,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15.6,
+            "macros": {
+              "calories": 56.78,
+              "protein": 1.56,
+              "carbs": 11.86,
+              "fat": 0.16,
+              "fiber": 0.42
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 9.07
+      },
+      "createdAt": "2026-06-19T22:07:00.982Z",
+      "prevVersionId": "a4c07e89-e6b1-4b2e-b737-32ea726b8dfe"
+    },
+    "9d52a72f-43f6-4ebd-a859-3df58f76d650": {
+      "id": "9d52a72f-43f6-4ebd-a859-3df58f76d650",
+      "recipeId": "80bfebf7-6b5b-4cfe-acd3-8a93c2b7e857",
+      "derivesFromVersionId": "dde1b38e-043d-442a-a99c-1758fa37de6a",
+      "name": "Toasted Coconut Protein Cheesecake",
+      "tags": [],
+      "yield": {
+        "amount": 8,
+        "unit": "slices"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "coconut in filling: 45g ground, beaten in at step 3",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-coconut-fill",
+              "name": "toasted shredded coconut (filling)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-coconut-shredded"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-coconut-fill",
+              "stepKey": "s3",
+              "slotKey": "sl-coconut-fill",
+              "quantityValue": 45,
+              "quantityUnit": "g"
+            }
+          }
+        ],
+        "name": "Toasted Coconut Protein Cheesecake"
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Blend the cottage cheese completely smooth (immersion blender or food processor) - no visible curd, or the cheesecake turns grainy."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "instructionText": "Add the eggs and egg white and the cooled pumpkin. Mix just until smooth - do NOT overbeat once eggs are in (air = cracks, and we want a dense set anyway)."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "temperature": 350,
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "instructionText": "Cool: oven off and door cracked 10-20 min, then counter to room temp ~1-1.5 hr (max 2 hr out), then fridge at least 4 hr — overnight is best and gives the densest, firmest set. Best the next day."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-cream-cheese",
+            "name": "light cream cheese",
+            "prepDefault": "softened",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cream-cheese-light"
+            }
+          },
+          {
+            "componentKey": "sl-cottage",
+            "name": "cottage cheese",
+            "prepDefault": "blended smooth",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cottage-cheese"
+            }
+          },
+          {
+            "componentKey": "sl-pumpkin",
+            "name": "pumpkin puree",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pumpkin-puree"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-sweetener",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole eggs",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-lemon",
+            "name": "lemon juice",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-lemon-juice"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "vanilla SF pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-coconut-fill",
+            "name": "toasted shredded coconut (filling)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-coconut-shredded"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 240,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cream-cheese",
+            "stepKey": "s3",
+            "slotKey": "sl-cream-cheese",
+            "quantityValue": 113,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cottage",
+            "stepKey": "s3",
+            "slotKey": "sl-cottage",
+            "quantityValue": 57,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pumpkin",
+            "stepKey": "s1",
+            "slotKey": "sl-pumpkin",
+            "quantityValue": 75,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "s3",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-sweetener",
+            "stepKey": "s3",
+            "slotKey": "sl-sweetener",
+            "quantityValue": 8,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s4",
+            "slotKey": "sl-egg",
+            "quantityValue": 2,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s4",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s3",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-lemon",
+            "stepKey": "s3",
+            "slotKey": "sl-lemon",
+            "quantityValue": 0.33,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-coconut-fill",
+            "stepKey": "s3",
+            "slotKey": "sl-coconut-fill",
+            "quantityValue": 45,
+            "quantityUnit": "g"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1332.5,
+          "protein": 117.29,
+          "carbs": 69.44,
+          "fat": 63.96,
+          "fiber": 12.88
+        },
+        "perServing": {
+          "calories": 166.56,
+          "protein": 14.66,
+          "carbs": 8.68,
+          "fat": 8,
+          "fiber": 1.61
+        },
+        "yield": {
+          "amount": 8,
+          "unit": "slices"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 240,
+            "macros": {
+              "calories": 141.6,
+              "protein": 24,
+              "carbs": 8.64,
+              "fat": 0.96,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cream-cheese",
+            "ingredientId": "ing-cream-cheese-light",
+            "ingredientName": "light cream cheese",
+            "grams": 113,
+            "macros": {
+              "calories": 263.29,
+              "protein": 8.48,
+              "carbs": 7.91,
+              "fat": 21.47,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cottage",
+            "ingredientId": "ing-cottage-cheese",
+            "ingredientName": "cottage cheese",
+            "grams": 57,
+            "macros": {
+              "calories": 41.04,
+              "protein": 6.84,
+              "carbs": 1.71,
+              "fat": 0.57,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pumpkin",
+            "ingredientId": "ing-pumpkin-puree",
+            "ingredientName": "pumpkin puree",
+            "grams": 75,
+            "macros": {
+              "calories": 25.5,
+              "protein": 0.83,
+              "carbs": 6,
+              "fat": 0.23,
+              "fiber": 2.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-sweetener",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 11.95,
+            "macros": {
+              "calories": 47.79,
+              "protein": 0,
+              "carbs": 11.95,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 100,
+            "macros": {
+              "calories": 143,
+              "protein": 12.6,
+              "carbs": 0.7,
+              "fat": 9.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 30,
+            "macros": {
+              "calories": 15.6,
+              "protein": 3.3,
+              "carbs": 0.21,
+              "fat": 0.06,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-lemon",
+            "ingredientId": "ing-lemon-juice",
+            "ingredientName": "lemon juice",
+            "grams": 1.68,
+            "macros": {
+              "calories": 0.37,
+              "protein": 0.01,
+              "carbs": 0.12,
+              "fat": 0,
+              "fiber": 0.01
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 12,
+            "macros": {
+              "calories": 20.04,
+              "protein": 0.48,
+              "carbs": 5.04,
+              "fat": 0.24,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15.6,
+            "macros": {
+              "calories": 56.78,
+              "protein": 1.56,
+              "carbs": 11.86,
+              "fat": 0.16,
+              "fiber": 0.42
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-coconut-fill",
+            "ingredientId": "ing-coconut-shredded",
+            "ingredientName": "unsweetened shredded coconut",
+            "grams": 45,
+            "macros": {
+              "calories": 297,
+              "protein": 3.11,
+              "carbs": 10.8,
+              "fat": 28.8,
+              "fiber": 7.2
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 11.36
+      },
+      "createdAt": "2026-06-19T22:07:01.169Z",
+      "prevVersionId": "9ba4861d-6730-43f5-97bc-1dd212a552e3"
+    },
+    "954e0bcb-742c-45c5-9d06-1a7b1e980b35": {
+      "id": "954e0bcb-742c-45c5-9d06-1a7b1e980b35",
+      "recipeId": "80bfebf7-6b5b-4cfe-acd3-8a93c2b7e857",
+      "derivesFromVersionId": "dde1b38e-043d-442a-a99c-1758fa37de6a",
+      "name": "Toasted Coconut Protein Cheesecake",
+      "tags": [],
+      "yield": {
+        "amount": 8,
+        "unit": "slices"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "add coconut topping slot",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-coconut-fill",
+              "name": "toasted shredded coconut (filling)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-coconut-shredded"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-coconut-fill",
+              "stepKey": "s3",
+              "slotKey": "sl-coconut-fill",
+              "quantityValue": 45,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-coconut-top",
+              "name": "toasted shredded coconut (topping)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-coconut-shredded"
+              }
+            }
+          }
+        ],
+        "name": "Toasted Coconut Protein Cheesecake"
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Blend the cottage cheese completely smooth (immersion blender or food processor) - no visible curd, or the cheesecake turns grainy."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "instructionText": "Add the eggs and egg white and the cooled pumpkin. Mix just until smooth - do NOT overbeat once eggs are in (air = cracks, and we want a dense set anyway)."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "temperature": 350,
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "instructionText": "Cool: oven off and door cracked 10-20 min, then counter to room temp ~1-1.5 hr (max 2 hr out), then fridge at least 4 hr — overnight is best and gives the densest, firmest set. Best the next day."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-cream-cheese",
+            "name": "light cream cheese",
+            "prepDefault": "softened",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cream-cheese-light"
+            }
+          },
+          {
+            "componentKey": "sl-cottage",
+            "name": "cottage cheese",
+            "prepDefault": "blended smooth",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cottage-cheese"
+            }
+          },
+          {
+            "componentKey": "sl-pumpkin",
+            "name": "pumpkin puree",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pumpkin-puree"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-sweetener",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole eggs",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-lemon",
+            "name": "lemon juice",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-lemon-juice"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "vanilla SF pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-coconut-fill",
+            "name": "toasted shredded coconut (filling)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-coconut-shredded"
+            }
+          },
+          {
+            "componentKey": "sl-coconut-top",
+            "name": "toasted shredded coconut (topping)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-coconut-shredded"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 240,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cream-cheese",
+            "stepKey": "s3",
+            "slotKey": "sl-cream-cheese",
+            "quantityValue": 113,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cottage",
+            "stepKey": "s3",
+            "slotKey": "sl-cottage",
+            "quantityValue": 57,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pumpkin",
+            "stepKey": "s1",
+            "slotKey": "sl-pumpkin",
+            "quantityValue": 75,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "s3",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-sweetener",
+            "stepKey": "s3",
+            "slotKey": "sl-sweetener",
+            "quantityValue": 8,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s4",
+            "slotKey": "sl-egg",
+            "quantityValue": 2,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s4",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s3",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-lemon",
+            "stepKey": "s3",
+            "slotKey": "sl-lemon",
+            "quantityValue": 0.33,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-coconut-fill",
+            "stepKey": "s3",
+            "slotKey": "sl-coconut-fill",
+            "quantityValue": 45,
+            "quantityUnit": "g"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1332.5,
+          "protein": 117.29,
+          "carbs": 69.44,
+          "fat": 63.96,
+          "fiber": 12.88
+        },
+        "perServing": {
+          "calories": 166.56,
+          "protein": 14.66,
+          "carbs": 8.68,
+          "fat": 8,
+          "fiber": 1.61
+        },
+        "yield": {
+          "amount": 8,
+          "unit": "slices"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 240,
+            "macros": {
+              "calories": 141.6,
+              "protein": 24,
+              "carbs": 8.64,
+              "fat": 0.96,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cream-cheese",
+            "ingredientId": "ing-cream-cheese-light",
+            "ingredientName": "light cream cheese",
+            "grams": 113,
+            "macros": {
+              "calories": 263.29,
+              "protein": 8.48,
+              "carbs": 7.91,
+              "fat": 21.47,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cottage",
+            "ingredientId": "ing-cottage-cheese",
+            "ingredientName": "cottage cheese",
+            "grams": 57,
+            "macros": {
+              "calories": 41.04,
+              "protein": 6.84,
+              "carbs": 1.71,
+              "fat": 0.57,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pumpkin",
+            "ingredientId": "ing-pumpkin-puree",
+            "ingredientName": "pumpkin puree",
+            "grams": 75,
+            "macros": {
+              "calories": 25.5,
+              "protein": 0.83,
+              "carbs": 6,
+              "fat": 0.23,
+              "fiber": 2.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-sweetener",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 11.95,
+            "macros": {
+              "calories": 47.79,
+              "protein": 0,
+              "carbs": 11.95,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 100,
+            "macros": {
+              "calories": 143,
+              "protein": 12.6,
+              "carbs": 0.7,
+              "fat": 9.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 30,
+            "macros": {
+              "calories": 15.6,
+              "protein": 3.3,
+              "carbs": 0.21,
+              "fat": 0.06,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-lemon",
+            "ingredientId": "ing-lemon-juice",
+            "ingredientName": "lemon juice",
+            "grams": 1.68,
+            "macros": {
+              "calories": 0.37,
+              "protein": 0.01,
+              "carbs": 0.12,
+              "fat": 0,
+              "fiber": 0.01
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 12,
+            "macros": {
+              "calories": 20.04,
+              "protein": 0.48,
+              "carbs": 5.04,
+              "fat": 0.24,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15.6,
+            "macros": {
+              "calories": 56.78,
+              "protein": 1.56,
+              "carbs": 11.86,
+              "fat": 0.16,
+              "fiber": 0.42
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-coconut-fill",
+            "ingredientId": "ing-coconut-shredded",
+            "ingredientName": "unsweetened shredded coconut",
+            "grams": 45,
+            "macros": {
+              "calories": 297,
+              "protein": 3.11,
+              "carbs": 10.8,
+              "fat": 28.8,
+              "fiber": 7.2
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 11.36
+      },
+      "createdAt": "2026-06-19T22:07:01.359Z",
+      "prevVersionId": "9d52a72f-43f6-4ebd-a859-3df58f76d650"
+    },
+    "2d219447-8c44-4b9a-a4ff-f38918af0fc4": {
+      "id": "2d219447-8c44-4b9a-a4ff-f38918af0fc4",
+      "recipeId": "80bfebf7-6b5b-4cfe-acd3-8a93c2b7e857",
+      "derivesFromVersionId": "dde1b38e-043d-442a-a99c-1758fa37de6a",
+      "name": "Toasted Coconut Protein Cheesecake",
+      "tags": [],
+      "yield": {
+        "amount": 8,
+        "unit": "slices"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "add toast + grind prep step",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-coconut-fill",
+              "name": "toasted shredded coconut (filling)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-coconut-shredded"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-coconut-fill",
+              "stepKey": "s3",
+              "slotKey": "sl-coconut-fill",
+              "quantityValue": 45,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-coconut-top",
+              "name": "toasted shredded coconut (topping)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-coconut-shredded"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s-toast",
+              "order": 0,
+              "instructionText": "Toast 65 g shredded coconut in a dry skillet over medium heat, 3-5 min, stirring, until golden and fragrant (it colors fast then burns - watch it). Cool. Grind 45 g to a fine meal (spice grinder or food processor) and beat it into the filling with the wet ingredients in step 3 so the coconut disperses throughout; reserve the other 20 g for the topping."
+            }
+          }
+        ],
+        "name": "Toasted Coconut Protein Cheesecake"
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Blend the cottage cheese completely smooth (immersion blender or food processor) - no visible curd, or the cheesecake turns grainy."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "instructionText": "Add the eggs and egg white and the cooled pumpkin. Mix just until smooth - do NOT overbeat once eggs are in (air = cracks, and we want a dense set anyway)."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "temperature": 350,
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "instructionText": "Cool: oven off and door cracked 10-20 min, then counter to room temp ~1-1.5 hr (max 2 hr out), then fridge at least 4 hr — overnight is best and gives the densest, firmest set. Best the next day."
+          },
+          {
+            "componentKey": "s-toast",
+            "order": 0,
+            "instructionText": "Toast 65 g shredded coconut in a dry skillet over medium heat, 3-5 min, stirring, until golden and fragrant (it colors fast then burns - watch it). Cool. Grind 45 g to a fine meal (spice grinder or food processor) and beat it into the filling with the wet ingredients in step 3 so the coconut disperses throughout; reserve the other 20 g for the topping."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-cream-cheese",
+            "name": "light cream cheese",
+            "prepDefault": "softened",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cream-cheese-light"
+            }
+          },
+          {
+            "componentKey": "sl-cottage",
+            "name": "cottage cheese",
+            "prepDefault": "blended smooth",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cottage-cheese"
+            }
+          },
+          {
+            "componentKey": "sl-pumpkin",
+            "name": "pumpkin puree",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pumpkin-puree"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-sweetener",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole eggs",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-lemon",
+            "name": "lemon juice",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-lemon-juice"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "vanilla SF pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-coconut-fill",
+            "name": "toasted shredded coconut (filling)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-coconut-shredded"
+            }
+          },
+          {
+            "componentKey": "sl-coconut-top",
+            "name": "toasted shredded coconut (topping)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-coconut-shredded"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 240,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cream-cheese",
+            "stepKey": "s3",
+            "slotKey": "sl-cream-cheese",
+            "quantityValue": 113,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cottage",
+            "stepKey": "s3",
+            "slotKey": "sl-cottage",
+            "quantityValue": 57,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pumpkin",
+            "stepKey": "s1",
+            "slotKey": "sl-pumpkin",
+            "quantityValue": 75,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "s3",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-sweetener",
+            "stepKey": "s3",
+            "slotKey": "sl-sweetener",
+            "quantityValue": 8,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s4",
+            "slotKey": "sl-egg",
+            "quantityValue": 2,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s4",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s3",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-lemon",
+            "stepKey": "s3",
+            "slotKey": "sl-lemon",
+            "quantityValue": 0.33,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-coconut-fill",
+            "stepKey": "s3",
+            "slotKey": "sl-coconut-fill",
+            "quantityValue": 45,
+            "quantityUnit": "g"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1332.5,
+          "protein": 117.29,
+          "carbs": 69.44,
+          "fat": 63.96,
+          "fiber": 12.88
+        },
+        "perServing": {
+          "calories": 166.56,
+          "protein": 14.66,
+          "carbs": 8.68,
+          "fat": 8,
+          "fiber": 1.61
+        },
+        "yield": {
+          "amount": 8,
+          "unit": "slices"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 240,
+            "macros": {
+              "calories": 141.6,
+              "protein": 24,
+              "carbs": 8.64,
+              "fat": 0.96,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cream-cheese",
+            "ingredientId": "ing-cream-cheese-light",
+            "ingredientName": "light cream cheese",
+            "grams": 113,
+            "macros": {
+              "calories": 263.29,
+              "protein": 8.48,
+              "carbs": 7.91,
+              "fat": 21.47,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cottage",
+            "ingredientId": "ing-cottage-cheese",
+            "ingredientName": "cottage cheese",
+            "grams": 57,
+            "macros": {
+              "calories": 41.04,
+              "protein": 6.84,
+              "carbs": 1.71,
+              "fat": 0.57,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pumpkin",
+            "ingredientId": "ing-pumpkin-puree",
+            "ingredientName": "pumpkin puree",
+            "grams": 75,
+            "macros": {
+              "calories": 25.5,
+              "protein": 0.83,
+              "carbs": 6,
+              "fat": 0.23,
+              "fiber": 2.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-sweetener",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 11.95,
+            "macros": {
+              "calories": 47.79,
+              "protein": 0,
+              "carbs": 11.95,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 100,
+            "macros": {
+              "calories": 143,
+              "protein": 12.6,
+              "carbs": 0.7,
+              "fat": 9.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 30,
+            "macros": {
+              "calories": 15.6,
+              "protein": 3.3,
+              "carbs": 0.21,
+              "fat": 0.06,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-lemon",
+            "ingredientId": "ing-lemon-juice",
+            "ingredientName": "lemon juice",
+            "grams": 1.68,
+            "macros": {
+              "calories": 0.37,
+              "protein": 0.01,
+              "carbs": 0.12,
+              "fat": 0,
+              "fiber": 0.01
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 12,
+            "macros": {
+              "calories": 20.04,
+              "protein": 0.48,
+              "carbs": 5.04,
+              "fat": 0.24,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15.6,
+            "macros": {
+              "calories": 56.78,
+              "protein": 1.56,
+              "carbs": 11.86,
+              "fat": 0.16,
+              "fiber": 0.42
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-coconut-fill",
+            "ingredientId": "ing-coconut-shredded",
+            "ingredientName": "unsweetened shredded coconut",
+            "grams": 45,
+            "macros": {
+              "calories": 297,
+              "protein": 3.11,
+              "carbs": 10.8,
+              "fat": 28.8,
+              "fiber": 7.2
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 11.36
+      },
+      "createdAt": "2026-06-19T22:07:01.554Z",
+      "prevVersionId": "954e0bcb-742c-45c5-9d06-1a7b1e980b35"
+    },
+    "ad49a558-6913-4228-a48e-aa8e6828d095": {
+      "id": "ad49a558-6913-4228-a48e-aa8e6828d095",
+      "recipeId": "80bfebf7-6b5b-4cfe-acd3-8a93c2b7e857",
+      "derivesFromVersionId": "dde1b38e-043d-442a-a99c-1758fa37de6a",
+      "name": "Toasted Coconut Protein Cheesecake",
+      "tags": [],
+      "yield": {
+        "amount": 8,
+        "unit": "slices"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "add toasted-coconut topping step",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-coconut-fill",
+              "name": "toasted shredded coconut (filling)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-coconut-shredded"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-coconut-fill",
+              "stepKey": "s3",
+              "slotKey": "sl-coconut-fill",
+              "quantityValue": 45,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-coconut-top",
+              "name": "toasted shredded coconut (topping)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-coconut-shredded"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s-toast",
+              "order": 0,
+              "instructionText": "Toast 65 g shredded coconut in a dry skillet over medium heat, 3-5 min, stirring, until golden and fragrant (it colors fast then burns - watch it). Cool. Grind 45 g to a fine meal (spice grinder or food processor) and beat it into the filling with the wet ingredients in step 3 so the coconut disperses throughout; reserve the other 20 g for the topping."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s-top",
+              "order": 8,
+              "instructionText": "Once the cheesecake is fully chilled, scatter the reserved 20 g toasted coconut evenly over the top just before serving (keeps it crisp)."
+            }
+          }
+        ],
+        "name": "Toasted Coconut Protein Cheesecake"
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Blend the cottage cheese completely smooth (immersion blender or food processor) - no visible curd, or the cheesecake turns grainy."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "instructionText": "Add the eggs and egg white and the cooled pumpkin. Mix just until smooth - do NOT overbeat once eggs are in (air = cracks, and we want a dense set anyway)."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "temperature": 350,
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "instructionText": "Cool: oven off and door cracked 10-20 min, then counter to room temp ~1-1.5 hr (max 2 hr out), then fridge at least 4 hr — overnight is best and gives the densest, firmest set. Best the next day."
+          },
+          {
+            "componentKey": "s-toast",
+            "order": 0,
+            "instructionText": "Toast 65 g shredded coconut in a dry skillet over medium heat, 3-5 min, stirring, until golden and fragrant (it colors fast then burns - watch it). Cool. Grind 45 g to a fine meal (spice grinder or food processor) and beat it into the filling with the wet ingredients in step 3 so the coconut disperses throughout; reserve the other 20 g for the topping."
+          },
+          {
+            "componentKey": "s-top",
+            "order": 8,
+            "instructionText": "Once the cheesecake is fully chilled, scatter the reserved 20 g toasted coconut evenly over the top just before serving (keeps it crisp)."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-cream-cheese",
+            "name": "light cream cheese",
+            "prepDefault": "softened",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cream-cheese-light"
+            }
+          },
+          {
+            "componentKey": "sl-cottage",
+            "name": "cottage cheese",
+            "prepDefault": "blended smooth",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cottage-cheese"
+            }
+          },
+          {
+            "componentKey": "sl-pumpkin",
+            "name": "pumpkin puree",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pumpkin-puree"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-sweetener",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole eggs",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-lemon",
+            "name": "lemon juice",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-lemon-juice"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "vanilla SF pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-coconut-fill",
+            "name": "toasted shredded coconut (filling)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-coconut-shredded"
+            }
+          },
+          {
+            "componentKey": "sl-coconut-top",
+            "name": "toasted shredded coconut (topping)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-coconut-shredded"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 240,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cream-cheese",
+            "stepKey": "s3",
+            "slotKey": "sl-cream-cheese",
+            "quantityValue": 113,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cottage",
+            "stepKey": "s3",
+            "slotKey": "sl-cottage",
+            "quantityValue": 57,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pumpkin",
+            "stepKey": "s1",
+            "slotKey": "sl-pumpkin",
+            "quantityValue": 75,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "s3",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-sweetener",
+            "stepKey": "s3",
+            "slotKey": "sl-sweetener",
+            "quantityValue": 8,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s4",
+            "slotKey": "sl-egg",
+            "quantityValue": 2,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s4",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s3",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-lemon",
+            "stepKey": "s3",
+            "slotKey": "sl-lemon",
+            "quantityValue": 0.33,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-coconut-fill",
+            "stepKey": "s3",
+            "slotKey": "sl-coconut-fill",
+            "quantityValue": 45,
+            "quantityUnit": "g"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1332.5,
+          "protein": 117.29,
+          "carbs": 69.44,
+          "fat": 63.96,
+          "fiber": 12.88
+        },
+        "perServing": {
+          "calories": 166.56,
+          "protein": 14.66,
+          "carbs": 8.68,
+          "fat": 8,
+          "fiber": 1.61
+        },
+        "yield": {
+          "amount": 8,
+          "unit": "slices"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 240,
+            "macros": {
+              "calories": 141.6,
+              "protein": 24,
+              "carbs": 8.64,
+              "fat": 0.96,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cream-cheese",
+            "ingredientId": "ing-cream-cheese-light",
+            "ingredientName": "light cream cheese",
+            "grams": 113,
+            "macros": {
+              "calories": 263.29,
+              "protein": 8.48,
+              "carbs": 7.91,
+              "fat": 21.47,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cottage",
+            "ingredientId": "ing-cottage-cheese",
+            "ingredientName": "cottage cheese",
+            "grams": 57,
+            "macros": {
+              "calories": 41.04,
+              "protein": 6.84,
+              "carbs": 1.71,
+              "fat": 0.57,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pumpkin",
+            "ingredientId": "ing-pumpkin-puree",
+            "ingredientName": "pumpkin puree",
+            "grams": 75,
+            "macros": {
+              "calories": 25.5,
+              "protein": 0.83,
+              "carbs": 6,
+              "fat": 0.23,
+              "fiber": 2.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-sweetener",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 11.95,
+            "macros": {
+              "calories": 47.79,
+              "protein": 0,
+              "carbs": 11.95,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 100,
+            "macros": {
+              "calories": 143,
+              "protein": 12.6,
+              "carbs": 0.7,
+              "fat": 9.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 30,
+            "macros": {
+              "calories": 15.6,
+              "protein": 3.3,
+              "carbs": 0.21,
+              "fat": 0.06,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-lemon",
+            "ingredientId": "ing-lemon-juice",
+            "ingredientName": "lemon juice",
+            "grams": 1.68,
+            "macros": {
+              "calories": 0.37,
+              "protein": 0.01,
+              "carbs": 0.12,
+              "fat": 0,
+              "fiber": 0.01
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 12,
+            "macros": {
+              "calories": 20.04,
+              "protein": 0.48,
+              "carbs": 5.04,
+              "fat": 0.24,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15.6,
+            "macros": {
+              "calories": 56.78,
+              "protein": 1.56,
+              "carbs": 11.86,
+              "fat": 0.16,
+              "fiber": 0.42
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-coconut-fill",
+            "ingredientId": "ing-coconut-shredded",
+            "ingredientName": "unsweetened shredded coconut",
+            "grams": 45,
+            "macros": {
+              "calories": 297,
+              "protein": 3.11,
+              "carbs": 10.8,
+              "fat": 28.8,
+              "fiber": 7.2
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 11.36
+      },
+      "createdAt": "2026-06-19T22:07:01.742Z",
+      "prevVersionId": "2d219447-8c44-4b9a-a4ff-f38918af0fc4"
+    },
+    "646ae08c-fb40-4c3f-9369-f54a92b4f913": {
+      "id": "646ae08c-fb40-4c3f-9369-f54a92b4f913",
+      "recipeId": "80bfebf7-6b5b-4cfe-acd3-8a93c2b7e857",
+      "derivesFromVersionId": "dde1b38e-043d-442a-a99c-1758fa37de6a",
+      "name": "Toasted Coconut Protein Cheesecake",
+      "tags": [],
+      "yield": {
+        "amount": 8,
+        "unit": "slices"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "topping: 20g toasted coconut",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-coconut-fill",
+              "name": "toasted shredded coconut (filling)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-coconut-shredded"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-coconut-fill",
+              "stepKey": "s3",
+              "slotKey": "sl-coconut-fill",
+              "quantityValue": 45,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-coconut-top",
+              "name": "toasted shredded coconut (topping)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-coconut-shredded"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s-toast",
+              "order": 0,
+              "instructionText": "Toast 65 g shredded coconut in a dry skillet over medium heat, 3-5 min, stirring, until golden and fragrant (it colors fast then burns - watch it). Cool. Grind 45 g to a fine meal (spice grinder or food processor) and beat it into the filling with the wet ingredients in step 3 so the coconut disperses throughout; reserve the other 20 g for the topping."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s-top",
+              "order": 8,
+              "instructionText": "Once the cheesecake is fully chilled, scatter the reserved 20 g toasted coconut evenly over the top just before serving (keeps it crisp)."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-coconut-top",
+              "stepKey": "s-top",
+              "slotKey": "sl-coconut-top",
+              "quantityValue": 20,
+              "quantityUnit": "g"
+            }
+          }
+        ],
+        "name": "Toasted Coconut Protein Cheesecake"
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Blend the cottage cheese completely smooth (immersion blender or food processor) - no visible curd, or the cheesecake turns grainy."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "instructionText": "Add the eggs and egg white and the cooled pumpkin. Mix just until smooth - do NOT overbeat once eggs are in (air = cracks, and we want a dense set anyway)."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "temperature": 350,
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "instructionText": "Cool: oven off and door cracked 10-20 min, then counter to room temp ~1-1.5 hr (max 2 hr out), then fridge at least 4 hr — overnight is best and gives the densest, firmest set. Best the next day."
+          },
+          {
+            "componentKey": "s-toast",
+            "order": 0,
+            "instructionText": "Toast 65 g shredded coconut in a dry skillet over medium heat, 3-5 min, stirring, until golden and fragrant (it colors fast then burns - watch it). Cool. Grind 45 g to a fine meal (spice grinder or food processor) and beat it into the filling with the wet ingredients in step 3 so the coconut disperses throughout; reserve the other 20 g for the topping."
+          },
+          {
+            "componentKey": "s-top",
+            "order": 8,
+            "instructionText": "Once the cheesecake is fully chilled, scatter the reserved 20 g toasted coconut evenly over the top just before serving (keeps it crisp)."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-cream-cheese",
+            "name": "light cream cheese",
+            "prepDefault": "softened",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cream-cheese-light"
+            }
+          },
+          {
+            "componentKey": "sl-cottage",
+            "name": "cottage cheese",
+            "prepDefault": "blended smooth",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cottage-cheese"
+            }
+          },
+          {
+            "componentKey": "sl-pumpkin",
+            "name": "pumpkin puree",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pumpkin-puree"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-sweetener",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole eggs",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-lemon",
+            "name": "lemon juice",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-lemon-juice"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "vanilla SF pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-coconut-fill",
+            "name": "toasted shredded coconut (filling)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-coconut-shredded"
+            }
+          },
+          {
+            "componentKey": "sl-coconut-top",
+            "name": "toasted shredded coconut (topping)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-coconut-shredded"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 240,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cream-cheese",
+            "stepKey": "s3",
+            "slotKey": "sl-cream-cheese",
+            "quantityValue": 113,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cottage",
+            "stepKey": "s3",
+            "slotKey": "sl-cottage",
+            "quantityValue": 57,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pumpkin",
+            "stepKey": "s1",
+            "slotKey": "sl-pumpkin",
+            "quantityValue": 75,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "s3",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-sweetener",
+            "stepKey": "s3",
+            "slotKey": "sl-sweetener",
+            "quantityValue": 8,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s4",
+            "slotKey": "sl-egg",
+            "quantityValue": 2,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s4",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s3",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-lemon",
+            "stepKey": "s3",
+            "slotKey": "sl-lemon",
+            "quantityValue": 0.33,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-coconut-fill",
+            "stepKey": "s3",
+            "slotKey": "sl-coconut-fill",
+            "quantityValue": 45,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-coconut-top",
+            "stepKey": "s-top",
+            "slotKey": "sl-coconut-top",
+            "quantityValue": 20,
+            "quantityUnit": "g"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1464.5,
+          "protein": 118.67,
+          "carbs": 74.24,
+          "fat": 76.76,
+          "fiber": 16.08
+        },
+        "perServing": {
+          "calories": 183.06,
+          "protein": 14.83,
+          "carbs": 9.28,
+          "fat": 9.6,
+          "fiber": 2.01
+        },
+        "yield": {
+          "amount": 8,
+          "unit": "slices"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 240,
+            "macros": {
+              "calories": 141.6,
+              "protein": 24,
+              "carbs": 8.64,
+              "fat": 0.96,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cream-cheese",
+            "ingredientId": "ing-cream-cheese-light",
+            "ingredientName": "light cream cheese",
+            "grams": 113,
+            "macros": {
+              "calories": 263.29,
+              "protein": 8.48,
+              "carbs": 7.91,
+              "fat": 21.47,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cottage",
+            "ingredientId": "ing-cottage-cheese",
+            "ingredientName": "cottage cheese",
+            "grams": 57,
+            "macros": {
+              "calories": 41.04,
+              "protein": 6.84,
+              "carbs": 1.71,
+              "fat": 0.57,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pumpkin",
+            "ingredientId": "ing-pumpkin-puree",
+            "ingredientName": "pumpkin puree",
+            "grams": 75,
+            "macros": {
+              "calories": 25.5,
+              "protein": 0.83,
+              "carbs": 6,
+              "fat": 0.23,
+              "fiber": 2.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-sweetener",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 11.95,
+            "macros": {
+              "calories": 47.79,
+              "protein": 0,
+              "carbs": 11.95,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 100,
+            "macros": {
+              "calories": 143,
+              "protein": 12.6,
+              "carbs": 0.7,
+              "fat": 9.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 30,
+            "macros": {
+              "calories": 15.6,
+              "protein": 3.3,
+              "carbs": 0.21,
+              "fat": 0.06,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-lemon",
+            "ingredientId": "ing-lemon-juice",
+            "ingredientName": "lemon juice",
+            "grams": 1.68,
+            "macros": {
+              "calories": 0.37,
+              "protein": 0.01,
+              "carbs": 0.12,
+              "fat": 0,
+              "fiber": 0.01
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 12,
+            "macros": {
+              "calories": 20.04,
+              "protein": 0.48,
+              "carbs": 5.04,
+              "fat": 0.24,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15.6,
+            "macros": {
+              "calories": 56.78,
+              "protein": 1.56,
+              "carbs": 11.86,
+              "fat": 0.16,
+              "fiber": 0.42
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-coconut-fill",
+            "ingredientId": "ing-coconut-shredded",
+            "ingredientName": "unsweetened shredded coconut",
+            "grams": 45,
+            "macros": {
+              "calories": 297,
+              "protein": 3.11,
+              "carbs": 10.8,
+              "fat": 28.8,
+              "fiber": 7.2
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-coconut-top",
+            "ingredientId": "ing-coconut-shredded",
+            "ingredientName": "unsweetened shredded coconut",
+            "grams": 20,
+            "macros": {
+              "calories": 132,
+              "protein": 1.38,
+              "carbs": 4.8,
+              "fat": 12.8,
+              "fiber": 3.2
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 12.34
+      },
+      "createdAt": "2026-06-19T22:07:01.930Z",
+      "prevVersionId": "ad49a558-6913-4228-a48e-aa8e6828d095"
+    },
+    "ccffdad4-6a73-4dd1-a2aa-4a43e8d7655a": {
+      "id": "ccffdad4-6a73-4dd1-a2aa-4a43e8d7655a",
+      "recipeId": "80bfebf7-6b5b-4cfe-acd3-8a93c2b7e857",
+      "derivesFromVersionId": "dde1b38e-043d-442a-a99c-1758fa37de6a",
+      "name": "Toasted Coconut Protein Cheesecake",
+      "tags": [
+        "cheesecake",
+        "protein",
+        "coconut"
+      ],
+      "yield": {
+        "amount": 8,
+        "unit": "slices"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "describe + tag coconut variant",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-coconut-fill",
+              "name": "toasted shredded coconut (filling)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-coconut-shredded"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-coconut-fill",
+              "stepKey": "s3",
+              "slotKey": "sl-coconut-fill",
+              "quantityValue": 45,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-coconut-top",
+              "name": "toasted shredded coconut (topping)",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-coconut-shredded"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s-toast",
+              "order": 0,
+              "instructionText": "Toast 65 g shredded coconut in a dry skillet over medium heat, 3-5 min, stirring, until golden and fragrant (it colors fast then burns - watch it). Cool. Grind 45 g to a fine meal (spice grinder or food processor) and beat it into the filling with the wet ingredients in step 3 so the coconut disperses throughout; reserve the other 20 g for the topping."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "step",
+            "payload": {
+              "componentKey": "s-top",
+              "order": 8,
+              "instructionText": "Once the cheesecake is fully chilled, scatter the reserved 20 g toasted coconut evenly over the top just before serving (keeps it crisp)."
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-coconut-top",
+              "stepKey": "s-top",
+              "slotKey": "sl-coconut-top",
+              "quantityValue": 20,
+              "quantityUnit": "g"
+            }
+          }
+        ],
+        "name": "Toasted Coconut Protein Cheesecake",
+        "tags": [
+          "cheesecake",
+          "protein",
+          "coconut"
+        ]
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Blend the cottage cheese completely smooth (immersion blender or food processor) - no visible curd, or the cheesecake turns grainy."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "instructionText": "Add the eggs and egg white and the cooled pumpkin. Mix just until smooth - do NOT overbeat once eggs are in (air = cracks, and we want a dense set anyway)."
+          },
+          {
+            "componentKey": "s5",
+            "order": 5,
+            "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles."
+          },
+          {
+            "componentKey": "s6",
+            "order": 6,
+            "temperature": 350,
+            "instructionText": "Bake at 325F for ~45 min (or 350F for ~35-40 min if you want it faster) — NO water bath; a dry bake sets it denser. Pull when the center is just set with only a slight wobble (~155-160F center), not visibly jiggly. It firms further as it cools — do not chase a fully dry center, that is where a lean cheesecake turns rubbery."
+          },
+          {
+            "componentKey": "s7",
+            "order": 7,
+            "instructionText": "Cool: oven off and door cracked 10-20 min, then counter to room temp ~1-1.5 hr (max 2 hr out), then fridge at least 4 hr — overnight is best and gives the densest, firmest set. Best the next day."
+          },
+          {
+            "componentKey": "s-toast",
+            "order": 0,
+            "instructionText": "Toast 65 g shredded coconut in a dry skillet over medium heat, 3-5 min, stirring, until golden and fragrant (it colors fast then burns - watch it). Cool. Grind 45 g to a fine meal (spice grinder or food processor) and beat it into the filling with the wet ingredients in step 3 so the coconut disperses throughout; reserve the other 20 g for the topping."
+          },
+          {
+            "componentKey": "s-top",
+            "order": 8,
+            "instructionText": "Once the cheesecake is fully chilled, scatter the reserved 20 g toasted coconut evenly over the top just before serving (keeps it crisp)."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-cream-cheese",
+            "name": "light cream cheese",
+            "prepDefault": "softened",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cream-cheese-light"
+            }
+          },
+          {
+            "componentKey": "sl-cottage",
+            "name": "cottage cheese",
+            "prepDefault": "blended smooth",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cottage-cheese"
+            }
+          },
+          {
+            "componentKey": "sl-pumpkin",
+            "name": "pumpkin puree",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pumpkin-puree"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-sweetener",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole eggs",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-lemon",
+            "name": "lemon juice",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-lemon-juice"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "vanilla SF pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-coconut-fill",
+            "name": "toasted shredded coconut (filling)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-coconut-shredded"
+            }
+          },
+          {
+            "componentKey": "sl-coconut-top",
+            "name": "toasted shredded coconut (topping)",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-coconut-shredded"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 240,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cream-cheese",
+            "stepKey": "s3",
+            "slotKey": "sl-cream-cheese",
+            "quantityValue": 113,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cottage",
+            "stepKey": "s3",
+            "slotKey": "sl-cottage",
+            "quantityValue": 57,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pumpkin",
+            "stepKey": "s1",
+            "slotKey": "sl-pumpkin",
+            "quantityValue": 75,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "s3",
+            "slotKey": "sl-protein",
+            "quantityValue": 2,
+            "quantityUnit": "scoop"
+          },
+          {
+            "componentKey": "u-sweetener",
+            "stepKey": "s3",
+            "slotKey": "sl-sweetener",
+            "quantityValue": 8,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s4",
+            "slotKey": "sl-egg",
+            "quantityValue": 2,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "s4",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "s3",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-lemon",
+            "stepKey": "s3",
+            "slotKey": "sl-lemon",
+            "quantityValue": 0.33,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "s3",
+            "slotKey": "sl-pudding",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s3",
+            "slotKey": "sl-flour",
+            "quantityValue": 2,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-coconut-fill",
+            "stepKey": "s3",
+            "slotKey": "sl-coconut-fill",
+            "quantityValue": 45,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-coconut-top",
+            "stepKey": "s-top",
+            "slotKey": "sl-coconut-top",
+            "quantityValue": 20,
+            "quantityUnit": "g"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 1464.5,
+          "protein": 118.67,
+          "carbs": 74.24,
+          "fat": 76.76,
+          "fiber": 16.08
+        },
+        "perServing": {
+          "calories": 183.06,
+          "protein": 14.83,
+          "carbs": 9.28,
+          "fat": 9.6,
+          "fiber": 2.01
+        },
+        "yield": {
+          "amount": 8,
+          "unit": "slices"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 240,
+            "macros": {
+              "calories": 141.6,
+              "protein": 24,
+              "carbs": 8.64,
+              "fat": 0.96,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cream-cheese",
+            "ingredientId": "ing-cream-cheese-light",
+            "ingredientName": "light cream cheese",
+            "grams": 113,
+            "macros": {
+              "calories": 263.29,
+              "protein": 8.48,
+              "carbs": 7.91,
+              "fat": 21.47,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cottage",
+            "ingredientId": "ing-cottage-cheese",
+            "ingredientName": "cottage cheese",
+            "grams": 57,
+            "macros": {
+              "calories": 41.04,
+              "protein": 6.84,
+              "carbs": 1.71,
+              "fat": 0.57,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pumpkin",
+            "ingredientId": "ing-pumpkin-puree",
+            "ingredientName": "pumpkin puree",
+            "grams": 75,
+            "macros": {
+              "calories": 25.5,
+              "protein": 0.83,
+              "carbs": 6,
+              "fat": 0.23,
+              "fiber": 2.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 66,
+            "macros": {
+              "calories": 268,
+              "protein": 56.1,
+              "carbs": 3.96,
+              "fat": 1.98,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-sweetener",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 11.95,
+            "macros": {
+              "calories": 47.79,
+              "protein": 0,
+              "carbs": 11.95,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 100,
+            "macros": {
+              "calories": 143,
+              "protein": 12.6,
+              "carbs": 0.7,
+              "fat": 9.5,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 30,
+            "macros": {
+              "calories": 15.6,
+              "protein": 3.3,
+              "carbs": 0.21,
+              "fat": 0.06,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-lemon",
+            "ingredientId": "ing-lemon-juice",
+            "ingredientName": "lemon juice",
+            "grams": 1.68,
+            "macros": {
+              "calories": 0.37,
+              "protein": 0.01,
+              "carbs": 0.12,
+              "fat": 0,
+              "fiber": 0.01
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 12,
+            "macros": {
+              "calories": 20.04,
+              "protein": 0.48,
+              "carbs": 5.04,
+              "fat": 0.24,
+              "fiber": 3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15.6,
+            "macros": {
+              "calories": 56.78,
+              "protein": 1.56,
+              "carbs": 11.86,
+              "fat": 0.16,
+              "fiber": 0.42
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-coconut-fill",
+            "ingredientId": "ing-coconut-shredded",
+            "ingredientName": "unsweetened shredded coconut",
+            "grams": 45,
+            "macros": {
+              "calories": 297,
+              "protein": 3.11,
+              "carbs": 10.8,
+              "fat": 28.8,
+              "fiber": 7.2
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-coconut-top",
+            "ingredientId": "ing-coconut-shredded",
+            "ingredientName": "unsweetened shredded coconut",
+            "grams": 20,
+            "macros": {
+              "calories": 132,
+              "protein": 1.38,
+              "carbs": 4.8,
+              "fat": 12.8,
+              "fiber": 3.2
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 12.34
+      },
+      "createdAt": "2026-06-19T22:07:02.121Z",
+      "prevVersionId": "646ae08c-fb40-4c3f-9369-f54a92b4f913",
+      "description": "Toasted-coconut variant of the vanilla base. Coconut runs throughout the filling (45 g toasted, fine-ground, beaten in) plus a 20 g toasted-coconut topping; crustless to stay lean-ish. Coconut is the only flavor source (the oil is neutral) so it is toasted hard for aroma. Macro note: coconut is ~64% fat, so this runs richer than the base - about 183 cal/slice, ratio ~12.3 vs the base 129/9.1. To-make; a tsp of coconut extract (0 cal) is the planned next lever to deepen flavor and drop the shredded amount."
     }
   },
   "ingredients": {
@@ -58926,6 +63054,16 @@
       "date": "2026-06-19T20:46:29.514Z",
       "author": "user",
       "createdAt": "2026-06-19T20:46:29.514Z"
+    },
+    "e7330215-feff-4470-808c-71906a9fd676": {
+      "kind": "to-make",
+      "id": "e7330215-feff-4470-808c-71906a9fd676",
+      "recipeId": "80bfebf7-6b5b-4cfe-acd3-8a93c2b7e857",
+      "versionId": "ccffdad4-6a73-4dd1-a2aa-4a43e8d7655a",
+      "notes": "First coconut build: crustless, 45g filling + 20g topping, toasted shredded only. Bake and taste; if coconut reads too subtle add 1 tsp coconut extract (0 cal) rather than more shredded (which only adds fat). Fat is ~9.6 g/slice.",
+      "date": "2026-06-19T22:07:02.308Z",
+      "author": "user",
+      "createdAt": "2026-06-19T22:07:02.308Z"
     }
   }
 }
