@@ -1,6 +1,6 @@
 {
-  "name": "Red Velvet Protein Cookies",
-  "description": "Crumbl-style protein red velvet cookie with a protein cream-cheese frosting (frosting modeled inline; future sub-recipe candidate). Standalone root - base to be extracted once more Crumbl recipes land.",
+  "name": "Red Velvet Protein Cookies (Oat Base)",
+  "description": "Lean oat-flour red velvet with a protein cream-cheese frosting (frosting is a sub_recipe pin). The oat-base branch of the red velvet bake-off, rehabbed from the original floppy version for structure: pumpkin cut 0.5 -> 0.25 cup, oat flour doubled 0.25 -> 0.5 cup, cornstarch dropped, baking soda halved, an egg white added for set, and baked lower-and-longer (325F, 15-18 min). Yogurt kept for tang and protein. Sibling branch is the Crumbl-base version; bake both and promote the winner. Standalone root. Untested at this formulation.",
   "tags": [
     "crumbl",
     "cookie",
@@ -17,32 +17,32 @@
         "componentKey": "c1",
         "order": 1,
         "section": "Cookie",
-        "temperature": 350,
-        "instructionText": "Preheat oven to 350F. Line a tray with parchment."
+        "temperature": 325,
+        "instructionText": "Preheat oven to 325F. Line a tray with parchment."
       },
       {
         "componentKey": "c2",
         "order": 2,
         "section": "Cookie",
-        "instructionText": "Whisk the wets - yogurt, pumpkin, egg, vanilla, food coloring, vinegar - then stir in the Splenda."
+        "instructionText": "Whisk the wets - yogurt, pumpkin, egg, egg white, vanilla, food coloring, vinegar - then stir in the Splenda."
       },
       {
         "componentKey": "c3",
         "order": 3,
         "section": "Cookie",
-        "instructionText": "Add the dries - cocoa, oat flour, cornstarch, pudding, protein, baking soda, salt. Mix to a thick dough."
+        "instructionText": "Add the dries - cocoa, oat flour, pudding, protein, baking soda, salt. Mix to a thick dough."
       },
       {
         "componentKey": "c4",
         "order": 4,
         "section": "Cookie",
-        "instructionText": "Rest 10 min to hydrate. If still batter-like, add oat flour 1 tbsp at a time until scoopable."
+        "instructionText": "Rest 10-15 min to hydrate. If still batter-like, add oat flour 1 tbsp at a time until scoopable."
       },
       {
         "componentKey": "c5",
         "order": 5,
         "section": "Cookie",
-        "instructionText": "Scoop 5 cookies, flatten slightly (they barely spread). Bake 10-12 min until edges are set but centers still look soft."
+        "instructionText": "Scoop 5 cookies and shape into pucks (they barely spread). Bake 15-18 min at 325F until the tops spring back to a light touch and the edges are set."
       },
       {
         "componentKey": "c6",
@@ -83,6 +83,14 @@
         }
       },
       {
+        "componentKey": "sl-egg-white",
+        "name": "egg white",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-white"
+        }
+      },
+      {
         "componentKey": "sl-splenda",
         "name": "granulated Splenda",
         "resolution": {
@@ -120,14 +128,6 @@
         "resolution": {
           "kind": "raw",
           "libraryIngredientId": "ing-oat-flour"
-        }
-      },
-      {
-        "componentKey": "sl-cornstarch",
-        "name": "cornstarch",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-cornstarch"
         }
       },
       {
@@ -223,7 +223,7 @@
         "componentKey": "u-c-pumpkin",
         "stepKey": "c2",
         "slotKey": "sl-pumpkin",
-        "quantityValue": 0.5,
+        "quantityValue": 0.25,
         "quantityUnit": "cup"
       },
       {
@@ -232,6 +232,13 @@
         "slotKey": "sl-egg",
         "quantityValue": 1,
         "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u-egg-white",
+        "stepKey": "c2",
+        "slotKey": "sl-egg-white",
+        "quantityValue": 33,
+        "quantityUnit": "g"
       },
       {
         "componentKey": "u-c-vanilla",
@@ -272,15 +279,8 @@
         "componentKey": "u-c-oat-flour",
         "stepKey": "c3",
         "slotKey": "sl-oat-flour",
-        "quantityValue": 0.25,
+        "quantityValue": 0.5,
         "quantityUnit": "cup"
-      },
-      {
-        "componentKey": "u-c-cornstarch",
-        "stepKey": "c3",
-        "slotKey": "sl-cornstarch",
-        "quantityValue": 1,
-        "quantityUnit": "tbsp"
       },
       {
         "componentKey": "u-c-pudding",
@@ -300,7 +300,7 @@
         "componentKey": "u-c-baking-soda",
         "stepKey": "c3",
         "slotKey": "sl-baking-soda",
-        "quantityValue": 0.5,
+        "quantityValue": 0.25,
         "quantityUnit": "tsp"
       },
       {
