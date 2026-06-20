@@ -34,7 +34,7 @@
       "id": "d7b2c6f3-933e-4e93-ab86-0e2317c7619d",
       "createdBy": "user",
       "createdAt": "2026-06-19T00:56:10.025Z",
-      "headVersionId": "e888cb1b-72b4-43e8-ab27-464b0b62baa4"
+      "headVersionId": "b7bd4fb0-9f77-4f68-a0ab-444abce9cd3d"
     },
     "47b9b47f-d524-483b-9218-24b977a4a5ae": {
       "id": "47b9b47f-d524-483b-9218-24b977a4a5ae",
@@ -73319,6 +73319,398 @@
       "createdAt": "2026-06-20T18:23:48.261Z",
       "prevVersionId": "a730558c-2789-4236-8ff7-c244e91455ba",
       "description": "Creme brulee cheesecake on a graham crust: vanilla custard cheesecake over a par-baked graham crust, finished with a torched brown-sugar shell. A cheesecake is a baked custard, so the brulee crust is the signature; the graham base adds the classic restaurant form. The shell needs REAL sugar (sucralose will not caramelize) - ~30 g brown sugar in a thin even layer; everything else stays Splenda. Two finishes in the method: oven broiler (freeze first) or dry-pan caramel shards (no torch). About 183 cal/slice with the crust + bigger shell (was 140 crustless). To-make."
+    },
+    "b7bd4fb0-9f77-4f68-a0ab-444abce9cd3d": {
+      "id": "b7bd4fb0-9f77-4f68-a0ab-444abce9cd3d",
+      "recipeId": "d7b2c6f3-933e-4e93-ab86-0e2317c7619d",
+      "name": "High-Protein Sugar Cookies",
+      "description": "Low-flour protein sugar cookie tuned to kill the rubbery 'pancake' texture: a scoop of whey replaces most flour and SF instant pudding binds moisture for a dense bakery chew. Sweetener is granulated Splenda; pudding modeled as the Simply Delish SF vanilla already in the library; butter is regular unsalted, already halved to 7 g. Leavening is baking powder only (no soda / cream of tartar). Final step is a fridge rest. Source: user. Stated batch macros ~428 kcal / 44P / 41C / 11F (107/cookie at 4).",
+      "tags": [
+        "cookie",
+        "protein",
+        "sugar-cookie",
+        "high-protein"
+      ],
+      "yield": {
+        "amount": 4,
+        "unit": "cookies"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "rename: drop 'Anti-Pancake' from the title (technique still described in the body)",
+      "content": {
+        "steps": [
+          {
+            "componentKey": "d1",
+            "order": 1,
+            "section": "Dough",
+            "instructionText": "Whisk the dry base — AP flour, whey protein, SF pudding mix, Splenda, baking powder, salt — until there are no protein clumps."
+          },
+          {
+            "componentKey": "d2",
+            "order": 2,
+            "section": "Dough",
+            "instructionText": "Add the melted butter, whole egg, Greek yogurt, and vanilla into the dry mix."
+          },
+          {
+            "componentKey": "d3",
+            "order": 3,
+            "section": "Dough",
+            "timerSeconds": 300,
+            "instructionText": "Stir to combine, then stop and let the bowl sit untouched 5 minutes so the whey and pudding starches swell into a shapeable dough. If still tacky, chill 5 more minutes."
+          },
+          {
+            "componentKey": "d4",
+            "order": 4,
+            "section": "Bake",
+            "temperature": 325,
+            "instructionText": "Preheat oven/air fryer to 325F. Divide into 4 equal balls on parchment and press down firmly with your palm or a glass — this dough sets in the shape you give it, it won't spread."
+          },
+          {
+            "componentKey": "d5",
+            "order": 5,
+            "section": "Bake",
+            "temperature": 325,
+            "timerSeconds": 390,
+            "instructionText": "Bake at 325F for 6-7 minutes. Pull the moment the edges look dry and set, even if the centers still look slightly soft — whey dries out fast."
+          },
+          {
+            "componentKey": "d6",
+            "order": 6,
+            "section": "Bake",
+            "timerSeconds": 420,
+            "instructionText": "Leave the cookies on the hot sheet 5-10 minutes; residual pan heat finishes the centers without making the protein rubbery."
+          },
+          {
+            "componentKey": "d7",
+            "order": 7,
+            "section": "Bake",
+            "timerSeconds": 600,
+            "instructionText": "Final step: rest in the fridge ~10 minutes to fully set, then eat."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "vanilla whey protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-vanilla"
+            }
+          },
+          {
+            "componentKey": "sl-pudding",
+            "name": "SF vanilla instant pudding mix",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-pudding-vanilla-sf"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-baking-powder",
+            "name": "baking powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-baking-powder"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-butter",
+            "name": "melted unsalted butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-yogurt",
+            "name": "nonfat Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-flour",
+            "stepKey": "d1",
+            "slotKey": "sl-flour",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "d1",
+            "slotKey": "sl-protein",
+            "quantityValue": 31,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-pudding",
+            "stepKey": "d1",
+            "slotKey": "sl-pudding",
+            "quantityValue": 8,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "d1",
+            "slotKey": "sl-splenda",
+            "quantityValue": 0.75,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-baking-powder",
+            "stepKey": "d1",
+            "slotKey": "sl-baking-powder",
+            "quantityValue": 9,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "d1",
+            "slotKey": "sl-salt",
+            "quantityValue": 1,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-butter",
+            "stepKey": "d2",
+            "slotKey": "sl-butter",
+            "quantityValue": 7,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "d2",
+            "slotKey": "sl-egg",
+            "quantityValue": 1,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "d2",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "d2",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 4,
+            "quantityUnit": "ml"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 474.42,
+          "protein": 39.03,
+          "carbs": 50.34,
+          "fat": 11.93,
+          "fiber": 2.81
+        },
+        "perServing": {
+          "calories": 118.61,
+          "protein": 9.76,
+          "carbs": 12.59,
+          "fat": 2.98,
+          "fiber": 0.7
+        },
+        "yield": {
+          "amount": 4,
+          "unit": "cookies"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 30,
+            "macros": {
+              "calories": 109.2,
+              "protein": 3,
+              "carbs": 22.8,
+              "fat": 0.3,
+              "fiber": 0.81
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-vanilla",
+            "ingredientName": "vanilla protein powder",
+            "grams": 31,
+            "macros": {
+              "calories": 125.88,
+              "protein": 26.35,
+              "carbs": 1.86,
+              "fat": 0.93,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-pudding",
+            "ingredientId": "ing-pudding-vanilla-sf",
+            "ingredientName": "vanilla SF pudding mix (Simply Delish)",
+            "grams": 8,
+            "macros": {
+              "calories": 13.36,
+              "protein": 0.32,
+              "carbs": 3.36,
+              "fat": 0.16,
+              "fiber": 2
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 17.92,
+            "macros": {
+              "calories": 71.69,
+              "protein": 0,
+              "carbs": 17.92,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-baking-powder",
+            "ingredientId": "ing-baking-powder",
+            "ingredientName": "baking powder",
+            "grams": 9,
+            "macros": {
+              "calories": 4.77,
+              "protein": 0,
+              "carbs": 2.52,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 1,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 7,
+            "macros": {
+              "calories": 50.19,
+              "protein": 0.06,
+              "carbs": 0,
+              "fat": 5.67,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 30,
+            "macros": {
+              "calories": 17.7,
+              "protein": 3,
+              "carbs": 1.08,
+              "fat": 0.12,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 3.52,
+            "macros": {
+              "calories": 10.14,
+              "protein": 0,
+              "carbs": 0.45,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 12.16
+      },
+      "createdAt": "2026-06-20T22:41:27.508Z",
+      "prevVersionId": "e888cb1b-72b4-43e8-ab27-464b0b62baa4"
     }
   },
   "ingredients": {
