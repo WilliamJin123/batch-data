@@ -1,7 +1,7 @@
 {
   "name": "Chewiest Protein Brownies",
   "deriveFromRecipe": "Fudgy Protein Brownies",
-  "description": "Pushed all the way to chew — derived from the Fudgy base: neutral oil instead of butter (no baking chocolate), the most brown sugar, more flour with ~10-15 extra fold strokes to develop a little gluten, egg-white-forward, no cornstarch. Cocoa + espresso are bloomed in a splash of warm skim milk. 1/4 cup granulated Splenda, baked at 325F for ~18 min and pulled at only a faint wobble. Lands at 12.4 cal per g protein — the leanest of the three. Computed ~621 cal / 50 g protein per batch of 9; ~69 cal, 5.6P, 7.9C, 2.2F per square. Source: user.",
+  "description": "Pushed all the way to chew — derived from the Fudgy base: coconut oil instead of butter (no baking chocolate), the most brown sugar, more flour with ~10-15 extra fold strokes to develop a little gluten, egg-white-forward, no cornstarch. Cocoa + espresso are bloomed in a splash of warm skim milk. 1/4 cup granulated Splenda, baked at 325F for ~18 min and pulled at only a faint wobble. Lands at 12.4 cal per g protein — the leanest of the three. Computed ~619 cal / 50 g protein per batch of 9; ~69 cal, 5.6P, 7.9C, 2.2F per square. Source: user.",
   "tags": [
     "brownie",
     "protein",
@@ -13,10 +13,10 @@
       "kind": "slot",
       "payload": {
         "componentKey": "sl-oil",
-        "name": "neutral oil",
+        "name": "coconut oil",
         "resolution": {
           "kind": "raw",
-          "libraryIngredientId": "ing-vegetable-oil"
+          "libraryIngredientId": "ing-coconut-oil"
         }
       }
     },
@@ -96,7 +96,7 @@
         "componentKey": "b3",
         "order": 3,
         "section": "Batter",
-        "instructionText": "Whisk in the neutral oil, then the Greek yogurt."
+        "instructionText": "Whisk in the coconut oil (melted if solid), then the Greek yogurt."
       }
     },
     {
