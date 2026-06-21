@@ -325,7 +325,8 @@
       "fiber": 25
     },
     "unitEquivalences": {
-      "tbsp": 6
+      "tbsp": 6,
+      "tsp": 2
     }
   },
   {

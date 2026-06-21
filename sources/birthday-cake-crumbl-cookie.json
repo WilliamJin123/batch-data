@@ -1,52 +1,43 @@
 {
   "name": "Birthday Cake Crumbl Cookie",
-  "description": "A Crumbl birthday-cake copycat that is really a chilled cream-cheese protein dip/frosting — cream cheese creamed with protein and sweetener, rainbow sprinkles folded through, no baked base. Same cream-cheese-frosting genre as the Protein Cream-Cheese Frosting sub-recipe (and its Cool-Whip sibling); eaten cold by the spoon or as a thick cookie. House calibration: 1 cup powdered sugar replaced with granulated Splenda (sweetness-matched); modeled with light cream cheese.",
+  "description": "A baked birthday-cake protein cookie: a Greek-yogurt + oat/coconut-flour dough folded with sprinkles, baked soft, then topped with a Greek-yogurt protein frosting set with SF vanilla pudding. A Crumbl-style copycat, but its own yogurt-based formula — distinct from the AP-flour-chassis Birthday Cake Protein Cookies that derive from the Crumbl Base. House note: maple syrup kept as written.",
   "tags": [
-    "frosting",
-    "cream-cheese",
     "crumbl",
-    "birthday-cake",
+    "cookie",
     "protein",
-    "no-bake"
+    "birthday-cake",
+    "frosted"
   ],
   "yield": {
     "amount": 4,
-    "unit": "servings"
+    "unit": "cookies"
   },
   "content": {
     "steps": [
       {
-        "componentKey": "m1",
+        "componentKey": "b1",
         "order": 1,
-        "section": "mix",
-        "instructionText": "Cream the cream cheese, Splenda, protein powder, and vanilla until smooth."
+        "section": "cookies",
+        "instructionText": "Preheat to 350F and line a baking sheet. Whisk the protein, oat flour, coconut flour, baking powder, and salt. Add the Greek yogurt, maple syrup, egg, and vanilla; mix to a thick cookie dough. Fold in the sprinkles."
       },
       {
-        "componentKey": "m2",
+        "componentKey": "b2",
         "order": 2,
-        "section": "mix",
-        "instructionText": "Fold in the rainbow sprinkles. Chill at least 30 minutes before serving."
+        "section": "cookies",
+        "temperature": 350,
+        "timerSeconds": 660,
+        "instructionText": "Divide into 4 large cookies and gently flatten the tops. Bake 10-12 min until the edges are set. Cool completely before frosting."
+      },
+      {
+        "componentKey": "f1",
+        "order": 3,
+        "section": "frosting",
+        "instructionText": "Mix the Greek yogurt, protein, pudding mix, and vanilla until smooth and creamy. Frost the cooled cookies and top with extra sprinkles."
       }
     ],
     "slots": [
       {
-        "componentKey": "sl-cream-cheese",
-        "name": "light cream cheese",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-cream-cheese-light"
-        }
-      },
-      {
-        "componentKey": "sl-splenda",
-        "name": "granulated Splenda",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-splenda-granulated"
-        }
-      },
-      {
-        "componentKey": "sl-protein",
+        "componentKey": "sl-protein-c",
         "name": "vanilla protein powder",
         "resolution": {
           "kind": "raw",
@@ -54,7 +45,63 @@
         }
       },
       {
-        "componentKey": "sl-vanilla",
+        "componentKey": "sl-oat",
+        "name": "oat flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-oat-flour"
+        }
+      },
+      {
+        "componentKey": "sl-coconut-flour",
+        "name": "coconut flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coconut-flour"
+        }
+      },
+      {
+        "componentKey": "sl-bp",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl-salt",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-yogurt-c",
+        "name": "plain Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl-maple",
+        "name": "maple syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-maple-syrup"
+        }
+      },
+      {
+        "componentKey": "sl-egg",
+        "name": "egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla-c",
         "name": "vanilla extract",
         "resolution": {
           "kind": "raw",
@@ -68,43 +115,138 @@
           "kind": "raw",
           "libraryIngredientId": "ing-sprinkles"
         }
+      },
+      {
+        "componentKey": "sl-protein-f",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-yogurt-f",
+        "name": "fat-free Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl-pudding",
+        "name": "SF vanilla pudding mix",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pudding-vanilla-sf"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla-f",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
       }
     ],
     "usages": [
       {
-        "componentKey": "u-cream-cheese",
-        "stepKey": "m1",
-        "slotKey": "sl-cream-cheese",
-        "quantityValue": 227,
-        "quantityUnit": "g"
-      },
-      {
-        "componentKey": "u-splenda",
-        "stepKey": "m1",
-        "slotKey": "sl-splenda",
-        "quantityValue": 1,
-        "quantityUnit": "cup"
-      },
-      {
-        "componentKey": "u-protein",
-        "stepKey": "m1",
-        "slotKey": "sl-protein",
-        "quantityValue": 1,
+        "componentKey": "u-protein-c",
+        "stepKey": "b1",
+        "slotKey": "sl-protein-c",
+        "quantityValue": 1.5,
         "quantityUnit": "scoop"
       },
       {
-        "componentKey": "u-vanilla",
-        "stepKey": "m1",
-        "slotKey": "sl-vanilla",
+        "componentKey": "u-oat",
+        "stepKey": "b1",
+        "slotKey": "sl-oat",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-coconut-flour",
+        "stepKey": "b1",
+        "slotKey": "sl-coconut-flour",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-bp",
+        "stepKey": "b1",
+        "slotKey": "sl-bp",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-salt",
+        "stepKey": "b1",
+        "slotKey": "sl-salt",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-yogurt-c",
+        "stepKey": "b1",
+        "slotKey": "sl-yogurt-c",
+        "quantityValue": 0.33,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-maple",
+        "stepKey": "b1",
+        "slotKey": "sl-maple",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-egg",
+        "stepKey": "b1",
+        "slotKey": "sl-egg",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u-vanilla-c",
+        "stepKey": "b1",
+        "slotKey": "sl-vanilla-c",
         "quantityValue": 1,
         "quantityUnit": "tsp"
       },
       {
         "componentKey": "u-sprinkles",
-        "stepKey": "m2",
+        "stepKey": "b1",
         "slotKey": "sl-sprinkles",
-        "quantityValue": 0.25,
+        "quantityValue": 1.5,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-protein-f",
+        "stepKey": "f1",
+        "slotKey": "sl-protein-f",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-yogurt-f",
+        "stepKey": "f1",
+        "slotKey": "sl-yogurt-f",
+        "quantityValue": 1,
         "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-pudding",
+        "stepKey": "f1",
+        "slotKey": "sl-pudding",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-vanilla-f",
+        "stepKey": "f1",
+        "slotKey": "sl-vanilla-f",
+        "quantityValue": 0.25,
+        "quantityUnit": "tsp"
       }
     ]
   }

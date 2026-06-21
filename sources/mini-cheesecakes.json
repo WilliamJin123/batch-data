@@ -1,0 +1,291 @@
+{
+  "name": "Mini Cheesecakes",
+  "description": "Individual baked protein cheesecakes in cupcake liners: a buttery graham crust par-baked, topped with a Greek-yogurt + light-cream-cheese protein batter set with cornstarch, sprinkled with cinnamon sugar, baked, chilled, and drizzled with a sweetener icing. In the Cheesecake family alongside the full-size Vanilla Protein Cheesecake. House calibration: monk-fruit and Swerve brown sugar replaced with granulated Splenda (the icing Splenda blends smoother if ground fine).",
+  "tags": [
+    "cheesecake",
+    "protein",
+    "mini",
+    "graham",
+    "baked"
+  ],
+  "yield": {
+    "amount": 7,
+    "unit": "cheesecakes"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "k1",
+        "order": 1,
+        "section": "crust",
+        "temperature": 350,
+        "timerSeconds": 420,
+        "instructionText": "Preheat to 350F. Crush the graham crackers fine and mix with the melted butter, Splenda, and cinnamon. Press into cupcake liners. Bake 7 min, then cool 5 min."
+      },
+      {
+        "componentKey": "ba1",
+        "order": 2,
+        "section": "batter",
+        "instructionText": "Whisk the Greek yogurt, Splenda, cream cheese, egg, lemon juice, vanilla, cornstarch, and protein smooth. Scoop evenly over the cooled crusts."
+      },
+      {
+        "componentKey": "t1",
+        "order": 3,
+        "section": "topping",
+        "temperature": 350,
+        "timerSeconds": 1200,
+        "instructionText": "Stir the cinnamon and Splenda into a cinnamon sugar and sprinkle over the batter. Bake ~20 min until set (not watery). Cool 20 min, then chill 30-60 min."
+      },
+      {
+        "componentKey": "i1",
+        "order": 4,
+        "section": "icing",
+        "instructionText": "Mix the Splenda with a splash of water until drizzle consistency and pipe over the chilled cheesecakes."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-graham",
+        "name": "graham cracker",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-graham-crumbs"
+        }
+      },
+      {
+        "componentKey": "sl-butter",
+        "name": "melted butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl-splenda-k",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-cinnamon-k",
+        "name": "cinnamon",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cinnamon-ground"
+        }
+      },
+      {
+        "componentKey": "sl-yogurt",
+        "name": "Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl-splenda-b",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-cream-cheese",
+        "name": "light cream cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cream-cheese-light"
+        }
+      },
+      {
+        "componentKey": "sl-egg",
+        "name": "egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl-lemon",
+        "name": "lemon juice",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-lemon-juice"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-cornstarch",
+        "name": "corn starch",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cornstarch"
+        }
+      },
+      {
+        "componentKey": "sl-protein",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-cinnamon-t",
+        "name": "cinnamon",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cinnamon-ground"
+        }
+      },
+      {
+        "componentKey": "sl-splenda-t",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-splenda-i",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-water",
+        "name": "water",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-water"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-graham",
+        "stepKey": "k1",
+        "slotKey": "sl-graham",
+        "quantityValue": 40,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-butter",
+        "stepKey": "k1",
+        "slotKey": "sl-butter",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-splenda-k",
+        "stepKey": "k1",
+        "slotKey": "sl-splenda-k",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-cinnamon-k",
+        "stepKey": "k1",
+        "slotKey": "sl-cinnamon-k",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-yogurt",
+        "stepKey": "ba1",
+        "slotKey": "sl-yogurt",
+        "quantityValue": 90,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-splenda-b",
+        "stepKey": "ba1",
+        "slotKey": "sl-splenda-b",
+        "quantityValue": 1.5,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-cream-cheese",
+        "stepKey": "ba1",
+        "slotKey": "sl-cream-cheese",
+        "quantityValue": 85,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-egg",
+        "stepKey": "ba1",
+        "slotKey": "sl-egg",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u-lemon",
+        "stepKey": "ba1",
+        "slotKey": "sl-lemon",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-vanilla",
+        "stepKey": "ba1",
+        "slotKey": "sl-vanilla",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-cornstarch",
+        "stepKey": "ba1",
+        "slotKey": "sl-cornstarch",
+        "quantityValue": 0.5,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-protein",
+        "stepKey": "ba1",
+        "slotKey": "sl-protein",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-cinnamon-t",
+        "stepKey": "t1",
+        "slotKey": "sl-cinnamon-t",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-splenda-t",
+        "stepKey": "t1",
+        "slotKey": "sl-splenda-t",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-splenda-i",
+        "stepKey": "i1",
+        "slotKey": "sl-splenda-i",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-water",
+        "stepKey": "i1",
+        "slotKey": "sl-water",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      }
+    ]
+  }
+}
