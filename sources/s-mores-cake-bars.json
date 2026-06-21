@@ -1,0 +1,281 @@
+{
+  "name": "S'mores Cake Bars",
+  "description": "Childhood s'mores flavor recreated in perfect little cake bars, offering nostalgia with a healthier, protein-packed twist. Ideal for a summer treat. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "bars",
+    "smores",
+    "protein"
+  ],
+  "yield": {
+    "amount": 12,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Preheat oven to 350°F and line an 8x8 pan with parchment paper or spray."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "In a bowl, combine all of your ingredients for the base until well combined."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Spread the batter into your prepared pan."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Bake for 20–24 minutes or until the center is just set."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Top with mini marshmallows, extra chocolate chunks, and crushed graham crackers."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "instructionText": "Broil for 30–60 seconds VERY carefully until golden and toasted."
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "Allow for them to cool and then slice and enjoy!"
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "all-purpose flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "graham cracker crumbs",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-graham-crumbs"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "baking soda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-soda"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "eggs",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "unsweetened applesauce",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-applesauce"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-skim-milk"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "marshmallow fluff",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-marshmallow-fluff"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "maple syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-maple-syrup"
+        }
+      },
+      {
+        "componentKey": "sl13",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl14",
+        "name": "chocolate chunks",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-chocolate-chips-semisweet"
+        }
+      },
+      {
+        "componentKey": "sl16",
+        "name": "mini marshmallows",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-marshmallow"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 1,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "s1",
+        "slotKey": "sl5",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "s1",
+        "slotKey": "sl6",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "s1",
+        "slotKey": "sl7",
+        "quantityValue": 2,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "s1",
+        "slotKey": "sl8",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "s1",
+        "slotKey": "sl9",
+        "quantityValue": 0.3333333333333333,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "s1",
+        "slotKey": "sl10",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "s1",
+        "slotKey": "sl11",
+        "quantityValue": 3,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "s1",
+        "slotKey": "sl12",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u13",
+        "stepKey": "s1",
+        "slotKey": "sl13",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u14",
+        "stepKey": "s1",
+        "slotKey": "sl14",
+        "quantityValue": 0.3333333333333333,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u16",
+        "stepKey": "s1",
+        "slotKey": "sl16",
+        "quantityValue": 0.75,
+        "quantityUnit": "cup"
+      }
+    ]
+  }
+}

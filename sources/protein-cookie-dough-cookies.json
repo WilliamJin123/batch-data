@@ -1,0 +1,400 @@
+{
+  "name": "Protein Cookie Dough Cookies",
+  "description": "Delicious and high-protein cookie dough cookies, perfect for a healthier dessert option. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "cookie",
+    "protein"
+  ],
+  "yield": {
+    "amount": 6,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "In a large bowl, combine the flour, vanilla protein powder, brown sugar replacement, baking powder, and salt. Mix well."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "Add the egg, melted light butter, Greek yogurt, vanilla extract, and almond milk to the dry ingredients. Mix until just combined and a dough forms. Be careful not to overmix."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Preheat oven to 350°F (175°C)."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Scoop the dough using an ice cream scooper and place onto a baking sheet lined with parchment paper."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Bake for 8-10 minutes. Remove from the oven when the tops still look slightly undercooked, as they will continue to set as they cool."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "instructionText": "While the cookies are cooling, prepare the frosting by mixing the Greek yogurt, zero sugar Cool Whip, vanilla protein powder, sugar-free vanilla pudding mix, sweetener, and salt in a bowl until smooth and creamy. Place the frosting in the refrigerator."
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "For the cookie dough topping, combine the oat flour, vanilla protein powder, brown sugar replacement, vanilla extract, and salt in a separate bowl."
+      },
+      {
+        "componentKey": "s8",
+        "order": 8,
+        "instructionText": "Slowly add almond milk, a little at a time, until a cookie dough texture forms. Roll this mixture into 21 tiny balls."
+      },
+      {
+        "componentKey": "s9",
+        "order": 9,
+        "instructionText": "Frost each cooled cookie with the prepared frosting."
+      },
+      {
+        "componentKey": "s10",
+        "order": 10,
+        "instructionText": "Top each frosted cookie with the tiny cookie dough balls and chocolate chips. Enjoy!"
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "all-purpose flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "light butter melted",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "FAGE 0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "almond milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-milk-unsweetened"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "FAGE 0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "zero sugar Cool Whip",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cool-whip-zero"
+        }
+      },
+      {
+        "componentKey": "sl13",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl14",
+        "name": "sugar-free vanilla pudding mix",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pudding-vanilla-sf"
+        }
+      },
+      {
+        "componentKey": "sl15",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl16",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl17",
+        "name": "oat flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-oat-flour"
+        }
+      },
+      {
+        "componentKey": "sl18",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl19",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl20",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl21",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl22",
+        "name": "almond milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-milk-unsweetened"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 1,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 0.3333333333333333,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "s1",
+        "slotKey": "sl5",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "s1",
+        "slotKey": "sl6",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "s1",
+        "slotKey": "sl7",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "s1",
+        "slotKey": "sl8",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "s1",
+        "slotKey": "sl9",
+        "quantityValue": 1,
+        "quantityUnit": "splash"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "s1",
+        "slotKey": "sl10",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "s1",
+        "slotKey": "sl11",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "s1",
+        "slotKey": "sl12",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u13",
+        "stepKey": "s1",
+        "slotKey": "sl13",
+        "quantityValue": 0.25,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u14",
+        "stepKey": "s1",
+        "slotKey": "sl14",
+        "quantityValue": 0.5,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u15",
+        "stepKey": "s1",
+        "slotKey": "sl15",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u16",
+        "stepKey": "s1",
+        "slotKey": "sl16",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u17",
+        "stepKey": "s1",
+        "slotKey": "sl17",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u18",
+        "stepKey": "s1",
+        "slotKey": "sl18",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u19",
+        "stepKey": "s1",
+        "slotKey": "sl19",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u20",
+        "stepKey": "s1",
+        "slotKey": "sl20",
+        "quantityValue": 1,
+        "quantityUnit": "splash"
+      },
+      {
+        "componentKey": "u21",
+        "stepKey": "s1",
+        "slotKey": "sl21",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u22",
+        "stepKey": "s1",
+        "slotKey": "sl22",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      }
+    ]
+  }
+}

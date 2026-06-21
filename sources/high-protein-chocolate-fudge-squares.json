@@ -1,0 +1,236 @@
+{
+  "name": "High Protein Chocolate Fudge Squares",
+  "description": "No protein bars? No problem - make these instead! Made with cottage cheese making the texture 10/10! Super chocolatey, melt in the mouth fudge, so good you could easily devour them all. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "bars",
+    "fudge",
+    "protein"
+  ],
+  "yield": {
+    "amount": 9,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Blend all ingredients except the melted chocolate."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "Pour in melted chocolate and blend briefly or fold through until smooth."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Add a splash of milk if needed to loosen slightly (should be thick but spreadable)."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Spread into a lined container and smooth the top."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Mix the glaze ingredients and pour over the top. Sprinkle with flaky sea salt."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "instructionText": "Chill in the fridge for 1–2 hours until firm."
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "Slice into 9 squares."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "cottage cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cottage-cheese"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "chocolate protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-chocolate"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "almond flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-flour"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "melted chocolate",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-chocolate-chips-semisweet"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "cocoa powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "maple syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-maple-syrup"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-skim-milk"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "cocoa powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "chocolate spread",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-chocolate-spread"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-skim-milk"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 300,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 60,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 40,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 100,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "s1",
+        "slotKey": "sl5",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "s1",
+        "slotKey": "sl6",
+        "quantityValue": 10,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "s1",
+        "slotKey": "sl7",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "s1",
+        "slotKey": "sl8",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "s1",
+        "slotKey": "sl9",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "s1",
+        "slotKey": "sl10",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "s1",
+        "slotKey": "sl11",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "s1",
+        "slotKey": "sl12",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      }
+    ]
+  }
+}

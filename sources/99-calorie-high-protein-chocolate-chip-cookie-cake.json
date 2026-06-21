@@ -1,0 +1,306 @@
+{
+  "name": "99 Calorie High Protein Chocolate Chip Cookie Cake",
+  "description": "A perfect cookie cake for your next birthday party, with a high protein and low calorie count. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "cookie",
+    "chocolate-chip",
+    "protein"
+  ],
+  "yield": {
+    "amount": 8,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Preheat oven to 350 degrees."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "In a mixing bowl, add the wet ingredients and mix."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "In another mixing bowl, add the dry ingredients and mix."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Combine the wet ingredients with the dry ingredients. Mix thoroughly, avoiding clumps. Add the mix-in ingredients and mix again."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Chill the cookie dough in the fridge for 15 minutes."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "instructionText": "Prepare a small/medium circular baking dish by lining it with parchment paper or spraying it with cooking spray. Add the cooled cookie dough to the baking dish."
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "If needed, wet your hands slightly and flatten the dough in the dish."
+      },
+      {
+        "componentKey": "s8",
+        "order": 8,
+        "instructionText": "Bake at 350 degrees for 12-15 minutes. Remove from oven when slightly underdone, as it will continue to cook."
+      },
+      {
+        "componentKey": "s9",
+        "order": 9,
+        "instructionText": "Let the cookie cake rest for 15 minutes. Optionally, decorate the sides of the cake with additional mini chocolate chips. Then enjoy!"
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "butter (was light, matched-cal)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "Whole Egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "Sugar Free Maple Syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-syrup-maple-sf"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "Vanilla Extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "All Purpose Flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "Vanilla Casein Protein Powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-casein"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "Baking Soda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-soda"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "Cream of Tartar",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cream-of-tartar"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "Salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "Plain Nonfat Greek Yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl13",
+        "name": "Nonfat Cream Cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cream-cheese-light"
+        }
+      },
+      {
+        "componentKey": "sl14",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl15",
+        "name": "Vanilla Casein Protein Powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-casein"
+        }
+      },
+      {
+        "componentKey": "sl16",
+        "name": "Mini Chocolate Chips",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-chocolate-chips-semisweet"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 35,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 4,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "s1",
+        "slotKey": "sl5",
+        "quantityValue": 3,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "s1",
+        "slotKey": "sl6",
+        "quantityValue": 37,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "s1",
+        "slotKey": "sl7",
+        "quantityValue": 34,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "s1",
+        "slotKey": "sl8",
+        "quantityValue": 8,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "s1",
+        "slotKey": "sl9",
+        "quantityValue": 2,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "s1",
+        "slotKey": "sl10",
+        "quantityValue": 1,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "s1",
+        "slotKey": "sl11",
+        "quantityValue": 1,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "s1",
+        "slotKey": "sl12",
+        "quantityValue": 113,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u13",
+        "stepKey": "s1",
+        "slotKey": "sl13",
+        "quantityValue": 56,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u14",
+        "stepKey": "s1",
+        "slotKey": "sl14",
+        "quantityValue": 4.5,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u15",
+        "stepKey": "s1",
+        "slotKey": "sl15",
+        "quantityValue": 2,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u16",
+        "stepKey": "s1",
+        "slotKey": "sl16",
+        "quantityValue": 21,
+        "quantityUnit": "g"
+      }
+    ]
+  }
+}

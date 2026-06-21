@@ -1,0 +1,96 @@
+{
+  "name": "Simple Yogurt Bread",
+  "description": "A quick and easy mini loaf of bread made with Greek yogurt and self-raising flour, perfect for air frying or oven baking. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "cake",
+    "bread",
+    "protein"
+  ],
+  "yield": {
+    "amount": 1,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Mix flour, yogurt, and salt in a bowl until it clumps together."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "Using floured hands, shape the dough into a boule. It should not be sticky. Add more flour if necessary."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Air fry at 175°C for 15-20 minutes using the air fry mode. Alternatively, oven bake at 175°C for 35 minutes. If the center is not cooked, flip the bread and cook for an additional 5 minutes."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "self raising flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "Greek",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "xanthan gum",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-xanthan-gum"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 120,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 100,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 0.3333333333333333,
+        "quantityUnit": "tsp"
+      }
+    ]
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "name": "High Protein Banana Bread Cake with Cream Cheese Frosting",
+  "description": "4 x 350 | 38 c | 40 p | 10 f House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "cake",
+    "banana",
+    "protein"
+  ],
+  "yield": {
+    "amount": 4,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Preheat oven to 350°F."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "Mix bananas, eggs, Greek yogurt, and vanilla extract until smooth."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Add oat flour, almond flour, baking powder, baking soda, cinnamon, and salt. Mix until combined."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Pour the batter into a greased small baking dish."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Bake for 25–30 minutes, or until set."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "instructionText": "Let the cake cool completely."
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "For the frosting: mix softened light cream cheese, nonfat Greek yogurt, vanilla protein powder, maple syrup or honey, and vanilla until smooth and creamy."
+      },
+      {
+        "componentKey": "s8",
+        "order": 8,
+        "instructionText": "Spread the frosting over the cooled cake."
+      },
+      {
+        "componentKey": "s9",
+        "order": 9,
+        "instructionText": "Slice the cake into 4 servings."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "whole ripe bananas",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-banana"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "whole eggs",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "nonfat Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "oat flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-oat-flour"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "almond flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-flour"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "baking soda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-soda"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "cinnamon",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cinnamon-ground"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "light cream cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cream-cheese-light"
+        }
+      },
+      {
+        "componentKey": "sl13",
+        "name": "nonfat Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl14",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl15",
+        "name": "maple syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-maple-syrup"
+        }
+      },
+      {
+        "componentKey": "sl16",
+        "name": "vanilla",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 2,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 2,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 1,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "s1",
+        "slotKey": "sl5",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "s1",
+        "slotKey": "sl6",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "s1",
+        "slotKey": "sl7",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "s1",
+        "slotKey": "sl8",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "s1",
+        "slotKey": "sl9",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "s1",
+        "slotKey": "sl10",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "s1",
+        "slotKey": "sl11",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "s1",
+        "slotKey": "sl12",
+        "quantityValue": 4,
+        "quantityUnit": "oz"
+      },
+      {
+        "componentKey": "u13",
+        "stepKey": "s1",
+        "slotKey": "sl13",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u14",
+        "stepKey": "s1",
+        "slotKey": "sl14",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u15",
+        "stepKey": "s1",
+        "slotKey": "sl15",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u16",
+        "stepKey": "s1",
+        "slotKey": "sl16",
+        "quantityValue": 1,
+        "quantityUnit": "splash"
+      }
+    ]
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "name": "Salted Caramel Cheesecake Brownie Bars",
+  "description": "9 x 120 | 13 p House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "brownie",
+    "cheesecake",
+    "caramel",
+    "protein"
+  ],
+  "yield": {
+    "amount": 12,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Preheat oven to 350°F (175°C). Line an 8x8 inch baking pan with parchment paper."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "For the brownie layer: In a large bowl, whisk together pumpkin purée, Greek yogurt, egg, egg whites, almond milk, and vanilla extract."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "In a separate bowl, whisk together chocolate protein powder, cocoa powder, self-rising flour, sweetener, and salt."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Add the dry ingredients to the wet ingredients and mix until just combined. Do not overmix."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Spread the brownie batter evenly into the prepared baking pan."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "instructionText": "For the cheesecake filling: In a medium bowl, beat together cream cheese, Greek yogurt, protein powder, egg, sweetener, and vanilla extract until smooth."
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "Carefully spoon the cheesecake filling over the brownie batter."
+      },
+      {
+        "componentKey": "s8",
+        "order": 8,
+        "instructionText": "Bake for 25-30 minutes, or until the cheesecake is set. Let cool completely."
+      },
+      {
+        "componentKey": "s9",
+        "order": 9,
+        "instructionText": "For the stovetop caramel topping: In a small saucepan, combine sugar-free caramel syrup, almond milk, sweetener, cornstarch, and sea salt."
+      },
+      {
+        "componentKey": "s10",
+        "order": 10,
+        "instructionText": "Whisk constantly over medium heat until the mixture thickens, about 5-7 minutes. Remove from heat."
+      },
+      {
+        "componentKey": "s11",
+        "order": 11,
+        "instructionText": "Pour the caramel topping over the cooled cheesecake layer and spread evenly."
+      },
+      {
+        "componentKey": "s12",
+        "order": 12,
+        "instructionText": "Chill for at least 1 hour to set before cutting into bars."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "Pumpkin purée",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pumpkin-puree"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "Nonfat plain Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "Chocolate protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-chocolate"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "Unsweetened cocoa powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "Egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "Egg whites",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-white"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "Almond milk (unsweetened)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-milk-unsweetened"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "Self-rising flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "Vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "Light cream cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cream-cheese-light"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "Nonfat plain Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl13",
+        "name": "Vanilla",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl14",
+        "name": "Egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl15",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl16",
+        "name": "Vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl17",
+        "name": "Salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl18",
+        "name": "Torani sugar-free caramel syrup (or other brand)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-syrup-caramel-sf"
+        }
+      },
+      {
+        "componentKey": "sl19",
+        "name": "Almond milk (unsweetened)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-milk-unsweetened"
+        }
+      },
+      {
+        "componentKey": "sl20",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl21",
+        "name": "Cornstarch",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cornstarch"
+        }
+      },
+      {
+        "componentKey": "sl22",
+        "name": "Sea salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 100,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 80,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 60,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 20,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "s1",
+        "slotKey": "sl5",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "s1",
+        "slotKey": "sl6",
+        "quantityValue": 50,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "s1",
+        "slotKey": "sl7",
+        "quantityValue": 6.75,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "s1",
+        "slotKey": "sl8",
+        "quantityValue": 70,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "s1",
+        "slotKey": "sl9",
+        "quantityValue": 60,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "s1",
+        "slotKey": "sl10",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "s1",
+        "slotKey": "sl11",
+        "quantityValue": 225,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "s1",
+        "slotKey": "sl12",
+        "quantityValue": 120,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u13",
+        "stepKey": "s1",
+        "slotKey": "sl13",
+        "quantityValue": 45,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u14",
+        "stepKey": "s1",
+        "slotKey": "sl14",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u15",
+        "stepKey": "s1",
+        "slotKey": "sl15",
+        "quantityValue": 5,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u16",
+        "stepKey": "s1",
+        "slotKey": "sl16",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u17",
+        "stepKey": "s1",
+        "slotKey": "sl17",
+        "quantityValue": 0.125,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u18",
+        "stepKey": "s1",
+        "slotKey": "sl18",
+        "quantityValue": 80,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u19",
+        "stepKey": "s1",
+        "slotKey": "sl19",
+        "quantityValue": 60,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u20",
+        "stepKey": "s1",
+        "slotKey": "sl20",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u21",
+        "stepKey": "s1",
+        "slotKey": "sl21",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u22",
+        "stepKey": "s1",
+        "slotKey": "sl22",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      }
+    ]
+  }
+}

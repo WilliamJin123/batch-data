@@ -1,0 +1,286 @@
+{
+  "name": "High Protein Coffee Cake",
+  "description": "Delicious coffee cake squares with high protein and low calories, perfect for a healthy snack. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "cake",
+    "coffee-cake",
+    "protein"
+  ],
+  "yield": {
+    "amount": 16,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Preheat oven to 350°F and line an 8x8 inch pan with parchment paper."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "In a large bowl, whisk together the greek yogurt, almond milk, apple sauce, egg, oil, and vanilla."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Add the protein pancake mix and protein powder to the wet ingredients and mix until just combined."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Set the cake batter aside."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "For the streusel, add all streusel ingredients in a bowl and use your hands to combine until you get a sugary crumble."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "instructionText": "Pour half of the cake batter into the prepared pan and layer half of the streusel crumble over the top."
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "Pour the remaining batter over the streusel and sprinkle the remaining streusel mix on top."
+      },
+      {
+        "componentKey": "s8",
+        "order": 8,
+        "instructionText": "Bake for 30-35 minutes, or until a toothpick comes out clean but the cake should still be moist."
+      },
+      {
+        "componentKey": "s9",
+        "order": 9,
+        "instructionText": "Let the coffee cake cool completely on a baking rack."
+      },
+      {
+        "componentKey": "s10",
+        "order": 10,
+        "instructionText": "Mix the icing ingredients together and drizzle over the top of the cooled coffee cake."
+      },
+      {
+        "componentKey": "s11",
+        "order": 11,
+        "instructionText": "Slice and enjoy!"
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "protein pancake mix",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "0% greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "unsweetened almond milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-milk-unsweetened"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "unsweetened apple sauce",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-applesauce"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "coconut oil",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coconut-oil"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "vanilla",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "protein pancake mix",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "cinnamon",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cinnamon-ground"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "cold butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl13",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl14",
+        "name": "unsweetened almond milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-milk-unsweetened"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 1.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 1,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 0.75,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 0.583,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "s1",
+        "slotKey": "sl5",
+        "quantityValue": 0.3333333333333333,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "s1",
+        "slotKey": "sl6",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "s1",
+        "slotKey": "sl7",
+        "quantityValue": 1.5,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "s1",
+        "slotKey": "sl8",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "s1",
+        "slotKey": "sl9",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "s1",
+        "slotKey": "sl10",
+        "quantityValue": 0.3333333333333333,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "s1",
+        "slotKey": "sl11",
+        "quantityValue": 1.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "s1",
+        "slotKey": "sl12",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u13",
+        "stepKey": "s1",
+        "slotKey": "sl13",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u14",
+        "stepKey": "s1",
+        "slotKey": "sl14",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      }
+    ]
+  }
+}

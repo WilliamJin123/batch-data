@@ -1,0 +1,156 @@
+{
+  "name": "Protein Carrot Cake",
+  "description": "A delicious and protein-packed carrot cake recipe with approximately 500 calories and 75g of protein per serving. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "carrot-cake",
+    "cake",
+    "protein"
+  ],
+  "yield": {
+    "amount": 1,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Prepare the carrots by grating them."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "In a large bowl, combine the grated carrots, nonfat Greek yogurt, egg, protein powder, banana, baking powder, cinnamon, vanilla, and sweetener."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Mix all ingredients thoroughly until well combined."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Pour the batter into a prepared baking dish or individual ramekins."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Bake in a preheated oven at 180°C (350°F) for 30 minutes, or until a toothpick inserted into the center comes out clean."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "instructionText": "Let the cake cool slightly before serving."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "carrots",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-carrot"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "nonfat Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "vanilla cinnamon protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "banana",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-banana"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "cinnamon",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cinnamon-ground"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 200,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 150,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 2,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "s1",
+        "slotKey": "sl5",
+        "quantityValue": 75,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "s1",
+        "slotKey": "sl6",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "s1",
+        "slotKey": "sl7",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      }
+    ]
+  }
+}

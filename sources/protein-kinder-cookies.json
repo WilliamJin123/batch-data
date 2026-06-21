@@ -1,0 +1,166 @@
+{
+  "name": "Protein Kinder Cookies",
+  "description": "These are described as 'MY BEST COOKIES EVER!!!' and are protein-enhanced cookies with kinder slices. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "cookie",
+    "kinder",
+    "protein"
+  ],
+  "yield": {
+    "amount": 1,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Mix everything together to form the dough."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "Bake at 350°F for 7-8 minutes."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "Nut Butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-walnuts"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "Egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "Egg Whites",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-white"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "Whey Protein Powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "Vanilla Extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "Baking Soda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-soda"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "Coconut Flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coconut-flour"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "kinder slices",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-kinder-chocolate"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "s1",
+        "slotKey": "sl5",
+        "quantityValue": 50,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "s1",
+        "slotKey": "sl6",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "s1",
+        "slotKey": "sl7",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "s1",
+        "slotKey": "sl8",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "s1",
+        "slotKey": "sl9",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      }
+    ]
+  }
+}

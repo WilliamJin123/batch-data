@@ -1,0 +1,271 @@
+{
+  "name": "Healthy Protein Blondies",
+  "description": "Gluten-free, sugar-free, low-calorie, and high-protein blondies that are a favorite recipe. They are fudgy and delicious. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "bars",
+    "blondie",
+    "protein"
+  ],
+  "yield": {
+    "amount": 16,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Preheat the oven to 180°C / 360°F."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "In a large bowl, melt the peanut butter in the microwave until just melted."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Add the vanilla, water, sweetener drops, and the yoghurt. Mix well."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Add the baking powder, salt, protein powder, granulated sweetener, and coconut flour."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Mix until combined."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "instructionText": "Pour the batter into a brownie tin or dish lined with baking paper."
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "Bake for 10 minutes. You want them to be just cooked so that they are still fudgey. Do not overcook them."
+      },
+      {
+        "componentKey": "s8",
+        "order": 8,
+        "instructionText": "As soon as they come out of the oven, transfer them to a baking rack to cool so that they don’t continue cooking in the pan."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "peanut butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-peanut-butter"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "fat free yoghurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "vanilla essence",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "coconut flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coconut-flour"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "vanilla whey protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "water",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-water"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "vanilla whey protein",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "water",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-water"
+        }
+      },
+      {
+        "componentKey": "sl13",
+        "name": "medium fat cream cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cream-cheese-light"
+        }
+      },
+      {
+        "componentKey": "sl14",
+        "name": "sprinkles",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-sprinkles"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 110,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 100,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 1.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "s1",
+        "slotKey": "sl5",
+        "quantityValue": 1.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "s1",
+        "slotKey": "sl6",
+        "quantityValue": 0.3333333333333333,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "s1",
+        "slotKey": "sl7",
+        "quantityValue": 28,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "s1",
+        "slotKey": "sl8",
+        "quantityValue": 40,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "s1",
+        "slotKey": "sl9",
+        "quantityValue": 6,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "s1",
+        "slotKey": "sl10",
+        "quantityValue": 1.75,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "s1",
+        "slotKey": "sl11",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "s1",
+        "slotKey": "sl12",
+        "quantityValue": 0.5,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u13",
+        "stepKey": "s1",
+        "slotKey": "sl13",
+        "quantityValue": 35,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u14",
+        "stepKey": "s1",
+        "slotKey": "sl14",
+        "quantityValue": 2,
+        "quantityUnit": "tsp"
+      }
+    ]
+  }
+}

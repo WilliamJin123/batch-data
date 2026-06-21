@@ -1,0 +1,192 @@
+{
+  "name": "Caramelized Biscuit Chocolate Banana Protein Cake",
+  "description": "A high protein, high fibre, flourless, no added sugar, probiotic, simple, macro-friendly cake layered with caramelised biscuit protein cream and a low-calorie biscoff and choc sauce. Perfect for satisfying chocolate cravings while staying on track with fitness goals. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "cake",
+    "banana",
+    "caramel",
+    "protein"
+  ],
+  "yield": {
+    "amount": 1,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "In a bowl, whisk your egg, then add mashed banana, cacao, and optional sweetener to taste. Mix until combined. Alternatively, add all ingredients to a blender and mix until smooth."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "Pour into a greased large ramekin (12cm) and microwave for 3 minutes on high (900w) or until a toothpick test comes out clean."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Cool the cake, then slice horizontally to create two layers."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "For the filling: in a bowl, mix your yogurt with vegan protein until combined and spreadable. Add some water if it’s too thick. Spread half of the filling evenly on the bottom layer."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Place the top layer back onto the filled bottom layer."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "instructionText": "Spread the remainder of the filling on top."
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "Garnish: mix biscoff spread with water until you get a sauce consistency and drizzle over the cake. Optionally, add some no-added-sugar choc sauce or cacao sauce for extra deliciousness."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "egg egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "banana",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-banana"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "cacao",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "vanilla protein yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "vegan protein (Caramelised Biscuit Flavour)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "biscoff spread",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-biscoff-spread"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "no added sugar choc sauce",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-syrup-chocolate-zero"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 150,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 35,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "s1",
+        "slotKey": "sl5",
+        "quantityValue": 0.25,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "s1",
+        "slotKey": "sl6",
+        "quantityValue": 100,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "s1",
+        "slotKey": "sl7",
+        "quantityValue": 20,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "s1",
+        "slotKey": "sl8",
+        "quantityValue": 5,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "s1",
+        "slotKey": "sl9",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      }
+    ]
+  }
+}

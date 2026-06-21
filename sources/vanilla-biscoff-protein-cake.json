@@ -1,0 +1,226 @@
+{
+  "name": "Vanilla & Biscoff Protein Cake",
+  "description": "A simple and delicious protein cake with vanilla and Biscoff frosting, boasting 40g of protein. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "cake",
+    "biscoff",
+    "protein"
+  ],
+  "yield": {
+    "amount": 1,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Preheat oven to 180°C and grease a mini cake tin (4 inch)."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "Sieve all dry ingredients for the cake into a mixing bowl and whisk to combine."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Add wet ingredients for the cake into a separate bowl and mix to combine."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Pour the cake batter into the mini cake tin and bake for 20 minutes, or until cooked through. Remove from oven and let it cool."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "While the cake is cooling, prepare the frosting by adding all frosting ingredients to a bowl and stirring to combine. Chill in the fridge for 10-15 minutes to thicken."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "instructionText": "Once the cake has cooled and the frosting has thickened, cut the cake in half and spread Biscoff frosting between the layers."
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "Place the top half of the cake on and coat the entire cake with the remaining frosting."
+      },
+      {
+        "componentKey": "s8",
+        "order": 8,
+        "instructionText": "Enjoy your creation!"
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "Oat Flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-oat-flour"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "Vanilla Whey Protein",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "Baking Soda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-soda"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "Baking Powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "egg white Egg White",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-white"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "Low Fat Greek Yoghurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "Almond Milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-milk-unsweetened"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "Low Fat Greek Yoghurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "Vanilla Casein Protein",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-casein"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "Biscoff Spread",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-biscoff-spread"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 2,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 2,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "s1",
+        "slotKey": "sl5",
+        "quantityValue": 1.25,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "s1",
+        "slotKey": "sl6",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "s1",
+        "slotKey": "sl7",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "s1",
+        "slotKey": "sl8",
+        "quantityValue": 60,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "s1",
+        "slotKey": "sl9",
+        "quantityValue": 100,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "s1",
+        "slotKey": "sl10",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "s1",
+        "slotKey": "sl11",
+        "quantityValue": 20,
+        "quantityUnit": "g"
+      }
+    ]
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "name": "Protein S'mores Brownies",
+  "description": "Need S’more protein? Try these healthy brownies with a s'mores twist. Features a graham cracker base, fudgy brownie layer, and a creamy frosting. Macros per brownie: ~320 calories, 26g protein. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "brownie",
+    "smores",
+    "protein"
+  ],
+  "yield": {
+    "amount": 4,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Preheat oven to 350°F."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "Crush graham crackers and mix with maple syrup. Press this mixture onto the bottom of a 9x5 loaf pan."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Combine all brownie ingredients in a bowl and mix well. Spread this batter evenly over the graham cracker base."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Bake for approximately 45 minutes, or until a toothpick inserted into the center comes out clean. Be careful not to overbake, as this can affect the fudgy texture."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "While the brownies bake, prepare the frosting by mixing all frosting ingredients together until smooth. If using pudding mix, add it to thicken the frosting."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "instructionText": "Once the brownies have cooled slightly, spread the frosting evenly over the top."
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "Sprinkle crushed graham crackers over the frosting. If desired, prepare the chocolate drizzle by melting the oil and chocolate together in the microwave in 30-second intervals until smooth, then drizzle over the brownies."
+      },
+      {
+        "componentKey": "s8",
+        "order": 8,
+        "instructionText": "Cut the brownies into four pieces to create squares. For the best texture and flavor, chill the brownies in the refrigerator before serving."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "Graham cracker",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-graham-crumbs"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "Sugar-free maple syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-syrup-maple-sf"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "Pumpkin purée",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pumpkin-puree"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "eggs Eggs",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "Vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "Dark cocoa powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "Protein powder (birthday cake flavor)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "Protein powder (birthday cake flavor)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl13",
+        "name": "Sugar-free Jell-O pudding mix",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pudding-vanilla-sf"
+        }
+      },
+      {
+        "componentKey": "sl14",
+        "name": "crushed Graham crackers",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-graham-crumbs"
+        }
+      },
+      {
+        "componentKey": "sl15",
+        "name": "coconut oil",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coconut-oil"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 8,
+        "quantityUnit": "sheet"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 90,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 240,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 227,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "s1",
+        "slotKey": "sl5",
+        "quantityValue": 8.25,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "s1",
+        "slotKey": "sl6",
+        "quantityValue": 2,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "s1",
+        "slotKey": "sl7",
+        "quantityValue": 3,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "s1",
+        "slotKey": "sl8",
+        "quantityValue": 80,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "s1",
+        "slotKey": "sl9",
+        "quantityValue": 74,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "s1",
+        "slotKey": "sl10",
+        "quantityValue": 113,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "s1",
+        "slotKey": "sl11",
+        "quantityValue": 4,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "s1",
+        "slotKey": "sl12",
+        "quantityValue": 19,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u13",
+        "stepKey": "s1",
+        "slotKey": "sl13",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u14",
+        "stepKey": "s1",
+        "slotKey": "sl14",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u15",
+        "stepKey": "s1",
+        "slotKey": "sl15",
+        "quantityValue": 3,
+        "quantityUnit": "tbsp"
+      }
+    ]
+  }
+}

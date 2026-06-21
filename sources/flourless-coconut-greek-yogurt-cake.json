@@ -1,0 +1,161 @@
+{
+  "name": "Flourless Coconut Greek Yogurt Cake",
+  "description": "A naturally gluten-free cake that’s soft, moist, and made with just 7 simple ingredients. No flour, no boxed mix — just real food that tastes like comfort in every bite. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "cake",
+    "coconut",
+    "protein"
+  ],
+  "yield": {
+    "amount": 8,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Preheat oven to 350°F and line or grease an 8-inch cake pan."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "Whisk eggs until light and frothy."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Mix in honey, Greek yogurt, and vanilla until smooth."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Fold in coconut, baking powder, and salt."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Pour batter into pan and smooth the top."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "instructionText": "Bake for 28–35 minutes until golden and set in the center."
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "Cool for 10 minutes before slicing."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "eggs",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "honey",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-honey"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "plain Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "unsweetened shredded coconut",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coconut-flour"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 3,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "s1",
+        "slotKey": "sl5",
+        "quantityValue": 1.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "s1",
+        "slotKey": "sl6",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "s1",
+        "slotKey": "sl7",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      }
+    ]
+  }
+}

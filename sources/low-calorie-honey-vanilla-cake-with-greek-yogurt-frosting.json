@@ -1,0 +1,276 @@
+{
+  "name": "Low Calorie Honey Vanilla Cake with Greek Yogurt Frosting",
+  "description": "A light and fluffy honey vanilla cake, made healthier with Greek yogurt frosting. This recipe is designed to be lower in calories and higher in protein, perfect for impressing guests or satisfying a sweet craving. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "cake",
+    "honey",
+    "protein"
+  ],
+  "yield": {
+    "amount": 7,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "In separate bowls, mix the wet ingredients and the dry ingredients."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "Combine the wet and dry mixtures together."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Fill a springform pan no more than halfway up. The pan size can be 5, 6, or 7 inches."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Bake at 305°F for 15 minutes. The baking temperature is lower because the oven runs hot. After 15 minutes, cover the cake with aluminum foil and bake for another 8 minutes."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Remove the cake from the oven and let it cool in the pan for at least 15 minutes without disturbing it."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "instructionText": "While the cake is cooling, prepare the frosting by mixing the frosting ingredients until the mixture is thick."
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "Spread the frosting over the cooled cake."
+      },
+      {
+        "componentKey": "s8",
+        "order": 8,
+        "instructionText": "Enjoy your cake!"
+      },
+      {
+        "componentKey": "s9",
+        "order": 9,
+        "instructionText": "Chef’s Note: To make removal easier, line your springform pan with cooking spray and parchment paper. Cut parchment paper to fit the bottom, spray the bottom to help it stick, and then spray the sides."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "nonfat greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "powdered casein",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-casein"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "low cal butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "honey",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-honey"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "eggs",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "nonfat milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-skim-milk"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "nonfat greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "all purpose flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "baking soda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-soda"
+        }
+      },
+      {
+        "componentKey": "sl13",
+        "name": "sea salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl14",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 2,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 150,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 25,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 113,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "s1",
+        "slotKey": "sl5",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "s1",
+        "slotKey": "sl6",
+        "quantityValue": 3,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "s1",
+        "slotKey": "sl7",
+        "quantityValue": 1.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "s1",
+        "slotKey": "sl8",
+        "quantityValue": 59,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "s1",
+        "slotKey": "sl9",
+        "quantityValue": 57,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "s1",
+        "slotKey": "sl10",
+        "quantityValue": 128,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "s1",
+        "slotKey": "sl11",
+        "quantityValue": 1.25,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "s1",
+        "slotKey": "sl12",
+        "quantityValue": 0.25,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u13",
+        "stepKey": "s1",
+        "slotKey": "sl13",
+        "quantityValue": 0.25,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u14",
+        "stepKey": "s1",
+        "slotKey": "sl14",
+        "quantityValue": 8.25,
+        "quantityUnit": "tbsp"
+      }
+    ]
+  }
+}

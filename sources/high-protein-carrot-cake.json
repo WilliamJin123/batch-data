@@ -1,0 +1,161 @@
+{
+  "name": "High Protein Carrot Cake",
+  "description": "A single-serve, high-protein, no-added-sugar, low-carb, high-fiber, and gluten-free carrot cake that uses vegan protein powder instead of traditional flour. Perfect for a healthy and delicious dessert that fuels your goals. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "carrot-cake",
+    "cake",
+    "protein"
+  ],
+  "yield": {
+    "amount": 1,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "In a bowl, use a hand blender or whisk to mix the cake ingredients until smooth."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "Add the baking powder and a splash of water, then gently fold to combine."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Pour the batter into a greased ramekin and bake in a preheated oven at 180°C for about 20 minutes."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Let cool slightly, then top with yoghurt, chopped nuts, cinnamon, and maple syrup."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "egg egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "finely grated carrot",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-carrot"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "vegan protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "almond milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-milk-unsweetened"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "vanilla protein yoghurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "chopped nuts",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-walnuts"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "maple syrup and cinnamon",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cinnamon-ground"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 30,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "s1",
+        "slotKey": "sl5",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "s1",
+        "slotKey": "sl6",
+        "quantityValue": 50,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "s1",
+        "slotKey": "sl7",
+        "quantityValue": 3,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "s1",
+        "slotKey": "sl8",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      }
+    ]
+  }
+}

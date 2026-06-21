@@ -1,0 +1,301 @@
+{
+  "name": "84 Calorie High Protein Layered Cosmic Brownie Cake",
+  "description": "A high-protein, low-calorie layered cosmic brownie cake, perfect for a healthier dessert option. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "tags": [
+    "brownie",
+    "cosmic",
+    "protein"
+  ],
+  "yield": {
+    "amount": 10,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Preheat oven to 350°F."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "In a mixing bowl, combine the dry ingredients."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Add the wet ingredients to the dry ingredients and mix thoroughly. Place the batter in the fridge for 10 minutes to thicken."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Spray or line 2 small/medium circular baking dishes with parchment paper. Divide the batter evenly between the two dishes. Bake for 10-12 minutes, slightly underbaking. Let cool for at least 12 minutes."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "While the cakes are cooling, prepare the filling frosting in another mixing bowl by stirring the ingredients together."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "instructionText": "In a separate mixing bowl, prepare the top layer frosting by stirring the ingredients together."
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "Spread the mixed filling frosting onto one of the cooled cakes and place the other cake on top."
+      },
+      {
+        "componentKey": "s8",
+        "order": 8,
+        "instructionText": "Apply the mixed top layer frosting to the top cake, then sprinkle with the topping ingredients. Chill in the refrigerator for at least 1 hour to allow the frosting to thicken before serving. Enjoy!"
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "Black Cocoa Powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "Chocolate Casein Protein Powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-chocolate"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "All Purpose Flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "Baking Soda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-soda"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "Egg Whites",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-white"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "Water",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-water"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "Plain Nonfat Greek Yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "Nonfat Cream Cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cream-cheese-light"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "Cocoa Powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "Chocolate Protein Powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-chocolate"
+        }
+      },
+      {
+        "componentKey": "sl13",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl14",
+        "name": "Almond Milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-milk-unsweetened"
+        }
+      },
+      {
+        "componentKey": "sl15",
+        "name": "Cocoa Powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl16",
+        "name": "Confetti",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-sprinkles"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "s1",
+        "slotKey": "sl1",
+        "quantityValue": 40,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "s1",
+        "slotKey": "sl2",
+        "quantityValue": 36,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "s1",
+        "slotKey": "sl3",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "s1",
+        "slotKey": "sl4",
+        "quantityValue": 6.4,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "s1",
+        "slotKey": "sl5",
+        "quantityValue": 6,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "s1",
+        "slotKey": "sl6",
+        "quantityValue": 368,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "s1",
+        "slotKey": "sl7",
+        "quantityValue": 180,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "s1",
+        "slotKey": "sl8",
+        "quantityValue": 113,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "s1",
+        "slotKey": "sl9",
+        "quantityValue": 56,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "s1",
+        "slotKey": "sl10",
+        "quantityValue": 4.5,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "s1",
+        "slotKey": "sl11",
+        "quantityValue": 10,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "s1",
+        "slotKey": "sl12",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u13",
+        "stepKey": "s1",
+        "slotKey": "sl13",
+        "quantityValue": 5.25,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u14",
+        "stepKey": "s1",
+        "slotKey": "sl14",
+        "quantityValue": 30,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u15",
+        "stepKey": "s1",
+        "slotKey": "sl15",
+        "quantityValue": 10,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u16",
+        "stepKey": "s1",
+        "slotKey": "sl16",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      }
+    ]
+  }
+}
