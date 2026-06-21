@@ -1,6 +1,6 @@
 {
   "name": "Banana Butterscotch Cinnamon Cheesecake",
-  "tags": [],
+  "tags": ["cheesecake", "protein", "banana", "butterscotch", "cinnamon"],
   "yield": {
     "amount": 8,
     "unit": "slices"
