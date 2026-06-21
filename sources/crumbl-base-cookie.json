@@ -1,6 +1,6 @@
 {
   "name": "Crumbl Base Protein Cookie",
-  "description": "The shared base cookie for the crumbl protein-cookie family \u2014 the flavor-neutral vanilla chassis every flavor derives from. Built from the tested-excellent set: Birthday Cake + Lemon dough at 1.5 scoops plus their shared cornstarch soft-crumb trick, with a lean egg white for structure. Frosting is a sub_recipe pin (defaults to the Cool-Whip vanilla protein frosting); flavors swap the pin \u2014 cream cheese for red velvet, a lemon drizzle for lemon. The 20g newcomer's heavier protein-load stays a queued experiment. Sweetener is granulated Splenda (calorically modeled, never monk fruit).",
+  "description": "The shared base cookie for the crumbl protein-cookie family — the flavor-neutral vanilla chassis every flavor derives from. Built from the tested-excellent set: Birthday Cake + Lemon dough at 1.5 scoops plus their shared cornstarch soft-crumb trick, with a lean egg white for structure. Frosting is a sub_recipe pin (defaults to the Cool-Whip vanilla protein frosting); flavors swap the pin — cream cheese for red velvet, a lemon drizzle for lemon. The 20g newcomer's heavier protein-load stays a queued experiment. Sweetener is granulated Splenda (calorically modeled, never monk fruit).",
   "tags": [
     "crumbl",
     "cookie",
@@ -17,13 +17,13 @@
         "componentKey": "b1",
         "order": 1,
         "section": "Cookie",
-        "instructionText": "Mix the dry ingredients into a bowl \u2014 flour, vanilla protein, Splenda, baking powder, salt."
+        "instructionText": "Mix the dry ingredients into a bowl — flour, vanilla protein, Splenda, baking powder, salt."
       },
       {
         "componentKey": "b2",
         "order": 2,
         "section": "Cookie",
-        "instructionText": "Add the wet ingredients \u2014 egg, melted butter, Greek yogurt, almond milk, vanilla \u2014 and mix to a dough. If dry, add the almond milk 1 tsp at a time until it just comes together."
+        "instructionText": "Add the wet ingredients — egg, melted butter, Greek yogurt, almond milk, vanilla — and mix to a dough. If dry, add the almond milk 1 tsp at a time until it just comes together."
       },
       {
         "componentKey": "b3",
@@ -37,7 +37,7 @@
         "section": "Cookie",
         "temperature": 350,
         "timerSeconds": 540,
-        "instructionText": "Bake at 350F for ~9 minutes \u2014 pull while the centers still look soft; they firm up as they cool."
+        "instructionText": "Bake at 350F for ~9 minutes — pull while the centers still look soft; they firm up as they cool."
       },
       {
         "componentKey": "b5",
@@ -234,7 +234,7 @@
         "componentKey": "u-egg-white",
         "stepKey": "b2",
         "slotKey": "sl-egg-white",
-        "quantityValue": 33,
+        "quantityValue": 30,
         "quantityUnit": "g"
       },
       {

@@ -196,7 +196,7 @@
     },
     "densityGPerMl": 1.03,
     "unitEquivalences": {
-      "each": 33
+      "each": 30
     }
   },
   {
@@ -210,7 +210,7 @@
       "fiber": 0
     },
     "unitEquivalences": {
-      "each": 50
+      "each": 44
     }
   },
   {
