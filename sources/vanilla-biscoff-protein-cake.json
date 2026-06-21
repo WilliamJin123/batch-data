@@ -1,13 +1,13 @@
 {
   "name": "Vanilla & Biscoff Protein Cake",
-  "description": "A simple and delicious protein cake with vanilla and Biscoff frosting, boasting 40g of protein. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "description": "A simple protein cake with vanilla and Biscoff frosting — about 47 g protein per cake (4 servings ≈ 12 g protein, 116 cal each). House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
   "tags": [
     "cake",
     "biscoff",
     "protein"
   ],
   "yield": {
-    "amount": 1,
+    "amount": 4,
     "unit": "servings"
   },
   "content": {

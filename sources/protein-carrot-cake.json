@@ -1,14 +1,14 @@
 {
   "name": "Protein Carrot Cake",
-  "description": "A delicious and protein-packed carrot cake recipe with approximately 500 calories and 75g of protein per serving. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "description": "A protein-packed carrot cake — about 575 cal and 79 g protein for the whole cake (6 slices ≈ 96 cal, 13 g protein, 1 g fat each). Tuned with 1 tsp apple cider vinegar + ½ tsp baking soda for a softer, higher-rising crumb. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
   "tags": [
     "carrot-cake",
     "cake",
     "protein"
   ],
   "yield": {
-    "amount": 1,
-    "unit": "servings"
+    "amount": 6,
+    "unit": "slices"
   },
   "content": {
     "steps": [
@@ -99,6 +99,22 @@
           "kind": "raw",
           "libraryIngredientId": "ing-cinnamon-ground"
         }
+      },
+      {
+        "componentKey": "sl-soda",
+        "name": "baking soda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-soda"
+        }
+      },
+      {
+        "componentKey": "sl-acv",
+        "name": "apple cider vinegar",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-acv"
+        }
       }
     ],
     "usages": [
@@ -150,6 +166,20 @@
         "slotKey": "sl7",
         "quantityValue": 1,
         "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u-soda",
+        "stepKey": "s2",
+        "slotKey": "sl-soda",
+        "quantityValue": 2,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-acv",
+        "stepKey": "s2",
+        "slotKey": "sl-acv",
+        "quantityValue": 5,
+        "quantityUnit": "g"
       }
     ]
   }
