@@ -17,14 +17,20 @@
         "componentKey": "b1",
         "order": 1,
         "section": "batter",
-        "instructionText": "Mix everything except the carrot into a smooth batter, then fold in the grated carrot. Pour into a lined loaf tin."
+        "instructionText": "Whisk the wet ingredients (Greek yogurt, eggs, milk, oil, vanilla, Splenda) until smooth. Add the dry — flour, protein powder, baking powder, baking soda, salt, cinnamon — and stir JUST until no dry streaks remain. Don't overmix: the flour's gluten plus the protein powder turn an over-worked batter dense and rubbery. Fold in the grated carrot last, then pour into a lined loaf tin."
       },
       {
         "componentKey": "b2",
         "order": 2,
         "section": "bake",
-        "instructionText": "Bake at 180C / 350F about 25 min until set. Cool before slicing into 16.",
+        "instructionText": "Bake at 350F (180C) until a skewer in the centre comes out clean and the middle is set (~200F internal) — about 40-50 min for a filled loaf tin; start checking at 35. Don't pull at 25 min, that's far too short for a loaf this deep. If the top colours before the centre sets, tent loosely with foil.",
         "temperature": 180
+      },
+      {
+        "componentKey": "b3",
+        "order": 3,
+        "section": "cool",
+        "instructionText": "Rest in the pan 10-15 min (it's fragile straight from the oven), then turn out onto a wire rack and cool COMPLETELY before slicing into 16. A warm protein loaf slices gummy and squashes; fully cooled it firms up and cuts clean. Even better the next day, wrapped at room temp."
       }
     ],
     "slots": [
