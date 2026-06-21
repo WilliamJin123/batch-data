@@ -1,0 +1,347 @@
+{
+  "name": "Blueberry Crumble Protein Bars",
+  "description": "A cooked blueberry filling between a protein crumble crust and topping, baked in an 8x8 and chilled before cutting into 9. House calibration: the recipe's sugar-substitute is swapped for granulated Splenda, volume-matched to its sweetness (Splenda's small maltodextrin calories are counted); eggs are medium. The 55 g cold light butter is replaced with 27 g real butter at matched calories; the 10 g honey in the filling is kept (small, structural).",
+  "tags": [
+    "bars",
+    "blueberry",
+    "protein",
+    "baked"
+  ],
+  "yield": {
+    "amount": 9,
+    "unit": "bars"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "f1",
+        "order": 1,
+        "section": "filling",
+        "instructionText": "Simmer the blueberries, Splenda, honey, vanilla, and salt; stir in a cornstarch-and-water slurry and cook 4-6 min until thick and glossy. Cool 10-15 min."
+      },
+      {
+        "componentKey": "c1",
+        "order": 2,
+        "section": "crumble",
+        "instructionText": "Whisk the flour, oat flour, protein, oats, graham crumbs, baking powder, and salt. Cut in the cold butter to chunky crumbs, then fold in a mix of Greek yogurt, applesauce, egg, Splenda, and vanilla into a crumbly dough."
+      },
+      {
+        "componentKey": "a1",
+        "order": 3,
+        "section": "assembly",
+        "instructionText": "Press about 65% of the dough into a lined 8x8 pan; spread the filling; top with the remaining dough in clusters. Bake at 350F 34-38 min until golden and bubbling.",
+        "temperature": 350
+      },
+      {
+        "componentKey": "a2",
+        "order": 4,
+        "section": "assembly",
+        "instructionText": "Cool fully, then chill 2 h before cutting into 9 bars."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "frozen blueberries",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-blueberries"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "honey",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-honey"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "cornstarch",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cornstarch"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "water",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-water"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "all-purpose flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "oat flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-oat-flour"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "quick oats",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-rolled-oats"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "graham cracker crumbs",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-graham-crumbs"
+        }
+      },
+      {
+        "componentKey": "sl13",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl14",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl15",
+        "name": "cold butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl16",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl17",
+        "name": "unsweetened applesauce",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-applesauce"
+        }
+      },
+      {
+        "componentKey": "sl18",
+        "name": "egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl19",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl20",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "f1",
+        "slotKey": "sl1",
+        "quantityValue": 550,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "f1",
+        "slotKey": "sl2",
+        "quantityValue": 3,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "f1",
+        "slotKey": "sl3",
+        "quantityValue": 10,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "f1",
+        "slotKey": "sl4",
+        "quantityValue": 3,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "f1",
+        "slotKey": "sl5",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "f1",
+        "slotKey": "sl6",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "f1",
+        "slotKey": "sl7",
+        "quantityValue": 35,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "c1",
+        "slotKey": "sl8",
+        "quantityValue": 120,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "c1",
+        "slotKey": "sl9",
+        "quantityValue": 70,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "c1",
+        "slotKey": "sl10",
+        "quantityValue": 95,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "c1",
+        "slotKey": "sl11",
+        "quantityValue": 55,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "c1",
+        "slotKey": "sl12",
+        "quantityValue": 25,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u13",
+        "stepKey": "c1",
+        "slotKey": "sl13",
+        "quantityValue": 1.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u14",
+        "stepKey": "c1",
+        "slotKey": "sl14",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u15",
+        "stepKey": "c1",
+        "slotKey": "sl15",
+        "quantityValue": 27,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u16",
+        "stepKey": "c1",
+        "slotKey": "sl16",
+        "quantityValue": 120,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u17",
+        "stepKey": "c1",
+        "slotKey": "sl17",
+        "quantityValue": 55,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u18",
+        "stepKey": "c1",
+        "slotKey": "sl18",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u19",
+        "stepKey": "c1",
+        "slotKey": "sl19",
+        "quantityValue": 3,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u20",
+        "stepKey": "c1",
+        "slotKey": "sl20",
+        "quantityValue": 5,
+        "quantityUnit": "g"
+      }
+    ]
+  }
+}

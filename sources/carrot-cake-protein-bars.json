@@ -1,0 +1,237 @@
+{
+  "name": "Carrot Cake Protein Bars",
+  "description": "Blended-cottage-cheese carrot bars in an 8x8 with a Greek-yogurt icing, cut into 9. House calibration: the recipe's sugar-substitute is swapped for granulated Splenda, volume-matched to its sweetness (Splenda's small maltodextrin calories are counted); eggs are medium. Sugar-free maple syrup is kept as the liquid sweetener.",
+  "tags": [
+    "carrot-cake",
+    "bars",
+    "protein",
+    "baked",
+    "frosted"
+  ],
+  "yield": {
+    "amount": 9,
+    "unit": "bars"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "b1",
+        "order": 1,
+        "section": "bars",
+        "instructionText": "Preheat to 350F and line an 8x8 dish. Whisk the cottage cheese, eggs, vanilla, and SF maple syrup, then mix in the flour, grated carrot, baking powder, cinnamon, nutmeg, ginger, and salt. Spread into the dish."
+      },
+      {
+        "componentKey": "b2",
+        "order": 2,
+        "section": "bars",
+        "instructionText": "Bake 25-30 min. Cool completely.",
+        "temperature": 350
+      },
+      {
+        "componentKey": "i1",
+        "order": 3,
+        "section": "icing",
+        "instructionText": "Stir the Greek yogurt with the Splenda into an icing, spread over the cooled bars, and dust with cinnamon. Cut into 9."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "blended cottage cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cottage-cheese"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "all-purpose flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "grated carrot",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-carrot"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "sugar-free maple syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-syrup-maple-sf"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "cinnamon",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cinnamon-ground"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "nutmeg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-nutmeg"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "ground ginger",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ginger-ground"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl13",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "b1",
+        "slotKey": "sl1",
+        "quantityValue": 225,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "b1",
+        "slotKey": "sl2",
+        "quantityValue": 2,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "b1",
+        "slotKey": "sl3",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "b1",
+        "slotKey": "sl4",
+        "quantityValue": 55,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "b1",
+        "slotKey": "sl5",
+        "quantityValue": 3,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "b1",
+        "slotKey": "sl6",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "b1",
+        "slotKey": "sl7",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "b1",
+        "slotKey": "sl8",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "b1",
+        "slotKey": "sl9",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "b1",
+        "slotKey": "sl10",
+        "quantityValue": 0.25,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "b1",
+        "slotKey": "sl11",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "i1",
+        "slotKey": "sl12",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u13",
+        "stepKey": "i1",
+        "slotKey": "sl13",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      }
+    ]
+  }
+}

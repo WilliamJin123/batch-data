@@ -1,0 +1,222 @@
+{
+  "name": "Cosmic Sprinkle Protein Cookies",
+  "description": "Fudgy chocolate protein cookies on a Greek-yogurt/pumpkin base, topped with a cocoa glaze and rainbow sprinkles. House calibration: the recipe's sugar-substitute is swapped for granulated Splenda, volume-matched to its sweetness (Splenda's small maltodextrin calories are counted); eggs are medium.",
+  "tags": [
+    "cookie",
+    "chocolate",
+    "protein",
+    "baked",
+    "frosted"
+  ],
+  "yield": {
+    "amount": 4,
+    "unit": "cookies"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "b1",
+        "order": 1,
+        "section": "cookies",
+        "instructionText": "Preheat to 350F. Mix the Greek yogurt, pumpkin, Splenda, egg, and vanilla, then stir in the cocoa, coconut flour, and protein. Scoop into balls with an ice-cream scoop."
+      },
+      {
+        "componentKey": "b2",
+        "order": 2,
+        "section": "cookies",
+        "instructionText": "Bake 10-12 min until set. Cool.",
+        "temperature": 350
+      },
+      {
+        "componentKey": "t1",
+        "order": 3,
+        "section": "topping",
+        "instructionText": "Stir milk into the cocoa and Splenda to a glaze, top the cookies, and finish with rainbow sprinkles."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "pumpkin puree",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pumpkin-puree"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "dark cocoa powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "coconut flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coconut-flour"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "birthday cake protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "dark cocoa powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "unsweetened almond milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-milk-unsweetened"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "rainbow sprinkles",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-sprinkles"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "b1",
+        "slotKey": "sl1",
+        "quantityValue": 113,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "b1",
+        "slotKey": "sl2",
+        "quantityValue": 120,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "b1",
+        "slotKey": "sl3",
+        "quantityValue": 4,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "b1",
+        "slotKey": "sl4",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "b1",
+        "slotKey": "sl5",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "b1",
+        "slotKey": "sl6",
+        "quantityValue": 40,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "b1",
+        "slotKey": "sl7",
+        "quantityValue": 21,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "b1",
+        "slotKey": "sl8",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "t1",
+        "slotKey": "sl9",
+        "quantityValue": 10,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "t1",
+        "slotKey": "sl10",
+        "quantityValue": 1.5,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "t1",
+        "slotKey": "sl11",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "t1",
+        "slotKey": "sl12",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      }
+    ]
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "name": "Carrot Cake with Cream Cheese Frosting",
+  "description": "An oat-flour carrot cake baked in an 8x8 with a cream-cheese protein frosting, cut into 9. House calibration: the recipe's sugar-substitute is swapped for granulated Splenda, volume-matched to its sweetness (Splenda's small maltodextrin calories are counted); eggs are medium.",
+  "tags": [
+    "carrot-cake",
+    "cake",
+    "protein",
+    "baked",
+    "frosted"
+  ],
+  "yield": {
+    "amount": 9,
+    "unit": "squares"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "b1",
+        "order": 1,
+        "section": "cake",
+        "instructionText": "Preheat to 350F and grease an 8x8 dish. Mix the Greek yogurt, protein, eggs, applesauce, Splenda, and vanilla until smooth. Stir in the oat flour, cinnamon, baking powder, and baking soda, then fold in the shredded carrot and walnuts. Spread into the dish."
+      },
+      {
+        "componentKey": "b2",
+        "order": 2,
+        "section": "cake",
+        "instructionText": "Bake 25-30 min until a toothpick comes out clean. Cool completely.",
+        "temperature": 350
+      },
+      {
+        "componentKey": "f1",
+        "order": 3,
+        "section": "frosting",
+        "instructionText": "Whip the cream cheese, Greek yogurt, protein, Splenda, and vanilla until smooth and spread over the cooled cake. Cut into 9."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "unsweetened applesauce",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-applesauce"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "oat flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-oat-flour"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "cinnamon",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cinnamon-ground"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "baking soda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-soda"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "grated carrot",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-carrot"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "chopped walnuts",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-walnuts"
+        }
+      },
+      {
+        "componentKey": "sl13",
+        "name": "light cream cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cream-cheese-light"
+        }
+      },
+      {
+        "componentKey": "sl14",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl15",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl16",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl17",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "b1",
+        "slotKey": "sl1",
+        "quantityValue": 1,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "b1",
+        "slotKey": "sl2",
+        "quantityValue": 2,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "b1",
+        "slotKey": "sl3",
+        "quantityValue": 2,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "b1",
+        "slotKey": "sl4",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "b1",
+        "slotKey": "sl5",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "b1",
+        "slotKey": "sl6",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "b1",
+        "slotKey": "sl7",
+        "quantityValue": 1,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "b1",
+        "slotKey": "sl8",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "b1",
+        "slotKey": "sl9",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "b1",
+        "slotKey": "sl10",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "b1",
+        "slotKey": "sl11",
+        "quantityValue": 110,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "b1",
+        "slotKey": "sl12",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u13",
+        "stepKey": "f1",
+        "slotKey": "sl13",
+        "quantityValue": 4,
+        "quantityUnit": "oz"
+      },
+      {
+        "componentKey": "u14",
+        "stepKey": "f1",
+        "slotKey": "sl14",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u15",
+        "stepKey": "f1",
+        "slotKey": "sl15",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u16",
+        "stepKey": "f1",
+        "slotKey": "sl16",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u17",
+        "stepKey": "f1",
+        "slotKey": "sl17",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      }
+    ]
+  }
+}

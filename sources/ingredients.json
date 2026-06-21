@@ -976,5 +976,125 @@
       "tsp": 5,
       "tbsp": 15
     }
+  },
+  {
+    "id": "ing-apple",
+    "name": "apple",
+    "macrosPer100g": {
+      "calories": 52,
+      "protein": 0.3,
+      "carbs": 13.8,
+      "fat": 0.2,
+      "fiber": 2.4
+    },
+    "unitEquivalences": {
+      "cup": 125,
+      "apple": 182,
+      "each": 182
+    }
+  },
+  {
+    "id": "ing-coffee-brewed",
+    "name": "brewed coffee",
+    "macrosPer100g": {
+      "calories": 1,
+      "protein": 0.1,
+      "carbs": 0,
+      "fat": 0,
+      "fiber": 0
+    },
+    "densityGPerMl": 1
+  },
+  {
+    "id": "ing-ladyfinger",
+    "name": "ladyfinger biscuits (savoiardi)",
+    "macrosPer100g": {
+      "calories": 400,
+      "protein": 8.6,
+      "carbs": 73,
+      "fat": 7.5,
+      "fiber": 1.5
+    },
+    "unitEquivalences": {
+      "ladyfinger": 7,
+      "each": 7
+    }
+  },
+  {
+    "id": "ing-rice-cake",
+    "name": "plain rice cake",
+    "macrosPer100g": {
+      "calories": 387,
+      "protein": 8.4,
+      "carbs": 81.5,
+      "fat": 2.8,
+      "fiber": 3
+    },
+    "unitEquivalences": {
+      "cake": 9,
+      "each": 9
+    }
+  },
+  {
+    "id": "ing-syrup-maple-sf",
+    "name": "sugar-free maple syrup",
+    "macrosPer100g": {
+      "calories": 30,
+      "protein": 0,
+      "carbs": 36,
+      "fat": 0,
+      "fiber": 35
+    },
+    "densityGPerMl": 1.3,
+    "unitEquivalences": {
+      "tbsp": 19.5,
+      "tsp": 6.5,
+      "cup": 312
+    }
+  },
+  {
+    "id": "ing-walnuts",
+    "name": "chopped walnuts",
+    "macrosPer100g": {
+      "calories": 654,
+      "protein": 15.2,
+      "carbs": 13.7,
+      "fat": 65.2,
+      "fiber": 6.7
+    },
+    "unitEquivalences": {
+      "tbsp": 7.5,
+      "cup": 117
+    }
+  },
+  {
+    "id": "ing-ginger-ground",
+    "name": "ground ginger",
+    "macrosPer100g": {
+      "calories": 335,
+      "protein": 9,
+      "carbs": 71.6,
+      "fat": 4.2,
+      "fiber": 14
+    },
+    "unitEquivalences": {
+      "tsp": 1.8,
+      "tbsp": 5.4
+    }
+  },
+  {
+    "id": "ing-fruity-pebbles",
+    "name": "Fruity Pebbles cereal",
+    "macrosPer100g": {
+      "calories": 387,
+      "protein": 4,
+      "carbs": 89,
+      "fat": 4.4,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "cup": 36,
+      "tbsp": 2.25
+    }
   }
 ]

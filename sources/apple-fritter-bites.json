@@ -1,0 +1,236 @@
+{
+  "name": "Apple Fritter Bites",
+  "description": "Baked apple-cinnamon protein bites on an oat-flour/whey-isolate base, scooped and glazed. House calibration: the recipe's sugar-substitute is swapped for granulated Splenda, volume-matched to its sweetness (Splenda's small maltodextrin calories are counted); eggs are medium.",
+  "tags": [
+    "apple-fritter",
+    "protein",
+    "baked",
+    "glazed"
+  ],
+  "yield": {
+    "amount": 12,
+    "unit": "bites"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "b1",
+        "order": 1,
+        "section": "bites",
+        "instructionText": "Preheat to 375F and line a sheet. Mix the eggs, applesauce, vanilla, and diced apple, then stir in the whey, oat flour, cinnamon, baking powder, and salt. Scoop into mounds with a cookie scoop."
+      },
+      {
+        "componentKey": "b2",
+        "order": 2,
+        "section": "bites",
+        "instructionText": "Bake 12-15 min until golden. Cool slightly.",
+        "temperature": 375
+      },
+      {
+        "componentKey": "g1",
+        "order": 3,
+        "section": "glaze",
+        "instructionText": "Whisk the whey, Splenda, milk, and vanilla into a glaze and drizzle over the warm bites."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "Honeycrisp apple, diced",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-apple"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "vanilla whey isolate",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-whey-isolate"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "oat flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-oat-flour"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "unsweetened applesauce",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-applesauce"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "cinnamon",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cinnamon-ground"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "vanilla whey isolate",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-whey-isolate"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "Fairlife fat-free milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-milk-fairlife-skim"
+        }
+      },
+      {
+        "componentKey": "sl13",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "b1",
+        "slotKey": "sl1",
+        "quantityValue": 1,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "b1",
+        "slotKey": "sl2",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "b1",
+        "slotKey": "sl3",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "b1",
+        "slotKey": "sl4",
+        "quantityValue": 2,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "b1",
+        "slotKey": "sl5",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "b1",
+        "slotKey": "sl6",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "b1",
+        "slotKey": "sl7",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "b1",
+        "slotKey": "sl8",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "b1",
+        "slotKey": "sl9",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "g1",
+        "slotKey": "sl10",
+        "quantityValue": 0.5,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "g1",
+        "slotKey": "sl11",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "g1",
+        "slotKey": "sl12",
+        "quantityValue": 1.5,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u13",
+        "stepKey": "g1",
+        "slotKey": "sl13",
+        "quantityValue": 0.25,
+        "quantityUnit": "tsp"
+      }
+    ]
+  }
+}

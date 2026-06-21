@@ -1,0 +1,206 @@
+{
+  "name": "Glazed Apple Fritter",
+  "description": "Two single-serve baked apple fritters on an AP-flour/protein base with a thin glaze. House calibration: the recipe's sugar-substitute is swapped for granulated Splenda, volume-matched to its sweetness (Splenda's small maltodextrin calories are counted); eggs are medium. The Swerve brown sugar is replaced with volume-matched Splenda (add a drop of molasses for brown-sugar notes if desired).",
+  "tags": [
+    "apple-fritter",
+    "protein",
+    "baked",
+    "glazed"
+  ],
+  "yield": {
+    "amount": 2,
+    "unit": "fritters"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "b1",
+        "order": 1,
+        "section": "fritter",
+        "instructionText": "Mix the Greek yogurt, melted butter, and Splenda. Stir in the flour, protein, baking powder, cinnamon, and nutmeg, then fold in the diced apple."
+      },
+      {
+        "componentKey": "b2",
+        "order": 2,
+        "section": "fritter",
+        "instructionText": "Preheat to 350F. Shape the batter into 2 fritter rounds on a greased sheet and bake 10-12 min. Cool 10 min.",
+        "temperature": 350
+      },
+      {
+        "componentKey": "g1",
+        "order": 3,
+        "section": "glaze",
+        "instructionText": "Stir the Splenda with the water into a glaze and drizzle over the fritters."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "melted butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "all-purpose flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "cinnamon",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cinnamon-ground"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "nutmeg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-nutmeg"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "diced apple",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-apple"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "water",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-water"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "b1",
+        "slotKey": "sl1",
+        "quantityValue": 56,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "b1",
+        "slotKey": "sl2",
+        "quantityValue": 10,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "b1",
+        "slotKey": "sl3",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "b1",
+        "slotKey": "sl4",
+        "quantityValue": 20,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "b1",
+        "slotKey": "sl5",
+        "quantityValue": 44,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "b1",
+        "slotKey": "sl6",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "b1",
+        "slotKey": "sl7",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "b1",
+        "slotKey": "sl8",
+        "quantityValue": 0.25,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "b1",
+        "slotKey": "sl9",
+        "quantityValue": 0.5,
+        "quantityUnit": "apple"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "g1",
+        "slotKey": "sl10",
+        "quantityValue": 1.5,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "g1",
+        "slotKey": "sl11",
+        "quantityValue": 3,
+        "quantityUnit": "ml"
+      }
+    ]
+  }
+}

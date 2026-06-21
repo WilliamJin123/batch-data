@@ -1,0 +1,144 @@
+{
+  "name": "Protein Tiramisu (Rice-Cake)",
+  "description": "A 2-ramekin no-bake tiramisu: a protein-pudding custard layered with coffee-soaked rice cakes and dusted with cocoa. House calibration: the recipe's sugar-substitute is swapped for granulated Splenda, volume-matched to its sweetness (Splenda's small maltodextrin calories are counted); eggs are medium.",
+  "tags": [
+    "tiramisu",
+    "protein",
+    "no-bake"
+  ],
+  "yield": {
+    "amount": 2,
+    "unit": "ramekins"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "a1",
+        "order": 1,
+        "section": "cream",
+        "instructionText": "Whisk the protein, Splenda, and pudding mix with a little cold water until smooth and runny, then fold in the Greek yogurt to a custard."
+      },
+      {
+        "componentKey": "a2",
+        "order": 2,
+        "section": "assembly",
+        "instructionText": "Brew coffee into a shallow bowl. In each 10oz ramekin layer custard, a coffee-soaked rice cake, custard, another soaked rice cake, custard, a final soaked rice cake, and a last custard layer."
+      },
+      {
+        "componentKey": "a3",
+        "order": 3,
+        "section": "assembly",
+        "instructionText": "Dust the tops with cocoa and serve."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "vanilla whey/casein protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "white chocolate SF pudding mix",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pudding-vanilla-sf"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "rice cakes",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-rice-cake"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "brewed coffee",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coffee-brewed"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "unsweetened cocoa powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "a1",
+        "slotKey": "sl1",
+        "quantityValue": 40,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "a1",
+        "slotKey": "sl2",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "a1",
+        "slotKey": "sl3",
+        "quantityValue": 6,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "a1",
+        "slotKey": "sl4",
+        "quantityValue": 120,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "a2",
+        "slotKey": "sl5",
+        "quantityValue": 6,
+        "quantityUnit": "cake"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "a2",
+        "slotKey": "sl6",
+        "quantityValue": 60,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "a3",
+        "slotKey": "sl7",
+        "quantityValue": 6,
+        "quantityUnit": "g"
+      }
+    ]
+  }
+}

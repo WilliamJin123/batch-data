@@ -1,0 +1,189 @@
+{
+  "name": "High-Protein Tiramisu (Ladyfinger)",
+  "description": "A 9-serving blender tiramisu: a cottage-cheese/Greek-yogurt protein cream layered with coffee-dipped ladyfingers, dusted with cocoa, set overnight. House calibration: the recipe's sugar-substitute is swapped for granulated Splenda, volume-matched to its sweetness (Splenda's small maltodextrin calories are counted); eggs are medium.",
+  "tags": [
+    "tiramisu",
+    "protein",
+    "no-bake"
+  ],
+  "yield": {
+    "amount": 9,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "a1",
+        "order": 1,
+        "section": "cream",
+        "instructionText": "Blend the protein, cottage cheese, Greek yogurt, pudding mix, salt, and cinnamon until smooth."
+      },
+      {
+        "componentKey": "a2",
+        "order": 2,
+        "section": "assembly",
+        "instructionText": "Pour coffee into a bowl. Dip half the ladyfingers and line a dish, spread half the cream, and dust with cinnamon. Repeat with the remaining ladyfingers and cream."
+      },
+      {
+        "componentKey": "a3",
+        "order": 3,
+        "section": "assembly",
+        "instructionText": "Dust the top with cocoa and refrigerate overnight."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "vanilla whey protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "2% cottage cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cottage-cheese"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "vanilla SF pudding mix",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pudding-vanilla-sf"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "cinnamon",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cinnamon-ground"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "ladyfingers",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ladyfinger"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "strong coffee",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coffee-brewed"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "cinnamon",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cinnamon-ground"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "unsweetened cocoa powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "a1",
+        "slotKey": "sl1",
+        "quantityValue": 50,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "a1",
+        "slotKey": "sl2",
+        "quantityValue": 8,
+        "quantityUnit": "oz"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "a1",
+        "slotKey": "sl3",
+        "quantityValue": 350,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "a1",
+        "slotKey": "sl4",
+        "quantityValue": 40,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "a1",
+        "slotKey": "sl5",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "a1",
+        "slotKey": "sl6",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "a2",
+        "slotKey": "sl7",
+        "quantityValue": 21,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "a2",
+        "slotKey": "sl8",
+        "quantityValue": 1.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "a2",
+        "slotKey": "sl9",
+        "quantityValue": 0.25,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "a3",
+        "slotKey": "sl10",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      }
+    ]
+  }
+}

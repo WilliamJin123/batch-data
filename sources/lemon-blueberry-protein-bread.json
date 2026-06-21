@@ -1,0 +1,238 @@
+{
+  "name": "Lemon Blueberry Protein Bread",
+  "description": "A light protein loaf with blueberry pockets and a set glaze, baked in a loaf tin and cut into 8. House calibration: the recipe's sugar-substitute is swapped for granulated Splenda, volume-matched to its sweetness (Splenda's small maltodextrin calories are counted); eggs are medium. The 18 g light butter is replaced with 9 g real butter at matched calories. Pull it slightly underdone; it keeps cooking as it cools.",
+  "tags": [
+    "cake",
+    "blueberry",
+    "lemon",
+    "protein",
+    "baked",
+    "glazed"
+  ],
+  "yield": {
+    "amount": 8,
+    "unit": "slices"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "b1",
+        "order": 1,
+        "section": "batter",
+        "instructionText": "Preheat to 350F and line a loaf tin. Whisk the egg, Greek yogurt, almond milk, melted butter, and lemon juice. Combine the flour, protein, Splenda, baking powder, and salt, then fold the dry into the wet. Fold in the blueberries and pour into the tin."
+      },
+      {
+        "componentKey": "b2",
+        "order": 2,
+        "section": "bake",
+        "instructionText": "Bake 30-35 min, pulling it slightly underdone (it keeps cooking). Cool.",
+        "temperature": 350
+      },
+      {
+        "componentKey": "g1",
+        "order": 3,
+        "section": "glaze",
+        "instructionText": "Stir the Splenda with the water into a glaze, spread over the cooled loaf, and chill 15 min to set. Slice into 8."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "unsweetened almond milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-milk-unsweetened"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "melted butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "lemon juice",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-lemon-juice"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "all-purpose flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "fresh blueberries",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-blueberries"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl13",
+        "name": "water",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-water"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "b1",
+        "slotKey": "sl1",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "b1",
+        "slotKey": "sl2",
+        "quantityValue": 170,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "b1",
+        "slotKey": "sl3",
+        "quantityValue": 60,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "b1",
+        "slotKey": "sl4",
+        "quantityValue": 9,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "b1",
+        "slotKey": "sl5",
+        "quantityValue": 15,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "b1",
+        "slotKey": "sl6",
+        "quantityValue": 50,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "b1",
+        "slotKey": "sl7",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "b1",
+        "slotKey": "sl8",
+        "quantityValue": 4,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "b1",
+        "slotKey": "sl9",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "b1",
+        "slotKey": "sl10",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "b1",
+        "slotKey": "sl11",
+        "quantityValue": 75,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "g1",
+        "slotKey": "sl12",
+        "quantityValue": 6,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u13",
+        "stepKey": "g1",
+        "slotKey": "sl13",
+        "quantityValue": 15,
+        "quantityUnit": "ml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "name": "Carrot Cake Loaf",
+  "description": "A plain-flour carrot loaf with no frosting, baked in a tin and sliced into 16. House calibration: the recipe's sugar-substitute is swapped for granulated Splenda, volume-matched to its sweetness (Splenda's small maltodextrin calories are counted); eggs are medium. The drizzle of olive oil is swapped for coconut oil.",
+  "tags": [
+    "carrot-cake",
+    "cake",
+    "protein",
+    "baked"
+  ],
+  "yield": {
+    "amount": 16,
+    "unit": "slices"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "b1",
+        "order": 1,
+        "section": "batter",
+        "instructionText": "Mix everything except the carrot into a smooth batter, then fold in the grated carrot. Pour into a lined loaf tin."
+      },
+      {
+        "componentKey": "b2",
+        "order": 2,
+        "section": "bake",
+        "instructionText": "Bake at 180C / 350F about 25 min until set. Cool before slicing into 16.",
+        "temperature": 180
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl1",
+        "name": "grated carrot",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-carrot"
+        }
+      },
+      {
+        "componentKey": "sl2",
+        "name": "egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl3",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl4",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl5",
+        "name": "all-purpose flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "skim milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-skim-milk"
+        }
+      },
+      {
+        "componentKey": "sl7",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl8",
+        "name": "cinnamon",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cinnamon-ground"
+        }
+      },
+      {
+        "componentKey": "sl9",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl10",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl11",
+        "name": "baking soda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-soda"
+        }
+      },
+      {
+        "componentKey": "sl12",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl13",
+        "name": "coconut oil",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coconut-oil"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u1",
+        "stepKey": "b1",
+        "slotKey": "sl1",
+        "quantityValue": 200,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "b1",
+        "slotKey": "sl2",
+        "quantityValue": 2,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "b1",
+        "slotKey": "sl3",
+        "quantityValue": 150,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "b1",
+        "slotKey": "sl4",
+        "quantityValue": 60,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "b1",
+        "slotKey": "sl5",
+        "quantityValue": 100,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "b1",
+        "slotKey": "sl6",
+        "quantityValue": 100,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "b1",
+        "slotKey": "sl7",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "b1",
+        "slotKey": "sl8",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "b1",
+        "slotKey": "sl9",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "b1",
+        "slotKey": "sl10",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "b1",
+        "slotKey": "sl11",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "b1",
+        "slotKey": "sl12",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u13",
+        "stepKey": "b1",
+        "slotKey": "sl13",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      }
+    ]
+  }
+}
