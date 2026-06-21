@@ -194,8 +194,8 @@
         "componentKey": "u9",
         "stepKey": "b1",
         "slotKey": "sl9",
-        "quantityValue": 1,
-        "quantityUnit": "tbsp"
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
       },
       {
         "componentKey": "u10",

@@ -97,6 +97,14 @@
           "kind": "raw",
           "libraryIngredientId": "ing-cinnamon-ground"
         }
+      },
+      {
+        "componentKey": "sl-splenda",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
       }
     ],
     "usages": [
@@ -155,6 +163,13 @@
         "slotKey": "sl8",
         "quantityValue": 1,
         "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u-splenda",
+        "stepKey": "s1",
+        "slotKey": "sl-splenda",
+        "quantityValue": 1.5,
+        "quantityUnit": "tbsp"
       }
     ]
   }

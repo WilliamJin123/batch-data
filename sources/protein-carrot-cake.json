@@ -115,6 +115,14 @@
           "kind": "raw",
           "libraryIngredientId": "ing-acv"
         }
+      },
+      {
+        "componentKey": "sl-splenda",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
       }
     ],
     "usages": [
@@ -180,6 +188,13 @@
         "slotKey": "sl-acv",
         "quantityValue": 5,
         "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-splenda",
+        "stepKey": "s2",
+        "slotKey": "sl-splenda",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
       }
     ]
   }
