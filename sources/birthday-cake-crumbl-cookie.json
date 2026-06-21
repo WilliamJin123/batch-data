@@ -1,0 +1,111 @@
+{
+  "name": "Birthday Cake Crumbl Cookie",
+  "description": "A Crumbl birthday-cake copycat that is really a chilled cream-cheese protein dip/frosting — cream cheese creamed with protein and sweetener, rainbow sprinkles folded through, no baked base. Same cream-cheese-frosting genre as the Protein Cream-Cheese Frosting sub-recipe (and its Cool-Whip sibling); eaten cold by the spoon or as a thick cookie. House calibration: 1 cup powdered sugar replaced with granulated Splenda (sweetness-matched); modeled with light cream cheese.",
+  "tags": [
+    "frosting",
+    "cream-cheese",
+    "crumbl",
+    "birthday-cake",
+    "protein",
+    "no-bake"
+  ],
+  "yield": {
+    "amount": 4,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "m1",
+        "order": 1,
+        "section": "mix",
+        "instructionText": "Cream the cream cheese, Splenda, protein powder, and vanilla until smooth."
+      },
+      {
+        "componentKey": "m2",
+        "order": 2,
+        "section": "mix",
+        "instructionText": "Fold in the rainbow sprinkles. Chill at least 30 minutes before serving."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-cream-cheese",
+        "name": "light cream cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cream-cheese-light"
+        }
+      },
+      {
+        "componentKey": "sl-splenda",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-protein",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-sprinkles",
+        "name": "rainbow sprinkles",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-sprinkles"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-cream-cheese",
+        "stepKey": "m1",
+        "slotKey": "sl-cream-cheese",
+        "quantityValue": 227,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-splenda",
+        "stepKey": "m1",
+        "slotKey": "sl-splenda",
+        "quantityValue": 1,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-protein",
+        "stepKey": "m1",
+        "slotKey": "sl-protein",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-vanilla",
+        "stepKey": "m1",
+        "slotKey": "sl-vanilla",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-sprinkles",
+        "stepKey": "m2",
+        "slotKey": "sl-sprinkles",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      }
+    ]
+  }
+}

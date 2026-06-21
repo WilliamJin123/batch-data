@@ -790,5 +790,190 @@
     "unitEquivalences": {
       "tsp": 4.4
     }
+  },
+  {
+    "id": "ing-biscoff-spread",
+    "name": "Biscoff cookie butter",
+    "macrosPer100g": {
+      "calories": 593,
+      "protein": 3.3,
+      "carbs": 58,
+      "fat": 31,
+      "fiber": 0.9
+    },
+    "unitEquivalences": {
+      "tbsp": 16
+    }
+  },
+  {
+    "id": "ing-biscoff-cookie",
+    "name": "Biscoff cookies",
+    "macrosPer100g": {
+      "calories": 484,
+      "protein": 5.3,
+      "carbs": 71,
+      "fat": 19.5,
+      "fiber": 1.6
+    },
+    "unitEquivalences": {
+      "cookie": 5.4,
+      "tbsp": 8
+    }
+  },
+  {
+    "id": "ing-carrot",
+    "name": "grated carrot",
+    "macrosPer100g": {
+      "calories": 41,
+      "protein": 0.9,
+      "carbs": 9.6,
+      "fat": 0.2,
+      "fiber": 2.8
+    }
+  },
+  {
+    "id": "ing-nutmeg",
+    "name": "ground nutmeg",
+    "macrosPer100g": {
+      "calories": 525,
+      "protein": 5.8,
+      "carbs": 49,
+      "fat": 36,
+      "fiber": 21
+    },
+    "unitEquivalences": {
+      "tsp": 2.2
+    }
+  },
+  {
+    "id": "ing-applesauce",
+    "name": "unsweetened applesauce",
+    "macrosPer100g": {
+      "calories": 42,
+      "protein": 0.2,
+      "carbs": 11.3,
+      "fat": 0.1,
+      "fiber": 1.1
+    },
+    "densityGPerMl": 1.05,
+    "unitEquivalences": {
+      "cup": 244,
+      "tbsp": 15
+    }
+  },
+  {
+    "id": "ing-laughing-cow-light",
+    "name": "Laughing Cow light cheese",
+    "macrosPer100g": {
+      "calories": 171,
+      "protein": 11.4,
+      "carbs": 5.7,
+      "fat": 11.4,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "triangle": 17.5
+    }
+  },
+  {
+    "id": "ing-whey-isolate",
+    "name": "whey protein isolate (plain)",
+    "macrosPer100g": {
+      "calories": 373,
+      "protein": 88,
+      "carbs": 2,
+      "fat": 1,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "scoop": 30
+    }
+  },
+  {
+    "id": "ing-collagen",
+    "name": "collagen peptides",
+    "macrosPer100g": {
+      "calories": 360,
+      "protein": 90,
+      "carbs": 0,
+      "fat": 0,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "scoop": 11
+    }
+  },
+  {
+    "id": "ing-sprinkles",
+    "name": "rainbow sprinkles",
+    "macrosPer100g": {
+      "calories": 389,
+      "protein": 0,
+      "carbs": 90,
+      "fat": 4,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "tbsp": 12,
+      "cup": 192
+    }
+  },
+  {
+    "id": "ing-blueberries",
+    "name": "fresh blueberries",
+    "macrosPer100g": {
+      "calories": 57,
+      "protein": 0.7,
+      "carbs": 14.5,
+      "fat": 0.3,
+      "fiber": 2.4
+    },
+    "unitEquivalences": {
+      "cup": 148,
+      "tbsp": 9
+    }
+  },
+  {
+    "id": "ing-lemon-zest",
+    "name": "lemon zest",
+    "macrosPer100g": {
+      "calories": 47,
+      "protein": 1.5,
+      "carbs": 16,
+      "fat": 0.3,
+      "fiber": 11
+    },
+    "unitEquivalences": {
+      "tsp": 2,
+      "zest": 6
+    }
+  },
+  {
+    "id": "ing-milk-fairlife-skim",
+    "name": "Fairlife fat-free milk",
+    "macrosPer100g": {
+      "calories": 32,
+      "protein": 5.2,
+      "carbs": 2.4,
+      "fat": 0,
+      "fiber": 0
+    },
+    "densityGPerMl": 1.04
+  },
+  {
+    "id": "ing-water",
+    "name": "water",
+    "macrosPer100g": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "fiber": 0
+    },
+    "densityGPerMl": 1,
+    "unitEquivalences": {
+      "tsp": 5,
+      "tbsp": 15
+    }
   }
 ]

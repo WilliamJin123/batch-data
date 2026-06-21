@@ -1,0 +1,241 @@
+{
+  "name": "High Protein Brookie",
+  "description": "A baked two-layer protein 'brookie' built on blended cottage cheese (not flour or butter): a cocoa brownie layer under a vanilla cookie layer, both leavened with baking powder, chocolate chips folded into each. Distinct from the flour-based Fudgy Protein Brownies — this is a cottage-cheese protein bake. House calibration: Swerve brown sugar replaced with granulated Splenda (sweetness-matched).",
+  "tags": [
+    "brownie",
+    "cookie",
+    "brookie",
+    "protein",
+    "baked",
+    "high-protein"
+  ],
+  "yield": {
+    "amount": 5,
+    "unit": "squares"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "br1",
+        "order": 1,
+        "section": "brownie layer",
+        "instructionText": "Combine the chocolate protein, Splenda, blended cottage cheese, cacao, and baking powder. Fold in the chocolate chips and spread into a parchment-lined baking pan."
+      },
+      {
+        "componentKey": "ck1",
+        "order": 2,
+        "section": "cookie layer",
+        "instructionText": "Combine the vanilla protein, Splenda, blended cottage cheese, vanilla, salt, and baking powder. Fold in the chocolate chips and pour over the brownie layer."
+      },
+      {
+        "componentKey": "bk1",
+        "order": 3,
+        "section": "bake",
+        "temperature": 350,
+        "timerSeconds": 2700,
+        "instructionText": "Bake at 350F for 45 minutes. Cool, then slice into 5 squares."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-choc-protein",
+        "name": "chocolate protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-chocolate"
+        }
+      },
+      {
+        "componentKey": "sl-splenda-br",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-cottage-br",
+        "name": "cottage cheese",
+        "prepDefault": "blended smooth",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cottage-cheese"
+        }
+      },
+      {
+        "componentKey": "sl-cacao",
+        "name": "cacao powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl-bp-br",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl-chips-br",
+        "name": "chocolate chips",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-chocolate-chips-semisweet"
+        }
+      },
+      {
+        "componentKey": "sl-van-protein",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-splenda-ck",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-cottage-ck",
+        "name": "cottage cheese",
+        "prepDefault": "blended smooth",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cottage-cheese"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-salt",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-bp-ck",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl-chips-ck",
+        "name": "chocolate chips",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-chocolate-chips-semisweet"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-choc-protein",
+        "stepKey": "br1",
+        "slotKey": "sl-choc-protein",
+        "quantityValue": 40,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-splenda-br",
+        "stepKey": "br1",
+        "slotKey": "sl-splenda-br",
+        "quantityValue": 3,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-cottage-br",
+        "stepKey": "br1",
+        "slotKey": "sl-cottage-br",
+        "quantityValue": 226,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-cacao",
+        "stepKey": "br1",
+        "slotKey": "sl-cacao",
+        "quantityValue": 10,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-bp-br",
+        "stepKey": "br1",
+        "slotKey": "sl-bp-br",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-chips-br",
+        "stepKey": "br1",
+        "slotKey": "sl-chips-br",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-van-protein",
+        "stepKey": "ck1",
+        "slotKey": "sl-van-protein",
+        "quantityValue": 40,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-splenda-ck",
+        "stepKey": "ck1",
+        "slotKey": "sl-splenda-ck",
+        "quantityValue": 3,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-cottage-ck",
+        "stepKey": "ck1",
+        "slotKey": "sl-cottage-ck",
+        "quantityValue": 226,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-vanilla",
+        "stepKey": "ck1",
+        "slotKey": "sl-vanilla",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-salt",
+        "stepKey": "ck1",
+        "slotKey": "sl-salt",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-bp-ck",
+        "stepKey": "ck1",
+        "slotKey": "sl-bp-ck",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-chips-ck",
+        "stepKey": "ck1",
+        "slotKey": "sl-chips-ck",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      }
+    ]
+  }
+}

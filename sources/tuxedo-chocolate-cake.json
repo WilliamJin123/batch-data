@@ -1,0 +1,340 @@
+{
+  "name": "Tuxedo Chocolate Cake",
+  "description": "A layered protein chocolate cake: a pumpkin + applesauce + cocoa + oat batter (no flour or oil), stacked with a vanilla cream-cheese icing and a chocolate cream-cheese icing both built on Laughing Cow light wedges + Greek yogurt + protein. Inspired by a fitfoodieliving cake. House calibration: all sweetener is granulated Splenda. Bake in 2-3 thin layers, cool, ice, and chill before slicing.",
+  "tags": [
+    "cake",
+    "chocolate",
+    "tuxedo",
+    "protein",
+    "baked",
+    "frosted"
+  ],
+  "yield": {
+    "amount": 4,
+    "unit": "servings"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "c1",
+        "order": 1,
+        "section": "cake",
+        "instructionText": "Blend the pumpkin, applesauce, Splenda, egg whites, vanilla, cocoa, oats, protein, and baking soda into a smooth batter. Divide between 2-3 parchment-lined pans."
+      },
+      {
+        "componentKey": "c2",
+        "order": 2,
+        "section": "cake",
+        "temperature": 350,
+        "instructionText": "Bake at 350F for 20-40 min (toothpick clean), depending on pan depth. Cool 10 min in the pan, then turn out and cool completely."
+      },
+      {
+        "componentKey": "iv1",
+        "order": 3,
+        "section": "vanilla icing",
+        "instructionText": "Mix the Laughing Cow, Greek yogurt, Splenda, vanilla, and vanilla protein smooth."
+      },
+      {
+        "componentKey": "ic1",
+        "order": 4,
+        "section": "chocolate icing",
+        "instructionText": "Mix the Laughing Cow, Greek yogurt, Splenda, cocoa, and chocolate protein smooth."
+      },
+      {
+        "componentKey": "a1",
+        "order": 5,
+        "section": "assemble",
+        "instructionText": "Coat the first layer with the vanilla icing, stack the second and coat with the chocolate icing, then top with the final layer. Refrigerate ~30 min before cutting into 4."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-pumpkin",
+        "name": "pumpkin puree",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pumpkin-puree"
+        }
+      },
+      {
+        "componentKey": "sl-applesauce",
+        "name": "unsweetened applesauce",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-applesauce"
+        }
+      },
+      {
+        "componentKey": "sl-splenda-c",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-egg-white",
+        "name": "egg whites",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-white"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla-c",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-cocoa-c",
+        "name": "cocoa powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl-oats",
+        "name": "oats",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-rolled-oats"
+        }
+      },
+      {
+        "componentKey": "sl-protein-c",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-soda",
+        "name": "baking soda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-soda"
+        }
+      },
+      {
+        "componentKey": "sl-lc-v",
+        "name": "Laughing Cow light cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-laughing-cow-light"
+        }
+      },
+      {
+        "componentKey": "sl-yogurt-v",
+        "name": "Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl-splenda-v",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla-v",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-protein-v",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-lc-c",
+        "name": "Laughing Cow light cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-laughing-cow-light"
+        }
+      },
+      {
+        "componentKey": "sl-yogurt-c",
+        "name": "Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl-splenda-ci",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-cocoa-i",
+        "name": "cocoa powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl-protein-ci",
+        "name": "chocolate protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-chocolate"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-pumpkin",
+        "stepKey": "c1",
+        "slotKey": "sl-pumpkin",
+        "quantityValue": 1,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-applesauce",
+        "stepKey": "c1",
+        "slotKey": "sl-applesauce",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-splenda-c",
+        "stepKey": "c1",
+        "slotKey": "sl-splenda-c",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-egg-white",
+        "stepKey": "c1",
+        "slotKey": "sl-egg-white",
+        "quantityValue": 0.33,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-vanilla-c",
+        "stepKey": "c1",
+        "slotKey": "sl-vanilla-c",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-cocoa-c",
+        "stepKey": "c1",
+        "slotKey": "sl-cocoa-c",
+        "quantityValue": 40,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-oats",
+        "stepKey": "c1",
+        "slotKey": "sl-oats",
+        "quantityValue": 45,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-protein-c",
+        "stepKey": "c1",
+        "slotKey": "sl-protein-c",
+        "quantityValue": 1.5,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-soda",
+        "stepKey": "c1",
+        "slotKey": "sl-soda",
+        "quantityValue": 1.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-lc-v",
+        "stepKey": "iv1",
+        "slotKey": "sl-lc-v",
+        "quantityValue": 5,
+        "quantityUnit": "triangle"
+      },
+      {
+        "componentKey": "u-yogurt-v",
+        "stepKey": "iv1",
+        "slotKey": "sl-yogurt-v",
+        "quantityValue": 75,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-splenda-v",
+        "stepKey": "iv1",
+        "slotKey": "sl-splenda-v",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-vanilla-v",
+        "stepKey": "iv1",
+        "slotKey": "sl-vanilla-v",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-protein-v",
+        "stepKey": "iv1",
+        "slotKey": "sl-protein-v",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-lc-c",
+        "stepKey": "ic1",
+        "slotKey": "sl-lc-c",
+        "quantityValue": 5,
+        "quantityUnit": "triangle"
+      },
+      {
+        "componentKey": "u-yogurt-c",
+        "stepKey": "ic1",
+        "slotKey": "sl-yogurt-c",
+        "quantityValue": 75,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-splenda-ci",
+        "stepKey": "ic1",
+        "slotKey": "sl-splenda-ci",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-cocoa-i",
+        "stepKey": "ic1",
+        "slotKey": "sl-cocoa-i",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-protein-ci",
+        "stepKey": "ic1",
+        "slotKey": "sl-protein-ci",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      }
+    ]
+  }
+}

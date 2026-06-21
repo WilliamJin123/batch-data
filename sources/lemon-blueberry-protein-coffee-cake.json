@@ -1,0 +1,313 @@
+{
+  "name": "Lemon Blueberry Protein Coffee Cake",
+  "description": "A baked lemon coffee cake with blueberry pockets and a buttery crumb top, protein-boosted, in an 8x8. House calibration: the monkfruit/stevia blend is replaced with granulated Splenda. Bake until the center is just set with moist crumbs; cool fully before cutting into 9 squares.",
+  "tags": [
+    "cake",
+    "coffee-cake",
+    "lemon",
+    "blueberry",
+    "protein",
+    "baked"
+  ],
+  "yield": {
+    "amount": 9,
+    "unit": "squares"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "b1",
+        "order": 1,
+        "section": "cake",
+        "instructionText": "Preheat to 350F and line an 8x8 pan. Whisk the flour, protein, Splenda, baking powder, baking soda, salt, and lemon zest, then mix in the eggs, milk, melted butter, lemon juice, and vanilla until just combined. Fold in the blueberries and spread into the pan."
+      },
+      {
+        "componentKey": "cr1",
+        "order": 2,
+        "section": "crumb",
+        "instructionText": "Rub the flour, Splenda, melted butter, lemon zest, and salt together until crumbly and scatter evenly over the batter."
+      },
+      {
+        "componentKey": "bk1",
+        "order": 3,
+        "section": "bake",
+        "temperature": 350,
+        "instructionText": "Bake 28-34 min until the center is just set and a toothpick comes out with moist crumbs. Cool completely before slicing into 9 squares."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-flour",
+        "name": "all-purpose flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl-protein",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-splenda",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-bp",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl-soda",
+        "name": "baking soda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-soda"
+        }
+      },
+      {
+        "componentKey": "sl-salt",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-zest",
+        "name": "lemon zest",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-lemon-zest"
+        }
+      },
+      {
+        "componentKey": "sl-egg",
+        "name": "eggs",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl-milk",
+        "name": "Fairlife fat-free milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-milk-fairlife-skim"
+        }
+      },
+      {
+        "componentKey": "sl-butter",
+        "name": "melted butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl-lemon-juice",
+        "name": "lemon juice",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-lemon-juice"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-blueberries",
+        "name": "fresh blueberries",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-blueberries"
+        }
+      },
+      {
+        "componentKey": "sl-flour-cr",
+        "name": "all-purpose flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl-splenda-cr",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-butter-cr",
+        "name": "melted butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl-zest-cr",
+        "name": "lemon zest",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-lemon-zest"
+        }
+      },
+      {
+        "componentKey": "sl-salt-cr",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-flour",
+        "stepKey": "b1",
+        "slotKey": "sl-flour",
+        "quantityValue": 1,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-protein",
+        "stepKey": "b1",
+        "slotKey": "sl-protein",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-splenda",
+        "stepKey": "b1",
+        "slotKey": "sl-splenda",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-bp",
+        "stepKey": "b1",
+        "slotKey": "sl-bp",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-soda",
+        "stepKey": "b1",
+        "slotKey": "sl-soda",
+        "quantityValue": 0.25,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-salt",
+        "stepKey": "b1",
+        "slotKey": "sl-salt",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-zest",
+        "stepKey": "b1",
+        "slotKey": "sl-zest",
+        "quantityValue": 1,
+        "quantityUnit": "zest"
+      },
+      {
+        "componentKey": "u-egg",
+        "stepKey": "b1",
+        "slotKey": "sl-egg",
+        "quantityValue": 2,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u-milk",
+        "stepKey": "b1",
+        "slotKey": "sl-milk",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-butter",
+        "stepKey": "b1",
+        "slotKey": "sl-butter",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-lemon-juice",
+        "stepKey": "b1",
+        "slotKey": "sl-lemon-juice",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-vanilla",
+        "stepKey": "b1",
+        "slotKey": "sl-vanilla",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-blueberries",
+        "stepKey": "b1",
+        "slotKey": "sl-blueberries",
+        "quantityValue": 0.75,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-flour-cr",
+        "stepKey": "cr1",
+        "slotKey": "sl-flour-cr",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-splenda-cr",
+        "stepKey": "cr1",
+        "slotKey": "sl-splenda-cr",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-butter-cr",
+        "stepKey": "cr1",
+        "slotKey": "sl-butter-cr",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-zest-cr",
+        "stepKey": "cr1",
+        "slotKey": "sl-zest-cr",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-salt-cr",
+        "stepKey": "cr1",
+        "slotKey": "sl-salt-cr",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      }
+    ]
+  }
+}

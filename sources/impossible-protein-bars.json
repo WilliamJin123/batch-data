@@ -1,0 +1,205 @@
+{
+  "name": "Impossible Protein Bars",
+  "description": "No-bake, grain-free protein bars: whey isolate + collagen + cocoa bound with melted butter and raw honey into a press-in dough, finished with a coconut-oil chocolate shell. Honey is kept as written — it's both the sweetener and the structural binder (the recipe is deliberately free of artificial sweeteners). A no-bake member of the Protein Bars family.",
+  "tags": [
+    "bars",
+    "no-bake",
+    "chocolate",
+    "high-protein"
+  ],
+  "yield": {
+    "amount": 10,
+    "unit": "bars"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "d1",
+        "order": 1,
+        "section": "dough",
+        "instructionText": "Combine the whey isolate, collagen, cocoa, and salt. Separately whisk the melted butter, honey, vanilla, and water, then stir into the dry until a thick dough forms. Press firmly into a parchment-lined loaf pan."
+      },
+      {
+        "componentKey": "s1",
+        "order": 2,
+        "section": "shell",
+        "instructionText": "Melt the coconut oil, cocoa, and honey together until smooth and spread over the bars."
+      },
+      {
+        "componentKey": "z1",
+        "order": 3,
+        "section": "set",
+        "instructionText": "Refrigerate until firm, then slice into 10 bars."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-whey",
+        "name": "whey protein isolate",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-whey-isolate"
+        }
+      },
+      {
+        "componentKey": "sl-collagen",
+        "name": "collagen peptides",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-collagen"
+        }
+      },
+      {
+        "componentKey": "sl-cocoa-d",
+        "name": "cocoa powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl-salt",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-butter",
+        "name": "melted butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl-honey-d",
+        "name": "raw honey",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-honey"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-water",
+        "name": "water",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-water"
+        }
+      },
+      {
+        "componentKey": "sl-coconut-oil",
+        "name": "coconut oil",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coconut-oil"
+        }
+      },
+      {
+        "componentKey": "sl-cocoa-s",
+        "name": "cocoa powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl-honey-s",
+        "name": "honey",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-honey"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-whey",
+        "stepKey": "d1",
+        "slotKey": "sl-whey",
+        "quantityValue": 100,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-collagen",
+        "stepKey": "d1",
+        "slotKey": "sl-collagen",
+        "quantityValue": 80,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-cocoa-d",
+        "stepKey": "d1",
+        "slotKey": "sl-cocoa-d",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-salt",
+        "stepKey": "d1",
+        "slotKey": "sl-salt",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-butter",
+        "stepKey": "d1",
+        "slotKey": "sl-butter",
+        "quantityValue": 50,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-honey-d",
+        "stepKey": "d1",
+        "slotKey": "sl-honey-d",
+        "quantityValue": 100,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-vanilla",
+        "stepKey": "d1",
+        "slotKey": "sl-vanilla",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-water",
+        "stepKey": "d1",
+        "slotKey": "sl-water",
+        "quantityValue": 2,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-coconut-oil",
+        "stepKey": "s1",
+        "slotKey": "sl-coconut-oil",
+        "quantityValue": 22.5,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-cocoa-s",
+        "stepKey": "s1",
+        "slotKey": "sl-cocoa-s",
+        "quantityValue": 7.5,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-honey-s",
+        "stepKey": "s1",
+        "slotKey": "sl-honey-s",
+        "quantityValue": 21,
+        "quantityUnit": "g"
+      }
+    ]
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "name": "Biscoff Carrot Cake Protein Bars",
+  "description": "Soft baked carrot cake bars with Biscoff cookie butter in the batter and a cream-cheese protein frosting, finished with crushed Biscoff. Baked in an 8x8, cut into 12. A baked member of the Protein Bars family. House calibration: the monkfruit/stevia blend (batter and frosting) is replaced with granulated Splenda; the 30 g honey is kept (small, real moisture).",
+  "tags": [
+    "bars",
+    "carrot-cake",
+    "biscoff",
+    "protein",
+    "baked",
+    "frosted"
+  ],
+  "yield": {
+    "amount": 12,
+    "unit": "bars"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "b1",
+        "order": 1,
+        "section": "bars",
+        "instructionText": "Preheat to 350F and line an 8x8 pan. Mix the carrot, eggs, milk, Biscoff spread, Splenda, honey, vanilla, flour, protein, baking powder, baking soda, cinnamon, nutmeg, and salt until just combined; fold in the crushed Biscoff. Spread into the pan."
+      },
+      {
+        "componentKey": "b2",
+        "order": 2,
+        "section": "bars",
+        "temperature": 350,
+        "instructionText": "Bake 22-28 min until set. Let cool completely."
+      },
+      {
+        "componentKey": "f1",
+        "order": 3,
+        "section": "frosting",
+        "instructionText": "Beat the cream cheese smooth, then mix in the protein, milk, Splenda, and vanilla until fluffy and spreadable. Frost the cooled bars and top with crushed Biscoff. Cut into 12."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-carrot",
+        "name": "grated carrot",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-carrot"
+        }
+      },
+      {
+        "componentKey": "sl-egg",
+        "name": "eggs",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl-milk-b",
+        "name": "Fairlife fat-free milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-milk-fairlife-skim"
+        }
+      },
+      {
+        "componentKey": "sl-biscoff-spread",
+        "name": "Biscoff cookie butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-biscoff-spread"
+        }
+      },
+      {
+        "componentKey": "sl-splenda-b",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-honey",
+        "name": "honey",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-honey"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla-b",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-flour",
+        "name": "all-purpose flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl-protein-b",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-bp",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl-soda",
+        "name": "baking soda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-soda"
+        }
+      },
+      {
+        "componentKey": "sl-cinnamon",
+        "name": "cinnamon",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cinnamon-ground"
+        }
+      },
+      {
+        "componentKey": "sl-nutmeg",
+        "name": "nutmeg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-nutmeg"
+        }
+      },
+      {
+        "componentKey": "sl-salt",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-biscoff-b",
+        "name": "crushed Biscoff cookies",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-biscoff-cookie"
+        }
+      },
+      {
+        "componentKey": "sl-cream-cheese",
+        "name": "light cream cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cream-cheese-light"
+        }
+      },
+      {
+        "componentKey": "sl-protein-f",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-milk-f",
+        "name": "Fairlife fat-free milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-milk-fairlife-skim"
+        }
+      },
+      {
+        "componentKey": "sl-splenda-f",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla-f",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-biscoff-f",
+        "name": "crushed Biscoff cookies",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-biscoff-cookie"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-carrot",
+        "stepKey": "b1",
+        "slotKey": "sl-carrot",
+        "quantityValue": 100,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-egg",
+        "stepKey": "b1",
+        "slotKey": "sl-egg",
+        "quantityValue": 2,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u-milk-b",
+        "stepKey": "b1",
+        "slotKey": "sl-milk-b",
+        "quantityValue": 120,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u-biscoff-spread",
+        "stepKey": "b1",
+        "slotKey": "sl-biscoff-spread",
+        "quantityValue": 60,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-splenda-b",
+        "stepKey": "b1",
+        "slotKey": "sl-splenda-b",
+        "quantityValue": 4,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-honey",
+        "stepKey": "b1",
+        "slotKey": "sl-honey",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-vanilla-b",
+        "stepKey": "b1",
+        "slotKey": "sl-vanilla-b",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-flour",
+        "stepKey": "b1",
+        "slotKey": "sl-flour",
+        "quantityValue": 120,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-protein-b",
+        "stepKey": "b1",
+        "slotKey": "sl-protein-b",
+        "quantityValue": 90,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-bp",
+        "stepKey": "b1",
+        "slotKey": "sl-bp",
+        "quantityValue": 1.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-soda",
+        "stepKey": "b1",
+        "slotKey": "sl-soda",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-cinnamon",
+        "stepKey": "b1",
+        "slotKey": "sl-cinnamon",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-nutmeg",
+        "stepKey": "b1",
+        "slotKey": "sl-nutmeg",
+        "quantityValue": 0.25,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-salt",
+        "stepKey": "b1",
+        "slotKey": "sl-salt",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-biscoff-b",
+        "stepKey": "b1",
+        "slotKey": "sl-biscoff-b",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-cream-cheese",
+        "stepKey": "f1",
+        "slotKey": "sl-cream-cheese",
+        "quantityValue": 113,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-protein-f",
+        "stepKey": "f1",
+        "slotKey": "sl-protein-f",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-milk-f",
+        "stepKey": "f1",
+        "slotKey": "sl-milk-f",
+        "quantityValue": 30,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u-splenda-f",
+        "stepKey": "f1",
+        "slotKey": "sl-splenda-f",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-vanilla-f",
+        "stepKey": "f1",
+        "slotKey": "sl-vanilla-f",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-biscoff-f",
+        "stepKey": "f1",
+        "slotKey": "sl-biscoff-f",
+        "quantityValue": 2,
+        "quantityUnit": "cookie"
+      }
+    ]
+  }
+}
