@@ -1,0 +1,191 @@
+{
+  "name": "Homemade Cookie Dough Protein Bars",
+  "description": "No-bake vanilla cookie-dough bars: a butter + oat-flour + protein dough studded with chocolate chips, pressed and topped with a thin melted chocolate shell (chips + coconut oil). Nut-free / gluten-free. The shell is optional — skip it for a lower-fat bar. Maple kept as written (no-bake binder).",
+  "tags": [
+    "protein",
+    "cookie-dough",
+    "no-bake",
+    "chocolate-shell",
+    "bars"
+  ],
+  "yield": {
+    "amount": 5,
+    "unit": "bars"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "b1",
+        "order": 1,
+        "section": "base",
+        "instructionText": "Mix the butter, protein, oat flour, maple syrup, salt, vanilla, and chocolate chips with a splash of milk until it comes together. Press evenly into a parchment-lined loaf pan."
+      },
+      {
+        "componentKey": "s1",
+        "order": 2,
+        "section": "shell",
+        "instructionText": "Melt the chocolate chips with the coconut oil and pour over the base, spreading into a thin layer."
+      },
+      {
+        "componentKey": "z1",
+        "order": 3,
+        "section": "set",
+        "instructionText": "Freeze ~10 min to set the shell, then cut into 5 bars."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-butter",
+        "name": "butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl-protein",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-oat",
+        "name": "oat flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-oat-flour"
+        }
+      },
+      {
+        "componentKey": "sl-maple",
+        "name": "maple syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-maple-syrup"
+        }
+      },
+      {
+        "componentKey": "sl-salt",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-chips-base",
+        "name": "chocolate chips",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-chocolate-chips-semisweet"
+        }
+      },
+      {
+        "componentKey": "sl-milk",
+        "name": "skim milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-skim-milk"
+        }
+      },
+      {
+        "componentKey": "sl-chips-shell",
+        "name": "chocolate chips",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-chocolate-chips-semisweet"
+        }
+      },
+      {
+        "componentKey": "sl-coconut-oil",
+        "name": "coconut oil",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coconut-oil"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-butter",
+        "stepKey": "b1",
+        "slotKey": "sl-butter",
+        "quantityValue": 3,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-protein",
+        "stepKey": "b1",
+        "slotKey": "sl-protein",
+        "quantityValue": 90,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-oat",
+        "stepKey": "b1",
+        "slotKey": "sl-oat",
+        "quantityValue": 0.75,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-maple",
+        "stepKey": "b1",
+        "slotKey": "sl-maple",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-salt",
+        "stepKey": "b1",
+        "slotKey": "sl-salt",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-vanilla",
+        "stepKey": "b1",
+        "slotKey": "sl-vanilla",
+        "quantityValue": 0.25,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-chips-base",
+        "stepKey": "b1",
+        "slotKey": "sl-chips-base",
+        "quantityValue": 43,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-milk",
+        "stepKey": "b1",
+        "slotKey": "sl-milk",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-chips-shell",
+        "stepKey": "s1",
+        "slotKey": "sl-chips-shell",
+        "quantityValue": 43,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-coconut-oil",
+        "stepKey": "s1",
+        "slotKey": "sl-coconut-oil",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      }
+    ]
+  }
+}

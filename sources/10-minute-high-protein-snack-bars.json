@@ -1,0 +1,139 @@
+{
+  "name": "10-Minute High-Protein Snack Bars",
+  "description": "A fast no-bake nut-butter bar: almond meal, protein, and sea salt bound with nut butter, maple syrup, and vanilla into a thick dough, dark chocolate chips folded through, pressed and set in the fridge. Almond-forward and fat-dense (the nut butter + almond meal carry it). Maple kept as written (no-bake binder).",
+  "tags": [
+    "protein",
+    "nut-butter",
+    "no-bake",
+    "bars"
+  ],
+  "yield": {
+    "amount": 8,
+    "unit": "bars"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "section": "dough",
+        "instructionText": "Stir the almond meal, protein, and sea salt together. Add the nut butter, maple syrup, and vanilla and mix to a thick dough. Fold in the dark chocolate chips."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "section": "set",
+        "instructionText": "Press evenly into a parchment-lined loaf tin. Refrigerate at least 4 hr (or overnight) to set, then slice into 8 bars."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-almond-meal",
+        "name": "almond meal",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-flour"
+        }
+      },
+      {
+        "componentKey": "sl-protein",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-salt",
+        "name": "sea salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-nut-butter",
+        "name": "nut butter (peanut or almond)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-peanut-butter"
+        }
+      },
+      {
+        "componentKey": "sl-maple",
+        "name": "maple syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-maple-syrup"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-dark-choc",
+        "name": "dark chocolate chips",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-chocolate-chips-dark"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-almond-meal",
+        "stepKey": "s1",
+        "slotKey": "sl-almond-meal",
+        "quantityValue": 1.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-protein",
+        "stepKey": "s1",
+        "slotKey": "sl-protein",
+        "quantityValue": 25,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-salt",
+        "stepKey": "s1",
+        "slotKey": "sl-salt",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-nut-butter",
+        "stepKey": "s1",
+        "slotKey": "sl-nut-butter",
+        "quantityValue": 0.75,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-maple",
+        "stepKey": "s1",
+        "slotKey": "sl-maple",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-vanilla",
+        "stepKey": "s1",
+        "slotKey": "sl-vanilla",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-dark-choc",
+        "stepKey": "s1",
+        "slotKey": "sl-dark-choc",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      }
+    ]
+  }
+}

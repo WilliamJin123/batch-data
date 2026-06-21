@@ -143,7 +143,8 @@
       "fiber": 0
     },
     "unitEquivalences": {
-      "tbsp": 4.5
+      "tbsp": 4.5,
+      "cup": 72
     }
   },
   {
@@ -573,6 +574,221 @@
     "unitEquivalences": {
       "tbsp": 13.6,
       "tsp": 4.5
+    }
+  },
+  {
+    "id": "ing-maple-syrup",
+    "name": "pure maple syrup",
+    "macrosPer100g": {
+      "calories": 260,
+      "protein": 0,
+      "carbs": 67,
+      "fat": 0,
+      "fiber": 0
+    },
+    "densityGPerMl": 1.37,
+    "unitEquivalences": {
+      "tbsp": 20,
+      "tsp": 6.7,
+      "cup": 322
+    }
+  },
+  {
+    "id": "ing-honey",
+    "name": "honey",
+    "macrosPer100g": {
+      "calories": 304,
+      "protein": 0.3,
+      "carbs": 82.4,
+      "fat": 0,
+      "fiber": 0.2
+    },
+    "densityGPerMl": 1.42,
+    "unitEquivalences": {
+      "tbsp": 21,
+      "tsp": 7,
+      "cup": 339
+    }
+  },
+  {
+    "id": "ing-almond-flour",
+    "name": "almond flour",
+    "aliases": [
+      "almond meal",
+      "almond flour/meal"
+    ],
+    "macrosPer100g": {
+      "calories": 571,
+      "protein": 21.4,
+      "carbs": 21.4,
+      "fat": 50,
+      "fiber": 10.7
+    },
+    "unitEquivalences": {
+      "cup": 112,
+      "tbsp": 7
+    }
+  },
+  {
+    "id": "ing-peanut-butter",
+    "name": "natural peanut butter",
+    "macrosPer100g": {
+      "calories": 588,
+      "protein": 25,
+      "carbs": 20,
+      "fat": 50,
+      "fiber": 6
+    },
+    "unitEquivalences": {
+      "tbsp": 16,
+      "cup": 258
+    }
+  },
+  {
+    "id": "ing-almond-butter",
+    "name": "almond butter",
+    "macrosPer100g": {
+      "calories": 614,
+      "protein": 21,
+      "carbs": 19,
+      "fat": 56,
+      "fiber": 10
+    },
+    "unitEquivalences": {
+      "tbsp": 16,
+      "cup": 256
+    }
+  },
+  {
+    "id": "ing-spirulina",
+    "name": "spirulina powder",
+    "macrosPer100g": {
+      "calories": 290,
+      "protein": 57,
+      "carbs": 24,
+      "fat": 8,
+      "fiber": 4
+    },
+    "unitEquivalences": {
+      "tsp": 4,
+      "tbsp": 7
+    }
+  },
+  {
+    "id": "ing-white-chocolate-chips",
+    "name": "white chocolate chips",
+    "macrosPer100g": {
+      "calories": 539,
+      "protein": 5.9,
+      "carbs": 59,
+      "fat": 32,
+      "fiber": 0.2
+    },
+    "unitEquivalences": {
+      "tbsp": 11,
+      "cup": 170
+    }
+  },
+  {
+    "id": "ing-chocolate-chips-dark",
+    "name": "dark chocolate chips",
+    "macrosPer100g": {
+      "calories": 500,
+      "protein": 5,
+      "carbs": 60,
+      "fat": 38,
+      "fiber": 7
+    },
+    "unitEquivalences": {
+      "tbsp": 11,
+      "cup": 170
+    }
+  },
+  {
+    "id": "ing-peppermint-extract",
+    "name": "peppermint extract",
+    "macrosPer100g": {
+      "calories": 258,
+      "protein": 0,
+      "carbs": 8,
+      "fat": 0,
+      "fiber": 0
+    },
+    "densityGPerMl": 0.9,
+    "unitEquivalences": {
+      "tsp": 4.5
+    }
+  },
+  {
+    "id": "ing-peppermint-candy",
+    "name": "peppermint hard candy",
+    "macrosPer100g": {
+      "calories": 394,
+      "protein": 0,
+      "carbs": 98,
+      "fat": 0,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "candy": 5
+    }
+  },
+  {
+    "id": "ing-sandwich-cookie",
+    "name": "creme sandwich cookie (Back to Nature)",
+    "macrosPer100g": {
+      "calories": 462,
+      "protein": 4,
+      "carbs": 70,
+      "fat": 18,
+      "fiber": 2
+    },
+    "unitEquivalences": {
+      "cookie": 13
+    }
+  },
+  {
+    "id": "ing-cereal-ghost",
+    "name": "Ghost cinnamon protein cereal",
+    "macrosPer100g": {
+      "calories": 371,
+      "protein": 23,
+      "carbs": 51,
+      "fat": 8.5,
+      "fiber": 7
+    },
+    "unitEquivalences": {
+      "serving": 35
+    }
+  },
+  {
+    "id": "ing-syrup-chocolate-zero",
+    "name": "zero-sugar chocolate syrup (Hershey's)",
+    "macrosPer100g": {
+      "calories": 38,
+      "protein": 0,
+      "carbs": 28,
+      "fat": 0,
+      "fiber": 18
+    },
+    "densityGPerMl": 1.3,
+    "unitEquivalences": {
+      "tbsp": 19.5
+    }
+  },
+  {
+    "id": "ing-extract-cake-batter",
+    "name": "cake-batter extract",
+    "macrosPer100g": {
+      "calories": 288,
+      "protein": 0,
+      "carbs": 12.7,
+      "fat": 0,
+      "fiber": 0
+    },
+    "densityGPerMl": 0.88,
+    "unitEquivalences": {
+      "tsp": 4.4
     }
   }
 ]

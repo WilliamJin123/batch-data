@@ -1,0 +1,205 @@
+{
+  "name": "Cookie Monster Protein Bars",
+  "description": "No-bake cookie-monster bars: a spirulina-blue protein cookie dough with chocolate brownie bites rolled and folded through, plus crushed creme sandwich cookies, pressed and chilled. A mix-in style bar (no frosting layer). Maple kept as written (no-bake binder).",
+  "tags": [
+    "protein",
+    "cookie-monster",
+    "no-bake",
+    "bars"
+  ],
+  "yield": {
+    "amount": 7,
+    "unit": "bars"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "d1",
+        "order": 1,
+        "section": "blue dough",
+        "instructionText": "Mix the protein, butter, maple syrup, oat flour, milk, and spirulina into a thick blue dough."
+      },
+      {
+        "componentKey": "br1",
+        "order": 2,
+        "section": "brownie bites",
+        "instructionText": "Mix the protein, maple syrup, cocoa, and almond butter until combined, then roll into mini balls."
+      },
+      {
+        "componentKey": "a1",
+        "order": 3,
+        "section": "assembly",
+        "instructionText": "Fold the brownie balls into the blue dough, add the crushed sandwich cookies, and gently mix. Press into a parchment-lined loaf pan and chill ~20 min until firm. Slice into 7 bars."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-protein-d",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-butter",
+        "name": "butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl-maple-d",
+        "name": "maple syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-maple-syrup"
+        }
+      },
+      {
+        "componentKey": "sl-oat",
+        "name": "oat flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-oat-flour"
+        }
+      },
+      {
+        "componentKey": "sl-milk",
+        "name": "skim milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-skim-milk"
+        }
+      },
+      {
+        "componentKey": "sl-spirulina",
+        "name": "spirulina powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-spirulina"
+        }
+      },
+      {
+        "componentKey": "sl-protein-br",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-maple-br",
+        "name": "maple syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-maple-syrup"
+        }
+      },
+      {
+        "componentKey": "sl-cocoa",
+        "name": "cocoa powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl-almond-butter",
+        "name": "almond butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-butter"
+        }
+      },
+      {
+        "componentKey": "sl-cookie",
+        "name": "creme sandwich cookies",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-sandwich-cookie"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-protein-d",
+        "stepKey": "d1",
+        "slotKey": "sl-protein-d",
+        "quantityValue": 3,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-butter",
+        "stepKey": "d1",
+        "slotKey": "sl-butter",
+        "quantityValue": 2.5,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-maple-d",
+        "stepKey": "d1",
+        "slotKey": "sl-maple-d",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-oat",
+        "stepKey": "d1",
+        "slotKey": "sl-oat",
+        "quantityValue": 0.75,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-milk",
+        "stepKey": "d1",
+        "slotKey": "sl-milk",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-spirulina",
+        "stepKey": "d1",
+        "slotKey": "sl-spirulina",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-protein-br",
+        "stepKey": "br1",
+        "slotKey": "sl-protein-br",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-maple-br",
+        "stepKey": "br1",
+        "slotKey": "sl-maple-br",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-cocoa",
+        "stepKey": "br1",
+        "slotKey": "sl-cocoa",
+        "quantityValue": 3,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-almond-butter",
+        "stepKey": "br1",
+        "slotKey": "sl-almond-butter",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-cookie",
+        "stepKey": "a1",
+        "slotKey": "sl-cookie",
+        "quantityValue": 3,
+        "quantityUnit": "cookie"
+      }
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "name": "No-Bake Brownie Bars",
+  "description": "Single-layer no-bake brownie bars: cocoa, protein, oat flour, and a touch of espresso bound with maple syrup, pumpkin, and milk into a fudgy press-in dough, set in the freezer. No bake — distinct from the baked Fudgy Protein Brownies. Maple syrup is kept as written; in a no-bake bar the liquid sweetener is structural (it binds the press), so it isn't swapped for Splenda.",
+  "tags": [
+    "brownie",
+    "protein",
+    "no-bake",
+    "bars",
+    "chocolate",
+    "made"
+  ],
+  "yield": {
+    "amount": 8,
+    "unit": "bars"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "section": "dough",
+        "instructionText": "Stir the cocoa, protein, espresso powder, oat flour, and salt together. Add the maple syrup, pumpkin, vanilla, and most of the milk and mix to a thick fudgy dough — add the rest of the milk a little at a time only if needed (a little goes a long way). Fold in the chocolate chips and melted butter."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "section": "set",
+        "instructionText": "Press the dough firmly into a parchment-lined loaf pan. Freeze 10 min (or refrigerate ~1 hr) until set, then slice into 8 bars. Store in the fridge."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-cocoa",
+        "name": "cocoa powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl-protein",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-espresso",
+        "name": "espresso powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-espresso-powder"
+        }
+      },
+      {
+        "componentKey": "sl-oat",
+        "name": "oat flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-oat-flour"
+        }
+      },
+      {
+        "componentKey": "sl-salt",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-maple",
+        "name": "maple syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-maple-syrup"
+        }
+      },
+      {
+        "componentKey": "sl-pumpkin",
+        "name": "pumpkin puree",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pumpkin-puree"
+        }
+      },
+      {
+        "componentKey": "sl-milk",
+        "name": "skim milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-skim-milk"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-chips",
+        "name": "chocolate chips",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-chocolate-chips-semisweet"
+        }
+      },
+      {
+        "componentKey": "sl-butter",
+        "name": "melted butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-cocoa",
+        "stepKey": "s1",
+        "slotKey": "sl-cocoa",
+        "quantityValue": 43,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-protein",
+        "stepKey": "s1",
+        "slotKey": "sl-protein",
+        "quantityValue": 3,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-espresso",
+        "stepKey": "s1",
+        "slotKey": "sl-espresso",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-oat",
+        "stepKey": "s1",
+        "slotKey": "sl-oat",
+        "quantityValue": 42,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-salt",
+        "stepKey": "s1",
+        "slotKey": "sl-salt",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-maple",
+        "stepKey": "s1",
+        "slotKey": "sl-maple",
+        "quantityValue": 2.5,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-pumpkin",
+        "stepKey": "s1",
+        "slotKey": "sl-pumpkin",
+        "quantityValue": 60,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-milk",
+        "stepKey": "s1",
+        "slotKey": "sl-milk",
+        "quantityValue": 75,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-vanilla",
+        "stepKey": "s1",
+        "slotKey": "sl-vanilla",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-chips",
+        "stepKey": "s1",
+        "slotKey": "sl-chips",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-butter",
+        "stepKey": "s1",
+        "slotKey": "sl-butter",
+        "quantityValue": 7,
+        "quantityUnit": "g"
+      }
+    ]
+  }
+}

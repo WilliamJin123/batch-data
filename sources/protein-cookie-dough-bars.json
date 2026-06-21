@@ -1,0 +1,298 @@
+{
+  "name": "Protein Cookie Dough Bars",
+  "description": "Frosted no-bake cookie-dough bars: a Greek-yogurt + peanut-butter + oat-flour cookie-dough base pressed in a loaf pan, topped with a blended cottage-cheese/cream-cheese protein frosting (tinted with spirulina, flavored with cake-batter extract) and a crushed sandwich cookie. Same frosted-bar format as the Lemon and Peppermint bars; the frosting is the cottage/cream-cheese protein style of the Protein Cream-Cheese Frosting sub-recipe. Maple/honey kept as written (no-bake binder). Microwave 6-7 s straight from the freezer to serve.",
+  "tags": [
+    "protein",
+    "cookie-dough",
+    "frosted",
+    "no-bake",
+    "bars",
+    "made"
+  ],
+  "yield": {
+    "amount": 7,
+    "unit": "bars"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "b1",
+        "order": 1,
+        "section": "base",
+        "instructionText": "Mix the Greek yogurt, peanut butter, softened butter, honey, protein, oat flour, vanilla, and salt until thick; fold in the chocolate chips. Press into a parchment-lined loaf pan."
+      },
+      {
+        "componentKey": "f1",
+        "order": 2,
+        "section": "frosting",
+        "instructionText": "Blend the cottage cheese, cream cheese, maple syrup, protein, spirulina, vanilla, and cake-batter extract until very smooth. Spread over the base."
+      },
+      {
+        "componentKey": "t1",
+        "order": 3,
+        "section": "topping",
+        "instructionText": "Scatter the broken-up sandwich cookie over the top. Freeze 30-60 min, thaw 10 min, then slice into 7 bars. Microwave 6-7 s from frozen to serve."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-yogurt",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl-pb",
+        "name": "peanut butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-peanut-butter"
+        }
+      },
+      {
+        "componentKey": "sl-butter",
+        "name": "softened butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl-honey",
+        "name": "honey",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-honey"
+        }
+      },
+      {
+        "componentKey": "sl-protein-base",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-oat",
+        "name": "oat flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-oat-flour"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla-base",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-salt",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-chips",
+        "name": "mini chocolate chips",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-chocolate-chips-semisweet"
+        }
+      },
+      {
+        "componentKey": "sl-cottage",
+        "name": "cottage cheese",
+        "prepDefault": "blended smooth",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cottage-cheese"
+        }
+      },
+      {
+        "componentKey": "sl-cream-cheese",
+        "name": "light cream cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cream-cheese-light"
+        }
+      },
+      {
+        "componentKey": "sl-maple",
+        "name": "maple syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-maple-syrup"
+        }
+      },
+      {
+        "componentKey": "sl-protein-frost",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-spirulina",
+        "name": "spirulina powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-spirulina"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla-frost",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-cakebatter",
+        "name": "cake-batter extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-extract-cake-batter"
+        }
+      },
+      {
+        "componentKey": "sl-cookie",
+        "name": "sandwich cookie",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-sandwich-cookie"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-yogurt",
+        "stepKey": "b1",
+        "slotKey": "sl-yogurt",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-pb",
+        "stepKey": "b1",
+        "slotKey": "sl-pb",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-butter",
+        "stepKey": "b1",
+        "slotKey": "sl-butter",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-honey",
+        "stepKey": "b1",
+        "slotKey": "sl-honey",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-protein-base",
+        "stepKey": "b1",
+        "slotKey": "sl-protein-base",
+        "quantityValue": 3,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-oat",
+        "stepKey": "b1",
+        "slotKey": "sl-oat",
+        "quantityValue": 0.75,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-vanilla-base",
+        "stepKey": "b1",
+        "slotKey": "sl-vanilla-base",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-salt",
+        "stepKey": "b1",
+        "slotKey": "sl-salt",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-chips",
+        "stepKey": "b1",
+        "slotKey": "sl-chips",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-cottage",
+        "stepKey": "f1",
+        "slotKey": "sl-cottage",
+        "quantityValue": 113,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-cream-cheese",
+        "stepKey": "f1",
+        "slotKey": "sl-cream-cheese",
+        "quantityValue": 57,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-maple",
+        "stepKey": "f1",
+        "slotKey": "sl-maple",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-protein-frost",
+        "stepKey": "f1",
+        "slotKey": "sl-protein-frost",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-spirulina",
+        "stepKey": "f1",
+        "slotKey": "sl-spirulina",
+        "quantityValue": 2,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-vanilla-frost",
+        "stepKey": "f1",
+        "slotKey": "sl-vanilla-frost",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-cakebatter",
+        "stepKey": "f1",
+        "slotKey": "sl-cakebatter",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-cookie",
+        "stepKey": "t1",
+        "slotKey": "sl-cookie",
+        "quantityValue": 1,
+        "quantityUnit": "cookie"
+      }
+    ]
+  }
+}

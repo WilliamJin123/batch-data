@@ -1,0 +1,237 @@
+{
+  "name": "Peppermint Protein Bars",
+  "description": "Frosted no-bake peppermint bars: a chocolate (cacao + almond-butter) protein base pressed in a loaf pan, topped with a light cream-cheese + Cool Whip protein frosting and crushed peppermint candies. Same frosted-bar format as the Cookie Dough and Lemon bars; the Cool-Whip frosting mirrors the Cool-Whip Protein Frosting sub-recipe. Maple kept as written (no-bake binder).",
+  "tags": [
+    "protein",
+    "peppermint",
+    "frosted",
+    "chocolate",
+    "no-bake",
+    "bars"
+  ],
+  "yield": {
+    "amount": 7,
+    "unit": "bars"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "b1",
+        "order": 1,
+        "section": "base",
+        "instructionText": "Combine the cacao, protein, almond flour, and salt. Add the maple syrup, almond butter, peppermint extract, vanilla, and milk; mix to a thick dough, adding a little more milk if needed. Press firmly into a parchment-lined loaf pan."
+      },
+      {
+        "componentKey": "f1",
+        "order": 2,
+        "section": "frosting",
+        "instructionText": "Mix the cream cheese, protein, and Cool Whip until smooth. Spread evenly over the base."
+      },
+      {
+        "componentKey": "t1",
+        "order": 3,
+        "section": "topping",
+        "instructionText": "Sprinkle with the crushed peppermint candies. Freeze at least 30 min, then slice into 7 bars. Store covered in the fridge or freezer."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-cocoa",
+        "name": "cacao powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl-protein-base",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-almond-flour",
+        "name": "almond flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-flour"
+        }
+      },
+      {
+        "componentKey": "sl-salt",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-maple",
+        "name": "maple syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-maple-syrup"
+        }
+      },
+      {
+        "componentKey": "sl-almond-butter",
+        "name": "almond butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-butter"
+        }
+      },
+      {
+        "componentKey": "sl-peppermint",
+        "name": "peppermint extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-peppermint-extract"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-milk",
+        "name": "skim milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-skim-milk"
+        }
+      },
+      {
+        "componentKey": "sl-cream-cheese",
+        "name": "light cream cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cream-cheese-light"
+        }
+      },
+      {
+        "componentKey": "sl-protein-frost",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-cool-whip",
+        "name": "Cool Whip",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cool-whip-zero"
+        }
+      },
+      {
+        "componentKey": "sl-candy",
+        "name": "peppermint candies",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-peppermint-candy"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-cocoa",
+        "stepKey": "b1",
+        "slotKey": "sl-cocoa",
+        "quantityValue": 43,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-protein-base",
+        "stepKey": "b1",
+        "slotKey": "sl-protein-base",
+        "quantityValue": 2,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-almond-flour",
+        "stepKey": "b1",
+        "slotKey": "sl-almond-flour",
+        "quantityValue": 0.33,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-salt",
+        "stepKey": "b1",
+        "slotKey": "sl-salt",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-maple",
+        "stepKey": "b1",
+        "slotKey": "sl-maple",
+        "quantityValue": 0.33,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-almond-butter",
+        "stepKey": "b1",
+        "slotKey": "sl-almond-butter",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-peppermint",
+        "stepKey": "b1",
+        "slotKey": "sl-peppermint",
+        "quantityValue": 0.25,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-vanilla",
+        "stepKey": "b1",
+        "slotKey": "sl-vanilla",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-milk",
+        "stepKey": "b1",
+        "slotKey": "sl-milk",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-cream-cheese",
+        "stepKey": "f1",
+        "slotKey": "sl-cream-cheese",
+        "quantityValue": 57,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-protein-frost",
+        "stepKey": "f1",
+        "slotKey": "sl-protein-frost",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-cool-whip",
+        "stepKey": "f1",
+        "slotKey": "sl-cool-whip",
+        "quantityValue": 1,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-candy",
+        "stepKey": "t1",
+        "slotKey": "sl-candy",
+        "quantityValue": 3,
+        "quantityUnit": "candy"
+      }
+    ]
+  }
+}

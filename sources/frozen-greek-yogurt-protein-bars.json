@@ -1,0 +1,131 @@
+{
+  "name": "Frozen Greek-Yogurt Protein Bars",
+  "description": "Frozen yogurt mold bars: nonfat Greek yogurt whipped with chocolate protein and butterscotch SF pudding mix, folded with crushed Ghost cinnamon cereal, set in candy-bar molds, topped with more cereal and a drizzle of zero-sugar chocolate syrup. Freezer-set, crunchy, very lean. Distinct from the cookie-dough/cheesecake bars — a yogurt-base format closer to the Protein Butterscotch Yogurt Pockets.",
+  "tags": [
+    "protein",
+    "frozen",
+    "yogurt-based",
+    "no-bake",
+    "bars"
+  ],
+  "yield": {
+    "amount": 6,
+    "unit": "bars"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "section": "mix",
+        "instructionText": "Whisk the Greek yogurt, milk, butterscotch pudding mix, and chocolate protein until smooth. Crush about half the cereal and fold it in."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "section": "mold",
+        "instructionText": "Pour into candy-bar molds. Sprinkle the remaining cereal on top and drizzle with the zero-sugar chocolate syrup."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "section": "freeze",
+        "instructionText": "Freeze 6-12 hr until firm, then unmold. Makes 6 bars."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-yogurt",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl-milk",
+        "name": "skim milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-skim-milk"
+        }
+      },
+      {
+        "componentKey": "sl-pudding",
+        "name": "butterscotch SF pudding mix",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pudding-butterscotch-sf"
+        }
+      },
+      {
+        "componentKey": "sl-protein",
+        "name": "chocolate protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-chocolate"
+        }
+      },
+      {
+        "componentKey": "sl-cereal",
+        "name": "Ghost cinnamon cereal",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cereal-ghost"
+        }
+      },
+      {
+        "componentKey": "sl-syrup",
+        "name": "zero-sugar chocolate syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-syrup-chocolate-zero"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-yogurt",
+        "stepKey": "s1",
+        "slotKey": "sl-yogurt",
+        "quantityValue": 1,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-milk",
+        "stepKey": "s1",
+        "slotKey": "sl-milk",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-pudding",
+        "stepKey": "s1",
+        "slotKey": "sl-pudding",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-protein",
+        "stepKey": "s1",
+        "slotKey": "sl-protein",
+        "quantityValue": 2,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-cereal",
+        "stepKey": "s1",
+        "slotKey": "sl-cereal",
+        "quantityValue": 1,
+        "quantityUnit": "serving"
+      },
+      {
+        "componentKey": "u-syrup",
+        "stepKey": "s2",
+        "slotKey": "sl-syrup",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      }
+    ]
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "name": "Healthy Lemon Protein Bars",
+  "description": "Frosted no-bake lemon bars: an almond-flour + oat-flour protein cookie layer pressed in a loaf pan, topped with a blended cottage-cheese/cream-cheese frosting brightened with lemon and enriched with melted white chocolate. Same frosted-bar format as the Cookie Dough and Peppermint bars. If the frosting is too loose for the brand of cheese used, thicken with extra protein or cream cheese. Maple kept as written (no-bake binder).",
+  "tags": [
+    "protein",
+    "lemon",
+    "frosted",
+    "no-bake",
+    "bars"
+  ],
+  "yield": {
+    "amount": 8,
+    "unit": "bars"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "b1",
+        "order": 1,
+        "section": "cookie layer",
+        "instructionText": "Mix the protein, almond flour, oat flour, butter, maple syrup, and lemon juice into a dough. Press firmly into a parchment-lined loaf pan; chill while you make the frosting."
+      },
+      {
+        "componentKey": "f1",
+        "order": 2,
+        "section": "frosting",
+        "instructionText": "Blend the cottage cheese, cream cheese, and lemon juice smooth. Melt the white chocolate chips with the coconut oil and stir in, then stir in the protein until thick. Spread over the cookie layer (thicken with more protein or cream cheese if loose)."
+      },
+      {
+        "componentKey": "z1",
+        "order": 3,
+        "section": "set",
+        "instructionText": "Freeze ~20 min until set, then slice into 8 bars."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-protein-base",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-almond-flour",
+        "name": "almond flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-flour"
+        }
+      },
+      {
+        "componentKey": "sl-oat",
+        "name": "oat flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-oat-flour"
+        }
+      },
+      {
+        "componentKey": "sl-butter",
+        "name": "butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl-maple",
+        "name": "maple syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-maple-syrup"
+        }
+      },
+      {
+        "componentKey": "sl-lemon-base",
+        "name": "lemon juice",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-lemon-juice"
+        }
+      },
+      {
+        "componentKey": "sl-cottage",
+        "name": "cottage cheese",
+        "prepDefault": "blended smooth",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cottage-cheese"
+        }
+      },
+      {
+        "componentKey": "sl-cream-cheese",
+        "name": "light cream cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cream-cheese-light"
+        }
+      },
+      {
+        "componentKey": "sl-lemon-frost",
+        "name": "lemon juice",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-lemon-juice"
+        }
+      },
+      {
+        "componentKey": "sl-white-choc",
+        "name": "white chocolate chips",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-white-chocolate-chips"
+        }
+      },
+      {
+        "componentKey": "sl-coconut-oil",
+        "name": "coconut oil",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coconut-oil"
+        }
+      },
+      {
+        "componentKey": "sl-protein-frost",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-protein-base",
+        "stepKey": "b1",
+        "slotKey": "sl-protein-base",
+        "quantityValue": 90,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-almond-flour",
+        "stepKey": "b1",
+        "slotKey": "sl-almond-flour",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-oat",
+        "stepKey": "b1",
+        "slotKey": "sl-oat",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-butter",
+        "stepKey": "b1",
+        "slotKey": "sl-butter",
+        "quantityValue": 3,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-maple",
+        "stepKey": "b1",
+        "slotKey": "sl-maple",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-lemon-base",
+        "stepKey": "b1",
+        "slotKey": "sl-lemon-base",
+        "quantityValue": 1.5,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-cottage",
+        "stepKey": "f1",
+        "slotKey": "sl-cottage",
+        "quantityValue": 113,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-cream-cheese",
+        "stepKey": "f1",
+        "slotKey": "sl-cream-cheese",
+        "quantityValue": 28,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-lemon-frost",
+        "stepKey": "f1",
+        "slotKey": "sl-lemon-frost",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-white-choc",
+        "stepKey": "f1",
+        "slotKey": "sl-white-choc",
+        "quantityValue": 3,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-coconut-oil",
+        "stepKey": "f1",
+        "slotKey": "sl-coconut-oil",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-protein-frost",
+        "stepKey": "f1",
+        "slotKey": "sl-protein-frost",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      }
+    ]
+  }
+}

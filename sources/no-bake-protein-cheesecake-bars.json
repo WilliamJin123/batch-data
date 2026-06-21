@@ -1,0 +1,249 @@
+{
+  "name": "No-Bake Protein Cheesecake Bars",
+  "description": "No-bake cheesecake bars: a milk-bound graham-protein crust pressed in a loaf pan, frozen, then topped with a blended cottage-cheese + light-cream-cheese filling set with SF vanilla pudding. A no-bake, sliceable cousin of the baked Vanilla Protein Cheesecake. House calibration: the source's Swerve/monk-fruit is replaced with granulated Splenda. Eat from the freezer or slightly softened.",
+  "tags": [
+    "cheesecake",
+    "protein",
+    "no-bake",
+    "bars",
+    "made"
+  ],
+  "yield": {
+    "amount": 12,
+    "unit": "bars"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "c1",
+        "order": 1,
+        "section": "crust",
+        "instructionText": "Blend the graham crackers to a fine crumb. Stir in the melted butter, protein powder, and salt until evenly combined, then gradually mix in the milk until the crumb just holds together (add more milk if it looks dry — it should press, not crumble)."
+      },
+      {
+        "componentKey": "c2",
+        "order": 2,
+        "section": "crust",
+        "instructionText": "Press firmly into a parchment-lined loaf pan. Freeze while you make the filling."
+      },
+      {
+        "componentKey": "f1",
+        "order": 3,
+        "section": "filling",
+        "instructionText": "Blend the cottage cheese, cream cheese, Splenda, protein, vanilla, lemon juice, salt, and pudding mix until completely smooth and creamy."
+      },
+      {
+        "componentKey": "z1",
+        "order": 4,
+        "section": "assembly",
+        "instructionText": "Spread the filling evenly over the frozen crust. Freeze at least 1.5 hr, or until firm."
+      },
+      {
+        "componentKey": "z2",
+        "order": 5,
+        "section": "assembly",
+        "instructionText": "Lift out by the parchment and slice into 12 bars. Eat straight from the freezer or after softening a few minutes."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-graham",
+        "name": "low-fat graham crackers",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-graham-crumbs"
+        }
+      },
+      {
+        "componentKey": "sl-butter",
+        "name": "melted butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl-protein-crust",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-salt-crust",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-milk",
+        "name": "skim milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-skim-milk"
+        }
+      },
+      {
+        "componentKey": "sl-cottage",
+        "name": "cottage cheese",
+        "prepDefault": "blended smooth",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cottage-cheese"
+        }
+      },
+      {
+        "componentKey": "sl-cream-cheese",
+        "name": "light cream cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cream-cheese-light"
+        }
+      },
+      {
+        "componentKey": "sl-splenda",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-protein-fill",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-lemon",
+        "name": "lemon juice",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-lemon-juice"
+        }
+      },
+      {
+        "componentKey": "sl-salt-fill",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-pudding",
+        "name": "SF vanilla pudding mix",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pudding-vanilla-sf"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-graham",
+        "stepKey": "c1",
+        "slotKey": "sl-graham",
+        "quantityValue": 49,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-butter",
+        "stepKey": "c1",
+        "slotKey": "sl-butter",
+        "quantityValue": 14,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-protein-crust",
+        "stepKey": "c1",
+        "slotKey": "sl-protein-crust",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-salt-crust",
+        "stepKey": "c1",
+        "slotKey": "sl-salt-crust",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-milk",
+        "stepKey": "c1",
+        "slotKey": "sl-milk",
+        "quantityValue": 37,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-cottage",
+        "stepKey": "f1",
+        "slotKey": "sl-cottage",
+        "quantityValue": 226,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-cream-cheese",
+        "stepKey": "f1",
+        "slotKey": "sl-cream-cheese",
+        "quantityValue": 60,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-splenda",
+        "stepKey": "f1",
+        "slotKey": "sl-splenda",
+        "quantityValue": 3,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-protein-fill",
+        "stepKey": "f1",
+        "slotKey": "sl-protein-fill",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-vanilla",
+        "stepKey": "f1",
+        "slotKey": "sl-vanilla",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-lemon",
+        "stepKey": "f1",
+        "slotKey": "sl-lemon",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-salt-fill",
+        "stepKey": "f1",
+        "slotKey": "sl-salt-fill",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-pudding",
+        "stepKey": "f1",
+        "slotKey": "sl-pudding",
+        "quantityValue": 1.5,
+        "quantityUnit": "tbsp"
+      }
+    ]
+  }
+}
