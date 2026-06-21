@@ -4,7 +4,7 @@
     "amount": 9,
     "unit": "squares"
   },
-  "description": "The fudge-maximized protein brownie — the original of a three-texture set, finished smooth (uniformly fudgy) or chunky (sweetened dark-chocolate pockets). Fudge comes from butter + a little unsweetened baking chocolate, with the egg barely beaten and stirred in last to keep air out (air bakes cakey). Cocoa + espresso are bloomed in the warm fat; sweetener is 1/4 cup granulated Splenda (never monk fruit). Bakes at 325F for ~18 min, pulled at a slight center jiggle, then cooled fully and chilled — better the next day. Computed ~629 cal / 38 g protein per batch of 9; ~70 cal, 4.3P, 7.2C, 3.4F per square; 16.5 cal per g protein. Source: user.",
+  "description": "The fudge-maximized protein brownie — the original of a three-texture set, finished smooth (uniformly fudgy) or chunky (sweetened dark-chocolate pockets). Fudge comes from butter + a little unsweetened baking chocolate, with the egg barely beaten and stirred in last to keep air out (air bakes cakey). Cocoa + espresso are bloomed in the warm fat; sweetener is 1/4 cup granulated Splenda (never monk fruit). Bakes at 325F for ~18 min, pulled at a slight center jiggle, then cooled fully and chilled — better the next day. Computed ~621 cal / 38 g protein per batch of 9; ~69 cal, 4.2P, 7.2C, 3.4F per square; 16.6 cal per g protein. Medium egg (44 g). Source: user.",
   "tags": [
     "brownie",
     "protein",
@@ -243,8 +243,8 @@
         "componentKey": "u-egg",
         "stepKey": "b5",
         "slotKey": "sl-egg",
-        "quantityValue": 1,
-        "quantityUnit": "each"
+        "quantityValue": 44,
+        "quantityUnit": "g"
       },
       {
         "componentKey": "u-flour",
