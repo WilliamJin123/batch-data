@@ -54,7 +54,7 @@
         "componentKey": "f1",
         "order": 7,
         "section": "Frosting",
-        "instructionText": "Beat the yogurt, cream cheese, protein, and Splenda smooth. Add pudding mix to thicken, or chill 20-30 min. Frost the cooled cookies."
+        "instructionText": "Frost the cooled cookies with the protein cream-cheese frosting (see sub-recipe)."
       }
     ],
     "slots": [
@@ -171,43 +171,11 @@
         }
       },
       {
-        "componentKey": "sl-frost-yogurt",
-        "name": "0% Greek yogurt (frosting)",
+        "componentKey": "sl-frosting",
+        "name": "protein cream-cheese frosting",
         "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-greek-yogurt-nonfat"
-        }
-      },
-      {
-        "componentKey": "sl-frost-cream-cheese",
-        "name": "low-fat cream cheese (frosting)",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-cream-cheese-light"
-        }
-      },
-      {
-        "componentKey": "sl-frost-protein",
-        "name": "vanilla protein powder (frosting)",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-protein-vanilla"
-        }
-      },
-      {
-        "componentKey": "sl-frost-splenda",
-        "name": "granulated Splenda (frosting)",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-splenda-granulated"
-        }
-      },
-      {
-        "componentKey": "sl-frost-pudding",
-        "name": "SF instant pudding mix (frosting)",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-pudding-vanilla-sf"
+          "kind": "sub_recipe",
+          "subRecipeRef": "Protein Cream-Cheese Frosting"
         }
       }
     ],
@@ -311,39 +279,11 @@
         "quantityUnit": "pinch"
       },
       {
-        "componentKey": "u-f-yogurt",
+        "componentKey": "u-frosting",
         "stepKey": "f1",
-        "slotKey": "sl-frost-yogurt",
-        "quantityValue": 0.75,
-        "quantityUnit": "cup"
-      },
-      {
-        "componentKey": "u-f-cream-cheese",
-        "stepKey": "f1",
-        "slotKey": "sl-frost-cream-cheese",
-        "quantityValue": 0.25,
-        "quantityUnit": "cup"
-      },
-      {
-        "componentKey": "u-f-protein",
-        "stepKey": "f1",
-        "slotKey": "sl-frost-protein",
-        "quantityValue": 0.5,
-        "quantityUnit": "scoop"
-      },
-      {
-        "componentKey": "u-f-splenda",
-        "stepKey": "f1",
-        "slotKey": "sl-frost-splenda",
-        "quantityValue": 0.25,
-        "quantityUnit": "cup"
-      },
-      {
-        "componentKey": "u-f-pudding",
-        "stepKey": "f1",
-        "slotKey": "sl-frost-pudding",
+        "slotKey": "sl-frosting",
         "quantityValue": 1,
-        "quantityUnit": "tbsp"
+        "quantityUnit": "batch"
       }
     ]
   }

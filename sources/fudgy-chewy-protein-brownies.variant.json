@@ -1,25 +1,18 @@
 {
-  "name": "Chewiest Protein Brownies",
-  "deriveFromRecipe": "Fudgy Protein Brownies",
-  "description": "Pushed all the way to chew — derived from the Fudgy base: coconut oil instead of butter (no baking chocolate), the most brown sugar, more flour with ~10-15 extra fold strokes to develop a little gluten, egg-white-forward, no cornstarch. Cocoa + espresso are bloomed in a splash of warm skim milk. 1/4 cup granulated Splenda, baked at 325F for ~18 min and pulled at only a faint wobble. Lands at 12.4 cal per g protein — the leanest of the three. Computed ~609 cal / 49 g protein per batch of 9; ~68 cal, 5.4P, 7.9C, 2.1F per square. Medium eggs (44 g whole, 30 g white). Source: user.",
+  "name": "Fudgy + Chewy Protein Brownies",
+  "description": "The balanced one — derived from the Fudgy base, keeping real fudge from butter + baking chocolate but adding chew: the whole egg + an extra egg white are beaten with brown sugar until glossy (dissolved, never whipped to a ribbon), the cornstarch is dropped, and protein is doubled. 1/4 cup granulated Splenda, no added milk, baked at 325F for ~17-18 min and pulled at a slight (fudgy-leaning) jiggle. Doubling protein at flat calories pulls the ratio from the base's 16.6 down to 12.5 cal per g protein. Computed ~614 cal / 49 g protein per batch of 9; ~68 cal, 5.5P, 6.7C, 2.7F per square. Medium eggs (44 g whole, 30 g white). Source: user.",
   "tags": [
     "brownie",
     "protein",
+    "fudgy",
     "chewy"
   ],
+  "yield": {
+    "amount": 9,
+    "unit": "squares"
+  },
+  "deriveFromRecipe": "Fudgy Protein Brownies",
   "overrides": [
-    {
-      "op": "add",
-      "kind": "slot",
-      "payload": {
-        "componentKey": "sl-oil",
-        "name": "coconut oil",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-coconut-oil"
-        }
-      }
-    },
     {
       "op": "add",
       "kind": "slot",
@@ -48,21 +41,10 @@
       "op": "add",
       "kind": "usage",
       "payload": {
-        "componentKey": "u-oil",
-        "stepKey": "b3",
-        "slotKey": "sl-oil",
-        "quantityValue": 10,
-        "quantityUnit": "g"
-      }
-    },
-    {
-      "op": "add",
-      "kind": "usage",
-      "payload": {
         "componentKey": "u-brown-sugar",
-        "stepKey": "b2",
+        "stepKey": "b3",
         "slotKey": "sl-brown-sugar",
-        "quantityValue": 28,
+        "quantityValue": 22,
         "quantityUnit": "g"
       }
     },
@@ -71,7 +53,7 @@
       "kind": "usage",
       "payload": {
         "componentKey": "u-egg-white",
-        "stepKey": "b2",
+        "stepKey": "b3",
         "slotKey": "sl-egg-white",
         "quantityValue": 30,
         "quantityUnit": "g"
@@ -85,7 +67,7 @@
         "componentKey": "b2",
         "order": 2,
         "section": "Batter",
-        "instructionText": "Beat the whole egg + egg white with the brown sugar only until the sugar dissolves and it looks smooth and glossy — then STOP. Chew and the shiny top come from dissolving, not air; don't whip it to a pale ribbon."
+        "instructionText": "Melt the butter + baking chocolate (low heat or short microwave bursts). Stir in the cocoa + espresso to bloom into a paste; set aside to cool slightly."
       }
     },
     {
@@ -96,7 +78,7 @@
         "componentKey": "b3",
         "order": 3,
         "section": "Batter",
-        "instructionText": "Whisk in the coconut oil (melted if solid), then the Greek yogurt."
+        "instructionText": "Beat the whole egg + egg white with the brown sugar only until the sugar grit dissolves and it looks smooth and glossy — then STOP. This builds chew and the shiny top; do NOT whip it to a pale, voluminous ribbon, which aerates it and bakes up holey/cakey."
       }
     },
     {
@@ -107,7 +89,7 @@
         "componentKey": "b4",
         "order": 4,
         "section": "Batter",
-        "instructionText": "Bloom the cocoa + espresso in a small splash of warm skim milk, then stir into the batter."
+        "instructionText": "Stir the Greek yogurt into the egg mixture, then fold in the cooled chocolate mixture until uniform."
       }
     },
     {
@@ -118,7 +100,7 @@
         "componentKey": "b5",
         "order": 5,
         "section": "Batter",
-        "instructionText": "Whisk the flour + protein powder + salt, then fold in to no dry streaks, then ~10–15 extra strokes to develop a little gluten for chew — still stopping before it goes very stretchy or tough. No chocolate, no cornstarch."
+        "instructionText": "Whisk the flour + protein powder + salt, then fold in just to no dry streaks — then a few extra gentle strokes for a little chew, stopping before the batter turns smooth and stretchy. No cornstarch."
       }
     },
     {
@@ -129,7 +111,7 @@
         "componentKey": "b6",
         "order": 6,
         "section": "Batter",
-        "instructionText": "Stir in the Splenda; add a splash more skim milk only if stiff. Spread in the pan."
+        "instructionText": "Stir in the Splenda; add a splash of skim milk only if the batter is stiff. Spread in the pan."
       }
     },
     {
@@ -140,7 +122,7 @@
         "componentKey": "k1",
         "order": 7,
         "section": "Bake",
-        "instructionText": "Bake at 325°F for ~18 minutes, checking from ~14. Pull at only a faint center wobble — chewy wants a touch more set than fudgy, but don't dry it out.",
+        "instructionText": "Bake at 325°F for ~17–18 minutes, checking from ~14. Pull at a slight center jiggle — it's fudgy-leaning, so on the early side.",
         "temperature": 325,
         "timerSeconds": 1080
       }
@@ -148,24 +130,24 @@
     {
       "op": "replace",
       "kind": "usage",
-      "target": "u-egg",
+      "target": "u-butter",
       "payload": {
-        "componentKey": "u-egg",
+        "componentKey": "u-butter",
         "stepKey": "b2",
-        "slotKey": "sl-egg",
-        "quantityValue": 44,
+        "slotKey": "sl-butter",
+        "quantityValue": 14,
         "quantityUnit": "g"
       }
     },
     {
       "op": "replace",
       "kind": "usage",
-      "target": "u-yogurt",
+      "target": "u-chocolate",
       "payload": {
-        "componentKey": "u-yogurt",
-        "stepKey": "b3",
-        "slotKey": "sl-yogurt",
-        "quantityValue": 100,
+        "componentKey": "u-chocolate",
+        "stepKey": "b2",
+        "slotKey": "sl-chocolate",
+        "quantityValue": 8,
         "quantityUnit": "g"
       }
     },
@@ -175,34 +157,46 @@
       "target": "u-cocoa",
       "payload": {
         "componentKey": "u-cocoa",
-        "stepKey": "b4",
+        "stepKey": "b2",
         "slotKey": "sl-cocoa",
-        "quantityValue": 18,
+        "quantityValue": 20,
         "quantityUnit": "g"
       }
     },
     {
       "op": "replace",
       "kind": "usage",
-      "target": "u-espresso",
+      "target": "u-splenda",
       "payload": {
-        "componentKey": "u-espresso",
-        "stepKey": "b4",
-        "slotKey": "sl-espresso",
-        "quantityValue": 0.5,
-        "quantityUnit": "tsp"
+        "componentKey": "u-splenda",
+        "stepKey": "b6",
+        "slotKey": "sl-splenda",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
       }
     },
     {
       "op": "replace",
       "kind": "usage",
-      "target": "u-milk",
+      "target": "u-yogurt",
       "payload": {
-        "componentKey": "u-milk",
+        "componentKey": "u-yogurt",
         "stepKey": "b4",
-        "slotKey": "sl-milk",
-        "quantityValue": 15,
-        "quantityUnit": "ml"
+        "slotKey": "sl-yogurt",
+        "quantityValue": 100,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-egg",
+      "payload": {
+        "componentKey": "u-egg",
+        "stepKey": "b3",
+        "slotKey": "sl-egg",
+        "quantityValue": 44,
+        "quantityUnit": "g"
       }
     },
     {
@@ -213,7 +207,7 @@
         "componentKey": "u-flour",
         "stepKey": "b5",
         "slotKey": "sl-flour",
-        "quantityValue": 25,
+        "quantityValue": 15,
         "quantityUnit": "g"
       }
     },
@@ -242,26 +236,9 @@
       }
     },
     {
-      "op": "replace",
-      "kind": "usage",
-      "target": "u-splenda",
-      "payload": {
-        "componentKey": "u-splenda",
-        "stepKey": "b6",
-        "slotKey": "sl-splenda",
-        "quantityValue": 0.25,
-        "quantityUnit": "cup"
-      }
-    },
-    {
       "op": "remove",
       "kind": "usage",
-      "target": "u-butter"
-    },
-    {
-      "op": "remove",
-      "kind": "usage",
-      "target": "u-chocolate"
+      "target": "u-milk"
     },
     {
       "op": "remove",
@@ -276,12 +253,7 @@
     {
       "op": "remove",
       "kind": "slot",
-      "target": "sl-butter"
-    },
-    {
-      "op": "remove",
-      "kind": "slot",
-      "target": "sl-chocolate"
+      "target": "sl-milk"
     },
     {
       "op": "remove",

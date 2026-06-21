@@ -1,0 +1,356 @@
+{
+  "name": "High-Protein Nanaimo Bars",
+  "description": "A high-protein, lower-calorie take on the classic three-layer Canadian Nanaimo bar: cocoa-coconut base, butterscotch protein filling, baking-chocolate top. Sweetener modeled as granulated Splenda; the 'or 20g oat flour' alt for coconut flour is not taken. Source: instagram. Stated full batch ~1300 kcal / 83C / 118P / 58F (header lists per-bar at 10 bars, but the directions slice 9 — yield set to 9).",
+  "tags": [
+    "protein",
+    "nanaimo",
+    "bars",
+    "no-bake",
+    "dessert"
+  ],
+  "yield": {
+    "amount": 9,
+    "unit": "bars"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "n1",
+        "order": 1,
+        "section": "Base",
+        "instructionText": "Toast the shredded coconut ~30 seconds in a nonstick pan until golden brown."
+      },
+      {
+        "componentKey": "n2",
+        "order": 2,
+        "section": "Base",
+        "instructionText": "Mix the dry base ingredients (with the toasted coconut), then add the almond milk and egg whites."
+      },
+      {
+        "componentKey": "n3",
+        "order": 3,
+        "section": "Base",
+        "instructionText": "Line a baking dish with parchment and press down the base layer."
+      },
+      {
+        "componentKey": "n4",
+        "order": 4,
+        "section": "Filling",
+        "instructionText": "Mix the filling ingredients to a glossy frosting consistency and spread over the base."
+      },
+      {
+        "componentKey": "n5",
+        "order": 5,
+        "section": "Filling",
+        "instructionText": "Freeze 20 minutes."
+      },
+      {
+        "componentKey": "n6",
+        "order": 6,
+        "section": "Top",
+        "instructionText": "Melt the baking chocolate and coconut oil together in 30-second intervals; sweeten the melt with liquid monk fruit to taste."
+      },
+      {
+        "componentKey": "n7",
+        "order": 7,
+        "section": "Top",
+        "instructionText": "Pour and spread the chocolate over the bars."
+      },
+      {
+        "componentKey": "n8",
+        "order": 8,
+        "section": "Top",
+        "instructionText": "Set in the fridge ~20 min uncovered, then refrigerate overnight covered. Slice into 9 bars."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-oat-flour",
+        "name": "oat flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-oat-flour"
+        }
+      },
+      {
+        "componentKey": "sl-coconut-flour",
+        "name": "coconut flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coconut-flour"
+        }
+      },
+      {
+        "componentKey": "sl-choc-protein",
+        "name": "chocolate protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-chocolate"
+        }
+      },
+      {
+        "componentKey": "sl-cocoa",
+        "name": "unsweetened cocoa powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl-coconut-shred",
+        "name": "unsweetened shredded coconut",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coconut-shredded"
+        }
+      },
+      {
+        "componentKey": "sl-base-milk",
+        "name": "unsweetened almond milk (base)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-milk-unsweetened"
+        }
+      },
+      {
+        "componentKey": "sl-base-salt",
+        "name": "salt (base)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-egg-white",
+        "name": "pasteurized egg whites",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-white"
+        }
+      },
+      {
+        "componentKey": "sl-base-splenda",
+        "name": "granulated Splenda (base)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-fill-protein",
+        "name": "vanilla protein powder (filling)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-fill-yogurt",
+        "name": "nonfat Greek yogurt (filling)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl-fill-vanilla",
+        "name": "vanilla extract (filling)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-fill-butter",
+        "name": "melted butter (filling)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl-fill-salt",
+        "name": "salt (filling)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-fill-pudding",
+        "name": "butterscotch SF pudding mix (filling)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pudding-butterscotch-sf"
+        }
+      },
+      {
+        "componentKey": "sl-fill-milk",
+        "name": "unsweetened almond milk (filling)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-milk-unsweetened"
+        }
+      },
+      {
+        "componentKey": "sl-top-chocolate",
+        "name": "unsweetened baking chocolate",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-chocolate"
+        }
+      },
+      {
+        "componentKey": "sl-top-coconut-oil",
+        "name": "coconut oil",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coconut-oil"
+        }
+      },
+      {
+        "componentKey": "sl-top-monk",
+        "name": "liquid monk fruit sweetener",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-monk-fruit-liquid"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-oat-flour",
+        "stepKey": "n2",
+        "slotKey": "sl-oat-flour",
+        "quantityValue": 35,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-coconut-flour",
+        "stepKey": "n2",
+        "slotKey": "sl-coconut-flour",
+        "quantityValue": 10,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-choc-protein",
+        "stepKey": "n2",
+        "slotKey": "sl-choc-protein",
+        "quantityValue": 45,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-cocoa",
+        "stepKey": "n2",
+        "slotKey": "sl-cocoa",
+        "quantityValue": 25,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-coconut-shred",
+        "stepKey": "n1",
+        "slotKey": "sl-coconut-shred",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-base-milk",
+        "stepKey": "n2",
+        "slotKey": "sl-base-milk",
+        "quantityValue": 115,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u-base-salt",
+        "stepKey": "n2",
+        "slotKey": "sl-base-salt",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-egg-white",
+        "stepKey": "n2",
+        "slotKey": "sl-egg-white",
+        "quantityValue": 10,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u-base-splenda",
+        "stepKey": "n2",
+        "slotKey": "sl-base-splenda",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-fill-protein",
+        "stepKey": "n4",
+        "slotKey": "sl-fill-protein",
+        "quantityValue": 80,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-fill-yogurt",
+        "stepKey": "n4",
+        "slotKey": "sl-fill-yogurt",
+        "quantityValue": 80,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-fill-vanilla",
+        "stepKey": "n4",
+        "slotKey": "sl-fill-vanilla",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-fill-butter",
+        "stepKey": "n4",
+        "slotKey": "sl-fill-butter",
+        "quantityValue": 7,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-fill-salt",
+        "stepKey": "n4",
+        "slotKey": "sl-fill-salt",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-fill-pudding",
+        "stepKey": "n4",
+        "slotKey": "sl-fill-pudding",
+        "quantityValue": 1.5,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-fill-milk",
+        "stepKey": "n4",
+        "slotKey": "sl-fill-milk",
+        "quantityValue": 125,
+        "quantityUnit": "ml"
+      },
+      {
+        "componentKey": "u-top-chocolate",
+        "stepKey": "n6",
+        "slotKey": "sl-top-chocolate",
+        "quantityValue": 25,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-top-coconut-oil",
+        "stepKey": "n6",
+        "slotKey": "sl-top-coconut-oil",
+        "quantityValue": 5,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-top-monk",
+        "stepKey": "n6",
+        "slotKey": "sl-top-monk",
+        "quantityValue": 3,
+        "quantityUnit": "ml"
+      }
+    ]
+  }
+}

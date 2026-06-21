@@ -148,7 +148,7 @@
         "name": "vanilla protein frosting",
         "resolution": {
           "kind": "sub_recipe",
-          "subRecipeVersionId": "1074a98e-b1c9-44ac-af4b-d4a3115c8768"
+          "subRecipeRef": "Cool-Whip Protein Frosting"
         }
       }
     ],

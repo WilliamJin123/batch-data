@@ -1,0 +1,220 @@
+{
+  "name": "High-Protein Sugar Cookies",
+  "description": "Low-flour protein sugar cookie tuned to kill the rubbery 'pancake' texture: a scoop of whey replaces most flour and SF instant pudding binds moisture for a dense bakery chew. Sweetener is granulated Splenda; pudding modeled as the Simply Delish SF vanilla already in the library; butter is regular unsalted, already halved to 7 g. Leavening is baking powder only (no soda / cream of tartar). Final step is a fridge rest. Source: user. Stated batch macros ~428 kcal / 44P / 41C / 11F (107/cookie at 4).",
+  "tags": [
+    "cookie",
+    "protein",
+    "sugar-cookie",
+    "high-protein"
+  ],
+  "yield": {
+    "amount": 4,
+    "unit": "cookies"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "d1",
+        "order": 1,
+        "section": "Dough",
+        "instructionText": "Whisk the dry base — AP flour, whey protein, SF pudding mix, Splenda, baking powder, salt — until there are no protein clumps."
+      },
+      {
+        "componentKey": "d2",
+        "order": 2,
+        "section": "Dough",
+        "instructionText": "Add the melted butter, whole egg, Greek yogurt, and vanilla into the dry mix."
+      },
+      {
+        "componentKey": "d3",
+        "order": 3,
+        "section": "Dough",
+        "timerSeconds": 300,
+        "instructionText": "Stir to combine, then stop and let the bowl sit untouched 5 minutes so the whey and pudding starches swell into a shapeable dough. If still tacky, chill 5 more minutes."
+      },
+      {
+        "componentKey": "d4",
+        "order": 4,
+        "section": "Bake",
+        "temperature": 325,
+        "instructionText": "Preheat oven/air fryer to 325F. Divide into 4 equal balls on parchment and press down firmly with your palm or a glass — this dough sets in the shape you give it, it won't spread."
+      },
+      {
+        "componentKey": "d5",
+        "order": 5,
+        "section": "Bake",
+        "temperature": 325,
+        "timerSeconds": 390,
+        "instructionText": "Bake at 325F for 6-7 minutes. Pull the moment the edges look dry and set, even if the centers still look slightly soft — whey dries out fast."
+      },
+      {
+        "componentKey": "d6",
+        "order": 6,
+        "section": "Bake",
+        "timerSeconds": 420,
+        "instructionText": "Leave the cookies on the hot sheet 5-10 minutes; residual pan heat finishes the centers without making the protein rubbery."
+      },
+      {
+        "componentKey": "d7",
+        "order": 7,
+        "section": "Bake",
+        "timerSeconds": 600,
+        "instructionText": "Final step: rest in the fridge ~10 minutes to fully set, then eat."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-flour",
+        "name": "all-purpose flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl-protein",
+        "name": "vanilla whey protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-pudding",
+        "name": "SF vanilla instant pudding mix",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pudding-vanilla-sf"
+        }
+      },
+      {
+        "componentKey": "sl-splenda",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-baking-powder",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl-salt",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-butter",
+        "name": "melted unsalted butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl-egg",
+        "name": "whole egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl-yogurt",
+        "name": "nonfat Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-flour",
+        "stepKey": "d1",
+        "slotKey": "sl-flour",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-protein",
+        "stepKey": "d1",
+        "slotKey": "sl-protein",
+        "quantityValue": 31,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-pudding",
+        "stepKey": "d1",
+        "slotKey": "sl-pudding",
+        "quantityValue": 8,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-splenda",
+        "stepKey": "d1",
+        "slotKey": "sl-splenda",
+        "quantityValue": 0.75,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-baking-powder",
+        "stepKey": "d1",
+        "slotKey": "sl-baking-powder",
+        "quantityValue": 9,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-salt",
+        "stepKey": "d1",
+        "slotKey": "sl-salt",
+        "quantityValue": 1,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-butter",
+        "stepKey": "d2",
+        "slotKey": "sl-butter",
+        "quantityValue": 7,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-egg",
+        "stepKey": "d2",
+        "slotKey": "sl-egg",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u-yogurt",
+        "stepKey": "d2",
+        "slotKey": "sl-yogurt",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-vanilla",
+        "stepKey": "d2",
+        "slotKey": "sl-vanilla",
+        "quantityValue": 4,
+        "quantityUnit": "ml"
+      }
+    ]
+  }
+}

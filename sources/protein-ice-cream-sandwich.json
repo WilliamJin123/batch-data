@@ -1,0 +1,158 @@
+{
+  "name": "Protein Ice Cream Sandwich",
+  "description": "Healthy protein ice cream sandwiches in the style of Fat Boys: a blended vanilla protein 'ice cream' between chocolate graham crackers. Source: healthbeet.org. Decent as-is; the filling really wants a Ninja Creami churn for texture. Stated macros ~135 kcal / 16C / 13-14P / 3F per sandwich.",
+  "tags": [
+    "protein",
+    "ice-cream",
+    "frozen",
+    "dessert",
+    "no-bake"
+  ],
+  "yield": {
+    "amount": 6,
+    "unit": "sandwiches"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "section": "Ice cream",
+        "instructionText": "Blend the protein powder, almond milk, pudding mix, Greek yogurt, vanilla, and salt smooth in a blender."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "section": "Ice cream",
+        "instructionText": "Freeze ~6 hours, until mostly frozen. Re-churn in a Ninja Creami (best) or re-blend in a food processor."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "section": "Assembly",
+        "instructionText": "Line a cake pan with parchment and arrange half-sheets of graham cracker, 6 across the bottom."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "section": "Assembly",
+        "instructionText": "Spread the ice cream over the crackers until all are covered."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "section": "Assembly",
+        "instructionText": "Top with a second graham cracker and return to the freezer until frozen. Slice into 6 sandwiches."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-protein",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-milk",
+        "name": "unsweetened vanilla almond milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-milk-unsweetened"
+        }
+      },
+      {
+        "componentKey": "sl-pudding",
+        "name": "SF vanilla pudding mix",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pudding-vanilla-sf"
+        }
+      },
+      {
+        "componentKey": "sl-yogurt",
+        "name": "nonfat Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-salt",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-graham",
+        "name": "chocolate graham crackers",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-graham-chocolate"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-protein",
+        "stepKey": "s1",
+        "slotKey": "sl-protein",
+        "quantityValue": 2,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-milk",
+        "stepKey": "s1",
+        "slotKey": "sl-milk",
+        "quantityValue": 2,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u-pudding",
+        "stepKey": "s1",
+        "slotKey": "sl-pudding",
+        "quantityValue": 3,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-yogurt",
+        "stepKey": "s1",
+        "slotKey": "sl-yogurt",
+        "quantityValue": 150,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-vanilla",
+        "stepKey": "s1",
+        "slotKey": "sl-vanilla",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-salt",
+        "stepKey": "s1",
+        "slotKey": "sl-salt",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-graham",
+        "stepKey": "s3",
+        "slotKey": "sl-graham",
+        "quantityValue": 6,
+        "quantityUnit": "sheet"
+      }
+    ]
+  }
+}

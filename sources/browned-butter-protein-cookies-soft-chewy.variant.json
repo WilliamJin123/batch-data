@@ -1,0 +1,52 @@
+{
+  "name": "Browned-Butter Protein Cookies (Soft-Chewy)",
+  "description": "VERSION B - Even & Soft-Chewy: soft and chewy edge to edge, the same texture throughout with no raw-dough center. A pure-procedure variant of the gooey base - identical dough, ingredients, and macros; only the bake (steps 4-6) differs. Flattening the cookie and lowering the oven temp both shrink the edge-vs-center cook gap, so the whole cookie finishes together. Spreads a little more, no molten center.",
+  "tags": [
+    "cookie",
+    "protein",
+    "browned-butter",
+    "chocolate-chip",
+    "soft-chewy"
+  ],
+  "yield": {
+    "amount": 3,
+    "unit": "cookies"
+  },
+  "deriveFromRecipe": "Browned-Butter Protein Cookies",
+  "overrides": [
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s4",
+      "payload": {
+        "componentKey": "s4",
+        "order": 4,
+        "section": "Bake - Even & Soft-Chewy",
+        "instructionText": "Chill only ~15 minutes (or let cold dough sit 10 min at room temp before baking). A fridge-cold center lags the most, so less chilling helps the middle keep pace."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s5",
+      "payload": {
+        "componentKey": "s5",
+        "order": 5,
+        "section": "Bake - Even & Soft-Chewy",
+        "instructionText": "Shape into 3 cookies and flatten into discs about 1/2 inch (1.5 cm) thick."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s6",
+      "payload": {
+        "componentKey": "s6",
+        "order": 6,
+        "section": "Bake - Even & Soft-Chewy",
+        "temperature": 325,
+        "instructionText": "Bake at 325F / 160C on the middle rack for ~11-13 minutes. Pull when set but the centers still feel slightly soft."
+      }
+    }
+  ]
+}

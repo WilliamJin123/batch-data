@@ -516,6 +516,23 @@
     "densityGPerMl": 1
   },
   {
+    "id": "ing-rolled-oats",
+    "name": "rolled oats",
+    "macrosPer100g": {
+      "calories": 379,
+      "protein": 13.2,
+      "carbs": 67.7,
+      "fat": 6.5,
+      "fiber": 10.1
+    },
+    "densityGPerMl": 0.4,
+    "unitEquivalences": {
+      "cup": 85
+    },
+    "source": "user",
+    "notes": "Old-fashioned rolled oats; label-style macros (~150 cal / 40 g)."
+  },
+  {
     "id": "ing-skim-milk",
     "name": "skim milk",
     "macrosPer100g": {

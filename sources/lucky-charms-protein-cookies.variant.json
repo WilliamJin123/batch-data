@@ -1,0 +1,40 @@
+{
+  "name": "Lucky Charms Protein Cookies",
+  "description": "Lucky Charms flavor of the Crumbl base — base chassis + almond extract. The Lucky Charms cereal marshmallows are the topping and are intentionally omitted (matches the source 'without the lucky charms'). NOTE: with the marshmallows omitted, this is effectively identical to Birthday Cake — the marshmallow topping is the only real differentiator, a one-line add when wanted. Derived off Crumbl Base Protein Cookie. Untested at this base chassis.",
+  "tags": [
+    "crumbl",
+    "cookie",
+    "protein",
+    "lucky-charms"
+  ],
+  "yield": {
+    "amount": 6,
+    "unit": "cookies"
+  },
+  "deriveFromRecipe": "Crumbl Base Protein Cookie",
+  "overrides": [
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-almond-ext",
+        "name": "almond extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-extract"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-almond-ext",
+        "stepKey": "b2",
+        "slotKey": "sl-almond-ext",
+        "quantityValue": 0.1,
+        "quantityUnit": "tsp"
+      }
+    }
+  ]
+}

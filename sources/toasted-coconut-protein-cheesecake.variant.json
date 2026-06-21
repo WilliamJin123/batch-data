@@ -1,0 +1,80 @@
+{
+  "name": "Toasted Coconut Protein Cheesecake",
+  "description": "Toasted-coconut variant of the vanilla base. Coconut runs throughout the filling (45 g toasted, fine-ground, beaten in) plus a 20 g toasted-coconut topping; crustless to stay lean-ish. Coconut is the only flavor source (the oil is neutral) so it is toasted hard for aroma. Macro note: coconut is ~64% fat, so this runs richer than the base - about 183 cal/slice, ratio ~12.3 vs the base 129/9.1. To-make; a tsp of coconut extract (0 cal) is the planned next lever to deepen flavor and drop the shredded amount.",
+  "tags": [
+    "cheesecake",
+    "protein",
+    "coconut"
+  ],
+  "yield": {
+    "amount": 8,
+    "unit": "slices"
+  },
+  "deriveFromRecipe": "Vanilla Protein Cheesecake",
+  "overrides": [
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-coconut-fill",
+        "name": "toasted shredded coconut (filling)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coconut-shredded"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-coconut-top",
+        "name": "toasted shredded coconut (topping)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coconut-shredded"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "step",
+      "payload": {
+        "componentKey": "s-toast",
+        "order": 0,
+        "instructionText": "Toast 65 g shredded coconut in a dry skillet over medium heat, 3-5 min, stirring, until golden and fragrant (it colors fast then burns - watch it). Cool. Grind 45 g to a fine meal (spice grinder or food processor) and beat it into the filling with the wet ingredients in step 3 so the coconut disperses throughout; reserve the other 20 g for the topping."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "step",
+      "payload": {
+        "componentKey": "s-top",
+        "order": 8,
+        "instructionText": "Once the cheesecake is fully chilled, scatter the reserved 20 g toasted coconut evenly over the top just before serving (keeps it crisp)."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-coconut-fill",
+        "stepKey": "s3",
+        "slotKey": "sl-coconut-fill",
+        "quantityValue": 45,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-coconut-top",
+        "stepKey": "s-top",
+        "slotKey": "sl-coconut-top",
+        "quantityValue": 20,
+        "quantityUnit": "g"
+      }
+    }
+  ]
+}

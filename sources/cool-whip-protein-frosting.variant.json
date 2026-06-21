@@ -1,0 +1,125 @@
+{
+  "name": "Cool-Whip Protein Frosting",
+  "tags": [],
+  "yield": {
+    "amount": 1,
+    "unit": "batch"
+  },
+  "deriveFromRecipe": "Protein Cream-Cheese Frosting",
+  "overrides": [
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-coolwhip",
+        "name": "zero-sugar Cool Whip",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cool-whip-zero"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-salt",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-coolwhip",
+        "stepKey": "f-beat",
+        "slotKey": "sl-coolwhip",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-salt",
+        "stepKey": "f-beat",
+        "slotKey": "sl-salt",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "f-beat",
+      "payload": {
+        "componentKey": "f-beat",
+        "order": 1,
+        "instructionText": "Fold the Cool Whip into the yogurt, then beat in the protein, Splenda, pudding, and a pinch of salt until smooth. Chill 20-30 min before using."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-yogurt",
+      "payload": {
+        "componentKey": "u-yogurt",
+        "stepKey": "f-beat",
+        "slotKey": "sl-yogurt",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-protein",
+      "payload": {
+        "componentKey": "u-protein",
+        "stepKey": "f-beat",
+        "slotKey": "sl-protein",
+        "quantityValue": 0.25,
+        "quantityUnit": "scoop"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-splenda",
+      "payload": {
+        "componentKey": "u-splenda",
+        "stepKey": "f-beat",
+        "slotKey": "sl-splenda",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-pudding",
+      "payload": {
+        "componentKey": "u-pudding",
+        "stepKey": "f-beat",
+        "slotKey": "sl-pudding",
+        "quantityValue": 0.5,
+        "quantityUnit": "tbsp"
+      }
+    },
+    {
+      "op": "remove",
+      "kind": "usage",
+      "target": "u-cream-cheese"
+    },
+    {
+      "op": "remove",
+      "kind": "slot",
+      "target": "sl-cream-cheese"
+    }
+  ]
+}

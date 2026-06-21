@@ -1,0 +1,108 @@
+{
+  "name": "Lemon Protein Cookies",
+  "description": "Lemon flavor of the Crumbl base — base chassis + lemon juice in the dough, and the base's frosting sub_recipe pin dropped in favor of a lemon drizzle (lemon juice + granulated Splenda; never monk fruit). Derived off Crumbl Base Protein Cookie. NOTE: the drizzle was rated 'bad' on the original (too weak/thin) and granulated Splenda won't glaze as smoothly as a powdered sweetener — still a redesign candidate. Untested at this base chassis.",
+  "tags": [
+    "crumbl",
+    "cookie",
+    "protein",
+    "lemon",
+    "needs-tuning"
+  ],
+  "yield": {
+    "amount": 6,
+    "unit": "cookies"
+  },
+  "deriveFromRecipe": "Crumbl Base Protein Cookie",
+  "overrides": [
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-lemon",
+        "name": "lemon juice",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-lemon-juice"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-drz-lemon",
+        "name": "lemon juice (drizzle)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-lemon-juice"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-drz-splenda",
+        "name": "granulated Splenda (drizzle)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-lemon",
+        "stepKey": "b2",
+        "slotKey": "sl-lemon",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-drz-lemon",
+        "stepKey": "b5",
+        "slotKey": "sl-drz-lemon",
+        "quantityValue": 23,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-drz-splenda",
+        "stepKey": "b5",
+        "slotKey": "sl-drz-splenda",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "b5",
+      "payload": {
+        "componentKey": "b5",
+        "order": 5,
+        "section": "Drizzle",
+        "instructionText": "Cool the cookies fully. Whisk the drizzle (lemon juice + Splenda) smooth and spoon over the cookies."
+      }
+    },
+    {
+      "op": "remove",
+      "kind": "usage",
+      "target": "u-frosting"
+    },
+    {
+      "op": "remove",
+      "kind": "slot",
+      "target": "sl-frosting"
+    }
+  ]
+}

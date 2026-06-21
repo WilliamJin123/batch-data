@@ -1,0 +1,99 @@
+{
+  "name": "Browned-Butter Protein Cookies (Oat, Low-Butter)",
+  "description": "Lower-butter, oat-boosted spin on the browned-butter choc-chip cookie: butter cut to 8 g, AP flour down to 20 g with 15 g rolled oats folded in, and a splash of almond milk to bring the dough together. To make / test.",
+  "tags": [
+    "cookie",
+    "protein",
+    "browned-butter",
+    "chocolate-chip",
+    "oat"
+  ],
+  "yield": {
+    "amount": 3,
+    "unit": "cookies"
+  },
+  "deriveFromRecipe": "Browned-Butter Protein Cookies",
+  "overrides": [
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-oats",
+        "name": "rolled oats",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-rolled-oats"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-milk",
+        "name": "unsweetened almond milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-milk-unsweetened"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-oats",
+        "stepKey": "s3",
+        "slotKey": "sl-oats",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-milk",
+        "stepKey": "s3",
+        "slotKey": "sl-milk",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s3",
+      "payload": {
+        "componentKey": "s3",
+        "order": 3,
+        "section": "Dough",
+        "instructionText": "Add dry: stir in the whey, flour, rolled oats, pudding mix, baking soda, and salt until a thick, scoopable dough forms, then fold in the chocolate chips. Add the splash of milk to bring it together so it holds its shape, not pours. Too stiff/dry -> a touch more milk; too loose -> a bit more flour. Let it rest a few minutes so the oats hydrate, then taste for sweetness."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-butter",
+      "payload": {
+        "componentKey": "u-butter",
+        "stepKey": "s1",
+        "slotKey": "sl-butter",
+        "quantityValue": 8,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-flour",
+      "payload": {
+        "componentKey": "u-flour",
+        "stepKey": "s3",
+        "slotKey": "sl-flour",
+        "quantityValue": 20,
+        "quantityUnit": "g"
+      }
+    }
+  ]
+}

@@ -1,34 +1,165 @@
 {
   "name": "Giant Single-Serve Protein Cookie",
   "description": "Yogurt-based high-protein cookie (no butter/sugar) found on Instagram, untried. Coconut flour subbed to oat flour; sugar-free chips to semi-sweet; 'zero cal sugar' to granulated Splenda. Chocolate chips unspecified in source — assumed 20g.",
-  "tags": ["cookie", "protein", "chocolate-chip", "yogurt-based", "high-protein", "to-try"],
-  "yield": { "amount": 2, "unit": "cookies" },
+  "tags": [
+    "cookie",
+    "protein",
+    "chocolate-chip",
+    "yogurt-based",
+    "high-protein",
+    "to-try"
+  ],
+  "yield": {
+    "amount": 2,
+    "unit": "cookies"
+  },
   "content": {
     "steps": [
-      { "componentKey": "s1", "order": 1, "instructionText": "Mix all the ingredients together until smooth, folding in the chocolate chips last." },
-      { "componentKey": "s2", "order": 2, "instructionText": "Divide onto parchment paper and press each into a flat round so it bakes evenly." },
-      { "componentKey": "s3", "order": 3, "instructionText": "Bake 7-9 minutes until the edges are set but the center is still soft.", "temperature": 350 },
-      { "componentKey": "s4", "order": 4, "instructionText": "Let cool and enjoy." }
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Mix all the ingredients together until smooth, folding in the chocolate chips last."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "Divide onto parchment paper and press each into a flat round so it bakes evenly."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Bake 7-9 minutes until the edges are set but the center is still soft.",
+        "temperature": 350
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Let cool and enjoy."
+      }
     ],
     "slots": [
-      { "componentKey": "sl-egg", "name": "whole egg", "resolution": { "kind": "raw", "libraryIngredientId": "ing-egg-whole" } },
-      { "componentKey": "sl-oat", "name": "oat flour", "resolution": { "kind": "raw", "libraryIngredientId": "ing-oat-flour" } },
-      { "componentKey": "sl-ap", "name": "all-purpose flour", "resolution": { "kind": "raw", "libraryIngredientId": "ing-ap-flour" } },
-      { "componentKey": "sl-yogurt", "name": "0% Greek yogurt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-greek-yogurt-nonfat" } },
-      { "componentKey": "sl-bp", "name": "baking powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-baking-powder" } },
-      { "componentKey": "sl-splenda", "name": "granulated Splenda", "resolution": { "kind": "raw", "libraryIngredientId": "ing-splenda-granulated" } },
-      { "componentKey": "sl-protein", "name": "vanilla protein powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-protein-vanilla" } },
-      { "componentKey": "sl-chips", "name": "semi-sweet chocolate chips", "resolution": { "kind": "raw", "libraryIngredientId": "ing-chocolate-chips-semisweet" } }
+      {
+        "componentKey": "sl-egg",
+        "name": "whole egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl-oat",
+        "name": "oat flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-oat-flour"
+        }
+      },
+      {
+        "componentKey": "sl-ap",
+        "name": "all-purpose flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl-yogurt",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl-bp",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl-splenda",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-protein",
+        "name": "vanilla protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-chips",
+        "name": "semi-sweet chocolate chips",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-chocolate-chips-semisweet"
+        }
+      }
     ],
     "usages": [
-      { "componentKey": "u-egg", "stepKey": "s1", "slotKey": "sl-egg", "quantityValue": 1, "quantityUnit": "each" },
-      { "componentKey": "u-oat", "stepKey": "s1", "slotKey": "sl-oat", "quantityValue": 25, "quantityUnit": "g" },
-      { "componentKey": "u-ap", "stepKey": "s1", "slotKey": "sl-ap", "quantityValue": 25, "quantityUnit": "g" },
-      { "componentKey": "u-yogurt", "stepKey": "s1", "slotKey": "sl-yogurt", "quantityValue": 170, "quantityUnit": "g" },
-      { "componentKey": "u-bp", "stepKey": "s1", "slotKey": "sl-bp", "quantityValue": 1, "quantityUnit": "tsp" },
-      { "componentKey": "u-splenda", "stepKey": "s1", "slotKey": "sl-splenda", "quantityValue": 3, "quantityUnit": "g" },
-      { "componentKey": "u-protein", "stepKey": "s1", "slotKey": "sl-protein", "quantityValue": 37, "quantityUnit": "g" },
-      { "componentKey": "u-chips", "stepKey": "s1", "slotKey": "sl-chips", "quantityValue": 20, "quantityUnit": "g" }
+      {
+        "componentKey": "u-egg",
+        "stepKey": "s1",
+        "slotKey": "sl-egg",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u-oat",
+        "stepKey": "s1",
+        "slotKey": "sl-oat",
+        "quantityValue": 25,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-ap",
+        "stepKey": "s1",
+        "slotKey": "sl-ap",
+        "quantityValue": 25,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-yogurt",
+        "stepKey": "s1",
+        "slotKey": "sl-yogurt",
+        "quantityValue": 170,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-bp",
+        "stepKey": "s1",
+        "slotKey": "sl-bp",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-splenda",
+        "stepKey": "s1",
+        "slotKey": "sl-splenda",
+        "quantityValue": 3,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-protein",
+        "stepKey": "s1",
+        "slotKey": "sl-protein",
+        "quantityValue": 37,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-chips",
+        "stepKey": "s1",
+        "slotKey": "sl-chips",
+        "quantityValue": 20,
+        "quantityUnit": "g"
+      }
     ]
   }
 }
