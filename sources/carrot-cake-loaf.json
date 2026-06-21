@@ -5,7 +5,8 @@
     "carrot-cake",
     "cake",
     "protein",
-    "baked"
+    "baked",
+    "bakeoff:carrot-base"
   ],
   "yield": {
     "amount": 16,
@@ -30,7 +31,7 @@
         "componentKey": "b3",
         "order": 3,
         "section": "cool",
-        "instructionText": "Rest in the pan 10-15 min (it's fragile straight from the oven), then turn out onto a wire rack and cool COMPLETELY before slicing into 16. A warm protein loaf slices gummy and squashes; fully cooled it firms up and cuts clean. Even better the next day, wrapped at room temp."
+        "instructionText": "Rest in the pan 10-15 min (it's fragile straight from the oven), then turn out onto a wire rack and cool COMPLETELY before slicing into 16. A warm protein loaf slices gummy and squashes; fully cooled it firms up and cuts clean. Even better the next day, wrapped at room temp. No frosting on this loaf — it's a plain spiced protein bake, sliced and eaten as-is to keep it lean; if you want extra, smear an individual slice with Splenda-sweetened 0% Greek yogurt (added at serving, so it stays off the recipe's macros)."
       }
     ],
     "slots": [

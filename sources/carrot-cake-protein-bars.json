@@ -6,7 +6,8 @@
     "bars",
     "protein",
     "baked",
-    "frosted"
+    "frosted",
+    "bakeoff:carrot-base"
   ],
   "yield": {
     "amount": 9,
