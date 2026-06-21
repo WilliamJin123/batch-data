@@ -194,7 +194,10 @@
       "fat": 0.2,
       "fiber": 0
     },
-    "densityGPerMl": 1.03
+    "densityGPerMl": 1.03,
+    "unitEquivalences": {
+      "each": 33
+    }
   },
   {
     "id": "ing-egg-whole",
@@ -511,5 +514,48 @@
       "fiber": 0
     },
     "densityGPerMl": 1
+  },
+  {
+    "id": "ing-skim-milk",
+    "name": "skim milk",
+    "macrosPer100g": {
+      "calories": 34,
+      "protein": 3.4,
+      "carbs": 5,
+      "fat": 0.1,
+      "fiber": 0
+    },
+    "densityGPerMl": 1.035
+  },
+  {
+    "id": "ing-espresso-powder",
+    "name": "espresso/instant coffee powder",
+    "macrosPer100g": {
+      "calories": 353,
+      "protein": 12,
+      "carbs": 41,
+      "fat": 0.5,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "tsp": 2,
+      "tbsp": 6
+    }
+  },
+  {
+    "id": "ing-vegetable-oil",
+    "name": "neutral oil",
+    "macrosPer100g": {
+      "calories": 884,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100,
+      "fiber": 0
+    },
+    "densityGPerMl": 0.92,
+    "unitEquivalences": {
+      "tbsp": 13.6,
+      "tsp": 4.5
+    }
   }
 ]

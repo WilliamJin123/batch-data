@@ -1,0 +1,265 @@
+{
+  "name": "Fudgy + Chewy Protein Brownies",
+  "deriveFromRecipe": "Fudgy Protein Brownies",
+  "description": "The balanced one — derived from the Fudgy base, keeping real fudge from butter + baking chocolate but adding chew: the whole egg + an extra egg white are beaten with brown sugar until glossy (dissolved, never whipped to a ribbon), the cornstarch is dropped, and protein is doubled. 1/4 cup granulated Splenda, no added milk, baked at 325F for ~17-18 min and pulled at a slight (fudgy-leaning) jiggle. Doubling protein at flat calories pulls the ratio from the base's 16.5 down to 12.5 cal per g protein. Computed ~624 cal / 50 g protein per batch of 9; ~69 cal, 5.6P, 6.7C, 2.8F per square. Source: user.",
+  "tags": [
+    "brownie",
+    "protein",
+    "fudgy",
+    "chewy"
+  ],
+  "overrides": [
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-brown-sugar",
+        "name": "brown sugar",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-brown-sugar"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-egg-white",
+        "name": "egg white",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-white"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-brown-sugar",
+        "stepKey": "b3",
+        "slotKey": "sl-brown-sugar",
+        "quantityValue": 22,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-egg-white",
+        "stepKey": "b3",
+        "slotKey": "sl-egg-white",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "b2",
+      "payload": {
+        "componentKey": "b2",
+        "order": 2,
+        "section": "Batter",
+        "instructionText": "Melt the butter + baking chocolate (low heat or short microwave bursts). Stir in the cocoa + espresso to bloom into a paste; set aside to cool slightly."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "b3",
+      "payload": {
+        "componentKey": "b3",
+        "order": 3,
+        "section": "Batter",
+        "instructionText": "Beat the whole egg + egg white with the brown sugar only until the sugar grit dissolves and it looks smooth and glossy — then STOP. This builds chew and the shiny top; do NOT whip it to a pale, voluminous ribbon, which aerates it and bakes up holey/cakey."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "b4",
+      "payload": {
+        "componentKey": "b4",
+        "order": 4,
+        "section": "Batter",
+        "instructionText": "Stir the Greek yogurt into the egg mixture, then fold in the cooled chocolate mixture until uniform."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "b5",
+      "payload": {
+        "componentKey": "b5",
+        "order": 5,
+        "section": "Batter",
+        "instructionText": "Whisk the flour + protein powder + salt, then fold in just to no dry streaks — then a few extra gentle strokes for a little chew, stopping before the batter turns smooth and stretchy. No cornstarch."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "b6",
+      "payload": {
+        "componentKey": "b6",
+        "order": 6,
+        "section": "Batter",
+        "instructionText": "Stir in the Splenda; add a splash of skim milk only if the batter is stiff. Spread in the pan."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "k1",
+      "payload": {
+        "componentKey": "k1",
+        "order": 7,
+        "section": "Bake",
+        "instructionText": "Bake at 325°F for ~17–18 minutes, checking from ~14. Pull at a slight center jiggle — it's fudgy-leaning, so on the early side.",
+        "temperature": 325,
+        "timerSeconds": 1080
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-butter",
+      "payload": {
+        "componentKey": "u-butter",
+        "stepKey": "b2",
+        "slotKey": "sl-butter",
+        "quantityValue": 14,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-chocolate",
+      "payload": {
+        "componentKey": "u-chocolate",
+        "stepKey": "b2",
+        "slotKey": "sl-chocolate",
+        "quantityValue": 8,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-cocoa",
+      "payload": {
+        "componentKey": "u-cocoa",
+        "stepKey": "b2",
+        "slotKey": "sl-cocoa",
+        "quantityValue": 20,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-egg",
+      "payload": {
+        "componentKey": "u-egg",
+        "stepKey": "b3",
+        "slotKey": "sl-egg",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-yogurt",
+      "payload": {
+        "componentKey": "u-yogurt",
+        "stepKey": "b4",
+        "slotKey": "sl-yogurt",
+        "quantityValue": 100,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-flour",
+      "payload": {
+        "componentKey": "u-flour",
+        "stepKey": "b5",
+        "slotKey": "sl-flour",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-protein",
+      "payload": {
+        "componentKey": "u-protein",
+        "stepKey": "b5",
+        "slotKey": "sl-protein",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-salt",
+      "payload": {
+        "componentKey": "u-salt",
+        "stepKey": "b5",
+        "slotKey": "sl-salt",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-splenda",
+      "payload": {
+        "componentKey": "u-splenda",
+        "stepKey": "b6",
+        "slotKey": "sl-splenda",
+        "quantityValue": 0.25,
+        "quantityUnit": "cup"
+      }
+    },
+    {
+      "op": "remove",
+      "kind": "usage",
+      "target": "u-milk"
+    },
+    {
+      "op": "remove",
+      "kind": "usage",
+      "target": "u-vanilla"
+    },
+    {
+      "op": "remove",
+      "kind": "usage",
+      "target": "u-cornstarch"
+    },
+    {
+      "op": "remove",
+      "kind": "slot",
+      "target": "sl-milk"
+    },
+    {
+      "op": "remove",
+      "kind": "slot",
+      "target": "sl-vanilla"
+    },
+    {
+      "op": "remove",
+      "kind": "slot",
+      "target": "sl-cornstarch"
+    }
+  ]
+}
