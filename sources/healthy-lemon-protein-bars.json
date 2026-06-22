@@ -1,13 +1,12 @@
 {
   "name": "Healthy Lemon Protein Bars",
-  "description": "Frosted no-bake lemon bars tuned to a sub-10 cal:protein ratio for the no-bake / protein-bar format. Oat-forward almond+oat protein cookie layer (leaning carbs over fat) pressed in a loaf pan, bound with a real+sugar-free maple blend (a little real maple for workout carbs) and applesauce in place of most of the butter; topped with a whisked 0% Greek yogurt / cream-cheese lemon frosting set with a little sugar-free vanilla pudding (no blender, no cottage-cheese clumps) and studded with semisweet chocolate chips. Cut from the original 13.7 ratio while keeping it a real frosted bar, not a protein brick. Same frosted-bar format as the Cookie Dough and Peppermint bars.",
+  "description": "Frosted no-bake lemon bars tuned to a sub-10 cal:protein ratio for the no-bake / protein-bar format. Oat-forward almond+oat protein cookie layer (leaning carbs over fat) pressed in a loaf pan, bound with a real+sugar-free maple blend (a little real maple for workout carbs) and applesauce in place of most of the butter; topped with a whisked 0% Greek yogurt / cream-cheese lemon frosting set with a little sugar-free vanilla pudding (no blender, no cottage-cheese clumps). Cut from the original 13.7 ratio while keeping it a real frosted bar, not a protein brick. Same frosted-bar format as the Cookie Dough and Peppermint bars.",
   "tags": [
     "protein",
     "lemon",
     "frosted",
     "no-bake",
-    "bars",
-    "chocolate-chip"
+    "bars"
   ],
   "yield": {
     "amount": 8,
@@ -31,7 +30,7 @@
         "componentKey": "z1",
         "order": 3,
         "section": "set",
-        "instructionText": "Press the semisweet chocolate chips over the frosting, then freeze ~20 min until set; slice into 8 bars."
+        "instructionText": "Freeze ~20 min until set, then slice into 8 bars."
       }
     ],
     "slots": [
@@ -121,14 +120,6 @@
         "resolution": {
           "kind": "raw",
           "libraryIngredientId": "ing-maple-syrup"
-        }
-      },
-      {
-        "componentKey": "sl-choc-chips",
-        "name": "semisweet chocolate chips",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-chocolate-chips-semisweet"
         }
       },
       {
@@ -235,13 +226,6 @@
         "quantityUnit": "tbsp"
       },
       {
-        "componentKey": "u-choc-chips",
-        "stepKey": "z1",
-        "slotKey": "sl-choc-chips",
-        "quantityValue": 10,
-        "quantityUnit": "g"
-      },
-      {
         "componentKey": "u-splenda",
         "stepKey": "f1",
         "slotKey": "sl-splenda",
@@ -287,12 +271,6 @@
         "kind": "pitfall",
         "text": "Freeze 20 min to set, then move to the fridge — bars left in the freezer too long become rock-hard and the white-chocolate frosting can crack when sliced. Temper 5 min at room temp before cutting if frozen solid.",
         "stepKey": "z1"
-      },
-      {
-        "componentKey": "n6",
-        "kind": "technique",
-        "stepKey": "z1",
-        "text": "Press the chocolate chips into the frosting while it's still soft so they anchor (or melt and drizzle them instead). Semisweet + lemon eats like a chocolate-chip lemon bar; for a milder chocolate hit use mini chips spread thinner."
       }
     ]
   }
