@@ -1,12 +1,13 @@
 {
   "name": "Healthy Lemon Protein Bars",
-  "description": "Frosted no-bake lemon bars: an almond-flour + oat-flour protein cookie layer pressed in a loaf pan, topped with a blended cottage-cheese/cream-cheese frosting brightened with lemon and enriched with melted white chocolate. Same frosted-bar format as the Cookie Dough and Peppermint bars. If the frosting is too loose for the brand of cheese used, thicken with extra protein or cream cheese. Maple kept as written (no-bake binder).",
+  "description": "Frosted no-bake lemon bars tuned to a sub-10 cal:protein ratio for the no-bake / protein-bar format. Oat-forward almond+oat protein cookie layer (leaning carbs over fat) pressed in a loaf pan, bound with a real+sugar-free maple blend (a little real maple for workout carbs) and applesauce in place of most of the butter; topped with a blended cottage-cheese / cream-cheese lemon frosting sweetened with Splenda and studded with semisweet chocolate chips. Cut from the original 13.7 ratio while keeping it a real frosted bar, not a protein brick. Same frosted-bar format as the Cookie Dough and Peppermint bars.",
   "tags": [
     "protein",
     "lemon",
     "frosted",
     "no-bake",
-    "bars"
+    "bars",
+    "chocolate-chip"
   ],
   "yield": {
     "amount": 8,
@@ -18,19 +19,19 @@
         "componentKey": "b1",
         "order": 1,
         "section": "cookie layer",
-        "instructionText": "Mix the protein, almond flour, oat flour, butter, maple syrup, and lemon juice into a dough. Press firmly into a parchment-lined loaf pan; chill while you make the frosting."
+        "instructionText": "Mix the protein powder, almond flour, oat flour, melted butter, both maple syrups (real + sugar-free), applesauce, and lemon juice into a stiff dough. Press very firmly into a parchment-lined loaf pan; chill while you make the frosting."
       },
       {
         "componentKey": "f1",
         "order": 2,
         "section": "frosting",
-        "instructionText": "Blend the cottage cheese, cream cheese, and lemon juice smooth. Melt the white chocolate chips with the coconut oil and stir in, then stir in the protein until thick. Spread over the cookie layer (thicken with more protein or cream cheese if loose)."
+        "instructionText": "Blend the cottage cheese, cream cheese, lemon juice, and Splenda completely smooth, then stir in the protein powder until thick and spreadable. Spread over the cookie layer (thicken with a little more cream cheese if loose)."
       },
       {
         "componentKey": "z1",
         "order": 3,
         "section": "set",
-        "instructionText": "Freeze ~20 min until set, then slice into 8 bars."
+        "instructionText": "Press the semisweet chocolate chips over the frosting, then freeze ~20 min until set; slice into 8 bars."
       }
     ],
     "slots": [
@@ -68,10 +69,10 @@
       },
       {
         "componentKey": "sl-maple",
-        "name": "maple syrup",
+        "name": "sugar-free maple syrup",
         "resolution": {
           "kind": "raw",
-          "libraryIngredientId": "ing-maple-syrup"
+          "libraryIngredientId": "ing-syrup-maple-sf"
         }
       },
       {
@@ -108,27 +109,43 @@
         }
       },
       {
-        "componentKey": "sl-white-choc",
-        "name": "white chocolate chips",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-white-chocolate-chips"
-        }
-      },
-      {
-        "componentKey": "sl-coconut-oil",
-        "name": "coconut oil",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-coconut-oil"
-        }
-      },
-      {
         "componentKey": "sl-protein-frost",
         "name": "vanilla protein powder",
         "resolution": {
           "kind": "raw",
           "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-applesauce",
+        "name": "unsweetened applesauce",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-applesauce"
+        }
+      },
+      {
+        "componentKey": "sl-maple-real",
+        "name": "maple syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-maple-syrup"
+        }
+      },
+      {
+        "componentKey": "sl-choc-chips",
+        "name": "semisweet chocolate chips",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-chocolate-chips-semisweet"
+        }
+      },
+      {
+        "componentKey": "sl-splenda",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
         }
       }
     ],
@@ -144,29 +161,29 @@
         "componentKey": "u-almond-flour",
         "stepKey": "b1",
         "slotKey": "sl-almond-flour",
-        "quantityValue": 0.5,
-        "quantityUnit": "cup"
+        "quantityValue": 20,
+        "quantityUnit": "g"
       },
       {
         "componentKey": "u-oat",
         "stepKey": "b1",
         "slotKey": "sl-oat",
-        "quantityValue": 0.5,
-        "quantityUnit": "cup"
+        "quantityValue": 80,
+        "quantityUnit": "g"
       },
       {
         "componentKey": "u-butter",
         "stepKey": "b1",
         "slotKey": "sl-butter",
-        "quantityValue": 3,
+        "quantityValue": 1,
         "quantityUnit": "tbsp"
       },
       {
         "componentKey": "u-maple",
         "stepKey": "b1",
         "slotKey": "sl-maple",
-        "quantityValue": 0.25,
-        "quantityUnit": "cup"
+        "quantityValue": 3,
+        "quantityUnit": "tbsp"
       },
       {
         "componentKey": "u-lemon-base",
@@ -197,24 +214,38 @@
         "quantityUnit": "tsp"
       },
       {
-        "componentKey": "u-white-choc",
-        "stepKey": "f1",
-        "slotKey": "sl-white-choc",
-        "quantityValue": 3,
-        "quantityUnit": "tbsp"
-      },
-      {
-        "componentKey": "u-coconut-oil",
-        "stepKey": "f1",
-        "slotKey": "sl-coconut-oil",
-        "quantityValue": 1,
-        "quantityUnit": "tsp"
-      },
-      {
         "componentKey": "u-protein-frost",
         "stepKey": "f1",
         "slotKey": "sl-protein-frost",
         "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-applesauce",
+        "stepKey": "b1",
+        "slotKey": "sl-applesauce",
+        "quantityValue": 3,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-maple-real",
+        "stepKey": "b1",
+        "slotKey": "sl-maple-real",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-choc-chips",
+        "stepKey": "z1",
+        "slotKey": "sl-choc-chips",
+        "quantityValue": 10,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-splenda",
+        "stepKey": "f1",
+        "slotKey": "sl-splenda",
+        "quantityValue": 4,
         "quantityUnit": "g"
       }
     ],
@@ -222,19 +253,13 @@
       {
         "componentKey": "n1",
         "kind": "technique",
-        "text": "Press the cookie layer very firmly — almond flour + oat flour with no egg binds only from maple syrup and butter. A loose press leaves a crumbly bar that falls apart when sliced.",
-        "stepKey": "b1"
+        "stepKey": "b1",
+        "text": "Press the cookie layer very firmly - it's oat-forward with no egg and no bake, binding from the maple syrup, applesauce, and just 1 tbsp butter. A loose press crumbles when sliced: pack it down hard and chill until firm before frosting. If the dough feels dry, work in a teaspoon of milk or applesauce."
       },
       {
         "componentKey": "n2",
         "kind": "pitfall",
         "text": "Blend the cottage cheese until completely smooth before adding anything else — any visible curds in the frosting won't disappear once the white chocolate and protein go in.",
-        "stepKey": "f1"
-      },
-      {
-        "componentKey": "n3",
-        "kind": "pitfall",
-        "text": "Let the melted white chocolate cool slightly before stirring into the cottage-cheese blend — if it's too hot it can seize or make the frosting grainy. Aim for warm, not steaming.",
         "stepKey": "f1"
       },
       {
@@ -248,6 +273,12 @@
         "kind": "pitfall",
         "text": "Freeze 20 min to set, then move to the fridge — bars left in the freezer too long become rock-hard and the white-chocolate frosting can crack when sliced. Temper 5 min at room temp before cutting if frozen solid.",
         "stepKey": "z1"
+      },
+      {
+        "componentKey": "n6",
+        "kind": "technique",
+        "stepKey": "z1",
+        "text": "Press the chocolate chips into the frosting while it's still soft so they anchor (or melt and drizzle them instead). Semisweet + lemon eats like a chocolate-chip lemon bar; for a milder chocolate hit use mini chips spread thinner."
       }
     ]
   }
