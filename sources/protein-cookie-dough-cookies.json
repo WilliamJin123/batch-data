@@ -1,6 +1,6 @@
 {
   "name": "Protein Cookie Dough Cookies",
-  "description": "Delicious and high-protein cookie dough cookies, perfect for a healthier dessert option. House calibration: sugar-substitutes → granulated Splenda (volume-matched); any light butter → real butter at matched calories. Imported via `batch ingest`.",
+  "description": "Delicious and high-protein cookie dough cookies, perfect for a healthier dessert option. House calibration: the cookie-dough dough and crumble topping use REAL brown sugar for the molasses chew that defines cookie dough; the frosting and other sugar-substitutes are granulated Splenda (volume-matched); any light butter is real butter at matched calories. Imported via batch ingest.",
   "tags": [
     "cookie",
     "protein"
@@ -14,7 +14,7 @@
       {
         "componentKey": "s1",
         "order": 1,
-        "instructionText": "In a large bowl, combine the flour, vanilla protein powder, brown sugar replacement, baking powder, and salt. Mix well."
+        "instructionText": "In a large bowl, combine the flour, vanilla protein powder, brown sugar, baking powder, and salt. Mix well."
       },
       {
         "componentKey": "s2",
@@ -24,7 +24,7 @@
       {
         "componentKey": "s3",
         "order": 3,
-        "instructionText": "Preheat oven to 350°F (175°C)."
+        "instructionText": "Preheat oven to 350\u00b0F (175\u00b0C)."
       },
       {
         "componentKey": "s4",
@@ -44,7 +44,7 @@
       {
         "componentKey": "s7",
         "order": 7,
-        "instructionText": "For the cookie dough topping, combine the oat flour, vanilla protein powder, brown sugar replacement, vanilla extract, and salt in a separate bowl."
+        "instructionText": "For the cookie dough topping, combine the oat flour, vanilla protein powder, brown sugar, vanilla extract, and salt in a separate bowl."
       },
       {
         "componentKey": "s8",
@@ -81,10 +81,10 @@
       },
       {
         "componentKey": "sl3",
-        "name": "granulated Splenda",
+        "name": "brown sugar",
         "resolution": {
           "kind": "raw",
-          "libraryIngredientId": "ing-splenda-granulated"
+          "libraryIngredientId": "ing-brown-sugar"
         }
       },
       {
@@ -209,10 +209,10 @@
       },
       {
         "componentKey": "sl19",
-        "name": "granulated Splenda",
+        "name": "brown sugar",
         "resolution": {
           "kind": "raw",
-          "libraryIngredientId": "ing-splenda-granulated"
+          "libraryIngredientId": "ing-brown-sugar"
         }
       },
       {
