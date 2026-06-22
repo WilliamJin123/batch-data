@@ -187,6 +187,13 @@
   },
   {
     "recipe": "Healthy Lemon Protein Bars",
+    "kind": "made",
+    "rating": "excellent",
+    "notes": "Really quite good - Greek-yogurt frosting build.",
+    "date": "2026-06-22T20:29:52.264Z"
+  },
+  {
+    "recipe": "Healthy Lemon Protein Bars",
     "kind": "to-make",
     "notes": "Imported from Instagram; not yet made.",
     "date": "2026-06-21T15:11:07.296Z"
@@ -214,6 +221,13 @@
     "kind": "to-make",
     "notes": "Imported from Instagram; not yet made.",
     "date": "2026-06-21T15:11:08.535Z"
+  },
+  {
+    "recipe": "Frozen Greek-Yogurt Protein Bars",
+    "kind": "made",
+    "rating": "okay",
+    "notes": "Tastes exactly how yogurt and protein powder would taste if you froze it.",
+    "date": "2026-06-22T20:29:52.924Z"
   },
   {
     "recipe": "Frozen Greek-Yogurt Protein Bars",

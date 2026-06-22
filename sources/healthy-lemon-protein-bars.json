@@ -1,6 +1,6 @@
 {
   "name": "Healthy Lemon Protein Bars",
-  "description": "Frosted no-bake lemon bars tuned to a sub-10 cal:protein ratio for the no-bake / protein-bar format. Oat-forward almond+oat protein cookie layer (leaning carbs over fat) pressed in a loaf pan, bound with a real+sugar-free maple blend (a little real maple for workout carbs) and applesauce in place of most of the butter; topped with a blended cottage-cheese / cream-cheese lemon frosting sweetened with Splenda and studded with semisweet chocolate chips. Cut from the original 13.7 ratio while keeping it a real frosted bar, not a protein brick. Same frosted-bar format as the Cookie Dough and Peppermint bars.",
+  "description": "Frosted no-bake lemon bars tuned to a sub-10 cal:protein ratio for the no-bake / protein-bar format. Oat-forward almond+oat protein cookie layer (leaning carbs over fat) pressed in a loaf pan, bound with a real+sugar-free maple blend (a little real maple for workout carbs) and applesauce in place of most of the butter; topped with a whisked 0% Greek yogurt / cream-cheese lemon frosting set with a little sugar-free vanilla pudding (no blender, no cottage-cheese clumps) and studded with semisweet chocolate chips. Cut from the original 13.7 ratio while keeping it a real frosted bar, not a protein brick. Same frosted-bar format as the Cookie Dough and Peppermint bars.",
   "tags": [
     "protein",
     "lemon",
@@ -25,7 +25,7 @@
         "componentKey": "f1",
         "order": 2,
         "section": "frosting",
-        "instructionText": "Blend the cottage cheese, cream cheese, lemon juice, and Splenda completely smooth, then stir in the protein powder until thick and spreadable. Spread over the cookie layer (thicken with a little more cream cheese if loose)."
+        "instructionText": "Whisk the Greek yogurt, cream cheese, lemon juice, pudding mix, and Splenda smooth - no blender needed, the yogurt is already smooth - then stir in the protein powder until thick and spreadable. Spread over the cookie layer; it firms as it chills."
       },
       {
         "componentKey": "z1",
@@ -84,15 +84,6 @@
         }
       },
       {
-        "componentKey": "sl-cottage",
-        "name": "cottage cheese",
-        "prepDefault": "blended smooth",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-cottage-cheese"
-        }
-      },
-      {
         "componentKey": "sl-cream-cheese",
         "name": "light cream cheese",
         "resolution": {
@@ -147,6 +138,22 @@
           "kind": "raw",
           "libraryIngredientId": "ing-splenda-granulated"
         }
+      },
+      {
+        "componentKey": "sl-yogurt",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl-pudding",
+        "name": "sugar-free vanilla pudding mix",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pudding-vanilla-sf"
+        }
       }
     ],
     "usages": [
@@ -191,13 +198,6 @@
         "slotKey": "sl-lemon-base",
         "quantityValue": 1.5,
         "quantityUnit": "tbsp"
-      },
-      {
-        "componentKey": "u-cottage",
-        "stepKey": "f1",
-        "slotKey": "sl-cottage",
-        "quantityValue": 113,
-        "quantityUnit": "g"
       },
       {
         "componentKey": "u-cream-cheese",
@@ -245,8 +245,22 @@
         "componentKey": "u-splenda",
         "stepKey": "f1",
         "slotKey": "sl-splenda",
-        "quantityValue": 4,
+        "quantityValue": 2,
         "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-yogurt",
+        "stepKey": "f1",
+        "slotKey": "sl-yogurt",
+        "quantityValue": 113,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-pudding",
+        "stepKey": "f1",
+        "slotKey": "sl-pudding",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
       }
     ],
     "notes": [
@@ -258,9 +272,9 @@
       },
       {
         "componentKey": "n2",
-        "kind": "pitfall",
-        "text": "Blend the cottage cheese until completely smooth before adding anything else — any visible curds in the frosting won't disappear once the white chocolate and protein go in.",
-        "stepKey": "f1"
+        "kind": "technique",
+        "stepKey": "f1",
+        "text": "Greek yogurt sets looser than blended cottage, so the tablespoon of pudding mix is what firms the frosting - don't skip it, and use a thick Greek (Fage 0%). If it still seems loose, chill it 10 minutes before spreading."
       },
       {
         "componentKey": "n4",
