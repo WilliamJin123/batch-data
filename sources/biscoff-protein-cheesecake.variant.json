@@ -1,11 +1,10 @@
 {
   "name": "Biscoff Protein Cheesecake",
-  "description": "Biscoff cookie-butter protein cheesecake, crustless - a flavor variant of the Vanilla Protein Cheesecake base. No cookie-butter emulsion needed: browned butter plus a bloomed speculoos spice blend (toasted cinnamon, ginger, nutmeg) stand in for the emulsion's spiced-cookie note, and 60 g Biscoff (45 g in the batter + a 15 g swirl on top) carries the rest. The base's light cream cheese is swapped to FAT-FREE here because the Biscoff and brown butter now supply the richness - that one swap is what keeps it at ~172 cal/slice (ratio ~10.4) instead of ~205 despite the added cookie butter. Powdered PB deepens the nutty flavor and offsets the Biscoff fat with protein. To-make.",
+  "description": "Biscoff cookie-butter protein cheesecake, crustless - a flavor variant of the Vanilla Protein Cheesecake base, built from pantry staples (no cookie-butter emulsion, no fat-free cream cheese, no powdered PB, no brown butter). 55 g Biscoff (40 g in the batter + a 15 g swirl on top) plus a toasted speculoos spice blend (cinnamon, ginger, nutmeg) carry the cookie flavor. To stay lean without fat-free cream cheese, the base's light cream cheese is cut back (113 -> 85 g) and the body made up with blended cottage cheese (57 -> 110 g) + extra egg white (30 -> 60 g) - both lean and high-protein - landing at ~167 cal/slice (ratio ~10.9). To-make.",
   "tags": [
     "cheesecake",
     "protein",
-    "biscoff",
-    "brown-butter"
+    "biscoff"
   ],
   "yield": {
     "amount": 8,
@@ -29,45 +28,12 @@
       "op": "add",
       "kind": "slot",
       "payload": {
-        "componentKey": "sl-butter",
-        "name": "butter (browned)",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-butter"
-        }
-      }
-    },
-    {
-      "op": "add",
-      "kind": "slot",
-      "payload": {
         "componentKey": "sl-cinnamon",
         "name": "ground cinnamon",
         "resolution": {
           "kind": "raw",
           "libraryIngredientId": "ing-cinnamon-ground"
         }
-      }
-    },
-    {
-      "op": "add",
-      "kind": "slot",
-      "payload": {
-        "componentKey": "sl-pb-powder",
-        "name": "powdered peanut butter",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-pb-powder"
-        }
-      }
-    },
-    {
-      "op": "add",
-      "kind": "step",
-      "payload": {
-        "componentKey": "s-brown",
-        "order": 1.5,
-        "instructionText": "Brown the butter: melt the butter in a light-colored pan over medium, swirling, until it foams, then smells nutty and the milk solids turn golden-amber (~2-3 min) - pull the instant it's amber, it goes from nutty to burnt in seconds. Off the heat, stir in the cinnamon plus a pinch each of ground ginger and nutmeg and let them bloom in the hot butter ~30 sec - this is where the speculoos 'cookie' flavor comes from (brown butter alone is nutty, not spiced). Scrape it all, including the toasty brown bits, into a small bowl and cool to barely warm."
       }
     },
     {
@@ -83,19 +49,8 @@
       "op": "add",
       "kind": "usage",
       "payload": {
-        "componentKey": "u-butter",
-        "stepKey": "s-brown",
-        "slotKey": "sl-butter",
-        "quantityValue": 12,
-        "quantityUnit": "g"
-      }
-    },
-    {
-      "op": "add",
-      "kind": "usage",
-      "payload": {
         "componentKey": "u-cinnamon",
-        "stepKey": "s-brown",
+        "stepKey": "s3",
         "slotKey": "sl-cinnamon",
         "quantityValue": 0.5,
         "quantityUnit": "tsp"
@@ -108,18 +63,7 @@
         "componentKey": "u-biscoff",
         "stepKey": "s3",
         "slotKey": "sl-biscoff",
-        "quantityValue": 45,
-        "quantityUnit": "g"
-      }
-    },
-    {
-      "op": "add",
-      "kind": "usage",
-      "payload": {
-        "componentKey": "u-pb-powder",
-        "stepKey": "s3",
-        "slotKey": "sl-pb-powder",
-        "quantityValue": 15,
+        "quantityValue": 40,
         "quantityUnit": "g"
       }
     },
@@ -135,82 +79,144 @@
       }
     },
     {
-      "op": "replace",
-      "kind": "step",
-      "target": "s3",
-      "payload": {
-        "componentKey": "s3",
-        "order": 3,
-        "instructionText": "Beat the fat-free cream cheese alone until smooth, then add the yogurt, blended cottage cheese, protein powder, powdered peanut butter, sweetener, vanilla, lemon, the 45 g Biscoff, the cooled browned-butter spice mixture, and the vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined - don't overwork it. Warm the bowl ~15 sec if it clumps."
-      }
-    },
-    {
-      "op": "replace",
-      "kind": "slot",
-      "target": "sl-cream-cheese",
-      "payload": {
-        "componentKey": "sl-cream-cheese",
-        "name": "fat-free cream cheese",
-        "prepDefault": "softened",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-cream-cheese-fat-free"
-        }
-      }
-    },
-    {
-      "op": "replace",
+      "op": "add",
       "kind": "note",
-      "target": "n1",
       "payload": {
-        "componentKey": "n1",
+        "componentKey": "c1",
         "kind": "pitfall",
-        "text": "Brown butter goes from nutty-amber to acrid-burnt in seconds. Pull it the moment the milk solids are golden and it smells like toffee; if it smells sharp or the bits are black, start over - burnt butter taints the whole cake.",
-        "stepKey": "s-brown"
+        "text": "The cooked pumpkin must be at room temperature before it goes in - even slightly warm, it starts cooking the eggs and leaves scrambled streaks in the finished cheesecake.",
+        "stepKey": "s1"
       }
     },
     {
-      "op": "replace",
+      "op": "add",
       "kind": "note",
-      "target": "n2",
       "payload": {
-        "componentKey": "n2",
+        "componentKey": "c2",
+        "kind": "pitfall",
+        "text": "Blend the cottage cheese completely smooth - any visible curd survives baking and turns the cheesecake grainy. An immersion blender in a tall cup works; a food processor needs a full 2 minutes.",
+        "stepKey": "s2"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "c3",
         "kind": "technique",
-        "text": "Bloom the cinnamon, ginger, and nutmeg in the hot butter off the heat - the spices are fat-soluble, so 30 sec in the browned butter wakes them up far more than stirring them into cold batter. Brown butter brings the nutty caramel depth; the bloomed spices are what make it actually read as Biscoff.",
-        "stepKey": "s-brown"
+        "text": "Toast the ground cinnamon in a dry pan 30-60 sec until fragrant before it goes in - straight from the jar it tastes flat; toasting blooms its oils and is what makes the spice read as speculoos against the Biscoff. Stir the ginger and nutmeg pinches in off the heat.",
+        "stepKey": "s3"
       }
     },
     {
-      "op": "replace",
+      "op": "add",
       "kind": "note",
-      "target": "n3",
       "payload": {
-        "componentKey": "n3",
+        "componentKey": "c4",
         "kind": "pitfall",
-        "text": "This batter is leaner than a classic cheesecake (fat-free cream cheese), so it sets firmer and dries out faster - do NOT overbake. Pull at a just-set center with a slight wobble; chase a fully firm center and it bakes out rubbery.",
+        "text": "Don't overbeat once the eggs are in - mix on low just until smooth. Beating in air makes a lean cheesecake puff, then crack and sink, and it won't set to the dense texture this is tuned for.",
+        "stepKey": "s4"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "c5",
+        "kind": "pitfall",
+        "text": "This is a lean protein custard, so it sets firmer and dries out faster than a full-fat cheesecake - do NOT overbake. Pull at a just-set center with a slight wobble; chase a fully firm center and it bakes out rubbery.",
         "stepKey": "s6"
       }
     },
     {
-      "op": "replace",
+      "op": "add",
       "kind": "note",
-      "target": "n4",
       "payload": {
-        "componentKey": "n4",
+        "componentKey": "c6",
         "kind": "technique",
         "text": "Swirl the melted Biscoff on top, don't stir it in - a few toothpick S-curves keep a marbled pattern. Blend it all the way in and you just muddy the color and lose the 'Biscoff cheesecake' look.",
         "stepKey": "s-swirl"
       }
     },
     {
-      "op": "replace",
+      "op": "add",
       "kind": "note",
-      "target": "n5",
       "payload": {
-        "componentKey": "n5",
+        "componentKey": "c7",
         "kind": "note",
-        "text": "Crustless by design - the Biscoff and browned butter carry the cookie flavor without a crust's calories. If you want a crust, the Protein Graham Crust sub-recipe slots in like it does on the other cheesecakes (about +50 cal/slice)."
+        "text": "Crustless by design - the Biscoff and toasted spices carry the cookie flavor without a crust's calories. If you want a crust, the Protein Graham Crust sub-recipe slots in like it does on the other cheesecakes (about +50 cal/slice)."
       }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s3",
+      "payload": {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Beat the light cream cheese alone until smooth, then add the yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, the 40 g Biscoff, the toasted cinnamon plus a pinch each of ground ginger and nutmeg, and the vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined - don't overwork it. Warm the bowl ~15 sec if it clumps."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-cream-cheese",
+      "payload": {
+        "componentKey": "u-cream-cheese",
+        "stepKey": "s3",
+        "slotKey": "sl-cream-cheese",
+        "quantityValue": 85,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-cottage",
+      "payload": {
+        "componentKey": "u-cottage",
+        "stepKey": "s3",
+        "slotKey": "sl-cottage",
+        "quantityValue": 110,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-egg-white",
+      "payload": {
+        "componentKey": "u-egg-white",
+        "stepKey": "s4",
+        "slotKey": "sl-egg-white",
+        "quantityValue": 60,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "remove",
+      "kind": "note",
+      "target": "n1"
+    },
+    {
+      "op": "remove",
+      "kind": "note",
+      "target": "n2"
+    },
+    {
+      "op": "remove",
+      "kind": "note",
+      "target": "n3"
+    },
+    {
+      "op": "remove",
+      "kind": "note",
+      "target": "n4"
+    },
+    {
+      "op": "remove",
+      "kind": "note",
+      "target": "n5"
     }
   ]
 }
