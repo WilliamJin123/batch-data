@@ -1,12 +1,13 @@
 {
   "name": "Frozen Greek-Yogurt Protein Bars",
-  "description": "Frozen yogurt mold bars: nonfat Greek yogurt whipped with chocolate protein and butterscotch SF pudding mix, folded with crushed Ghost cinnamon cereal, set in candy-bar molds, topped with more cereal and a drizzle of zero-sugar chocolate syrup. Freezer-set, crunchy, very lean. Distinct from the cookie-dough/cheesecake bars — a yogurt-base format closer to the Protein Butterscotch Yogurt Pockets.",
+  "description": "Frozen yogurt mold bars: nonfat Greek yogurt whipped with chocolate protein and butterscotch SF pudding mix, folded with semisweet chocolate chips, set in candy-bar molds, topped with a few more chips and a drizzle of zero-sugar chocolate syrup. Freezer-set, very lean, chocolate-chip studded. Distinct from the cookie-dough/cheesecake bars - a yogurt-base format closer to the Protein Butterscotch Yogurt Pockets.",
   "tags": [
     "protein",
     "frozen",
     "yogurt-based",
     "no-bake",
-    "bars"
+    "bars",
+    "chocolate-chip"
   ],
   "yield": {
     "amount": 6,
@@ -17,14 +18,12 @@
       {
         "componentKey": "s1",
         "order": 1,
-        "section": "mix",
-        "instructionText": "Whisk the Greek yogurt, milk, butterscotch pudding mix, and chocolate protein until smooth. Crush about half the cereal and fold it in."
+        "instructionText": "Whisk the Greek yogurt, milk, butterscotch pudding mix, and chocolate protein until smooth, then fold in most of the chocolate chips."
       },
       {
         "componentKey": "s2",
         "order": 2,
-        "section": "mold",
-        "instructionText": "Pour into candy-bar molds. Sprinkle the remaining cereal on top and drizzle with the zero-sugar chocolate syrup."
+        "instructionText": "Pour into candy-bar molds, press a few chocolate chips into the tops, and drizzle with the zero-sugar chocolate syrup."
       },
       {
         "componentKey": "s3",
@@ -68,10 +67,10 @@
       },
       {
         "componentKey": "sl-cereal",
-        "name": "Ghost cinnamon cereal",
+        "name": "semisweet chocolate chips",
         "resolution": {
           "kind": "raw",
-          "libraryIngredientId": "ing-cereal-ghost"
+          "libraryIngredientId": "ing-chocolate-chips-semisweet"
         }
       },
       {
@@ -116,8 +115,8 @@
         "componentKey": "u-cereal",
         "stepKey": "s1",
         "slotKey": "sl-cereal",
-        "quantityValue": 1,
-        "quantityUnit": "serving"
+        "quantityValue": 30,
+        "quantityUnit": "g"
       },
       {
         "componentKey": "u-syrup",
@@ -137,8 +136,8 @@
       {
         "componentKey": "n2",
         "kind": "technique",
-        "text": "Crush only about half the Ghost cereal into the batter; leave the top-layer cereal as full pieces so it stays crunchy even after freezing — fully crushed cereal just absorbs moisture and disappears.",
-        "stepKey": "s1"
+        "stepKey": "s1",
+        "text": "Fold the chocolate chips in last - the pudding-and-protein batter stiffens fast, so mix just until they're evenly distributed. Press a few into the tops, where they set into the syrup drizzle for a nicer finish."
       },
       {
         "componentKey": "n3",
