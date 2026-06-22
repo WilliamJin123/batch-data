@@ -35,6 +35,61 @@
         "quantityValue": 0.1,
         "quantityUnit": "tsp"
       }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n1",
+      "payload": {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "9 min is the pull point, not a guideline — protein-yogurt cookies keep cooking on the hot pan. Centers will look underdone; that's correct. They firm to a soft, cakey texture as they cool. Going past 10 min makes them dry and tight.",
+        "stepKey": "b4"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n2",
+      "payload": {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "The 20–30 min chill is real work here — this dough has only 1 tbsp butter and barely spreads. Chilling firms it so the flattened mounds hold their shape; skipping it yields flat, patchy cookies.",
+        "stepKey": "b3"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n3",
+      "payload": {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Add the almond milk 1 tsp at a time — the dough is correct when it just holds together and pulls away from the bowl. Stop early; too much liquid makes flat cookies that don't hold shape after flattening.",
+        "stepKey": "b2"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n4",
+      "payload": {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "The cookies must be fully cool before frosting — the Cool-Whip frosting melts on a warm cookie and soaks in rather than sitting on top.",
+        "stepKey": "b5"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n5",
+      "payload": {
+        "componentKey": "n5",
+        "kind": "technique",
+        "text": "Fold the Cool Whip in first, then beat in the dry ingredients — adding protein powder directly to un-folded Cool Whip deflates it and the frosting turns dense and pasty instead of light.",
+        "stepKey": "sl-frosting/f-beat"
+      }
     }
   ]
 }

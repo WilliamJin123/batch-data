@@ -14,6 +14,16 @@
   "deriveFromRecipe": "Browned-Butter Protein Cookies",
   "overrides": [
     {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "n5",
+        "kind": "technique",
+        "text": "The 10–15 min rest on the hot tray is structural, not optional — protein cookies are too soft to handle straight from the oven and will firm to chewy as they cool. Judge texture only once fully cooled.",
+        "stepKey": "s7"
+      }
+    },
+    {
       "op": "replace",
       "kind": "usage",
       "target": "u-whey",
@@ -23,6 +33,50 @@
         "slotKey": "sl-whey",
         "quantityValue": 50,
         "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n1",
+      "payload": {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Brown butter goes from golden to burned in seconds — pull off the heat the moment the foam subsides and the milk solids smell nutty. Residual pan heat keeps cooking it, so pour it off immediately.",
+        "stepKey": "s1"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n2",
+      "payload": {
+        "componentKey": "n2",
+        "kind": "pitfall",
+        "text": "50g whey is high for this flour ratio — the dough will be thicker and drier than a standard cookie. If it crumbles rather than holds a mound, add milk a teaspoon at a time; don't be tempted to add more flour.",
+        "stepKey": "s3"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n3",
+      "payload": {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "The 30-min chill is what makes thick centers possible — it re-solidifies the 15g of butter so the three mounds hold their height instead of spreading flat.",
+        "stepKey": "s4"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n4",
+      "payload": {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "These stay pale — Splenda doesn't brown. Don't wait for golden color as your doneness cue. Pull at 9–11 min when the edges are set and the center still looks underdone; carryover heat on the hot tray finishes them.",
+        "stepKey": "s6"
       }
     }
   ]

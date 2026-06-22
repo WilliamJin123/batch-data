@@ -200,6 +200,38 @@
         "quantityValue": 3,
         "quantityUnit": "cookie"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Maple syrup is the structural binder here — don't thin the blue dough further to make mixing easier. If it's stiff, work it with your hands; adding extra milk loosens it so much the bars won't hold shape after slicing.",
+        "stepKey": "d1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Roll the brownie balls small — about marble size — so they distribute through the blue dough without tearing large chunks when you fold. The almond butter is the binder; if the mix is too sticky to roll, chill it 5 min first.",
+        "stepKey": "br1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Press the assembled mixture firmly into the lined loaf pan using the back of a spoon or damp fingers — air pockets mean the bars crumble when sliced. 20 min of fridge time firms the butter enough to cut cleanly.",
+        "stepKey": "a1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "Add the crushed sandwich cookies last and fold gently — overworking them after adding the cookies pulverizes the pieces and turns the bars uniformly blue-grey instead of cookie-studded.",
+        "stepKey": "a1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Spirulina color is sensitive to heat; these bars are intentionally no-bake. Even microwaving the butter to melt it should be done gently — let the melted butter cool slightly before mixing so it doesn't dull the blue.",
+        "stepKey": "d1"
+      }
     ]
   }
 }

@@ -351,6 +351,38 @@
         "quantityValue": 3,
         "quantityUnit": "ml"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "technique",
+        "text": "Watch the coconut closely — 30 seconds can go to golden or burnt in the same pan depending on heat. Stir constantly and pull off heat the moment it's fragrant and tan; carryover toasts it further.",
+        "stepKey": "n1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "pitfall",
+        "text": "Press the base layer firmly and evenly — a loose base crumbles when you slice and the bars fall apart. Use the flat base of a glass to compact it.",
+        "stepKey": "n3"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "The filling is thick (80g protein powder, 80g yogurt, only 125ml milk) — it needs to be spread immediately after mixing before the pudding mix stiffens it further. Don't mix in advance and let it sit.",
+        "stepKey": "n4"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Melt the baking chocolate + 5g coconut oil in true 30-second intervals, stirring between each — unsweetened baking chocolate scorches fast and seized chocolate won't pour smooth over the filling.",
+        "stepKey": "n6"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "pitfall",
+        "text": "Slice these cold, straight from the fridge — room-temp bars smear. For clean cuts, run a sharp knife under hot water and wipe dry between each slice.",
+        "stepKey": "n8"
+      }
     ]
   }
 }

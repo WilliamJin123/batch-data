@@ -252,6 +252,38 @@
         "quantityValue": 1,
         "quantityUnit": "pinch"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "10 minutes at 350F is the ceiling — with 3 scoops whey in only 5 cookies, these dry out fast. Pull when the edges are just set and the centers still look slightly underdone; carryover finishes them.",
+        "stepKey": "b4"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "The dough is thick; floured hands are essential — don't skip it. If it's too stiff to shape, work in almond milk a teaspoon at a time until it just comes together without sticking.",
+        "stepKey": "b3"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Don't frost until the cookies are fully cool — the Greek yogurt frosting will slide off a warm cookie and go thin. If the kitchen is warm, a 10-minute fridge chill after cooling helps the frosting set.",
+        "stepKey": "b5"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "The SF pudding mix thickens the frosting as it sits — mix and wait 5 minutes before spreading; if it's too thick, thin with a drop of almond milk, not more yogurt.",
+        "stepKey": "b6"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Frosted cookies stored in the fridge firm up noticeably by day 2; let them sit at room temp 10 minutes before eating for the best texture.",
+        "stepKey": "b5"
+      }
     ]
   }
 }

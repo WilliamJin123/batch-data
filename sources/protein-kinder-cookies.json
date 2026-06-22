@@ -161,6 +161,38 @@
         "quantityValue": 30,
         "quantityUnit": "g"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Coconut flour absorbs moisture aggressively and walnuts add bulk — the dough will stiffen within 2 minutes of mixing. Don't judge spreadability immediately; let it rest a moment, then portion.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Mix nut butter (walnuts here are the structural binder) and egg together first until fully emulsified before adding the dry ingredients — this prevents dry pockets of protein powder in the finished cookie.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "7–8 min at 350°F is the ceiling for 6 cookies this size — pull when edges are just set and centres still look slightly underdone. The Kinder chocolate holds residual heat and the protein finishes cooking on the pan.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Press the Kinder slices gently into the tops right before baking rather than mixing them into the dough — they stay whole, melt slightly into the surface, and look clean rather than disappearing into the cookie.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "1 tsp baking soda (4.6 g) is assertive for 6 small cookies — expect a slight lift and a touch of soda flavour if underbaked. Don't under-mix or you'll get concentrated soda pockets; mix until the dough is completely uniform.",
+        "stepKey": "s2"
+      }
     ]
   }
 }

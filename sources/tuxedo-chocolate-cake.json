@@ -335,6 +335,38 @@
         "quantityValue": 1,
         "quantityUnit": "scoop"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "The 20–40 min window is huge because pan depth varies — in 2 thin layers a single layer can be done in 18–22 min while a deep 2-layer pan takes 35+. Start checking at 18 min and go by toothpick, not time.",
+        "stepKey": "c2"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "This batter is built on pumpkin + applesauce with no oil or flour — it's very moist going in. Let layers cool completely (not just 10 min in-pan) before icing or the yogurt icing melts into the cake.",
+        "stepKey": "c2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Soften the Laughing Cow wedges to room temp before mixing — cold wedges leave lumps in the icing that don't smooth out. Mix icing just before assembly; it thickens in the fridge if made too far ahead.",
+        "stepKey": "iv1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "The chocolate icing has only 1 tbsp cocoa versus the vanilla icing's none — both icings are protein-heavy (1 scoop each) and will firm up fast. Spread immediately after mixing; don't let them sit before applying.",
+        "stepKey": "ic1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "technique",
+        "text": "The 30-min fridge rest before slicing is essential — the Laughing Cow + yogurt icings need to set cold or they ooze out when cut. Cut with a sharp knife wiped clean between slices for clean tuxedo stripes.",
+        "stepKey": "a1"
+      }
     ]
   }
 }

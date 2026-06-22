@@ -1,6 +1,6 @@
 {
   "name": "Glazed Apple Fritter",
-  "description": "Two single-serve baked apple fritters on an AP-flour/protein base \u2014 real butter, REAL brown sugar (2 tbsp, for molasses and moisture), cinnamon and nutmeg in the crumb, finished with a PROTEIN glaze (whey + Fairlife milk + Splenda) that sets like real icing instead of a thin sugar drizzle. The protein-glaze upgrade is borrowed from the Apple Fritter Bites. House calibration: sweeteners are granulated Splenda except the batter brown sugar; eggs are medium.",
+  "description": "Two single-serve baked apple fritters on an AP-flour/protein base — real butter, REAL brown sugar (2 tbsp, for molasses and moisture), cinnamon and nutmeg in the crumb, finished with a PROTEIN glaze (whey + Fairlife milk + Splenda) that sets like real icing instead of a thin sugar drizzle. The protein-glaze upgrade is borrowed from the Apple Fritter Bites. House calibration: sweeteners are granulated Splenda except the batter brown sugar; eggs are medium.",
   "tags": [
     "apple-fritter",
     "protein",
@@ -30,7 +30,7 @@
         "componentKey": "g1",
         "order": 3,
         "section": "glaze",
-        "instructionText": "Whisk the protein powder, Splenda, Fairlife milk, and vanilla into a thick, pourable glaze (add a few drops more milk only if needed). Drizzle over the cooled fritters and let it set 5-10 min \u2014 unlike a water glaze, the protein glaze firms into a real icing."
+        "instructionText": "Whisk the protein powder, Splenda, Fairlife milk, and vanilla into a thick, pourable glaze (add a few drops more milk only if needed). Drizzle over the cooled fritters and let it set 5-10 min — unlike a water glaze, the protein glaze firms into a real icing."
       }
     ],
     "slots": [
@@ -230,6 +230,38 @@
         "slotKey": "sl-gv",
         "quantityValue": 0.25,
         "quantityUnit": "tsp"
+      }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "10–12 min at 350°F is tight for a protein-heavy batter with Greek yogurt — check at 10. The fritters should feel just set and spring back lightly; overcooked ones go rubbery as they cool.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Toast the ground cinnamon in a dry pan for 30 seconds before adding it to the batter — it deepens the spice flavor noticeably, especially alongside the nutmeg.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "The batter is thick; if it won't spread into a round, add a teaspoon of milk at a time — but stop at 2 teaspoons or you'll lose the cakey lift and end up with a flat disc.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "The protein glaze (8 g whey + Splenda + 1 tbsp Fairlife) sets into real icing — but only on fully cooled fritters. Glaze on warm fritters melts and runs off instead of firming up in 5–10 min.",
+        "stepKey": "g1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Real brown sugar (2 tbsp, ~27.5 g) is intentional here for molasses moisture and flavor — don't swap for Splenda. The fritter crumb relies on it for tenderness that a zero-calorie sweetener won't provide.",
+        "stepKey": "b1"
       }
     ]
   }

@@ -271,6 +271,38 @@
         "quantityValue": 8.25,
         "quantityUnit": "tbsp"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "technique",
+        "text": "Cream the 113 g butter with the Splenda and honey first until pale, then add eggs one at a time — this builds structure so the Greek yogurt and protein fold in without deflating or curdling the batter.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "pitfall",
+        "text": "With 2 scoops of whey in the batter, overmixing after combining wet and dry produces a rubbery, dense crumb. Fold until just no dry streaks remain and stop immediately.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "305°F is deliberately low — don't bump the temperature. At a normal 350°F the protein sets the outside fast while the 3-egg interior stays wet, then cracks. The foil tent at 15 min prevents the top from over-browning during the final 8 minutes.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "Don't skip the 15-minute in-pan rest — this cake is fragile warm and will tear if released from the springform too soon. Let it cool in the pan undisturbed before running the ring.",
+        "stepKey": "s5"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "technique",
+        "text": "The Greek yogurt frosting is thickened by the casein (sl3) — it will firm up as it sits. Mix it just before frosting; if it thickens too much to spread, a tiny splash of milk loosens it without breaking it.",
+        "stepKey": "s6"
+      }
     ]
   }
 }

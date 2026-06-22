@@ -91,6 +91,37 @@
         "quantityValue": 0.3333333333333333,
         "quantityUnit": "tsp"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "The dough should clump together immediately and feel like stiff playdough — if it's wet and shaggy the yogurt was too thin (brand matters). Add the extra flour before shaping, not after, or the surface gets uneven.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Shape it into a tight boule before air frying: a loose, uneven mound will puff unevenly and the center stays raw while the outside firms. Tuck the seam underneath.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Air fry at 175C: don't go higher chasing speed — the crust sets and hardens before the center (only 120 g flour + 100 g yogurt) finishes cooking, leading to a gummy core.",
+        "stepKey": "s3"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Check doneness by tapping the bottom — it should sound hollow. The flip-and-5-min method is the right call if the center feels dense; internal temp target is ~93C (200F).",
+        "stepKey": "s3"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "This bread has no fat and very little protein per slice from the yogurt alone — it stales quickly. Eat within a day or freeze slices individually."
+      }
     ]
   }
 }

@@ -285,6 +285,38 @@
         "quantityValue": 1,
         "quantityUnit": "batch"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "technique",
+        "text": "The 10–15 min rest is necessary — oat flour hydrates slowly and the batter will look loose and unpipeable at first. Only add extra oat flour 1 tbsp at a time after the rest if it's still genuinely batter-like, not just soft.",
+        "stepKey": "c4"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "pitfall",
+        "text": "These cookies don't spread — shape them into pucks at the thickness you want before they go in. Baking lower and longer (325F, 15–18 min) means the window between underdone and rubbery is narrow; start checking at 14 min.",
+        "stepKey": "c5"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "The 1 tsp ACV reacts with the baking soda for lift — add it to the wet bowl last and mix quickly. Don't let the wet mix sit long before adding the dries or you'll lose the leavening before it hits the oven.",
+        "stepKey": "c2"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Cool fully on the tray before moving — oat-flour protein cookies are fragile and crumble when hot. They firm up significantly as they cool; moving them warm to a rack risks breakage.",
+        "stepKey": "c6"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "pitfall",
+        "text": "The frosting thickens as it chills — if it looks too loose after mixing, don't add more pudding mix immediately. Refrigerate 20 minutes and check again; overly thick frosting tears the cookie surface when spread.",
+        "stepKey": "sl-frosting/f-beat"
+      }
     ]
   }
 }

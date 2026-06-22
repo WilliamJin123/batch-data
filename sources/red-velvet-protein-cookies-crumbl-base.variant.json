@@ -127,6 +127,61 @@
           "subRecipeRef": "Protein Cream-Cheese Frosting"
         }
       }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n1",
+      "payload": {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "3 tbsp cocoa makes this dough noticeably drier than the plain Crumbl base — don't judge hydration by how the plain version felt. Add almond milk slowly, 1 tsp at a time, until the dough just coheres; over-wetting leads to flat, spreading cookies.",
+        "stepKey": "b2"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n2",
+      "payload": {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Use gel food coloring, not liquid — the 1 tsp of liquid coloring adds measurable moisture and will shift the dough hydration; gel gives vivid color with a few drops and doesn't thin the batter.",
+        "stepKey": "b2"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n3",
+      "payload": {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Pull at 9 min with soft centers — cocoa masks the visual cues (the cookies look set and darker earlier than they are). Test by pressing the edge; it should be firm while the center still gives slightly.",
+        "stepKey": "b4"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n4",
+      "payload": {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "The cream-cheese frosting needs to be fully chilled and the cookies fully cool before piping — warm cookies and a soft frosting will merge into a smeared glaze rather than a clean dollop.",
+        "stepKey": "b5"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n5",
+      "payload": {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "The 1 tsp ACV in the cookie is for tang, not lift — leavening is baking powder only. Don't increase the vinegar; more acid will interfere with the baking powder and make the cookies flat.",
+        "stepKey": "b2"
+      }
     }
   ]
 }

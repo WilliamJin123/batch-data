@@ -234,6 +234,38 @@
         "quantityValue": 2,
         "quantityUnit": "tbsp"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "The cooked pumpkin MUST be room temp before it goes into the batter — even slightly warm pumpkin will begin cooking the eggs in s4 and leave scrambled streaks in the finished cheesecake.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "pitfall",
+        "text": "Blend the cottage cheese until completely smooth — any visible curd survives baking and makes the cheesecake grainy. An immersion blender in a tall cup works well; a food processor needs 2 full minutes.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Don't overbeat once the eggs are in — mix on low just until smooth. Beating air into a lean cheesecake causes it to puff, then crack and sink as it cools, and it won't set to the dense texture this recipe is tuned for.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Pull when the center reads 155–160F or just barely wobbles — it looks underdone but firms fully overnight. Chasing a dry, fully-set center in the oven is where this lean formula turns rubbery.",
+        "stepKey": "s6"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "technique",
+        "text": "The staged cool (oven door cracked → counter → fridge) prevents the sudden temperature drop that causes surface cracking. Don't skip the oven rest or move it to the fridge while still hot.",
+        "stepKey": "s7"
+      }
     ]
   }
 }

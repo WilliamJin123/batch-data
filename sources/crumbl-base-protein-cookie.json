@@ -244,6 +244,38 @@
         "quantityValue": 1,
         "quantityUnit": "batch"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "9 min is the target, not the floor — this dough has cornstarch, Greek yogurt, and 1.5 scoops of whey; another minute past \"just set\" edges produces a dry, cakey crumb instead of soft-centered.",
+        "stepKey": "b4"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Wet hands before flattening — the dough barely spreads and will stick to dry palms. Press to about ½ inch thick; thicker than that and the 9-min bake won't reach the center.",
+        "stepKey": "b3"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Greek yogurt and egg should be at room temp before mixing — cold dairy creates lumps in the dry mix and makes the dough feel stiffer than it is, leading to over-adding almond milk.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "Fold the Cool Whip in gently first; then beat in protein and pudding on low — over-beating deflates the Cool Whip and leaves the frosting dense and sticky instead of light and spreadable.",
+        "stepKey": "sl-frosting/f-beat"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Frost only after cookies are fully cool to the touch — even slight warmth melts the Cool Whip base and the frosting slides off the flat disk instead of sitting up.",
+        "stepKey": "b5"
+      }
     ]
   }
 }

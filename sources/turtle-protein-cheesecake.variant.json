@@ -137,6 +137,61 @@
         "quantityValue": 2.5,
         "quantityUnit": "scoop"
       }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n1",
+      "payload": {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Mix on low after adding eggs — the 2.5 scoops of vanilla protein make this batter dense and prone to aeration. Overbeating here traps air that expands in the oven, then collapses and cracks the top.",
+        "stepKey": "s4"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n2",
+      "payload": {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Only 2-3 lazy S-strokes with the knife to marble the butterscotch swirl — more than that and you'll fully incorporate it, losing the pockets. The swirl should still be visible as distinct veins before it goes in the oven.",
+        "stepKey": "s5"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n3",
+      "payload": {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Pull at the first sign of a set edge with a slight wobble in the center (~155-160F) — with 2.5 scoops of protein this filling dries out faster than a traditional cheesecake. A fully still center means it's already overdone.",
+        "stepKey": "s6"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n4",
+      "payload": {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "For a drizzle-consistency caramel (not thick), stop as soon as the almond milk is whisked smooth (~225F) and the sauce ribbons off a spoon — it thickens significantly as it cools, so pull earlier than you think you need to.",
+        "stepKey": "sl-caramel/k1"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n5",
+      "payload": {
+        "componentKey": "n5",
+        "kind": "pitfall",
+        "text": "Add the almond milk WARM — cold liquid hits the melted unsweetened baking chocolate and can seize it into a grainy clump. A few seconds in the microwave before whisking it in prevents a seized ganache.",
+        "stepKey": "sl-ganache/k1"
+      }
     }
   ]
 }

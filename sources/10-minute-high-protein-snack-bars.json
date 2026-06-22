@@ -134,6 +134,38 @@
         "quantityValue": 0.25,
         "quantityUnit": "cup"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "The nut butter is the only binder — don't thin the dough with extra maple syrup to make it easier to mix; a looser mix won't set into sliceable bars and will be sticky out of the fridge.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "If the dough is too stiff to fold, warm the nut butter 15–20 sec in the microwave first — it combines without loosening the structure the way extra liquid would.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Press firmly and evenly — use the flat bottom of a measuring cup to compact the dough; loose pressing leaves crumbly bars that fall apart at the cut.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "4 hr is the minimum; slice too early and the bars are gummy and don't hold a clean edge. Overnight in the fridge gives the firmest, cleanest cut.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Store bars in the fridge — the maple syrup keeps them tacky at room temp and they'll soften and lose shape within an hour on the counter.",
+        "stepKey": "s2"
+      }
     ]
   }
 }

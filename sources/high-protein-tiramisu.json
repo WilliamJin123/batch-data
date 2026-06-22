@@ -1,6 +1,6 @@
 {
   "name": "High-Protein Tiramisu",
-  "description": "A no-bake high-protein tiramisu: a mascarpone-style cream of BLENDED 2% cottage cheese + 0% Greek yogurt, thickened with vanilla SF instant pudding, sweetened with granulated Splenda, layered with coffee-dipped ladyfingers and set overnight. Now the only tiramisu \u2014 the rice-cake version was retired (worse texture; rice cakes not on hand) after folding its one good idea, a Splenda-sweetened pudding cream, into this one. House calibration: sweetener is granulated Splenda, sweetness-matched (small maltodextrin calories counted); eggs medium. Tip: for a caramel-coffee twist, swap the vanilla pudding for butterscotch.",
+  "description": "A no-bake high-protein tiramisu: a mascarpone-style cream of BLENDED 2% cottage cheese + 0% Greek yogurt, thickened with vanilla SF instant pudding, sweetened with granulated Splenda, layered with coffee-dipped ladyfingers and set overnight. Now the only tiramisu — the rice-cake version was retired (worse texture; rice cakes not on hand) after folding its one good idea, a Splenda-sweetened pudding cream, into this one. House calibration: sweetener is granulated Splenda, sweetness-matched (small maltodextrin calories counted); eggs medium. Tip: for a caramel-coffee twist, swap the vanilla pudding for butterscotch.",
   "tags": [
     "tiramisu",
     "protein",
@@ -16,19 +16,19 @@
         "componentKey": "a1",
         "order": 1,
         "section": "cream",
-        "instructionText": "Blend the protein, cottage cheese, Greek yogurt, vanilla pudding mix, Splenda, salt, and cinnamon until completely silky \u2014 the cottage cheese MUST blend out with no grain so it reads as mascarpone. Taste and adjust the Splenda (the cottage cheese and 0% yogurt are tangy, so the cream needs a real hit of sweetness), then let it rest about 10 minutes so the instant-pudding starch firms it to a thick, spoonable mascarpone-style cream."
+        "instructionText": "Blend the protein, cottage cheese, Greek yogurt, vanilla pudding mix, Splenda, salt, and cinnamon until completely silky — the cottage cheese MUST blend out with no grain so it reads as mascarpone. Taste and adjust the Splenda (the cottage cheese and 0% yogurt are tangy, so the cream needs a real hit of sweetness), then let it rest about 10 minutes so the instant-pudding starch firms it to a thick, spoonable mascarpone-style cream."
       },
       {
         "componentKey": "a2",
         "order": 2,
         "section": "assembly",
-        "instructionText": "Pour strong coffee into a shallow bowl. Dip each ladyfinger just about 1 second per side and roll it out \u2014 do NOT soak (oversoaked ladyfingers turn to mush, and they keep hydrating overnight). Line a dish, spread half the cream, and dust with cinnamon. Repeat with the remaining dipped ladyfingers and cream."
+        "instructionText": "Pour strong coffee into a shallow bowl. Dip each ladyfinger just about 1 second per side and roll it out — do NOT soak (oversoaked ladyfingers turn to mush, and they keep hydrating overnight). Line a dish, spread half the cream, and dust with cinnamon. Repeat with the remaining dipped ladyfingers and cream."
       },
       {
         "componentKey": "a3",
         "order": 3,
         "section": "assembly",
-        "instructionText": "Dust the top with cocoa and refrigerate OVERNIGHT \u2014 at least 6 hours, ideally 24 \u2014 so the cream sets firm and the ladyfingers hydrate into cake. This set is what makes it tiramisu instead of pudding. Slice into 9 and serve cold."
+        "instructionText": "Dust the top with cocoa and refrigerate OVERNIGHT — at least 6 hours, ideally 24 — so the cream sets firm and the ladyfingers hydrate into cake. This set is what makes it tiramisu instead of pudding. Slice into 9 and serve cold."
       }
     ],
     "slots": [
@@ -198,6 +198,38 @@
         "slotKey": "sl-splenda",
         "quantityValue": 3,
         "quantityUnit": "tbsp"
+      }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "One second per side is the maximum dip — ladyfingers keep absorbing moisture overnight. Dip too long and by morning they're waterlogged mush, not soft cake. Use a timer if in doubt.",
+        "stepKey": "a2"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Blend on high for at least 60 seconds and scrape the sides once — the 226 g (8 oz) cottage cheese needs full processing to lose all grain. Taste the cream; if you still feel texture, blend another 30 seconds.",
+        "stepKey": "a1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Overnight is the minimum (6 hours absolute floor) — the instant pudding starch needs time to firm the cream from spoonable to sliceable. Cutting at 3–4 hours gives a collapsing, pudding-soft result.",
+        "stepKey": "a3"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "The cream is tangy from cottage cheese and 0% yogurt; taste after blending and adjust Splenda before assembling — it should taste distinctly sweet since the ladyfingers and coffee add bitterness that mutes sweetness overnight.",
+        "stepKey": "a1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "The 40 g SF vanilla pudding mix does double duty: it sweetens and thickens. Let the blended cream rest 10 min before spreading — the starch activates and it firms to a thick, spreadable mascarpone consistency.",
+        "stepKey": "a1"
       }
     ]
   }

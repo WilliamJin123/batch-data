@@ -232,6 +232,38 @@
         "quantityValue": 1,
         "quantityUnit": "each"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "technique",
+        "text": "Blend the 300 g cottage cheese until completely smooth before adding the other ingredients — any remaining curds create a grainy fudge texture that no amount of chilling will fix.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "pitfall",
+        "text": "Make sure the melted chocolate has cooled slightly before blending it in — hot chocolate can seize or separate when it hits cold cottage cheese, giving a greasy, split texture.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Add milk a tiny splash at a time — the almond flour and 60 g protein make this mixture look stiffer than it is. Over-thinning produces bars that never set firm, even after 2 hours in the fridge.",
+        "stepKey": "s3"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Warm the chocolate-hazelnut spread (glaze) for 10–15 seconds so it pours easily and levels itself — unwarmed it drags the protein base underneath and creates an uneven top.",
+        "stepKey": "s5"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "1–2 hours in the fridge is the minimum; these are much better after 3–4 hours and easiest to slice cleanly when cut cold. Temper a square 3–5 minutes at room temp before eating if they set rock-hard.",
+        "stepKey": "s6"
+      }
     ]
   }
 }

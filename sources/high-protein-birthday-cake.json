@@ -306,6 +306,38 @@
         "quantityValue": 1,
         "quantityUnit": "pinch"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "20 min at 350F is the upper limit for a small protein cake — pull when the top is just set and a toothpick in the center has a few moist crumbs; oat flour + Greek yogurt turns rubbery if you chase a fully clean pick.",
+        "stepKey": "s3"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Mix wet into dry, not dry into wet — add the Greek yogurt, egg, milk, and butter to the bowl of combined dry ingredients and stir until just smooth; it avoids overworking the oat flour and keeps the crumb tender.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "note",
+        "text": "Splenda won't give the top a deep golden color — use the toothpick as your doneness cue, not color, and don't wait for browning that won't come.",
+        "stepKey": "s3"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Make the frosting first so it chills while the cake bakes — the Greek yogurt base needs at least 20–30 min in the fridge to firm enough to hold its shape on the cake without sliding.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "pitfall",
+        "text": "Don't frost a warm cake — the Greek yogurt frosting will melt and pool. Cool the cake fully on a rack before applying.",
+        "stepKey": "s4"
+      }
     ]
   }
 }

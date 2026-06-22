@@ -232,6 +232,38 @@
         "quantityValue": 3,
         "quantityUnit": "candy"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Peppermint extract is potent — 1/4 tsp is already assertive. If your extract is oil-based (vs. water-based), start with 1/8 tsp and taste before adding more; there's no way to dial it back once in the dough.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Almond butter is the fat that holds this dough together alongside maple syrup — make sure it's well-stirred before measuring so the oil isn't separated. Natural almond butter with pooled oil gives a greasy, crumbly base.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Cool Whip deflates quickly if the cream cheese is too cold or if you overmix. Bring the cream cheese to room temp first, then fold the protein into Cool Whip gently — don't beat it.",
+        "stepKey": "f1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Crush the peppermint candies inside a zip-lock bag with a rolling pin to control the grind — coarse shards add crunch and visual pop; powder just disappears into the frosting.",
+        "stepKey": "t1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "pitfall",
+        "text": "Freeze at least 30 min before slicing — the Cool Whip frosting is too soft to cut cleanly at fridge temp and smears. Store in the freezer and temper 5 min before eating.",
+        "stepKey": "t1"
+      }
     ]
   }
 }

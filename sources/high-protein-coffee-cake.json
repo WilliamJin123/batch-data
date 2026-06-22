@@ -281,6 +281,38 @@
         "quantityValue": 1,
         "quantityUnit": "tsp"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "A clean toothpick here means overbaked — this protein + Greek yogurt batter dries out quickly. Pull at 30 min when a pick comes out with a few moist crumbs; the cake firms as it cools.",
+        "stepKey": "s8"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Use cold butter for the streusel: cold fat cuts into the dry ingredients in clumps that stay crumbly during baking. Room-temp butter melts flat and loses the crunchy layer.",
+        "stepKey": "s5"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Press the first streusel layer down lightly with your fingers before adding the second batter pour — loose crumbs float up into the batter and lose definition between the layers.",
+        "stepKey": "s6"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "Mix just until combined when adding protein pancake mix and protein powder to the wet ingredients — both contain leaveners and overmixing deflates the batter and makes the crumb dense.",
+        "stepKey": "s3"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Cool completely on the rack before drizzling the icing — a warm cake makes the Splenda icing soak in rather than set on the surface. The icing firms nicely in about 5 min on a fully cooled cake.",
+        "stepKey": "s9"
+      }
     ]
   }
 }

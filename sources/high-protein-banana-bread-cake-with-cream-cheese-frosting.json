@@ -301,6 +301,38 @@
         "quantityValue": 1,
         "quantityUnit": "splash"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "25-30 min at 350F is the range — pull when a toothpick comes out with a few moist crumbs. The banana + yogurt batter keeps cooking after it comes out, and oat flour dries fast when overdone.",
+        "stepKey": "s5"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Use very ripe, spotted bananas: underripe bananas are starchy and the maple syrup in the frosting will be the only sweetness, leaving the cake flat.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "The cream cheese must be fully softened before mixing the frosting — cold cream cheese from the fridge leaves lumps that protein powder and yogurt can't smooth out.",
+        "stepKey": "s7"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "Don't frost until the cake is fully cool — warm cake melts the cream-cheese frosting and it slides off rather than setting into a spreadable layer.",
+        "stepKey": "s8"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "technique",
+        "text": "Fold the dry into the wet gently — overmixing oat and almond flour develops a gummy texture, and with whey powder in the batter there's no gluten network to save it.",
+        "stepKey": "s3"
+      }
     ]
   }
 }

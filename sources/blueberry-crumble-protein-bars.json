@@ -342,6 +342,38 @@
         "quantityValue": 5,
         "quantityUnit": "g"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "technique",
+        "text": "Keep the 27 g butter cold (straight from the fridge, cubed) and work quickly — if it warms and melts into the flour-protein mix you lose the chunky crumble texture and end up with a dense, uniform dough.",
+        "stepKey": "c1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "pitfall",
+        "text": "Mix the cornstarch slurry into the simmering blueberries off-heat or at a low bubble — high heat scorches it immediately. The filling should coat a spoon thickly before you take it off; it firms further as it cools.",
+        "stepKey": "f1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "34–38 min is the window; pull at 34 and check the crumble top for golden color. The protein powder in the crumble means the dough beneath will dry out and turn chalky if baked past set.",
+        "stepKey": "a1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Press the base layer firmly and evenly — a light press leaves gaps that cause the filling to sink through when it bakes. Use the bottom of a measuring cup to compact it.",
+        "stepKey": "a1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "pitfall",
+        "text": "The full 2-hour chill is non-negotiable for clean cuts: the cornstarch-set blueberry filling and the soft protein crumb both tear and smear when warm. Slice with a sharp knife wiped between cuts.",
+        "stepKey": "a2"
+      }
     ]
   }
 }

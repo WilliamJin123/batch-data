@@ -248,6 +248,38 @@
         "quantityValue": 0.25,
         "quantityUnit": "tsp"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Coconut flour is highly absorbent — it will keep thickening the dough as it sits. If the dough feels workable right after mixing, don't add milk yet; give it 2 minutes before deciding.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Room-temp Greek yogurt and egg mix in without streaks; cold yogurt straight from the fridge clumps against the dry protein and takes extra stirring, which risks overmixing the dough.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "10 min is the floor, not the ceiling — pull when edges are just set and the centers still look slightly underdone. Whey + oat-flour cookies firm up as they cool; overbaked they turn cakey and dry.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Gently flatten each mound to about 3/4-inch thickness before baking — these don't spread much on their own, so the final shape is whatever shape you press them into.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "pitfall",
+        "text": "Frost only on completely cooled cookies — warm cookies melt the yogurt frosting and it slides off. Even 5 minutes too soon makes a runny mess.",
+        "stepKey": "f1"
+      }
     ]
   }
 }

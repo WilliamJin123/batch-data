@@ -246,6 +246,32 @@
         "quantityValue": 15,
         "quantityUnit": "g"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Pull at 15 minutes and check — casein protein thickens as it bakes and the applesauce holds moisture early, then the center goes rubbery fast if it crosses done. A slightly glossy, jiggly center is correct; a matte, firm center is already overbaked.",
+        "stepKey": "s7"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "The batter uses casein (not whey) — casein is thicker and slower to hydrate. Let the mixed batter rest 2–3 minutes before transferring to the pan; it will thicken to the right consistency without adding flour.",
+        "stepKey": "s3"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "A 5–6 inch springform or cast-iron skillet is correct; a larger pan spreads the batter too thin and it bakes through before the center sets gooey. Don't use a standard 8-inch cake pan.",
+        "stepKey": "s5"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "note",
+        "text": "The SF maple syrup (40 ml) is structural moisture here — don't substitute with Splenda dry sweetener, which would remove liquid and make the batter stiff and cakey.",
+        "stepKey": "s2"
+      }
     ]
   }
 }

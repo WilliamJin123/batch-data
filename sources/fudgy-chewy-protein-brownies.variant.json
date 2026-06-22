@@ -236,6 +236,61 @@
       }
     },
     {
+      "op": "replace",
+      "kind": "note",
+      "target": "n1",
+      "payload": {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Let the melted butter + chocolate cool until just warm before adding to the eggs — pouring hot chocolate into the egg mixture scrambles it and you lose the glossy emulsion the shiny top depends on.",
+        "stepKey": "b2"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n2",
+      "payload": {
+        "componentKey": "n2",
+        "kind": "pitfall",
+        "text": "Stop beating the egg + egg white + brown sugar (22 g) the moment the sugar grit dissolves and the mixture looks smooth and glossy. Ribboning it pale and voluminous bakes up holey and cakey, not fudgy.",
+        "stepKey": "b3"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n3",
+      "payload": {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Only 15 g flour and 30 g protein here — the dry folds in fast. A few extra gentle strokes after the streaks disappear builds chew; stop the instant the batter feels smooth or starts to pull.",
+        "stepKey": "b5"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n4",
+      "payload": {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "Start checking at 14 min, not 17 — pull the moment the edges are set and the centre has a slight wobble. A clean toothpick means overbaked; you want moist crumbs clinging. Carryover sets the centre.",
+        "stepKey": "k1"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n5",
+      "payload": {
+        "componentKey": "n5",
+        "kind": "technique",
+        "text": "Chill several hours or overnight before cutting — the fudge texture only fully sets cold. Run a knife under hot water and wipe clean between cuts for neat squares.",
+        "stepKey": "f3"
+      }
+    },
+    {
       "op": "remove",
       "kind": "usage",
       "target": "u-milk"

@@ -231,6 +231,38 @@
         "quantityValue": 0.25,
         "quantityUnit": "tsp"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Toast the ground cinnamon in a dry pan 30–60 sec before adding it — straight from the jar it tastes flat; toasting blooms the oils and gives the fritter aroma you expect.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "pitfall",
+        "text": "12 min is the target, not 15 — the whey+egg base dries out fast. Pull when the tops are just golden and a pick comes out clean; they keep cooking on the hot sheet.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "The batter is thick from oat flour; if it won't scoop cleanly, work in milk a teaspoon at a time until it just drops from the spoon — don't thin it to a pour.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Glaze while the bites are still warm but not hot — it soaks in slightly and clings instead of pooling on a cool, dry crust. Add milk a few drops at a time if it's too thick to drizzle.",
+        "stepKey": "g1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Splenda won't brown or caramelize the way sugar does, so don't wait for a deep golden color as your doneness cue — go by the pick and the bottom edges turning light gold.",
+        "stepKey": "b2"
+      }
     ]
   }
 }

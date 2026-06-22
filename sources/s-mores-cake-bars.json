@@ -276,6 +276,38 @@
         "quantityValue": 0.75,
         "quantityUnit": "cup"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Pull at 20 min and check: a toothpick should come out with a few moist crumbs. The protein + applesauce + marshmallow fluff base goes from just-set to dry and rubbery quickly — 24 min is the hard ceiling.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "pitfall",
+        "text": "Stay at the oven for the entire 30–60 second broil and watch through the glass — mini marshmallows go from golden to charred in seconds and there's no recovering burnt sugar on top of baked bars.",
+        "stepKey": "s6"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Mix the wet ingredients (eggs, applesauce, milk, marshmallow fluff, butter, maple) first until combined before adding the dry — the marshmallow fluff clumps stubbornly if it meets dry flour without being loosened first.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "Cool fully before slicing — the marshmallow topping is still tacky and the bar interior gummy when warm. 20–30 min on a rack; patience prevents torn tops and smeared chocolate.",
+        "stepKey": "s7"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Add the chocolate chunks and graham topping right after pulling from the oven (before broiling), not after — the residual heat from the bars slightly softens the chocolate chunks so they nestle in rather than sitting loose on top.",
+        "stepKey": "s5"
+      }
     ]
   }
 }

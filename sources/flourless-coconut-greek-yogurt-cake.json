@@ -156,6 +156,38 @@
         "quantityValue": 1,
         "quantityUnit": "pinch"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "28 min is the floor; pull at the first sign of a set center with only a faint wobble and a golden top — the 3-egg + Greek yogurt base continues cooking as it cools, and a fully dry center at 35 min will be rubbery when sliced.",
+        "stepKey": "s6"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Whisk the eggs until genuinely light and frothy — 1–2 min by hand — before adding anything else; in a flourless cake the egg aeration is the main structural lift (the bit of baking powder only assists), and skipping it gives a dense, flat result.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Use room-temperature Greek yogurt; cold yogurt mixed into warm frothy eggs deflates the air you just built and can leave cold pockets that bake unevenly.",
+        "stepKey": "s3"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Fold the coconut in gently — it absorbs moisture during the bake, so overmixing at this stage tightens the batter and can make the cake gummy rather than tender.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "pitfall",
+        "text": "The full 10-min rest in the pan is mandatory — this cake has no flour skeleton; slicing while warm tears it. Cool on a rack and run a knife around the edge before unmolding.",
+        "stepKey": "s7"
+      }
     ]
   }
 }

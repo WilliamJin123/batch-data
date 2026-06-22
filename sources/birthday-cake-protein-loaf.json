@@ -253,6 +253,38 @@
         "quantityValue": 0.5,
         "quantityUnit": "cup"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "50 min is the ceiling — Greek yogurt + protein loaves dry out fast. Start checking at 40 min; pull when a toothpick has a few moist crumbs, not perfectly clean. The loaf keeps cooking as it cools.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Tenting with foil halfway keeps the top from browning before the center sets — Splenda doesn't protect the crust the way sugar does, so it can look done on top while the interior is still wet.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Don't overmix — once the eggs are in, a quick stir to combine is enough. Beating air into a protein-heavy batter makes it puff and then collapse into a dense, rubbery crumb.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "The frosting thickens as it sits — mix it first, then let it chill while the loaf cools. A runny frosting on a warm loaf will slide off; wait until the loaf is fully cool before spreading.",
+        "stepKey": "f1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "pitfall",
+        "text": "Add the Fruity Pebbles only at the moment of serving — they turn soggy within 30 min on frosted yogurt.",
+        "stepKey": "f2"
+      }
     ]
   }
 }

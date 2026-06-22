@@ -286,6 +286,32 @@
         "quantityValue": 1,
         "quantityUnit": "tbsp"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Don't overmix once the egg is in - beating air into the batter is what makes a cheesecake puff, then crack and sink. Mix on low just until smooth.",
+        "stepKey": "ba1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Bring the cream cheese and egg to room temp first - cold cream cheese stays lumpy and you'll overmix fighting to smooth it.",
+        "stepKey": "ba1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Pull them while the centers still jiggle like soft jelly (the middle ~1cm wobbles). They look underdone, but carryover heat sets them - a fully firm center means overbaked, dry, and cracked.",
+        "stepKey": "t1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Chill fully (2h+, ideally overnight) before icing and eating - warm cheesecake is loose and gummy; the texture only sets cold.",
+        "stepKey": "i1"
+      }
     ]
   }
 }

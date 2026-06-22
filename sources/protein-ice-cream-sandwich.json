@@ -153,6 +153,37 @@
         "quantityValue": 6,
         "quantityUnit": "sheet"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "technique",
+        "text": "If you have a Ninja Creami: freeze 24 hr (not 6) for the best churn — the full freeze gives a denser base that re-processes into a creamier texture; the 6-hr option works but comes out icier.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "pitfall",
+        "text": "Don't skip the re-churn step. Straight from the first freeze the mix is an icy slab, not spreadable — it needs the Creami or a food-processor pulse to become soft enough to spread over the crackers without cracking them.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Work fast spreading the ice cream over the 6 graham halves — it melts quickly at room temp and a thin spread = structurally weak sandwiches. Pre-chill the pan and crackers 10 min before assembly.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "Return to freezer immediately after topping with the second crackers and freeze until FULLY set (2+ hr) before slicing — cutting warm gives you compressed, stuck-together sandwiches. Use a hot dry knife to slice cleanly.",
+        "stepKey": "s5"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Pull sandwiches 3-5 min before eating; frozen solid they are hard enough to crack the graham cracker on first bite. A short temper softens just the filling while keeping the cracker snap."
+      }
     ]
   }
 }

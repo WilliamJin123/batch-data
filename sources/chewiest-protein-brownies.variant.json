@@ -258,6 +258,61 @@
       }
     },
     {
+      "op": "replace",
+      "kind": "note",
+      "target": "n1",
+      "payload": {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Stop beating the egg + brown sugar the moment it looks glossy and the sugar has dissolved — whipping to a pale ribbon traps air, which makes the top puff then sink and kills the chew.",
+        "stepKey": "b2"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n2",
+      "payload": {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Blooming the 18 g cocoa in 15 ml warm milk with the espresso deepens the chocolate flavor significantly — don't skip it or add the cocoa dry, which leaves a chalky note in a batter this lean.",
+        "stepKey": "b4"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n3",
+      "payload": {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "The 10–15 extra fold strokes after no-dry-streaks are intentional and load-bearing for chew — they develop a little gluten. Stop before the batter goes stretchy or springy; that's the line between chewy and tough.",
+        "stepKey": "b5"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n4",
+      "payload": {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "Start checking at 14 minutes — this is a small ~6-inch pan and 30 g protein + 25 g flour dry out quickly. Pull at a faint center wobble; a clean toothpick means overbaked on this batter.",
+        "stepKey": "k1"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n5",
+      "payload": {
+        "componentKey": "n5",
+        "kind": "pitfall",
+        "text": "Do not cut warm — the protein-yogurt crumb is gummy and tears when hot. Cool fully on a rack, then chill for a few hours; the texture improves dramatically overnight.",
+        "stepKey": "f2"
+      }
+    },
+    {
       "op": "remove",
       "kind": "usage",
       "target": "u-butter"

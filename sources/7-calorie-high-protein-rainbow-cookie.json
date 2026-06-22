@@ -231,6 +231,32 @@
         "quantityValue": 21,
         "quantityUnit": "g"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Stop mixing the moment no dry streaks remain — this is a Greek-yogurt/protein batter that turns dense and rubbery if overworked. Fold the rainbow chips in last with as few strokes as possible.",
+        "stepKey": "s5"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "The 15-min chill firms a loose batter into something scoopable. Don't skip it — warm batter spreads too thin and the 88-cookie yield falls apart.",
+        "stepKey": "s6"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "15 min at 350°F is the ceiling for this thin protein slab, not a target. Start checking at 12 min — a toothpick with a few moist crumbs is done; the pan's residual heat carries it the rest of the way.",
+        "stepKey": "s9"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Cool the slab completely in the pan before cutting — warm protein blondies are gummy and tear instead of slicing clean. 88 even pieces from a standard 9×13 means 8×11 cuts; score lightly first.",
+        "stepKey": "s10"
+      }
     ]
   }
 }

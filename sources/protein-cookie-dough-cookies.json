@@ -24,7 +24,7 @@
       {
         "componentKey": "s3",
         "order": 3,
-        "instructionText": "Preheat oven to 350\u00b0F (175\u00b0C)."
+        "instructionText": "Preheat oven to 350°F (175°C)."
       },
       {
         "componentKey": "s4",
@@ -394,6 +394,38 @@
         "slotKey": "sl22",
         "quantityValue": 2,
         "quantityUnit": "tbsp"
+      }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Pull at 8–9 min when tops look slightly underdone — the Greek yogurt + protein base sets firm on cooling. 10 min is the hard ceiling; a fully dry-looking top at the oven means rubbery cookies by the time they're frosted.",
+        "stepKey": "s5"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Stir wet into dry just until a dough forms and stop — extra mixing builds gluten in the AP flour and makes the cookie base tough rather than tender.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Add almond milk to the cookie-dough topping a teaspoon at a time: the oat flour + protein mixture absorbs slowly and you can easily go from crumbly to too soft in one splash. Stop when it holds a ball without sticking to your hands.",
+        "stepKey": "s8"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "Only frost completely cooled cookies — the Greek yogurt frosting is thin enough to melt and run on a warm base, and won't set back up once it does.",
+        "stepKey": "s9"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "The frosting firms in the fridge and loosens at room temp; if it's sitting out while you frost all 6 cookies it may thin — a 5-min back-in-the-fridge rest restores the right texture.",
+        "stepKey": "s6"
       }
     ]
   }

@@ -353,6 +353,38 @@
         "quantityValue": 2,
         "quantityUnit": "cookie"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "22 min is a starting check, not a target — with 90 g protein powder in an 8x8, the bars go from just-set to dry in a few minutes. Pull when a toothpick reads moist crumbs; the center will firm as it cools.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Grate the carrot fine (box-grater small holes) so it disappears into the bars rather than leaving wet pockets — coarse shreds can make the center steam and collapse.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "The cream cheese must be fully room temperature before beating — cold cream cheese leaves lumps that protein powder won't smooth out. 30 minutes out of the fridge is the minimum.",
+        "stepKey": "f1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Don't skip the full cool before frosting: these bars are fragile and gummy when warm, and the cream-cheese frosting will melt into them. Cool on a rack, then chill 15 minutes if impatient.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "The Biscoff spread (60 g) adds real fat and sweetness — don't sub with PB or another nut butter without re-checking the batter consistency, as the fat ratio affects spread.",
+        "stepKey": "b1"
+      }
     ]
   }
 }

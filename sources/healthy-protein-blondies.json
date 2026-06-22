@@ -266,6 +266,38 @@
         "quantityValue": 2,
         "quantityUnit": "tsp"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "10 min is the hard ceiling — peanut butter + whey + coconut flour go from fudgy to dry-crumbly in the window between 10 and 13 min. Pull when the top looks just barely set and the center jiggles slightly.",
+        "stepKey": "s7"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Transfer to a rack immediately — leaving the blondies in the hot tin keeps cooking them and kills the fudgy texture the recipe depends on.",
+        "stepKey": "s8"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Melt peanut butter until just fluid, not hot — if it's too hot when you add the Greek yogurt, the yogurt seizes and separates, making the batter grainy.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "Coconut flour (28 g) absorbs liquid aggressively — don't add extra water to loosen the batter. If it looks thick, that's correct; a runny batter means over-hydrated coconut flour and a gummy, dense bar.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Cool fully before cutting — warm protein blondies are gummy and tear. At least 20 min on the rack gives a clean slice and the fudgy set the recipe promises.",
+        "stepKey": "s8"
+      }
     ]
   }
 }

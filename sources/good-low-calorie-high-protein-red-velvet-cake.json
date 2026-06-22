@@ -246,6 +246,38 @@
         "quantityValue": 0.3333333333333333,
         "quantityUnit": "cup"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "18 minutes at 350F is the maximum, not the target — with 2 scoops whey + 300 g Greek yogurt split across two thin cake layers, they overbake fast. Pull when a toothpick reads moist crumbs; a clean toothpick means dry cake.",
+        "stepKey": "s3"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Divide the batter by weight between the two molds, not by eye — an uneven split means one layer overbakes while the other is still underdone.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "The cream-cheese frosting must go on fully cooled layers — the 10 oz cream cheese will melt and slide on a warm cake. Cool layers completely on a rack, then chill 15 minutes before frosting.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Room-temperature Greek yogurt (both the 300 g cake portion and 6 oz frosting portion) mixes lump-free; cold yogurt leaves streaks in the batter that don't hydrate evenly and can leave gummy pockets.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Don't open the oven before 15 minutes — the 1 tsp baking soda gives this cake its rise and an early door-open can cause the center to sink before it sets.",
+        "stepKey": "s3"
+      }
     ]
   }
 }

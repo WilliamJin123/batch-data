@@ -215,6 +215,38 @@
         "quantityValue": 4,
         "quantityUnit": "ml"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "6–7 minutes at 325F is aggressive — whey dries out faster than AP flour. Pull the moment the edges look dry and set; a soft center is correct at this point, not a sign they need more time.",
+        "stepKey": "d5"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "The 5-minute rest after mixing is essential: the whey protein and SF pudding starches absorb liquid and the dough firms from tacky to shapeable without adding flour. Rushing past this step makes dough that spreads flat.",
+        "stepKey": "d3"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "This dough does not spread on its own — press each ball firmly with a palm or glass-bottom to your target thickness before baking. What goes in is what comes out.",
+        "stepKey": "d4"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Leaving cookies on the hot sheet 5–10 minutes after pulling from the oven is the carryover finish — moving them to a cooling rack immediately stops this and can leave the centers underdone.",
+        "stepKey": "d6"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Pre-whisk the dry mix thoroughly to break up protein powder clumps before adding any wet ingredients — undissolved lumps don't hydrate evenly and leave gritty pockets in the finished cookie.",
+        "stepKey": "d1"
+      }
     ]
   }
 }

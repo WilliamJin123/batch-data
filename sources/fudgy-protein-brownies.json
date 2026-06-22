@@ -274,6 +274,38 @@
         "quantityValue": 1,
         "quantityUnit": "pinch"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Don't whip the egg — just break the yolk and stir it in gently. Beating in air makes the batter puff in the oven and bake cakey; keeping it still keeps it dense and fudgy.",
+        "stepKey": "b5"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "The cocoa blooms in warm butter + baking chocolate — let the fat cool to just warm (not hot) before adding the egg in step b5, or the egg scrambles. It should feel comfortable to touch.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "18 min at 325°F is the max; start checking at 14 min. Pull at a slight center jiggle — not liquid, but not fully set. The protein continues cooking off-heat and the fudgy window closes fast.",
+        "stepKey": "k1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "If reheating a square, microwave 8–10 sec only — any longer and the protein in the Greek yogurt turns grainy and rubbery. Pull while it still feels just warm.",
+        "stepKey": "f3"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "pitfall",
+        "text": "Stop folding the moment no dry streaks remain; the batter is small and 15 g of protein powder makes it easy to over-develop gluten. Extra strokes bake out the fudge into a tight, cakey crumb.",
+        "stepKey": "b6"
+      }
     ]
   }
 }

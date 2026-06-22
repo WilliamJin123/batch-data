@@ -186,6 +186,38 @@
         "quantityValue": 1,
         "quantityUnit": "tsp"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "90g whey + oat flour makes a very dense dough — the \"splash of milk\" means 1–2 tsp max. Over-adding milk makes the base sticky and the bars won't slice clean after freezing.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "The maple syrup is the structural binder here; don't reduce it for sweetness reasons or the base won't hold together. If you want it less sweet, cut the chocolate chips rather than the maple.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Melt the chocolate chips and coconut oil together in 20-second microwave bursts, stirring between each — chocolate chips scorch fast, and a thin shell needs a fully smooth melt to pour evenly.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "10 min in the freezer sets the shell, not the whole bar — cut with a sharp warm knife (run under hot water, wipe dry) or the chocolate shell will crack and shatter instead of slicing cleanly.",
+        "stepKey": "z1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Bars taken straight from the freezer are rock-hard. Let them sit 5 min at room temp before eating — the oat-flour base softens to a cookie-dough texture once tempered.",
+        "stepKey": "z1"
+      }
     ]
   }
 }

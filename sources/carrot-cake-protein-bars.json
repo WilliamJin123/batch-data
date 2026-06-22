@@ -233,6 +233,38 @@
         "quantityValue": 0.25,
         "quantityUnit": "cup"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "The 25–30 min window is wide; cottage-cheese batters in an 8x8 can set as early as 22 min. Pull when the edges are set and a pick reads moist crumbs — a clean pick means they're already over.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Blend the cottage cheese smooth before mixing — unblended curds leave wet pockets that never fully bake through, and the texture reads lumpy even after cutting.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Don't cut warm — cottage-cheese bars are gummy and tear until fully cooled. Cool completely on a rack before refrigerating, then cut cold for clean squares.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Grate the carrot fine (box-grater small holes) at 55 g; coarse shreds stay chewy and release water pockets mid-bake. Pat dry after grating if they feel very wet.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "The Splenda icing is thin when first mixed; spread it right before serving or it pools around the sides. If you want it to hold shape as a layer, stir in an extra tsp of Splenda and chill 10 min first.",
+        "stepKey": "i1"
+      }
     ]
   }
 }

@@ -217,6 +217,38 @@
         "quantityValue": 1,
         "quantityUnit": "tbsp"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Coconut flour is extremely absorbent — if the batter looks wetter than expected after mixing, resist adding more coconut flour. It thickens as it hydrates; let it rest 2 min before judging consistency.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Use a cookie scoop for uniform balls — the Greek-yogurt/pumpkin base is sticky and won't hold shape easily by hand. Wetting the scoop between cookies helps release cleanly.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "10–12 min at 350°F is tight for a Greek-yogurt/protein cookie — start checking at 10. They're done when the edges are set and the center is no longer shiny; overbaking turns them dry and chalky.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Add the glaze only after the cookies are fully cooled — if they're still warm the glaze thins on contact and runs off. Start with less almond milk and thicken to a spreadable paste, not a drizzle.",
+        "stepKey": "t1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Splenda-based glaze won't set firm like a royal icing — it stays slightly tacky. Keep glazed cookies refrigerated if not eating immediately so the topping doesn't weep.",
+        "stepKey": "t1"
+      }
     ]
   }
 }

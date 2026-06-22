@@ -24,97 +24,246 @@
         "componentKey": "b2",
         "order": 2,
         "section": "bake",
-        "instructionText": "Bake at 350F (180C) until the CENTRE is fully set - a skewer in the dead centre comes out clean (a few dry crumbs OK; no wet batter or gummy paste) and the internal temp reads ~205F. Roughly 50-60 min for a filled tin; start checking at 45. Visual cues: the loaf pulls slightly from the pan sides, the top is matte (not glossy/wet) and deep golden, the split along the top looks set inside (not shiny batter), and the centre springs back when pressed. Tent loosely with foil if the top colours first. Do not judge by time or top colour alone - this is a moist batter and the centre lags.",
-        "temperature": 180
+        "temperature": 180,
+        "instructionText": "Bake at 350F (180C) until the CENTRE is fully set - a skewer in the dead centre comes out clean (a few dry crumbs OK; no wet batter or gummy paste) and the internal temp reads ~205F. Roughly 50-60 min for a filled tin; start checking at 45. Visual cues: the loaf pulls slightly from the pan sides, the top is matte (not glossy/wet) and deep golden, the split along the top looks set inside (not shiny batter), and the centre springs back when pressed. Tent loosely with foil if the top colours first. Do not judge by time or top colour alone - this is a moist batter and the centre lags."
       },
       {
         "componentKey": "b3",
         "order": 3,
         "section": "cool",
-        "instructionText": "Rest in the pan 10-15 min (it's fragile straight from the oven), then turn out onto a wire rack and cool COMPLETELY before slicing into 16. A warm protein loaf slices gummy and squashes; fully cooled it firms up and cuts clean. Even better the next day, wrapped at room temp. No frosting on this loaf - it's a plain spiced protein bake, sliced and eaten as-is to keep it lean; if you want extra, smear an individual slice with Splenda-sweetened 0% Greek yogurt (added at serving, so it stays off the recipe's macros)."
+        "instructionText": "Rest in the pan 10-15 min (it's fragile straight from the oven), then turn out onto a wire rack and cool COMPLETELY before slicing into 16. A warm protein loaf slices gummy and squashes; fully cooled it firms up and cuts clean. Even better the next day, wrapped at room temp. No frosting on this loaf — it's a plain spiced protein bake, sliced and eaten as-is to keep it lean; if you want extra, smear an individual slice with Splenda-sweetened 0% Greek yogurt (added at serving, so it stays off the recipe's macros)."
       }
     ],
     "slots": [
       {
         "componentKey": "sl1",
         "name": "grated carrot",
-        "resolution": { "kind": "raw", "libraryIngredientId": "ing-carrot" }
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-carrot"
+        }
       },
       {
         "componentKey": "sl2",
         "name": "egg",
-        "resolution": { "kind": "raw", "libraryIngredientId": "ing-egg-whole" }
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
       },
       {
         "componentKey": "sl3",
         "name": "0% Greek yogurt",
-        "resolution": { "kind": "raw", "libraryIngredientId": "ing-greek-yogurt-nonfat" }
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
       },
       {
         "componentKey": "sl4",
         "name": "vanilla protein powder",
-        "resolution": { "kind": "raw", "libraryIngredientId": "ing-protein-vanilla" }
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
       },
       {
         "componentKey": "sl5",
         "name": "all-purpose flour",
-        "resolution": { "kind": "raw", "libraryIngredientId": "ing-ap-flour" }
-      },
-      {
-        "componentKey": "sl6",
-        "name": "skim milk",
-        "resolution": { "kind": "raw", "libraryIngredientId": "ing-skim-milk" }
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
       },
       {
         "componentKey": "sl7",
         "name": "vanilla extract",
-        "resolution": { "kind": "raw", "libraryIngredientId": "ing-vanilla-extract" }
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
       },
       {
         "componentKey": "sl8",
         "name": "cinnamon",
-        "resolution": { "kind": "raw", "libraryIngredientId": "ing-cinnamon-ground" }
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cinnamon-ground"
+        }
       },
       {
         "componentKey": "sl9",
         "name": "granulated Splenda",
-        "resolution": { "kind": "raw", "libraryIngredientId": "ing-splenda-granulated" }
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
       },
       {
         "componentKey": "sl10",
         "name": "baking powder",
-        "resolution": { "kind": "raw", "libraryIngredientId": "ing-baking-powder" }
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
       },
       {
         "componentKey": "sl11",
         "name": "baking soda",
-        "resolution": { "kind": "raw", "libraryIngredientId": "ing-baking-soda" }
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-soda"
+        }
       },
       {
         "componentKey": "sl12",
         "name": "salt",
-        "resolution": { "kind": "raw", "libraryIngredientId": "ing-salt" }
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
       },
       {
         "componentKey": "sl13",
         "name": "coconut oil",
-        "resolution": { "kind": "raw", "libraryIngredientId": "ing-coconut-oil" }
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-coconut-oil"
+        }
+      },
+      {
+        "componentKey": "sl6",
+        "name": "skim milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-skim-milk"
+        }
       }
     ],
     "usages": [
-      { "componentKey": "u1", "stepKey": "b1", "slotKey": "sl1", "quantityValue": 200, "quantityUnit": "g" },
-      { "componentKey": "u2", "stepKey": "b1", "slotKey": "sl2", "quantityValue": 2, "quantityUnit": "each" },
-      { "componentKey": "u3", "stepKey": "b1", "slotKey": "sl3", "quantityValue": 120, "quantityUnit": "g" },
-      { "componentKey": "u4", "stepKey": "b1", "slotKey": "sl4", "quantityValue": 60, "quantityUnit": "g" },
-      { "componentKey": "u5", "stepKey": "b1", "slotKey": "sl5", "quantityValue": 100, "quantityUnit": "g" },
-      { "componentKey": "u6", "stepKey": "b1", "slotKey": "sl6", "quantityValue": 120, "quantityUnit": "ml" },
-      { "componentKey": "u7", "stepKey": "b1", "slotKey": "sl7", "quantityValue": 1, "quantityUnit": "tsp" },
-      { "componentKey": "u8", "stepKey": "b1", "slotKey": "sl8", "quantityValue": 1, "quantityUnit": "tsp" },
-      { "componentKey": "u9", "stepKey": "b1", "slotKey": "sl9", "quantityValue": 0.5, "quantityUnit": "cup" },
-      { "componentKey": "u10", "stepKey": "b1", "slotKey": "sl10", "quantityValue": 0.5, "quantityUnit": "tsp" },
-      { "componentKey": "u11", "stepKey": "b1", "slotKey": "sl11", "quantityValue": 0.25, "quantityUnit": "tsp" },
-      { "componentKey": "u12", "stepKey": "b1", "slotKey": "sl12", "quantityValue": 1, "quantityUnit": "tsp" },
-      { "componentKey": "u13", "stepKey": "b1", "slotKey": "sl13", "quantityValue": 2, "quantityUnit": "tsp" }
+      {
+        "componentKey": "u1",
+        "stepKey": "b1",
+        "slotKey": "sl1",
+        "quantityValue": 200,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u2",
+        "stepKey": "b1",
+        "slotKey": "sl2",
+        "quantityValue": 2,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u3",
+        "stepKey": "b1",
+        "slotKey": "sl3",
+        "quantityValue": 120,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u4",
+        "stepKey": "b1",
+        "slotKey": "sl4",
+        "quantityValue": 60,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u5",
+        "stepKey": "b1",
+        "slotKey": "sl5",
+        "quantityValue": 100,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u7",
+        "stepKey": "b1",
+        "slotKey": "sl7",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u8",
+        "stepKey": "b1",
+        "slotKey": "sl8",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u9",
+        "stepKey": "b1",
+        "slotKey": "sl9",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      },
+      {
+        "componentKey": "u10",
+        "stepKey": "b1",
+        "slotKey": "sl10",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u11",
+        "stepKey": "b1",
+        "slotKey": "sl11",
+        "quantityValue": 0.25,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u12",
+        "stepKey": "b1",
+        "slotKey": "sl12",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u13",
+        "stepKey": "b1",
+        "slotKey": "sl13",
+        "quantityValue": 2,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u6",
+        "stepKey": "b1",
+        "slotKey": "sl6",
+        "quantityValue": 120,
+        "quantityUnit": "ml"
+      }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Grated carrot releases water as it sits — squeeze excess moisture out with a paper towel before folding in, or the centre stays wet and gummy even after the loaf is technically set.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Toast the 1 tsp ground cinnamon in a dry pan for 30–60 seconds until fragrant before whisking it into the dry mix — bloomed cinnamon punches significantly above its weight in a lightly spiced loaf.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "60 g whey in a filled loaf tin dries out fast if overmixed — fold the dry into the wet just until no flour streaks remain, then stop. Ten extra strokes here translates to a rubbery crumb.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Start checking at 45 min and tent loosely with foil if the top colours before the centre sets — the matte/golden top and slight pan pull are reliable cues, but only a skewer in the dead centre confirms it.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "pitfall",
+        "text": "Don't slice warm — a protein loaf fresh from the oven tears and reads gummy. Cool fully on a rack (minimum 1 hour) before cutting into the 16 slices; the crumb firms as it cools.",
+        "stepKey": "b3"
+      }
     ]
   }
 }

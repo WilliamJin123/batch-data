@@ -35,6 +35,61 @@
         "quantityValue": 0.125,
         "quantityUnit": "tsp"
       }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n1",
+      "payload": {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "9 min is the ceiling, not the target — pull while centers look wet and underdone; they firm up completely as they cool on the pan. An extra minute here turns them dry and cakey.",
+        "stepKey": "b4"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n2",
+      "payload": {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "The 20–30 min chill is what keeps these thick: cold dough spreads slowly and holds mounds instead of pooling flat. Don't skip it, especially if your kitchen is warm.",
+        "stepKey": "b3"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n3",
+      "payload": {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "The almond extract goes in at 1/8 tsp — that's intentionally light. More than 1/4 tsp and the almond note overpowers the birthday-cake vanilla character.",
+        "stepKey": "b2"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n4",
+      "payload": {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Fold the Cool Whip in first before adding the protein and pudding powder — mixing them in while the base is still loose prevents lumps and keeps the frosting airy rather than dense.",
+        "stepKey": "sl-frosting/f-beat"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n5",
+      "payload": {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Frost only once fully cooled; a warm cookie melts the yogurt frosting and it slides off. If you're making ahead, store cookies and frosting separately and assemble day-of.",
+        "stepKey": "b5"
+      }
     }
   ]
 }

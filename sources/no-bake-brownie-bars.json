@@ -196,6 +196,38 @@
         "quantityValue": 7,
         "quantityUnit": "g"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Add the 75 g milk gradually — with 3 scoops protein + 42 g oat flour, the dough tightens fast and a little milk goes a long way. Overshoot and the bars won't hold their shape after freezing.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "The 2.5 tbsp maple syrup is the structural binder, not just sweetener — don't reduce it or swap for a dry sweetener. If you need less sweetness, cut the syrup by at most 1 tsp and compensate with a splash of milk.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Press the dough very firmly into the loaf pan — use the back of a flat spatula or a piece of parchment on top and press down hard. Loose pressing leaves crumbly bars that fall apart when sliced.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "After 10 min in the freezer the bars are rock-solid; let them temper at room temperature for 3–5 minutes before biting, or the frozen butter and chocolate-chip fat make them tooth-crackingly hard.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "The 60 g pumpkin puree adds moisture and binding without flavor — use plain canned pumpkin, not pumpkin pie filling, which has spices and added sugar that will throw off the balance.",
+        "stepKey": "s1"
+      }
     ]
   }
 }

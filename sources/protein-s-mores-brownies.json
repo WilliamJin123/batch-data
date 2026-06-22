@@ -281,6 +281,38 @@
         "quantityValue": 3,
         "quantityUnit": "tbsp"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "45 min is dangerously long for a Greek yogurt + pumpkin batter — check at 30 min. Pull when a pick reads moist crumbs; the pumpkin holds moisture but the protein still turns rubbery if pushed past set.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "The graham base needs firm pressing — pack it tightly with the bottom of a measuring cup so it holds together as a layer when you pour batter on top. A loose base crumbles when you cut the squares.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "The step says 'cooled slightly' but the yogurt frosting will melt and slide on a warm brownie. Wait until the pan is fully cool to the touch before spreading — at least 30 min on a rack.",
+        "stepKey": "s6"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "For the chocolate drizzle, melt the 3 tbsp coconut oil with chocolate in 30-sec microwave bursts and stir between each — coconut oil separates quickly and scorches if microwaved all at once.",
+        "stepKey": "s7"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Chill before cutting — this layered brownie (graham base + pumpkin-protein body + frosting) holds together cleanly only when cold. Warm, the layers slide and the bars fall apart.",
+        "stepKey": "s8"
+      }
     ]
   }
 }

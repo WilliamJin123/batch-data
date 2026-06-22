@@ -1,6 +1,6 @@
 {
   "name": "High Protein Brookie",
-  "description": "A baked two-layer protein brookie built on blended cottage cheese (not flour or butter): a cocoa brownie layer under a vanilla cookie layer, both leavened with baking powder, chocolate chips folded into each. Distinct from the flour-based Fudgy Protein Brownies \u2014 this is a cottage-cheese protein bake. House calibration: the COOKIE layer uses REAL brown sugar (3 tbsp) for the chew and molasses depth that define a chocolate-chip cookie; the brownie layer stays granulated Splenda (cocoa carries the flavor and it keeps that layer leaner).",
+  "description": "A baked two-layer protein brookie built on blended cottage cheese (not flour or butter): a cocoa brownie layer under a vanilla cookie layer, both leavened with baking powder, chocolate chips folded into each. Distinct from the flour-based Fudgy Protein Brownies — this is a cottage-cheese protein bake. House calibration: the COOKIE layer uses REAL brown sugar (3 tbsp) for the chew and molasses depth that define a chocolate-chip cookie; the brownie layer stays granulated Splenda (cocoa carries the flavor and it keeps that layer leaner).",
   "tags": [
     "brownie",
     "cookie",
@@ -235,6 +235,32 @@
         "slotKey": "sl-chips-ck",
         "quantityValue": 15,
         "quantityUnit": "g"
+      }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Stir the brownie layer just until combined - overmixing the cottage-cheese base builds structure and you lose the fudgy density.",
+        "stepKey": "br1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "The cookie layer is a thick, scoopable dough; if it's too stiff to spread over the brownie, work in milk a teaspoon at a time until it just spreads. Don't thin it all the way to a batter.",
+        "stepKey": "ck1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "45 min is the ceiling, not the target - protein + cottage cheese dry out fast. Pull when a pick in the cookie layer comes out with a few moist crumbs; the center keeps cooking as it cools.",
+        "stepKey": "bk1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Cool completely in the pan before slicing - warm protein bakes are gummy and tear; they firm into clean squares once fully cool (a fridge chill helps).",
+        "stepKey": "bk1"
       }
     ]
   }

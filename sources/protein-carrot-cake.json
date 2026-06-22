@@ -197,6 +197,38 @@
         "quantityValue": 0.25,
         "quantityUnit": "cup"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "30 min at 180°C is the target for the full baking dish — individual ramekins will be done in 18–22 min. A toothpick that comes out clean is the real signal; pulling by time alone risks a dry, rubbery crumb from the 2 scoops of whey.",
+        "stepKey": "s5"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Add the baking soda and ACV (1 tsp) directly to the wet bowl rather than pre-mixing with dry — they need to react in the batter to give this no-flour cake its lift; mixing soda into the dry first kills that reaction.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Grate carrots fine, not coarse — coarse shreds in a low-fat, egg-light batter stay hard and don't integrate; fine grating releases moisture that helps bind the 2-scoop protein load.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "\"Cool slightly\" isn't enough — this cake has no fat and 2 scoops of whey; cut while warm and it tears and falls apart. Cool at least 15 min, or fully to room temp for clean slices.",
+        "stepKey": "s6"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "The 75 g banana is doing double duty as binder and natural sweetener alongside Splenda — use a ripe (spotted) banana; underripe banana adds starch without sweetness and throws off the balance.",
+        "stepKey": "s2"
+      }
     ]
   }
 }

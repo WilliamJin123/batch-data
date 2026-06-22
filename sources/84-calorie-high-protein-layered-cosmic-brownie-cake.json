@@ -296,6 +296,38 @@
         "quantityValue": 15,
         "quantityUnit": "g"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "10–12 min is a ceiling, not a target — the casein + egg-white base dries out fast. Pull at 10 min when a toothpick comes out with a few moist crumbs; carryover heat in the pan finishes it during the 12-min rest.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Let each layer cool a full 12 min on the pan before handling — warm casein cakes tear and crumble. If they seem too fragile, slide onto a rack and wait another 5 min.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "The 10-min fridge rest is load-bearing: it thickens the batter so both layers bake evenly and release cleanly. Don't skip it even if the batter looks fine at room temp.",
+        "stepKey": "s3"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "Make sure the cream cheese (56 g) is fully softened before stirring the filling frosting — cold nonfat cream cheese lumps and won't blend smooth with Greek yogurt.",
+        "stepKey": "s5"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "pitfall",
+        "text": "Granulated Splenda won't thicken the top frosting the way powdered sugar would. If it's too loose after mixing, chill it 15 min before spreading — the cocoa and casein protein absorb moisture as it cools.",
+        "stepKey": "s8"
+      }
     ]
   }
 }

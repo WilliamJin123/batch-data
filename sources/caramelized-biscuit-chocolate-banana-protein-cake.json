@@ -187,6 +187,32 @@
         "quantityValue": 1,
         "quantityUnit": "each"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Microwaves vary — 3 min at 900w is the spec, but check at 2 min 15 sec. A protein-banana mug cake goes from done to rubbery in under 30 seconds of overshoot; pull when a toothpick has a few moist crumbs, not bone-dry.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Cool the cake fully (10+ min out of the ramekin) before slicing horizontally — warm protein cake tears and crumbles. A serrated knife and a slow sawing motion keeps the layers clean.",
+        "stepKey": "s3"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "The yogurt + 20 g protein filling is intentionally thick; add water a teaspoon at a time until it just spreads without tearing the cake layer — don't thin it to a pourable consistency or it runs off the sides.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "Only 5 g of Biscoff spread is in play — dilute with water until it barely coats a spoon before drizzling, or you'll use it all on the first pass and the flavour will be uneven across 4 servings.",
+        "stepKey": "s7"
+      }
     ]
   }
 }

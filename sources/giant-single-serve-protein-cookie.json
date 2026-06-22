@@ -160,6 +160,32 @@
         "quantityValue": 20,
         "quantityUnit": "g"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "7–9 min is a tight window — 170g of Greek yogurt keeps the center wet and it will look underbaked when it's actually done. Pull at 8 min when the edges are firm and the center is just set; it firms as it cools. Overcooking at this scale turns the whole cookie rubbery.",
+        "stepKey": "s3"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Press each portion thin and even — yogurt-protein dough barely spreads, so the thickness you press is the thickness you bake. Uneven pressing means one half overcooks while the center stays raw.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "The dough will look thin and sticky compared to a butter cookie — that's normal at 37g protein powder with yogurt. Don't add more flour to compensate; it will bake dry and dense.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Let the cookies rest 5 min on the pan before moving — fresh out of the oven this dough is fragile. It sets to a handle-able texture as it cools.",
+        "stepKey": "s4"
+      }
     ]
   }
 }

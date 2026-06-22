@@ -61,6 +61,16 @@
       }
     },
     {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Don't judge texture off the tray — protein cookies are floppy when hot and feel underbaked. The full 10-15 min rest on the tray is when they firm to chewy.",
+        "stepKey": "s7"
+      }
+    },
+    {
       "op": "replace",
       "kind": "step",
       "target": "s3",
@@ -93,6 +103,50 @@
         "slotKey": "sl-flour",
         "quantityValue": 20,
         "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n1",
+      "payload": {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Only 8 g of butter — it browns in under 2 min at medium heat. Watch from the moment it melts; the window between nutty and burnt is very short at this small quantity.",
+        "stepKey": "s1"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n2",
+      "payload": {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Let the dough rest 2-3 min after mixing before adjusting consistency: the oats and whey continue absorbing liquid, and what looks too wet will often firm to scoopable on its own.",
+        "stepKey": "s3"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n3",
+      "payload": {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "9-11 min at 350F — pull while the centers still look underdone and pale. Whey protein bakes through on the hot tray; waiting for a set center means a dry, cakey cookie.",
+        "stepKey": "s6"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n4",
+      "payload": {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "The 30-min chill is load-bearing with only 8 g butter: unchilled dough spreads flat before the edges set, killing the thick-center effect.",
+        "stepKey": "s4"
       }
     }
   ]

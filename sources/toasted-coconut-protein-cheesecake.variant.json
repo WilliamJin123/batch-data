@@ -75,6 +75,61 @@
         "quantityValue": 20,
         "quantityUnit": "g"
       }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n1",
+      "payload": {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Shredded coconut goes from golden to burnt in under a minute — use medium heat and stir constantly; pull the skillet off the heat the moment it smells fragrant, as residual pan heat will darken it another shade.",
+        "stepKey": "s-toast"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n2",
+      "payload": {
+        "componentKey": "n2",
+        "kind": "pitfall",
+        "text": "Once the 2 eggs and egg white go in, mix on low just until smooth — overbeating whips in air that makes the cheesecake puff, crack, and sink, and with a lean cottage-cheese base it also turns grainy.",
+        "stepKey": "s4"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n3",
+      "payload": {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Grind the 45 g filling coconut to a fine meal (spice grinder, 15–20 sec) before beating it in — coarse shreds leave sandy pockets; a fine meal disperses evenly and gives a smooth coconut flavor throughout every bite.",
+        "stepKey": "s-toast"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n4",
+      "payload": {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "Pull at 155–160F center or when there's only a slight wobble in the middle — chasing a fully set center with 2 scoops of protein powder and cottage cheese will result in a dry, rubbery slice. It firms dramatically overnight in the fridge.",
+        "stepKey": "s6"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n5",
+      "payload": {
+        "componentKey": "n5",
+        "kind": "technique",
+        "text": "Add the 20 g toasted topping right before serving, not before refrigerating — coconut absorbs moisture in the fridge and loses its crunch within a few hours of contact with the cheesecake surface.",
+        "stepKey": "s-top"
+      }
     }
   ]
 }

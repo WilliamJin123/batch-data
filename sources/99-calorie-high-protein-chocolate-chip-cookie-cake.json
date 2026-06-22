@@ -301,6 +301,38 @@
         "quantityValue": 21,
         "quantityUnit": "g"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "The Greek yogurt and cream cheese go in as wet ingredients — make sure both are at room temp or the cold dairy will clump against the butter and leave lumps that never smooth out.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Don't skip the 15-min chill: casein thickens as it absorbs moisture, and a rested dough spreads into a thick, even disc rather than pooling thin at the edges.",
+        "stepKey": "s5"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "12 min is the floor, not the target — casein + Greek yogurt dry out fast. Pull when the center still looks matte and just barely set; it firms up completely as it cools on the pan.",
+        "stepKey": "s8"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Wet hands are the right call: the dough is sticky from the casein and yogurt, and dry hands will tear it instead of pressing it flat.",
+        "stepKey": "s7"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Splenda won't give a golden top, so color is not a doneness cue here — rely on texture and the 12-15 min window, not visual browning.",
+        "stepKey": "s9"
+      }
     ]
   }
 }

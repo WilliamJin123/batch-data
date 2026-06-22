@@ -267,6 +267,38 @@
         "quantityValue": 15,
         "quantityUnit": "g"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "14 min is the ceiling for this whey/casein + Greek yogurt batter — pull at 13 and test with a toothpick; a few moist crumbs are done. Overbaked donuts turn rubbery after the 15-min rest.",
+        "stepKey": "s8"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Whisk just until the dry disappears into the wet — overworking a batter this high in protein powder develops toughness fast. A few small streaks are fine; they hydrate in the pan.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "The frosting (cream cheese + cocoa + Splenda) and the pudding filling both thicken significantly in the fridge; 20–30 min of chilling gives a pipeable, not runny, texture.",
+        "stepKey": "s7"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "Cut only a small hole — about 1 cm — and go slowly: overfilling one mold will leave you short for the others, and 56 g Greek yogurt + 7 g pudding mix is a fixed quantity for 12 donuts.",
+        "stepKey": "s10"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "The pudding filling uses instant vanilla SF mix (Simply Delish) which sets with yogurt alone — no cook, no liquid milk needed. Stir thoroughly and let it rest 5 min before piping so the starch hydrates fully.",
+        "stepKey": "s6"
+      }
     ]
   }
 }

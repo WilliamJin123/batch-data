@@ -407,6 +407,44 @@
         "quantityValue": 1,
         "quantityUnit": "tsp"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "\"Just combined\" is critical here — this brownie layer has chocolate protein + cocoa + Greek yogurt + egg whites, all of which tighten fast when overmixed. Stop as soon as no dry flour streaks remain.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Bring the cream cheese and Greek yogurt to room temp before beating the cheesecake layer — cold dairy makes a lumpy filling that won't smooth out, and the lumps bake in permanently.",
+        "stepKey": "s6"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Don't beat air into the cheesecake layer — mix on low just until smooth. Airy cheesecake puffs in the oven, then cracks and sinks as it cools.",
+        "stepKey": "s6"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "25–30 min is the window; pull when the cheesecake center has a slight wobble but isn't liquid — protein + Greek yogurt dry out fast past this point. The bars firm up fully only after cooling completely.",
+        "stepKey": "s8"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "pitfall",
+        "text": "The Splenda-thickened caramel relies on cornstarch, not caramelization — if it's not thickening at 5 min, raise heat slightly and keep whisking. Stopping early leaves a watery sauce that soaks into the cheesecake.",
+        "stepKey": "s10"
+      },
+      {
+        "componentKey": "n6",
+        "kind": "technique",
+        "text": "Chill the full 1 hour before cutting — warm protein cheesecake is gummy and tears. For the cleanest slices, refrigerate overnight and run a warm dry knife between each cut.",
+        "stepKey": "s12"
+      }
     ]
   }
 }

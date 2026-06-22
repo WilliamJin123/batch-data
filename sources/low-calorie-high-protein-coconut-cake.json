@@ -296,6 +296,38 @@
         "quantityValue": 1,
         "quantityUnit": "serving"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "20–25 min at 350°F is tight for a whey + applesauce batter — start checking at 18 min. Pull when a toothpick reads a few moist crumbs; a clean pick means the crumb is already drying out.",
+        "stepKey": "s3"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Bring the Greek yogurt (both the cake and frosting portions) to room temp before mixing — cold yogurt clumps around the protein powder and leaves dry lumps that don't bake out.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "The frosting is Greek yogurt + light cream cheese — it will weep and slide off a warm cake. Wait until the cake is fully cooled (or even chilled overnight) before assembling; the step's advice here is worth following.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "note",
+        "text": "The baking soda (1 tsp) is a strong leavener for a thin 6-inch tin — don't add more thinking it'll help rise. Too much makes the center dome and crack aggressively, and the alkalinity dulls the coconut flavor.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "technique",
+        "text": "Make the frosting first and chill it 10–15 min before spreading. The cold cream cheese is what firms it up, so it pipes and spreads cleanly once set rather than weeping off the cake.",
+        "stepKey": "s4"
+      }
     ]
   }
 }

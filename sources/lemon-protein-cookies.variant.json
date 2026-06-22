@@ -95,6 +95,61 @@
       }
     },
     {
+      "op": "replace",
+      "kind": "note",
+      "target": "n1",
+      "payload": {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "9 min at 350F is the hard ceiling — these cookies will look underdone in the center and that's correct. Protein cookies firm dramatically as they cool; pulling at visual 'done' gives you hockey pucks.",
+        "stepKey": "b4"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n2",
+      "payload": {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "The 20-30 min chill is load-bearing: it firms the butter and hydrates the cornstarch so the thick dough holds its scooped mound and spreads slowly, giving thick centers. Skip it and you get flat, greasy discs.",
+        "stepKey": "b3"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n3",
+      "payload": {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Granulated Splenda won't dissolve smoothly in lemon juice the way powdered sweetener does — the drizzle will be gritty unless you whisk it vigorously for 30+ sec and apply immediately before Splenda re-crystallizes.",
+        "stepKey": "b5"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n4",
+      "payload": {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "The 15 g lemon juice goes in with the wet ingredients at b2; add it after the butter so the acid doesn't break the emulsion before everything is combined. Mix to a shaggy dough, not a smooth paste.",
+        "stepKey": "b2"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n5",
+      "payload": {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "The drizzle is flagged 'needs-tuning' — granulated Splenda is the weak link. A swap to powdered Splenda (same volume) makes a noticeably smoother glaze that clings instead of beading.",
+        "stepKey": "b5"
+      }
+    },
+    {
       "op": "remove",
       "kind": "usage",
       "target": "u-frosting"

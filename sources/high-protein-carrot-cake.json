@@ -171,6 +171,32 @@
         "quantityValue": 1.5,
         "quantityUnit": "tbsp"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "180C for 20 min is for a full-size ramekin — check at 15 min by pressing the center lightly. With only 30 g vegan protein as the flour-stand-in, this single-serve cake overbakes quickly and turns chalky-dry.",
+        "stepKey": "s3"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Grate the 30 g carrot on the fine side of the grater, not coarse — fine shreds blend into the batter and soften fully in 20 min, while coarse shreds can stay crunchy in such a short bake.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Add the baking powder with the splash of water, not dry into the dry batter — in a batter this small, a dry pocket of baking powder can create a bitter spot and uneven rise.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Let the cake cool at least 5 min before topping with the 50 g Greek yogurt — warm cake makes the yogurt immediately runny and it slides off; a brief rest firms the surface enough to hold it.",
+        "stepKey": "s4"
+      }
     ]
   }
 }

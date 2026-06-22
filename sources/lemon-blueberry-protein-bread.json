@@ -233,6 +233,38 @@
         "quantityValue": 15,
         "quantityUnit": "ml"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "30-35 min is the ceiling — pull slightly underdone while the center still has a faint wobble. The Greek yogurt + protein batter keeps cooking as the loaf cools and goes rubbery fast if taken to a clean toothpick.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Fold dry into wet, not the other way: pouring liquid batter onto a mound of flour creates unmixed pockets of protein powder that don't hydrate evenly.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "note",
+        "text": "Frozen blueberries release more juice than fresh once thawed (freezing ruptures the cells) — if using frozen, fold them in straight from the freezer and don't thaw, or the bleeding juice turns the batter purple and the pockets muddy.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "The Splenda glaze won't set like a sugar glaze — it stays soft. Chill 15 min to firm it enough to slice cleanly; if it stays tacky, add less water next time (aim for a paste, not a liquid).",
+        "stepKey": "g1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "technique",
+        "text": "Spread glaze only on a fully cooled loaf — on a warm loaf it soaks straight in rather than coating the surface, and you lose the white visual contrast.",
+        "stepKey": "g1"
+      }
     ]
   }
 }

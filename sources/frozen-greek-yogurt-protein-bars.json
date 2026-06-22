@@ -126,6 +126,31 @@
         "quantityValue": 1,
         "quantityUnit": "tbsp"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "The butterscotch SF pudding mix and 2 scoops of chocolate protein thicken fast once whisked — the 15 g of skim milk is the working liquid; don't over-add or the bars won't set firm enough to unmold cleanly.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Crush only about half the Ghost cereal into the batter; leave the top-layer cereal as full pieces so it stays crunchy even after freezing — fully crushed cereal just absorbs moisture and disappears.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Freeze the full 12 hr the first time to ensure a clean unmold — at 6 hr the yogurt center may still be soft and bars will tear coming out of the mold. Once unmolded, they can be stored in a bag.",
+        "stepKey": "s3"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "note",
+        "text": "Pull bars from the freezer 3-4 min before eating; rock-frozen Greek-yogurt bars are dense and hard enough to hurt a tooth — a short temper makes the center creamy without losing the shape."
+      }
     ]
   }
 }

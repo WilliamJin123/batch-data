@@ -1,6 +1,12 @@
 {
   "name": "Banana Butterscotch Cinnamon Cheesecake",
-  "tags": ["cheesecake", "protein", "banana", "butterscotch", "cinnamon"],
+  "tags": [
+    "cheesecake",
+    "protein",
+    "banana",
+    "butterscotch",
+    "cinnamon"
+  ],
   "yield": {
     "amount": 8,
     "unit": "slices"
@@ -131,6 +137,61 @@
           "kind": "raw",
           "libraryIngredientId": "ing-pudding-butterscotch-sf"
         }
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n1",
+      "payload": {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "The cooled fruit is non-negotiable — even slightly warm banana/pumpkin will begin cooking the eggs the moment they meet in s4, giving you scrambled curds in the batter.",
+        "stepKey": "s1"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n2",
+      "payload": {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Blooming the 2 tsp cinnamon in the hot fruit (not a dry pan) is what the step says, and it's right: the moisture prevents scorching while the heat opens the aromatics — 45-60 sec is plenty, pull when it deepens a shade.",
+        "stepKey": "s1"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n3",
+      "payload": {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Don't overmix once the eggs go in — beating air into a lean cheesecake batter causes it to puff, then crack and sink. Low speed, just until the yolks disappear.",
+        "stepKey": "s4"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n4",
+      "payload": {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "45 min is the ceiling, not the target. With cottage cheese + Greek yogurt this lean, pulling at 155-160F center (slight wobble, not wet jiggle) and letting carryover finish is what keeps slices creamy; a fully dry center = rubbery texture.",
+        "stepKey": "s6"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n5",
+      "payload": {
+        "componentKey": "n5",
+        "kind": "technique",
+        "text": "Scatter the toasted graham crumbs only after baking, just before serving — they absorb moisture from the filling within an hour in the fridge and go soft if added beforehand.",
+        "stepKey": "s5"
       }
     }
   ]

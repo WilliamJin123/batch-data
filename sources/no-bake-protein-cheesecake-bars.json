@@ -244,6 +244,38 @@
         "quantityValue": 1.5,
         "quantityUnit": "tbsp"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "technique",
+        "text": "Press the crust very firmly — use the bottom of a measuring cup or a flat glass, working from center to edges. A loosely packed crust shatters when you slice the frozen bars.",
+        "stepKey": "c2"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "pitfall",
+        "text": "Add the 37 g skim milk gradually — the crust should hold together when pinched but not feel wet. Too much milk makes a pasty crust that shrinks and cracks away from the filling when frozen.",
+        "stepKey": "c1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Blend the cottage cheese until completely smooth before adding the other filling ingredients — any remaining grain from the 226 g cottage cheese shows up as visible white specks in the sliced bars and a gritty mouthfeel.",
+        "stepKey": "f1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Let bars sit at room temperature 3–5 min before eating — straight from the freezer they're rock-hard and the crust can crack a tooth. A brief temper makes them creamy-firm, not icy.",
+        "stepKey": "z2"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "1.5 hours is the minimum freeze for clean slicing — but 3+ hours gives sharper edges and a firmer filling layer. Lifting by the parchment before slicing (rather than cutting in the pan) prevents the crust from dragging.",
+        "stepKey": "z1"
+      }
     ]
   }
 }

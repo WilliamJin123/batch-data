@@ -271,6 +271,38 @@
         "quantityValue": 40,
         "quantityUnit": "g"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "35 min is a guide for this specific 9x13 load — with 400 g Greek yogurt, 70 g whey, and 25 g coconut flour all pulling moisture at different rates, start checking at 28 min. A toothpick with moist crumbs (not wet batter) is done; overbaking turns the yogurt-heavy crumb rubbery.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Whisk the dry flours and protein together before adding wet — coconut flour (25 g) and whey clump badly if dropped into wet ingredients directly, leaving pockets that don't hydrate evenly.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Don't overmix once the eggs are in — the 3 whole eggs plus 180 g egg white is a lot of protein structure; overbeating develops it prematurely and makes the finished cake tight and tough.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "The full 30-min cool is necessary before slicing — this cake is dense with yogurt and has no shortening to keep it tender warm. Cutting early gives gummy, tearing pieces that look underdone even when they aren't.",
+        "stepKey": "s5"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Cooking spray alone on a 9x13 may not be enough for a sticky protein batter — line with parchment after spraying, or the cake will stick at the corners and break when you lift slices.",
+        "stepKey": "s3"
+      }
     ]
   }
 }

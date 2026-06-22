@@ -221,6 +221,38 @@
         "quantityValue": 20,
         "quantityUnit": "g"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "20 min at 180°C (356°F) is exact for a 4-inch mini cake; don't judge by color — whey protein browns before it's done. Use a toothpick and pull at moist crumbs; the small mass overbakes in under 2 extra minutes.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Sieve the oat flour and protein powder together — oat flour packs and protein powder clumps. Sieving aerates both so they fold into the wet ingredients without lumps.",
+        "stepKey": "s2"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Don't assemble while the cake is even slightly warm — the Biscoff frosting (casein + yogurt + Biscoff spread) is thick but the Biscoff fat will soften and ooze out from between the layers.",
+        "stepKey": "s6"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "The casein in the frosting thickens on contact with liquid — stir everything together quickly and refrigerate immediately. It can go from spreadable to stiff in 5 min if left at room temp.",
+        "stepKey": "s5"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "The egg white only (no yolk) keeps the crumb lean; bring it to room temp before mixing or it will make the batter lumpy and uneven when poured into the 4-inch tin.",
+        "stepKey": "s3"
+      }
     ]
   }
 }

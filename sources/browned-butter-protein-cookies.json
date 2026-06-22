@@ -247,6 +247,32 @@
         "quantityValue": 10,
         "quantityUnit": "g"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Brown the butter only to golden and nutty-smelling, then pull it off the heat - it goes from browned to burnt and bitter in seconds. Let it cool slightly before mixing so it doesn't cook the egg.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "pitfall",
+        "text": "Stop as soon as the dough comes together - overworking the whey and flour turns these tough and cakey instead of gooey.",
+        "stepKey": "s3"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Don't skip the 30-min chill: it firms the butter so the tall mounds hold and spread slowly, giving thick centers instead of flat, greasy cookies.",
+        "stepKey": "s4"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "Pull at 9-11 min while the edges are set but the centers still look underbaked and puffy - they finish on the hot tray. Bake until the center looks done and they'll come out dry.",
+        "stepKey": "s6"
+      }
     ]
   }
 }

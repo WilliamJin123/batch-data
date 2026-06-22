@@ -308,6 +308,38 @@
         "quantityValue": 1,
         "quantityUnit": "pinch"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "28 min is the target; 34 is the ceiling. Protein powder dries out quickly in an 8x8 — pull the moment a toothpick in the center comes out with moist crumbs, not wet batter. Carryover keeps cooking it.",
+        "stepKey": "bk1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Mix wet into dry just until combined — stirring extra to smooth protein batter develops gluten and toughens the crumb. A few streaks disappear as you fold in the blueberries.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Do not slice while warm — a protein-flour cake is gummy and tears until fully cooled. Wait until the pan is cool to the touch; the squares come out clean.",
+        "stepKey": "bk1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Use melted butter (not softened) for the crumb so it clumps into distinct sandy pebbles when rubbed with the flour and Splenda — too much butter and it bakes into a solid crust rather than a crumbly top.",
+        "stepKey": "cr1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "The lemon juice (2 tbsp) reacts with the baking soda — add it with the other wet ingredients and get the batter into the pan promptly; don't let it sit mixed.",
+        "stepKey": "b1"
+      }
     ]
   }
 }

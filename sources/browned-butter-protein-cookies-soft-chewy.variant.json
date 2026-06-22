@@ -15,6 +15,16 @@
   "deriveFromRecipe": "Browned-Butter Protein Cookies",
   "overrides": [
     {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "The brown sugar (28 g real) provides the molasses chew and spread; the 3 g Splenda tops off sweetness without adding moisture, so the ratio is fixed — don't swap one for the other.",
+        "stepKey": "s2"
+      }
+    },
+    {
       "op": "replace",
       "kind": "step",
       "target": "s4",
@@ -46,6 +56,50 @@
         "section": "Bake - Even & Soft-Chewy",
         "temperature": 325,
         "instructionText": "Bake at 325F / 160C on the middle rack for ~11-13 minutes. Pull when set but the centers still feel slightly soft."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n1",
+      "payload": {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Let the browned butter cool 2–3 min before adding eggs — pour it in hot and you'll scramble the egg and break the emulsion, giving greasy cookies with a curdled look.",
+        "stepKey": "s1"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n2",
+      "payload": {
+        "componentKey": "n2",
+        "kind": "pitfall",
+        "text": "325F for 11–13 min and pull while centers feel slightly soft — 40 g whey in a small batch overcooks in minutes, turning the center chalky. Carryover on the hot tray finishes them.",
+        "stepKey": "s6"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n3",
+      "payload": {
+        "componentKey": "n3",
+        "kind": "technique",
+        "text": "Stir in the dry ingredients until the dough just comes together; overmixing develops the AP flour's gluten and toughens the protein cookies into dense pucks.",
+        "stepKey": "s3"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n4",
+      "payload": {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Don't move or taste the cookies until they've rested 10–15 min on the tray — protein cookies feel floppy straight from the oven and firm up entirely as they cool; judging early will make you think they're underbaked.",
+        "stepKey": "s7"
       }
     }
   ]

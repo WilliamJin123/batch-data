@@ -293,6 +293,38 @@
         "quantityValue": 1,
         "quantityUnit": "cookie"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "technique",
+        "text": "Honey is the structural binder here — don't thin it down or add extra liquid to the base. If the dough feels too stiff, work in no more than 1 tsp yogurt at a time; a loose base won't hold its bar shape after freezing.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Blend the cottage cheese completely smooth before adding the other frosting ingredients — any visible curd left in the blender will show as white specks in the finished layer and the texture stays grainy.",
+        "stepKey": "f1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Press the base firmly into the parchment-lined pan with the back of a spoon or a flat-bottomed cup — a loosely packed base crumbles when sliced straight from the freezer.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "text": "Don't skip the 10-min thaw before slicing: straight from the freezer the bars are rock-hard and the knife will crack the frosting layer. Thaw on the counter, not the microwave, to keep layers intact.",
+        "stepKey": "t1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Add the sandwich cookie crumble just before freezing, not after — pressing it lightly into the frosting anchors it so the topping doesn't fall off when you slice.",
+        "stepKey": "t1"
+      }
     ]
   }
 }

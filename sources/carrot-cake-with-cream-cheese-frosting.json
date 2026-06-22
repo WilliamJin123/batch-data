@@ -292,6 +292,38 @@
         "quantityValue": 1,
         "quantityUnit": "tsp"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "25 min is the floor, not the target — the 110g of carrot adds moisture and a lean oat-flour batter can look underdone at 25 min but carry-over finishes it. Pull when a toothpick comes clean and the edges pull slightly from the pan.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Grate the carrots fine, not coarse — coarse shreds don't hydrate fully in the short bake and leave wet pockets that make the center sink.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Cool completely before frosting — this cake is thin (8x8) and stays warm longer than it looks. Frosting a warm square melts the cream cheese-yogurt mix into a wet glaze.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "The light cream cheese must be at room temp before beating — cold cream cheese stays lumpy even with yogurt and protein stirred in, and the frosting won't smooth out.",
+        "stepKey": "f1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "If the frosting is too loose to hold shape, chill it 20 min before spreading — the cold firms the cream cheese and lets the protein powder fully hydrate, giving a clean spreadable texture.",
+        "stepKey": "f1"
+      }
     ]
   }
 }

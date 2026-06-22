@@ -200,6 +200,38 @@
         "quantityValue": 21,
         "quantityUnit": "g"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Honey (100 g in the dough) is the structural binder — don't thin the dough with extra water beyond the 2 tsp written. A wetter dough won't set firm enough to slice cleanly after refrigeration.",
+        "stepKey": "d1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "Press the dough firmly into the loaf pan in an even layer — air pockets make bars crumble when sliced. Use the back of a spoon or wet fingers to pack it tight before adding the shell.",
+        "stepKey": "d1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Chill the pressed dough until firm before spreading the coconut-oil shell — if you spread it over still-soft, freshly pressed dough the shell soaks in instead of setting as a distinct layer. A 10–15 min stint in the fridge or freezer firms it up first.",
+        "stepKey": "s1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "Let refrigerated bars temper 3–5 min at room temperature before eating — straight from the fridge the coconut-oil shell is rock-hard and snaps aggressively.",
+        "stepKey": "z1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "Whey isolate (100 g) and collagen (80 g) both clump when added to liquid — whisk dry ingredients together first so cocoa is evenly distributed before the butter-honey mixture goes in.",
+        "stepKey": "d1"
+      }
     ]
   }
 }

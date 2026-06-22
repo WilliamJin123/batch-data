@@ -217,6 +217,38 @@
         "quantityValue": 30,
         "quantityUnit": "g"
       }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "technique",
+        "text": "Press the cookie layer very firmly — almond flour + oat flour with no egg binds only from maple syrup and butter. A loose press leaves a crumbly bar that falls apart when sliced.",
+        "stepKey": "b1"
+      },
+      {
+        "componentKey": "n2",
+        "kind": "pitfall",
+        "text": "Blend the cottage cheese until completely smooth before adding anything else — any visible curds in the frosting won't disappear once the white chocolate and protein go in.",
+        "stepKey": "f1"
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "Let the melted white chocolate cool slightly before stirring into the cottage-cheese blend — if it's too hot it can seize or make the frosting grainy. Aim for warm, not steaming.",
+        "stepKey": "f1"
+      },
+      {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "If the frosting is too loose after adding the 30g protein, add cream cheese a tablespoon at a time rather than more protein — extra protein powder can make the layer gummy after freezing.",
+        "stepKey": "f1"
+      },
+      {
+        "componentKey": "n5",
+        "kind": "pitfall",
+        "text": "Freeze 20 min to set, then move to the fridge — bars left in the freezer too long become rock-hard and the white-chocolate frosting can crack when sliced. Temper 5 min at room temp before cutting if frozen solid.",
+        "stepKey": "z1"
+      }
     ]
   }
 }

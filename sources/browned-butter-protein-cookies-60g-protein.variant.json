@@ -14,6 +14,16 @@
   "deriveFromRecipe": "Browned-Butter Protein Cookies",
   "overrides": [
     {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "n5",
+        "kind": "note",
+        "text": "The 30-min chill firms the butter so the mounds hold their height and spread slowly — skip it and 60 g of whey in a small yield will spread flat and bake through before centers can stay gooey.",
+        "stepKey": "s4"
+      }
+    },
+    {
       "op": "replace",
       "kind": "usage",
       "target": "u-whey",
@@ -23,6 +33,50 @@
         "slotKey": "sl-whey",
         "quantityValue": 60,
         "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n1",
+      "payload": {
+        "componentKey": "n1",
+        "kind": "pitfall",
+        "text": "Let the browned butter cool a couple minutes before adding eggs — 60 g of whey is already heat-sensitive; scrambled egg in the fat ruins the emulsion and makes the cookie grainy.",
+        "stepKey": "s1"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n2",
+      "payload": {
+        "componentKey": "n2",
+        "kind": "technique",
+        "text": "60 g whey is a heavy protein load for 3 cookies; add milk a teaspoon at a time only if the dough won't come together — too much liquid makes it spread flat and bake rubbery.",
+        "stepKey": "s3"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n3",
+      "payload": {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "text": "These stay pale — Splenda doesn't brown. Pull at 9–10 min when edges are just set and the center still looks underdone; waiting for any color means overbaked, dry centers.",
+        "stepKey": "s6"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n4",
+      "payload": {
+        "componentKey": "n4",
+        "kind": "technique",
+        "text": "The 10–15 min pan rest is where the centers finish cooking and proteins set. Moving them too soon means they fall apart; judging texture before fully cooled gives a false \"gummy\" read.",
+        "stepKey": "s7"
       }
     }
   ]
