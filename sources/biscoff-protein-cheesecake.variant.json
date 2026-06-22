@@ -1,6 +1,6 @@
 {
   "name": "Biscoff Protein Cheesecake",
-  "description": "Biscoff cookie-butter protein cheesecake, crustless - a flavor variant of the Vanilla Protein Cheesecake base, built from pantry staples (no cookie-butter emulsion, no fat-free cream cheese, no powdered PB, no brown butter). 55 g Biscoff (40 g in the batter + a 15 g swirl on top) plus a toasted speculoos spice blend (cinnamon, ginger, nutmeg) carry the cookie flavor. To stay lean without fat-free cream cheese, the base's light cream cheese is cut back (113 -> 85 g) and the body made up with blended cottage cheese (57 -> 110 g) + extra egg white (30 -> 60 g) - both lean and high-protein - landing at ~167 cal/slice (ratio ~10.9). To-make.",
+  "description": "Biscoff cookie-butter protein cheesecake, crustless - a flavor variant of the Vanilla Protein Cheesecake base, built from pantry staples (no cookie-butter emulsion, no fat-free cream cheese, no powdered PB, no brown butter). Keeps the base's PROVEN dairy ratio (light cream cheese 113 g + cottage 57 g + egg white 30 g - the same ratio as the excellent-rated Creme Brulee variant) for a dense, creamy set; 55 g Biscoff (40 g batter + 15 g swirl) plus a toasted speculoos spice blend (cinnamon, ginger, nutmeg) carry the cookie flavor. ~168 cal/slice, ratio ~11.8 - a bit richer than the leanest build, but texture is the point and it's still well under the Turtle (215). To-make.",
   "tags": [
     "cheesecake",
     "protein",
@@ -124,8 +124,8 @@
       "payload": {
         "componentKey": "c5",
         "kind": "pitfall",
-        "text": "This is a lean protein custard, so it sets firmer and dries out faster than a full-fat cheesecake - do NOT overbake. Pull at a just-set center with a slight wobble; chase a fully firm center and it bakes out rubbery.",
-        "stepKey": "s6"
+        "stepKey": "s6",
+        "text": "A protein cheesecake sets firmer and dries out faster than a full-fat one - do NOT overbake. Pull at a just-set center with a slight wobble; chase a fully firm center and it bakes out rubbery."
       }
     },
     {
@@ -155,42 +155,6 @@
         "componentKey": "s3",
         "order": 3,
         "instructionText": "Beat the light cream cheese alone until smooth, then add the yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, the 40 g Biscoff, the toasted cinnamon plus a pinch each of ground ginger and nutmeg, and the vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined - don't overwork it. Warm the bowl ~15 sec if it clumps."
-      }
-    },
-    {
-      "op": "replace",
-      "kind": "usage",
-      "target": "u-cream-cheese",
-      "payload": {
-        "componentKey": "u-cream-cheese",
-        "stepKey": "s3",
-        "slotKey": "sl-cream-cheese",
-        "quantityValue": 85,
-        "quantityUnit": "g"
-      }
-    },
-    {
-      "op": "replace",
-      "kind": "usage",
-      "target": "u-cottage",
-      "payload": {
-        "componentKey": "u-cottage",
-        "stepKey": "s3",
-        "slotKey": "sl-cottage",
-        "quantityValue": 110,
-        "quantityUnit": "g"
-      }
-    },
-    {
-      "op": "replace",
-      "kind": "usage",
-      "target": "u-egg-white",
-      "payload": {
-        "componentKey": "u-egg-white",
-        "stepKey": "s4",
-        "slotKey": "sl-egg-white",
-        "quantityValue": 60,
-        "quantityUnit": "g"
       }
     },
     {
