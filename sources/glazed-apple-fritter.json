@@ -1,6 +1,6 @@
 {
   "name": "Glazed Apple Fritter",
-  "description": "Two single-serve baked apple fritters on an AP-flour/protein base with a thin glaze. House calibration: the recipe's sugar-substitute is swapped for granulated Splenda, volume-matched to its sweetness (Splenda's small maltodextrin calories are counted); eggs are medium. The Swerve brown sugar is replaced with volume-matched Splenda (add a drop of molasses for brown-sugar notes if desired).",
+  "description": "Two single-serve baked apple fritters on an AP-flour/protein base \u2014 real butter, REAL brown sugar (2 tbsp, for molasses and moisture), cinnamon and nutmeg in the crumb, finished with a PROTEIN glaze (whey + Fairlife milk + Splenda) that sets like real icing instead of a thin sugar drizzle. The protein-glaze upgrade is borrowed from the Apple Fritter Bites. House calibration: sweeteners are granulated Splenda except the batter brown sugar; eggs are medium.",
   "tags": [
     "apple-fritter",
     "protein",
@@ -17,7 +17,7 @@
         "componentKey": "b1",
         "order": 1,
         "section": "fritter",
-        "instructionText": "Mix the Greek yogurt, melted butter, and Splenda. Stir in the flour, protein, baking powder, cinnamon, and nutmeg, then fold in the diced apple."
+        "instructionText": "Mix the Greek yogurt, melted butter, and brown sugar. Stir in the flour, protein, baking powder, cinnamon, and nutmeg, then fold in the diced apple."
       },
       {
         "componentKey": "b2",
@@ -30,7 +30,7 @@
         "componentKey": "g1",
         "order": 3,
         "section": "glaze",
-        "instructionText": "Stir the Splenda with the water into a glaze and drizzle over the fritters."
+        "instructionText": "Whisk the protein powder, Splenda, Fairlife milk, and vanilla into a thick, pourable glaze (add a few drops more milk only if needed). Drizzle over the cooled fritters and let it set 5-10 min \u2014 unlike a water glaze, the protein glaze firms into a real icing."
       }
     ],
     "slots": [
@@ -52,10 +52,10 @@
       },
       {
         "componentKey": "sl3",
-        "name": "granulated Splenda",
+        "name": "brown sugar",
         "resolution": {
           "kind": "raw",
-          "libraryIngredientId": "ing-splenda-granulated"
+          "libraryIngredientId": "ing-brown-sugar"
         }
       },
       {
@@ -116,10 +116,26 @@
       },
       {
         "componentKey": "sl11",
-        "name": "water",
+        "name": "Fairlife fat-free milk",
         "resolution": {
           "kind": "raw",
-          "libraryIngredientId": "ing-water"
+          "libraryIngredientId": "ing-milk-fairlife-skim"
+        }
+      },
+      {
+        "componentKey": "sl-gp",
+        "name": "vanilla whey protein (glaze)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-vanilla"
+        }
+      },
+      {
+        "componentKey": "sl-gv",
+        "name": "vanilla extract (glaze)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
         }
       }
     ],
@@ -198,8 +214,22 @@
         "componentKey": "u11",
         "stepKey": "g1",
         "slotKey": "sl11",
-        "quantityValue": 3,
-        "quantityUnit": "ml"
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-gp",
+        "stepKey": "g1",
+        "slotKey": "sl-gp",
+        "quantityValue": 8,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-gv",
+        "stepKey": "g1",
+        "slotKey": "sl-gv",
+        "quantityValue": 0.25,
+        "quantityUnit": "tsp"
       }
     ]
   }

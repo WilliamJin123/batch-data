@@ -1,6 +1,6 @@
 {
-  "name": "High-Protein Tiramisu (Ladyfinger)",
-  "description": "A 9-serving blender tiramisu: a cottage-cheese/Greek-yogurt protein cream layered with coffee-dipped ladyfingers, dusted with cocoa, set overnight. House calibration: the recipe's sugar-substitute is swapped for granulated Splenda, volume-matched to its sweetness (Splenda's small maltodextrin calories are counted); eggs are medium.",
+  "name": "High-Protein Tiramisu",
+  "description": "A no-bake high-protein tiramisu: a mascarpone-style cream of BLENDED 2% cottage cheese + 0% Greek yogurt, thickened with vanilla SF instant pudding, sweetened with granulated Splenda, layered with coffee-dipped ladyfingers and set overnight. Now the only tiramisu \u2014 the rice-cake version was retired (worse texture; rice cakes not on hand) after folding its one good idea, a Splenda-sweetened pudding cream, into this one. House calibration: sweetener is granulated Splenda, sweetness-matched (small maltodextrin calories counted); eggs medium. Tip: for a caramel-coffee twist, swap the vanilla pudding for butterscotch.",
   "tags": [
     "tiramisu",
     "protein",
@@ -16,19 +16,19 @@
         "componentKey": "a1",
         "order": 1,
         "section": "cream",
-        "instructionText": "Blend the protein, cottage cheese, Greek yogurt, pudding mix, salt, and cinnamon until smooth."
+        "instructionText": "Blend the protein, cottage cheese, Greek yogurt, vanilla pudding mix, Splenda, salt, and cinnamon until completely silky \u2014 the cottage cheese MUST blend out with no grain so it reads as mascarpone. Taste and adjust the Splenda (the cottage cheese and 0% yogurt are tangy, so the cream needs a real hit of sweetness), then let it rest about 10 minutes so the instant-pudding starch firms it to a thick, spoonable mascarpone-style cream."
       },
       {
         "componentKey": "a2",
         "order": 2,
         "section": "assembly",
-        "instructionText": "Pour coffee into a bowl. Dip half the ladyfingers and line a dish, spread half the cream, and dust with cinnamon. Repeat with the remaining ladyfingers and cream."
+        "instructionText": "Pour strong coffee into a shallow bowl. Dip each ladyfinger just about 1 second per side and roll it out \u2014 do NOT soak (oversoaked ladyfingers turn to mush, and they keep hydrating overnight). Line a dish, spread half the cream, and dust with cinnamon. Repeat with the remaining dipped ladyfingers and cream."
       },
       {
         "componentKey": "a3",
         "order": 3,
         "section": "assembly",
-        "instructionText": "Dust the top with cocoa and refrigerate overnight."
+        "instructionText": "Dust the top with cocoa and refrigerate OVERNIGHT \u2014 at least 6 hours, ideally 24 \u2014 so the cream sets firm and the ladyfingers hydrate into cake. This set is what makes it tiramisu instead of pudding. Slice into 9 and serve cold."
       }
     ],
     "slots": [
@@ -111,6 +111,14 @@
           "kind": "raw",
           "libraryIngredientId": "ing-cocoa-powder"
         }
+      },
+      {
+        "componentKey": "sl-splenda",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
       }
     ],
     "usages": [
@@ -118,7 +126,7 @@
         "componentKey": "u1",
         "stepKey": "a1",
         "slotKey": "sl1",
-        "quantityValue": 50,
+        "quantityValue": 60,
         "quantityUnit": "g"
       },
       {
@@ -182,6 +190,13 @@
         "stepKey": "a3",
         "slotKey": "sl10",
         "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-splenda",
+        "stepKey": "a1",
+        "slotKey": "sl-splenda",
+        "quantityValue": 3,
         "quantityUnit": "tbsp"
       }
     ]

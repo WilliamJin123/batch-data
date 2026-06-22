@@ -1,6 +1,6 @@
 {
   "name": "High Protein Brookie",
-  "description": "A baked two-layer protein 'brookie' built on blended cottage cheese (not flour or butter): a cocoa brownie layer under a vanilla cookie layer, both leavened with baking powder, chocolate chips folded into each. Distinct from the flour-based Fudgy Protein Brownies — this is a cottage-cheese protein bake. House calibration: Swerve brown sugar replaced with granulated Splenda (sweetness-matched).",
+  "description": "A baked two-layer protein brookie built on blended cottage cheese (not flour or butter): a cocoa brownie layer under a vanilla cookie layer, both leavened with baking powder, chocolate chips folded into each. Distinct from the flour-based Fudgy Protein Brownies \u2014 this is a cottage-cheese protein bake. House calibration: the COOKIE layer uses REAL brown sugar (3 tbsp) for the chew and molasses depth that define a chocolate-chip cookie; the brownie layer stays granulated Splenda (cocoa carries the flavor and it keeps that layer leaner).",
   "tags": [
     "brownie",
     "cookie",
@@ -25,7 +25,7 @@
         "componentKey": "ck1",
         "order": 2,
         "section": "cookie layer",
-        "instructionText": "Combine the vanilla protein, Splenda, blended cottage cheese, vanilla, salt, and baking powder. Fold in the chocolate chips and pour over the brownie layer."
+        "instructionText": "Combine the vanilla protein, brown sugar, blended cottage cheese, vanilla, salt, and baking powder. Fold in the chocolate chips and pour over the brownie layer."
       },
       {
         "componentKey": "bk1",
@@ -96,10 +96,10 @@
       },
       {
         "componentKey": "sl-splenda-ck",
-        "name": "granulated Splenda",
+        "name": "brown sugar",
         "resolution": {
           "kind": "raw",
-          "libraryIngredientId": "ing-splenda-granulated"
+          "libraryIngredientId": "ing-brown-sugar"
         }
       },
       {
