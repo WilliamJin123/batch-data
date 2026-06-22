@@ -148,13 +148,23 @@
       }
     },
     {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "c8",
+        "kind": "technique",
+        "stepKey": "s3",
+        "text": "Warm the 40 g batter Biscoff 10-15 sec until loose and pourable before it goes in - cold, stiff spread leaves streaks, and since you mix the batter gently (to keep the dense set) you can't beat the clumps out. The 15 g swirl is melted separately, just before it's drizzled on top."
+      }
+    },
+    {
       "op": "replace",
       "kind": "step",
       "target": "s3",
       "payload": {
         "componentKey": "s3",
         "order": 3,
-        "instructionText": "Beat the light cream cheese alone until smooth, then add the yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, the 40 g Biscoff, the toasted cinnamon (toast it in a dry pan 30-60 sec until fragrant first), a pinch each of ground ginger and nutmeg, and the vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined - don't overwork it. Warm the bowl ~15 sec if it clumps."
+        "instructionText": "Beat the light cream cheese alone until smooth, then add the yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, the 40 g Biscoff (warmed until loose), the toasted cinnamon (toast it in a dry pan 30-60 sec until fragrant first), a pinch each of ground ginger and nutmeg, and the vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined - don't overwork it. Warm the bowl ~15 sec if it clumps."
       }
     },
     {
