@@ -1278,5 +1278,30 @@
     "unitEquivalences": {
       "scoop": 30
     }
+  },
+  {
+    "id": "ing-cream-cheese-fat-free",
+    "name": "fat-free cream cheese",
+    "macrosPer100g": {
+      "calories": 97,
+      "protein": 16,
+      "carbs": 9.5,
+      "fat": 0,
+      "fiber": 0
+    }
+  },
+  {
+    "id": "ing-pb-powder",
+    "name": "powdered peanut butter",
+    "macrosPer100g": {
+      "calories": 450,
+      "protein": 50,
+      "carbs": 35,
+      "fat": 11,
+      "fiber": 8
+    },
+    "unitEquivalences": {
+      "tbsp": 6
+    }
   }
 ]

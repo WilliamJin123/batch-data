@@ -1,7 +1,7 @@
 {
   "generatedFrom": "db",
   "recipeCount": 83,
-  "ingredientCount": 88,
+  "ingredientCount": 90,
   "buildOrder": [
     "[Good] Low Calorie High Protein Red Velvet Cake",
     "10-Minute High-Protein Snack Bars",
@@ -40,7 +40,7 @@
     "High Protein Coffee Cake",
     "High-Protein Nanaimo Bars",
     "High-Protein Sugar Cookies",
-    "High-Protein Tiramisu (Ladyfinger)",
+    "High-Protein Tiramisu",
     "Homemade Cookie Dough Protein Bars",
     "Impossible Protein Bars",
     "Lemon Blueberry Protein Bread",
@@ -60,7 +60,6 @@
     "Protein Ice Cream Sandwich",
     "Protein Kinder Cookies",
     "Protein S'mores Brownies",
-    "Protein Tiramisu (Rice-Cake)",
     "S'mores Cake Bars",
     "Salted Caramel Cheesecake Brownie Bars",
     "Sheet Pan Funfetti Snack Cake",
@@ -69,6 +68,7 @@
     "Vanilla & Biscoff Protein Cake",
     "Vanilla Protein Cheesecake",
     "Banana Butterscotch Cinnamon Cheesecake",
+    "Biscoff Protein Cheesecake",
     "Browned-Butter Protein Cookies (50g protein)",
     "Browned-Butter Protein Cookies (60g protein)",
     "Browned-Butter Protein Cookies (Oat, Low-Butter)",
