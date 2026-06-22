@@ -1,6 +1,6 @@
 {
   "name": "Carrot Cake Loaf",
-  "description": "A plain-flour carrot loaf with no frosting, baked in a tin and sliced into 16. House calibration: the recipe's sugar-substitute is swapped for granulated Splenda, volume-matched to its sweetness (Splenda's small maltodextrin calories are counted); eggs are medium. The drizzle of olive oil is swapped for coconut oil.",
+  "description": "A plain-flour carrot loaf with no frosting, baked in a tin and sliced into 16. House calibration: the recipe's sugar-substitute is swapped for granulated Splenda, volume-matched to its sweetness (Splenda's small maltodextrin calories are counted); eggs are medium. The drizzle of olive oil is swapped for coconut oil. (v2: after the first bake came out soapy/sulfury, gummy and squishy, the baking soda was cut 1 tsp -> 1/4 tsp and the 100ml milk was dropped; the mixing + doneness steps were rewritten. See the tasting log.)",
   "tags": [
     "carrot-cake",
     "cake",
@@ -18,20 +18,20 @@
         "componentKey": "b1",
         "order": 1,
         "section": "batter",
-        "instructionText": "Whisk the wet ingredients (Greek yogurt, eggs, milk, oil, vanilla, Splenda) until smooth. Add the dry — flour, protein powder, baking powder, baking soda, salt, cinnamon — and stir JUST until no dry streaks remain. Don't overmix: the flour's gluten plus the protein powder turn an over-worked batter dense and rubbery. Fold in the grated carrot last, then pour into a lined loaf tin."
+        "instructionText": "Whisk the eggs thoroughly into the wet (Greek yogurt, oil, vanilla, Splenda) until completely smooth and emulsified - no streaks of egg (uneven egg bakes into eggy pockets). In a SEPARATE bowl whisk the dry together - flour, protein powder, baking powder, baking soda, salt, cinnamon - so the baking soda is evenly dispersed (a concentrated soda pocket tastes soapy/sulfury and is hard on the stomach). Fold the dry into the wet JUST until no streaks remain - do not overmix or the gluten plus protein turn rubbery. Fold in the grated carrot last and pour into a lined loaf tin."
       },
       {
         "componentKey": "b2",
         "order": 2,
         "section": "bake",
-        "instructionText": "Bake at 350F (180C) until a skewer in the centre comes out clean and the middle is set (~200F internal) — about 40-50 min for a filled loaf tin; start checking at 35. Don't pull at 25 min, that's far too short for a loaf this deep. If the top colours before the centre sets, tent loosely with foil.",
+        "instructionText": "Bake at 350F (180C) until the CENTRE is fully set - a skewer in the dead centre comes out clean (a few dry crumbs OK; no wet batter or gummy paste) and the internal temp reads ~205F. Roughly 50-60 min for a filled tin; start checking at 45. Visual cues: the loaf pulls slightly from the pan sides, the top is matte (not glossy/wet) and deep golden, the split along the top looks set inside (not shiny batter), and the centre springs back when pressed. Tent loosely with foil if the top colours first. Do not judge by time or top colour alone - this is a moist batter and the centre lags.",
         "temperature": 180
       },
       {
         "componentKey": "b3",
         "order": 3,
         "section": "cool",
-        "instructionText": "Rest in the pan 10-15 min (it's fragile straight from the oven), then turn out onto a wire rack and cool COMPLETELY before slicing into 16. A warm protein loaf slices gummy and squashes; fully cooled it firms up and cuts clean. Even better the next day, wrapped at room temp. No frosting on this loaf — it's a plain spiced protein bake, sliced and eaten as-is to keep it lean; if you want extra, smear an individual slice with Splenda-sweetened 0% Greek yogurt (added at serving, so it stays off the recipe's macros)."
+        "instructionText": "Rest in the pan 10-15 min (it's fragile straight from the oven), then turn out onto a wire rack and cool COMPLETELY before slicing into 16. A warm protein loaf slices gummy and squashes; fully cooled it firms up and cuts clean. Even better the next day, wrapped at room temp. No frosting on this loaf - it's a plain spiced protein bake, sliced and eaten as-is to keep it lean; if you want extra, smear an individual slice with Splenda-sweetened 0% Greek yogurt (added at serving, so it stays off the recipe's macros)."
       }
     ],
     "slots": [
@@ -73,14 +73,6 @@
         "resolution": {
           "kind": "raw",
           "libraryIngredientId": "ing-ap-flour"
-        }
-      },
-      {
-        "componentKey": "sl6",
-        "name": "skim milk",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-skim-milk"
         }
       },
       {
@@ -177,13 +169,6 @@
         "quantityUnit": "g"
       },
       {
-        "componentKey": "u6",
-        "stepKey": "b1",
-        "slotKey": "sl6",
-        "quantityValue": 100,
-        "quantityUnit": "ml"
-      },
-      {
         "componentKey": "u7",
         "stepKey": "b1",
         "slotKey": "sl7",
@@ -215,7 +200,7 @@
         "componentKey": "u11",
         "stepKey": "b1",
         "slotKey": "sl11",
-        "quantityValue": 1,
+        "quantityValue": 0.25,
         "quantityUnit": "tsp"
       },
       {
