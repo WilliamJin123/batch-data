@@ -4,9 +4,10 @@
     "cookie",
     "protein",
     "browned-butter",
-    "ablation",
-    "protein-sweep"
+    "chocolate-chip"
   ],
+  "status": "approved",
+  "description": "The house chocolate-chip cookie of record - the browned-butter protein cookie loaded to 60 g protein across 3 cookies (the high-protein build we keep going forward; the 50 g build was retired). Browned butter + a little real brown sugar for chew, whey + pudding mix for a soft set; baked low at 330°F for ~12–15 min and pulled pale so the centers stay gooey, with an optional pan-slap halfway for a flatter, chewier crinkle. Rated excellent.",
   "yield": {
     "amount": 3,
     "unit": "cookies"
@@ -59,12 +60,24 @@
     },
     {
       "op": "replace",
+      "kind": "step",
+      "target": "s6",
+      "payload": {
+        "componentKey": "s6",
+        "order": 6,
+        "section": "Bake - Thick & Gooey",
+        "instructionText": "Bake at 330°F / 165°C for ~12–15 minutes. Pull when the edges are set but the center still looks slightly underdone/soft - they stay pale, so don't wait for golden tops. Optional, for flatter, chewier cookies with crinkly tops: around the halfway mark (~7 min) slide the tray out and rap it firmly on the counter once or twice to deflate and spread the mounds (and again right out of the oven); skip it to keep them thick and domed.",
+        "temperature": 330
+      }
+    },
+    {
+      "op": "replace",
       "kind": "note",
       "target": "n3",
       "payload": {
         "componentKey": "n3",
         "kind": "pitfall",
-        "text": "These stay pale — Splenda doesn't brown. Pull at 9–10 min when edges are just set and the center still looks underdone; waiting for any color means overbaked, dry centers.",
+        "text": "These stay pale — Splenda doesn't brown. Pull around the 12–15 min mark when the edges are just set and the center still looks underdone; waiting for any color means overbaked, dry centers.",
         "stepKey": "s6"
       }
     },
@@ -77,6 +90,16 @@
         "kind": "technique",
         "text": "The 10–15 min pan rest is where the centers finish cooking and proteins set. Moving them too soon means they fall apart; judging texture before fully cooled gives a false \"gummy\" read.",
         "stepKey": "s7"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "n6",
+        "kind": "technique",
+        "text": "The optional pan-slap is the bakery 'pan-bang' trick: dropping the hot tray collapses the risen center so the cookie spreads thin with crackly, rippled edges and a chewier bite. Do it halfway and again out of the oven for the most spread; skip it entirely to keep these tall and gooey.",
+        "stepKey": "s6"
       }
     }
   ]
