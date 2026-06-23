@@ -181,8 +181,8 @@
         "componentKey": "u-splenda",
         "stepKey": "s2",
         "slotKey": "sl-splenda",
-        "quantityValue": 3,
-        "quantityUnit": "g"
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
       },
       {
         "componentKey": "u-egg",

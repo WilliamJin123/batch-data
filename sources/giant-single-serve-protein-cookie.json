@@ -143,8 +143,8 @@
         "componentKey": "u-splenda",
         "stepKey": "s1",
         "slotKey": "sl-splenda",
-        "quantityValue": 3,
-        "quantityUnit": "g"
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
       },
       {
         "componentKey": "u-protein",

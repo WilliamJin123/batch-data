@@ -229,8 +229,8 @@
         "componentKey": "u-splenda",
         "stepKey": "f1",
         "slotKey": "sl-splenda",
-        "quantityValue": 2,
-        "quantityUnit": "g"
+        "quantityValue": 4,
+        "quantityUnit": "tsp"
       },
       {
         "componentKey": "u-yogurt",
