@@ -66,7 +66,7 @@
         "componentKey": "s6",
         "order": 6,
         "section": "Bake - Thick & Gooey",
-        "instructionText": "Bake at 330°F / 165°C for ~12–15 minutes. Pull when the edges are set but the center still looks slightly underdone/soft - they stay pale, so don't wait for golden tops. Optional, for flatter, chewier cookies with crinkly tops: around the halfway mark (~7 min) slide the tray out and rap it firmly on the counter once or twice to deflate and spread the mounds (and again right out of the oven); skip it to keep them thick and domed.",
+        "instructionText": "Bake at 330°F / 165°C - start checking at ~10 minutes to be safe (they may take up to ~15 depending on your oven). Pull when the edges are set but the center still looks slightly underdone/soft - they stay pale, so don't wait for golden tops. Optional, for flatter, chewier cookies with crinkly tops: partway through (around the 6–7 min mark) slide the tray out and rap it firmly on the counter once or twice to deflate and spread the mounds (and again right out of the oven); skip it to keep them thick and domed.",
         "temperature": 330
       }
     },
@@ -77,7 +77,7 @@
       "payload": {
         "componentKey": "n3",
         "kind": "pitfall",
-        "text": "These stay pale — Splenda doesn't brown. Pull around the 12–15 min mark when the edges are just set and the center still looks underdone; waiting for any color means overbaked, dry centers.",
+        "text": "These stay pale — Splenda doesn't brown. Start checking at ~10 min and pull once the edges are just set and the center still looks underdone; waiting for any color (or the full 15 min) risks overbaked, dry centers.",
         "stepKey": "s6"
       }
     },
