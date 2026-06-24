@@ -1,6 +1,6 @@
 {
   "name": "Protein Sugar Cookies (Caramel + Graham)",
-  "description": "Protein sugar cookie reworked into a salted-caramel + graham cookie, bakery-style: big graham cracker shards pressed onto the TOP before baking so they anchor, toast, and stay crisp (not crumbs folded into the dough, which go soft), then a sugar-free caramel drizzle finished with a pinch of flaky salt and one fresh graham shard set into the caramel. Salt is the contrast that keeps caramel+graham from reading one-note sweet. First draft to tune — caramel is the lean SF syrup (0 cal) by default; swap in the real brown-sugar caramel for a richer read at a small calorie cost. Computed batch macros ~513 kcal / 41P / 56C / 13F (128/cookie at 4; ratio 12.6).",
+  "description": "Protein sugar cookie reworked into a salted brown-sugar-caramel + graham cookie, bakery-style: big graham cracker shards pressed onto the TOP before baking so they anchor, toast, and stay crisp (not crumbs folded into the dough, which go soft), then a REAL brown-sugar caramel drizzle (the SF syrup didn't taste good enough) taken to the thin saucy stage, finished with flaky salt and a fresh graham shard set into the caramel. No pan-slap here - it would knock the shards loose. The caramel is the main calorie cost, drizzled at ~half a batch (about 1 tbsp over the 4 cookies); dial it to taste. Computed batch macros ~574 kcal / 41P / 66C / 16F (143/cookie at 4; ratio 14.1).",
   "tags": [
     "cookie",
     "protein",
@@ -31,10 +31,10 @@
       "kind": "slot",
       "payload": {
         "componentKey": "sl-caramel",
-        "name": "sugar-free caramel syrup",
+        "name": "real brown-sugar caramel",
         "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-syrup-caramel-sf"
+          "kind": "sub_recipe",
+          "subRecipeRef": "Brown-Sugar Caramel"
         }
       }
     },
@@ -45,7 +45,7 @@
         "componentKey": "d8",
         "order": 8,
         "section": "Finish",
-        "instructionText": "Once the cookies are set and cooled, drizzle with caramel, then add a small pinch of flaky salt over the drizzle — salted caramel, the contrast that keeps it from being one-note sweet. Press one reserved graham shard into the caramel on each for a fresh, just-placed look. Chill briefly to set the drizzle. (Caramel = SF syrup for 0 cal by default; see the note to swap in real brown-sugar caramel.)"
+        "instructionText": "Once the cookies are set and cooled, drizzle with the brown-sugar caramel - cook it only to the thin saucy/pourable stage so it threads off a spoon for drizzling - then add a small pinch of flaky salt over it (salted caramel, the contrast that keeps it from reading one-note sweet) and press one reserved graham shard into the caramel on each for a fresh, just-placed look. Chill briefly to set the drizzle."
       }
     },
     {
@@ -66,8 +66,8 @@
         "componentKey": "u-caramel",
         "stepKey": "d8",
         "slotKey": "sl-caramel",
-        "quantityValue": 1,
-        "quantityUnit": "tbsp"
+        "quantityValue": 0.5,
+        "quantityUnit": "batch"
       }
     },
     {
@@ -88,7 +88,7 @@
         "componentKey": "ng",
         "kind": "technique",
         "stepKey": "d4",
-        "text": "Break the graham into big shards (rough rectangles/quarters), not crumbs, and press them onto the top of the cookies BEFORE baking so they anchor, toast lightly, and stay crisp — folding crumbs into the dough buries them and they go soft. Reserve a couple of shards to set into the caramel after baking for a fresh, bakery look. SF caramel syrup is the lean 0-cal drizzle; the real brown-sugar caramel sub-recipe reads richer but costs calories."
+        "text": "Break the graham into big shards (rough rectangles/quarters), not crumbs, and press them onto the top of the cookies BEFORE baking so they anchor, toast lightly, and stay crisp - folding crumbs into the dough buries them and they go soft. Reserve a couple of shards to set into the caramel after baking for a fresh, bakery look. The caramel is the real brown-sugar caramel sub-recipe (taken to the thin saucy stage) - genuine caramelized flavor that the SF syrup can't match; it's the main calorie cost in this cookie, so drizzle to taste."
       }
     },
     {
@@ -113,6 +113,19 @@
         "section": "Bake",
         "temperature": 330,
         "instructionText": "Preheat oven/air fryer to 330°F. Divide the chilled dough into 4 equal balls on parchment and press firmly with your palm or a glass to your target thickness — this dough sets in the shape you give it, it won't spread, so keep them on the thicker side for a chewy center rather than thin and dry. Then break the graham crackers into big rough shards (rectangles/quarters, not crumbs) and press 1-2 onto the top of each cookie, pushing them in slightly so they anchor and bake in — surface graham toasts lightly and stays crisp instead of going soft in the dough. Reserve a couple of shards for the finish."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "d5",
+      "payload": {
+        "componentKey": "d5",
+        "order": 5,
+        "section": "Bake",
+        "temperature": 330,
+        "timerSeconds": 600,
+        "instructionText": "Bake at 330°F. These are smaller and far leaner than the browned-butter cookies, so start checking at ~8-10 minutes to be safe - pull the moment the edges are set and the centers still look slightly underdone. They stay pale (Splenda won't brown), so never wait for golden tops: thicker-pressed cookies trend toward the 10-min end, thin ones can be done by 7-8. (No pan-slap on this cookie - the graham shards are planted on top and a bang would knock them loose.)"
       }
     }
   ]
