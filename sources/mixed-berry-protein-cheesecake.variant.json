@@ -1,0 +1,172 @@
+{
+  "name": "Mixed Berry Protein Cheesecake",
+  "tags": [
+    "cheesecake",
+    "protein",
+    "berry",
+    "blueberry",
+    "water-bath",
+    "experiment"
+  ],
+  "status": "draft",
+  "description": "FIRST DRAFT (to tune): mixed-berry flavor of the vanilla protein cheesecake base - a sugar-free mixed-berry swirl (punched up with imitation blueberry extract) marbled through the batter and a berry scatter on top. ALSO the test bed for a water-bath bake at 300F to get a smoother, less-cracked top; if it works we convert the other cheesecakes. Berries/extract are near-zero fat, so macros should stay close to the base - we'll confirm and tune when we talk it through.",
+  "yield": {
+    "amount": 8,
+    "unit": "slices"
+  },
+  "deriveFromRecipe": "Vanilla Protein Cheesecake",
+  "overrides": [
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-berries",
+        "name": "frozen mixed berries",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-mixed-berries"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-berry-extract",
+        "name": "imitation blueberry extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-extract-blueberry-imitation"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-cornstarch",
+        "name": "cornstarch",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cornstarch"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "step",
+      "payload": {
+        "componentKey": "sb1",
+        "order": 4.5,
+        "section": "Berry swirl",
+        "instructionText": "Make the swirl: simmer the mixed berries with the Splenda and cornstarch over medium heat, mashing, until jammy and thick (4-6 min). Off heat, stir in the imitation blueberry extract. Cool fully before swirling - hot jam melts streaks into the batter."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-berries-swirl",
+        "stepKey": "sb1",
+        "slotKey": "sl-berries",
+        "quantityValue": 0.5,
+        "quantityUnit": "cup"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-cornstarch",
+        "stepKey": "sb1",
+        "slotKey": "sl-cornstarch",
+        "quantityValue": 1,
+        "quantityUnit": "tsp"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-splenda-swirl",
+        "stepKey": "sb1",
+        "slotKey": "sl-sweetener",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-extract",
+        "stepKey": "sb1",
+        "slotKey": "sl-berry-extract",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s5",
+      "payload": {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Pour about two-thirds of the batter into the parchment-lined 9-inch pan. Spoon dollops of the cooled berry swirl over it, add the rest of the batter, dollop a little more swirl on top, and drag a knife through in S-curves to marble - 3-4 passes only (over-swirling greys the batter). Tap on the counter to level and pop bubbles."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s6",
+      "payload": {
+        "componentKey": "s6",
+        "order": 6,
+        "instructionText": "Bake in a WATER BATH at 300F (TEST): wrap the pan bottom in foil, set it inside a larger roasting pan, and pour boiling water halfway up the sides. Bake ~55-70 min until the edges are set and the center still jiggles slightly. The gentle, humid, low heat is the classic anti-crack method - if this finishes smoother and less cracked than our dry 325F bake, we roll the water bath out to the other cheesecakes.",
+        "temperature": 300
+      }
+    },
+    {
+      "op": "add",
+      "kind": "step",
+      "payload": {
+        "componentKey": "s8",
+        "order": 8,
+        "section": "Finish",
+        "instructionText": "Once fully chilled, top with a scatter of fresh or thawed mixed berries just before serving."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-berries-top",
+        "stepKey": "s8",
+        "slotKey": "sl-berries",
+        "quantityValue": 0.33,
+        "quantityUnit": "cup"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "nwb",
+        "kind": "technique",
+        "stepKey": "s6",
+        "text": "Foil-wrap the pan bottom so the bath can't seep in. Water bath + 300F = slow, even set with no surface overcook, which is what prevents the dome-and-crack. This is the recipe we're using to decide whether to convert all the cheesecakes."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "nberry",
+        "kind": "pitfall",
+        "stepKey": "sb1",
+        "text": "The imitation blueberry extract is potent - 0.5 tsp is plenty; too much reads artificial. The cornstarch keeps the swirl from weeping into the custard. Toss the topping berries in a pinch of cornstarch if they're wet."
+      }
+    }
+  ]
+}
