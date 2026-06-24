@@ -1,5 +1,6 @@
 {
   "name": "Protein Sugar Cookies (Caramel + Graham)",
+  "description": "FIRST DRAFT (to tune): protein sugar cookie reworked into a caramel + graham cookie - graham cracker crumbs folded into the dough for a golden-graham base, finished with a sugar-free caramel drizzle (0 cal) and a graham sprinkle. Doing BOTH caramel and graham for now; we can drop to just one, or go richer with real caramel, when we tune.",
   "tags": [
     "cookie",
     "protein",
@@ -7,8 +8,6 @@
     "caramel",
     "graham"
   ],
-  "status": "draft",
-  "description": "FIRST DRAFT (to tune): protein sugar cookie reworked into a caramel + graham cookie - graham cracker crumbs folded into the dough for a golden-graham base, finished with a sugar-free caramel drizzle (0 cal) and a graham sprinkle. Doing BOTH caramel and graham for now; we can drop to just one, or go richer with real caramel, when we tune.",
   "yield": {
     "amount": 4,
     "unit": "cookies"
@@ -20,22 +19,11 @@
       "kind": "slot",
       "payload": {
         "componentKey": "sl-graham",
-        "name": "honey graham cracker crumbs",
+        "name": "honey graham crackers (broken into chunks)",
         "resolution": {
           "kind": "raw",
           "libraryIngredientId": "ing-graham-crumbs"
         }
-      }
-    },
-    {
-      "op": "add",
-      "kind": "usage",
-      "payload": {
-        "componentKey": "u-graham",
-        "stepKey": "d1",
-        "slotKey": "sl-graham",
-        "quantityValue": 1.5,
-        "quantityUnit": "sheet"
       }
     },
     {
@@ -57,7 +45,18 @@
         "componentKey": "d8",
         "order": 8,
         "section": "Finish",
-        "instructionText": "Once the cookies are set and cooled, drizzle with the sugar-free caramel (0 cal, so be generous) and a light sprinkle of graham crumbs. Chill briefly to set the drizzle."
+        "instructionText": "Once the cookies are set and cooled, drizzle with caramel and scatter a few extra graham cracker chunks on top. Chill briefly to set the drizzle. (Caramel = sugar-free syrup for 0 cal by default; see the note to swap in real brown-sugar caramel.)"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-graham",
+        "stepKey": "d3",
+        "slotKey": "sl-graham",
+        "quantityValue": 1.5,
+        "quantityUnit": "sheet"
       }
     },
     {
@@ -77,33 +76,8 @@
       "payload": {
         "componentKey": "ng",
         "kind": "technique",
-        "stepKey": "d1",
-        "text": "Graham crumbs in the dough give a golden-graham, s'mores-ish base; they also soak liquid, so if the dough turns dry add a tsp of milk or yogurt. SF caramel syrup is the lean drizzle (0 cal) - swap to the real brown-sugar caramel sub-recipe if you want it richer (costs calories)."
-      }
-    },
-    {
-      "op": "replace",
-      "kind": "slot",
-      "target": "sl-graham",
-      "payload": {
-        "componentKey": "sl-graham",
-        "name": "honey graham crackers (broken into chunks)",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-graham-crumbs"
-        }
-      }
-    },
-    {
-      "op": "replace",
-      "kind": "usage",
-      "target": "u-graham",
-      "payload": {
-        "componentKey": "u-graham",
         "stepKey": "d3",
-        "slotKey": "sl-graham",
-        "quantityValue": 1.5,
-        "quantityUnit": "sheet"
+        "text": "Break the graham crackers into rough ~1cm chunks and fold them in last for crunchy pockets (whisking them into the dry mix would pulverize them to crumbs). SF caramel syrup is the lean 0-cal drizzle; the real brown-sugar caramel sub-recipe is richer but costs calories."
       }
     },
     {
@@ -114,29 +88,8 @@
         "componentKey": "d3",
         "order": 3,
         "section": "Dough",
-        "instructionText": "Stir to combine, then stop and let the bowl sit untouched 5 minutes so the whey and pudding starches swell into a shapeable dough. If still tacky, chill 5 more minutes. Fold in the graham cracker chunks at the very end so they stay in chunky pieces rather than dissolving into the dough."
-      }
-    },
-    {
-      "op": "replace",
-      "kind": "step",
-      "target": "d8",
-      "payload": {
-        "componentKey": "d8",
-        "order": 8,
-        "section": "Finish",
-        "instructionText": "Once the cookies are set and cooled, drizzle with caramel and scatter a few extra graham cracker chunks on top. Chill briefly to set the drizzle. (Caramel = sugar-free syrup for 0 cal by default; see the note to swap in real brown-sugar caramel.)"
-      }
-    },
-    {
-      "op": "replace",
-      "kind": "note",
-      "target": "ng",
-      "payload": {
-        "componentKey": "ng",
-        "kind": "technique",
-        "stepKey": "d3",
-        "text": "Break the graham crackers into rough ~1cm chunks and fold them in last for crunchy pockets (whisking them into the dry mix would pulverize them to crumbs). SF caramel syrup is the lean 0-cal drizzle; the real brown-sugar caramel sub-recipe is richer but costs calories."
+        "timerSeconds": 300,
+        "instructionText": "Stir to combine, then let the bowl sit untouched 5 minutes so the whey and pudding starches swell into a shapeable dough (if still tacky, chill 5 more). Fold in the graham cracker chunks at the very end so they stay in chunky pieces rather than dissolving into the dough. Then cover and chill the dough ~30 minutes — same as the browned-butter cookies — to firm it for cleaner shaping and a thicker, chewier bake."
       }
     }
   ]

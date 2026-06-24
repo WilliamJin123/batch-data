@@ -1,6 +1,6 @@
 {
   "name": "High-Protein Sugar Cookies",
-  "description": "Low-flour protein sugar cookie tuned to kill the rubbery 'pancake' texture: a scoop of whey replaces most flour and SF instant pudding binds moisture for a dense bakery chew. Sweetener is granulated Splenda; pudding modeled as the Simply Delish SF vanilla already in the library; butter is regular unsalted, already halved to 7 g. Leavening is baking powder only (no soda / cream of tartar). Final step is a fridge rest. Source: user. Stated batch macros ~428 kcal / 44P / 41C / 11F (107/cookie at 4).",
+  "description": "Low-flour protein sugar cookie tuned to kill the rubbery 'pancake' texture: a scoop of whey replaces most flour and SF instant pudding binds moisture for a dense bakery chew. Sweetener is granulated Splenda, trimmed to 0.5 cup (down from 0.75 — pure maltodextrin carbs with no protein, so the cut is free calories); pudding modeled as the Simply Delish SF vanilla in the library; butter is regular unsalted, halved to 7 g. Leavening is baking powder only. Now on the house cookie protocol: 30-min fridge chill, press thick, bake at 330F and start checking ~8-10 min, pull pale and slightly underdone (Splenda won't brown), finish on the hot pan, then a fridge set. Optional pan-slap for crinkle (lower impact here than the butter cookies). Source: user. Computed batch macros ~442 kcal / 38P / 44C / 11F (110/cookie at 4; ratio 11.6).",
   "tags": [
     "cookie",
     "protein",
@@ -30,22 +30,22 @@
         "order": 3,
         "section": "Dough",
         "timerSeconds": 300,
-        "instructionText": "Stir to combine, then stop and let the bowl sit untouched 5 minutes so the whey and pudding starches swell into a shapeable dough. If still tacky, chill 5 more minutes."
+        "instructionText": "Stir to combine, then stop and let the bowl sit untouched 5 minutes so the whey and pudding starches swell into a shapeable dough (if still tacky, chill 5 more minutes). Then cover and chill the dough ~30 minutes in the fridge — same as the browned-butter cookies: a proper chill firms it for cleaner shaping and a thicker, chewier bake."
       },
       {
         "componentKey": "d4",
         "order": 4,
         "section": "Bake",
-        "temperature": 325,
-        "instructionText": "Preheat oven/air fryer to 325F. Divide into 4 equal balls on parchment and press down firmly with your palm or a glass — this dough sets in the shape you give it, it won't spread."
+        "temperature": 330,
+        "instructionText": "Preheat oven/air fryer to 330°F. Divide the chilled dough into 4 equal balls on parchment and press firmly with your palm or a glass to your target thickness — this dough sets in the shape you give it, it won't spread, so keep them on the thicker side for a chewy center rather than thin and dry."
       },
       {
         "componentKey": "d5",
         "order": 5,
         "section": "Bake",
-        "temperature": 325,
-        "timerSeconds": 390,
-        "instructionText": "Bake at 325F for 6-7 minutes. Pull the moment the edges look dry and set, even if the centers still look slightly soft — whey dries out fast."
+        "temperature": 330,
+        "timerSeconds": 600,
+        "instructionText": "Bake at 330°F. These are smaller and far leaner than the browned-butter cookies, so start checking at ~8–10 minutes to be safe — pull the moment the edges are set and the centers still look slightly underdone. They stay pale (Splenda won't brown), so never wait for golden tops: thicker-pressed cookies trend toward the 10-min end, thin ones can be done by 7–8. Optional, for crinkly tops and house-consistency with the other cookies: around the halfway mark rap the tray firmly on the counter once or twice (and again out of the oven) — note this does far less here than on the butter cookies, since there's only ~7 g butter and little risen mound to deflate, so it's truly optional."
       },
       {
         "componentKey": "d6",
@@ -170,7 +170,7 @@
         "componentKey": "u-splenda",
         "stepKey": "d1",
         "slotKey": "sl-splenda",
-        "quantityValue": 0.75,
+        "quantityValue": 0.5,
         "quantityUnit": "cup"
       },
       {
@@ -220,8 +220,8 @@
       {
         "componentKey": "n1",
         "kind": "pitfall",
-        "text": "6–7 minutes at 325F is aggressive — whey dries out faster than AP flour. Pull the moment the edges look dry and set; a soft center is correct at this point, not a sign they need more time.",
-        "stepKey": "d5"
+        "stepKey": "d5",
+        "text": "Whey dries out faster than AP flour, so this is a watch-it bake: start checking early (~8 min) and pull the moment the edges look dry and set — a soft, slightly-underdone center is correct and finishes on the hot pan. They stay pale because Splenda doesn't brown, so judging by color will overbake them dry."
       },
       {
         "componentKey": "n2",
@@ -246,6 +246,12 @@
         "kind": "note",
         "text": "Pre-whisk the dry mix thoroughly to break up protein powder clumps before adding any wet ingredients — undissolved lumps don't hydrate evenly and leave gritty pockets in the finished cookie.",
         "stepKey": "d1"
+      },
+      {
+        "componentKey": "n6",
+        "kind": "technique",
+        "stepKey": "d3",
+        "text": "The 30-min fridge chill is the same firm-up the browned-butter cookies get: it hydrates the dough fully and lets you press a thicker cookie that bakes up chewy instead of thin and dry. Skip it and the warm, tacky dough presses thin and bakes through before the center can stay soft."
       }
     ]
   }
