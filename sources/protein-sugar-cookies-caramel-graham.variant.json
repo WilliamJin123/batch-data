@@ -1,6 +1,6 @@
 {
   "name": "Protein Sugar Cookies (Caramel + Graham)",
-  "description": "FIRST DRAFT (to tune): protein sugar cookie reworked into a caramel + graham cookie - graham cracker crumbs folded into the dough for a golden-graham base, finished with a sugar-free caramel drizzle (0 cal) and a graham sprinkle. Doing BOTH caramel and graham for now; we can drop to just one, or go richer with real caramel, when we tune.",
+  "description": "Protein sugar cookie reworked into a salted-caramel + graham cookie, bakery-style: big graham cracker shards pressed onto the TOP before baking so they anchor, toast, and stay crisp (not crumbs folded into the dough, which go soft), then a sugar-free caramel drizzle finished with a pinch of flaky salt and one fresh graham shard set into the caramel. Salt is the contrast that keeps caramel+graham from reading one-note sweet. First draft to tune — caramel is the lean SF syrup (0 cal) by default; swap in the real brown-sugar caramel for a richer read at a small calorie cost. Computed batch macros ~513 kcal / 41P / 56C / 13F (128/cookie at 4; ratio 12.6).",
   "tags": [
     "cookie",
     "protein",
@@ -19,7 +19,7 @@
       "kind": "slot",
       "payload": {
         "componentKey": "sl-graham",
-        "name": "honey graham crackers (broken into chunks)",
+        "name": "honey graham crackers (broken into big shards)",
         "resolution": {
           "kind": "raw",
           "libraryIngredientId": "ing-graham-crumbs"
@@ -45,7 +45,7 @@
         "componentKey": "d8",
         "order": 8,
         "section": "Finish",
-        "instructionText": "Once the cookies are set and cooled, drizzle with caramel and scatter a few extra graham cracker chunks on top. Chill briefly to set the drizzle. (Caramel = sugar-free syrup for 0 cal by default; see the note to swap in real brown-sugar caramel.)"
+        "instructionText": "Once the cookies are set and cooled, drizzle with caramel, then add a small pinch of flaky salt over the drizzle — salted caramel, the contrast that keeps it from being one-note sweet. Press one reserved graham shard into the caramel on each for a fresh, just-placed look. Chill briefly to set the drizzle. (Caramel = SF syrup for 0 cal by default; see the note to swap in real brown-sugar caramel.)"
       }
     },
     {
@@ -53,7 +53,7 @@
       "kind": "usage",
       "payload": {
         "componentKey": "u-graham",
-        "stepKey": "d3",
+        "stepKey": "d4",
         "slotKey": "sl-graham",
         "quantityValue": 1.5,
         "quantityUnit": "sheet"
@@ -72,12 +72,23 @@
     },
     {
       "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-salt-finish",
+        "stepKey": "d8",
+        "slotKey": "sl-salt",
+        "quantityValue": 0.3,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "add",
       "kind": "note",
       "payload": {
         "componentKey": "ng",
         "kind": "technique",
-        "stepKey": "d3",
-        "text": "Break the graham crackers into rough ~1cm chunks and fold them in last for crunchy pockets (whisking them into the dry mix would pulverize them to crumbs). SF caramel syrup is the lean 0-cal drizzle; the real brown-sugar caramel sub-recipe is richer but costs calories."
+        "stepKey": "d4",
+        "text": "Break the graham into big shards (rough rectangles/quarters), not crumbs, and press them onto the top of the cookies BEFORE baking so they anchor, toast lightly, and stay crisp — folding crumbs into the dough buries them and they go soft. Reserve a couple of shards to set into the caramel after baking for a fresh, bakery look. SF caramel syrup is the lean 0-cal drizzle; the real brown-sugar caramel sub-recipe reads richer but costs calories."
       }
     },
     {
@@ -89,7 +100,19 @@
         "order": 3,
         "section": "Dough",
         "timerSeconds": 300,
-        "instructionText": "Stir to combine, then let the bowl sit untouched 5 minutes so the whey and pudding starches swell into a shapeable dough (if still tacky, chill 5 more). Fold in the graham cracker chunks at the very end so they stay in chunky pieces rather than dissolving into the dough. Then cover and chill the dough ~30 minutes — same as the browned-butter cookies — to firm it for cleaner shaping and a thicker, chewier bake."
+        "instructionText": "Stir to combine, then stop and let the bowl sit untouched 5 minutes so the whey and pudding starches swell into a shapeable dough (if still tacky, chill 5 more minutes). Then cover and chill the dough ~30 minutes — same as the browned-butter cookies: a proper chill firms it for cleaner shaping and a thicker, chewier bake."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "d4",
+      "payload": {
+        "componentKey": "d4",
+        "order": 4,
+        "section": "Bake",
+        "temperature": 330,
+        "instructionText": "Preheat oven/air fryer to 330°F. Divide the chilled dough into 4 equal balls on parchment and press firmly with your palm or a glass to your target thickness — this dough sets in the shape you give it, it won't spread, so keep them on the thicker side for a chewy center rather than thin and dry. Then break the graham crackers into big rough shards (rectangles/quarters, not crumbs) and press 1-2 onto the top of each cookie, pushing them in slightly so they anchor and bake in — surface graham toasts lightly and stays crisp instead of going soft in the dough. Reserve a couple of shards for the finish."
       }
     }
   ]
