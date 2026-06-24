@@ -1,6 +1,6 @@
 {
   "name": "High-Protein Sugar Cookies",
-  "description": "Low-flour protein sugar cookie tuned to kill the rubbery 'pancake' texture: one 33 g scoop of whey carries the structure with just 24 g AP flour, and SF instant pudding binds moisture for a dense bakery chew. Sweetener is granulated Splenda, trimmed to 0.5 cup (pure maltodextrin carbs, no protein — the cut is free calories); pudding is the Simply Delish SF vanilla; butter is regular unsalted, halved to 7 g. Leavening is baking powder only. On the house cookie protocol: 30-min fridge chill, press thick, bake at 330F and start checking ~8-10 min, pull pale and slightly underdone (Splenda won't brown), finish on the hot pan, then a fridge set. Optional pan-slap for crinkle (lower impact here than the butter cookies). Source: user. Computed batch macros ~428 kcal / 39P / 40C / 11F (107/cookie at 4; ratio 10.9).",
+  "description": "Low-flour protein sugar cookie tuned to kill the rubbery 'pancake' texture: one 33 g scoop of whey carries the structure with just 24 g AP flour, and SF instant pudding binds moisture for a dense bakery chew. Sweetener is granulated Splenda, trimmed to 0.5 cup (pure maltodextrin carbs, no protein - the cut is free calories); pudding is the Simply Delish SF vanilla; butter is regular unsalted, halved to 7 g. Leavening is just 3/4 tsp baking powder (the originally ingested 9 g was a transcription over-dose - 2+ tsp in 4 cookies would taste soapy and over-rise then sink). On the house cookie protocol: 30-min fridge chill, press thick, bake at 330F and start checking ~8-10 min, pull pale and slightly underdone (Splenda won't brown), finish on the hot pan, then a fridge set. Optional pan-slap for crinkle (lower impact here than the butter cookies). Source: user. Computed batch macros ~425 kcal / 39P / 38C / 11F (106/cookie at 4; ratio 10.8).",
   "tags": [
     "cookie",
     "protein",
@@ -177,8 +177,8 @@
         "componentKey": "u-baking-powder",
         "stepKey": "d1",
         "slotKey": "sl-baking-powder",
-        "quantityValue": 9,
-        "quantityUnit": "g"
+        "quantityValue": 0.75,
+        "quantityUnit": "tsp"
       },
       {
         "componentKey": "u-salt",
