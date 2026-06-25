@@ -89,10 +89,11 @@
     "date": "2026-06-19T00:56:32.931Z"
   },
   {
-    "recipe": "Browned-Butter Protein Cookies (50g protein)",
-    "kind": "to-make",
-    "notes": "protein ablation — not baked yet",
-    "date": "2026-06-19T00:56:33.451Z"
+    "recipe": "Browned-Butter Protein Cookies (60g protein)",
+    "kind": "made",
+    "rating": "excellent",
+    "notes": "The go-to chocolate-chip cookie - 330F, start checking ~10 min, optional pan-slap. Excellent.",
+    "date": "2026-06-23T20:54:44.434Z"
   },
   {
     "recipe": "Browned-Butter Protein Cookies (60g protein)",
@@ -536,5 +537,36 @@
     "kind": "to-make",
     "notes": "Biscoff crustless cheesecake: brown butter + bloomed speculoos spice instead of cookie-butter emulsion; FF cream cheese swap to stay lean. Bake & taste.",
     "date": "2026-06-22T14:59:29.718Z"
+  },
+  {
+    "recipe": "Browned-Butter Protein Cookies (Toffee + Chocolate Chip)",
+    "kind": "to-make",
+    "notes": "First draft - Toffee + Choc Chip Cookie. To tune (macros + taste) together.",
+    "date": "2026-06-24T06:13:49.597Z"
+  },
+  {
+    "recipe": "Protein Sugar Cookies (Caramel + Graham)",
+    "kind": "made",
+    "rating": "excellent",
+    "notes": "Baked it - great. 40g yogurt, no-butter skim-milk caramel, graham shards on top.",
+    "date": "2026-06-25T00:07:59.069Z"
+  },
+  {
+    "recipe": "Protein Sugar Cookies (Caramel + Graham)",
+    "kind": "to-make",
+    "notes": "First draft - Caramel + Graham Sugar Cookie. To tune (macros + taste) together.",
+    "date": "2026-06-24T06:13:50.115Z"
+  },
+  {
+    "recipe": "Mixed Berry Protein Cheesecake",
+    "kind": "to-make",
+    "notes": "First draft - Mixed Berry Cheesecake. To tune (macros + taste) together.",
+    "date": "2026-06-24T06:13:50.635Z"
+  },
+  {
+    "recipe": "Peanut Butter Cheesecake Swirl Brownies",
+    "kind": "to-make",
+    "notes": "Faithful import queued to make. Reconcile vs Salted Caramel Cheesecake Brownie Bars + lean (honey, swirl protein) another day.",
+    "date": "2026-06-24T15:50:36.963Z"
   }
 ]

@@ -203,7 +203,7 @@
     },
     "densityGPerMl": 1.03,
     "unitEquivalences": {
-      "each": 30
+      "each": 33
     }
   },
   {
@@ -217,8 +217,8 @@
       "fiber": 0
     },
     "unitEquivalences": {
-      "each": 44,
-      "serving": 44
+      "each": 50,
+      "serving": 50
     }
   },
   {
@@ -1302,6 +1302,52 @@
     },
     "unitEquivalences": {
       "tbsp": 6
+    }
+  },
+  {
+    "id": "ing-toffee-bits",
+    "name": "toffee bits",
+    "macrosPer100g": {
+      "calories": 535,
+      "protein": 2,
+      "carbs": 64,
+      "fat": 30,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "tbsp": 11,
+      "cup": 176
+    }
+  },
+  {
+    "id": "ing-mixed-berries",
+    "name": "frozen mixed berries",
+    "macrosPer100g": {
+      "calories": 50,
+      "protein": 0.9,
+      "carbs": 12,
+      "fat": 0.3,
+      "fiber": 3
+    },
+    "unitEquivalences": {
+      "cup": 140,
+      "tbsp": 9
+    }
+  },
+  {
+    "id": "ing-extract-blueberry-imitation",
+    "name": "imitation blueberry extract",
+    "macrosPer100g": {
+      "calories": 250,
+      "protein": 0,
+      "carbs": 8,
+      "fat": 0,
+      "fiber": 0
+    },
+    "densityGPerMl": 0.9,
+    "unitEquivalences": {
+      "tsp": 4.5,
+      "tbsp": 13.5
     }
   }
 ]

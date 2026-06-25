@@ -1,6 +1,6 @@
 {
   "name": "High-Protein Sugar Cookies",
-  "description": "Low-flour protein sugar cookie tuned to kill the rubbery 'pancake' texture: one 33 g scoop of whey carries the structure with just 24 g AP flour, and SF instant pudding binds moisture for a dense bakery chew. Sweetener is granulated Splenda, trimmed to 0.5 cup (pure maltodextrin carbs, no protein - the cut is free calories); pudding is the Simply Delish SF vanilla; butter is regular unsalted, halved to 7 g. Leavening is just 3/4 tsp baking powder (the originally ingested 9 g was a transcription over-dose - 2+ tsp in 4 cookies would taste soapy and over-rise then sink). On the house cookie protocol: 30-min fridge chill, press thick, bake at 330F and start checking ~8-10 min, pull pale and slightly underdone (Splenda won't brown), finish on the hot pan, then a fridge set. Optional pan-slap for crinkle (lower impact here than the butter cookies). Source: user. Computed batch macros ~425 kcal / 39P / 38C / 11F (106/cookie at 4; ratio 10.8).",
+  "description": "Low-flour protein sugar cookie tuned to kill the rubbery 'pancake' texture: one 33 g scoop of whey carries the structure with just 24 g AP flour, SF instant pudding binds moisture, and Greek yogurt (bumped to 40 g) adds moisture + tenderness against the whey dryness. Sweetener is granulated Splenda at 0.5 cup (pure maltodextrin carbs, no protein); pudding is the Simply Delish SF vanilla; butter is regular unsalted, 7 g; eggs modeled at the 50 g large standard. Leavening is just 3/4 tsp baking powder (the originally ingested 9 g was a transcription over-dose). House cookie protocol: 30-min fridge chill, press thick, bake at 330F starting checks ~8-10 min, pull pale and slightly underdone (Splenda won't brown), finish on the hot pan, then a fridge set. Source: user. Computed batch macros ~440 kcal / 41P / 39C / 12F (110/cookie at 4; ratio 10.7).",
   "tags": [
     "cookie",
     "protein",
@@ -205,7 +205,7 @@
         "componentKey": "u-yogurt",
         "stepKey": "d2",
         "slotKey": "sl-yogurt",
-        "quantityValue": 30,
+        "quantityValue": 40,
         "quantityUnit": "g"
       },
       {

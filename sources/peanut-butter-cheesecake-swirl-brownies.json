@@ -1,43 +1,239 @@
 {
   "name": "Peanut Butter Cheesecake Swirl Brownies",
-  "yield": { "amount": 8, "unit": "squares" },
-  "tags": ["brownie","cheesecake","peanut-butter","protein","hybrid","banana-based"],
   "description": "Instagram import (reel DZ5M8gatrJw): a fudgy banana-based protein brownie layer under a blended cottage-cheese cheesecake layer with peanut-butter pockets swirled in. A brownie+cheesecake HYBRID like our Salted Caramel Cheesecake Brownie Bars, but the brownie is banana/cocoa/protein (no butter, no flour) instead of butter-fudge. Modeled faithfully as written (medium egg = 44 g per house rule); honey kept as written - house-lean swaps (honey->Splenda, peanut butter->PB powder) noted for tuning.",
+  "tags": [
+    "brownie",
+    "cheesecake",
+    "peanut-butter",
+    "protein",
+    "hybrid",
+    "banana-based"
+  ],
+  "yield": {
+    "amount": 8,
+    "unit": "squares"
+  },
   "content": {
     "slots": [
-      { "componentKey": "sl-banana", "name": "ripe banana", "resolution": { "kind": "raw", "libraryIngredientId": "ing-banana" } },
-      { "componentKey": "sl-egg-b", "name": "whole egg (brownie)", "resolution": { "kind": "raw", "libraryIngredientId": "ing-egg-whole" } },
-      { "componentKey": "sl-pb-b", "name": "peanut butter (brownie)", "resolution": { "kind": "raw", "libraryIngredientId": "ing-peanut-butter" } },
-      { "componentKey": "sl-protein", "name": "chocolate protein powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-protein-chocolate" } },
-      { "componentKey": "sl-cocoa", "name": "unsweetened cocoa powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-cocoa-powder" } },
-      { "componentKey": "sl-salt", "name": "salt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-salt" } },
-      { "componentKey": "sl-bp", "name": "baking powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-baking-powder" } },
-      { "componentKey": "sl-cottage", "name": "cottage cheese", "resolution": { "kind": "raw", "libraryIngredientId": "ing-cottage-cheese" } },
-      { "componentKey": "sl-egg-c", "name": "whole egg (cheesecake)", "resolution": { "kind": "raw", "libraryIngredientId": "ing-egg-whole" } },
-      { "componentKey": "sl-honey", "name": "honey", "resolution": { "kind": "raw", "libraryIngredientId": "ing-honey" } },
-      { "componentKey": "sl-vanilla", "name": "vanilla extract", "resolution": { "kind": "raw", "libraryIngredientId": "ing-vanilla-extract" } },
-      { "componentKey": "sl-pb-c", "name": "peanut butter (swirl)", "resolution": { "kind": "raw", "libraryIngredientId": "ing-peanut-butter" } }
+      {
+        "componentKey": "sl-banana",
+        "name": "ripe banana",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-banana"
+        }
+      },
+      {
+        "componentKey": "sl-egg-b",
+        "name": "whole egg (brownie)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl-pb-b",
+        "name": "peanut butter (brownie)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-peanut-butter"
+        }
+      },
+      {
+        "componentKey": "sl-protein",
+        "name": "chocolate protein powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-protein-chocolate"
+        }
+      },
+      {
+        "componentKey": "sl-cocoa",
+        "name": "unsweetened cocoa powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cocoa-powder"
+        }
+      },
+      {
+        "componentKey": "sl-salt",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-bp",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl-cottage",
+        "name": "cottage cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cottage-cheese"
+        }
+      },
+      {
+        "componentKey": "sl-egg-c",
+        "name": "whole egg (cheesecake)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl-honey",
+        "name": "honey",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-honey"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-pb-c",
+        "name": "peanut butter (swirl)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-peanut-butter"
+        }
+      }
     ],
     "steps": [
-      { "componentKey": "b1", "order": 1, "section": "Brownie layer", "instructionText": "Mix the brownie batter: mash the banana, then stir in the egg, 1 tbsp peanut butter, chocolate protein, cocoa, salt, and baking powder until smooth. Spread into a parchment-lined pan.", "temperature": null },
-      { "componentKey": "c1", "order": 2, "section": "Cheesecake swirl", "instructionText": "Blend the cottage cheese, egg, honey, and vanilla until completely smooth, then pour over the brownie batter.", "temperature": null },
-      { "componentKey": "c2", "order": 3, "section": "Cheesecake swirl", "instructionText": "Dollop the spoonful of peanut butter over the cheesecake layer and gently swirl it in with a knife.", "temperature": null },
-      { "componentKey": "bk", "order": 4, "section": "Bake", "instructionText": "Bake at 180C / 355F for 18-22 minutes, until the edges are set and the center is just barely set.", "temperature": 355 },
-      { "componentKey": "cl", "order": 5, "section": "Bake", "instructionText": "Cool fully before slicing into 8 squares.", "temperature": null }
+      {
+        "componentKey": "b1",
+        "order": 1,
+        "section": "Brownie layer",
+        "instructionText": "Mix the brownie batter: mash the banana, then stir in the egg, 1 tbsp peanut butter, chocolate protein, cocoa, salt, and baking powder until smooth. Spread into a parchment-lined pan.",
+        "temperature": null
+      },
+      {
+        "componentKey": "c1",
+        "order": 2,
+        "section": "Cheesecake swirl",
+        "instructionText": "Blend the cottage cheese, egg, honey, and vanilla until completely smooth, then pour over the brownie batter.",
+        "temperature": null
+      },
+      {
+        "componentKey": "c2",
+        "order": 3,
+        "section": "Cheesecake swirl",
+        "instructionText": "Dollop the spoonful of peanut butter over the cheesecake layer and gently swirl it in with a knife.",
+        "temperature": null
+      },
+      {
+        "componentKey": "bk",
+        "order": 4,
+        "section": "Bake",
+        "instructionText": "Bake at 180C / 355F for 18-22 minutes, until the edges are set and the center is just barely set.",
+        "temperature": 355
+      },
+      {
+        "componentKey": "cl",
+        "order": 5,
+        "section": "Bake",
+        "instructionText": "Cool fully before slicing into 8 squares.",
+        "temperature": null
+      }
     ],
     "usages": [
-      { "componentKey": "u-banana", "stepKey": "b1", "slotKey": "sl-banana", "quantityValue": 1, "quantityUnit": "each" },
-      { "componentKey": "u-egg-b", "stepKey": "b1", "slotKey": "sl-egg-b", "quantityValue": 44, "quantityUnit": "g" },
-      { "componentKey": "u-pb-b", "stepKey": "b1", "slotKey": "sl-pb-b", "quantityValue": 1, "quantityUnit": "tbsp" },
-      { "componentKey": "u-protein", "stepKey": "b1", "slotKey": "sl-protein", "quantityValue": 1, "quantityUnit": "scoop" },
-      { "componentKey": "u-cocoa", "stepKey": "b1", "slotKey": "sl-cocoa", "quantityValue": 2, "quantityUnit": "tbsp" },
-      { "componentKey": "u-salt", "stepKey": "b1", "slotKey": "sl-salt", "quantityValue": 0.5, "quantityUnit": "g" },
-      { "componentKey": "u-bp", "stepKey": "b1", "slotKey": "sl-bp", "quantityValue": 2, "quantityUnit": "g" },
-      { "componentKey": "u-cottage", "stepKey": "c1", "slotKey": "sl-cottage", "quantityValue": 200, "quantityUnit": "g" },
-      { "componentKey": "u-egg-c", "stepKey": "c1", "slotKey": "sl-egg-c", "quantityValue": 44, "quantityUnit": "g" },
-      { "componentKey": "u-honey", "stepKey": "c1", "slotKey": "sl-honey", "quantityValue": 1, "quantityUnit": "tbsp" },
-      { "componentKey": "u-vanilla", "stepKey": "c1", "slotKey": "sl-vanilla", "quantityValue": 0.5, "quantityUnit": "tsp" },
-      { "componentKey": "u-pb-c", "stepKey": "c2", "slotKey": "sl-pb-c", "quantityValue": 1, "quantityUnit": "tbsp" }
+      {
+        "componentKey": "u-banana",
+        "stepKey": "b1",
+        "slotKey": "sl-banana",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      },
+      {
+        "componentKey": "u-egg-b",
+        "stepKey": "b1",
+        "slotKey": "sl-egg-b",
+        "quantityValue": 50,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-pb-b",
+        "stepKey": "b1",
+        "slotKey": "sl-pb-b",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-protein",
+        "stepKey": "b1",
+        "slotKey": "sl-protein",
+        "quantityValue": 1,
+        "quantityUnit": "scoop"
+      },
+      {
+        "componentKey": "u-cocoa",
+        "stepKey": "b1",
+        "slotKey": "sl-cocoa",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-salt",
+        "stepKey": "b1",
+        "slotKey": "sl-salt",
+        "quantityValue": 0.5,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-bp",
+        "stepKey": "b1",
+        "slotKey": "sl-bp",
+        "quantityValue": 2,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-cottage",
+        "stepKey": "c1",
+        "slotKey": "sl-cottage",
+        "quantityValue": 200,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-egg-c",
+        "stepKey": "c1",
+        "slotKey": "sl-egg-c",
+        "quantityValue": 50,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-honey",
+        "stepKey": "c1",
+        "slotKey": "sl-honey",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      },
+      {
+        "componentKey": "u-vanilla",
+        "stepKey": "c1",
+        "slotKey": "sl-vanilla",
+        "quantityValue": 0.5,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-pb-c",
+        "stepKey": "c2",
+        "slotKey": "sl-pb-c",
+        "quantityValue": 1,
+        "quantityUnit": "tbsp"
+      }
     ]
   }
 }

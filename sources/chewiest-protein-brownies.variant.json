@@ -77,7 +77,7 @@
         "componentKey": "u-egg-white",
         "stepKey": "b2",
         "slotKey": "sl-egg-white",
-        "quantityValue": 30,
+        "quantityValue": 33,
         "quantityUnit": "g"
       }
     },
@@ -217,7 +217,7 @@
         "componentKey": "u-egg",
         "stepKey": "b2",
         "slotKey": "sl-egg",
-        "quantityValue": 44,
+        "quantityValue": 50,
         "quantityUnit": "g"
       }
     },

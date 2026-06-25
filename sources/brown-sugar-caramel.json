@@ -1,6 +1,6 @@
 {
   "name": "Brown-Sugar Caramel",
-  "description": "Real glossy caramel - brown sugar cooked with a little butter, thinned with almond milk, salted. Genuine caramelized-sugar flavor (you cannot caramelize Splenda), kept small. Reusable across anything that needs caramel - cook it to the texture you want: saucy, thick, or caramel-apple-thick (see the finishing step). Sub-recipe, 1 batch, ~121 cal.",
+  "description": "Lean brown-sugar caramel - brown sugar melted with skim milk and a pinch of salt, NO butter (William's tested version: tastes great and drops the fat). Genuine caramelized brown-sugar flavor (you cannot caramelize Splenda), kept lean. Reusable across anything that needs caramel - cook it to the texture you want: saucy, thick, or caramel-apple-thick (see the finishing step). Sub-recipe, 1 batch, ~81 cal.",
   "tags": [
     "caramel",
     "sauce",
@@ -16,12 +16,12 @@
       {
         "componentKey": "k1",
         "order": 1,
-        "instructionText": "Melt the butter in a small saucepan, add the brown sugar and salt, and cook over medium, stirring, until it bubbles and darkens slightly (~2-3 min). Off heat, whisk in the almond milk (it will sputter) until smooth. Cool slightly — it thickens as it sits; rewarm to drizzle."
+        "instructionText": "Combine the brown sugar, skim milk, and salt in a small saucepan and cook over medium, stirring, until the sugar fully dissolves and the syrup bubbles and thickens slightly (~2-3 min). No butter - the skim milk alone keeps it lean. Cool slightly; it thickens as it sits, so rewarm to drizzle."
       },
       {
         "componentKey": "k2",
         "order": 2,
-        "instructionText": "FINISH TO YOUR TEXTURE (reusable - take it only as far as you need): SAUCY/pourable - stop right after the almond milk is whisked smooth; it coats a spoon thinly and pours in a thread, for drizzle (~225F). THICK/spoonable - keep on low and reduce 1-2 min more until it mounds and falls in a slow ribbon; sets like dulce de leche and holds a swirl (~235-240F, soft-ball). CARAMEL-APPLE THICK/chewy - reduce further until a drop in cold water forms a soft pliable ball (~245-250F, firm-ball); off heat it clings and sets tacky-chewy, for dipping or a caramel that stays put. No thermometer? Cold-water drop test - thin thread = saucy, soft ball = spoonable, firmer ball = chewy."
+        "instructionText": "FINISH TO YOUR TEXTURE (reusable - take it only as far as you need): SAUCY/pourable - stop as soon as the sugar is fully dissolved and smooth; it coats a spoon thinly and pours in a thread, for drizzle (~225F). THICK/spoonable - keep on low and reduce 1-2 min more until it mounds and falls in a slow ribbon; sets like dulce de leche and holds a swirl (~235-240F, soft-ball). CARAMEL-APPLE THICK/chewy - reduce further until a drop in cold water forms a soft pliable ball (~245-250F, firm-ball); off heat it clings and sets tacky-chewy. No thermometer? Cold-water drop test - thin thread = saucy, soft ball = spoonable, firmer ball = chewy."
       }
     ],
     "slots": [
@@ -34,19 +34,11 @@
         }
       },
       {
-        "componentKey": "sl-butter",
-        "name": "butter",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-butter"
-        }
-      },
-      {
         "componentKey": "sl-almond-milk",
-        "name": "unsweetened almond milk",
+        "name": "skim milk",
         "resolution": {
           "kind": "raw",
-          "libraryIngredientId": "ing-almond-milk-unsweetened"
+          "libraryIngredientId": "ing-skim-milk"
         }
       },
       {
@@ -64,13 +56,6 @@
         "stepKey": "k1",
         "slotKey": "sl-brown-sugar",
         "quantityValue": 20,
-        "quantityUnit": "g"
-      },
-      {
-        "componentKey": "u-butter",
-        "stepKey": "k1",
-        "slotKey": "sl-butter",
-        "quantityValue": 6,
         "quantityUnit": "g"
       },
       {

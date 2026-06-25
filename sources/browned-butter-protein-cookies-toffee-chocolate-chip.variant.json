@@ -1,5 +1,6 @@
 {
   "name": "Browned-Butter Protein Cookies (Toffee + Chocolate Chip)",
+  "description": "FIRST DRAFT (to tune): the toffee + chocolate-chip flavor of the canonical 60 g browned-butter protein cookie - same browned-butter dough, 330F/check-at-10 bake and optional pan-slap, with toffee bits folded in alongside the chips for crisp caramel pockets. Toffee adds sugar+fat, so we'll dial the amount (and maybe the protein load) for macros next.",
   "tags": [
     "cookie",
     "protein",
@@ -7,8 +8,6 @@
     "chocolate-chip",
     "toffee"
   ],
-  "status": "draft",
-  "description": "FIRST DRAFT (to tune): the toffee + chocolate-chip flavor of the canonical 60 g browned-butter protein cookie - same browned-butter dough, 330F/check-at-10 bake and optional pan-slap, with toffee bits folded in alongside the chips for crisp caramel pockets. Toffee adds sugar+fat, so we'll dial the amount (and maybe the protein load) for macros next.",
   "yield": {
     "amount": 3,
     "unit": "cookies"
@@ -34,8 +33,18 @@
         "componentKey": "u-toffee",
         "stepKey": "s3",
         "slotKey": "sl-toffee",
-        "quantityValue": 1.5,
-        "quantityUnit": "tbsp"
+        "quantityValue": 5,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "n7",
+        "kind": "technique",
+        "stepKey": "s3",
+        "text": "Calorie-swap, not an add-on: this trades half the chocolate chips for toffee bits (5 g + 5 g) so the cookie stays at the plain 60 g cookie's calorie level - chips and toffee are ~5 cal/g, so it's near 1:1 by weight. Shift the split toward more chocolate or more toffee to taste. Toffee melts to crisp caramel pockets - press a few on top so they stay visible."
       }
     },
     {
@@ -50,16 +59,6 @@
       }
     },
     {
-      "op": "add",
-      "kind": "note",
-      "payload": {
-        "componentKey": "n7",
-        "kind": "technique",
-        "stepKey": "s3",
-        "text": "Toffee bits melt and re-set as crisp caramel pockets - press a few extra on top of the mounds before baking so they stay visible and crunchy. They add sugar + fat, so this runs richer than the plain chip cookie; we'll tune the amount."
-      }
-    },
-    {
       "op": "replace",
       "kind": "usage",
       "target": "u-choc-chips",
@@ -69,29 +68,6 @@
         "slotKey": "sl-choc-chips",
         "quantityValue": 5,
         "quantityUnit": "g"
-      }
-    },
-    {
-      "op": "replace",
-      "kind": "usage",
-      "target": "u-toffee",
-      "payload": {
-        "componentKey": "u-toffee",
-        "stepKey": "s3",
-        "slotKey": "sl-toffee",
-        "quantityValue": 5,
-        "quantityUnit": "g"
-      }
-    },
-    {
-      "op": "replace",
-      "kind": "note",
-      "target": "n7",
-      "payload": {
-        "componentKey": "n7",
-        "kind": "technique",
-        "stepKey": "s3",
-        "text": "Calorie-swap, not an add-on: this trades half the chocolate chips for toffee bits (5 g + 5 g) so the cookie stays at the plain 60 g cookie's calorie level - chips and toffee are ~5 cal/g, so it's near 1:1 by weight. Shift the split toward more chocolate or more toffee to taste. Toffee melts to crisp caramel pockets - press a few on top so they stay visible."
       }
     }
   ]
