@@ -25,7 +25,7 @@
       {
         "componentKey": "s3",
         "order": 3,
-        "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+        "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix (or its no-pudding swap - see note). Sift/whisk in the AP flour smooth (no lumps) and mix just until combined - don't overwork it. Warm the bowl ~15 sec if it clumps."
       },
       {
         "componentKey": "s4",
@@ -265,6 +265,12 @@
         "kind": "technique",
         "text": "The staged cool (oven door cracked → counter → fridge) prevents the sudden temperature drop that causes surface cracking. Don't skip the oven rest or move it to the fridge while still hot.",
         "stepKey": "s7"
+      },
+      {
+        "componentKey": "n-pudding-swap",
+        "kind": "technique",
+        "stepKey": "s3",
+        "text": "Out of vanilla SF pudding? Don't reach for a flavored pudding (butterscotch, etc.) - its flavor tints the whole cheesecake and fights a vanilla or berry batter. And you barely need it for structure here: the 2 tbsp AP flour plus the eggs already do the set, so the pudding is mostly vanilla flavor, a little sweetness, and the creamy body its gums lend. Clean swap: ~1 tbsp cornstarch (or skip it and lean on the flour) + an extra splash of vanilla (~1/4-1/2 tsp) and a pinch more Splenda to cover what the pudding carried. Macro-trivial - the recipe of record keeps the pudding; this is just the in-a-pinch swap. (A flavored pudding is only fair where its flavor matches the variant, e.g. butterscotch in the Banana Butterscotch Cheesecake.)"
       }
     ]
   }

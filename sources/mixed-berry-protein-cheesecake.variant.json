@@ -149,6 +149,16 @@
     {
       "op": "replace",
       "kind": "step",
+      "target": "s3",
+      "payload": {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
       "target": "s5",
       "payload": {
         "componentKey": "s5",
@@ -166,6 +176,11 @@
         "instructionText": "Bake in a WATER BATH at 300F (TEST): wrap the pan bottom in foil, set it inside a larger roasting pan, and pour boiling water halfway up the sides. Bake ~55-70 min until the edges are set and the center still jiggles slightly. The gentle, humid, low heat is the classic anti-crack method - if this finishes smoother and less cracked than our dry 325F bake, we roll the water bath out to the other cheesecakes.",
         "temperature": 300
       }
+    },
+    {
+      "op": "remove",
+      "kind": "note",
+      "target": "n-pudding-swap"
     }
   ]
 }

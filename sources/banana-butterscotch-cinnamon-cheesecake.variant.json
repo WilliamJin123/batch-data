@@ -119,6 +119,16 @@
     {
       "op": "replace",
       "kind": "step",
+      "target": "s3",
+      "payload": {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
       "target": "s5",
       "payload": {
         "componentKey": "s5",
@@ -193,6 +203,11 @@
         "text": "Scatter the toasted graham crumbs only after baking, just before serving — they absorb moisture from the filling within an hour in the fridge and go soft if added beforehand.",
         "stepKey": "s5"
       }
+    },
+    {
+      "op": "remove",
+      "kind": "note",
+      "target": "n-pudding-swap"
     }
   ]
 }
