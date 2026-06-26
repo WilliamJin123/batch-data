@@ -149,21 +149,11 @@
     {
       "op": "replace",
       "kind": "step",
-      "target": "s1",
-      "payload": {
-        "componentKey": "s1",
-        "order": 1,
-        "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
-      }
-    },
-    {
-      "op": "replace",
-      "kind": "step",
       "target": "s3",
       "payload": {
         "componentKey": "s3",
         "order": 3,
-        "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+        "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix (or its no-pudding swap - see note). Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
       }
     },
     {
@@ -188,14 +178,26 @@
       }
     },
     {
-      "op": "remove",
+      "op": "replace",
       "kind": "note",
-      "target": "n-pudding-swap"
+      "target": "n-pumpkin-swap",
+      "payload": {
+        "componentKey": "n-pumpkin-swap",
+        "kind": "technique",
+        "stepKey": "s1",
+        "text": "Swap: unsweetened applesauce works 1:1 for the pumpkin (75 g) as the fat-replacing moisture/body. Reduce it the same way (cook it down until thickened) so it doesn't loosen the batter - applesauce starts wetter and, with more sugar than pumpkin, browns and scorches faster, so keep it moving and pull it a touch sooner. It reads a little sweeter and more neutral - actually cleaner under a berry swirl, where pumpkin's faint earthiness can muddy things. Macro-trivial (~+6 cal/recipe). Recipe of record keeps pumpkin; this is the in-a-pinch / flavor-preference swap."
+      }
     },
     {
-      "op": "remove",
+      "op": "replace",
       "kind": "note",
-      "target": "n-pumpkin-swap"
+      "target": "n-pudding-swap",
+      "payload": {
+        "componentKey": "n-pudding-swap",
+        "kind": "technique",
+        "stepKey": "s3",
+        "text": "Out of vanilla SF pudding? Don't reach for a flavored pudding (butterscotch, etc.) - its flavor tints the whole cheesecake and fights the berry. And you barely need it for structure: the 2 tbsp AP flour plus the eggs already do the set, so the pudding is mostly vanilla flavor, a little sweetness, and the creamy body its gums lend. Clean swap: ~1 tbsp cornstarch (~8 g; or skip it and lean on the flour) + an extra splash of vanilla (~1/4-1/2 tsp) and a pinch more Splenda to cover what the pudding carried. For a berry cheesecake cornstarch is actually the cleaner pick - flavorless under the swirl. Macro-trivial; recipe of record keeps the pudding."
+      }
     }
   ]
 }
