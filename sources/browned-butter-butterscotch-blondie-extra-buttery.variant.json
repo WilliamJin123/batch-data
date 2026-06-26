@@ -1,0 +1,66 @@
+{
+  "name": "Browned-Butter Butterscotch Blondie (Extra-Buttery)",
+  "tags": [],
+  "yield": {
+    "amount": 9,
+    "unit": "squares"
+  },
+  "deriveFromRecipe": "Browned-Butter Butterscotch Blondie",
+  "overrides": [
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-yolk",
+        "name": "egg yolk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-yolk"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-yolk",
+        "stepKey": "s3",
+        "slotKey": "sl-yolk",
+        "quantityValue": 1,
+        "quantityUnit": "each"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "n5",
+        "kind": "note",
+        "stepKey": "s3",
+        "text": "Extra-Buttery build: 2 tbsp browned butter (double the base) plus an extra egg yolk pushes this toward the rich, buttery cookie-bar end - more tender, more fudgy mouthfeel. The cost is macros: ~+12 cal/square and the ratio climbs from ~13.6 to ~15. Bake it the same, and if anything pull it a touch sooner - the added fat makes the center read set a minute earlier."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s3",
+      "payload": {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Whisk the brown sugar and Splenda into the warm browned butter until glossy, then whisk in the whole egg, the extra egg yolk, Greek yogurt, and vanilla until smooth and slightly fluffy. The extra yolk is the fudge - it makes the crumb richer and denser."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-butter",
+      "payload": {
+        "componentKey": "u-butter",
+        "stepKey": "s2",
+        "slotKey": "sl-butter",
+        "quantityValue": 28,
+        "quantityUnit": "g"
+      }
+    }
+  ]
+}

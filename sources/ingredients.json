@@ -1349,5 +1349,20 @@
       "tsp": 4.5,
       "tbsp": 13.5
     }
+  },
+  {
+    "id": "ing-egg-yolk",
+    "name": "egg yolk",
+    "macrosPer100g": {
+      "calories": 322,
+      "protein": 15.9,
+      "carbs": 3.6,
+      "fat": 26.5,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "each": 17,
+      "serving": 17
+    }
   }
 ]

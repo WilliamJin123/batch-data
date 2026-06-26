@@ -1,0 +1,265 @@
+{
+  "name": "Browned-Butter Butterscotch Blondie",
+  "description": "Browned-butter butterscotch blondie - dense, soft, and chewy, sitting between a fudgy brownie and a buttery cookie bar. Butterscotch depth comes from browned butter + real brown sugar (for the molasses and the chew) + butterscotch SF pudding, on a lean whey + Greek-yogurt backbone (no casein, no cream cheese, no molasses). This is the lean recipe-of-record at 1 tbsp butter; the Extra-Buttery variant pushes to 2 tbsp plus an extra yolk for true cookie-bar richness. Underbake on purpose - whey dries fast.",
+  "tags": [
+    "bars",
+    "blondie",
+    "protein",
+    "butterscotch"
+  ],
+  "yield": {
+    "amount": 9,
+    "unit": "squares"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Preheat the oven to 350F / 175C. Line an 8x8 pan with parchment, leaving an overhang on two sides to lift the bars out later."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "temperature": null,
+        "instructionText": "Brown the butter: melt it in a small light-colored pan over medium heat, swirling, until it foams, the milk solids turn golden-brown, and it smells nutty (3-5 min). Scrape it - browned bits and all - into a large bowl and let it cool a few minutes so it won't cook the egg."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Whisk the brown sugar and Splenda into the warm browned butter until glossy, then whisk in the whole egg, Greek yogurt, and vanilla until smooth and slightly fluffy."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Add the vanilla whey, butterscotch pudding mix, AP flour, baking powder, and salt. Fold just until no dry streaks remain - don't overmix. If the batter is too stiff to spread, loosen it with the almond milk a splash at a time until thick but spreadable."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Scrape into the pan and press/smooth it level - it's a thick batter, not a pourable one."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "temperature": 350,
+        "instructionText": "Bake at 350F for ~16-20 min. Pull it when the edges are set but the center still looks a touch underdone with a faint jiggle - it firms as it cools. UNDERBAKE on purpose: whey goes from chewy to dry within a couple minutes past this point."
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "Cool in the pan ~10 min, then lift out by the parchment onto a rack so the carryover stops. Cool fully before cutting into 9 squares - they set chewy as they cool, and they're even better the next day."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-butter",
+        "name": "butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-butter"
+        }
+      },
+      {
+        "componentKey": "sl-brownsugar",
+        "name": "brown sugar (dark if you have it)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-brown-sugar"
+        }
+      },
+      {
+        "componentKey": "sl-splenda",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-egg",
+        "name": "whole egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl-yogurt",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-whey",
+        "name": "vanilla whey protein",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-whey"
+        }
+      },
+      {
+        "componentKey": "sl-pudding",
+        "name": "butterscotch SF pudding mix",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pudding-butterscotch-sf"
+        }
+      },
+      {
+        "componentKey": "sl-flour",
+        "name": "all-purpose flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl-bp",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl-salt",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-milk",
+        "name": "unsweetened almond milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-milk-unsweetened"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-butter",
+        "stepKey": "s2",
+        "slotKey": "sl-butter",
+        "quantityValue": 14,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-brownsugar",
+        "stepKey": "s3",
+        "slotKey": "sl-brownsugar",
+        "quantityValue": 40,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-splenda",
+        "stepKey": "s3",
+        "slotKey": "sl-splenda",
+        "quantityValue": 3,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-egg",
+        "stepKey": "s3",
+        "slotKey": "sl-egg",
+        "quantityValue": 50,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-yogurt",
+        "stepKey": "s3",
+        "slotKey": "sl-yogurt",
+        "quantityValue": 100,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-vanilla",
+        "stepKey": "s3",
+        "slotKey": "sl-vanilla",
+        "quantityValue": 8,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-whey",
+        "stepKey": "s4",
+        "slotKey": "sl-whey",
+        "quantityValue": 38,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-pudding",
+        "stepKey": "s4",
+        "slotKey": "sl-pudding",
+        "quantityValue": 24,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-flour",
+        "stepKey": "s4",
+        "slotKey": "sl-flour",
+        "quantityValue": 40,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-bp",
+        "stepKey": "s4",
+        "slotKey": "sl-bp",
+        "quantityValue": 0.25,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-salt",
+        "stepKey": "s4",
+        "slotKey": "sl-salt",
+        "quantityValue": 1,
+        "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-milk",
+        "stepKey": "s4",
+        "slotKey": "sl-milk",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "technique",
+        "stepKey": "s2",
+        "text": "Browning the butter is what lets a single tablespoon read like more - it builds a nutty, caramel-adjacent depth that doubles down on the brown sugar. Take it to golden and nutty, not burnt, and pour it out as soon as it's there since it keeps cooking in the hot pan."
+      },
+      {
+        "componentKey": "n2",
+        "kind": "technique",
+        "stepKey": "s3",
+        "text": "Real brown sugar is load-bearing here, not just sweetness: its molasses IS the butterscotch flavor, and its moisture is what keeps these soft and chewy for days. Splenda only tops up the sweetness without adding calories - don't swap the brown sugar out entirely or you lose both the flavor and the chew."
+      },
+      {
+        "componentKey": "n3",
+        "kind": "note",
+        "stepKey": "s4",
+        "text": "The butterscotch SF pudding stacks more butterscotch onto the brown sugar for almost no calories, and its starch/gums lend a creamy, cohesive set. Vanilla SF pudding subs fine if that's what's open - just a little less butterscotch punch."
+      },
+      {
+        "componentKey": "n4",
+        "kind": "pitfall",
+        "stepKey": "s6",
+        "text": "The bake window is short and unforgiving with whey (no casein here to keep it soft) - it flips from chewy to spongy-dry within a couple minutes of done. Pull it looking slightly underbaked; carryover and cooling finish the set. A center that looks fully dry in the oven is already overbaked on the plate."
+      }
+    ]
+  }
+}

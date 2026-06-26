@@ -1,0 +1,258 @@
+{
+  "name": "Peanut Butter Blondie",
+  "description": "Peanut butter blondie - a dense, chewy peanut-butter cookie bar. Real peanut butter for richness and fudge plus powdered peanut butter for PB flavor and protein at a fraction of the fat, on the same lean whey + Greek-yogurt backbone as the butterscotch blondie. Brown sugar and a good pinch of salt give the salted-peanut-butter-cookie read. Underbake on purpose.",
+  "tags": [
+    "bars",
+    "blondie",
+    "protein",
+    "peanut-butter"
+  ],
+  "yield": {
+    "amount": 9,
+    "unit": "squares"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Preheat the oven to 350F / 175C. Line an 8x8 pan with parchment, leaving an overhang on two sides."
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "Melt the peanut butter until loose and pourable (microwave 20-30 sec, stir) and scrape it into a large bowl."
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Whisk the brown sugar and Splenda into the warm peanut butter until glossy, then whisk in the whole egg, Greek yogurt, and vanilla until smooth and slightly fluffy."
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Add the vanilla whey, powdered peanut butter, AP flour, baking powder, and salt. Fold just until no dry streaks remain. Loosen with the almond milk a splash at a time if it's too stiff to spread."
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Spread level in the pan - thick batter, press it into the corners."
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "temperature": 350,
+        "instructionText": "Bake at 350F for ~16-20 min; pull when the edges are set and the center still looks slightly underdone with a faint jiggle. UNDERBAKE - peanut butter and whey both dry out fast past done."
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "Cool in the pan ~10 min, lift out by the parchment, cool fully, then cut into 9 squares. Chewier the next day."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-pb",
+        "name": "natural peanut butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-peanut-butter"
+        }
+      },
+      {
+        "componentKey": "sl-pbpowder",
+        "name": "powdered peanut butter",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-pb-powder"
+        }
+      },
+      {
+        "componentKey": "sl-brownsugar",
+        "name": "brown sugar",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-brown-sugar"
+        }
+      },
+      {
+        "componentKey": "sl-splenda",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      },
+      {
+        "componentKey": "sl-egg",
+        "name": "whole egg",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-whole"
+        }
+      },
+      {
+        "componentKey": "sl-yogurt",
+        "name": "0% Greek yogurt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-greek-yogurt-nonfat"
+        }
+      },
+      {
+        "componentKey": "sl-vanilla",
+        "name": "vanilla extract",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-extract"
+        }
+      },
+      {
+        "componentKey": "sl-whey",
+        "name": "vanilla whey protein",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-vanilla-whey"
+        }
+      },
+      {
+        "componentKey": "sl-flour",
+        "name": "all-purpose flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      },
+      {
+        "componentKey": "sl-bp",
+        "name": "baking powder",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-baking-powder"
+        }
+      },
+      {
+        "componentKey": "sl-salt",
+        "name": "salt",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-salt"
+        }
+      },
+      {
+        "componentKey": "sl-milk",
+        "name": "unsweetened almond milk",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-almond-milk-unsweetened"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-pb",
+        "stepKey": "s2",
+        "slotKey": "sl-pb",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-brownsugar",
+        "stepKey": "s3",
+        "slotKey": "sl-brownsugar",
+        "quantityValue": 40,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-splenda",
+        "stepKey": "s3",
+        "slotKey": "sl-splenda",
+        "quantityValue": 3,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-egg",
+        "stepKey": "s3",
+        "slotKey": "sl-egg",
+        "quantityValue": 50,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-yogurt",
+        "stepKey": "s3",
+        "slotKey": "sl-yogurt",
+        "quantityValue": 95,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-vanilla",
+        "stepKey": "s3",
+        "slotKey": "sl-vanilla",
+        "quantityValue": 8,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-whey",
+        "stepKey": "s4",
+        "slotKey": "sl-whey",
+        "quantityValue": 30,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-pbpowder",
+        "stepKey": "s4",
+        "slotKey": "sl-pbpowder",
+        "quantityValue": 16,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-flour",
+        "stepKey": "s4",
+        "slotKey": "sl-flour",
+        "quantityValue": 40,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-bp",
+        "stepKey": "s4",
+        "slotKey": "sl-bp",
+        "quantityValue": 0.25,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-salt",
+        "stepKey": "s4",
+        "slotKey": "sl-salt",
+        "quantityValue": 0.25,
+        "quantityUnit": "tsp"
+      },
+      {
+        "componentKey": "u-milk",
+        "stepKey": "s4",
+        "slotKey": "sl-milk",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      }
+    ],
+    "notes": [
+      {
+        "componentKey": "n1",
+        "kind": "technique",
+        "stepKey": "s4",
+        "text": "Powdered peanut butter carries real PB flavor and protein with a fraction of the fat of more spread - it's what keeps this a peanut-butter bar without the calories running away. The 30 g of real peanut butter is there for the richness and fudge that powdered alone can't give."
+      },
+      {
+        "componentKey": "n2",
+        "kind": "note",
+        "stepKey": "s3",
+        "text": "Brown sugar + peanut butter is the peanut-butter-cookie backbone, and the salt is pushed up for a salted-PB read. Want a PB-butterscotch spin? Add ~20 g butterscotch SF pudding with the dry ingredients."
+      },
+      {
+        "componentKey": "n3",
+        "kind": "pitfall",
+        "stepKey": "s6",
+        "text": "Underbake on purpose - peanut butter and whey both go dry-crumbly fast past done. Pull it looking a touch underdone in the center; it finishes setting as it cools."
+      }
+    ]
+  }
+}
