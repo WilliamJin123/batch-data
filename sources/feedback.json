@@ -559,6 +559,13 @@
   },
   {
     "recipe": "Mixed Berry Protein Cheesecake",
+    "kind": "made",
+    "rating": "excellent",
+    "notes": "300F water bath came out with a really nice, smooth top. Blueberry extract in the batter gives a slight all-over note; the mixed-berry swirl stays pure.",
+    "date": "2026-06-26T21:30:45.719Z"
+  },
+  {
+    "recipe": "Mixed Berry Protein Cheesecake",
     "kind": "to-make",
     "notes": "First draft - Mixed Berry Cheesecake. To tune (macros + taste) together.",
     "date": "2026-06-24T06:13:50.635Z"
