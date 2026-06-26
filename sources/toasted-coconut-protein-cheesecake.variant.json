@@ -160,6 +160,11 @@
       "op": "remove",
       "kind": "note",
       "target": "n-pumpkin-swap"
+    },
+    {
+      "op": "remove",
+      "kind": "note",
+      "target": "n-batter-thin"
     }
   ]
 }
