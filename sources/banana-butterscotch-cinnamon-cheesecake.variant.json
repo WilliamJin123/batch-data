@@ -208,6 +208,11 @@
       "op": "remove",
       "kind": "note",
       "target": "n-pudding-swap"
+    },
+    {
+      "op": "remove",
+      "kind": "note",
+      "target": "n-pumpkin-swap"
     }
   ]
 }

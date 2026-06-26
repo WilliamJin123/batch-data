@@ -15,7 +15,7 @@
       {
         "componentKey": "s1",
         "order": 1,
-        "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+        "instructionText": "Cook the pumpkin (or unsweetened applesauce - see note) in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
       },
       {
         "componentKey": "s2",
@@ -271,6 +271,12 @@
         "kind": "technique",
         "stepKey": "s3",
         "text": "Out of vanilla SF pudding? Don't reach for a flavored pudding (butterscotch, etc.) - its flavor tints the whole cheesecake and fights a vanilla or berry batter. And you barely need it for structure here: the 2 tbsp AP flour plus the eggs already do the set, so the pudding is mostly vanilla flavor, a little sweetness, and the creamy body its gums lend. Clean swap: ~1 tbsp cornstarch (or skip it and lean on the flour) + an extra splash of vanilla (~1/4-1/2 tsp) and a pinch more Splenda to cover what the pudding carried. Macro-trivial - the recipe of record keeps the pudding; this is just the in-a-pinch swap. (A flavored pudding is only fair where its flavor matches the variant, e.g. butterscotch in the Banana Butterscotch Cheesecake.)"
+      },
+      {
+        "componentKey": "n-pumpkin-swap",
+        "kind": "technique",
+        "stepKey": "s1",
+        "text": "Swap: unsweetened applesauce works 1:1 for the pumpkin as the fat-replacing moisture/body. Reduce it the same way (cook it down until thickened) so it doesn't loosen the batter - applesauce starts wetter and, with more sugar than pumpkin, browns and scorches faster, so keep it moving and pull it a touch sooner. It reads a little sweeter and more neutral - actually cleaner under vanilla or a berry swirl, where pumpkin's faint earthiness can muddy things; keep the pumpkin for the warm/spiced variants (biscoff, butterscotch) where that earthiness helps. Macro-trivial (~+6 cal/recipe). Recipe of record keeps pumpkin; this is the in-a-pinch / flavor-preference swap."
       }
     ]
   }

@@ -149,6 +149,16 @@
     {
       "op": "replace",
       "kind": "step",
+      "target": "s1",
+      "payload": {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
       "target": "s3",
       "payload": {
         "componentKey": "s3",
@@ -181,6 +191,11 @@
       "op": "remove",
       "kind": "note",
       "target": "n-pudding-swap"
+    },
+    {
+      "op": "remove",
+      "kind": "note",
+      "target": "n-pumpkin-swap"
     }
   ]
 }

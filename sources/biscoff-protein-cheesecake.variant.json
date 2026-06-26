@@ -1,6 +1,6 @@
 {
   "name": "Biscoff Protein Cheesecake",
-  "description": "Biscoff cookie-butter protein cheesecake, crustless - a flavor variant of the Vanilla Protein Cheesecake base, built from pantry staples (no cookie-butter emulsion, no fat-free cream cheese, no powdered PB, no brown butter). Keeps the base's PROVEN dairy ratio (light cream cheese 113 g + cottage 57 g + egg white 33 g - the same ratio as the excellent-rated Creme Brulee variant) for a dense, creamy set; 55 g Biscoff (40 g batter + 15 g swirl) plus a toasted speculoos spice blend (cinnamon, ginger, nutmeg) carry the cookie flavor. ~171 cal/slice, ratio ~11.7 - a bit richer than the leanest build, but texture is the point and it's still well under the Turtle (215). To-make.",
+  "description": "Biscoff cookie-butter protein cheesecake, crustless. ~37 g Biscoff goes on top as an unbaked glaze (warmed, poured, self-leveled to a glossy mirror) with a graham-crumb rim; ~18 g is melted into the batter for an all-over biscoff note - never a baked surface swirl (that muddied the look before). The batter also carries a toasted speculoos spice blend (cinnamon + ginger + nutmeg) over the base's proven dairy ratio (light cream cheese 113 g + cottage 57 g + yogurt 240 g + egg white 33 g - same as the excellent-rated Creme Brulee variant) for a dense, creamy set. ~176 cal/slice, ratio ~12.0. To-make.",
   "tags": [
     "cheesecake",
     "protein",
@@ -38,11 +38,23 @@
     },
     {
       "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-graham",
+        "name": "honey graham cracker crumbs",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-graham-crumbs"
+        }
+      }
+    },
+    {
+      "op": "add",
       "kind": "step",
       "payload": {
-        "componentKey": "s-swirl",
-        "order": 5.5,
-        "instructionText": "Melt 15 g Biscoff 10-15 sec until pourable and drizzle it over the top of the batter. Drag a toothpick through in a few S-curves to marble it - swirl, don't stir it in."
+        "componentKey": "s8",
+        "order": 8,
+        "instructionText": "Finish with the Biscoff glaze: warm the 37 g topping Biscoff ~20-25 sec until smooth and pourable, pour it onto the center of the fully cooled cheesecake, and tilt the pan (or use an offset spatula) to self-level it into a smooth, glossy mirror over the whole top. While the glaze is still tacky, press a ring of graham crumbs around the top edge. Then fridge at least 4 hr - overnight is best and sets the glaze to a soft, fudgy layer. Best the next day."
       }
     },
     {
@@ -60,10 +72,10 @@
       "op": "add",
       "kind": "usage",
       "payload": {
-        "componentKey": "u-biscoff",
-        "stepKey": "s3",
+        "componentKey": "u-biscoff-glaze",
+        "stepKey": "s8",
         "slotKey": "sl-biscoff",
-        "quantityValue": 40,
+        "quantityValue": 37,
         "quantityUnit": "g"
       }
     },
@@ -71,10 +83,21 @@
       "op": "add",
       "kind": "usage",
       "payload": {
-        "componentKey": "u-biscoff-swirl",
-        "stepKey": "s-swirl",
+        "componentKey": "u-graham",
+        "stepKey": "s8",
+        "slotKey": "sl-graham",
+        "quantityValue": 10,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-biscoff-batter",
+        "stepKey": "s3",
         "slotKey": "sl-biscoff",
-        "quantityValue": 15,
+        "quantityValue": 18,
         "quantityUnit": "g"
       }
     },
@@ -132,16 +155,6 @@
       "op": "add",
       "kind": "note",
       "payload": {
-        "componentKey": "c6",
-        "kind": "technique",
-        "text": "Swirl the melted Biscoff on top, don't stir it in - a few toothpick S-curves keep a marbled pattern. Blend it all the way in and you just muddy the color and lose the 'Biscoff cheesecake' look.",
-        "stepKey": "s-swirl"
-      }
-    },
-    {
-      "op": "add",
-      "kind": "note",
-      "payload": {
         "componentKey": "c7",
         "kind": "note",
         "text": "Crustless by design - the Biscoff and toasted spices carry the cookie flavor without a crust's calories. If you want a crust, the Protein Graham Crust sub-recipe slots in like it does on the other cheesecakes (about +50 cal/slice)."
@@ -151,10 +164,50 @@
       "op": "add",
       "kind": "note",
       "payload": {
-        "componentKey": "c8",
+        "componentKey": "c9",
+        "kind": "technique",
+        "stepKey": "s8",
+        "text": "Glaze only once the cheesecake is fully cooled - pour Biscoff onto a warm cake and it melts into the surface and slides off instead of setting as a clean mirror. Warm the spread just to pourable; over-melting makes it too thin to hold a layer, and it firms back up in the fridge."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "c10",
+        "kind": "note",
+        "stepKey": "s8",
+        "text": "Most of the Biscoff (37 g) goes on top as an unbaked glaze - undiluted and never baked, so it reads strong and stays glossy. A smaller 18 g is melted into the batter for an all-over biscoff note beneath the speculoos spice. Baking the spread as a surface swirl is what muddied the look before; mixed fully through the batter it just tints it and adds flavor, while the glossy top stays all topping."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "c11",
+        "kind": "technique",
+        "stepKey": "s8",
+        "text": "Press the graham crumbs on while the glaze is still tacky, not after it sets, or they won't stick - a thin ring around just the rim frames the glossy top. For an on-theme version, use crushed Biscoff cookies instead of graham."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "c12",
         "kind": "technique",
         "stepKey": "s3",
-        "text": "Warm the 40 g batter Biscoff 10-15 sec until loose and pourable before it goes in - cold, stiff spread leaves streaks, and since you mix the batter gently (to keep the dense set) you can't beat the clumps out. The 15 g swirl is melted separately, just before it's drizzled on top."
+        "text": "Warm the 18 g batter Biscoff 10-15 sec until loose and pourable before it goes in - cold, stiff spread leaves streaks, and since the batter is mixed gently (to keep the dense set) you can't beat the clumps out. The 37 g topping is melted separately, just before glazing."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s1",
+      "payload": {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Cook the pumpkin in a nonstick pan over medium heat, 3-5 min, stirring, until thickened and nutty. Remove and COOL COMPLETELY (hot mix will scramble the eggs)."
       }
     },
     {
@@ -164,7 +217,17 @@
       "payload": {
         "componentKey": "s3",
         "order": 3,
-        "instructionText": "Beat the light cream cheese alone until smooth, then add the yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, the 40 g Biscoff (warmed until loose), the toasted cinnamon (toast it in a dry pan 30-60 sec until fragrant first), a pinch each of ground ginger and nutmeg, and the vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined - don't overwork it. Warm the bowl ~15 sec if it clumps."
+        "instructionText": "Beat the light cream cheese alone until smooth, then add the yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, the 18 g batter Biscoff (warmed until loose), the toasted cinnamon (toast it in a dry pan 30-60 sec until fragrant first), a pinch each of ground ginger and nutmeg, and the vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined - don't overwork it. Warm the bowl ~15 sec if it clumps."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s7",
+      "payload": {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "Cool to room temp: oven off and door cracked 10-20 min (the gradual drop prevents surface cracks), then onto the counter ~1-1.5 hr until no longer warm (max 2 hr out). Don't move it to the fridge while still warm. Glaze it next, before the long chill."
       }
     },
     {
@@ -196,6 +259,11 @@
       "op": "remove",
       "kind": "note",
       "target": "n-pudding-swap"
+    },
+    {
+      "op": "remove",
+      "kind": "note",
+      "target": "n-pumpkin-swap"
     }
   ]
 }
