@@ -57,8 +57,7 @@
       "payload": {
         "componentKey": "sb1",
         "order": 4.5,
-        "section": "Berry swirl",
-        "instructionText": "Make the swirl: simmer the mixed berries with the Splenda and cornstarch over medium heat, mashing, until jammy and thick (4-6 min). Off heat, stir in the imitation blueberry extract. Cool fully before swirling - hot jam melts streaks into the batter."
+        "instructionText": "Make the swirl: simmer the mixed berries with the Splenda and cornstarch over medium heat, mashing, until jammy and thick (4-6 min). Cool fully before swirling - hot jam melts streaks into the batter."
       }
     },
     {
@@ -109,7 +108,7 @@
       "kind": "usage",
       "payload": {
         "componentKey": "u-extract",
-        "stepKey": "sb1",
+        "stepKey": "s3",
         "slotKey": "sl-berry-extract",
         "quantityValue": 0.5,
         "quantityUnit": "tsp"
@@ -143,7 +142,17 @@
         "componentKey": "nberry",
         "kind": "pitfall",
         "stepKey": "sb1",
-        "text": "The imitation blueberry extract is potent - 0.5 tsp is plenty; too much reads artificial. The cornstarch keeps the swirl from weeping into the custard. Toss the topping berries in a pinch of cornstarch if they're wet."
+        "text": "The cornstarch keeps the swirl from weeping into the custard. Toss the topping berries in a pinch of cornstarch if they're wet."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "n-berry-extract",
+        "kind": "technique",
+        "stepKey": "s3",
+        "text": "The imitation blueberry extract goes into the batter, not the swirl - 0.5 tsp dispersed through the whole custard gives a slight blueberry note in every bite, while the swirl stays a pure mixed-berry ribbon. It's potent, so keep it at 0.5 tsp; more reads artificial. Add it with the wet ingredients before the flour so it distributes evenly."
       }
     },
     {
@@ -153,7 +162,7 @@
       "payload": {
         "componentKey": "s3",
         "order": 3,
-        "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, and vanilla pudding mix (or its no-pudding swap - see note). Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
+        "instructionText": "Beat the light cream cheese alone until smooth, then add yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, the imitation blueberry extract, and vanilla pudding mix (or its no-pudding swap - see note). Sift/whisk in the AP flour smooth (no lumps) and mix just until combined — don't overwork it. Warm the bowl ~15 sec if it clumps."
       }
     },
     {
