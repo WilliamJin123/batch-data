@@ -176,6 +176,10 @@
       "carbs": 3,
       "fat": 1,
       "fiber": 0
+    },
+    "unitEquivalences": {
+      "cup": 225,
+      "tbsp": 14
     }
   },
   {
@@ -285,6 +289,11 @@
       "carbs": 0,
       "fat": 0,
       "fiber": 0
+    },
+    "unitEquivalences": {
+      "tsp": 4,
+      "tbsp": 12,
+      "cup": 192
     }
   },
   {
@@ -495,6 +504,10 @@
       "carbs": 24,
       "fat": 64,
       "fiber": 16
+    },
+    "unitEquivalences": {
+      "cup": 80,
+      "tbsp": 5
     }
   },
   {
@@ -509,7 +522,8 @@
       "fiber": 17
     },
     "unitEquivalences": {
-      "oz": 28.35
+      "oz": 28.35,
+      "square": 14
     }
   },
   {
@@ -856,6 +870,10 @@
       "carbs": 9.6,
       "fat": 0.2,
       "fiber": 2.8
+    },
+    "unitEquivalences": {
+      "cup": 110,
+      "tbsp": 7
     }
   },
   {
@@ -1288,6 +1306,10 @@
       "carbs": 9.5,
       "fat": 0,
       "fiber": 0
+    },
+    "unitEquivalences": {
+      "tbsp": 15,
+      "cup": 232
     }
   },
   {
