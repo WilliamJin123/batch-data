@@ -575,5 +575,23 @@
     "kind": "to-make",
     "notes": "Faithful import queued to make. Reconcile vs Salted Caramel Cheesecake Brownie Bars + lean (honey, swirl protein) another day.",
     "date": "2026-06-24T15:50:36.963Z"
+  },
+  {
+    "recipe": "Browned-Butter Butterscotch Blondie",
+    "kind": "to-make",
+    "notes": "Preworkout fuel - leanest blondie (2g fat/sq). Batch incoming.",
+    "date": "2026-06-27T16:05:14.131Z"
+  },
+  {
+    "recipe": "Peanut Butter Blondie",
+    "kind": "to-make",
+    "notes": "Queued with the butterscotch blondie.",
+    "date": "2026-06-27T16:05:14.492Z"
+  },
+  {
+    "recipe": "Browned-Butter Butterscotch Blondie (Extra-Buttery)",
+    "kind": "to-make",
+    "notes": "The indulgent arm - queued with the others.",
+    "date": "2026-06-27T16:05:14.812Z"
   }
 ]
