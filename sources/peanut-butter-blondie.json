@@ -160,14 +160,14 @@
         "componentKey": "u-brownsugar",
         "stepKey": "s3",
         "slotKey": "sl-brownsugar",
-        "quantityValue": 40,
+        "quantityValue": 35,
         "quantityUnit": "g"
       },
       {
         "componentKey": "u-splenda",
         "stepKey": "s3",
         "slotKey": "sl-splenda",
-        "quantityValue": 3,
+        "quantityValue": 4,
         "quantityUnit": "g"
       },
       {
@@ -195,7 +195,7 @@
         "componentKey": "u-whey",
         "stepKey": "s4",
         "slotKey": "sl-whey",
-        "quantityValue": 30,
+        "quantityValue": 36,
         "quantityUnit": "g"
       },
       {
