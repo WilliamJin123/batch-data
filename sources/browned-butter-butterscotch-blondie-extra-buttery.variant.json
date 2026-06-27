@@ -61,42 +61,6 @@
         "quantityValue": 28,
         "quantityUnit": "g"
       }
-    },
-    {
-      "op": "replace",
-      "kind": "usage",
-      "target": "u-brownsugar",
-      "payload": {
-        "componentKey": "u-brownsugar",
-        "stepKey": "s3",
-        "slotKey": "sl-brownsugar",
-        "quantityValue": 40,
-        "quantityUnit": "g"
-      }
-    },
-    {
-      "op": "replace",
-      "kind": "usage",
-      "target": "u-splenda",
-      "payload": {
-        "componentKey": "u-splenda",
-        "stepKey": "s3",
-        "slotKey": "sl-splenda",
-        "quantityValue": 3,
-        "quantityUnit": "g"
-      }
-    },
-    {
-      "op": "replace",
-      "kind": "usage",
-      "target": "u-whey",
-      "payload": {
-        "componentKey": "u-whey",
-        "stepKey": "s4",
-        "slotKey": "sl-whey",
-        "quantityValue": 38,
-        "quantityUnit": "g"
-      }
     }
   ]
 }
