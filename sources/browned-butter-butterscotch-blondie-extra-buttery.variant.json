@@ -31,16 +31,6 @@
       }
     },
     {
-      "op": "add",
-      "kind": "note",
-      "payload": {
-        "componentKey": "n5",
-        "kind": "note",
-        "stepKey": "s3",
-        "text": "Extra-Buttery build: 2 tbsp browned butter (double the base) plus an extra egg yolk pushes this toward the rich, buttery cookie-bar end - more tender, more fudgy mouthfeel. The cost is macros: ~+12 cal/square and the ratio climbs from ~13.6 to ~15. Bake it the same, and if anything pull it a touch sooner - the added fat makes the center read set a minute earlier."
-      }
-    },
-    {
       "op": "replace",
       "kind": "step",
       "target": "s3",
@@ -61,6 +51,37 @@
         "quantityValue": 28,
         "quantityUnit": "g"
       }
+    },
+    {
+      "op": "replace",
+      "kind": "note",
+      "target": "n5",
+      "payload": {
+        "componentKey": "n5",
+        "kind": "note",
+        "stepKey": "s3",
+        "text": "Extra-Buttery build: 2 tbsp browned butter (double the base) plus an extra egg yolk pushes this toward the rich, buttery cookie-bar end - more tender, more fudgy mouthfeel. The cost is macros: ~+12 cal/square and the ratio climbs from ~13.6 to ~15. Bake it the same, and if anything pull it a touch sooner - the added fat makes the center read set a minute earlier."
+      }
+    },
+    {
+      "op": "remove",
+      "kind": "usage",
+      "target": "u-maple"
+    },
+    {
+      "op": "remove",
+      "kind": "slot",
+      "target": "sl-maple"
+    },
+    {
+      "op": "remove",
+      "kind": "step",
+      "target": "s8"
+    },
+    {
+      "op": "remove",
+      "kind": "note",
+      "target": "n6"
     }
   ]
 }

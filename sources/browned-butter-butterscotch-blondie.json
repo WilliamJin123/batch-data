@@ -1,6 +1,6 @@
 {
   "name": "Browned-Butter Butterscotch Blondie",
-  "description": "Browned-butter butterscotch blondie - dense, soft, and chewy, sitting between a fudgy brownie and a buttery cookie bar. Butterscotch depth comes from browned butter + real brown sugar (for the molasses and the chew) + butterscotch SF pudding, on a lean whey + Greek-yogurt backbone (no casein, no cream cheese, no molasses). This is the lean recipe-of-record at 1 tbsp butter; the Extra-Buttery variant pushes to 2 tbsp plus an extra yolk for true cookie-bar richness. Underbake on purpose - whey dries fast.",
+  "description": "Browned-butter butterscotch blondie - dense, soft, and chewy, sitting between a fudgy brownie and a buttery cookie bar. Butterscotch depth comes from browned butter + real brown sugar (for the molasses and the chew) + butterscotch SF pudding, on a lean whey + Greek-yogurt backbone (no casein, no cream cheese, no molasses). Finished with a light sugar-free maple drizzle over the top (added after baking) for a glossy maple-butterscotch note at almost no calories. The lean recipe-of-record at 1 tbsp butter; the Extra-Buttery variant pushes to 2 tbsp plus an extra yolk for cookie-bar richness. Underbake on purpose - whey dries fast.",
   "tags": [
     "bars",
     "blondie",
@@ -49,6 +49,11 @@
         "componentKey": "s7",
         "order": 7,
         "instructionText": "Cool in the pan ~10 min, then lift out by the parchment onto a rack so the carryover stops. Cool fully before cutting into 9 squares - they set chewy as they cool, and they're even better the next day."
+      },
+      {
+        "componentKey": "s8",
+        "order": 8,
+        "instructionText": "Finish: once fully cooled and cut, drizzle the sugar-free maple syrup over the top (or over each square as you serve). Added cold and never baked, it stays glossy and reinforces the maple-butterscotch note for almost no calories."
       }
     ],
     "slots": [
@@ -147,6 +152,14 @@
           "kind": "raw",
           "libraryIngredientId": "ing-almond-milk-unsweetened"
         }
+      },
+      {
+        "componentKey": "sl-maple",
+        "name": "sugar-free maple syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-syrup-maple-sf"
+        }
       }
     ],
     "usages": [
@@ -233,6 +246,13 @@
         "slotKey": "sl-milk",
         "quantityValue": 15,
         "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-maple",
+        "stepKey": "s8",
+        "slotKey": "sl-maple",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
       }
     ],
     "notes": [
@@ -259,6 +279,18 @@
         "kind": "pitfall",
         "stepKey": "s6",
         "text": "The bake window is short and unforgiving with whey (no casein here to keep it soft) - it flips from chewy to spongy-dry within a couple minutes of done. Pull it looking slightly underbaked; carryover and cooling finish the set. A center that looks fully dry in the oven is already overbaked on the plate."
+      },
+      {
+        "componentKey": "n5",
+        "kind": "technique",
+        "stepKey": "s8",
+        "text": "The sugar-free maple drizzle goes on AFTER baking and cooling, never into the batter — drizzled cold it stays glossy on top and amplifies the butterscotch; stirred in it would just thin the batter. SF maple is ~30 cal/100g (mostly fiber), so even a generous drizzle barely moves the macros. Drizzle just before serving so it doesn't soak in."
+      },
+      {
+        "componentKey": "n6",
+        "kind": "note",
+        "stepKey": "s3",
+        "text": "With only 1 tbsp of butter there isn't enough liquid to dissolve the brown sugar at this stage — it'll look grainy and chunky, and that's expected, not a mistake. It dissolves and smooths out once the egg, yogurt, and vanilla go in, so just whisk well then. Only bother breaking up hard, packed lumps that survive the wet mix — a hard dry clump won't fully dissolve in the bake, but soft sugary chunks smooth out and bake in."
       }
     ]
   }
