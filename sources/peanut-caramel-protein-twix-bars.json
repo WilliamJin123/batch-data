@@ -1,6 +1,6 @@
 {
   "name": "Peanut Caramel Protein Twix Bars",
-  "description": "A protein Twix: baked shortbread-style base, a real brown-sugar peanut caramel, and a thin chocolate shell. Adapted from a PB-powder-based protein twix — rebuilt without peanut-butter powder (not on hand) and leaned caramel-forward (caramel > PB > chocolate) for better macros. Subs: unflavored plant protein -> plain whey isolate; vanilla whey-casein -> vanilla whey; the PB-powder 'caramel' -> an actual brown-sugar + Fairlife caramel with a modest amount of real creamy PB; SF chopped chocolate -> semi-sweet chips (no SF chocolate in the library), trimmed thin. House calibration: real brown sugar in the caramel (molasses matters); Splenda for added sweetness elsewhere.",
+  "description": "A protein Twix: baked shortbread-style base, a real brown-sugar peanut caramel, and a thin chocolate shell. Adapted from a PB-powder-based protein twix — rebuilt without peanut-butter powder (not on hand) and dialed carb-forward (caramel > PB > chocolate). Subs: unflavored plant + vanilla whey-casein -> a single vanilla-whey protein powder (66 g / ~2 scoops in the base); the PB-powder 'caramel' -> an actual brown-sugar + Fairlife caramel with a modest amount of real creamy PB; SF chopped chocolate -> semi-sweet chips (no SF chocolate in the library), trimmed to a thin shell. House calibration: real brown sugar in the caramel (molasses matters); Splenda for added sweetness elsewhere.",
   "tags": [
     "twix",
     "bars",
@@ -17,7 +17,7 @@
       {
         "componentKey": "s1",
         "order": 1,
-        "instructionText": "Base: whisk together the oat flour, plain whey isolate, vanilla whey, coconut flour, and Splenda.",
+        "instructionText": "Base: whisk together the oat flour, protein powder, coconut flour, and Splenda.",
         "section": "base"
       },
       {
@@ -60,7 +60,6 @@
     ],
     "slots": [
       { "componentKey": "sl-oat", "name": "oat flour", "resolution": { "kind": "raw", "libraryIngredientId": "ing-oat-flour" } },
-      { "componentKey": "sl-isolate", "name": "plain whey isolate", "resolution": { "kind": "raw", "libraryIngredientId": "ing-whey-isolate" } },
       { "componentKey": "sl-vwhey", "name": "vanilla whey protein", "resolution": { "kind": "raw", "libraryIngredientId": "ing-vanilla-whey" } },
       { "componentKey": "sl-coconut", "name": "coconut flour", "resolution": { "kind": "raw", "libraryIngredientId": "ing-coconut-flour" } },
       { "componentKey": "sl-splenda", "name": "granulated Splenda", "resolution": { "kind": "raw", "libraryIngredientId": "ing-splenda-granulated" } },
@@ -73,26 +72,25 @@
       { "componentKey": "sl-cocooil", "name": "coconut oil", "resolution": { "kind": "raw", "libraryIngredientId": "ing-coconut-oil" } }
     ],
     "usages": [
-      { "componentKey": "u-oat", "stepKey": "s1", "slotKey": "sl-oat", "quantityValue": 45, "quantityUnit": "g" },
-      { "componentKey": "u-isolate", "stepKey": "s1", "slotKey": "sl-isolate", "quantityValue": 40, "quantityUnit": "g" },
-      { "componentKey": "u-vwhey-base", "stepKey": "s1", "slotKey": "sl-vwhey", "quantityValue": 40, "quantityUnit": "g" },
+      { "componentKey": "u-oat", "stepKey": "s1", "slotKey": "sl-oat", "quantityValue": 55, "quantityUnit": "g" },
+      { "componentKey": "u-vwhey-base", "stepKey": "s1", "slotKey": "sl-vwhey", "quantityValue": 66, "quantityUnit": "g" },
       { "componentKey": "u-coconut", "stepKey": "s1", "slotKey": "sl-coconut", "quantityValue": 28, "quantityUnit": "g" },
       { "componentKey": "u-splenda", "stepKey": "s1", "slotKey": "sl-splenda", "quantityValue": 2, "quantityUnit": "tbsp" },
       { "componentKey": "u-almondmilk", "stepKey": "s2", "slotKey": "sl-almondmilk", "quantityValue": 100, "quantityUnit": "ml" },
-      { "componentKey": "u-brownsugar", "stepKey": "s4", "slotKey": "sl-brownsugar", "quantityValue": 50, "quantityUnit": "g" },
-      { "componentKey": "u-fairlife", "stepKey": "s4", "slotKey": "sl-fairlife", "quantityValue": 35, "quantityUnit": "g" },
+      { "componentKey": "u-brownsugar", "stepKey": "s4", "slotKey": "sl-brownsugar", "quantityValue": 72, "quantityUnit": "g" },
+      { "componentKey": "u-fairlife", "stepKey": "s4", "slotKey": "sl-fairlife", "quantityValue": 45, "quantityUnit": "g" },
       { "componentKey": "u-salt", "stepKey": "s4", "slotKey": "sl-salt", "quantityValue": 1, "quantityUnit": "pinch" },
       { "componentKey": "u-pb", "stepKey": "s5", "slotKey": "sl-pb", "quantityValue": 22, "quantityUnit": "g" },
       { "componentKey": "u-vwhey-caramel", "stepKey": "s5", "slotKey": "sl-vwhey", "quantityValue": 12, "quantityUnit": "g" },
-      { "componentKey": "u-chips", "stepKey": "s6", "slotKey": "sl-chips", "quantityValue": 30, "quantityUnit": "g" },
-      { "componentKey": "u-cocooil", "stepKey": "s6", "slotKey": "sl-cocooil", "quantityValue": 2, "quantityUnit": "g" }
+      { "componentKey": "u-chips", "stepKey": "s6", "slotKey": "sl-chips", "quantityValue": 18, "quantityUnit": "g" },
+      { "componentKey": "u-cocooil", "stepKey": "s6", "slotKey": "sl-cocooil", "quantityValue": 1, "quantityUnit": "g" }
     ],
     "notes": [
       { "componentKey": "n1", "kind": "pitfall", "text": "Don't overbake the base — pull it as soon as it's set and dry on top. Overbaked, it turns rock-hard and the bars shatter instead of giving a clean twix-style snap.", "stepKey": "s3" },
       { "componentKey": "n2", "kind": "technique", "text": "Stir the vanilla whey into the caramel OFF the heat — protein powder added to a hot, actively-boiling caramel clumps and turns grainy. Take the pan off, let it stop bubbling, then stir it in.", "stepKey": "s5" },
       { "componentKey": "n3", "kind": "pitfall", "text": "The peanut butter is the main fat in the whole bar (everything else is lean). Don't add more than the 22 g — extra PB both blows the fat budget and softens the caramel so it won't set firm.", "stepKey": "s5" },
       { "componentKey": "n4", "kind": "technique", "text": "Chill the caramel layer firm BEFORE pouring the chocolate, or the warm chocolate melts into it and you lose the distinct twix layers.", "stepKey": "s6" },
-      { "componentKey": "n5", "kind": "note", "text": "Caramel-forward by design (caramel > PB > chocolate). To push it even more caramel-heavy, bump the brown sugar — it's fat-free, so it adds caramel flavor and carbs without touching the fat budget.", "stepKey": "s4" }
+      { "componentKey": "n5", "kind": "note", "text": "Caramel-forward by design (caramel > PB > chocolate). To push it even more caramel-heavy, bump the brown sugar — it's fat-free, so it adds caramel flavor and carbs without touching the fat budget, up to about a 15 cal/g-protein ratio.", "stepKey": "s4" }
     ]
   }
 }
