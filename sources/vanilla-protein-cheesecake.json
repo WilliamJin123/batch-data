@@ -154,7 +154,7 @@
         "componentKey": "u-yogurt",
         "stepKey": "s3",
         "slotKey": "sl-yogurt",
-        "quantityValue": 240,
+        "quantityValue": 150,
         "quantityUnit": "g"
       },
       {
@@ -168,7 +168,7 @@
         "componentKey": "u-cottage",
         "stepKey": "s3",
         "slotKey": "sl-cottage",
-        "quantityValue": 57,
+        "quantityValue": 150,
         "quantityUnit": "g"
       },
       {
