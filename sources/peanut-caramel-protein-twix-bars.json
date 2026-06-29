@@ -1,0 +1,98 @@
+{
+  "name": "Peanut Caramel Protein Twix Bars",
+  "description": "A protein Twix: baked shortbread-style base, a real brown-sugar peanut caramel, and a thin chocolate shell. Adapted from a PB-powder-based protein twix — rebuilt without peanut-butter powder (not on hand) and leaned caramel-forward (caramel > PB > chocolate) for better macros. Subs: unflavored plant protein -> plain whey isolate; vanilla whey-casein -> vanilla whey; the PB-powder 'caramel' -> an actual brown-sugar + Fairlife caramel with a modest amount of real creamy PB; SF chopped chocolate -> semi-sweet chips (no SF chocolate in the library), trimmed thin. House calibration: real brown sugar in the caramel (molasses matters); Splenda for added sweetness elsewhere.",
+  "tags": [
+    "twix",
+    "bars",
+    "protein",
+    "caramel",
+    "peanut-butter"
+  ],
+  "yield": {
+    "amount": 8,
+    "unit": "bars"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "s1",
+        "order": 1,
+        "instructionText": "Base: whisk together the oat flour, plain whey isolate, vanilla whey, coconut flour, and Splenda.",
+        "section": "base"
+      },
+      {
+        "componentKey": "s2",
+        "order": 2,
+        "instructionText": "Stir in the almond milk to form a stiff, pressable dough. Press firmly and evenly into a parchment-lined loaf pan or small square pan.",
+        "section": "base"
+      },
+      {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Bake at 325 F (160 C) for 10-12 minutes, until just set and dry to the touch. Cool completely before adding the caramel.",
+        "section": "base",
+        "timerSeconds": 660
+      },
+      {
+        "componentKey": "s4",
+        "order": 4,
+        "instructionText": "Peanut caramel: in a small saucepan over low heat, stir the brown sugar, Fairlife milk, and salt until dissolved and slightly thickened, 3-4 minutes.",
+        "section": "peanut caramel"
+      },
+      {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Off the heat, stir in the peanut butter until smooth, then the vanilla whey. Spread over the cooled base and chill until set, ~30 minutes.",
+        "section": "peanut caramel"
+      },
+      {
+        "componentKey": "s6",
+        "order": 6,
+        "instructionText": "Chocolate shell: melt the chocolate chips with the coconut oil (short microwave bursts, stirring) and spread in a thin even layer over the caramel.",
+        "section": "chocolate"
+      },
+      {
+        "componentKey": "s7",
+        "order": 7,
+        "instructionText": "Chill until the chocolate is set, then lift out and slice into 8 bars. Cut cold for clean edges.",
+        "section": "chocolate"
+      }
+    ],
+    "slots": [
+      { "componentKey": "sl-oat", "name": "oat flour", "resolution": { "kind": "raw", "libraryIngredientId": "ing-oat-flour" } },
+      { "componentKey": "sl-isolate", "name": "plain whey isolate", "resolution": { "kind": "raw", "libraryIngredientId": "ing-whey-isolate" } },
+      { "componentKey": "sl-vwhey", "name": "vanilla whey protein", "resolution": { "kind": "raw", "libraryIngredientId": "ing-vanilla-whey" } },
+      { "componentKey": "sl-coconut", "name": "coconut flour", "resolution": { "kind": "raw", "libraryIngredientId": "ing-coconut-flour" } },
+      { "componentKey": "sl-splenda", "name": "granulated Splenda", "resolution": { "kind": "raw", "libraryIngredientId": "ing-splenda-granulated" } },
+      { "componentKey": "sl-almondmilk", "name": "unsweetened almond milk", "resolution": { "kind": "raw", "libraryIngredientId": "ing-almond-milk-unsweetened" } },
+      { "componentKey": "sl-brownsugar", "name": "brown sugar", "resolution": { "kind": "raw", "libraryIngredientId": "ing-brown-sugar" } },
+      { "componentKey": "sl-fairlife", "name": "Fairlife fat-free milk", "resolution": { "kind": "raw", "libraryIngredientId": "ing-milk-fairlife-skim" } },
+      { "componentKey": "sl-salt", "name": "salt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-salt" } },
+      { "componentKey": "sl-pb", "name": "creamy peanut butter", "resolution": { "kind": "raw", "libraryIngredientId": "ing-peanut-butter" } },
+      { "componentKey": "sl-chips", "name": "semi-sweet chocolate chips", "resolution": { "kind": "raw", "libraryIngredientId": "ing-chocolate-chips-semisweet" } },
+      { "componentKey": "sl-cocooil", "name": "coconut oil", "resolution": { "kind": "raw", "libraryIngredientId": "ing-coconut-oil" } }
+    ],
+    "usages": [
+      { "componentKey": "u-oat", "stepKey": "s1", "slotKey": "sl-oat", "quantityValue": 45, "quantityUnit": "g" },
+      { "componentKey": "u-isolate", "stepKey": "s1", "slotKey": "sl-isolate", "quantityValue": 40, "quantityUnit": "g" },
+      { "componentKey": "u-vwhey-base", "stepKey": "s1", "slotKey": "sl-vwhey", "quantityValue": 40, "quantityUnit": "g" },
+      { "componentKey": "u-coconut", "stepKey": "s1", "slotKey": "sl-coconut", "quantityValue": 28, "quantityUnit": "g" },
+      { "componentKey": "u-splenda", "stepKey": "s1", "slotKey": "sl-splenda", "quantityValue": 2, "quantityUnit": "tbsp" },
+      { "componentKey": "u-almondmilk", "stepKey": "s2", "slotKey": "sl-almondmilk", "quantityValue": 100, "quantityUnit": "ml" },
+      { "componentKey": "u-brownsugar", "stepKey": "s4", "slotKey": "sl-brownsugar", "quantityValue": 50, "quantityUnit": "g" },
+      { "componentKey": "u-fairlife", "stepKey": "s4", "slotKey": "sl-fairlife", "quantityValue": 35, "quantityUnit": "g" },
+      { "componentKey": "u-salt", "stepKey": "s4", "slotKey": "sl-salt", "quantityValue": 1, "quantityUnit": "pinch" },
+      { "componentKey": "u-pb", "stepKey": "s5", "slotKey": "sl-pb", "quantityValue": 22, "quantityUnit": "g" },
+      { "componentKey": "u-vwhey-caramel", "stepKey": "s5", "slotKey": "sl-vwhey", "quantityValue": 12, "quantityUnit": "g" },
+      { "componentKey": "u-chips", "stepKey": "s6", "slotKey": "sl-chips", "quantityValue": 30, "quantityUnit": "g" },
+      { "componentKey": "u-cocooil", "stepKey": "s6", "slotKey": "sl-cocooil", "quantityValue": 2, "quantityUnit": "g" }
+    ],
+    "notes": [
+      { "componentKey": "n1", "kind": "pitfall", "text": "Don't overbake the base — pull it as soon as it's set and dry on top. Overbaked, it turns rock-hard and the bars shatter instead of giving a clean twix-style snap.", "stepKey": "s3" },
+      { "componentKey": "n2", "kind": "technique", "text": "Stir the vanilla whey into the caramel OFF the heat — protein powder added to a hot, actively-boiling caramel clumps and turns grainy. Take the pan off, let it stop bubbling, then stir it in.", "stepKey": "s5" },
+      { "componentKey": "n3", "kind": "pitfall", "text": "The peanut butter is the main fat in the whole bar (everything else is lean). Don't add more than the 22 g — extra PB both blows the fat budget and softens the caramel so it won't set firm.", "stepKey": "s5" },
+      { "componentKey": "n4", "kind": "technique", "text": "Chill the caramel layer firm BEFORE pouring the chocolate, or the warm chocolate melts into it and you lose the distinct twix layers.", "stepKey": "s6" },
+      { "componentKey": "n5", "kind": "note", "text": "Caramel-forward by design (caramel > PB > chocolate). To push it even more caramel-heavy, bump the brown sugar — it's fat-free, so it adds caramel flavor and carbs without touching the fat budget.", "stepKey": "s4" }
+    ]
+  }
+}
