@@ -16,27 +16,32 @@
       {
         "componentKey": "s1",
         "order": 1,
-        "instructionText": "Blend all ingredients except the melted chocolate."
+        "instructionText": "Blend all the base ingredients except the melted chocolate (the glaze is made separately in the final step).",
+        "section": "body"
       },
       {
         "componentKey": "s2",
         "order": 2,
-        "instructionText": "Pour in melted chocolate and blend briefly or fold through until smooth."
+        "instructionText": "Pour in melted chocolate and blend briefly or fold through until smooth.",
+        "section": "body"
       },
       {
         "componentKey": "s3",
         "order": 3,
-        "instructionText": "Add a splash of milk if needed to loosen slightly (should be thick but spreadable)."
+        "instructionText": "Add a splash of milk if needed to loosen slightly (should be thick but spreadable).",
+        "section": "body"
       },
       {
         "componentKey": "s4",
         "order": 4,
-        "instructionText": "Spread into a lined container and smooth the top."
+        "instructionText": "Spread into a lined container and smooth the top.",
+        "section": "body"
       },
       {
         "componentKey": "s5",
         "order": 5,
-        "instructionText": "Mix the glaze ingredients and pour over the top. Sprinkle with flaky sea salt."
+        "instructionText": "Mix the glaze ingredients and pour over the top. Sprinkle with flaky sea salt.",
+        "section": "glaze"
       },
       {
         "componentKey": "s6",
@@ -116,10 +121,10 @@
       },
       {
         "componentKey": "sl9",
-        "name": "protein powder",
+        "name": "chocolate protein powder",
         "resolution": {
           "kind": "raw",
-          "libraryIngredientId": "ing-protein-vanilla"
+          "libraryIngredientId": "ing-protein-chocolate"
         }
       },
       {
@@ -171,7 +176,7 @@
       },
       {
         "componentKey": "u4",
-        "stepKey": "s1",
+        "stepKey": "s2",
         "slotKey": "sl4",
         "quantityValue": 100,
         "quantityUnit": "g"
@@ -206,31 +211,31 @@
       },
       {
         "componentKey": "u9",
-        "stepKey": "s1",
+        "stepKey": "s5",
         "slotKey": "sl9",
         "quantityValue": 1,
         "quantityUnit": "tbsp"
       },
       {
         "componentKey": "u10",
-        "stepKey": "s1",
+        "stepKey": "s5",
         "slotKey": "sl10",
         "quantityValue": 1,
         "quantityUnit": "tbsp"
       },
       {
         "componentKey": "u11",
-        "stepKey": "s1",
+        "stepKey": "s5",
         "slotKey": "sl11",
         "quantityValue": 1,
         "quantityUnit": "tbsp"
       },
       {
         "componentKey": "u12",
-        "stepKey": "s1",
+        "stepKey": "s5",
         "slotKey": "sl12",
         "quantityValue": 1,
-        "quantityUnit": "each"
+        "quantityUnit": "tbsp"
       }
     ],
     "notes": [
