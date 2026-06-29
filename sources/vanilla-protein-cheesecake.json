@@ -1,6 +1,6 @@
 {
   "name": "Vanilla Protein Cheesecake",
-  "description": "Base protein cheesecake (vanilla SF pudding, pumpkin for moisture/body). Launch point for flavor variants. Low-fat / high-protein; pumpkin does the work fat does in a standard cheesecake. Tuned DENSE (Tier 1+2): pumpkin reduced 120->75g + 2 tbsp AP flour for a firmer set (AP because that's what's on hand - its gluten sets denser than cornstarch), baked in a 300F water bath (~40-45 min) to a just-set center and chilled overnight - denser at near-zero macro cost (~130 cal/slice, ratio 9.1). Stays lean; if a bake comes out rubbery rather than densely creamy, add a little fat (more cream cheese or an extra yolk).",
+  "description": "Base protein cheesecake (vanilla SF pudding, pumpkin for moisture/body). Launch point for flavor variants. Low-fat / high-protein; pumpkin does the work fat does in a standard cheesecake. Tuned DENSE (Tier 1+2): pumpkin reduced 120->75g + 2 tbsp AP flour for a firmer set (AP because that's what's on hand - its gluten sets denser than cornstarch), baked in a 300F water bath (~45-55 min) to a just-set center and chilled overnight - denser at near-zero macro cost (~130 cal/slice, ratio 9.1). Stays lean; if a bake comes out rubbery rather than densely creamy, add a little fat (more cream cheese or an extra yolk).",
   "tags": [
     "base",
     "cheesecake",
@@ -41,7 +41,7 @@
         "componentKey": "s6",
         "order": 6,
         "temperature": 300,
-        "instructionText": "Bake in a WATER BATH at 300F for ~40-45 min: foil-wrap the pan bottom and up the sides (heavy-duty, doubled) so the bath can't seep in, set it inside a larger pan, and pour boiling water halfway up the sides. The gentle, humid, low heat is the anti-crack method and gives the smooth top. Time is a guide - pull on the cue: center just set with only a slight wobble (~155-160F), not visibly jiggly. It firms further as it cools; don't chase a fully dry center, that's where a lean cheesecake turns rubbery."
+        "instructionText": "Bake in a WATER BATH at 300F for 45-55 min: foil-wrap the pan bottom and up the sides (heavy-duty, doubled) so the bath can't seep in, set it inside a larger pan, and pour boiling water halfway up the sides. The gentle, humid, low heat is the anti-crack method and gives the smooth top. Time is a guide - pull on the cue: center just set with only a slight wobble (~155-160F), not visibly jiggly. It firms further as it cools; don't chase a fully dry center, that's where a lean cheesecake turns rubbery."
       },
       {
         "componentKey": "s7",
