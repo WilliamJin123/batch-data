@@ -1,0 +1,28 @@
+{
+  "name": "Low-Cal Chocolate Spread",
+  "description": "A spreadable, glossy chocolate frosting/spread at a fraction of the calories of a chocolate or hazelnut spread — the body is 0% Greek yogurt + cocoa, with just a little melted semi-sweet chocolate for gloss and real-chocolate flavor. Higher protein, low fat. Reusable sub-recipe: top cheesecakes, brownies, cakes. 1 batch ~ tops one 8-slice cheesecake.",
+  "tags": ["spread", "frosting", "chocolate", "low-cal", "sub-recipe", "reusable"],
+  "yield": { "amount": 1, "unit": "batch" },
+  "content": {
+    "steps": [
+      { "componentKey": "s1", "order": 1, "instructionText": "Melt the chocolate chips in short microwave bursts, stirring, until just smooth." },
+      { "componentKey": "s2", "order": 2, "instructionText": "Whisk the melted chocolate into the Greek yogurt with the cocoa and Splenda until smooth and glossy. Use right away, or chill briefly to firm." }
+    ],
+    "slots": [
+      { "componentKey": "sl-yogurt", "name": "0% Greek yogurt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-greek-yogurt-nonfat" } },
+      { "componentKey": "sl-cocoa", "name": "unsweetened cocoa powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-cocoa-powder" } },
+      { "componentKey": "sl-chips", "name": "semi-sweet chocolate chips", "resolution": { "kind": "raw", "libraryIngredientId": "ing-chocolate-chips-semisweet" } },
+      { "componentKey": "sl-splenda", "name": "granulated Splenda", "resolution": { "kind": "raw", "libraryIngredientId": "ing-splenda-granulated" } }
+    ],
+    "usages": [
+      { "componentKey": "u-chips", "stepKey": "s1", "slotKey": "sl-chips", "quantityValue": 25, "quantityUnit": "g" },
+      { "componentKey": "u-yogurt", "stepKey": "s2", "slotKey": "sl-yogurt", "quantityValue": 120, "quantityUnit": "g" },
+      { "componentKey": "u-cocoa", "stepKey": "s2", "slotKey": "sl-cocoa", "quantityValue": 12, "quantityUnit": "g" },
+      { "componentKey": "u-splenda", "stepKey": "s2", "slotKey": "sl-splenda", "quantityValue": 2, "quantityUnit": "tbsp" }
+    ],
+    "notes": [
+      { "componentKey": "n1", "kind": "technique", "text": "Fold the melted chocolate into ROOM-TEMPERATURE yogurt — fridge-cold yogurt seizes the melted chocolate into tiny hard bits instead of a smooth spread. Let the yogurt sit out ~15 min first, or warm it briefly.", "stepKey": "s2" },
+      { "componentKey": "n2", "kind": "note", "text": "Body comes from yogurt + cocoa, not butter/cream — that's what keeps it low-cal and adds protein. For a darker, bittersweet version, swap a few grams of the chips for unsweetened baking chocolate plus a touch more Splenda.", "stepKey": "s2" }
+    ]
+  }
+}
