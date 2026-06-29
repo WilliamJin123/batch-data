@@ -33,7 +33,8 @@
       "fat": 1.2,
       "fiber": 0
     },
-    "densityGPerMl": 1
+    "densityGPerMl": 1,
+    "category": "milk"
   },
   {
     "id": "ing-ap-flour",
@@ -294,7 +295,8 @@
       "tsp": 4,
       "tbsp": 12,
       "cup": 192
-    }
+    },
+    "category": "sweetener-zero"
   },
   {
     "id": "ing-oat-flour",
@@ -307,7 +309,8 @@
       "fiber": 7
     },
     "unitEquivalences": {
-      "cup": 120
+      "cup": 120,
+      "tbsp": 7.5
     }
   },
   {
@@ -323,7 +326,8 @@
     "densityGPerMl": 0.1395,
     "unitEquivalences": {
       "scoop": 33
-    }
+    },
+    "category": "protein-powder"
   },
   {
     "id": "ing-pudding-butterscotch-sf",
@@ -391,7 +395,8 @@
       "fat": 0,
       "fiber": 0
     },
-    "densityGPerMl": 0.101
+    "densityGPerMl": 0.101,
+    "category": "sweetener-zero"
   },
   {
     "id": "ing-syrup-cinnamon-sf",
@@ -493,7 +498,8 @@
     "densityGPerMl": 0.1395,
     "unitEquivalences": {
       "scoop": 33
-    }
+    },
+    "category": "protein-powder"
   },
   {
     "id": "ing-coconut-shredded",
@@ -551,7 +557,8 @@
       "fat": 0,
       "fiber": 0
     },
-    "densityGPerMl": 1
+    "densityGPerMl": 1,
+    "category": "sweetener-zero"
   },
   {
     "id": "ing-rolled-oats",
@@ -583,7 +590,8 @@
     "densityGPerMl": 1.035,
     "unitEquivalences": {
       "each": 244
-    }
+    },
+    "category": "milk"
   },
   {
     "id": "ing-espresso-powder",
@@ -933,7 +941,8 @@
     "densityGPerMl": 0.1268,
     "unitEquivalences": {
       "scoop": 30
-    }
+    },
+    "category": "protein-powder"
   },
   {
     "id": "ing-collagen",
@@ -947,7 +956,8 @@
     },
     "unitEquivalences": {
       "scoop": 11
-    }
+    },
+    "category": "protein-powder"
   },
   {
     "id": "ing-sprinkles",
@@ -1006,7 +1016,8 @@
       "fat": 0,
       "fiber": 0
     },
-    "densityGPerMl": 1.04
+    "densityGPerMl": 1.04,
+    "category": "milk"
   },
   {
     "id": "ing-water",
@@ -1157,7 +1168,8 @@
     "densityGPerMl": 0.1395,
     "unitEquivalences": {
       "scoop": 33
-    }
+    },
+    "category": "protein-powder"
   },
   {
     "id": "ing-extract-coconut",
@@ -1295,7 +1307,8 @@
     "densityGPerMl": 0.1268,
     "unitEquivalences": {
       "scoop": 30
-    }
+    },
+    "category": "protein-powder"
   },
   {
     "id": "ing-cream-cheese-fat-free",
@@ -1386,5 +1399,27 @@
       "each": 17,
       "serving": 17
     }
+  },
+  {
+    "id": "ing-granulated-sugar",
+    "name": "granulated sugar",
+    "macrosPer100g": {
+      "calories": 387,
+      "protein": 0,
+      "carbs": 100,
+      "fat": 0,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "tsp": 4.2,
+      "tbsp": 12.5,
+      "cup": 200
+    },
+    "aliases": [
+      "white sugar",
+      "table sugar",
+      "cane sugar",
+      "caster sugar"
+    ]
   }
 ]
