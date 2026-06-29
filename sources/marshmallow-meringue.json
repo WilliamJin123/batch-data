@@ -1,0 +1,81 @@
+{
+  "name": "Marshmallow Meringue",
+  "description": "The toasted-marshmallow stand-in from the Lean S'mores Protein Brownie, pulled out as a reusable topping. Egg whites whipped to stiff, glossy peaks with a little real sugar (for structure) finished with Splenda (for sweetness), then broiler-toasted to a marshmallow brown. Almost fat-free and ~4g protein — a lean way to put a toasted-marshmallow cap on brownies, bars, cheesecake, or hot chocolate. Sub-recipe (1 batch ≈ tops a small 8x4 pan).",
+  "tags": [
+    "meringue",
+    "marshmallow",
+    "topping",
+    "smores",
+    "protein",
+    "lean",
+    "sub-recipe",
+    "reusable"
+  ],
+  "yield": {
+    "amount": 1,
+    "unit": "batch"
+  },
+  "content": {
+    "steps": [
+      {
+        "componentKey": "k1",
+        "order": 1,
+        "instructionText": "Whip the meringue through three stages - aim for STIFF peaks, passing through the first two on the way: (1) FOAMY - whip the egg whites (add a pinch of cream of tartar - or a few drops of lemon juice/vinegar - especially if your whites are the carton/pasteurized kind) on medium until white and frothy with small bubbles, like loose bubble bath, with no real structure yet. This is your cue to start adding sugar. (2) SOFT PEAKS - with the beaters running, rain in the granulated sugar a little at a time (about a teaspoon every 10-15 seconds); soon, when you lift the beaters, a peak forms but its tip flops over. Keep whipping. (3) STIFF PEAKS (your target) - keep going until you lift the beaters straight up and the peak stands on its own without the tip folding and the meringue looks thick and glossy, then beat in the Splenda for just a few seconds at the very end (it's only for sweetness; added early it doesn't dissolve and can slow the foam). STOP once stiff and glossy. Don't whip past glossy: if it turns dull, dry, or grainy/curdled you've gone too far and it will weep when toasted. Rub a dab between two fingers - it should feel smooth, not gritty; if it's gritty the sugar hasn't dissolved, so keep whipping a touch. (By hand with carton/pasteurized whites the foam builds slower - lean on the acid, start with a warm bowl, and add the Splenda late.)"
+      },
+      {
+        "componentKey": "k2",
+        "order": 2,
+        "instructionText": "Spoon the meringue over a FULLY COOLED base and swirl it into rough, spiky peaks with the back of a spoon (the peaks are what catch the broiler and brown). Toast it under the broiler (no torch needed): move an oven rack to the TOP position, 4-6 inches below the element, broil on HIGH, and watch it the WHOLE time - it goes from pale to golden to burnt in well under a minute. Pull it the moment the peaks are toasty brown. Serve soon; like real marshmallow it's best fresh and softens as it sits."
+      }
+    ],
+    "slots": [
+      {
+        "componentKey": "sl-eggwhite",
+        "name": "egg whites",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-white"
+        }
+      },
+      {
+        "componentKey": "sl-sugar",
+        "name": "granulated sugar",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-granulated-sugar"
+        }
+      },
+      {
+        "componentKey": "sl-splenda",
+        "name": "granulated Splenda",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-splenda-granulated"
+        }
+      }
+    ],
+    "usages": [
+      {
+        "componentKey": "u-eggwhite",
+        "stepKey": "k1",
+        "slotKey": "sl-eggwhite",
+        "quantityValue": 40,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-sugar",
+        "stepKey": "k1",
+        "slotKey": "sl-sugar",
+        "quantityValue": 21,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-splenda",
+        "stepKey": "k1",
+        "slotKey": "sl-splenda",
+        "quantityValue": 6,
+        "quantityUnit": "g"
+      }
+    ]
+  }
+}
