@@ -1,6 +1,6 @@
 {
   "name": "Chocolate Protein Donut Holes",
-  "description": "Glazed chocolate protein timbits, synthesized from three source recipes (a 45-ball cookies&cream air-fryer dough, a 26-ball oxywhey air-fryer dough, and an 8-ball baked egg+pudding dough). Best-of: the EGG + a little cornstarch from the baked version (the anti-rubber, anti-dry levers - fat for tenderness, starch to tenderize the crumb and hold moisture; cornstarch stands in for the SF pudding mix so there's nothing to buy), the real cocoa level + Greek-yogurt body + quick air-fry from the air-fryer versions (chocolatey and hard to overbake), AP flour + baking powder instead of drying coconut flour, and just ONE scoop of protein (two scoops is what turns these rubbery - more protein powder is NOT free here). Chocolate protein (out of vanilla); all the chocolate lives in the timbit. The glaze is a separate reusable sub-recipe (Sugar-Free Vanilla Donut Glaze) - a pure sweet white glaze, no powdered sugar, flavor-neutral so it tops any timbit flavor. ~16 balls, very low fat/ball, high protein.",
+  "description": "Glazed chocolate protein timbits, synthesized from three source recipes (a 45-ball cookies&cream air-fryer dough, a 26-ball oxywhey air-fryer dough, and an 8-ball baked egg+pudding dough). Best-of: the EGG + a little cornstarch from the baked version (the anti-rubber, anti-dry levers - fat for tenderness, starch to tenderize the crumb and hold moisture; cornstarch stands in for the SF pudding mix so there's nothing to buy), the real cocoa level + Greek-yogurt body + quick air-fry from the air-fryer versions (chocolatey and hard to overbake), AP flour + baking powder instead of drying coconut flour, and just ONE scoop of protein (two scoops is what turns these rubbery - more protein powder is NOT free here). Chocolate protein (out of vanilla); all the chocolate lives in the timbit. The glaze is a separate reusable sub-recipe (Reduced-Sugar Vanilla Donut Glaze) - real sugar at half the usual amount + monk fruit, so it sets to a true Tim-Hortons crust while staying light (fat-free carbs); flavor-neutral so it tops any timbit flavor. ~16 balls, very low fat/ball, high protein.",
   "tags": [
     "donut-holes",
     "timbits",
@@ -19,7 +19,7 @@
       { "componentKey": "s2", "order": 2, "instructionText": "Add the Greek yogurt and the whole egg; stir and fold to a soft, slightly sticky dough. Chill 15-20 min until it firms up enough to handle (protein/yogurt dough is sticky warm).", "section": "dough" },
       { "componentKey": "s3", "order": 3, "instructionText": "Roll into ~16 even balls with damp or lightly cocoa-dusted hands.", "section": "dough" },
       { "componentKey": "s4", "order": 4, "temperature": 350, "instructionText": "Air fry at 350F for ~5-6 min (or bake at 350F for 10-12 min) until just set and springy to a light press. Pull them the moment they spring back - do NOT chase a dry center, that's where they turn rubbery. Cool ~10 min.", "section": "dough", "timerSeconds": 360 },
-      { "componentKey": "s7", "order": 7, "instructionText": "Make a batch of the glaze (see sub-recipe). Dip or toss the donut holes in it while they're warm but NOT hot - warm grabs the glaze, hot makes it slide off. Set on a wire rack and let the glaze dry/set; the fridge firms it further. Expect some to drip; that's normal.", "section": "glaze" }
+      { "componentKey": "s7", "order": 7, "instructionText": "Make a batch of the glaze (see sub-recipe). Dip or toss the donut holes in it while they're warm but NOT hot - warm grabs the glaze, hot makes it slide off. Set on a wire rack and AIR-DRY at room temp (NOT the fridge - cold keeps a sugar glaze tacky) until it skins over, ~15-20 min; double-dip for a thicker, crackly Tim-Hortons-style shell. Expect some to drip; that's normal.", "section": "glaze" }
     ],
     "slots": [
       { "componentKey": "sl-flour", "name": "all-purpose flour", "resolution": { "kind": "raw", "libraryIngredientId": "ing-ap-flour" } },
@@ -31,7 +31,7 @@
       { "componentKey": "sl-salt", "name": "salt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-salt" } },
       { "componentKey": "sl-yogurt", "name": "0% Greek yogurt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-greek-yogurt-nonfat" } },
       { "componentKey": "sl-egg", "name": "whole egg", "resolution": { "kind": "raw", "libraryIngredientId": "ing-egg-whole" } },
-      { "componentKey": "sl-glaze", "name": "sugar-free vanilla donut glaze", "resolution": { "kind": "sub_recipe", "subRecipeVersionId": "801a948a-f777-43a1-a101-f06cd3655105" } }
+      { "componentKey": "sl-glaze", "name": "reduced-sugar vanilla donut glaze", "resolution": { "kind": "sub_recipe", "subRecipeVersionId": "d6290f78-8af4-41d6-aad3-1dce3eff6a71" } }
     ],
     "usages": [
       { "componentKey": "u-flour", "stepKey": "s1", "slotKey": "sl-flour", "quantityValue": 90, "quantityUnit": "g" },
