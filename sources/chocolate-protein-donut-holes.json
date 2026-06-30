@@ -1,6 +1,6 @@
 {
   "name": "Chocolate Protein Donut Holes",
-  "description": "Glazed chocolate protein timbits, synthesized from three source recipes (a 45-ball cookies&cream air-fryer dough, a 26-ball oxywhey air-fryer dough, and an 8-ball baked egg+pudding dough). Best-of: the EGG + SF pudding from the baked version (the anti-rubber, anti-dry levers - fat for tenderness, gums to hold moisture), the real cocoa level + Greek-yogurt body + quick air-fry from the air-fryer versions (chocolatey and hard to overbake), AP flour + baking powder instead of drying coconut flour, and just ONE scoop of protein (two scoops is what turns these rubbery - more protein powder is NOT free here). Chocolate protein (out of vanilla). The glaze is the point: no powdered-sugar sub on hand, so granulated Splenda is blitzed to a powder for body, a little melted semi-sweet chocolate gives gloss and lets it actually SET in the fridge, and liquid monk fruit + a pinch of salt + espresso powder are the kick - concentrated sweetness and deepened chocolate with no grit. ~16 balls, very low fat/ball, high protein.",
+  "description": "Glazed chocolate protein timbits, synthesized from three source recipes (a 45-ball cookies&cream air-fryer dough, a 26-ball oxywhey air-fryer dough, and an 8-ball baked egg+pudding dough). Best-of: the EGG + a little cornstarch from the baked version (the anti-rubber, anti-dry levers - fat for tenderness, starch to tenderize the crumb and hold moisture; cornstarch stands in for the SF pudding mix so there's nothing to buy), the real cocoa level + Greek-yogurt body + quick air-fry from the air-fryer versions (chocolatey and hard to overbake), AP flour + baking powder instead of drying coconut flour, and just ONE scoop of protein (two scoops is what turns these rubbery - more protein powder is NOT free here). Chocolate protein (out of vanilla); all the chocolate lives in the timbit. The glaze is a separate reusable sub-recipe (Sugar-Free Vanilla Donut Glaze) - a pure sweet white glaze, no powdered sugar, flavor-neutral so it tops any timbit flavor. ~16 balls, very low fat/ball, high protein.",
   "tags": [
     "donut-holes",
     "timbits",
@@ -15,90 +15,39 @@
   },
   "content": {
     "steps": [
-      {
-        "componentKey": "s1",
-        "order": 1,
-        "instructionText": "Whisk together the dry ingredients: AP flour, chocolate protein powder, cocoa, SF vanilla pudding mix, baking powder (1 tsp), granulated Splenda, and a pinch of salt.",
-        "section": "dough"
-      },
-      {
-        "componentKey": "s2",
-        "order": 2,
-        "instructionText": "Add the Greek yogurt and the whole egg; stir and fold to a soft, slightly sticky dough. Chill 15-20 min until it firms up enough to handle (protein/yogurt dough is sticky warm).",
-        "section": "dough"
-      },
-      {
-        "componentKey": "s3",
-        "order": 3,
-        "instructionText": "Roll into ~16 even balls with damp or lightly cocoa-dusted hands.",
-        "section": "dough"
-      },
-      {
-        "componentKey": "s4",
-        "order": 4,
-        "temperature": 350,
-        "instructionText": "Air fry at 350F for ~5-6 min (or bake at 350F for 10-12 min) until just set and springy to a light press. Pull them the moment they spring back - do NOT chase a dry center, that's where they turn rubbery. Cool ~10 min.",
-        "section": "dough",
-        "timerSeconds": 360
-      },
-      {
-        "componentKey": "s5",
-        "order": 5,
-        "instructionText": "Glaze: blitz the granulated Splenda to a fine powder in a blender or spice grinder (this is your DIY powdered sweetener - the body of the glaze). Separately, melt the semi-sweet chocolate chips in short microwave bursts, stirring, until just smooth.",
-        "section": "glaze"
-      },
-      {
-        "componentKey": "s6",
-        "order": 6,
-        "instructionText": "Whisk the melted chocolate with the powdered Splenda, cocoa, almond milk, liquid monk fruit, vanilla, espresso powder, and a pinch of salt into a smooth, pourable glaze. Thin with a few more drops of almond milk if it's too thick to coat. Taste and add a drop more monk fruit if you want more kick.",
-        "section": "glaze"
-      },
-      {
-        "componentKey": "s7",
-        "order": 7,
-        "instructionText": "Dip or toss the balls in the glaze while they're warm but NOT hot (warm grabs the glaze; hot makes it slide right off). Set on a wire rack and chill to set the glaze - the melted chocolate firms it into a real coating. Expect about half the glaze to drip off; that's normal.",
-        "section": "glaze"
-      }
+      { "componentKey": "s1", "order": 1, "instructionText": "Whisk together the dry ingredients: AP flour, chocolate protein powder, cocoa, cornstarch, baking powder (1 tsp), granulated Splenda, and a pinch of salt.", "section": "dough" },
+      { "componentKey": "s2", "order": 2, "instructionText": "Add the Greek yogurt and the whole egg; stir and fold to a soft, slightly sticky dough. Chill 15-20 min until it firms up enough to handle (protein/yogurt dough is sticky warm).", "section": "dough" },
+      { "componentKey": "s3", "order": 3, "instructionText": "Roll into ~16 even balls with damp or lightly cocoa-dusted hands.", "section": "dough" },
+      { "componentKey": "s4", "order": 4, "temperature": 350, "instructionText": "Air fry at 350F for ~5-6 min (or bake at 350F for 10-12 min) until just set and springy to a light press. Pull them the moment they spring back - do NOT chase a dry center, that's where they turn rubbery. Cool ~10 min.", "section": "dough", "timerSeconds": 360 },
+      { "componentKey": "s7", "order": 7, "instructionText": "Make a batch of the glaze (see sub-recipe). Dip or toss the donut holes in it while they're warm but NOT hot - warm grabs the glaze, hot makes it slide off. Set on a wire rack and let the glaze dry/set; the fridge firms it further. Expect some to drip; that's normal.", "section": "glaze" }
     ],
     "slots": [
       { "componentKey": "sl-flour", "name": "all-purpose flour", "resolution": { "kind": "raw", "libraryIngredientId": "ing-ap-flour" } },
       { "componentKey": "sl-protein", "name": "chocolate protein powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-protein-chocolate" } },
       { "componentKey": "sl-cocoa", "name": "unsweetened cocoa powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-cocoa-powder" } },
-      { "componentKey": "sl-pudding", "name": "vanilla SF pudding mix", "resolution": { "kind": "raw", "libraryIngredientId": "ing-pudding-vanilla-sf" } },
+      { "componentKey": "sl-cornstarch", "name": "cornstarch", "resolution": { "kind": "raw", "libraryIngredientId": "ing-cornstarch" } },
       { "componentKey": "sl-bp", "name": "baking powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-baking-powder" } },
       { "componentKey": "sl-splenda", "name": "granulated Splenda", "resolution": { "kind": "raw", "libraryIngredientId": "ing-splenda-granulated" } },
       { "componentKey": "sl-salt", "name": "salt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-salt" } },
       { "componentKey": "sl-yogurt", "name": "0% Greek yogurt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-greek-yogurt-nonfat" } },
       { "componentKey": "sl-egg", "name": "whole egg", "resolution": { "kind": "raw", "libraryIngredientId": "ing-egg-whole" } },
-      { "componentKey": "sl-chips", "name": "semi-sweet chocolate chips", "resolution": { "kind": "raw", "libraryIngredientId": "ing-chocolate-chips-semisweet" } },
-      { "componentKey": "sl-almondmilk", "name": "unsweetened almond milk", "resolution": { "kind": "raw", "libraryIngredientId": "ing-almond-milk-unsweetened" } },
-      { "componentKey": "sl-monkfruit", "name": "liquid monk fruit", "resolution": { "kind": "raw", "libraryIngredientId": "ing-monk-fruit-liquid" } },
-      { "componentKey": "sl-vanilla", "name": "vanilla extract", "resolution": { "kind": "raw", "libraryIngredientId": "ing-vanilla-extract" } },
-      { "componentKey": "sl-espresso", "name": "espresso powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-espresso-powder" } }
+      { "componentKey": "sl-glaze", "name": "sugar-free vanilla donut glaze", "resolution": { "kind": "sub_recipe", "subRecipeVersionId": "801a948a-f777-43a1-a101-f06cd3655105" } }
     ],
     "usages": [
       { "componentKey": "u-flour", "stepKey": "s1", "slotKey": "sl-flour", "quantityValue": 90, "quantityUnit": "g" },
       { "componentKey": "u-protein", "stepKey": "s1", "slotKey": "sl-protein", "quantityValue": 33, "quantityUnit": "g" },
       { "componentKey": "u-cocoa-dough", "stepKey": "s1", "slotKey": "sl-cocoa", "quantityValue": 14, "quantityUnit": "g" },
-      { "componentKey": "u-pudding", "stepKey": "s1", "slotKey": "sl-pudding", "quantityValue": 1, "quantityUnit": "tbsp" },
+      { "componentKey": "u-cornstarch", "stepKey": "s1", "slotKey": "sl-cornstarch", "quantityValue": 8, "quantityUnit": "g" },
       { "componentKey": "u-bp", "stepKey": "s1", "slotKey": "sl-bp", "quantityValue": 5, "quantityUnit": "g" },
       { "componentKey": "u-splenda-dough", "stepKey": "s1", "slotKey": "sl-splenda", "quantityValue": 2, "quantityUnit": "tbsp" },
       { "componentKey": "u-salt-dough", "stepKey": "s1", "slotKey": "sl-salt", "quantityValue": 1, "quantityUnit": "pinch" },
       { "componentKey": "u-yogurt", "stepKey": "s2", "slotKey": "sl-yogurt", "quantityValue": 150, "quantityUnit": "g" },
       { "componentKey": "u-egg", "stepKey": "s2", "slotKey": "sl-egg", "quantityValue": 1, "quantityUnit": "each" },
-      { "componentKey": "u-chips", "stepKey": "s5", "slotKey": "sl-chips", "quantityValue": 15, "quantityUnit": "g" },
-      { "componentKey": "u-splenda-glaze", "stepKey": "s6", "slotKey": "sl-splenda", "quantityValue": 4, "quantityUnit": "tbsp" },
-      { "componentKey": "u-cocoa-glaze", "stepKey": "s6", "slotKey": "sl-cocoa", "quantityValue": 6, "quantityUnit": "g" },
-      { "componentKey": "u-almondmilk", "stepKey": "s6", "slotKey": "sl-almondmilk", "quantityValue": 30, "quantityUnit": "ml" },
-      { "componentKey": "u-monkfruit", "stepKey": "s6", "slotKey": "sl-monkfruit", "quantityValue": 1, "quantityUnit": "g" },
-      { "componentKey": "u-vanilla", "stepKey": "s6", "slotKey": "sl-vanilla", "quantityValue": 0.25, "quantityUnit": "tsp" },
-      { "componentKey": "u-espresso", "stepKey": "s6", "slotKey": "sl-espresso", "quantityValue": 0.5, "quantityUnit": "g" }
+      { "componentKey": "u-glaze", "stepKey": "s7", "slotKey": "sl-glaze", "quantityValue": 1, "quantityUnit": "batch" }
     ],
     "notes": [
       { "componentKey": "n1", "kind": "pitfall", "text": "Overbaking is the #1 thing that ruins these. Protein-powder + Greek-yogurt dough goes rubbery and dry the second it overcooks. Air fryers run hot and fast - start checking at 5 min and pull the moment they spring back to a light press; the center can look slightly underdone and it'll be perfect once cooled.", "stepKey": "s4" },
-      { "componentKey": "n2", "kind": "technique", "text": "The egg, the SF pudding mix, and holding protein to ONE scoop are the anti-rubber levers. Don't 'boost the macros' by adding a second scoop - extra whey is exactly what makes protein bakes dry and bouncy. If you want more protein in the day, eat two donut holes, don't load the dough.", "stepKey": "s1" },
-      { "componentKey": "n3", "kind": "technique", "text": "No powdered-sugar sub on hand? Blitz the granulated Splenda to a fine powder in a blender or spice grinder - that powder is what gives the glaze body and a smooth (not grainy) coat. The little bit of melted semi-sweet chocolate is what makes it glossy and lets it SET in the fridge into a real shell instead of a wet smear.", "stepKey": "s5" },
-      { "componentKey": "n4", "kind": "technique", "text": "The glaze kick comes from concentration, not sugar: liquid monk fruit dials sweetness up with zero grit, a pinch of salt sharpens it, and the espresso powder deepens the chocolate (you won't taste coffee at 1/8 tsp). Build the glaze, then taste and add monk fruit a drop at a time until it pops.", "stepKey": "s6" },
+      { "componentKey": "n2", "kind": "technique", "text": "The egg, the cornstarch, and holding protein to ONE scoop are the anti-rubber levers. The egg adds fat for tenderness, the cornstarch tenderizes the crumb and holds moisture (it replaces the SF pudding mix - same job, nothing to buy), and one scoop of protein keeps it from going dry and bouncy. Don't add a second scoop to 'boost macros' - extra whey is exactly what turns protein bakes rubbery. Want more protein? Eat two.", "stepKey": "s1" },
       { "componentKey": "n5", "kind": "technique", "text": "Chill the dough 15-20 min before rolling - warm protein/yogurt dough is sticky and won't ball up cleanly. Damp or lightly cocoa-dusted hands keep it from gluing to you.", "stepKey": "s3" }
     ]
   }

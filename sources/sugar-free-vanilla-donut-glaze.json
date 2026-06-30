@@ -1,0 +1,41 @@
+{
+  "name": "Sugar-Free Vanilla Donut Glaze",
+  "description": "A pure sweet white glaze for protein timbits/donut holes - the classic thin sugar glaze, made without powdered sugar. No powdered-sugar sub on hand, so granulated Splenda is blitzed to a fine powder for the body, loosened with almond milk, and the kick comes from liquid monk fruit + a pinch of salt + vanilla (concentrated sweetness with no grit). Deliberately FLAVOR-NEUTRAL so it works as the glaze on any timbit flavor - the chocolate (or whatever) lives in the timbit, the glaze is just clean sweet shine. Reusable sub-recipe. 1 batch glazes ~16 timbits.",
+  "tags": [
+    "glaze",
+    "sub-recipe",
+    "reusable",
+    "sugar-free",
+    "vanilla",
+    "donut"
+  ],
+  "yield": {
+    "amount": 1,
+    "unit": "batch"
+  },
+  "content": {
+    "steps": [
+      { "componentKey": "s1", "order": 1, "instructionText": "Blitz the granulated Splenda to a fine powder in a blender or spice grinder - this is your DIY powdered sweetener and the body of the glaze. (Granulated sweetener won't dissolve smooth; powdering it is what gives a clean, non-grainy coat.)" },
+      { "componentKey": "s2", "order": 2, "instructionText": "Whisk the powdered Splenda with the almond milk, vanilla, liquid monk fruit, and a pinch of salt until smooth and just pourable - it should ribbon off the whisk and coat the back of a spoon. Add almond milk a few drops at a time if too thick. Taste and add monk fruit a drop at a time until the sweetness pops." }
+    ],
+    "slots": [
+      { "componentKey": "sl-splenda", "name": "granulated Splenda", "resolution": { "kind": "raw", "libraryIngredientId": "ing-splenda-granulated" } },
+      { "componentKey": "sl-almondmilk", "name": "unsweetened almond milk", "resolution": { "kind": "raw", "libraryIngredientId": "ing-almond-milk-unsweetened" } },
+      { "componentKey": "sl-vanilla", "name": "vanilla extract", "resolution": { "kind": "raw", "libraryIngredientId": "ing-vanilla-extract" } },
+      { "componentKey": "sl-monkfruit", "name": "liquid monk fruit", "resolution": { "kind": "raw", "libraryIngredientId": "ing-monk-fruit-liquid" } },
+      { "componentKey": "sl-salt", "name": "salt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-salt" } }
+    ],
+    "usages": [
+      { "componentKey": "u-splenda", "stepKey": "s2", "slotKey": "sl-splenda", "quantityValue": 6, "quantityUnit": "tbsp" },
+      { "componentKey": "u-almondmilk", "stepKey": "s2", "slotKey": "sl-almondmilk", "quantityValue": 30, "quantityUnit": "ml" },
+      { "componentKey": "u-vanilla", "stepKey": "s2", "slotKey": "sl-vanilla", "quantityValue": 0.5, "quantityUnit": "tsp" },
+      { "componentKey": "u-monkfruit", "stepKey": "s2", "slotKey": "sl-monkfruit", "quantityValue": 1.5, "quantityUnit": "g" },
+      { "componentKey": "u-salt", "stepKey": "s2", "slotKey": "sl-salt", "quantityValue": 1, "quantityUnit": "pinch" }
+    ],
+    "notes": [
+      { "componentKey": "n1", "kind": "technique", "text": "Powdered sweetener glaze sets softer than a real powdered-sugar glaze - it firms as it dries on a rack and firms more in the fridge, but it stays a thin glaze, not a hard crackable shell. Keep it on the thicker side (less almond milk) and let it dry undisturbed for the best set.", "stepKey": "s2" },
+      { "componentKey": "n2", "kind": "technique", "text": "The kick is concentration, not bulk: liquid monk fruit pushes sweetness up with zero grit, and a pinch of salt sharpens it so it reads like a real sugar glaze instead of flat diet-sweet. Always finish by tasting and adjusting the monk fruit.", "stepKey": "s2" },
+      { "componentKey": "n3", "kind": "note", "text": "Flavor-neutral on purpose. To theme it to a flavor without breaking the all-timbit reusability, swap the vanilla for another extract (maple, almond, peppermint) - but for chocolate timbits leave it plain vanilla so the glaze stays the clean sweet contrast to the chocolate." }
+    ]
+  }
+}
