@@ -31,7 +31,7 @@
       { "componentKey": "sl-salt", "name": "salt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-salt" } },
       { "componentKey": "sl-yogurt", "name": "0% Greek yogurt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-greek-yogurt-nonfat" } },
       { "componentKey": "sl-egg", "name": "whole egg", "resolution": { "kind": "raw", "libraryIngredientId": "ing-egg-whole" } },
-      { "componentKey": "sl-glaze", "name": "reduced-sugar vanilla donut glaze", "resolution": { "kind": "sub_recipe", "subRecipeVersionId": "d6290f78-8af4-41d6-aad3-1dce3eff6a71" } }
+      { "componentKey": "sl-glaze", "name": "reduced-sugar donut glaze (brown sugar)", "resolution": { "kind": "sub_recipe", "subRecipeVersionId": "a6b6b00d-a4ce-4e5d-a2f0-a340d07902c9" } }
     ],
     "usages": [
       { "componentKey": "u-flour", "stepKey": "s1", "slotKey": "sl-flour", "quantityValue": 90, "quantityUnit": "g" },

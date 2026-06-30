@@ -1,6 +1,6 @@
 {
   "name": "Reduced-Sugar Vanilla Donut Glaze",
-  "description": "A pure sweet white glaze for protein timbits/donut holes - the classic thin sugar glaze that actually crusts. Uses real granulated sugar at HALF the usual amount (blitzed with a little cornstarch into DIY powdered sugar), with liquid monk fruit carrying the rest of the sweetness - so it sets to a true Tim-Hortons-style skin (sucrose recrystallizing as it air-dries) while staying light: fat-free carbs, about half the sugar of a full glaze. Flavor-neutral on purpose so it tops any timbit flavor. Reusable sub-recipe; 1 batch glazes ~16 timbits. Dip warm, air-dry on a rack (never the fridge), double-dip for a thicker shell.",
+  "description": "A sweet glaze for protein timbits/donut holes - the classic thin sugar glaze that actually crusts. Uses real BROWN sugar at HALF the usual amount (its molasses caramel note plays especially well with chocolate), blitzed with a little cornstarch into DIY powdered sugar, with liquid monk fruit carrying the rest of the sweetness - so it sets to a true Tim-Hortons-style skin (sugar recrystallizing as it air-dries) while staying light: fat-free carbs, about half the sugar of a full glaze. Swap to white sugar at the same weight for a clean flavor-neutral glaze. Reusable sub-recipe; 1 batch glazes ~16 timbits. Dip warm, air-dry on a rack (never the fridge), double-dip for a thicker shell.",
   "tags": [
     "glaze",
     "sub-recipe",
@@ -15,11 +15,11 @@
   },
   "content": {
     "steps": [
-      { "componentKey": "s1", "order": 1, "instructionText": "Blitz the granulated sugar with the cornstarch to a fine powder in a blender or spice grinder - this is DIY powdered sugar. The cornstarch keeps it from caking and gives the glaze body; sift out any grit." },
+      { "componentKey": "s1", "order": 1, "instructionText": "Blitz the brown sugar with the cornstarch to a fine powder in a blender or spice grinder - this is DIY powdered (brown) sugar; the cornstarch keeps it from caking and gives the glaze body. Brown sugar is moist and may clump - sift out lumps, or just skip the blitz and dissolve it fully in the warm-milk step instead." },
       { "componentKey": "s2", "order": 2, "instructionText": "Whisk the powdered sugar with just enough warm milk to make a THICK, barely-pourable glaze - start with 1 tbsp and add by the teaspoon; a thin glaze won't crust. Whisk in the liquid monk fruit, vanilla, and a pinch of salt. For the best set, warm it ~10-15 sec and stir until the sugar is fully dissolved and smooth - dissolved sugar re-crystallizes into a cleaner crust as it dries. Taste and add monk fruit a drop at a time for sweetness." }
     ],
     "slots": [
-      { "componentKey": "sl-sugar", "name": "granulated sugar", "resolution": { "kind": "raw", "libraryIngredientId": "ing-granulated-sugar" } },
+      { "componentKey": "sl-sugar", "name": "brown sugar", "resolution": { "kind": "raw", "libraryIngredientId": "ing-brown-sugar" } },
       { "componentKey": "sl-cornstarch", "name": "cornstarch", "resolution": { "kind": "raw", "libraryIngredientId": "ing-cornstarch" } },
       { "componentKey": "sl-almondmilk", "name": "unsweetened almond milk", "resolution": { "kind": "raw", "libraryIngredientId": "ing-almond-milk-unsweetened" } },
       { "componentKey": "sl-vanilla", "name": "vanilla extract", "resolution": { "kind": "raw", "libraryIngredientId": "ing-vanilla-extract" } },
@@ -38,7 +38,7 @@
       { "componentKey": "n1", "kind": "technique", "text": "This is a real (half-quantity) sugar glaze, so it actually crusts like a donut-shop glaze - but only if you dry it right: dip the timbits warm, then AIR-DRY on a rack at room temp. Do NOT refrigerate it - cold and damp keep it tacky and kill the crust. It skins over in ~15-20 min; for a thicker Tim-Hortons-style shell, double-dip (glaze, let set, glaze again).", "stepKey": "s2" },
       { "componentKey": "n2", "kind": "technique", "text": "Half the sugar of a full glaze, with liquid monk fruit carrying the rest of the sweetness - that keeps it light (fat-free carbs, ~half the sugar) while still giving a real sugar crust. Don't replace the missing sugar with granulated Splenda: it's maltodextrin-based and hygroscopic, which actively fights the crust you're after. Sugar sets; monk fruit sweetens.", "stepKey": "s2" },
       { "componentKey": "n3", "kind": "note", "text": "Flavor-neutral on purpose. To theme it to a flavor without breaking the all-timbit reusability, swap the vanilla for another extract (maple, almond, peppermint) - but for chocolate timbits leave it plain vanilla so the glaze stays the clean sweet contrast to the chocolate." },
-      { "componentKey": "n4", "kind": "note", "text": "White granulated sugar gives the cleanest clear-white TH look. Brown sugar works at the same weight but tints the glaze tan and adds a light caramel note - not classic, but honestly nice on a chocolate timbit. Powder it the same way (it may clump from the molasses - sift well)." }
+      { "componentKey": "n4", "kind": "note", "text": "Brown sugar is the default here - on taste, its molasses caramel note plays beautifully with a chocolate timbit (and most flavors). Swap in white granulated sugar at the same weight for a cleaner, clear-white, flavor-neutral glaze (e.g. under a fruit or vanilla timbit where caramel would muddy it). Same set either way." }
     ]
   }
 }
