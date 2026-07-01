@@ -1435,5 +1435,16 @@
     "unitEquivalences": {
       "tbsp": 10.5
     }
+  },
+  {
+    "id": "ing-brownie-mix",
+    "name": "brownie mix (dry, Ghirardelli-style)",
+    "macrosPer100g": {
+      "calories": 429,
+      "protein": 3.6,
+      "carbs": 96,
+      "fat": 5.4,
+      "fiber": 3.6
+    }
   }
 ]

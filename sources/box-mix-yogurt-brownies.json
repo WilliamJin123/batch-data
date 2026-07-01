@@ -1,0 +1,27 @@
+{
+  "name": "Box-Mix Yogurt Brownies (Control)",
+  "description": "The lazy benchmark arm of the brownie bake-off: half a box of brownie mix with Greek yogurt standing in for the oil + egg. The mix's pre-blended sugar (the one dial you can NOT turn down) does the fudgy heavy lifting, so cutting the added fat barely costs texture - this is 'ceiling fudgy' at minimum effort, and the reference the from-scratch Fudgy Cocoa Brownies base has to beat. If this wins clearly, the gap is sugar quantity and the scratch base's brown-sugar ratio goes up; if it doesn't, the box question is answered. Floor is fixed: nearly all calories are mix sugar, ~2g protein per square. Macros assume a Ghirardelli-style mix - adjust ing-brownie-mix to the actual box label before trusting the numbers.",
+  "tags": ["brownies", "chocolate", "box-mix", "control", "bake-off", "dessert"],
+  "yield": { "amount": 8, "unit": "brownies" },
+  "content": {
+    "steps": [
+      { "componentKey": "s1", "order": 1, "instructionText": "Stir together half the box of dry brownie mix, the Greek yogurt, and the water until just combined - the batter will be thick and glossy. No oil, no egg; the yogurt replaces both." },
+      { "componentKey": "s2", "order": 2, "temperature": 350, "timerSeconds": 1200, "instructionText": "Spread into a small lined pan (~6-inch or mini loaf x2) and bake at 350F for ~20-22 min - yogurt batters bake a little slower than the box directions. Pull at MOIST CRUMBS on a toothpick, cool fully in the pan, cut 8 squares." }
+    ],
+    "slots": [
+      { "componentKey": "sl-mix", "name": "brownie mix (dry)", "resolution": { "kind": "raw", "libraryIngredientId": "ing-brownie-mix" } },
+      { "componentKey": "sl-yogurt", "name": "0% Greek yogurt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-greek-yogurt-nonfat" } },
+      { "componentKey": "sl-water", "name": "water", "resolution": { "kind": "raw", "libraryIngredientId": "ing-water" } }
+    ],
+    "usages": [
+      { "componentKey": "u-mix", "stepKey": "s1", "slotKey": "sl-mix", "quantityValue": 255, "quantityUnit": "g" },
+      { "componentKey": "u-yogurt", "stepKey": "s1", "slotKey": "sl-yogurt", "quantityValue": 100, "quantityUnit": "g" },
+      { "componentKey": "u-water", "stepKey": "s1", "slotKey": "sl-water", "quantityValue": 60, "quantityUnit": "ml" }
+    ],
+    "notes": [
+      { "componentKey": "n1", "kind": "technique", "text": "Yogurt-for-oil works on a box mix precisely because the mix is ~70% sugar - dissolved sugar carries the fudge and chew, so the fat is nearly free to cut. This is the opposite trade from the scratch base, where fat does the fudgy work and sugar is the capped dial.", "stepKey": "s1" },
+      { "componentKey": "n2", "kind": "note", "text": "Bake-off arm vs Fudgy Cocoa Brownies (Low-Cal). Judge on dense/fudgy/chewy per bite, not per calorie alone - then promote the winner and retire (or tune) the loser. Batter texture varies by mix brand: add water 1 tbsp at a time only if it will not stir together." },
+      { "componentKey": "n3", "kind": "pitfall", "text": "Box directions assume oil and a full box - ignore their pan size and time. Half box in a small pan at 350F, start checking at 18 min, pull at moist crumbs.", "stepKey": "s2" }
+    ]
+  }
+}
