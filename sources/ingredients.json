@@ -1421,5 +1421,19 @@
       "cane sugar",
       "caster sugar"
     ]
+  },
+  {
+    "id": "ing-chocolate-chips-milk",
+    "name": "milk chocolate chips (mini)",
+    "macrosPer100g": {
+      "calories": 535,
+      "protein": 7.7,
+      "carbs": 59,
+      "fat": 30,
+      "fiber": 3.4
+    },
+    "unitEquivalences": {
+      "tbsp": 10.5
+    }
   }
 ]

@@ -1,0 +1,48 @@
+{
+  "name": "Fudgy Cocoa Brownies (Low-Cal)",
+  "description": "A deliberately protein-powder-FREE fudgy brownie - the anti-rubber move after protein-brownie bases kept landing bouncy/dry. Fudge comes from the classic levers: real butter + real milk chocolate chips (fat IS fudgy), cocoa-dominant and flour-light (25g cocoa vs ~31g flour = dense, not cakey), Greek yogurt + almond milk for moisture, espresso to deepen the chocolate. Sweetened with brown sugar (the CHEW lever - molasses = bend + moisture + caramel-against-chocolate) topped off with granulated Splenda. Adapted from an online satiety-optimized recipe (monk fruit swapped for the brown sugar + Splenda combo). Fat runs ~35-40% of calories by design - it is the whole batch's ~25g of fat doing the fudgy work; this is a lean dessert, not a protein bake (~16g protein/batch from egg + yogurt). High carb, low cal, satiating.",
+  "tags": ["brownies", "chocolate", "fudgy", "low-cal", "dessert"],
+  "yield": { "amount": 4, "unit": "brownies" },
+  "content": {
+    "steps": [
+      { "componentKey": "s1", "order": 1, "instructionText": "Whisk the dry ingredients: AP flour, cocoa powder, brown sugar, granulated Splenda, espresso powder, baking soda, and salt. Break up any brown-sugar lumps." },
+      { "componentKey": "s2", "order": 2, "instructionText": "In a second bowl whisk the melted (slightly cooled) butter, egg, Greek yogurt, and almond milk until smooth." },
+      { "componentKey": "s3", "order": 3, "instructionText": "Fold wet into dry until JUST combined - with this little flour there's no gluten to toughen, but don't beat air in; a dense batter bakes a dense brownie. Fold in the chocolate chips. Spread into a small lined pan (mini loaf pan or ~6-inch)." },
+      { "componentKey": "s4", "order": 4, "temperature": 350, "timerSeconds": 1080, "instructionText": "Bake at 350F for ~18-20 min. Pull when the edges are set but a toothpick in the center still comes out with MOIST CRUMBS - a clean toothpick means overbaked. Cool fully in the pan (they set as they cool); cut 4 squares." }
+    ],
+    "slots": [
+      { "componentKey": "sl-flour", "name": "all-purpose flour", "resolution": { "kind": "raw", "libraryIngredientId": "ing-ap-flour" } },
+      { "componentKey": "sl-cocoa", "name": "unsweetened cocoa powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-cocoa-powder" } },
+      { "componentKey": "sl-brownsugar", "name": "brown sugar", "resolution": { "kind": "raw", "libraryIngredientId": "ing-brown-sugar" } },
+      { "componentKey": "sl-splenda", "name": "granulated Splenda", "resolution": { "kind": "raw", "libraryIngredientId": "ing-splenda-granulated" } },
+      { "componentKey": "sl-espresso", "name": "espresso powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-espresso-powder" } },
+      { "componentKey": "sl-soda", "name": "baking soda", "resolution": { "kind": "raw", "libraryIngredientId": "ing-baking-soda" } },
+      { "componentKey": "sl-salt", "name": "salt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-salt" } },
+      { "componentKey": "sl-butter", "name": "unsalted butter, melted", "resolution": { "kind": "raw", "libraryIngredientId": "ing-butter" } },
+      { "componentKey": "sl-egg", "name": "whole egg", "resolution": { "kind": "raw", "libraryIngredientId": "ing-egg-whole" } },
+      { "componentKey": "sl-yogurt", "name": "0% Greek yogurt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-greek-yogurt-nonfat" } },
+      { "componentKey": "sl-almondmilk", "name": "unsweetened almond milk", "resolution": { "kind": "raw", "libraryIngredientId": "ing-almond-milk-unsweetened" } },
+      { "componentKey": "sl-chips", "name": "mini milk chocolate chips", "resolution": { "kind": "raw", "libraryIngredientId": "ing-chocolate-chips-milk" } }
+    ],
+    "usages": [
+      { "componentKey": "u-flour", "stepKey": "s1", "slotKey": "sl-flour", "quantityValue": 31, "quantityUnit": "g" },
+      { "componentKey": "u-cocoa", "stepKey": "s1", "slotKey": "sl-cocoa", "quantityValue": 25, "quantityUnit": "g" },
+      { "componentKey": "u-brownsugar", "stepKey": "s1", "slotKey": "sl-brownsugar", "quantityValue": 25, "quantityUnit": "g" },
+      { "componentKey": "u-splenda", "stepKey": "s1", "slotKey": "sl-splenda", "quantityValue": 4, "quantityUnit": "tbsp" },
+      { "componentKey": "u-espresso", "stepKey": "s1", "slotKey": "sl-espresso", "quantityValue": 1, "quantityUnit": "g" },
+      { "componentKey": "u-soda", "stepKey": "s1", "slotKey": "sl-soda", "quantityValue": 0.25, "quantityUnit": "tsp" },
+      { "componentKey": "u-salt", "stepKey": "s1", "slotKey": "sl-salt", "quantityValue": 0.25, "quantityUnit": "tsp" },
+      { "componentKey": "u-butter", "stepKey": "s2", "slotKey": "sl-butter", "quantityValue": 14, "quantityUnit": "g" },
+      { "componentKey": "u-egg", "stepKey": "s2", "slotKey": "sl-egg", "quantityValue": 1, "quantityUnit": "each" },
+      { "componentKey": "u-yogurt", "stepKey": "s2", "slotKey": "sl-yogurt", "quantityValue": 85, "quantityUnit": "g" },
+      { "componentKey": "u-almondmilk", "stepKey": "s2", "slotKey": "sl-almondmilk", "quantityValue": 60, "quantityUnit": "ml" },
+      { "componentKey": "u-chips", "stepKey": "s3", "slotKey": "sl-chips", "quantityValue": 14, "quantityUnit": "g" }
+    ],
+    "notes": [
+      { "componentKey": "n1", "kind": "technique", "text": "NO protein powder, on purpose. Whey denaturing in the batter is exactly what made every protein-brownie base bouncy and dry. This base gets dense/fudgy from real fat + low flour instead; don't add a scoop to 'fix' the macros - that recreates the rubber problem. Protein here is ~16g/batch from the egg + yogurt.", "stepKey": "s1" },
+      { "componentKey": "n2", "kind": "technique", "text": "Brown sugar is the chew lever - fudgy comes from fat, dense from low flour, but CHEWY comes from dissolved sugar, and molasses adds moisture plus a caramel note against the chocolate. The Splenda tops off sweetness without more calories. If the chew still falls short, shift the ratio toward brown sugar (each extra tbsp ~ +45 cal/batch) before touching anything else.", "stepKey": "s1" },
+      { "componentKey": "n3", "kind": "pitfall", "text": "Overbaking is the killer - with only ~31g flour there is no structure to save a dry bake. Pull at moist crumbs on the toothpick, never clean, and let them set as they cool. Fudgy brownies always look slightly underdone hot.", "stepKey": "s4" },
+      { "componentKey": "n4", "kind": "note", "text": "Fat runs ~35-40% of calories - deliberate. The batch's ~25g of fat (butter + chips + egg) IS the fudge; this is filed as a lean dessert (high carb, low cal, satiating), not a protein bake." }
+    ]
+  }
+}
