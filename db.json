@@ -642298,6 +642298,17 @@
       "date": "2026-07-01T21:42:22.462Z",
       "author": "user",
       "createdAt": "2026-07-01T21:42:22.462Z"
+    },
+    "9d585fc7-9f24-4ae4-a56d-d3ade6684d2a": {
+      "kind": "made",
+      "rating": "excellent",
+      "id": "9d585fc7-9f24-4ae4-a56d-d3ade6684d2a",
+      "recipeId": "1bbfb78b-5b64-41d8-9135-1366d9588c68",
+      "versionId": "f7da812c-1b91-49e2-ba06-87d0009f8e6c",
+      "notes": "Truly dense + fudgy at last - no-soda, melted-in semi-sweet chips version. Baked as written (16-18 min, chilled).",
+      "date": "2026-07-04T23:22:01.599Z",
+      "author": "user",
+      "createdAt": "2026-07-04T23:22:01.599Z"
     }
   }
 }
