@@ -604,7 +604,7 @@
       "id": "1bbfb78b-5b64-41d8-9135-1366d9588c68",
       "createdBy": "user",
       "createdAt": "2026-07-01T21:31:56.073Z",
-      "headVersionId": "7284fab9-240d-436c-8d13-85a191fdf97d"
+      "headVersionId": "f7da812c-1b91-49e2-ba06-87d0009f8e6c"
     },
     "351055ff-7235-46d0-b280-9c34a360a1ae": {
       "id": "351055ff-7235-46d0-b280-9c34a360a1ae",
@@ -638872,6 +638872,857 @@
       },
       "createdAt": "2026-07-04T21:21:26.680Z",
       "prevVersionId": "4c1a54c5-7548-4928-aa1a-cc272cde09ef"
+    },
+    "7193682e-0eea-481c-a8c3-32ef601db261": {
+      "id": "7193682e-0eea-481c-a8c3-32ef601db261",
+      "recipeId": "1bbfb78b-5b64-41d8-9135-1366d9588c68",
+      "name": "Fudgy Cocoa Brownies (Low-Cal)",
+      "description": "A deliberately protein-powder-FREE fudgy brownie - the anti-rubber move after protein-brownie bases kept landing bouncy/dry. Fudge comes from the classic levers: real butter + real milk chocolate chips (fat IS fudgy), cocoa-dominant and flour-light (25g cocoa vs ~31g flour = dense, not cakey), Greek yogurt + almond milk for moisture, espresso to deepen the chocolate. Sweetened with brown sugar (the CHEW lever - molasses = bend + moisture + caramel-against-chocolate) topped off with granulated Splenda. Adapted from an online satiety-optimized recipe (monk fruit swapped for the brown sugar + Splenda combo). Fat runs ~35-40% of calories by design - it is the whole batch's ~25g of fat doing the fudgy work; this is a lean dessert, not a protein bake (~16g protein/batch from egg + yogurt). High carb, low cal, satiating.",
+      "tags": [
+        "brownies",
+        "chocolate",
+        "fudgy",
+        "low-cal",
+        "dessert"
+      ],
+      "yield": {
+        "amount": 4,
+        "unit": "brownies"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "max dense/fudgy: drop baking soda (no lift), pull bake earlier at 16-18 min",
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Whisk the dry ingredients: AP flour, cocoa powder, brown sugar, granulated Splenda, espresso powder, and salt. Break up any brown-sugar lumps. NO leavening - dense on purpose."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Melt the butter and the semi-sweet chocolate chips together (short microwave bursts, stir until smooth), let cool slightly, then whisk in the egg, Greek yogurt, and almond milk until smooth."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Fold wet into dry until JUST combined - with this little flour there's no gluten to toughen, but don't beat air in; a dense batter bakes a dense brownie. Spread into a small lined pan (mini loaf pan or ~6-inch)."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "temperature": 350,
+            "timerSeconds": 960,
+            "instructionText": "Bake at 350F for ~16-18 min - with no leavening these will not rise or dome, just set. Pull when the edges are set but a toothpick in the center still comes out with MOIST CRUMBS - a clean toothpick means overbaked. Cool FULLY in the pan (chill 30 min for maximum fudge); cut 4 squares."
+          },
+          {
+            "componentKey": "n5"
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-cocoa",
+            "name": "unsweetened cocoa powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cocoa-powder"
+            }
+          },
+          {
+            "componentKey": "sl-brownsugar",
+            "name": "brown sugar",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-espresso",
+            "name": "espresso powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-espresso-powder"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-butter",
+            "name": "unsalted butter, melted",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-almondmilk",
+            "name": "unsweetened almond milk",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-almond-milk-unsweetened"
+            }
+          },
+          {
+            "componentKey": "sl-chips",
+            "name": "semi-sweet chocolate chips",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-chocolate-chips-semisweet"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s1",
+            "slotKey": "sl-flour",
+            "quantityValue": 31,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cocoa",
+            "stepKey": "s1",
+            "slotKey": "sl-cocoa",
+            "quantityValue": 25,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-brownsugar",
+            "stepKey": "s1",
+            "slotKey": "sl-brownsugar",
+            "quantityValue": 25,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "s1",
+            "slotKey": "sl-splenda",
+            "quantityValue": 4,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-espresso",
+            "stepKey": "s1",
+            "slotKey": "sl-espresso",
+            "quantityValue": 1,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "s1",
+            "slotKey": "sl-salt",
+            "quantityValue": 0.25,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-butter",
+            "stepKey": "s2",
+            "slotKey": "sl-butter",
+            "quantityValue": 14,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s2",
+            "slotKey": "sl-egg",
+            "quantityValue": 1,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s2",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 85,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-almondmilk",
+            "stepKey": "s2",
+            "slotKey": "sl-almondmilk",
+            "quantityValue": 60,
+            "quantityUnit": "ml"
+          },
+          {
+            "componentKey": "u-chips",
+            "stepKey": "s2",
+            "slotKey": "sl-chips",
+            "quantityValue": 14,
+            "quantityUnit": "g"
+          }
+        ],
+        "notes": [
+          {
+            "componentKey": "n1",
+            "kind": "technique",
+            "text": "NO protein powder, on purpose. Whey denaturing in the batter is exactly what made every protein-brownie base bouncy and dry. This base gets dense/fudgy from real fat + low flour instead; don't add a scoop to 'fix' the macros - that recreates the rubber problem. Protein here is ~16g/batch from the egg + yogurt.",
+            "stepKey": "s1"
+          },
+          {
+            "componentKey": "n2",
+            "kind": "technique",
+            "text": "Brown sugar is the chew lever - fudgy comes from fat, dense from low flour, but CHEWY comes from dissolved sugar, and molasses adds moisture plus a caramel note against the chocolate. The Splenda tops off sweetness without more calories. If the chew still falls short, shift the ratio toward brown sugar (each extra tbsp ~ +45 cal/batch) before touching anything else.",
+            "stepKey": "s1"
+          },
+          {
+            "componentKey": "n3",
+            "kind": "pitfall",
+            "text": "Overbaking is the killer - with only ~31g flour there is no structure to save a dry bake. Pull at moist crumbs on the toothpick, never clean, and let them set as they cool. Fudgy brownies always look slightly underdone hot.",
+            "stepKey": "s4"
+          },
+          {
+            "componentKey": "n4",
+            "kind": "note",
+            "text": "Fat runs ~35-40% of calories - deliberate. The batch's ~25g of fat (butter + chips + egg) IS the fudge; this is filed as a lean dessert (high carb, low cal, satiating), not a protein bake."
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 590.36,
+          "protein": 23.93,
+          "carbs": 81.67,
+          "fat": 25.09,
+          "fiber": 10.91
+        },
+        "perServing": {
+          "calories": 147.59,
+          "protein": 5.98,
+          "carbs": 20.42,
+          "fat": 6.27,
+          "fiber": 2.73
+        },
+        "yield": {
+          "amount": 4,
+          "unit": "brownies"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 31,
+            "macros": {
+              "calories": 112.84,
+              "protein": 3.1,
+              "carbs": 23.56,
+              "fat": 0.31,
+              "fiber": 0.84
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cocoa",
+            "ingredientId": "ing-cocoa-powder",
+            "ingredientName": "unsweetened cocoa powder",
+            "grams": 25,
+            "macros": {
+              "calories": 57,
+              "protein": 4.9,
+              "carbs": 14.5,
+              "fat": 3.43,
+              "fiber": 9.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brownsugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 25,
+            "macros": {
+              "calories": 95,
+              "protein": 0,
+              "carbs": 24.5,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 5.97,
+            "macros": {
+              "calories": 23.9,
+              "protein": 0,
+              "carbs": 5.97,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-espresso",
+            "ingredientId": "ing-espresso-powder",
+            "ingredientName": "espresso/instant coffee powder",
+            "grams": 1,
+            "macros": {
+              "calories": 3.53,
+              "protein": 0.12,
+              "carbs": 0.41,
+              "fat": 0.01,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 1.5,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 14,
+            "macros": {
+              "calories": 100.38,
+              "protein": 0.12,
+              "carbs": 0.01,
+              "fat": 11.34,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 85,
+            "macros": {
+              "calories": 50.15,
+              "protein": 8.5,
+              "carbs": 3.06,
+              "fat": 0.34,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-almondmilk",
+            "ingredientId": "ing-almond-milk-unsweetened",
+            "ingredientName": "unsweetened almond milk",
+            "grams": 60,
+            "macros": {
+              "calories": 9,
+              "protein": 0.3,
+              "carbs": 0.36,
+              "fat": 0.72,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-chips",
+            "ingredientId": "ing-chocolate-chips-semisweet",
+            "ingredientName": "semi-sweet chocolate chips",
+            "grams": 14,
+            "macros": {
+              "calories": 67.06,
+              "protein": 0.59,
+              "carbs": 8.95,
+              "fat": 4.2,
+              "fiber": 0.83
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 24.67
+      },
+      "createdAt": "2026-07-04T21:55:32.657Z",
+      "prevVersionId": "7284fab9-240d-436c-8d13-85a191fdf97d"
+    },
+    "f7da812c-1b91-49e2-ba06-87d0009f8e6c": {
+      "id": "f7da812c-1b91-49e2-ba06-87d0009f8e6c",
+      "recipeId": "1bbfb78b-5b64-41d8-9135-1366d9588c68",
+      "name": "Fudgy Cocoa Brownies (Low-Cal)",
+      "description": "A deliberately protein-powder-FREE fudgy brownie - the anti-rubber move after protein-brownie bases kept landing bouncy/dry. Fudge comes from the classic levers: real butter + real milk chocolate chips (fat IS fudgy), cocoa-dominant and flour-light (25g cocoa vs ~31g flour = dense, not cakey), Greek yogurt + almond milk for moisture, espresso to deepen the chocolate. Sweetened with brown sugar (the CHEW lever - molasses = bend + moisture + caramel-against-chocolate) topped off with granulated Splenda. Adapted from an online satiety-optimized recipe (monk fruit swapped for the brown sugar + Splenda combo). Fat runs ~35-40% of calories by design - it is the whole batch's ~25g of fat doing the fudgy work; this is a lean dessert, not a protein bake (~16g protein/batch from egg + yogurt). High carb, low cal, satiating.",
+      "tags": [
+        "brownies",
+        "chocolate",
+        "fudgy",
+        "low-cal",
+        "dessert"
+      ],
+      "yield": {
+        "amount": 4,
+        "unit": "brownies"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "fix: drop stray empty step; add no-leavening technique note",
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Whisk the dry ingredients: AP flour, cocoa powder, brown sugar, granulated Splenda, espresso powder, and salt. Break up any brown-sugar lumps. NO leavening - dense on purpose."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Melt the butter and the semi-sweet chocolate chips together (short microwave bursts, stir until smooth), let cool slightly, then whisk in the egg, Greek yogurt, and almond milk until smooth."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Fold wet into dry until JUST combined - with this little flour there's no gluten to toughen, but don't beat air in; a dense batter bakes a dense brownie. Spread into a small lined pan (mini loaf pan or ~6-inch)."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "temperature": 350,
+            "timerSeconds": 960,
+            "instructionText": "Bake at 350F for ~16-18 min - with no leavening these will not rise or dome, just set. Pull when the edges are set but a toothpick in the center still comes out with MOIST CRUMBS - a clean toothpick means overbaked. Cool FULLY in the pan (chill 30 min for maximum fudge); cut 4 squares."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-cocoa",
+            "name": "unsweetened cocoa powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cocoa-powder"
+            }
+          },
+          {
+            "componentKey": "sl-brownsugar",
+            "name": "brown sugar",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-espresso",
+            "name": "espresso powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-espresso-powder"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-butter",
+            "name": "unsalted butter, melted",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-almondmilk",
+            "name": "unsweetened almond milk",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-almond-milk-unsweetened"
+            }
+          },
+          {
+            "componentKey": "sl-chips",
+            "name": "semi-sweet chocolate chips",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-chocolate-chips-semisweet"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s1",
+            "slotKey": "sl-flour",
+            "quantityValue": 31,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cocoa",
+            "stepKey": "s1",
+            "slotKey": "sl-cocoa",
+            "quantityValue": 25,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-brownsugar",
+            "stepKey": "s1",
+            "slotKey": "sl-brownsugar",
+            "quantityValue": 25,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "s1",
+            "slotKey": "sl-splenda",
+            "quantityValue": 4,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-espresso",
+            "stepKey": "s1",
+            "slotKey": "sl-espresso",
+            "quantityValue": 1,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "s1",
+            "slotKey": "sl-salt",
+            "quantityValue": 0.25,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-butter",
+            "stepKey": "s2",
+            "slotKey": "sl-butter",
+            "quantityValue": 14,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s2",
+            "slotKey": "sl-egg",
+            "quantityValue": 1,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s2",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 85,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-almondmilk",
+            "stepKey": "s2",
+            "slotKey": "sl-almondmilk",
+            "quantityValue": 60,
+            "quantityUnit": "ml"
+          },
+          {
+            "componentKey": "u-chips",
+            "stepKey": "s2",
+            "slotKey": "sl-chips",
+            "quantityValue": 14,
+            "quantityUnit": "g"
+          }
+        ],
+        "notes": [
+          {
+            "componentKey": "n1",
+            "kind": "technique",
+            "text": "NO protein powder, on purpose. Whey denaturing in the batter is exactly what made every protein-brownie base bouncy and dry. This base gets dense/fudgy from real fat + low flour instead; don't add a scoop to 'fix' the macros - that recreates the rubber problem. Protein here is ~16g/batch from the egg + yogurt.",
+            "stepKey": "s1"
+          },
+          {
+            "componentKey": "n2",
+            "kind": "technique",
+            "text": "Brown sugar is the chew lever - fudgy comes from fat, dense from low flour, but CHEWY comes from dissolved sugar, and molasses adds moisture plus a caramel note against the chocolate. The Splenda tops off sweetness without more calories. If the chew still falls short, shift the ratio toward brown sugar (each extra tbsp ~ +45 cal/batch) before touching anything else.",
+            "stepKey": "s1"
+          },
+          {
+            "componentKey": "n3",
+            "kind": "pitfall",
+            "text": "Overbaking is the killer - with only ~31g flour there is no structure to save a dry bake. Pull at moist crumbs on the toothpick, never clean, and let them set as they cool. Fudgy brownies always look slightly underdone hot.",
+            "stepKey": "s4"
+          },
+          {
+            "componentKey": "n4",
+            "kind": "note",
+            "text": "Fat runs ~35-40% of calories - deliberate. The batch's ~25g of fat (butter + chips + egg) IS the fudge; this is filed as a lean dessert (high carb, low cal, satiating), not a protein bake."
+          },
+          {
+            "componentKey": "n5",
+            "kind": "technique",
+            "text": "No baking soda, on purpose - lift is the enemy of dense. The yogurt's acidity would have reacted with soda and aerated the crumb; without it the batter sets as a tight fudge slab. Priority for this base is FUDGY + DENSE first, chew second.",
+            "stepKey": "s1"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 590.36,
+          "protein": 23.93,
+          "carbs": 81.67,
+          "fat": 25.09,
+          "fiber": 10.91
+        },
+        "perServing": {
+          "calories": 147.59,
+          "protein": 5.98,
+          "carbs": 20.42,
+          "fat": 6.27,
+          "fiber": 2.73
+        },
+        "yield": {
+          "amount": 4,
+          "unit": "brownies"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 31,
+            "macros": {
+              "calories": 112.84,
+              "protein": 3.1,
+              "carbs": 23.56,
+              "fat": 0.31,
+              "fiber": 0.84
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cocoa",
+            "ingredientId": "ing-cocoa-powder",
+            "ingredientName": "unsweetened cocoa powder",
+            "grams": 25,
+            "macros": {
+              "calories": 57,
+              "protein": 4.9,
+              "carbs": 14.5,
+              "fat": 3.43,
+              "fiber": 9.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brownsugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 25,
+            "macros": {
+              "calories": 95,
+              "protein": 0,
+              "carbs": 24.5,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 5.97,
+            "macros": {
+              "calories": 23.9,
+              "protein": 0,
+              "carbs": 5.97,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-espresso",
+            "ingredientId": "ing-espresso-powder",
+            "ingredientName": "espresso/instant coffee powder",
+            "grams": 1,
+            "macros": {
+              "calories": 3.53,
+              "protein": 0.12,
+              "carbs": 0.41,
+              "fat": 0.01,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 1.5,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 14,
+            "macros": {
+              "calories": 100.38,
+              "protein": 0.12,
+              "carbs": 0.01,
+              "fat": 11.34,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 85,
+            "macros": {
+              "calories": 50.15,
+              "protein": 8.5,
+              "carbs": 3.06,
+              "fat": 0.34,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-almondmilk",
+            "ingredientId": "ing-almond-milk-unsweetened",
+            "ingredientName": "unsweetened almond milk",
+            "grams": 60,
+            "macros": {
+              "calories": 9,
+              "protein": 0.3,
+              "carbs": 0.36,
+              "fat": 0.72,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-chips",
+            "ingredientId": "ing-chocolate-chips-semisweet",
+            "ingredientName": "semi-sweet chocolate chips",
+            "grams": 14,
+            "macros": {
+              "calories": 67.06,
+              "protein": 0.59,
+              "carbs": 8.95,
+              "fat": 4.2,
+              "fiber": 0.83
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 24.67
+      },
+      "createdAt": "2026-07-04T21:55:43.549Z",
+      "prevVersionId": "7193682e-0eea-481c-a8c3-32ef601db261"
     }
   },
   "ingredients": {
