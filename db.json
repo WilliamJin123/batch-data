@@ -166,19 +166,19 @@
       "id": "51f132a1-6400-4c13-ae08-160e448d2a83",
       "createdBy": "user",
       "createdAt": "2026-06-21T00:32:31.964Z",
-      "headVersionId": "9644929b-f959-451e-a9ad-eb52f76840f5"
+      "headVersionId": "dc4a67db-bf90-4d24-9dcf-f47dfbf06968"
     },
     "a4668b63-4d88-409c-96f5-b403e38dea1c": {
       "id": "a4668b63-4d88-409c-96f5-b403e38dea1c",
       "createdBy": "user",
       "createdAt": "2026-06-21T00:32:32.502Z",
-      "headVersionId": "94617511-1625-427b-8849-53bbe49480cf"
+      "headVersionId": "913ac8a7-c4dc-4e47-aa0f-69f21e3d7813"
     },
     "0d7a9b58-2cfe-457f-b3f2-086035539b75": {
       "id": "0d7a9b58-2cfe-457f-b3f2-086035539b75",
       "createdBy": "user",
       "createdAt": "2026-06-21T00:32:40.680Z",
-      "headVersionId": "77f36903-12aa-47ac-8eaf-282f7cac7a79"
+      "headVersionId": "6a0c3b03-0e07-46bd-8762-a67b81101ba0"
     },
     "47b691bf-1f6c-4c17-b8ee-112e61af9e32": {
       "id": "47b691bf-1f6c-4c17-b8ee-112e61af9e32",
@@ -604,7 +604,7 @@
       "id": "1bbfb78b-5b64-41d8-9135-1366d9588c68",
       "createdBy": "user",
       "createdAt": "2026-07-01T21:31:56.073Z",
-      "headVersionId": "fcee875b-990f-4881-ab23-588da3f755dc"
+      "headVersionId": "bda27da6-081f-425f-9b50-71dbd0e0d94d"
     },
     "351055ff-7235-46d0-b280-9c34a360a1ae": {
       "id": "351055ff-7235-46d0-b280-9c34a360a1ae",
@@ -646604,6 +646604,4682 @@
       },
       "createdAt": "2026-07-05T07:53:44.121Z",
       "prevVersionId": "87c2a42d-af75-453d-92f3-edd9e1854c5a"
+    },
+    "bda27da6-081f-425f-9b50-71dbd0e0d94d": {
+      "id": "bda27da6-081f-425f-9b50-71dbd0e0d94d",
+      "recipeId": "1bbfb78b-5b64-41d8-9135-1366d9588c68",
+      "name": "Fudgy Cocoa Brownies (Low-Cal)",
+      "description": "A deliberately protein-powder-FREE fudgy brownie - the anti-rubber move after protein-brownie bases kept landing bouncy/dry. Fudge comes from the classic levers: real butter + real milk chocolate chips (fat IS fudgy), cocoa-dominant and flour-light (25g cocoa vs ~31g flour = dense, not cakey), Greek yogurt + almond milk for moisture, espresso to deepen the chocolate. Sweetened with brown sugar (the CHEW lever - molasses = bend + moisture + caramel-against-chocolate) topped off with granulated Splenda. Adapted from an online satiety-optimized recipe (monk fruit swapped for the brown sugar + Splenda combo). Fat runs ~35-40% of calories by design - it is the whole batch's ~25g of fat doing the fudgy work; this is a lean dessert, not a protein bake (~16g protein/batch from egg + yogurt). High carb, low cal, satiating.",
+      "tags": [
+        "brownies",
+        "chocolate",
+        "fudgy",
+        "low-cal",
+        "dessert"
+      ],
+      "yield": {
+        "amount": 4,
+        "unit": "brownies"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "revert sweetness pass - it was meant for the protein brownie base; back to the as-baked excellent formulation",
+      "content": {
+        "steps": [
+          {
+            "componentKey": "s1",
+            "order": 1,
+            "instructionText": "Whisk the dry ingredients: AP flour, cocoa powder, brown sugar, granulated Splenda, espresso powder, and salt. Break up any brown-sugar lumps. NO leavening - dense on purpose."
+          },
+          {
+            "componentKey": "s2",
+            "order": 2,
+            "instructionText": "Melt the butter and the semi-sweet chocolate chips together (short microwave bursts, stir until smooth), let cool slightly, then whisk in the egg, Greek yogurt, and almond milk until smooth."
+          },
+          {
+            "componentKey": "s3",
+            "order": 3,
+            "instructionText": "Fold wet into dry until JUST combined - with this little flour there's no gluten to toughen, but don't beat air in; a dense batter bakes a dense brownie. Spread into a small lined pan (mini loaf pan or ~6-inch)."
+          },
+          {
+            "componentKey": "s4",
+            "order": 4,
+            "temperature": 350,
+            "timerSeconds": 960,
+            "instructionText": "Bake at 350F for ~16-18 min - with no leavening these will not rise or dome, just set. Pull when the edges are set but a toothpick in the center still comes out with MOIST CRUMBS - a clean toothpick means overbaked. Cool FULLY in the pan (chill 30 min for maximum fudge); cut 4 squares."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-cocoa",
+            "name": "unsweetened cocoa powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cocoa-powder"
+            }
+          },
+          {
+            "componentKey": "sl-brownsugar",
+            "name": "brown sugar",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-espresso",
+            "name": "espresso powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-espresso-powder"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-butter",
+            "name": "unsalted butter, melted",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-almondmilk",
+            "name": "unsweetened almond milk",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-almond-milk-unsweetened"
+            }
+          },
+          {
+            "componentKey": "sl-chips",
+            "name": "semi-sweet chocolate chips",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-chocolate-chips-semisweet"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-flour",
+            "stepKey": "s1",
+            "slotKey": "sl-flour",
+            "quantityValue": 31,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cocoa",
+            "stepKey": "s1",
+            "slotKey": "sl-cocoa",
+            "quantityValue": 25,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-brownsugar",
+            "stepKey": "s1",
+            "slotKey": "sl-brownsugar",
+            "quantityValue": 25,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "s1",
+            "slotKey": "sl-splenda",
+            "quantityValue": 4,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-espresso",
+            "stepKey": "s1",
+            "slotKey": "sl-espresso",
+            "quantityValue": 1,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "s1",
+            "slotKey": "sl-salt",
+            "quantityValue": 0.25,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-butter",
+            "stepKey": "s2",
+            "slotKey": "sl-butter",
+            "quantityValue": 14,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "s2",
+            "slotKey": "sl-egg",
+            "quantityValue": 1,
+            "quantityUnit": "each"
+          },
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "s2",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 85,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-almondmilk",
+            "stepKey": "s2",
+            "slotKey": "sl-almondmilk",
+            "quantityValue": 60,
+            "quantityUnit": "ml"
+          },
+          {
+            "componentKey": "u-chips",
+            "stepKey": "s2",
+            "slotKey": "sl-chips",
+            "quantityValue": 14,
+            "quantityUnit": "g"
+          }
+        ],
+        "notes": [
+          {
+            "componentKey": "n1",
+            "kind": "technique",
+            "text": "NO protein powder, on purpose. Whey denaturing in the batter is exactly what made every protein-brownie base bouncy and dry. This base gets dense/fudgy from real fat + low flour instead; don't add a scoop to 'fix' the macros - that recreates the rubber problem. Protein here is ~16g/batch from the egg + yogurt.",
+            "stepKey": "s1"
+          },
+          {
+            "componentKey": "n2",
+            "kind": "technique",
+            "text": "Brown sugar is the chew lever - fudgy comes from fat, dense from low flour, but CHEWY comes from dissolved sugar, and molasses adds moisture plus a caramel note against the chocolate. The Splenda tops off sweetness without more calories. If the chew still falls short, shift the ratio toward brown sugar (each extra tbsp ~ +45 cal/batch) before touching anything else.",
+            "stepKey": "s1"
+          },
+          {
+            "componentKey": "n3",
+            "kind": "pitfall",
+            "text": "Overbaking is the killer - with only ~31g flour there is no structure to save a dry bake. Pull at moist crumbs on the toothpick, never clean, and let them set as they cool. Fudgy brownies always look slightly underdone hot.",
+            "stepKey": "s4"
+          },
+          {
+            "componentKey": "n4",
+            "kind": "note",
+            "text": "Fat runs ~35-40% of calories - deliberate. The batch's ~25g of fat (butter + chips + egg) IS the fudge; this is filed as a lean dessert (high carb, low cal, satiating), not a protein bake."
+          },
+          {
+            "componentKey": "n5",
+            "kind": "technique",
+            "text": "No baking soda, on purpose - lift is the enemy of dense. The yogurt's acidity would have reacted with soda and aerated the crumb; without it the batter sets as a tight fudge slab. Priority for this base is FUDGY + DENSE first, chew second.",
+            "stepKey": "s1"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 590.36,
+          "protein": 23.93,
+          "carbs": 81.67,
+          "fat": 25.09,
+          "fiber": 10.91
+        },
+        "perServing": {
+          "calories": 147.59,
+          "protein": 5.98,
+          "carbs": 20.42,
+          "fat": 6.27,
+          "fiber": 2.73
+        },
+        "yield": {
+          "amount": 4,
+          "unit": "brownies"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 31,
+            "macros": {
+              "calories": 112.84,
+              "protein": 3.1,
+              "carbs": 23.56,
+              "fat": 0.31,
+              "fiber": 0.84
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cocoa",
+            "ingredientId": "ing-cocoa-powder",
+            "ingredientName": "unsweetened cocoa powder",
+            "grams": 25,
+            "macros": {
+              "calories": 57,
+              "protein": 4.9,
+              "carbs": 14.5,
+              "fat": 3.43,
+              "fiber": 9.25
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brownsugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 25,
+            "macros": {
+              "calories": 95,
+              "protein": 0,
+              "carbs": 24.5,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 5.97,
+            "macros": {
+              "calories": 23.9,
+              "protein": 0,
+              "carbs": 5.97,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-espresso",
+            "ingredientId": "ing-espresso-powder",
+            "ingredientName": "espresso/instant coffee powder",
+            "grams": 1,
+            "macros": {
+              "calories": 3.53,
+              "protein": 0.12,
+              "carbs": 0.41,
+              "fat": 0.01,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 1.5,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 14,
+            "macros": {
+              "calories": 100.38,
+              "protein": 0.12,
+              "carbs": 0.01,
+              "fat": 11.34,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 85,
+            "macros": {
+              "calories": 50.15,
+              "protein": 8.5,
+              "carbs": 3.06,
+              "fat": 0.34,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-almondmilk",
+            "ingredientId": "ing-almond-milk-unsweetened",
+            "ingredientName": "unsweetened almond milk",
+            "grams": 60,
+            "macros": {
+              "calories": 9,
+              "protein": 0.3,
+              "carbs": 0.36,
+              "fat": 0.72,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-chips",
+            "ingredientId": "ing-chocolate-chips-semisweet",
+            "ingredientName": "semi-sweet chocolate chips",
+            "grams": 14,
+            "macros": {
+              "calories": 67.06,
+              "protein": 0.59,
+              "carbs": 8.95,
+              "fat": 4.2,
+              "fiber": 0.83
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 24.67
+      },
+      "createdAt": "2026-07-05T07:55:45.903Z",
+      "prevVersionId": "fcee875b-990f-4881-ab23-588da3f755dc"
+    },
+    "dc4a67db-bf90-4d24-9dcf-f47dfbf06968": {
+      "id": "dc4a67db-bf90-4d24-9dcf-f47dfbf06968",
+      "recipeId": "51f132a1-6400-4c13-ae08-160e448d2a83",
+      "name": "Fudgy Protein Brownies",
+      "description": "The fudge-maximized protein brownie — the original of a three-texture set, finished smooth (uniformly fudgy) or chunky (sweetened dark-chocolate pockets). Fudge comes from butter + a little unsweetened baking chocolate, with the egg barely beaten and stirred in last to keep air out (air bakes cakey). Cocoa + espresso are bloomed in the warm fat; sweetener is 1/4 cup granulated Splenda (never monk fruit). Bakes at 325F for ~18 min, pulled at a slight center jiggle, then cooled fully and chilled — better the next day. Computed ~630 cal / 38 g protein per batch of 9; ~70 cal, 4.2P, 7.2C, 3.4F per square; 16.5 cal per g protein. Large egg (50 g). Source: user.",
+      "tags": [
+        "brownie",
+        "protein",
+        "fudgy"
+      ],
+      "yield": {
+        "amount": 9,
+        "unit": "squares"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "sweetness pass: cocoa 33->20g (bitterness cut), Splenda 4->6 tbsp, vanilla 0.5->1 tsp",
+      "content": {
+        "steps": [
+          {
+            "componentKey": "b1",
+            "order": 1,
+            "section": "Batter",
+            "instructionText": "Preheat to 325°F (165°C) and line or grease a small ~6-inch square pan.",
+            "temperature": 325
+          },
+          {
+            "componentKey": "b2",
+            "order": 2,
+            "section": "Batter",
+            "instructionText": "Melt the butter + baking chocolate over low heat or in short microwave bursts. Stir in the cocoa + espresso powder to bloom them in the warm fat — it becomes a thick paste."
+          },
+          {
+            "componentKey": "b3",
+            "order": 3,
+            "section": "Batter",
+            "instructionText": "Stir in the skim milk to loosen and finish blooming; warm gently to combine. For chunky brownies, reserve 1–2 tsp of the thick paste, stir a pinch of Splenda into it, and set aside. Off the heat, cool to just warm."
+          },
+          {
+            "componentKey": "b4",
+            "order": 4,
+            "section": "Batter",
+            "instructionText": "Stir in the Splenda, then the Greek yogurt and vanilla."
+          },
+          {
+            "componentKey": "b5",
+            "order": 5,
+            "section": "Batter",
+            "instructionText": "Lightly beat the egg (no whipping — keep air out so it bakes fudgy, not cakey) and stir in last. If the base is still warm, temper first: stir a spoonful of base into the egg, then add it back."
+          },
+          {
+            "componentKey": "b6",
+            "order": 6,
+            "section": "Batter",
+            "instructionText": "Whisk the flour + cornstarch + protein powder + salt, then fold into the batter by hand just until no dry streaks remain — then stop. A few small lumps are fine; mixing past this develops gluten and bakes up cakey. Smooth finish: fold uniform. Chunky finish: fold in the reserved sweetened paste at the very end so it stays in pockets. Spread in the pan."
+          },
+          {
+            "componentKey": "k1",
+            "order": 7,
+            "section": "Bake",
+            "instructionText": "Bake at 325°F for ~18 minutes, checking from ~14. Pull at a slight center jiggle (not a liquid slosh) — it should look a touch underdone; carryover heat and cooling finish the set.",
+            "temperature": 325,
+            "timerSeconds": 1080
+          },
+          {
+            "componentKey": "f1",
+            "order": 8,
+            "section": "Finish",
+            "instructionText": "Doneness: edges set and just pulling from the sides with a slight wobble in the center (not a liquid slosh). A toothpick should read moist crumbs clinging — a clean toothpick means overbaked. On these small protein batters, trust the jiggle over the toothpick."
+          },
+          {
+            "componentKey": "f2",
+            "order": 9,
+            "section": "Finish",
+            "instructionText": "Cool completely in the pan on a wire rack, undisturbed — never cut warm. The crumb sets and the protein firms as it cools; a warm one seems gummy and then comes good."
+          },
+          {
+            "componentKey": "f3",
+            "order": 10,
+            "section": "Finish",
+            "instructionText": "Chill a few hours or overnight — they're better the next day. Cut cold with a clean knife (for the fudgy ones, run it under hot water and wipe between cuts). Store airtight; freeze portions for longer keeping. Optional: microwave a piece 8–10 sec to soften the fat — no longer, or the protein turns rubbery."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-butter",
+            "name": "butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-chocolate",
+            "name": "unsweetened baking chocolate",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-baking-chocolate"
+            }
+          },
+          {
+            "componentKey": "sl-cocoa",
+            "name": "unsweetened cocoa powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cocoa-powder"
+            }
+          },
+          {
+            "componentKey": "sl-espresso",
+            "name": "espresso/instant coffee powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-espresso-powder"
+            }
+          },
+          {
+            "componentKey": "sl-milk",
+            "name": "skim milk",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-skim-milk"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-cornstarch",
+            "name": "cornstarch",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cornstarch"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "chocolate protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-chocolate"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-butter",
+            "stepKey": "b2",
+            "slotKey": "sl-butter",
+            "quantityValue": 20,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-chocolate",
+            "stepKey": "b2",
+            "slotKey": "sl-chocolate",
+            "quantityValue": 7.5,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cocoa",
+            "stepKey": "b2",
+            "slotKey": "sl-cocoa",
+            "quantityValue": 20,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-espresso",
+            "stepKey": "b2",
+            "slotKey": "sl-espresso",
+            "quantityValue": 0.5,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-milk",
+            "stepKey": "b3",
+            "slotKey": "sl-milk",
+            "quantityValue": 40,
+            "quantityUnit": "ml"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "b4",
+            "slotKey": "sl-splenda",
+            "quantityValue": 6,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "b4",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 80,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "b4",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "b5",
+            "slotKey": "sl-egg",
+            "quantityValue": 50,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "b6",
+            "slotKey": "sl-flour",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cornstarch",
+            "stepKey": "b6",
+            "slotKey": "sl-cornstarch",
+            "quantityValue": 8,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "b6",
+            "slotKey": "sl-protein",
+            "quantityValue": 15,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "b6",
+            "slotKey": "sl-salt",
+            "quantityValue": 1,
+            "quantityUnit": "pinch"
+          }
+        ],
+        "notes": [
+          {
+            "componentKey": "n1",
+            "kind": "pitfall",
+            "text": "Don't whip the egg — just break the yolk and stir it in gently. Beating in air makes the batter puff in the oven and bake cakey; keeping it still keeps it dense and fudgy.",
+            "stepKey": "b5"
+          },
+          {
+            "componentKey": "n2",
+            "kind": "technique",
+            "text": "The cocoa blooms in warm butter + baking chocolate — let the fat cool to just warm (not hot) before adding the egg in step b5, or the egg scrambles. It should feel comfortable to touch.",
+            "stepKey": "b2"
+          },
+          {
+            "componentKey": "n3",
+            "kind": "pitfall",
+            "text": "18 min at 325°F is the max; start checking at 14 min. Pull at a slight center jiggle — not liquid, but not fully set. The protein continues cooking off-heat and the fudgy window closes fast.",
+            "stepKey": "k1"
+          },
+          {
+            "componentKey": "n4",
+            "kind": "technique",
+            "text": "If reheating a square, microwave 8–10 sec only — any longer and the protein in the Greek yogurt turns grainy and rubbery. Pull while it still feels just warm.",
+            "stepKey": "f3"
+          },
+          {
+            "componentKey": "n5",
+            "kind": "pitfall",
+            "text": "Stop folding the moment no dry streaks remain; the batter is small and 15 g of protein powder makes it easy to over-develop gluten. Extra strokes bake out the fudge into a tight, cakey crumb.",
+            "stepKey": "b6"
+          },
+          {
+            "componentKey": "n-sweet",
+            "kind": "technique",
+            "text": "Sweetness pass: this base carries THREE bitter sources (cocoa + unsweetened baking chocolate + chocolate protein powder), which mask sweetness - chocolate bakes need ~20-30% more sweetener than vanilla ones to read equally sweet. Cocoa cut 33->20g, Splenda up to 6 tbsp, vanilla up to 1 tsp. The bloom paste in b2/b3 will be a little looser with less cocoa - fine. If STILL bitter, swap the baking chocolate for semi-sweet chips before adding more Splenda.",
+            "stepKey": "b2"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 618.32,
+          "protein": 35.69,
+          "carbs": 60.51,
+          "fat": 29.01,
+          "fiber": 9.87
+        },
+        "perServing": {
+          "calories": 68.7,
+          "protein": 3.97,
+          "carbs": 6.72,
+          "fat": 3.22,
+          "fiber": 1.1
+        },
+        "yield": {
+          "amount": 9,
+          "unit": "squares"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 20,
+            "macros": {
+              "calories": 143.4,
+              "protein": 0.17,
+              "carbs": 0.01,
+              "fat": 16.2,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-chocolate",
+            "ingredientId": "ing-baking-chocolate",
+            "ingredientName": "unsweetened baking chocolate",
+            "grams": 7.5,
+            "macros": {
+              "calories": 48,
+              "protein": 1.05,
+              "carbs": 2.25,
+              "fat": 3.9,
+              "fiber": 1.27
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cocoa",
+            "ingredientId": "ing-cocoa-powder",
+            "ingredientName": "unsweetened cocoa powder",
+            "grams": 20,
+            "macros": {
+              "calories": 45.6,
+              "protein": 3.92,
+              "carbs": 11.6,
+              "fat": 2.74,
+              "fiber": 7.4
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-espresso",
+            "ingredientId": "ing-espresso-powder",
+            "ingredientName": "espresso/instant coffee powder",
+            "grams": 1,
+            "macros": {
+              "calories": 3.53,
+              "protein": 0.12,
+              "carbs": 0.41,
+              "fat": 0.01,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-milk",
+            "ingredientId": "ing-skim-milk",
+            "ingredientName": "skim milk",
+            "grams": 41.4,
+            "macros": {
+              "calories": 14.08,
+              "protein": 1.41,
+              "carbs": 2.07,
+              "fat": 0.04,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 8.96,
+            "macros": {
+              "calories": 35.84,
+              "protein": 0,
+              "carbs": 8.96,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 80,
+            "macros": {
+              "calories": 47.2,
+              "protein": 8,
+              "carbs": 2.88,
+              "fat": 0.32,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 30,
+            "macros": {
+              "calories": 109.2,
+              "protein": 3,
+              "carbs": 22.8,
+              "fat": 0.3,
+              "fiber": 0.81
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cornstarch",
+            "ingredientId": "ing-cornstarch",
+            "ingredientName": "cornstarch",
+            "grams": 8,
+            "macros": {
+              "calories": 30.48,
+              "protein": 0.02,
+              "carbs": 7.28,
+              "fat": 0,
+              "fiber": 0.08
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-chocolate",
+            "ingredientName": "chocolate protein powder",
+            "grams": 15,
+            "macros": {
+              "calories": 57,
+              "protein": 11.7,
+              "carbs": 1.35,
+              "fat": 0.75,
+              "fiber": 0.3
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 17.32
+      },
+      "createdAt": "2026-07-05T07:56:22.006Z",
+      "prevVersionId": "9644929b-f959-451e-a9ad-eb52f76840f5"
+    },
+    "e4a1ba72-572f-4296-a13c-278ce4b9a215": {
+      "id": "e4a1ba72-572f-4296-a13c-278ce4b9a215",
+      "recipeId": "a4668b63-4d88-409c-96f5-b403e38dea1c",
+      "derivesFromVersionId": "dc4a67db-bf90-4d24-9dcf-f47dfbf06968",
+      "name": "Fudgy + Chewy Protein Brownies",
+      "tags": [
+        "brownie",
+        "protein",
+        "fudgy",
+        "chewy"
+      ],
+      "yield": {
+        "amount": 9,
+        "unit": "squares"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "rebase onto dc4a67db-bf90-4d24-9dcf-f47dfbf06968",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-brown-sugar",
+              "name": "brown sugar",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-brown-sugar"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-egg-white",
+              "name": "egg white",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-egg-white"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-brown-sugar",
+              "stepKey": "b3",
+              "slotKey": "sl-brown-sugar",
+              "quantityValue": 22,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-egg-white",
+              "stepKey": "b3",
+              "slotKey": "sl-egg-white",
+              "quantityValue": 1,
+              "quantityUnit": "each"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b2",
+            "payload": {
+              "componentKey": "b2",
+              "order": 2,
+              "section": "Batter",
+              "instructionText": "Melt the butter + baking chocolate (low heat or short microwave bursts). Stir in the cocoa + espresso to bloom into a paste; set aside to cool slightly."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b3",
+            "payload": {
+              "componentKey": "b3",
+              "order": 3,
+              "section": "Batter",
+              "instructionText": "Beat the whole egg + egg white with the brown sugar only until the sugar grit dissolves and it looks smooth and glossy — then STOP. This builds chew and the shiny top; do NOT whip it to a pale, voluminous ribbon, which aerates it and bakes up holey/cakey."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b4",
+            "payload": {
+              "componentKey": "b4",
+              "order": 4,
+              "section": "Batter",
+              "instructionText": "Stir the Greek yogurt into the egg mixture, then fold in the cooled chocolate mixture until uniform."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b5",
+            "payload": {
+              "componentKey": "b5",
+              "order": 5,
+              "section": "Batter",
+              "instructionText": "Whisk the flour + protein powder + salt, then fold in just to no dry streaks — then a few extra gentle strokes for a little chew, stopping before the batter turns smooth and stretchy. No cornstarch."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b6",
+            "payload": {
+              "componentKey": "b6",
+              "order": 6,
+              "section": "Batter",
+              "instructionText": "Stir in the Splenda; add a splash of skim milk only if the batter is stiff. Spread in the pan."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "k1",
+            "payload": {
+              "componentKey": "k1",
+              "order": 7,
+              "section": "Bake",
+              "instructionText": "Bake at 325°F for ~17–18 minutes, checking from ~14. Pull at a slight center jiggle — it's fudgy-leaning, so on the early side.",
+              "temperature": 325,
+              "timerSeconds": 1080
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-butter",
+            "payload": {
+              "componentKey": "u-butter",
+              "stepKey": "b2",
+              "slotKey": "sl-butter",
+              "quantityValue": 14,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-chocolate",
+            "payload": {
+              "componentKey": "u-chocolate",
+              "stepKey": "b2",
+              "slotKey": "sl-chocolate",
+              "quantityValue": 8,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-cocoa",
+            "payload": {
+              "componentKey": "u-cocoa",
+              "stepKey": "b2",
+              "slotKey": "sl-cocoa",
+              "quantityValue": 20,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg",
+            "payload": {
+              "componentKey": "u-egg",
+              "stepKey": "b3",
+              "slotKey": "sl-egg",
+              "quantityValue": 1,
+              "quantityUnit": "each"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-yogurt",
+            "payload": {
+              "componentKey": "u-yogurt",
+              "stepKey": "b4",
+              "slotKey": "sl-yogurt",
+              "quantityValue": 100,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-flour",
+            "payload": {
+              "componentKey": "u-flour",
+              "stepKey": "b5",
+              "slotKey": "sl-flour",
+              "quantityValue": 15,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-protein",
+            "payload": {
+              "componentKey": "u-protein",
+              "stepKey": "b5",
+              "slotKey": "sl-protein",
+              "quantityValue": 30,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-salt",
+            "payload": {
+              "componentKey": "u-salt",
+              "stepKey": "b5",
+              "slotKey": "sl-salt",
+              "quantityValue": 1,
+              "quantityUnit": "pinch"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-splenda",
+            "payload": {
+              "componentKey": "u-splenda",
+              "stepKey": "b6",
+              "slotKey": "sl-splenda",
+              "quantityValue": 0.25,
+              "quantityUnit": "cup"
+            }
+          },
+          {
+            "op": "remove",
+            "kind": "usage",
+            "target": "u-milk"
+          },
+          {
+            "op": "remove",
+            "kind": "usage",
+            "target": "u-vanilla"
+          },
+          {
+            "op": "remove",
+            "kind": "usage",
+            "target": "u-cornstarch"
+          },
+          {
+            "op": "remove",
+            "kind": "slot",
+            "target": "sl-milk"
+          },
+          {
+            "op": "remove",
+            "kind": "slot",
+            "target": "sl-vanilla"
+          },
+          {
+            "op": "remove",
+            "kind": "slot",
+            "target": "sl-cornstarch"
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg",
+            "payload": {
+              "componentKey": "u-egg",
+              "stepKey": "b3",
+              "slotKey": "sl-egg",
+              "quantityValue": 44,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg-white",
+            "payload": {
+              "componentKey": "u-egg-white",
+              "stepKey": "b3",
+              "slotKey": "sl-egg-white",
+              "quantityValue": 30,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n1",
+            "payload": {
+              "componentKey": "n1",
+              "kind": "pitfall",
+              "text": "Let the melted butter + chocolate cool until just warm before adding to the eggs — pouring hot chocolate into the egg mixture scrambles it and you lose the glossy emulsion the shiny top depends on.",
+              "stepKey": "b2"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n2",
+            "payload": {
+              "componentKey": "n2",
+              "kind": "pitfall",
+              "text": "Stop beating the egg + egg white + brown sugar (22 g) the moment the sugar grit dissolves and the mixture looks smooth and glossy. Ribboning it pale and voluminous bakes up holey and cakey, not fudgy.",
+              "stepKey": "b3"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n3",
+            "payload": {
+              "componentKey": "n3",
+              "kind": "technique",
+              "text": "Only 15 g flour and 30 g protein here — the dry folds in fast. A few extra gentle strokes after the streaks disappear builds chew; stop the instant the batter feels smooth or starts to pull.",
+              "stepKey": "b5"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n4",
+            "payload": {
+              "componentKey": "n4",
+              "kind": "pitfall",
+              "text": "Start checking at 14 min, not 17 — pull the moment the edges are set and the centre has a slight wobble. A clean toothpick means overbaked; you want moist crumbs clinging. Carryover sets the centre.",
+              "stepKey": "k1"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n5",
+            "payload": {
+              "componentKey": "n5",
+              "kind": "technique",
+              "text": "Chill several hours or overnight before cutting — the fudge texture only fully sets cold. Run a knife under hot water and wipe clean between cuts for neat squares.",
+              "stepKey": "f3"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg",
+            "payload": {
+              "componentKey": "u-egg",
+              "stepKey": "b3",
+              "slotKey": "sl-egg",
+              "quantityValue": 50,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg-white",
+            "payload": {
+              "componentKey": "u-egg-white",
+              "stepKey": "b3",
+              "slotKey": "sl-egg-white",
+              "quantityValue": 33,
+              "quantityUnit": "g"
+            }
+          }
+        ],
+        "name": "Fudgy + Chewy Protein Brownies",
+        "tags": [
+          "brownie",
+          "protein",
+          "fudgy",
+          "chewy"
+        ]
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "b1",
+            "order": 1,
+            "section": "Batter",
+            "instructionText": "Preheat to 325°F (165°C) and line or grease a small ~6-inch square pan.",
+            "temperature": 325
+          },
+          {
+            "componentKey": "b2",
+            "order": 2,
+            "section": "Batter",
+            "instructionText": "Melt the butter + baking chocolate (low heat or short microwave bursts). Stir in the cocoa + espresso to bloom into a paste; set aside to cool slightly."
+          },
+          {
+            "componentKey": "b3",
+            "order": 3,
+            "section": "Batter",
+            "instructionText": "Beat the whole egg + egg white with the brown sugar only until the sugar grit dissolves and it looks smooth and glossy — then STOP. This builds chew and the shiny top; do NOT whip it to a pale, voluminous ribbon, which aerates it and bakes up holey/cakey."
+          },
+          {
+            "componentKey": "b4",
+            "order": 4,
+            "section": "Batter",
+            "instructionText": "Stir the Greek yogurt into the egg mixture, then fold in the cooled chocolate mixture until uniform."
+          },
+          {
+            "componentKey": "b5",
+            "order": 5,
+            "section": "Batter",
+            "instructionText": "Whisk the flour + protein powder + salt, then fold in just to no dry streaks — then a few extra gentle strokes for a little chew, stopping before the batter turns smooth and stretchy. No cornstarch."
+          },
+          {
+            "componentKey": "b6",
+            "order": 6,
+            "section": "Batter",
+            "instructionText": "Stir in the Splenda; add a splash of skim milk only if the batter is stiff. Spread in the pan."
+          },
+          {
+            "componentKey": "k1",
+            "order": 7,
+            "section": "Bake",
+            "instructionText": "Bake at 325°F for ~17–18 minutes, checking from ~14. Pull at a slight center jiggle — it's fudgy-leaning, so on the early side.",
+            "temperature": 325,
+            "timerSeconds": 1080
+          },
+          {
+            "componentKey": "f1",
+            "order": 8,
+            "section": "Finish",
+            "instructionText": "Doneness: edges set and just pulling from the sides with a slight wobble in the center (not a liquid slosh). A toothpick should read moist crumbs clinging — a clean toothpick means overbaked. On these small protein batters, trust the jiggle over the toothpick."
+          },
+          {
+            "componentKey": "f2",
+            "order": 9,
+            "section": "Finish",
+            "instructionText": "Cool completely in the pan on a wire rack, undisturbed — never cut warm. The crumb sets and the protein firms as it cools; a warm one seems gummy and then comes good."
+          },
+          {
+            "componentKey": "f3",
+            "order": 10,
+            "section": "Finish",
+            "instructionText": "Chill a few hours or overnight — they're better the next day. Cut cold with a clean knife (for the fudgy ones, run it under hot water and wipe between cuts). Store airtight; freeze portions for longer keeping. Optional: microwave a piece 8–10 sec to soften the fat — no longer, or the protein turns rubbery."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-butter",
+            "name": "butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-chocolate",
+            "name": "unsweetened baking chocolate",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-baking-chocolate"
+            }
+          },
+          {
+            "componentKey": "sl-cocoa",
+            "name": "unsweetened cocoa powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cocoa-powder"
+            }
+          },
+          {
+            "componentKey": "sl-espresso",
+            "name": "espresso/instant coffee powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-espresso-powder"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "chocolate protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-chocolate"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-brown-sugar",
+            "name": "brown sugar",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-butter",
+            "stepKey": "b2",
+            "slotKey": "sl-butter",
+            "quantityValue": 14,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-chocolate",
+            "stepKey": "b2",
+            "slotKey": "sl-chocolate",
+            "quantityValue": 8,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cocoa",
+            "stepKey": "b2",
+            "slotKey": "sl-cocoa",
+            "quantityValue": 20,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-espresso",
+            "stepKey": "b2",
+            "slotKey": "sl-espresso",
+            "quantityValue": 0.5,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "b6",
+            "slotKey": "sl-splenda",
+            "quantityValue": 0.25,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "b4",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 100,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "b3",
+            "slotKey": "sl-egg",
+            "quantityValue": 50,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "b5",
+            "slotKey": "sl-flour",
+            "quantityValue": 15,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "b5",
+            "slotKey": "sl-protein",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "b5",
+            "slotKey": "sl-salt",
+            "quantityValue": 1,
+            "quantityUnit": "pinch"
+          },
+          {
+            "componentKey": "u-brown-sugar",
+            "stepKey": "b3",
+            "slotKey": "sl-brown-sugar",
+            "quantityValue": 22,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "b3",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 33,
+            "quantityUnit": "g"
+          }
+        ],
+        "notes": [
+          {
+            "componentKey": "n1",
+            "kind": "pitfall",
+            "text": "Let the melted butter + chocolate cool until just warm before adding to the eggs — pouring hot chocolate into the egg mixture scrambles it and you lose the glossy emulsion the shiny top depends on.",
+            "stepKey": "b2"
+          },
+          {
+            "componentKey": "n2",
+            "kind": "pitfall",
+            "text": "Stop beating the egg + egg white + brown sugar (22 g) the moment the sugar grit dissolves and the mixture looks smooth and glossy. Ribboning it pale and voluminous bakes up holey and cakey, not fudgy.",
+            "stepKey": "b3"
+          },
+          {
+            "componentKey": "n3",
+            "kind": "technique",
+            "text": "Only 15 g flour and 30 g protein here — the dry folds in fast. A few extra gentle strokes after the streaks disappear builds chew; stop the instant the batter feels smooth or starts to pull.",
+            "stepKey": "b5"
+          },
+          {
+            "componentKey": "n4",
+            "kind": "pitfall",
+            "text": "Start checking at 14 min, not 17 — pull the moment the edges are set and the centre has a slight wobble. A clean toothpick means overbaked; you want moist crumbs clinging. Carryover sets the centre.",
+            "stepKey": "k1"
+          },
+          {
+            "componentKey": "n5",
+            "kind": "technique",
+            "text": "Chill several hours or overnight before cutting — the fudge texture only fully sets cold. Run a knife under hot water and wipe clean between cuts for neat squares.",
+            "stepKey": "f3"
+          },
+          {
+            "componentKey": "n-sweet",
+            "kind": "technique",
+            "text": "Sweetness pass: this base carries THREE bitter sources (cocoa + unsweetened baking chocolate + chocolate protein powder), which mask sweetness - chocolate bakes need ~20-30% more sweetener than vanilla ones to read equally sweet. Cocoa cut 33->20g, Splenda up to 6 tbsp, vanilla up to 1 tsp. The bloom paste in b2/b3 will be a little looser with less cocoa - fine. If STILL bitter, swap the baking chocolate for semi-sweet chips before adding more Splenda.",
+            "stepKey": "b2"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 624.47,
+          "protein": 50.11,
+          "carbs": 60.23,
+          "fat": 25.11,
+          "fiber": 9.76
+        },
+        "perServing": {
+          "calories": 69.39,
+          "protein": 5.57,
+          "carbs": 6.69,
+          "fat": 2.79,
+          "fiber": 1.09
+        },
+        "yield": {
+          "amount": 9,
+          "unit": "squares"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 14,
+            "macros": {
+              "calories": 100.38,
+              "protein": 0.12,
+              "carbs": 0.01,
+              "fat": 11.34,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-chocolate",
+            "ingredientId": "ing-baking-chocolate",
+            "ingredientName": "unsweetened baking chocolate",
+            "grams": 8,
+            "macros": {
+              "calories": 51.2,
+              "protein": 1.12,
+              "carbs": 2.4,
+              "fat": 4.16,
+              "fiber": 1.36
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cocoa",
+            "ingredientId": "ing-cocoa-powder",
+            "ingredientName": "unsweetened cocoa powder",
+            "grams": 20,
+            "macros": {
+              "calories": 45.6,
+              "protein": 3.92,
+              "carbs": 11.6,
+              "fat": 2.74,
+              "fiber": 7.4
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-espresso",
+            "ingredientId": "ing-espresso-powder",
+            "ingredientName": "espresso/instant coffee powder",
+            "grams": 1,
+            "macros": {
+              "calories": 3.53,
+              "protein": 0.12,
+              "carbs": 0.41,
+              "fat": 0.01,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 5.97,
+            "macros": {
+              "calories": 23.9,
+              "protein": 0,
+              "carbs": 5.97,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 100,
+            "macros": {
+              "calories": 59,
+              "protein": 10,
+              "carbs": 3.6,
+              "fat": 0.4,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15,
+            "macros": {
+              "calories": 54.6,
+              "protein": 1.5,
+              "carbs": 11.4,
+              "fat": 0.15,
+              "fiber": 0.41
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-chocolate",
+            "ingredientName": "chocolate protein powder",
+            "grams": 30,
+            "macros": {
+              "calories": 114,
+              "protein": 23.4,
+              "carbs": 2.7,
+              "fat": 1.5,
+              "fiber": 0.6
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brown-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 22,
+            "macros": {
+              "calories": 83.6,
+              "protein": 0,
+              "carbs": 21.56,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 33,
+            "macros": {
+              "calories": 17.16,
+              "protein": 3.63,
+              "carbs": 0.23,
+              "fat": 0.07,
+              "fiber": 0
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 12.46
+      },
+      "createdAt": "2026-07-05T07:56:34.110Z",
+      "prevVersionId": "94617511-1625-427b-8849-53bbe49480cf",
+      "description": "The balanced one — derived from the Fudgy base, keeping real fudge from butter + baking chocolate but adding chew: the whole egg + an extra egg white are beaten with brown sugar until glossy (dissolved, never whipped to a ribbon), the cornstarch is dropped, and protein is doubled. 1/4 cup granulated Splenda, no added milk, baked at 325F for ~17-18 min and pulled at a slight (fudgy-leaning) jiggle. Doubling protein at flat calories pulls the ratio from the base's 16.6 down to 12.5 cal per g protein. Computed ~624 cal / 50 g protein per batch of 9; ~69 cal, 5.6P, 6.7C, 2.8F per square. Large eggs (50 g whole, 33 g white). Source: user."
+    },
+    "6573af84-1f0e-4e73-b0ca-bde53ce37221": {
+      "id": "6573af84-1f0e-4e73-b0ca-bde53ce37221",
+      "recipeId": "0d7a9b58-2cfe-457f-b3f2-086035539b75",
+      "derivesFromVersionId": "dc4a67db-bf90-4d24-9dcf-f47dfbf06968",
+      "name": "Chewiest Protein Brownies",
+      "tags": [
+        "brownie",
+        "protein",
+        "chewy"
+      ],
+      "yield": {
+        "amount": 9,
+        "unit": "squares"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "rebase onto dc4a67db-bf90-4d24-9dcf-f47dfbf06968",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-oil",
+              "name": "neutral oil",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-vegetable-oil"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-brown-sugar",
+              "name": "brown sugar",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-brown-sugar"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-egg-white",
+              "name": "egg white",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-egg-white"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-oil",
+              "stepKey": "b3",
+              "slotKey": "sl-oil",
+              "quantityValue": 10,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-brown-sugar",
+              "stepKey": "b2",
+              "slotKey": "sl-brown-sugar",
+              "quantityValue": 28,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-egg-white",
+              "stepKey": "b2",
+              "slotKey": "sl-egg-white",
+              "quantityValue": 1,
+              "quantityUnit": "each"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b2",
+            "payload": {
+              "componentKey": "b2",
+              "order": 2,
+              "section": "Batter",
+              "instructionText": "Beat the whole egg + egg white with the brown sugar only until the sugar dissolves and it looks smooth and glossy — then STOP. Chew and the shiny top come from dissolving, not air; don't whip it to a pale ribbon."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b3",
+            "payload": {
+              "componentKey": "b3",
+              "order": 3,
+              "section": "Batter",
+              "instructionText": "Whisk in the neutral oil, then the Greek yogurt."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b4",
+            "payload": {
+              "componentKey": "b4",
+              "order": 4,
+              "section": "Batter",
+              "instructionText": "Bloom the cocoa + espresso in a small splash of warm skim milk, then stir into the batter."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b5",
+            "payload": {
+              "componentKey": "b5",
+              "order": 5,
+              "section": "Batter",
+              "instructionText": "Whisk the flour + protein powder + salt, then fold in to no dry streaks, then ~10–15 extra strokes to develop a little gluten for chew — still stopping before it goes very stretchy or tough. No chocolate, no cornstarch."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b6",
+            "payload": {
+              "componentKey": "b6",
+              "order": 6,
+              "section": "Batter",
+              "instructionText": "Stir in the Splenda; add a splash more skim milk only if stiff. Spread in the pan."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "k1",
+            "payload": {
+              "componentKey": "k1",
+              "order": 7,
+              "section": "Bake",
+              "instructionText": "Bake at 325°F for ~18 minutes, checking from ~14. Pull at only a faint center wobble — chewy wants a touch more set than fudgy, but don't dry it out.",
+              "temperature": 325,
+              "timerSeconds": 1080
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg",
+            "payload": {
+              "componentKey": "u-egg",
+              "stepKey": "b2",
+              "slotKey": "sl-egg",
+              "quantityValue": 1,
+              "quantityUnit": "each"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-yogurt",
+            "payload": {
+              "componentKey": "u-yogurt",
+              "stepKey": "b3",
+              "slotKey": "sl-yogurt",
+              "quantityValue": 100,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-cocoa",
+            "payload": {
+              "componentKey": "u-cocoa",
+              "stepKey": "b4",
+              "slotKey": "sl-cocoa",
+              "quantityValue": 18,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-espresso",
+            "payload": {
+              "componentKey": "u-espresso",
+              "stepKey": "b4",
+              "slotKey": "sl-espresso",
+              "quantityValue": 0.5,
+              "quantityUnit": "tsp"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-milk",
+            "payload": {
+              "componentKey": "u-milk",
+              "stepKey": "b4",
+              "slotKey": "sl-milk",
+              "quantityValue": 15,
+              "quantityUnit": "ml"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-flour",
+            "payload": {
+              "componentKey": "u-flour",
+              "stepKey": "b5",
+              "slotKey": "sl-flour",
+              "quantityValue": 25,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-protein",
+            "payload": {
+              "componentKey": "u-protein",
+              "stepKey": "b5",
+              "slotKey": "sl-protein",
+              "quantityValue": 30,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-salt",
+            "payload": {
+              "componentKey": "u-salt",
+              "stepKey": "b5",
+              "slotKey": "sl-salt",
+              "quantityValue": 1,
+              "quantityUnit": "pinch"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-splenda",
+            "payload": {
+              "componentKey": "u-splenda",
+              "stepKey": "b6",
+              "slotKey": "sl-splenda",
+              "quantityValue": 0.25,
+              "quantityUnit": "cup"
+            }
+          },
+          {
+            "op": "remove",
+            "kind": "usage",
+            "target": "u-butter"
+          },
+          {
+            "op": "remove",
+            "kind": "usage",
+            "target": "u-chocolate"
+          },
+          {
+            "op": "remove",
+            "kind": "usage",
+            "target": "u-vanilla"
+          },
+          {
+            "op": "remove",
+            "kind": "usage",
+            "target": "u-cornstarch"
+          },
+          {
+            "op": "remove",
+            "kind": "slot",
+            "target": "sl-butter"
+          },
+          {
+            "op": "remove",
+            "kind": "slot",
+            "target": "sl-chocolate"
+          },
+          {
+            "op": "remove",
+            "kind": "slot",
+            "target": "sl-vanilla"
+          },
+          {
+            "op": "remove",
+            "kind": "slot",
+            "target": "sl-cornstarch"
+          },
+          {
+            "op": "replace",
+            "kind": "slot",
+            "target": "sl-oil",
+            "payload": {
+              "componentKey": "sl-oil",
+              "name": "coconut oil",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-coconut-oil"
+              }
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b3",
+            "payload": {
+              "componentKey": "b3",
+              "order": 3,
+              "section": "Batter",
+              "instructionText": "Whisk in the coconut oil (melted if solid), then the Greek yogurt."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg",
+            "payload": {
+              "componentKey": "u-egg",
+              "stepKey": "b2",
+              "slotKey": "sl-egg",
+              "quantityValue": 44,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg-white",
+            "payload": {
+              "componentKey": "u-egg-white",
+              "stepKey": "b2",
+              "slotKey": "sl-egg-white",
+              "quantityValue": 30,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n1",
+            "payload": {
+              "componentKey": "n1",
+              "kind": "pitfall",
+              "text": "Stop beating the egg + brown sugar the moment it looks glossy and the sugar has dissolved — whipping to a pale ribbon traps air, which makes the top puff then sink and kills the chew.",
+              "stepKey": "b2"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n2",
+            "payload": {
+              "componentKey": "n2",
+              "kind": "technique",
+              "text": "Blooming the 18 g cocoa in 15 ml warm milk with the espresso deepens the chocolate flavor significantly — don't skip it or add the cocoa dry, which leaves a chalky note in a batter this lean.",
+              "stepKey": "b4"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n3",
+            "payload": {
+              "componentKey": "n3",
+              "kind": "technique",
+              "text": "The 10–15 extra fold strokes after no-dry-streaks are intentional and load-bearing for chew — they develop a little gluten. Stop before the batter goes stretchy or springy; that's the line between chewy and tough.",
+              "stepKey": "b5"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n4",
+            "payload": {
+              "componentKey": "n4",
+              "kind": "pitfall",
+              "text": "Start checking at 14 minutes — this is a small ~6-inch pan and 30 g protein + 25 g flour dry out quickly. Pull at a faint center wobble; a clean toothpick means overbaked on this batter.",
+              "stepKey": "k1"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n5",
+            "payload": {
+              "componentKey": "n5",
+              "kind": "pitfall",
+              "text": "Do not cut warm — the protein-yogurt crumb is gummy and tears when hot. Cool fully on a rack, then chill for a few hours; the texture improves dramatically overnight.",
+              "stepKey": "f2"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg",
+            "payload": {
+              "componentKey": "u-egg",
+              "stepKey": "b2",
+              "slotKey": "sl-egg",
+              "quantityValue": 50,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg-white",
+            "payload": {
+              "componentKey": "u-egg-white",
+              "stepKey": "b2",
+              "slotKey": "sl-egg-white",
+              "quantityValue": 33,
+              "quantityUnit": "g"
+            }
+          }
+        ],
+        "name": "Chewiest Protein Brownies",
+        "tags": [
+          "brownie",
+          "protein",
+          "chewy"
+        ]
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "b1",
+            "order": 1,
+            "section": "Batter",
+            "instructionText": "Preheat to 325°F (165°C) and line or grease a small ~6-inch square pan.",
+            "temperature": 325
+          },
+          {
+            "componentKey": "b2",
+            "order": 2,
+            "section": "Batter",
+            "instructionText": "Beat the whole egg + egg white with the brown sugar only until the sugar dissolves and it looks smooth and glossy — then STOP. Chew and the shiny top come from dissolving, not air; don't whip it to a pale ribbon."
+          },
+          {
+            "componentKey": "b3",
+            "order": 3,
+            "section": "Batter",
+            "instructionText": "Whisk in the coconut oil (melted if solid), then the Greek yogurt."
+          },
+          {
+            "componentKey": "b4",
+            "order": 4,
+            "section": "Batter",
+            "instructionText": "Bloom the cocoa + espresso in a small splash of warm skim milk, then stir into the batter."
+          },
+          {
+            "componentKey": "b5",
+            "order": 5,
+            "section": "Batter",
+            "instructionText": "Whisk the flour + protein powder + salt, then fold in to no dry streaks, then ~10–15 extra strokes to develop a little gluten for chew — still stopping before it goes very stretchy or tough. No chocolate, no cornstarch."
+          },
+          {
+            "componentKey": "b6",
+            "order": 6,
+            "section": "Batter",
+            "instructionText": "Stir in the Splenda; add a splash more skim milk only if stiff. Spread in the pan."
+          },
+          {
+            "componentKey": "k1",
+            "order": 7,
+            "section": "Bake",
+            "instructionText": "Bake at 325°F for ~18 minutes, checking from ~14. Pull at only a faint center wobble — chewy wants a touch more set than fudgy, but don't dry it out.",
+            "temperature": 325,
+            "timerSeconds": 1080
+          },
+          {
+            "componentKey": "f1",
+            "order": 8,
+            "section": "Finish",
+            "instructionText": "Doneness: edges set and just pulling from the sides with a slight wobble in the center (not a liquid slosh). A toothpick should read moist crumbs clinging — a clean toothpick means overbaked. On these small protein batters, trust the jiggle over the toothpick."
+          },
+          {
+            "componentKey": "f2",
+            "order": 9,
+            "section": "Finish",
+            "instructionText": "Cool completely in the pan on a wire rack, undisturbed — never cut warm. The crumb sets and the protein firms as it cools; a warm one seems gummy and then comes good."
+          },
+          {
+            "componentKey": "f3",
+            "order": 10,
+            "section": "Finish",
+            "instructionText": "Chill a few hours or overnight — they're better the next day. Cut cold with a clean knife (for the fudgy ones, run it under hot water and wipe between cuts). Store airtight; freeze portions for longer keeping. Optional: microwave a piece 8–10 sec to soften the fat — no longer, or the protein turns rubbery."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-cocoa",
+            "name": "unsweetened cocoa powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cocoa-powder"
+            }
+          },
+          {
+            "componentKey": "sl-espresso",
+            "name": "espresso/instant coffee powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-espresso-powder"
+            }
+          },
+          {
+            "componentKey": "sl-milk",
+            "name": "skim milk",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-skim-milk"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "chocolate protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-chocolate"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-oil",
+            "name": "coconut oil",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-coconut-oil"
+            }
+          },
+          {
+            "componentKey": "sl-brown-sugar",
+            "name": "brown sugar",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-cocoa",
+            "stepKey": "b4",
+            "slotKey": "sl-cocoa",
+            "quantityValue": 18,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-espresso",
+            "stepKey": "b4",
+            "slotKey": "sl-espresso",
+            "quantityValue": 0.5,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-milk",
+            "stepKey": "b4",
+            "slotKey": "sl-milk",
+            "quantityValue": 15,
+            "quantityUnit": "ml"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "b6",
+            "slotKey": "sl-splenda",
+            "quantityValue": 0.25,
+            "quantityUnit": "cup"
+          },
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "b3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 100,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "b2",
+            "slotKey": "sl-egg",
+            "quantityValue": 50,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "b5",
+            "slotKey": "sl-flour",
+            "quantityValue": 25,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "b5",
+            "slotKey": "sl-protein",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "b5",
+            "slotKey": "sl-salt",
+            "quantityValue": 1,
+            "quantityUnit": "pinch"
+          },
+          {
+            "componentKey": "u-oil",
+            "stepKey": "b3",
+            "slotKey": "sl-oil",
+            "quantityValue": 10,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-brown-sugar",
+            "stepKey": "b2",
+            "slotKey": "sl-brown-sugar",
+            "quantityValue": 28,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "b2",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 33,
+            "quantityUnit": "g"
+          }
+        ],
+        "notes": [
+          {
+            "componentKey": "n1",
+            "kind": "pitfall",
+            "text": "Stop beating the egg + brown sugar the moment it looks glossy and the sugar has dissolved — whipping to a pale ribbon traps air, which makes the top puff then sink and kills the chew.",
+            "stepKey": "b2"
+          },
+          {
+            "componentKey": "n2",
+            "kind": "technique",
+            "text": "Blooming the 18 g cocoa in 15 ml warm milk with the espresso deepens the chocolate flavor significantly — don't skip it or add the cocoa dry, which leaves a chalky note in a batter this lean.",
+            "stepKey": "b4"
+          },
+          {
+            "componentKey": "n3",
+            "kind": "technique",
+            "text": "The 10–15 extra fold strokes after no-dry-streaks are intentional and load-bearing for chew — they develop a little gluten. Stop before the batter goes stretchy or springy; that's the line between chewy and tough.",
+            "stepKey": "b5"
+          },
+          {
+            "componentKey": "n4",
+            "kind": "pitfall",
+            "text": "Start checking at 14 minutes — this is a small ~6-inch pan and 30 g protein + 25 g flour dry out quickly. Pull at a faint center wobble; a clean toothpick means overbaked on this batter.",
+            "stepKey": "k1"
+          },
+          {
+            "componentKey": "n5",
+            "kind": "pitfall",
+            "text": "Do not cut warm — the protein-yogurt crumb is gummy and tears when hot. Cool fully on a rack, then chill for a few hours; the texture improves dramatically overnight.",
+            "stepKey": "f2"
+          },
+          {
+            "componentKey": "n-sweet",
+            "kind": "technique",
+            "text": "Sweetness pass: this base carries THREE bitter sources (cocoa + unsweetened baking chocolate + chocolate protein powder), which mask sweetness - chocolate bakes need ~20-30% more sweetener than vanilla ones to read equally sweet. Cocoa cut 33->20g, Splenda up to 6 tbsp, vanilla up to 1 tsp. The bloom paste in b2/b3 will be a little looser with less cocoa - fine. If STILL bitter, swap the baking chocolate for semi-sweet chips before adding more Splenda.",
+            "stepKey": "b2"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 619,
+          "protein": 50.01,
+          "carbs": 70.92,
+          "fat": 19.45,
+          "fiber": 7.94
+        },
+        "perServing": {
+          "calories": 68.78,
+          "protein": 5.56,
+          "carbs": 7.88,
+          "fat": 2.16,
+          "fiber": 0.88
+        },
+        "yield": {
+          "amount": 9,
+          "unit": "squares"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-cocoa",
+            "ingredientId": "ing-cocoa-powder",
+            "ingredientName": "unsweetened cocoa powder",
+            "grams": 18,
+            "macros": {
+              "calories": 41.04,
+              "protein": 3.53,
+              "carbs": 10.44,
+              "fat": 2.47,
+              "fiber": 6.66
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-espresso",
+            "ingredientId": "ing-espresso-powder",
+            "ingredientName": "espresso/instant coffee powder",
+            "grams": 1,
+            "macros": {
+              "calories": 3.53,
+              "protein": 0.12,
+              "carbs": 0.41,
+              "fat": 0.01,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-milk",
+            "ingredientId": "ing-skim-milk",
+            "ingredientName": "skim milk",
+            "grams": 15.52,
+            "macros": {
+              "calories": 5.28,
+              "protein": 0.53,
+              "carbs": 0.78,
+              "fat": 0.02,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 5.97,
+            "macros": {
+              "calories": 23.9,
+              "protein": 0,
+              "carbs": 5.97,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 100,
+            "macros": {
+              "calories": 59,
+              "protein": 10,
+              "carbs": 3.6,
+              "fat": 0.4,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 25,
+            "macros": {
+              "calories": 91,
+              "protein": 2.5,
+              "carbs": 19,
+              "fat": 0.25,
+              "fiber": 0.68
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-chocolate",
+            "ingredientName": "chocolate protein powder",
+            "grams": 30,
+            "macros": {
+              "calories": 114,
+              "protein": 23.4,
+              "carbs": 2.7,
+              "fat": 1.5,
+              "fiber": 0.6
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-oil",
+            "ingredientId": "ing-coconut-oil",
+            "ingredientName": "coconut oil",
+            "grams": 10,
+            "macros": {
+              "calories": 86.2,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 10,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brown-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 28,
+            "macros": {
+              "calories": 106.4,
+              "protein": 0,
+              "carbs": 27.44,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 33,
+            "macros": {
+              "calories": 17.16,
+              "protein": 3.63,
+              "carbs": 0.23,
+              "fat": 0.07,
+              "fiber": 0
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 12.38
+      },
+      "createdAt": "2026-07-05T07:56:34.329Z",
+      "prevVersionId": "77f36903-12aa-47ac-8eaf-282f7cac7a79",
+      "description": "Pushed all the way to chew — derived from the Fudgy base: coconut oil instead of butter (no baking chocolate), the most brown sugar, more flour with ~10-15 extra fold strokes to develop a little gluten, egg-white-forward, no cornstarch. Cocoa + espresso are bloomed in a splash of warm skim milk. 1/4 cup granulated Splenda, baked at 325F for ~18 min and pulled at only a faint wobble. Lands at 12.4 cal per g protein — the leanest of the three. Computed ~619 cal / 50 g protein per batch of 9; ~69 cal, 5.6P, 7.9C, 2.1F per square. Large eggs (50 g whole, 33 g white). Source: user."
+    },
+    "913ac8a7-c4dc-4e47-aa0f-69f21e3d7813": {
+      "id": "913ac8a7-c4dc-4e47-aa0f-69f21e3d7813",
+      "recipeId": "a4668b63-4d88-409c-96f5-b403e38dea1c",
+      "derivesFromVersionId": "dc4a67db-bf90-4d24-9dcf-f47dfbf06968",
+      "name": "Fudgy + Chewy Protein Brownies",
+      "tags": [
+        "brownie",
+        "protein",
+        "fudgy",
+        "chewy"
+      ],
+      "yield": {
+        "amount": 9,
+        "unit": "squares"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "sweetness pass: Splenda 4->6 tbsp, +1 tsp vanilla (cocoa bitterness masking)",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-brown-sugar",
+              "name": "brown sugar",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-brown-sugar"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-egg-white",
+              "name": "egg white",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-egg-white"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-brown-sugar",
+              "stepKey": "b3",
+              "slotKey": "sl-brown-sugar",
+              "quantityValue": 22,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-egg-white",
+              "stepKey": "b3",
+              "slotKey": "sl-egg-white",
+              "quantityValue": 1,
+              "quantityUnit": "each"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b2",
+            "payload": {
+              "componentKey": "b2",
+              "order": 2,
+              "section": "Batter",
+              "instructionText": "Melt the butter + baking chocolate (low heat or short microwave bursts). Stir in the cocoa + espresso to bloom into a paste; set aside to cool slightly."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b3",
+            "payload": {
+              "componentKey": "b3",
+              "order": 3,
+              "section": "Batter",
+              "instructionText": "Beat the whole egg + egg white with the brown sugar only until the sugar grit dissolves and it looks smooth and glossy — then STOP. This builds chew and the shiny top; do NOT whip it to a pale, voluminous ribbon, which aerates it and bakes up holey/cakey."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b4",
+            "payload": {
+              "componentKey": "b4",
+              "order": 4,
+              "section": "Batter",
+              "instructionText": "Stir the Greek yogurt into the egg mixture, then fold in the cooled chocolate mixture until uniform."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b5",
+            "payload": {
+              "componentKey": "b5",
+              "order": 5,
+              "section": "Batter",
+              "instructionText": "Whisk the flour + protein powder + salt, then fold in just to no dry streaks — then a few extra gentle strokes for a little chew, stopping before the batter turns smooth and stretchy. No cornstarch."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b6",
+            "payload": {
+              "componentKey": "b6",
+              "order": 6,
+              "section": "Batter",
+              "instructionText": "Stir in the Splenda; add a splash of skim milk only if the batter is stiff. Spread in the pan."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "k1",
+            "payload": {
+              "componentKey": "k1",
+              "order": 7,
+              "section": "Bake",
+              "instructionText": "Bake at 325°F for ~17–18 minutes, checking from ~14. Pull at a slight center jiggle — it's fudgy-leaning, so on the early side.",
+              "temperature": 325,
+              "timerSeconds": 1080
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-butter",
+            "payload": {
+              "componentKey": "u-butter",
+              "stepKey": "b2",
+              "slotKey": "sl-butter",
+              "quantityValue": 14,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-chocolate",
+            "payload": {
+              "componentKey": "u-chocolate",
+              "stepKey": "b2",
+              "slotKey": "sl-chocolate",
+              "quantityValue": 8,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-cocoa",
+            "payload": {
+              "componentKey": "u-cocoa",
+              "stepKey": "b2",
+              "slotKey": "sl-cocoa",
+              "quantityValue": 20,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg",
+            "payload": {
+              "componentKey": "u-egg",
+              "stepKey": "b3",
+              "slotKey": "sl-egg",
+              "quantityValue": 1,
+              "quantityUnit": "each"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-yogurt",
+            "payload": {
+              "componentKey": "u-yogurt",
+              "stepKey": "b4",
+              "slotKey": "sl-yogurt",
+              "quantityValue": 100,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-flour",
+            "payload": {
+              "componentKey": "u-flour",
+              "stepKey": "b5",
+              "slotKey": "sl-flour",
+              "quantityValue": 15,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-protein",
+            "payload": {
+              "componentKey": "u-protein",
+              "stepKey": "b5",
+              "slotKey": "sl-protein",
+              "quantityValue": 30,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-salt",
+            "payload": {
+              "componentKey": "u-salt",
+              "stepKey": "b5",
+              "slotKey": "sl-salt",
+              "quantityValue": 1,
+              "quantityUnit": "pinch"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-splenda",
+            "payload": {
+              "componentKey": "u-splenda",
+              "stepKey": "b6",
+              "slotKey": "sl-splenda",
+              "quantityValue": 0.25,
+              "quantityUnit": "cup"
+            }
+          },
+          {
+            "op": "remove",
+            "kind": "usage",
+            "target": "u-milk"
+          },
+          {
+            "op": "remove",
+            "kind": "usage",
+            "target": "u-vanilla"
+          },
+          {
+            "op": "remove",
+            "kind": "usage",
+            "target": "u-cornstarch"
+          },
+          {
+            "op": "remove",
+            "kind": "slot",
+            "target": "sl-milk"
+          },
+          {
+            "op": "remove",
+            "kind": "slot",
+            "target": "sl-vanilla"
+          },
+          {
+            "op": "remove",
+            "kind": "slot",
+            "target": "sl-cornstarch"
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg",
+            "payload": {
+              "componentKey": "u-egg",
+              "stepKey": "b3",
+              "slotKey": "sl-egg",
+              "quantityValue": 44,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg-white",
+            "payload": {
+              "componentKey": "u-egg-white",
+              "stepKey": "b3",
+              "slotKey": "sl-egg-white",
+              "quantityValue": 30,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n1",
+            "payload": {
+              "componentKey": "n1",
+              "kind": "pitfall",
+              "text": "Let the melted butter + chocolate cool until just warm before adding to the eggs — pouring hot chocolate into the egg mixture scrambles it and you lose the glossy emulsion the shiny top depends on.",
+              "stepKey": "b2"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n2",
+            "payload": {
+              "componentKey": "n2",
+              "kind": "pitfall",
+              "text": "Stop beating the egg + egg white + brown sugar (22 g) the moment the sugar grit dissolves and the mixture looks smooth and glossy. Ribboning it pale and voluminous bakes up holey and cakey, not fudgy.",
+              "stepKey": "b3"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n3",
+            "payload": {
+              "componentKey": "n3",
+              "kind": "technique",
+              "text": "Only 15 g flour and 30 g protein here — the dry folds in fast. A few extra gentle strokes after the streaks disappear builds chew; stop the instant the batter feels smooth or starts to pull.",
+              "stepKey": "b5"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n4",
+            "payload": {
+              "componentKey": "n4",
+              "kind": "pitfall",
+              "text": "Start checking at 14 min, not 17 — pull the moment the edges are set and the centre has a slight wobble. A clean toothpick means overbaked; you want moist crumbs clinging. Carryover sets the centre.",
+              "stepKey": "k1"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n5",
+            "payload": {
+              "componentKey": "n5",
+              "kind": "technique",
+              "text": "Chill several hours or overnight before cutting — the fudge texture only fully sets cold. Run a knife under hot water and wipe clean between cuts for neat squares.",
+              "stepKey": "f3"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg",
+            "payload": {
+              "componentKey": "u-egg",
+              "stepKey": "b3",
+              "slotKey": "sl-egg",
+              "quantityValue": 50,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg-white",
+            "payload": {
+              "componentKey": "u-egg-white",
+              "stepKey": "b3",
+              "slotKey": "sl-egg-white",
+              "quantityValue": 33,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-splenda",
+            "payload": {
+              "componentKey": "u-splenda",
+              "stepKey": "b6",
+              "slotKey": "sl-splenda",
+              "quantityValue": 6,
+              "quantityUnit": "tbsp"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-vanilla",
+              "name": "vanilla extract",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-vanilla-extract"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-vanilla",
+              "stepKey": "b4",
+              "slotKey": "sl-vanilla",
+              "quantityValue": 1,
+              "quantityUnit": "tsp"
+            }
+          }
+        ],
+        "name": "Fudgy + Chewy Protein Brownies",
+        "tags": [
+          "brownie",
+          "protein",
+          "fudgy",
+          "chewy"
+        ]
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "b1",
+            "order": 1,
+            "section": "Batter",
+            "instructionText": "Preheat to 325°F (165°C) and line or grease a small ~6-inch square pan.",
+            "temperature": 325
+          },
+          {
+            "componentKey": "b2",
+            "order": 2,
+            "section": "Batter",
+            "instructionText": "Melt the butter + baking chocolate (low heat or short microwave bursts). Stir in the cocoa + espresso to bloom into a paste; set aside to cool slightly."
+          },
+          {
+            "componentKey": "b3",
+            "order": 3,
+            "section": "Batter",
+            "instructionText": "Beat the whole egg + egg white with the brown sugar only until the sugar grit dissolves and it looks smooth and glossy — then STOP. This builds chew and the shiny top; do NOT whip it to a pale, voluminous ribbon, which aerates it and bakes up holey/cakey."
+          },
+          {
+            "componentKey": "b4",
+            "order": 4,
+            "section": "Batter",
+            "instructionText": "Stir the Greek yogurt into the egg mixture, then fold in the cooled chocolate mixture until uniform."
+          },
+          {
+            "componentKey": "b5",
+            "order": 5,
+            "section": "Batter",
+            "instructionText": "Whisk the flour + protein powder + salt, then fold in just to no dry streaks — then a few extra gentle strokes for a little chew, stopping before the batter turns smooth and stretchy. No cornstarch."
+          },
+          {
+            "componentKey": "b6",
+            "order": 6,
+            "section": "Batter",
+            "instructionText": "Stir in the Splenda; add a splash of skim milk only if the batter is stiff. Spread in the pan."
+          },
+          {
+            "componentKey": "k1",
+            "order": 7,
+            "section": "Bake",
+            "instructionText": "Bake at 325°F for ~17–18 minutes, checking from ~14. Pull at a slight center jiggle — it's fudgy-leaning, so on the early side.",
+            "temperature": 325,
+            "timerSeconds": 1080
+          },
+          {
+            "componentKey": "f1",
+            "order": 8,
+            "section": "Finish",
+            "instructionText": "Doneness: edges set and just pulling from the sides with a slight wobble in the center (not a liquid slosh). A toothpick should read moist crumbs clinging — a clean toothpick means overbaked. On these small protein batters, trust the jiggle over the toothpick."
+          },
+          {
+            "componentKey": "f2",
+            "order": 9,
+            "section": "Finish",
+            "instructionText": "Cool completely in the pan on a wire rack, undisturbed — never cut warm. The crumb sets and the protein firms as it cools; a warm one seems gummy and then comes good."
+          },
+          {
+            "componentKey": "f3",
+            "order": 10,
+            "section": "Finish",
+            "instructionText": "Chill a few hours or overnight — they're better the next day. Cut cold with a clean knife (for the fudgy ones, run it under hot water and wipe between cuts). Store airtight; freeze portions for longer keeping. Optional: microwave a piece 8–10 sec to soften the fat — no longer, or the protein turns rubbery."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-butter",
+            "name": "butter",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-butter"
+            }
+          },
+          {
+            "componentKey": "sl-chocolate",
+            "name": "unsweetened baking chocolate",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-baking-chocolate"
+            }
+          },
+          {
+            "componentKey": "sl-cocoa",
+            "name": "unsweetened cocoa powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cocoa-powder"
+            }
+          },
+          {
+            "componentKey": "sl-espresso",
+            "name": "espresso/instant coffee powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-espresso-powder"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "chocolate protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-chocolate"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-brown-sugar",
+            "name": "brown sugar",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-butter",
+            "stepKey": "b2",
+            "slotKey": "sl-butter",
+            "quantityValue": 14,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-chocolate",
+            "stepKey": "b2",
+            "slotKey": "sl-chocolate",
+            "quantityValue": 8,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-cocoa",
+            "stepKey": "b2",
+            "slotKey": "sl-cocoa",
+            "quantityValue": 20,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-espresso",
+            "stepKey": "b2",
+            "slotKey": "sl-espresso",
+            "quantityValue": 0.5,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "b6",
+            "slotKey": "sl-splenda",
+            "quantityValue": 6,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "b4",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 100,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "b3",
+            "slotKey": "sl-egg",
+            "quantityValue": 50,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "b5",
+            "slotKey": "sl-flour",
+            "quantityValue": 15,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "b5",
+            "slotKey": "sl-protein",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "b5",
+            "slotKey": "sl-salt",
+            "quantityValue": 1,
+            "quantityUnit": "pinch"
+          },
+          {
+            "componentKey": "u-brown-sugar",
+            "stepKey": "b3",
+            "slotKey": "sl-brown-sugar",
+            "quantityValue": 22,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "b3",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 33,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "b4",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          }
+        ],
+        "notes": [
+          {
+            "componentKey": "n1",
+            "kind": "pitfall",
+            "text": "Let the melted butter + chocolate cool until just warm before adding to the eggs — pouring hot chocolate into the egg mixture scrambles it and you lose the glossy emulsion the shiny top depends on.",
+            "stepKey": "b2"
+          },
+          {
+            "componentKey": "n2",
+            "kind": "pitfall",
+            "text": "Stop beating the egg + egg white + brown sugar (22 g) the moment the sugar grit dissolves and the mixture looks smooth and glossy. Ribboning it pale and voluminous bakes up holey and cakey, not fudgy.",
+            "stepKey": "b3"
+          },
+          {
+            "componentKey": "n3",
+            "kind": "technique",
+            "text": "Only 15 g flour and 30 g protein here — the dry folds in fast. A few extra gentle strokes after the streaks disappear builds chew; stop the instant the batter feels smooth or starts to pull.",
+            "stepKey": "b5"
+          },
+          {
+            "componentKey": "n4",
+            "kind": "pitfall",
+            "text": "Start checking at 14 min, not 17 — pull the moment the edges are set and the centre has a slight wobble. A clean toothpick means overbaked; you want moist crumbs clinging. Carryover sets the centre.",
+            "stepKey": "k1"
+          },
+          {
+            "componentKey": "n5",
+            "kind": "technique",
+            "text": "Chill several hours or overnight before cutting — the fudge texture only fully sets cold. Run a knife under hot water and wipe clean between cuts for neat squares.",
+            "stepKey": "f3"
+          },
+          {
+            "componentKey": "n-sweet",
+            "kind": "technique",
+            "text": "Sweetness pass: this base carries THREE bitter sources (cocoa + unsweetened baking chocolate + chocolate protein powder), which mask sweetness - chocolate bakes need ~20-30% more sweetener than vanilla ones to read equally sweet. Cocoa cut 33->20g, Splenda up to 6 tbsp, vanilla up to 1 tsp. The bloom paste in b2/b3 will be a little looser with less cocoa - fine. If STILL bitter, swap the baking chocolate for semi-sweet chips before adding more Splenda.",
+            "stepKey": "b2"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 648.9,
+          "protein": 50.11,
+          "carbs": 63.77,
+          "fat": 25.11,
+          "fiber": 9.76
+        },
+        "perServing": {
+          "calories": 72.1,
+          "protein": 5.57,
+          "carbs": 7.09,
+          "fat": 2.79,
+          "fiber": 1.09
+        },
+        "yield": {
+          "amount": 9,
+          "unit": "squares"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-butter",
+            "ingredientId": "ing-butter",
+            "ingredientName": "butter",
+            "grams": 14,
+            "macros": {
+              "calories": 100.38,
+              "protein": 0.12,
+              "carbs": 0.01,
+              "fat": 11.34,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-chocolate",
+            "ingredientId": "ing-baking-chocolate",
+            "ingredientName": "unsweetened baking chocolate",
+            "grams": 8,
+            "macros": {
+              "calories": 51.2,
+              "protein": 1.12,
+              "carbs": 2.4,
+              "fat": 4.16,
+              "fiber": 1.36
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-cocoa",
+            "ingredientId": "ing-cocoa-powder",
+            "ingredientName": "unsweetened cocoa powder",
+            "grams": 20,
+            "macros": {
+              "calories": 45.6,
+              "protein": 3.92,
+              "carbs": 11.6,
+              "fat": 2.74,
+              "fiber": 7.4
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-espresso",
+            "ingredientId": "ing-espresso-powder",
+            "ingredientName": "espresso/instant coffee powder",
+            "grams": 1,
+            "macros": {
+              "calories": 3.53,
+              "protein": 0.12,
+              "carbs": 0.41,
+              "fat": 0.01,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 8.96,
+            "macros": {
+              "calories": 35.84,
+              "protein": 0,
+              "carbs": 8.96,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 100,
+            "macros": {
+              "calories": 59,
+              "protein": 10,
+              "carbs": 3.6,
+              "fat": 0.4,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 15,
+            "macros": {
+              "calories": 54.6,
+              "protein": 1.5,
+              "carbs": 11.4,
+              "fat": 0.15,
+              "fiber": 0.41
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-chocolate",
+            "ingredientName": "chocolate protein powder",
+            "grams": 30,
+            "macros": {
+              "calories": 114,
+              "protein": 23.4,
+              "carbs": 2.7,
+              "fat": 1.5,
+              "fiber": 0.6
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brown-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 22,
+            "macros": {
+              "calories": 83.6,
+              "protein": 0,
+              "carbs": 21.56,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 33,
+            "macros": {
+              "calories": 17.16,
+              "protein": 3.63,
+              "carbs": 0.23,
+              "fat": 0.07,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 12.95
+      },
+      "createdAt": "2026-07-05T07:57:26.131Z",
+      "prevVersionId": "e4a1ba72-572f-4296-a13c-278ce4b9a215",
+      "description": "The balanced one — derived from the Fudgy base, keeping real fudge from butter + baking chocolate but adding chew: the whole egg + an extra egg white are beaten with brown sugar until glossy (dissolved, never whipped to a ribbon), the cornstarch is dropped, and protein is doubled. 1/4 cup granulated Splenda, no added milk, baked at 325F for ~17-18 min and pulled at a slight (fudgy-leaning) jiggle. Doubling protein at flat calories pulls the ratio from the base's 16.6 down to 12.5 cal per g protein. Computed ~624 cal / 50 g protein per batch of 9; ~69 cal, 5.6P, 6.7C, 2.8F per square. Large eggs (50 g whole, 33 g white). Source: user."
+    },
+    "6a0c3b03-0e07-46bd-8762-a67b81101ba0": {
+      "id": "6a0c3b03-0e07-46bd-8762-a67b81101ba0",
+      "recipeId": "0d7a9b58-2cfe-457f-b3f2-086035539b75",
+      "derivesFromVersionId": "dc4a67db-bf90-4d24-9dcf-f47dfbf06968",
+      "name": "Chewiest Protein Brownies",
+      "tags": [
+        "brownie",
+        "protein",
+        "chewy"
+      ],
+      "yield": {
+        "amount": 9,
+        "unit": "squares"
+      },
+      "status": "draft",
+      "author": "user",
+      "commitMessage": "sweetness pass: Splenda 4->6 tbsp, +1 tsp vanilla (cocoa bitterness masking)",
+      "overrideSet": {
+        "entries": [
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-oil",
+              "name": "neutral oil",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-vegetable-oil"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-brown-sugar",
+              "name": "brown sugar",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-brown-sugar"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-egg-white",
+              "name": "egg white",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-egg-white"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-oil",
+              "stepKey": "b3",
+              "slotKey": "sl-oil",
+              "quantityValue": 10,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-brown-sugar",
+              "stepKey": "b2",
+              "slotKey": "sl-brown-sugar",
+              "quantityValue": 28,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-egg-white",
+              "stepKey": "b2",
+              "slotKey": "sl-egg-white",
+              "quantityValue": 1,
+              "quantityUnit": "each"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b2",
+            "payload": {
+              "componentKey": "b2",
+              "order": 2,
+              "section": "Batter",
+              "instructionText": "Beat the whole egg + egg white with the brown sugar only until the sugar dissolves and it looks smooth and glossy — then STOP. Chew and the shiny top come from dissolving, not air; don't whip it to a pale ribbon."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b3",
+            "payload": {
+              "componentKey": "b3",
+              "order": 3,
+              "section": "Batter",
+              "instructionText": "Whisk in the neutral oil, then the Greek yogurt."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b4",
+            "payload": {
+              "componentKey": "b4",
+              "order": 4,
+              "section": "Batter",
+              "instructionText": "Bloom the cocoa + espresso in a small splash of warm skim milk, then stir into the batter."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b5",
+            "payload": {
+              "componentKey": "b5",
+              "order": 5,
+              "section": "Batter",
+              "instructionText": "Whisk the flour + protein powder + salt, then fold in to no dry streaks, then ~10–15 extra strokes to develop a little gluten for chew — still stopping before it goes very stretchy or tough. No chocolate, no cornstarch."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b6",
+            "payload": {
+              "componentKey": "b6",
+              "order": 6,
+              "section": "Batter",
+              "instructionText": "Stir in the Splenda; add a splash more skim milk only if stiff. Spread in the pan."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "k1",
+            "payload": {
+              "componentKey": "k1",
+              "order": 7,
+              "section": "Bake",
+              "instructionText": "Bake at 325°F for ~18 minutes, checking from ~14. Pull at only a faint center wobble — chewy wants a touch more set than fudgy, but don't dry it out.",
+              "temperature": 325,
+              "timerSeconds": 1080
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg",
+            "payload": {
+              "componentKey": "u-egg",
+              "stepKey": "b2",
+              "slotKey": "sl-egg",
+              "quantityValue": 1,
+              "quantityUnit": "each"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-yogurt",
+            "payload": {
+              "componentKey": "u-yogurt",
+              "stepKey": "b3",
+              "slotKey": "sl-yogurt",
+              "quantityValue": 100,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-cocoa",
+            "payload": {
+              "componentKey": "u-cocoa",
+              "stepKey": "b4",
+              "slotKey": "sl-cocoa",
+              "quantityValue": 18,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-espresso",
+            "payload": {
+              "componentKey": "u-espresso",
+              "stepKey": "b4",
+              "slotKey": "sl-espresso",
+              "quantityValue": 0.5,
+              "quantityUnit": "tsp"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-milk",
+            "payload": {
+              "componentKey": "u-milk",
+              "stepKey": "b4",
+              "slotKey": "sl-milk",
+              "quantityValue": 15,
+              "quantityUnit": "ml"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-flour",
+            "payload": {
+              "componentKey": "u-flour",
+              "stepKey": "b5",
+              "slotKey": "sl-flour",
+              "quantityValue": 25,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-protein",
+            "payload": {
+              "componentKey": "u-protein",
+              "stepKey": "b5",
+              "slotKey": "sl-protein",
+              "quantityValue": 30,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-salt",
+            "payload": {
+              "componentKey": "u-salt",
+              "stepKey": "b5",
+              "slotKey": "sl-salt",
+              "quantityValue": 1,
+              "quantityUnit": "pinch"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-splenda",
+            "payload": {
+              "componentKey": "u-splenda",
+              "stepKey": "b6",
+              "slotKey": "sl-splenda",
+              "quantityValue": 0.25,
+              "quantityUnit": "cup"
+            }
+          },
+          {
+            "op": "remove",
+            "kind": "usage",
+            "target": "u-butter"
+          },
+          {
+            "op": "remove",
+            "kind": "usage",
+            "target": "u-chocolate"
+          },
+          {
+            "op": "remove",
+            "kind": "usage",
+            "target": "u-vanilla"
+          },
+          {
+            "op": "remove",
+            "kind": "usage",
+            "target": "u-cornstarch"
+          },
+          {
+            "op": "remove",
+            "kind": "slot",
+            "target": "sl-butter"
+          },
+          {
+            "op": "remove",
+            "kind": "slot",
+            "target": "sl-chocolate"
+          },
+          {
+            "op": "remove",
+            "kind": "slot",
+            "target": "sl-vanilla"
+          },
+          {
+            "op": "remove",
+            "kind": "slot",
+            "target": "sl-cornstarch"
+          },
+          {
+            "op": "replace",
+            "kind": "slot",
+            "target": "sl-oil",
+            "payload": {
+              "componentKey": "sl-oil",
+              "name": "coconut oil",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-coconut-oil"
+              }
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "step",
+            "target": "b3",
+            "payload": {
+              "componentKey": "b3",
+              "order": 3,
+              "section": "Batter",
+              "instructionText": "Whisk in the coconut oil (melted if solid), then the Greek yogurt."
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg",
+            "payload": {
+              "componentKey": "u-egg",
+              "stepKey": "b2",
+              "slotKey": "sl-egg",
+              "quantityValue": 44,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg-white",
+            "payload": {
+              "componentKey": "u-egg-white",
+              "stepKey": "b2",
+              "slotKey": "sl-egg-white",
+              "quantityValue": 30,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n1",
+            "payload": {
+              "componentKey": "n1",
+              "kind": "pitfall",
+              "text": "Stop beating the egg + brown sugar the moment it looks glossy and the sugar has dissolved — whipping to a pale ribbon traps air, which makes the top puff then sink and kills the chew.",
+              "stepKey": "b2"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n2",
+            "payload": {
+              "componentKey": "n2",
+              "kind": "technique",
+              "text": "Blooming the 18 g cocoa in 15 ml warm milk with the espresso deepens the chocolate flavor significantly — don't skip it or add the cocoa dry, which leaves a chalky note in a batter this lean.",
+              "stepKey": "b4"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n3",
+            "payload": {
+              "componentKey": "n3",
+              "kind": "technique",
+              "text": "The 10–15 extra fold strokes after no-dry-streaks are intentional and load-bearing for chew — they develop a little gluten. Stop before the batter goes stretchy or springy; that's the line between chewy and tough.",
+              "stepKey": "b5"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n4",
+            "payload": {
+              "componentKey": "n4",
+              "kind": "pitfall",
+              "text": "Start checking at 14 minutes — this is a small ~6-inch pan and 30 g protein + 25 g flour dry out quickly. Pull at a faint center wobble; a clean toothpick means overbaked on this batter.",
+              "stepKey": "k1"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "note",
+            "target": "n5",
+            "payload": {
+              "componentKey": "n5",
+              "kind": "pitfall",
+              "text": "Do not cut warm — the protein-yogurt crumb is gummy and tears when hot. Cool fully on a rack, then chill for a few hours; the texture improves dramatically overnight.",
+              "stepKey": "f2"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg",
+            "payload": {
+              "componentKey": "u-egg",
+              "stepKey": "b2",
+              "slotKey": "sl-egg",
+              "quantityValue": 50,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-egg-white",
+            "payload": {
+              "componentKey": "u-egg-white",
+              "stepKey": "b2",
+              "slotKey": "sl-egg-white",
+              "quantityValue": 33,
+              "quantityUnit": "g"
+            }
+          },
+          {
+            "op": "replace",
+            "kind": "usage",
+            "target": "u-splenda",
+            "payload": {
+              "componentKey": "u-splenda",
+              "stepKey": "b6",
+              "slotKey": "sl-splenda",
+              "quantityValue": 6,
+              "quantityUnit": "tbsp"
+            }
+          },
+          {
+            "op": "add",
+            "kind": "slot",
+            "payload": {
+              "componentKey": "sl-vanilla",
+              "name": "vanilla extract",
+              "resolution": {
+                "kind": "raw",
+                "libraryIngredientId": "ing-vanilla-extract"
+              }
+            }
+          },
+          {
+            "op": "add",
+            "kind": "usage",
+            "payload": {
+              "componentKey": "u-vanilla",
+              "stepKey": "b4",
+              "slotKey": "sl-vanilla",
+              "quantityValue": 1,
+              "quantityUnit": "tsp"
+            }
+          }
+        ],
+        "name": "Chewiest Protein Brownies",
+        "tags": [
+          "brownie",
+          "protein",
+          "chewy"
+        ]
+      },
+      "content": {
+        "steps": [
+          {
+            "componentKey": "b1",
+            "order": 1,
+            "section": "Batter",
+            "instructionText": "Preheat to 325°F (165°C) and line or grease a small ~6-inch square pan.",
+            "temperature": 325
+          },
+          {
+            "componentKey": "b2",
+            "order": 2,
+            "section": "Batter",
+            "instructionText": "Beat the whole egg + egg white with the brown sugar only until the sugar dissolves and it looks smooth and glossy — then STOP. Chew and the shiny top come from dissolving, not air; don't whip it to a pale ribbon."
+          },
+          {
+            "componentKey": "b3",
+            "order": 3,
+            "section": "Batter",
+            "instructionText": "Whisk in the coconut oil (melted if solid), then the Greek yogurt."
+          },
+          {
+            "componentKey": "b4",
+            "order": 4,
+            "section": "Batter",
+            "instructionText": "Bloom the cocoa + espresso in a small splash of warm skim milk, then stir into the batter."
+          },
+          {
+            "componentKey": "b5",
+            "order": 5,
+            "section": "Batter",
+            "instructionText": "Whisk the flour + protein powder + salt, then fold in to no dry streaks, then ~10–15 extra strokes to develop a little gluten for chew — still stopping before it goes very stretchy or tough. No chocolate, no cornstarch."
+          },
+          {
+            "componentKey": "b6",
+            "order": 6,
+            "section": "Batter",
+            "instructionText": "Stir in the Splenda; add a splash more skim milk only if stiff. Spread in the pan."
+          },
+          {
+            "componentKey": "k1",
+            "order": 7,
+            "section": "Bake",
+            "instructionText": "Bake at 325°F for ~18 minutes, checking from ~14. Pull at only a faint center wobble — chewy wants a touch more set than fudgy, but don't dry it out.",
+            "temperature": 325,
+            "timerSeconds": 1080
+          },
+          {
+            "componentKey": "f1",
+            "order": 8,
+            "section": "Finish",
+            "instructionText": "Doneness: edges set and just pulling from the sides with a slight wobble in the center (not a liquid slosh). A toothpick should read moist crumbs clinging — a clean toothpick means overbaked. On these small protein batters, trust the jiggle over the toothpick."
+          },
+          {
+            "componentKey": "f2",
+            "order": 9,
+            "section": "Finish",
+            "instructionText": "Cool completely in the pan on a wire rack, undisturbed — never cut warm. The crumb sets and the protein firms as it cools; a warm one seems gummy and then comes good."
+          },
+          {
+            "componentKey": "f3",
+            "order": 10,
+            "section": "Finish",
+            "instructionText": "Chill a few hours or overnight — they're better the next day. Cut cold with a clean knife (for the fudgy ones, run it under hot water and wipe between cuts). Store airtight; freeze portions for longer keeping. Optional: microwave a piece 8–10 sec to soften the fat — no longer, or the protein turns rubbery."
+          }
+        ],
+        "slots": [
+          {
+            "componentKey": "sl-cocoa",
+            "name": "unsweetened cocoa powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-cocoa-powder"
+            }
+          },
+          {
+            "componentKey": "sl-espresso",
+            "name": "espresso/instant coffee powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-espresso-powder"
+            }
+          },
+          {
+            "componentKey": "sl-milk",
+            "name": "skim milk",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-skim-milk"
+            }
+          },
+          {
+            "componentKey": "sl-splenda",
+            "name": "granulated Splenda",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-splenda-granulated"
+            }
+          },
+          {
+            "componentKey": "sl-yogurt",
+            "name": "0% Greek yogurt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-greek-yogurt-nonfat"
+            }
+          },
+          {
+            "componentKey": "sl-egg",
+            "name": "whole egg",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-whole"
+            }
+          },
+          {
+            "componentKey": "sl-flour",
+            "name": "all-purpose flour",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-ap-flour"
+            }
+          },
+          {
+            "componentKey": "sl-protein",
+            "name": "chocolate protein powder",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-protein-chocolate"
+            }
+          },
+          {
+            "componentKey": "sl-salt",
+            "name": "salt",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-salt"
+            }
+          },
+          {
+            "componentKey": "sl-oil",
+            "name": "coconut oil",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-coconut-oil"
+            }
+          },
+          {
+            "componentKey": "sl-brown-sugar",
+            "name": "brown sugar",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-brown-sugar"
+            }
+          },
+          {
+            "componentKey": "sl-egg-white",
+            "name": "egg white",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-egg-white"
+            }
+          },
+          {
+            "componentKey": "sl-vanilla",
+            "name": "vanilla extract",
+            "resolution": {
+              "kind": "raw",
+              "libraryIngredientId": "ing-vanilla-extract"
+            }
+          }
+        ],
+        "usages": [
+          {
+            "componentKey": "u-cocoa",
+            "stepKey": "b4",
+            "slotKey": "sl-cocoa",
+            "quantityValue": 18,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-espresso",
+            "stepKey": "b4",
+            "slotKey": "sl-espresso",
+            "quantityValue": 0.5,
+            "quantityUnit": "tsp"
+          },
+          {
+            "componentKey": "u-milk",
+            "stepKey": "b4",
+            "slotKey": "sl-milk",
+            "quantityValue": 15,
+            "quantityUnit": "ml"
+          },
+          {
+            "componentKey": "u-splenda",
+            "stepKey": "b6",
+            "slotKey": "sl-splenda",
+            "quantityValue": 6,
+            "quantityUnit": "tbsp"
+          },
+          {
+            "componentKey": "u-yogurt",
+            "stepKey": "b3",
+            "slotKey": "sl-yogurt",
+            "quantityValue": 100,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg",
+            "stepKey": "b2",
+            "slotKey": "sl-egg",
+            "quantityValue": 50,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-flour",
+            "stepKey": "b5",
+            "slotKey": "sl-flour",
+            "quantityValue": 25,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-protein",
+            "stepKey": "b5",
+            "slotKey": "sl-protein",
+            "quantityValue": 30,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-salt",
+            "stepKey": "b5",
+            "slotKey": "sl-salt",
+            "quantityValue": 1,
+            "quantityUnit": "pinch"
+          },
+          {
+            "componentKey": "u-oil",
+            "stepKey": "b3",
+            "slotKey": "sl-oil",
+            "quantityValue": 10,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-brown-sugar",
+            "stepKey": "b2",
+            "slotKey": "sl-brown-sugar",
+            "quantityValue": 28,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-egg-white",
+            "stepKey": "b2",
+            "slotKey": "sl-egg-white",
+            "quantityValue": 33,
+            "quantityUnit": "g"
+          },
+          {
+            "componentKey": "u-vanilla",
+            "stepKey": "b4",
+            "slotKey": "sl-vanilla",
+            "quantityValue": 1,
+            "quantityUnit": "tsp"
+          }
+        ],
+        "notes": [
+          {
+            "componentKey": "n1",
+            "kind": "pitfall",
+            "text": "Stop beating the egg + brown sugar the moment it looks glossy and the sugar has dissolved — whipping to a pale ribbon traps air, which makes the top puff then sink and kills the chew.",
+            "stepKey": "b2"
+          },
+          {
+            "componentKey": "n2",
+            "kind": "technique",
+            "text": "Blooming the 18 g cocoa in 15 ml warm milk with the espresso deepens the chocolate flavor significantly — don't skip it or add the cocoa dry, which leaves a chalky note in a batter this lean.",
+            "stepKey": "b4"
+          },
+          {
+            "componentKey": "n3",
+            "kind": "technique",
+            "text": "The 10–15 extra fold strokes after no-dry-streaks are intentional and load-bearing for chew — they develop a little gluten. Stop before the batter goes stretchy or springy; that's the line between chewy and tough.",
+            "stepKey": "b5"
+          },
+          {
+            "componentKey": "n4",
+            "kind": "pitfall",
+            "text": "Start checking at 14 minutes — this is a small ~6-inch pan and 30 g protein + 25 g flour dry out quickly. Pull at a faint center wobble; a clean toothpick means overbaked on this batter.",
+            "stepKey": "k1"
+          },
+          {
+            "componentKey": "n5",
+            "kind": "pitfall",
+            "text": "Do not cut warm — the protein-yogurt crumb is gummy and tears when hot. Cool fully on a rack, then chill for a few hours; the texture improves dramatically overnight.",
+            "stepKey": "f2"
+          },
+          {
+            "componentKey": "n-sweet",
+            "kind": "technique",
+            "text": "Sweetness pass: this base carries THREE bitter sources (cocoa + unsweetened baking chocolate + chocolate protein powder), which mask sweetness - chocolate bakes need ~20-30% more sweetener than vanilla ones to read equally sweet. Cocoa cut 33->20g, Splenda up to 6 tbsp, vanilla up to 1 tsp. The bloom paste in b2/b3 will be a little looser with less cocoa - fine. If STILL bitter, swap the baking chocolate for semi-sweet chips before adding more Splenda.",
+            "stepKey": "b2"
+          }
+        ]
+      },
+      "macros": {
+        "total": {
+          "calories": 643.44,
+          "protein": 50.01,
+          "carbs": 74.46,
+          "fat": 19.45,
+          "fiber": 7.94
+        },
+        "perServing": {
+          "calories": 71.49,
+          "protein": 5.56,
+          "carbs": 8.27,
+          "fat": 2.16,
+          "fiber": 0.88
+        },
+        "yield": {
+          "amount": 9,
+          "unit": "squares"
+        },
+        "basis": "complete",
+        "unresolved": [],
+        "lines": [
+          {
+            "slotKey": "sl-cocoa",
+            "ingredientId": "ing-cocoa-powder",
+            "ingredientName": "unsweetened cocoa powder",
+            "grams": 18,
+            "macros": {
+              "calories": 41.04,
+              "protein": 3.53,
+              "carbs": 10.44,
+              "fat": 2.47,
+              "fiber": 6.66
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-espresso",
+            "ingredientId": "ing-espresso-powder",
+            "ingredientName": "espresso/instant coffee powder",
+            "grams": 1,
+            "macros": {
+              "calories": 3.53,
+              "protein": 0.12,
+              "carbs": 0.41,
+              "fat": 0.01,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-milk",
+            "ingredientId": "ing-skim-milk",
+            "ingredientName": "skim milk",
+            "grams": 15.52,
+            "macros": {
+              "calories": 5.28,
+              "protein": 0.53,
+              "carbs": 0.78,
+              "fat": 0.02,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-splenda",
+            "ingredientId": "ing-splenda-granulated",
+            "ingredientName": "granulated Splenda",
+            "grams": 8.96,
+            "macros": {
+              "calories": 35.84,
+              "protein": 0,
+              "carbs": 8.96,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-yogurt",
+            "ingredientId": "ing-greek-yogurt-nonfat",
+            "ingredientName": "0% Greek yogurt",
+            "grams": 100,
+            "macros": {
+              "calories": 59,
+              "protein": 10,
+              "carbs": 3.6,
+              "fat": 0.4,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg",
+            "ingredientId": "ing-egg-whole",
+            "ingredientName": "whole egg",
+            "grams": 50,
+            "macros": {
+              "calories": 71.5,
+              "protein": 6.3,
+              "carbs": 0.35,
+              "fat": 4.75,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-flour",
+            "ingredientId": "ing-ap-flour",
+            "ingredientName": "all-purpose flour",
+            "grams": 25,
+            "macros": {
+              "calories": 91,
+              "protein": 2.5,
+              "carbs": 19,
+              "fat": 0.25,
+              "fiber": 0.68
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-protein",
+            "ingredientId": "ing-protein-chocolate",
+            "ingredientName": "chocolate protein powder",
+            "grams": 30,
+            "macros": {
+              "calories": 114,
+              "protein": 23.4,
+              "carbs": 2.7,
+              "fat": 1.5,
+              "fiber": 0.6
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-salt",
+            "ingredientId": "ing-salt",
+            "ingredientName": "salt",
+            "grams": 0.4,
+            "macros": {
+              "calories": 0,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-oil",
+            "ingredientId": "ing-coconut-oil",
+            "ingredientName": "coconut oil",
+            "grams": 10,
+            "macros": {
+              "calories": 86.2,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 10,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-brown-sugar",
+            "ingredientId": "ing-brown-sugar",
+            "ingredientName": "brown sugar",
+            "grams": 28,
+            "macros": {
+              "calories": 106.4,
+              "protein": 0,
+              "carbs": 27.44,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-egg-white",
+            "ingredientId": "ing-egg-white",
+            "ingredientName": "egg white",
+            "grams": 33,
+            "macros": {
+              "calories": 17.16,
+              "protein": 3.63,
+              "carbs": 0.23,
+              "fat": 0.07,
+              "fiber": 0
+            },
+            "status": "ok"
+          },
+          {
+            "slotKey": "sl-vanilla",
+            "ingredientId": "ing-vanilla-extract",
+            "ingredientName": "vanilla extract",
+            "grams": 4.34,
+            "macros": {
+              "calories": 12.49,
+              "protein": 0,
+              "carbs": 0.55,
+              "fat": 0,
+              "fiber": 0
+            },
+            "status": "ok"
+          }
+        ],
+        "caloriesPerGramProtein": 12.87
+      },
+      "createdAt": "2026-07-05T07:57:26.677Z",
+      "prevVersionId": "6573af84-1f0e-4e73-b0ca-bde53ce37221",
+      "description": "Pushed all the way to chew — derived from the Fudgy base: coconut oil instead of butter (no baking chocolate), the most brown sugar, more flour with ~10-15 extra fold strokes to develop a little gluten, egg-white-forward, no cornstarch. Cocoa + espresso are bloomed in a splash of warm skim milk. 1/4 cup granulated Splenda, baked at 325F for ~18 min and pulled at only a faint wobble. Lands at 12.4 cal per g protein — the leanest of the three. Computed ~619 cal / 50 g protein per batch of 9; ~69 cal, 5.6P, 7.9C, 2.1F per square. Large eggs (50 g whole, 33 g white). Source: user."
     }
   },
   "ingredients": {

@@ -201,7 +201,7 @@
         "componentKey": "u-cocoa",
         "stepKey": "b2",
         "slotKey": "sl-cocoa",
-        "quantityValue": 33,
+        "quantityValue": 20,
         "quantityUnit": "g"
       },
       {
@@ -222,8 +222,8 @@
         "componentKey": "u-splenda",
         "stepKey": "b4",
         "slotKey": "sl-splenda",
-        "quantityValue": 0.25,
-        "quantityUnit": "cup"
+        "quantityValue": 6,
+        "quantityUnit": "tbsp"
       },
       {
         "componentKey": "u-yogurt",
@@ -236,7 +236,7 @@
         "componentKey": "u-vanilla",
         "stepKey": "b4",
         "slotKey": "sl-vanilla",
-        "quantityValue": 0.5,
+        "quantityValue": 1,
         "quantityUnit": "tsp"
       },
       {
@@ -305,6 +305,12 @@
         "kind": "pitfall",
         "text": "Stop folding the moment no dry streaks remain; the batter is small and 15 g of protein powder makes it easy to over-develop gluten. Extra strokes bake out the fudge into a tight, cakey crumb.",
         "stepKey": "b6"
+      },
+      {
+        "componentKey": "n-sweet",
+        "kind": "technique",
+        "text": "Sweetness pass: this base carries THREE bitter sources (cocoa + unsweetened baking chocolate + chocolate protein powder), which mask sweetness - chocolate bakes need ~20-30% more sweetener than vanilla ones to read equally sweet. Cocoa cut 33->20g, Splenda up to 6 tbsp, vanilla up to 1 tsp. The bloom paste in b2/b3 will be a little looser with less cocoa - fine. If STILL bitter, swap the baking chocolate for semi-sweet chips before adding more Splenda.",
+        "stepKey": "b2"
       }
     ]
   }
