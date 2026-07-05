@@ -187,7 +187,7 @@
         "componentKey": "u-butter",
         "stepKey": "b2",
         "slotKey": "sl-butter",
-        "quantityValue": 20,
+        "quantityValue": 10,
         "quantityUnit": "g"
       },
       {
@@ -229,7 +229,7 @@
         "componentKey": "u-yogurt",
         "stepKey": "b4",
         "slotKey": "sl-yogurt",
-        "quantityValue": 80,
+        "quantityValue": 100,
         "quantityUnit": "g"
       },
       {
@@ -310,6 +310,12 @@
         "componentKey": "n-sweet",
         "kind": "technique",
         "text": "Sweetness pass: this base carries THREE bitter sources (cocoa + unsweetened baking chocolate + chocolate protein powder), which mask sweetness - chocolate bakes need ~20-30% more sweetener than vanilla ones to read equally sweet. Cocoa cut 33->20g, Splenda up to 6 tbsp, vanilla up to 1 tsp. The bloom paste in b2/b3 will be a little looser with less cocoa - fine. If STILL bitter, swap the baking chocolate for semi-sweet chips before adding more Splenda.",
+        "stepKey": "b2"
+      },
+      {
+        "componentKey": "n-fat",
+        "kind": "technique",
+        "text": "Fat cut (untested vs the excellent-rated bake): butter halved 20->10g with +20g Greek yogurt backfill; whole egg kept on purpose (yolk = emulsion + the remaining fudge fat). Bloom paste in b2 will be tighter with half the butter - loosen with the milk in b3 as needed. If this bake loses the fudge, restore butter to 20g before touching anything else; do NOT push the fat cut down to the chewy variants until this is tasted.",
         "stepKey": "b2"
       }
     ]
