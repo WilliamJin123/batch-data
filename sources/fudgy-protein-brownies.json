@@ -35,7 +35,7 @@
         "componentKey": "b4",
         "order": 4,
         "section": "Batter",
-        "instructionText": "Stir in the Splenda, then the Greek yogurt and vanilla."
+        "instructionText": "Blend the cottage cheese completely smooth (immersion blender - no visible curd, same as the cheesecakes, or the crumb turns grainy). Stir in the Splenda, then the Greek yogurt, blended cottage cheese, and vanilla."
       },
       {
         "componentKey": "b5",
@@ -188,6 +188,14 @@
           "kind": "raw",
           "libraryIngredientId": "ing-egg-white"
         }
+      },
+      {
+        "componentKey": "sl-cottage",
+        "name": "cottage cheese",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-cottage-cheese"
+        }
       }
     ],
     "usages": [
@@ -223,7 +231,7 @@
         "componentKey": "u-milk",
         "stepKey": "b3",
         "slotKey": "sl-milk",
-        "quantityValue": 25,
+        "quantityValue": 10,
         "quantityUnit": "ml"
       },
       {
@@ -272,7 +280,7 @@
         "componentKey": "u-protein",
         "stepKey": "b6",
         "slotKey": "sl-protein",
-        "quantityValue": 35,
+        "quantityValue": 20,
         "quantityUnit": "g"
       },
       {
@@ -287,6 +295,13 @@
         "stepKey": "b5",
         "slotKey": "sl-egg-white",
         "quantityValue": 33,
+        "quantityUnit": "g"
+      },
+      {
+        "componentKey": "u-cottage",
+        "stepKey": "b4",
+        "slotKey": "sl-cottage",
+        "quantityValue": 100,
         "quantityUnit": "g"
       }
     ],
@@ -336,7 +351,7 @@
       {
         "componentKey": "n-protein",
         "kind": "technique",
-        "text": "Protein raised to a full 35g chocolate-powder serving + 33g egg white (~56g protein/batch). That's past the variants' proven 30g - highest whey load yet in this family, so rubber watch is ON: bake gentle (325F, pull at slight jiggle from 14 min) and never overbake. Milk trimmed 40->25ml since the white adds liquid; add a splash back if the batter is stiff. If this bake turns bouncy, drop powder back toward 25-27g FIRST - protein powder, not the egg white, is the rubber source.",
+        "text": "Protein ~55g/batch but rebalanced BY SOURCE: powder capped at 20g whey (under the family's proven 30g) with 100g blended cottage cheese + 100g yogurt + egg white carrying the rest. Casein (yogurt/cottage) bakes soft and dense; whey bakes rubber - so this holds the protein while cutting the rubber risk that 35g of powder carried. Batter runs wetter from the cottage: milk trimmed to 10ml, expect ~2-4 extra min in the oven, still pull at slight jiggle. If texture goes gummy instead of fudgy, cut the cottage to 50g before touching the powder.",
         "stepKey": "b6"
       }
     ]
