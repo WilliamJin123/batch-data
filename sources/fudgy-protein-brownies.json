@@ -35,7 +35,7 @@
         "componentKey": "b4",
         "order": 4,
         "section": "Batter",
-        "instructionText": "Blend the cottage cheese completely smooth (immersion blender - no visible curd, same as the cheesecakes, or the crumb turns grainy). Stir in the Splenda, then the Greek yogurt, blended cottage cheese, and vanilla."
+        "instructionText": "Stir in the Splenda, then the Greek yogurt and vanilla."
       },
       {
         "componentKey": "b5",
@@ -188,14 +188,6 @@
           "kind": "raw",
           "libraryIngredientId": "ing-egg-white"
         }
-      },
-      {
-        "componentKey": "sl-cottage",
-        "name": "cottage cheese",
-        "resolution": {
-          "kind": "raw",
-          "libraryIngredientId": "ing-cottage-cheese"
-        }
       }
     ],
     "usages": [
@@ -245,7 +237,7 @@
         "componentKey": "u-yogurt",
         "stepKey": "b4",
         "slotKey": "sl-yogurt",
-        "quantityValue": 100,
+        "quantityValue": 200,
         "quantityUnit": "g"
       },
       {
@@ -296,13 +288,6 @@
         "slotKey": "sl-egg-white",
         "quantityValue": 33,
         "quantityUnit": "g"
-      },
-      {
-        "componentKey": "u-cottage",
-        "stepKey": "b4",
-        "slotKey": "sl-cottage",
-        "quantityValue": 100,
-        "quantityUnit": "g"
       }
     ],
     "notes": [
@@ -351,7 +336,7 @@
       {
         "componentKey": "n-protein",
         "kind": "technique",
-        "text": "Protein ~55g/batch but rebalanced BY SOURCE: powder capped at 20g whey (under the family's proven 30g) with 100g blended cottage cheese + 100g yogurt + egg white carrying the rest. Casein (yogurt/cottage) bakes soft and dense; whey bakes rubber - so this holds the protein while cutting the rubber risk that 35g of powder carried. Batter runs wetter from the cottage: milk trimmed to 10ml, expect ~2-4 extra min in the oven, still pull at slight jiggle. If texture goes gummy instead of fudgy, cut the cottage to 50g before touching the powder.",
+        "text": "Protein ~55g/batch, rebalanced BY SOURCE: powder capped at 20g whey (under the family's proven 30g) with a full 200g Greek yogurt + egg white carrying the rest. Casein (yogurt) bakes soft and dense; whey bakes rubber - so this holds the protein while cutting the rubber risk that 35g of powder carried. Batter runs wetter from the extra yogurt: milk trimmed to 10ml, expect ~3-5 extra min in the oven, still pull at slight jiggle. If texture goes gummy/wet instead of fudgy, cut yogurt back toward 150g before touching the powder.",
         "stepKey": "b6"
       }
     ]
