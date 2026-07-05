@@ -237,7 +237,7 @@
         "componentKey": "u-yogurt",
         "stepKey": "b4",
         "slotKey": "sl-yogurt",
-        "quantityValue": 200,
+        "quantityValue": 150,
         "quantityUnit": "g"
       },
       {
@@ -272,7 +272,7 @@
         "componentKey": "u-protein",
         "stepKey": "b6",
         "slotKey": "sl-protein",
-        "quantityValue": 20,
+        "quantityValue": 22,
         "quantityUnit": "g"
       },
       {
@@ -336,7 +336,7 @@
       {
         "componentKey": "n-protein",
         "kind": "technique",
-        "text": "Protein ~55g/batch, rebalanced BY SOURCE: powder capped at 20g whey (under the family's proven 30g) with a full 200g Greek yogurt + egg white carrying the rest. Casein (yogurt) bakes soft and dense; whey bakes rubber - so this holds the protein while cutting the rubber risk that 35g of powder carried. Batter runs wetter from the extra yogurt: milk trimmed to 10ml, expect ~3-5 extra min in the oven, still pull at slight jiggle. If texture goes gummy/wet instead of fudgy, cut yogurt back toward 150g before touching the powder.",
+        "text": "Protein ~50g/batch by SOURCE mix: 22g whey powder (under the family's proven 30g), 150g Greek yogurt (casein - bakes soft/dense), one 33g egg white as binder. Do NOT push protein via more egg whites - baked albumin sets springy/dry (the bounce in angel food), the opposite of fudgy; whites are a binder here, not a bulk source. 150g yogurt is the dense sweet spot: 200g baked gummy-wet, 80g was the old dry-side floor. Bake normal ~18 min at 325F, pull at slight jiggle. If gummy: yogurt down toward 120g. If bouncy: powder down toward 15g.",
         "stepKey": "b6"
       }
     ]
