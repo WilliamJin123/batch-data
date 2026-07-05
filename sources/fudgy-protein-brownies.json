@@ -41,7 +41,7 @@
         "componentKey": "b5",
         "order": 5,
         "section": "Batter",
-        "instructionText": "Lightly beat the egg (no whipping — keep air out so it bakes fudgy, not cakey) and stir in last. If the base is still warm, temper first: stir a spoonful of base into the egg, then add it back."
+        "instructionText": "Lightly beat the egg and egg white together (no whipping — keep air out so it bakes fudgy, not cakey) and stir in last. If the base is still warm, temper first: stir a spoonful of base into the egg, then add it back."
       },
       {
         "componentKey": "b6",
@@ -180,6 +180,14 @@
           "kind": "raw",
           "libraryIngredientId": "ing-salt"
         }
+      },
+      {
+        "componentKey": "sl-egg-white",
+        "name": "egg white",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-egg-white"
+        }
       }
     ],
     "usages": [
@@ -215,7 +223,7 @@
         "componentKey": "u-milk",
         "stepKey": "b3",
         "slotKey": "sl-milk",
-        "quantityValue": 40,
+        "quantityValue": 25,
         "quantityUnit": "ml"
       },
       {
@@ -264,7 +272,7 @@
         "componentKey": "u-protein",
         "stepKey": "b6",
         "slotKey": "sl-protein",
-        "quantityValue": 15,
+        "quantityValue": 35,
         "quantityUnit": "g"
       },
       {
@@ -273,6 +281,13 @@
         "slotKey": "sl-salt",
         "quantityValue": 1,
         "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-egg-white",
+        "stepKey": "b5",
+        "slotKey": "sl-egg-white",
+        "quantityValue": 33,
+        "quantityUnit": "g"
       }
     ],
     "notes": [
@@ -317,6 +332,12 @@
         "kind": "technique",
         "text": "Fat cut (untested vs the excellent-rated bake): butter halved 20->10g with +20g Greek yogurt backfill; whole egg kept on purpose (yolk = emulsion + the remaining fudge fat). Bloom paste in b2 will be tighter with half the butter - loosen with the milk in b3 as needed. If this bake loses the fudge, restore butter to 20g before touching anything else; do NOT push the fat cut down to the chewy variants until this is tasted.",
         "stepKey": "b2"
+      },
+      {
+        "componentKey": "n-protein",
+        "kind": "technique",
+        "text": "Protein raised to a full 35g chocolate-powder serving + 33g egg white (~56g protein/batch). That's past the variants' proven 30g - highest whey load yet in this family, so rubber watch is ON: bake gentle (325F, pull at slight jiggle from 14 min) and never overbake. Milk trimmed 40->25ml since the white adds liquid; add a splash back if the batter is stiff. If this bake turns bouncy, drop powder back toward 25-27g FIRST - protein powder, not the egg white, is the rubber source.",
+        "stepKey": "b6"
       }
     ]
   }
