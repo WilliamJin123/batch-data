@@ -1,6 +1,6 @@
 {
   "name": "Protein Graham Crust",
-  "description": "Reusable cheesecake crust — graham crumbs bound with egg white + a little melted butter, lightly sweetened, par-baked. Egg-white bound so it sets firm at minimal fat (the binding that tested well on the turtle). This is the base crust a cheesecake composes in; skip it for a crustless cheesecake, or fork it for a flavored version. Sub-recipe (1 batch ~= 307 cal, presses a 9-inch bottom).",
+  "description": "Reusable cheesecake crust — graham crumbs bulked with coarse toasted rolled oats, bound with egg white + a hint of melted butter, lightly sweetened, par-baked. Egg-white bound so it sets firm at minimal fat; the oats add ~50% more crust volume for ~120 cal (coarse pieces pack loose = taller crust from the same press). Press light - the white carries the structure. This is the base crust a cheesecake composes in; skip it for a crustless cheesecake, or fork it for a flavored version. Sub-recipe (1 batch ~= 427 cal, presses a 9-inch bottom with real thickness).",
   "tags": [
     "cheesecake",
     "crust",
@@ -16,7 +16,7 @@
       {
         "componentKey": "k1",
         "order": 1,
-        "instructionText": "Stir the graham crumbs, Splenda, and salt together. Work in the melted butter and egg white until it clumps like wet sand, then press firmly into the bottom of a parchment-lined 9-inch pan — run the parchment up two opposite sides as a sling so you can lift the whole cake out later. Bake at 350F for ~10 min, then cool while you finish the filling."
+        "instructionText": "Toast the oats in a dry pan over medium heat 3-4 min until fragrant, then crush coarse (a few pulses, or bash in a bag) - cracked pieces, NOT flour; flour repacks dense and you lose the height. Stir the graham crumbs, crushed oats, Splenda, and salt together. Work in the melted butter and egg white until it clumps like wet sand, then press into the bottom of a parchment-lined 9-inch pan JUST until it coheres - don't compact it hard; the egg white sets the structure, and a light press is what keeps the extra volume tall. Run the parchment up two opposite sides as a sling. Bake at 350F for ~10 min, then cool while you finish the filling."
       }
     ],
     "slots": [
@@ -59,6 +59,14 @@
           "kind": "raw",
           "libraryIngredientId": "ing-salt"
         }
+      },
+      {
+        "componentKey": "sl-oats",
+        "name": "rolled oats (coarse-crushed)",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-rolled-oats"
+        }
       }
     ],
     "usages": [
@@ -80,7 +88,7 @@
         "componentKey": "u-egg-white",
         "stepKey": "k1",
         "slotKey": "sl-egg-white",
-        "quantityValue": 33,
+        "quantityValue": 45,
         "quantityUnit": "g"
       },
       {
@@ -96,6 +104,13 @@
         "slotKey": "sl-salt",
         "quantityValue": 1,
         "quantityUnit": "pinch"
+      },
+      {
+        "componentKey": "u-oats",
+        "stepKey": "k1",
+        "slotKey": "sl-oats",
+        "quantityValue": 30,
+        "quantityUnit": "g"
       }
     ]
   }
