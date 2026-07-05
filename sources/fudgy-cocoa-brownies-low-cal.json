@@ -6,7 +6,7 @@
   "content": {
     "steps": [
       { "componentKey": "s1", "order": 1, "instructionText": "Whisk the dry ingredients: AP flour, cocoa powder, brown sugar, granulated Splenda, espresso powder, and salt. Break up any brown-sugar lumps. NO leavening - dense on purpose." },
-      { "componentKey": "s2", "order": 2, "instructionText": "Melt the butter and the semi-sweet chocolate chips together (short microwave bursts, stir until smooth), let cool slightly, then whisk in the egg, Greek yogurt, and almond milk until smooth." },
+      { "componentKey": "s2", "order": 2, "instructionText": "Melt the butter and the semi-sweet chocolate chips together (short microwave bursts, stir until smooth), let cool slightly, then whisk in the egg, Greek yogurt, almond milk, and vanilla until smooth." },
       { "componentKey": "s3", "order": 3, "instructionText": "Fold wet into dry until JUST combined - with this little flour there's no gluten to toughen, but don't beat air in; a dense batter bakes a dense brownie. Spread into a small lined pan (mini loaf pan or ~6-inch)." },
       { "componentKey": "s4", "order": 4, "temperature": 350, "timerSeconds": 960, "instructionText": "Bake at 350F for ~16-18 min - with no leavening these will not rise or dome, just set. Pull when the edges are set but a toothpick in the center still comes out with MOIST CRUMBS - a clean toothpick means overbaked. Cool FULLY in the pan (chill 30 min for maximum fudge); cut 4 squares." }
     ],
@@ -21,27 +21,30 @@
       { "componentKey": "sl-egg", "name": "whole egg", "resolution": { "kind": "raw", "libraryIngredientId": "ing-egg-whole" } },
       { "componentKey": "sl-yogurt", "name": "0% Greek yogurt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-greek-yogurt-nonfat" } },
       { "componentKey": "sl-almondmilk", "name": "unsweetened almond milk", "resolution": { "kind": "raw", "libraryIngredientId": "ing-almond-milk-unsweetened" } },
-      { "componentKey": "sl-chips", "name": "semi-sweet chocolate chips", "resolution": { "kind": "raw", "libraryIngredientId": "ing-chocolate-chips-semisweet" } }
+      { "componentKey": "sl-chips", "name": "semi-sweet chocolate chips", "resolution": { "kind": "raw", "libraryIngredientId": "ing-chocolate-chips-semisweet" } },
+      { "componentKey": "sl-vanilla", "name": "vanilla extract", "resolution": { "kind": "raw", "libraryIngredientId": "ing-vanilla-extract" } }
     ],
     "usages": [
       { "componentKey": "u-flour", "stepKey": "s1", "slotKey": "sl-flour", "quantityValue": 31, "quantityUnit": "g" },
       { "componentKey": "u-cocoa", "stepKey": "s1", "slotKey": "sl-cocoa", "quantityValue": 25, "quantityUnit": "g" },
       { "componentKey": "u-brownsugar", "stepKey": "s1", "slotKey": "sl-brownsugar", "quantityValue": 25, "quantityUnit": "g" },
-      { "componentKey": "u-splenda", "stepKey": "s1", "slotKey": "sl-splenda", "quantityValue": 4, "quantityUnit": "tbsp" },
+      { "componentKey": "u-splenda", "stepKey": "s1", "slotKey": "sl-splenda", "quantityValue": 6, "quantityUnit": "tbsp" },
       { "componentKey": "u-espresso", "stepKey": "s1", "slotKey": "sl-espresso", "quantityValue": 1, "quantityUnit": "g" },
       { "componentKey": "u-salt", "stepKey": "s1", "slotKey": "sl-salt", "quantityValue": 0.25, "quantityUnit": "tsp" },
       { "componentKey": "u-butter", "stepKey": "s2", "slotKey": "sl-butter", "quantityValue": 14, "quantityUnit": "g" },
       { "componentKey": "u-egg", "stepKey": "s2", "slotKey": "sl-egg", "quantityValue": 1, "quantityUnit": "each" },
       { "componentKey": "u-yogurt", "stepKey": "s2", "slotKey": "sl-yogurt", "quantityValue": 85, "quantityUnit": "g" },
       { "componentKey": "u-almondmilk", "stepKey": "s2", "slotKey": "sl-almondmilk", "quantityValue": 60, "quantityUnit": "ml" },
-      { "componentKey": "u-chips", "stepKey": "s2", "slotKey": "sl-chips", "quantityValue": 14, "quantityUnit": "g" }
+      { "componentKey": "u-chips", "stepKey": "s2", "slotKey": "sl-chips", "quantityValue": 14, "quantityUnit": "g" },
+      { "componentKey": "u-vanilla", "stepKey": "s2", "slotKey": "sl-vanilla", "quantityValue": 1, "quantityUnit": "tsp" }
     ],
     "notes": [
       { "componentKey": "n1", "kind": "technique", "text": "NO protein powder, on purpose. Whey denaturing in the batter is exactly what made every protein-brownie base bouncy and dry. This base gets dense/fudgy from real fat + low flour instead; don't add a scoop to 'fix' the macros - that recreates the rubber problem. Protein here is ~16g/batch from the egg + yogurt.", "stepKey": "s1" },
       { "componentKey": "n2", "kind": "technique", "text": "Brown sugar is the chew lever - fudgy comes from fat, dense from low flour, but CHEWY comes from dissolved sugar, and molasses adds moisture plus a caramel note against the chocolate. The Splenda tops off sweetness without more calories. If the chew still falls short, shift the ratio toward brown sugar (each extra tbsp ~ +45 cal/batch) before touching anything else.", "stepKey": "s1" },
       { "componentKey": "n3", "kind": "pitfall", "text": "Overbaking is the killer - with only ~31g flour there is no structure to save a dry bake. Pull at moist crumbs on the toothpick, never clean, and let them set as they cool. Fudgy brownies always look slightly underdone hot.", "stepKey": "s4" },
       { "componentKey": "n4", "kind": "note", "text": "Fat runs ~35-40% of calories - deliberate. The batch's ~25g of fat (butter + chips + egg) IS the fudge; this is filed as a lean dessert (high carb, low cal, satiating), not a protein bake." },
-      { "componentKey": "n5", "kind": "technique", "text": "No baking soda, on purpose - lift is the enemy of dense. The yogurt's acidity would have reacted with soda and aerated the crumb; without it the batter sets as a tight fudge slab. Priority for this base is FUDGY + DENSE first, chew second.", "stepKey": "s1" }
+      { "componentKey": "n5", "kind": "technique", "text": "No baking soda, on purpose - lift is the enemy of dense. The yogurt's acidity would have reacted with soda and aerated the crumb; without it the batter sets as a tight fudge slab. Priority for this base is FUDGY + DENSE first, chew second.", "stepKey": "s1" },
+      { "componentKey": "n6", "kind": "technique", "text": "Sweetness in chocolate bakes is masked by cocoa bitterness - this base runs vanilla + extra Splenda to compensate (chocolate desserts need ~20-30% more sweetener than vanilla ones to read equally sweet). Escalation ladder if still not sweet enough: brown sugar 25 -> 38g (+12 cal/brownie), then cocoa 25g -> 20g - not more Splenda.", "stepKey": "s1" }
     ]
   }
 }
