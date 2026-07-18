@@ -1,0 +1,50 @@
+{
+  "name": "Cocoa Fudge Brownies (Baker by Nature)",
+  "description": "Faithful import of Baker by Nature's 'The Best Cocoa Fudge Brownies' - the full-sugar, full-butter indulgent reference brownie, no substitutions. Crackly-top technique: a third of the sugar melts into the hot butter + oil, then the warm fat streams slowly into well-whisked eggs; that dissolved sugar is what bakes the shiny cracked top. Cocoa-only chocolate flavor (plus espresso powder), semi-sweet chips folded in whole. 9x9 pan, cut 16. This is the indulgent yardstick the lean bakes get judged against - macros are what they are (~170g butter, 265g sugar per pan).",
+  "tags": ["brownies", "chocolate", "fudgy", "full-sugar", "reference", "dessert"],
+  "yield": { "amount": 16, "unit": "brownies" },
+  "content": {
+    "steps": [
+      { "componentKey": "s1", "order": 1, "instructionText": "Sift together the flour, baking powder, salt, cocoa powder, and espresso powder. Set aside. Line a 9x9-inch pan with parchment and lightly grease; preheat the oven to 350F." },
+      { "componentKey": "s2", "order": 2, "instructionText": "In a saucepan combine the butter, oil, and 65g (1/3 cup) of the sugar. Heat over medium, stirring frequently, just until the butter melts. Remove from heat." },
+      { "componentKey": "s3", "order": 3, "instructionText": "In a large bowl whisk the eggs, egg yolk, vanilla, and the remaining 200g (1 cup) sugar until well combined." },
+      { "componentKey": "s4", "order": 4, "instructionText": "Slowly pour the warm butter mixture into the egg mixture, adding gradually and whisking constantly until fully combined." },
+      { "componentKey": "s5", "order": 5, "instructionText": "Add the dry ingredients and chocolate chips; fold with a spatula until JUST combined - stop while you still see the slightest trace of dry. Do not over mix. Scrape into the prepared pan and smooth the top." },
+      { "componentKey": "s6", "order": 6, "temperature": 350, "timerSeconds": 1740, "instructionText": "Bake at 350F for 28-30 min, until the edges are firm and the top is shiny and slightly cracked. Pull at 27 min for gooey; 30-32 min for more structure. Cool completely on a rack before slicing 16." }
+    ],
+    "slots": [
+      { "componentKey": "sl-flour", "name": "all-purpose flour", "resolution": { "kind": "raw", "libraryIngredientId": "ing-ap-flour" } },
+      { "componentKey": "sl-bp", "name": "baking powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-baking-powder" } },
+      { "componentKey": "sl-salt", "name": "salt", "resolution": { "kind": "raw", "libraryIngredientId": "ing-salt" } },
+      { "componentKey": "sl-cocoa", "name": "unsweetened cocoa powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-cocoa-powder" } },
+      { "componentKey": "sl-espresso", "name": "espresso powder", "resolution": { "kind": "raw", "libraryIngredientId": "ing-espresso-powder" } },
+      { "componentKey": "sl-butter", "name": "unsalted butter", "resolution": { "kind": "raw", "libraryIngredientId": "ing-butter" } },
+      { "componentKey": "sl-oil", "name": "neutral oil", "resolution": { "kind": "raw", "libraryIngredientId": "ing-vegetable-oil" } },
+      { "componentKey": "sl-sugar", "name": "granulated sugar", "resolution": { "kind": "raw", "libraryIngredientId": "ing-granulated-sugar" } },
+      { "componentKey": "sl-egg", "name": "whole eggs", "resolution": { "kind": "raw", "libraryIngredientId": "ing-egg-whole" } },
+      { "componentKey": "sl-yolk", "name": "egg yolk", "resolution": { "kind": "raw", "libraryIngredientId": "ing-egg-yolk" } },
+      { "componentKey": "sl-vanilla", "name": "vanilla extract", "resolution": { "kind": "raw", "libraryIngredientId": "ing-vanilla-extract" } },
+      { "componentKey": "sl-chips", "name": "semi-sweet chocolate chips", "resolution": { "kind": "raw", "libraryIngredientId": "ing-chocolate-chips-semisweet" } }
+    ],
+    "usages": [
+      { "componentKey": "u-flour", "stepKey": "s1", "slotKey": "sl-flour", "quantityValue": 120, "quantityUnit": "g" },
+      { "componentKey": "u-bp", "stepKey": "s1", "slotKey": "sl-bp", "quantityValue": 0.5, "quantityUnit": "tsp" },
+      { "componentKey": "u-salt", "stepKey": "s1", "slotKey": "sl-salt", "quantityValue": 0.5, "quantityUnit": "tsp" },
+      { "componentKey": "u-cocoa", "stepKey": "s1", "slotKey": "sl-cocoa", "quantityValue": 43, "quantityUnit": "g" },
+      { "componentKey": "u-espresso", "stepKey": "s1", "slotKey": "sl-espresso", "quantityValue": 1, "quantityUnit": "tsp" },
+      { "componentKey": "u-butter", "stepKey": "s2", "slotKey": "sl-butter", "quantityValue": 170, "quantityUnit": "g" },
+      { "componentKey": "u-oil", "stepKey": "s2", "slotKey": "sl-oil", "quantityValue": 2, "quantityUnit": "tbsp" },
+      { "componentKey": "u-sugar-melt", "stepKey": "s2", "slotKey": "sl-sugar", "quantityValue": 65, "quantityUnit": "g" },
+      { "componentKey": "u-egg", "stepKey": "s3", "slotKey": "sl-egg", "quantityValue": 2, "quantityUnit": "each" },
+      { "componentKey": "u-yolk", "stepKey": "s3", "slotKey": "sl-yolk", "quantityValue": 1, "quantityUnit": "each" },
+      { "componentKey": "u-vanilla", "stepKey": "s3", "slotKey": "sl-vanilla", "quantityValue": 2, "quantityUnit": "tsp" },
+      { "componentKey": "u-sugar-eggs", "stepKey": "s3", "slotKey": "sl-sugar", "quantityValue": 200, "quantityUnit": "g" },
+      { "componentKey": "u-chips", "stepKey": "s5", "slotKey": "sl-chips", "quantityValue": 128, "quantityUnit": "g" }
+    ],
+    "notes": [
+      { "componentKey": "n1", "kind": "technique", "text": "The crackly top is engineered in two moves: melting part of the sugar into the hot butter/oil, then streaming that warm fat slowly into thoroughly-whisked eggs. Dissolved sugar migrating to the surface is what bakes shiny and cracked - skip the saucepan step and you get a matte top.", "stepKey": "s2" },
+      { "componentKey": "n2", "kind": "pitfall", "text": "Stop folding when you still see the slightest trace of dry ingredients. Overmixing after the flour goes in toughens the crumb and knocks out the fudge.", "stepKey": "s5" },
+      { "componentKey": "n3", "kind": "note", "text": "Doneness is a dial, not a point: 27 min = gooey, 28-30 = fudgy (edges firm, top shiny/cracked), 30-32 = sliceable structure. Cool COMPLETELY before cutting - warm brownies read underbaked.", "stepKey": "s6" }
+    ]
+  }
+}
