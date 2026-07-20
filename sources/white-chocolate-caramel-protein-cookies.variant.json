@@ -1,0 +1,182 @@
+{
+  "name": "White Chocolate Caramel Protein Cookies",
+  "description": "White chocolate caramel spin on the excellent-rated Browned-Butter Protein Cookies base (same dough: browned butter 15 g, brown sugar 28 g chew, whey 40 g, 3 tall mounds). Mix-ins swap semi-sweet for white chocolate baking chunks (15 g, a couple pressed on top to toast golden) + toffee bits (10 g, folded toward the center for chewy caramel pockets); finished with a zero-cal SF caramel drizzle at serving (the syrup never sets - never drizzle for storage). Also the FIRST xanthan-in-a-cookie test: 1/8 tsp whisked into the dry for bendy chew - gummy or bouncy means the gum comes out; a real chew win graduates it to the other cookie bases. ~253 cal | 16.2P per cookie, ratio ~15.6 (fat ~32% of cals - candy-loaded by design). To-make.",
+  "tags": [
+    "cookie",
+    "protein",
+    "browned-butter",
+    "white-chocolate",
+    "caramel",
+    "toffee"
+  ],
+  "yield": {
+    "amount": 3,
+    "unit": "cookies"
+  },
+  "deriveFromRecipe": "Browned-Butter Protein Cookies",
+  "overrides": [
+    {
+      "op": "replace",
+      "kind": "slot",
+      "target": "sl-choc-chips",
+      "payload": {
+        "componentKey": "sl-choc-chips",
+        "name": "white chocolate baking chunks",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-white-chocolate-chunks"
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "usage",
+      "target": "u-choc-chips",
+      "payload": {
+        "componentKey": "u-choc-chips",
+        "stepKey": "s3",
+        "slotKey": "sl-choc-chips",
+        "quantityValue": 15,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-toffee",
+        "name": "toffee bits",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-toffee-bits"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-toffee",
+        "stepKey": "s3",
+        "slotKey": "sl-toffee",
+        "quantityValue": 10,
+        "quantityUnit": "g"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-xanthan",
+        "name": "xanthan gum",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-xanthan-gum"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-xanthan",
+        "stepKey": "s3",
+        "slotKey": "sl-xanthan",
+        "quantityValue": 0.125,
+        "quantityUnit": "tsp"
+      }
+    },
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-caramel",
+        "name": "sugar-free caramel syrup",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-syrup-caramel-sf"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "step",
+      "payload": {
+        "componentKey": "s9",
+        "order": 9,
+        "instructionText": "Serve: drizzle each cookie with ~1 tsp sugar-free caramel syrup just before eating - microwave the cookie 8-10 sec first for a warm, gooey bite."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-caramel",
+        "stepKey": "s9",
+        "slotKey": "sl-caramel",
+        "quantityValue": 3,
+        "quantityUnit": "tsp"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s3",
+      "payload": {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Whisk the xanthan gum into the whey, flour, and pudding mix while everything is still dry - NEVER straight into the wet, or it pearls into slime beads. Add dry: stir the whey-flour-pudding-xanthan blend, baking soda, and salt into the wet until a thick, scoopable dough forms, then fold in the white chocolate chunks and toffee bits. It should hold its shape, not pour. Too stiff/dry -> a splash of milk; too loose -> a bit more flour. Taste for sweetness."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s5",
+      "payload": {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Shape into 3 tall mounds - do NOT flatten. Press a chunk or two of white chocolate onto the top of each mound for the bakery look; they'll toast golden in the oven."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "n-xg",
+        "kind": "technique",
+        "stepKey": "s3",
+        "text": "First xanthan test in a cookie: 1/8 tsp for the batch, whisked into the dry. It's the chew lever Splenda can't provide - bendy, cohesive, moist instead of crumbly - stacked on the brown sugar's dissolved-sugar chew. Escalation: gummy/slick -> drop it next round; bouncy -> that's the gum stacking with the whey's elasticity, xanthan comes out of cookies. If the chew genuinely improves, it graduates to the other cookie bases. Never exceed 1/4 tsp per batch."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "n-toffee",
+        "kind": "technique",
+        "stepKey": "s3",
+        "text": "Toffee bits that end up at a mound's edge melt out and re-set as brittle caramel lace on the tray - tasty but fragile. Fold them toward the center of the dough so they bake into chewy caramel pockets inside the cookie instead."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "n-wc",
+        "kind": "pitfall",
+        "stepKey": "s6",
+        "text": "White chocolate scorches faster than semi-sweet - the pressed-on chunks should toast golden (a butterscotch bonus), but don't run long; blackened white chocolate turns bitter."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "n-drizzle",
+        "kind": "pitfall",
+        "stepKey": "s9",
+        "text": "The SF caramel syrup is thin and never sets - drizzle at serving only. Drizzled ahead, it soaks in and the cookies go sticky/soggy in storage."
+      }
+    }
+  ]
+}

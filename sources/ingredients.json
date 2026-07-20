@@ -1446,5 +1446,19 @@
       "fat": 5.4,
       "fiber": 3.6
     }
+  },
+  {
+    "id": "ing-white-chocolate-chunks",
+    "name": "white chocolate baking chunks",
+    "macrosPer100g": {
+      "calories": 600,
+      "protein": 6.7,
+      "carbs": 60,
+      "fat": 36.7,
+      "fiber": 0
+    },
+    "unitEquivalences": {
+      "serving": 15
+    }
   }
 ]
