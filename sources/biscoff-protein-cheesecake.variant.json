@@ -1,6 +1,6 @@
 {
   "name": "Biscoff Protein Cheesecake",
-  "description": "Biscoff cookie-butter protein cheesecake, crustless. ~37 g Biscoff goes on top as an unbaked glaze (warmed, poured, self-leveled to a glossy mirror) with a graham-crumb rim; ~18 g is melted into the batter for an all-over biscoff note - never a baked surface swirl (that muddied the look before). The batter also carries a toasted speculoos spice blend (cinnamon + ginger + nutmeg) over the base's proven dairy ratio (light cream cheese 113 g + cottage 57 g + yogurt 240 g + egg white 33 g - same as the excellent-rated Creme Brulee variant) for a dense, creamy set. ~176 cal/slice, ratio ~12.0. To-make.",
+  "description": "Biscoff cookie-butter protein cheesecake, crustless. ~37 g Biscoff goes on top as an unbaked glaze (warmed, poured, self-leveled to a glossy mirror) with a graham-crumb rim; ~18 g is melted into the batter for an all-over biscoff note - never a baked surface swirl (that muddied the look before). The batter also carries a toasted speculoos spice blend (cinnamon + ginger + nutmeg) over the base's dairy ratio (light cream cheese 113 g + cottage 150 g + yogurt 150 g + egg white 33 g) for a dense, creamy set. Stabilizer setup: xanthan gum 1/4 tsp (replaced the AP flour - same water-management at zero calories) + SF pudding mix; the set itself comes from the eggs + whey. ~171 cal/slice, ratio ~11.6. To-make.",
   "tags": [
     "cheesecake",
     "protein",
@@ -269,6 +269,79 @@
       "op": "remove",
       "kind": "note",
       "target": "n-batter-thin"
+    },
+    {
+      "op": "remove",
+      "kind": "usage",
+      "target": "u-flour"
+    },
+    {
+      "op": "remove",
+      "kind": "slot",
+      "target": "sl-flour"
+    },
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-xanthan",
+        "name": "xanthan gum",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-xanthan-gum"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-xanthan",
+        "stepKey": "s3",
+        "slotKey": "sl-xanthan",
+        "quantityValue": 0.25,
+        "quantityUnit": "tsp"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s3",
+      "payload": {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Whisk the xanthan gum into the protein powder and Splenda while everything is still dry - NEVER straight into liquid, or it pearls into slime beads. Beat the light cream cheese alone until smooth, then add the yogurt, blended cottage cheese, the protein-Splenda-xanthan blend, vanilla, lemon, the 18 g batter Biscoff (warmed until loose), the toasted cinnamon (toast it in a dry pan 30-60 sec until fragrant first), a pinch each of ground ginger and nutmeg, and the vanilla pudding mix. Mix just until combined - don't overwork it; the batter will run noticeably thicker than before. Warm the bowl ~15 sec if it clumps."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s5",
+      "payload": {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter firmly and longer than feels necessary - the xanthan-thickened batter traps air, and bubbles that don't escape bake in permanently."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "c13",
+        "kind": "technique",
+        "stepKey": "s3",
+        "text": "Xanthan (1/4 tsp) replaces the AP flour - the same water-management job at zero calories, and gum silks where starch dulls. It must be whisked into the protein powder + Splenda dry. The pudding mix stays: its gums carry the vanilla flavor and the proven track record. Escalation: if the bake reads slick/pudding-cup, halve the xanthan to 1/8 tsp next round before touching the pudding mix; if it reads bouncy, that's whey stacking with the gum - xanthan comes back out of this recipe."
+      }
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "c14",
+        "kind": "pitfall",
+        "stepKey": "s6",
+        "text": "Xanthan holds water, so the center wobble reads looser at the same internal temp - trust the 155-160F thermometer cue over your eye, or you'll chase firmness and overbake it."
+      }
     }
   ]
 }
