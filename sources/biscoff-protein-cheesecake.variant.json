@@ -1,6 +1,6 @@
 {
   "name": "Biscoff Protein Cheesecake",
-  "description": "Biscoff cookie-butter protein cheesecake, crustless. ~37 g Biscoff goes on top as an unbaked glaze (warmed, poured, self-leveled to a glossy mirror) with a graham-crumb rim; ~18 g is melted into the batter for an all-over biscoff note - never a baked surface swirl (that muddied the look before). The batter also carries a toasted speculoos spice blend (cinnamon + ginger + nutmeg) over the base's dairy ratio (light cream cheese 113 g + cottage 150 g + yogurt 150 g + egg white 33 g) for a dense, creamy set. Stabilizer setup: xanthan gum 1/4 tsp (replaced the AP flour - same water-management at zero calories) + SF pudding mix; the set itself comes from the eggs + whey. ~171 cal/slice, ratio ~11.6. To-make.",
+  "description": "Biscoff cookie-butter protein cheesecake, crustless. ~37 g Biscoff goes on top as an unbaked glaze (warmed, poured, self-leveled to a glossy mirror) with a graham-crumb rim; ~18 g is melted into the batter for an all-over biscoff note - never a baked surface swirl (that muddied the look before). The batter also carries a toasted speculoos spice blend (cinnamon + ginger + nutmeg) over the base's dairy ratio (light cream cheese 113 g + cottage 150 g + yogurt 150 g + egg white 33 g) for a dense, creamy set. Stabilizer setup: 2 tbsp AP flour + SF pudding mix (xanthan gum was tested in the flour's place and baked too gummy - reverted); the set itself comes from the eggs + whey. ~178 cal/slice, ratio ~11.9. To-make.",
   "tags": [
     "cheesecake",
     "protein",
@@ -341,6 +341,79 @@
         "kind": "pitfall",
         "stepKey": "s6",
         "text": "Xanthan holds water, so the center wobble reads looser at the same internal temp - trust the 155-160F thermometer cue over your eye, or you'll chase firmness and overbake it."
+      }
+    },
+    {
+      "op": "remove",
+      "kind": "usage",
+      "target": "u-xanthan"
+    },
+    {
+      "op": "remove",
+      "kind": "slot",
+      "target": "sl-xanthan"
+    },
+    {
+      "op": "add",
+      "kind": "slot",
+      "payload": {
+        "componentKey": "sl-flour",
+        "name": "all-purpose flour",
+        "resolution": {
+          "kind": "raw",
+          "libraryIngredientId": "ing-ap-flour"
+        }
+      }
+    },
+    {
+      "op": "add",
+      "kind": "usage",
+      "payload": {
+        "componentKey": "u-flour",
+        "stepKey": "s3",
+        "slotKey": "sl-flour",
+        "quantityValue": 2,
+        "quantityUnit": "tbsp"
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s3",
+      "payload": {
+        "componentKey": "s3",
+        "order": 3,
+        "instructionText": "Beat the light cream cheese alone until smooth, then add the yogurt, blended cottage cheese, protein powder, sweetener, vanilla, lemon, the 18 g batter Biscoff (warmed until loose), the toasted cinnamon (toast it in a dry pan 30-60 sec until fragrant first), a pinch each of ground ginger and nutmeg, and the vanilla pudding mix. Sift/whisk in the AP flour smooth (no lumps) and mix just until combined - don't overwork it. Warm the bowl ~15 sec if it clumps."
+      }
+    },
+    {
+      "op": "replace",
+      "kind": "step",
+      "target": "s5",
+      "payload": {
+        "componentKey": "s5",
+        "order": 5,
+        "instructionText": "Pour into a parchment-lined 9-inch pan. Tap on the counter to level and pop bubbles."
+      }
+    },
+    {
+      "op": "remove",
+      "kind": "note",
+      "target": "c13"
+    },
+    {
+      "op": "remove",
+      "kind": "note",
+      "target": "c14"
+    },
+    {
+      "op": "add",
+      "kind": "note",
+      "payload": {
+        "componentKey": "c15",
+        "kind": "note",
+        "stepKey": "s3",
+        "text": "Xanthan gum was tested here (1/4 tsp replacing the AP flour) and taken back out: it baked too gummy. The SF pudding mix already brings gums, and xanthan stacked on top oversets the custard toward pudding-cup. The 2 tbsp AP flour is back as the water manager - starch dulls where gum slicks, and in a custard that softer set is the point. Don't re-add xanthan to this (or any pudding-mix) cheesecake batter."
       }
     }
   ]
